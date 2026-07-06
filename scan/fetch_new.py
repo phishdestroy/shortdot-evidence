@@ -79,6 +79,10 @@ for tld in TLD_LIST:
         domain   = row[0].strip().lower()
         rank     = row[1].strip() if len(row) > 1 else ''
         hostname = row[4].strip() if len(row) > 4 else ''
+        email    = row[5].strip() if len(row) > 5 else ''
+        phone    = row[6].strip() if len(row) > 6 else ''
+        server_ip= row[7].strip() if len(row) > 7 else ''
+        country  = row[8].strip() if len(row) > 8 else ''
 
         if not domain or '.' not in domain:
             continue
@@ -88,12 +92,12 @@ for tld in TLD_LIST:
 
         record = {
             'd': domain,
-            'e': '',      # expiry not available from this endpoint
+            'e': '',
             'r': rank,
-            'm': '',      # email not available
-            'p': '',      # phone not available
-            'i': hostname,  # resolved hostname as deployment proxy
-            'c': '',      # country not available
+            'm': email,
+            'p': phone,
+            'i': server_ip or hostname,
+            'c': country,
         }
         by_date[TODAY].append(record)
         all_domains.add(domain)
