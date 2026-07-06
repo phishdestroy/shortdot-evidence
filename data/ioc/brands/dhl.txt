@@ -175,7 +175,6 @@ dhl-ie.cfd
 dhl-ie.qpon
 dhl-ie.sbs
 dhl-international-shipping.cfd
-dhl-iqen.icu
 dhl-iv.cfd
 dhl-jo.cfd
 dhl-kosten.icu

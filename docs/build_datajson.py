@@ -164,7 +164,7 @@ def main():
             for item in _top:
                 _cat_totals[item["category"]] = _cat_totals.get(item["category"], 0) + item["count"]
             brand_summary = {
-                "total_brand_domains": sum(_hmap.values()) or sum(
+                "total_brand_domains": bd.get("total_brand_domains") or sum(_hmap.values()) or sum(
                     len(v) for v in kw_data.values() if isinstance(v, list)),
                 "categories": _cat_totals,
                 "top_brands": _top[:30],

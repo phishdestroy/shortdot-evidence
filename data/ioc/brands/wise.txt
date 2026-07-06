@@ -1644,6 +1644,7 @@ wisecoursecircle.qpon
 wisecourseconnection.cyou
 wisecoursecorps.cyou
 wisecoursedirections.sbs
+wisecoursedirective.cyou
 wisecourseenclave.sbs
 wisecourseguide.sbs
 wisecoursehub.sbs
@@ -1814,6 +1815,7 @@ wiseinteract.sbs
 wiseinteriorconcepts.qpon
 wiseinteriorsolutions.icu
 wiseinteriorstyle.cyou
+wiseinvest.cfd
 wiseinvestgrowth.sbs
 wiseinvestguides.cyou
 wiseinvesting.icu

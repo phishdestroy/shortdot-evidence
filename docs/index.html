@@ -456,7 +456,7 @@ h1 strong::before{content:"Zone Abuse Evidence — Registry Level";position:abso
   <div class="cc v"><div class="n" id="c-brand-ioc">—</div><div class="l">Brand IOC</div></div>
   <div class="cc g"><div class="n" id="c-legit">0</div><div class="l">Verified Legit</div></div>
   <div class="cc"><div class="n" id="c-total-ioc" style="color:var(--tx3)">—</div><div class="l">Total IOC</div></div>
-  <div class="cc c"><div class="n">25,966</div><div class="l">Brand Zone Scan</div></div>
+  <div class="cc c"><div class="n" id="c-brand-scan">25,966</div><div class="l">Brand Zone Scan</div></div>
   <div class="cc c"><div class="n">6.2M</div><div class="l">Total Zone Domains</div></div>
 </div>
 
@@ -1361,6 +1361,7 @@ fetch('data.json').then(function(r){return r.json();}).then(function(d){
   buildHighTable(d.domains||[]);
   buildClusters(d.clusters||[]);
   if(d.brand && d.brand.top_brands) buildBrandGrid(d.brand.top_brands);
+  if(d.brand && d.brand.total_brand_domains) setText('c-brand-scan', Number(d.brand.total_brand_domains).toLocaleString());
   buildDailyFeed(d.daily||[]);
   _cd=d; _buildChart();
 

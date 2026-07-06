@@ -318,7 +318,6 @@ usps-com.cfd
 usps-com.cyou
 usps-com.icu
 usps-com.qpon
-usps-com.sbs
 usps-coya.cfd
 usps-delivery.sbs
 usps-df.cfd
@@ -429,7 +428,6 @@ usps-post.qpon
 usps-postal.sbs
 usps-postea.sbs
 usps-posts.cyou
-usps-posts.icu
 usps-pp-st.sbs
 usps-pr.cfd
 usps-pr.sbs
@@ -948,7 +946,6 @@ uspsproperties.cfd
 uspsproperties.icu
 uspsproperties.sbs
 uspsps.cfd
-uspsps.icu
 uspspsp.cyou
 uspsq.cyou
 uspsqup.icu
@@ -1048,8 +1045,6 @@ uspssji.cfd
 uspsslnfo.cfd
 uspssoftware.icu
 uspssps.sbs
-uspsst.cfd
-uspsst.sbs
 uspssups.icu
 uspssusa.sbs
 uspsszc.icu
@@ -1069,6 +1064,7 @@ uspsteam.sbs
 uspstf-colon-cancer-screening.cfd
 uspstf-lung-cancer-screening.cfd
 uspstf-lung-cancer-screening.sbs
+uspstm.bond
 uspstm.cfd
 uspstm.sbs
 uspstn.sbs
@@ -1136,9 +1132,7 @@ uspsz.cfd
 uspsz.sbs
 uspszukdba.buzz
 uspszxcnb.cfd
-usr-usps-com.icu
 ususps.sbs
-usx-usps-com.icu
 verified-usps.sbs
 verified1-usps.sbs
 xsuspsps.bond

@@ -48,8 +48,6 @@ airdrop-trx.sbs
 airdrop-usdt.sbs
 airdrop-zen.icu
 airdrop.qpon
-airdrop2ethe.icu
-airdrop2ethe.sbs
 airdropalert.cfd
 airdropalert.cyou
 airdropalert.icu
@@ -111,6 +109,7 @@ airdropmon.icu
 airdropnews.icu
 airdropnotcoin.sbs
 airdropor.icu
+airdropper.icu
 airdropripple.icu
 airdroprush.sbs
 airdrops-checker.sbs

@@ -46,6 +46,7 @@ amazon-japan.bond
 amazon-jp.bond
 amazon-jp.icu
 amazon-loyalty-agreement.sbs
+amazon-mx.sbs
 amazon-nederland-deals-zsu.cyou
 amazon-news.cfd
 amazon-ofertas-hoy-cjo.cyou
@@ -321,7 +322,6 @@ amazono.icu
 amazonoeksul.icu
 amazonoff.icu
 amazonoi.cfd
-amazonoi.icu
 amazononline.cfd
 amazononline.icu
 amazonorg.cyou
@@ -477,6 +477,7 @@ de-amazon.buzz
 devoluciones-amazon-uxk.cyou
 dl-amazon.sbs
 doramazone.icu
+eserviceamazonterm.sbs
 evri-amazon.bond
 excerptbracketamazon38.sbs
 factura-amazon-es.cfd

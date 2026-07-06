@@ -7,6 +7,7 @@
 552412214-apple-ipad-pro-11-m4-256gb.sbs
 6152561-oferta-apple-watch-ultra-3-49mm.sbs
 69apple.cyou
+69apple.icu
 73264877102-apple-watch-series-11-gps-cellular.sbs
 911apple.icu
 928612931-apple-imac-pro-space-gray.cfd
@@ -380,6 +381,7 @@ appleid-cloud-services.sbs
 appleid-server.cfd
 appleid-server.cyou
 appleid-server.sbs
+appleid.qpon
 appleid808278.cfd
 appleidjpa.cyou
 appleids-com.cyou
