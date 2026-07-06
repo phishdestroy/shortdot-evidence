@@ -228,13 +228,25 @@ serial_email_count = sum(1 for c in email_counts.values() if c >= 5)
 # ── Brand keyword heatmap ─────────────────────────────────────────────────────
 # Extra finance/crypto keywords relevant to ShortDot zone abuse
 BRAND_KEYWORDS = [
+    # Crypto wallets & protocols
     'metamask','coinbase','binance','wallet','defi','airdrop','claim','bitcoin',
     'ethereum','crypto','token','nft','web3','ledger','trezor','uniswap','opensea',
     'kraken','kucoin','bybit','okx','huobi','trust','phantom','solana','polygon',
     'arbitrum','optimism','swap','bridge','staking','yield','vault','farm','mint',
+    'solflare','tron','bnb','avax','base','sui','near','dydx','blur','zksync',
+    'raydium','jupiter','lido','curve','compound','aave',
+    # Phishing action patterns (substring matches *-login, *-support, claim-*, etc.)
     'connect','secure','support','login','verify','account','update','official',
+    'recover','recovery','unlock','restore','activate','suspended','alert','urgent',
+    'presale','giveaway','reward','bonus','portal','helpdesk','customer','service',
+    'signin','signup','claimable','airdropping','freetoken',
+    # Finance & banking
     'chase','bofa','citi','wells','paypal','stripe','amex','visa','mastercard',
+    'robinhood','schwab','fidelity','etrade','bank','banking','exchange',
     'investment','trading','profit','income','forex','cfd','fund','capital',
+    # Big tech (impersonation targets)
+    'google','apple','microsoft','amazon','netflix','facebook','instagram',
+    'tiktok','telegram','whatsapp','twitter','discord',
 ]
 keyword_counts = Counter()
 for domain in all_domains:
@@ -243,7 +255,7 @@ for domain in all_domains:
         if kw in label:
             keyword_counts[kw] += 1
 
-brand_heatmap = dict(keyword_counts.most_common(20))
+brand_heatmap = dict(keyword_counts.most_common(30))
 
 # ── Legitimate use survey — load existing verified list ───────────────────────
 legit_path = Path('case/LEGITIMATE_SURVEY.md')
