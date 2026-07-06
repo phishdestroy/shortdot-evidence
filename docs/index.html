@@ -738,6 +738,141 @@ footer a{color:var(--cy)}
   </div>
 </div>
 
+<div class="sec" id="exploit-simulator"><h2>Live Simulation: The Phantom Exploit</h2><div class="ln"></div></div>
+<p class="sec-sub">Observing theoretical metric manipulation. While the global domain market stagnates and ICANN raises fees, a hypothetical entity can exploit bulk wholesale pricing (paying essentially just the $0.18 ICANN fee) to mass-generate phantom domains. This creates an illusion of explosive corporate growth and dilutes severe abuse ratios.</p>
+
+<div class="sim-container">
+  <div class="sim-pipeline">
+    <div class="pipeline-header"><span class="pulsing-dot"></span> LIVE INJECTION FEED</div>
+    <div class="feed-headers"><span>PHANTOM ASSET</span><span style="text-align:center">WHOLESALE COST</span><span style="text-align:right">PAPER VALUE</span></div>
+    <div class="feed-window" id="phantom-feed"></div>
+    <div class="pipeline-footer">PROCESSING RATE: <span style="color:#00e5ff">1,000 domains / tick</span></div>
+  </div>
+  <div class="sim-metrics">
+    <div class="metric-card paradox-card">
+      <div class="m-title">THE MARKET PARADOX</div>
+      <div class="paradox-grid">
+        <div class="p-col"><span class="p-lbl">GLOBAL INDUSTRY TREND</span><span class="p-val decline">▼ -2.4%</span><span class="p-sub">Stagnant / ICANN Fees Rising</span></div>
+        <div class="p-col"><span class="p-lbl">REPORTED PORTFOLIO GROWTH</span><span class="p-val pump" id="sim-growth-pct">▲ +0%</span><span class="p-sub">Driven by Phantom Injections</span></div>
+      </div>
+    </div>
+    <div class="metric-card">
+      <div class="m-title">THEORETICAL VALUATION INFLATION (AUM PUMP)</div>
+      <div class="m-row"><span class="m-label">ACTUAL SPEND <span style="color:#8b949e;font-size:9px">(~$0.18 ICANN + $0.12 Reg)</span></span><span class="m-value cost-color" id="sim-cost">$0</span></div>
+      <div class="m-row"><span class="m-label">REPORTED REVENUE/AUM <span style="color:#8b949e;font-size:9px">(Retail $19.49)</span></span><span class="m-value paper-color" id="sim-revenue">$0</span></div>
+      <div class="m-spread">MULTIPLIER EFFECT: <span id="sim-multiplier">1x</span> (Asset value inflated by <span id="sim-spread">$0</span>)</div>
+    </div>
+    <div class="metric-card">
+      <div class="m-title">STATISTICAL SMOKESCREEN (ABUSE DILUTION)</div>
+      <div class="m-row"><span class="m-label">CONFIRMED ABUSE DOMAINS</span><span class="m-value" style="color:#ff0055">22,000</span></div>
+      <div class="m-row"><span class="m-label">TOTAL DOMAINS IN ECOSYSTEM</span><span class="m-value" id="sim-total-domains">22,000</span></div>
+      <div class="ratio-visual">
+        <div class="ratio-text">"DIRTY RATIO": <span id="sim-ratio" style="color:#ff0055;font-size:24px">100.00%</span></div>
+        <div class="ratio-bar-container"><div class="ratio-bar-fill" id="sim-ratio-bar" style="width:100%"></div></div>
+        <div class="ratio-desc" id="sim-ratio-desc">"SEVERE REGULATORY RISK"</div>
+      </div>
+    </div>
+    <button id="start-sim-btn" class="sim-btn">▶ INITIALIZE EXPLOIT SIMULATION</button>
+  </div>
+</div>
+
+<style>
+.sim-container{display:flex;gap:20px;background:#0d1117;border:1px solid #30363d;border-radius:8px;padding:20px;margin-bottom:12px}
+.sim-pipeline{flex:1;background:#050a0f;border:1px solid #1a2332;border-radius:6px;display:flex;flex-direction:column;overflow:hidden}
+.pipeline-header{background:#161b22;padding:10px 15px;font-size:12px;font-weight:bold;color:#c9d1d9;border-bottom:1px solid #30363d;display:flex;align-items:center;gap:10px;font-family:'JetBrains Mono',monospace}
+.pulsing-dot{width:8px;height:8px;background:#00ff66;border-radius:50%;box-shadow:0 0 8px #00ff66;animation:plspulse 1s infinite alternate}
+@keyframes plspulse{from{opacity:.4}to{opacity:1}}
+.feed-headers{display:grid;grid-template-columns:2fr 1.5fr 1fr;padding:8px 15px;font-size:10px;color:#8b949e;background:#0d1117;border-bottom:1px dashed #30363d;font-family:'JetBrains Mono',monospace}
+.feed-window{height:420px;overflow:hidden;padding:10px}
+.feed-row{display:grid;grid-template-columns:2fr 1.5fr 1fr;align-items:center;font-size:11px;padding:8px 10px;background:rgba(22,27,34,.6);border:1px solid #30363d;border-radius:4px;margin-bottom:8px;animation:sfeedslide .3s ease-out forwards;opacity:0;transform:translateY(-20px);font-family:'JetBrains Mono',monospace}
+@keyframes sfeedslide{to{opacity:1;transform:translateY(0)}}
+.f-domain{color:#8b949e;word-break:break-all}
+.f-cost{color:#f85149;text-align:center}
+.f-paper{color:#3fb950;font-weight:bold;text-align:right}
+.pipeline-footer{background:#161b22;padding:8px 15px;font-size:10px;color:#8b949e;border-top:1px solid #30363d;text-align:right;font-family:'JetBrains Mono',monospace}
+.sim-metrics{flex:1.2;display:flex;flex-direction:column;gap:15px}
+.metric-card{background:#161b22;border:1px solid #30363d;border-radius:6px;padding:15px 20px}
+.paradox-card{background:rgba(22,27,34,.8);border-color:#484f58}
+.m-title{font-size:12px;font-weight:bold;color:#c9d1d9;margin-bottom:12px;border-bottom:1px dashed #484f58;padding-bottom:8px;font-family:'JetBrains Mono',monospace;letter-spacing:.05em}
+.paradox-grid{display:flex;gap:15px}
+.p-col{flex:1;display:flex;flex-direction:column;background:#0d1117;padding:10px;border-radius:4px;border:1px solid #30363d;text-align:center}
+.p-lbl{font-size:9px;color:#8b949e;margin-bottom:5px;font-family:'JetBrains Mono',monospace}
+.p-val{font-size:18px;font-weight:bold}
+.p-sub{font-size:9px;color:#484f58;margin-top:2px;font-family:'JetBrains Mono',monospace}
+.decline{color:#f85149}
+.pump{color:#00e5ff;text-shadow:0 0 8px rgba(0,229,255,.3);transition:color .3s}
+.m-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.m-label{font-size:11px;color:#8b949e;font-family:'JetBrains Mono',monospace}
+.m-value{font-size:16px;font-weight:bold;font-variant-numeric:tabular-nums}
+.cost-color{color:#f85149}
+.paper-color{color:#3fb950;text-shadow:0 0 10px rgba(63,185,80,.2)}
+.m-spread{margin-top:12px;padding:8px;background:rgba(210,153,34,.1);border:1px dashed #d29922;border-radius:4px;text-align:center;font-size:11px;color:#d29922;font-weight:bold;font-family:'JetBrains Mono',monospace}
+.ratio-visual{margin-top:15px;background:#050a0f;padding:12px;border-radius:4px;border:1px solid #1a2332;text-align:center}
+.ratio-text{font-size:12px;color:#c9d1d9;font-family:'JetBrains Mono',monospace}
+.ratio-bar-container{height:6px;background:#30363d;border-radius:3px;margin:8px 0;overflow:hidden}
+.ratio-bar-fill{height:100%;background:#ff0055;transition:width .1s linear,background-color .3s}
+.ratio-desc{font-size:10px;color:#8b949e;letter-spacing:1px;font-family:'JetBrains Mono',monospace}
+.sim-btn{background:#238636;color:#fff;border:1px solid #2ea043;padding:12px;border-radius:6px;font-size:13px;font-weight:bold;cursor:pointer;font-family:inherit;transition:all .2s;width:100%}
+.sim-btn:hover{background:#2ea043}
+.sim-btn:disabled{background:#1a2332;border-color:#30363d;color:#484f58;cursor:not-allowed}
+@media(max-width:900px){.sim-container{flex-direction:column}.feed-window{height:250px}}
+</style>
+
+<script>
+(function(){
+var btn=document.getElementById('start-sim-btn');
+var feedWindow=document.getElementById('phantom-feed');
+var elCost=document.getElementById('sim-cost');
+var elRev=document.getElementById('sim-revenue');
+var elSpread=document.getElementById('sim-spread');
+var elMultiplier=document.getElementById('sim-multiplier');
+var elGrowth=document.getElementById('sim-growth-pct');
+var elTotalDom=document.getElementById('sim-total-domains');
+var elRatio=document.getElementById('sim-ratio');
+var elRatioBar=document.getElementById('sim-ratio-bar');
+var elRatioDesc=document.getElementById('sim-ratio-desc');
+var MALICIOUS=22000,TARGET=5180000,CHUNK=65000;
+var RAW=0.30,PAPER=19.49,MULT=(PAPER/RAW).toFixed(1);
+var tlds=['.sbs','.cfd','.bond','.cyou','.buzz','.icu'];
+var monFmt=new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0});
+var numFmt=new Intl.NumberFormat('en-US');
+var cur=MALICIOUS,iv=null;
+function rnd(){return Math.random().toString(36).substring(2,10)+Math.random().toString(36).substring(2,6);}
+function upd(total){
+  var ph=total-MALICIOUS;
+  elCost.innerText=monFmt.format(ph*RAW);
+  elRev.innerText=monFmt.format(ph*PAPER);
+  elSpread.innerText=monFmt.format(ph*(PAPER-RAW));
+  elMultiplier.innerText=MULT+'x';
+  elGrowth.innerText='▲ +'+numFmt.format(Math.floor((total/MALICIOUS*100)-100))+'%';
+  elTotalDom.innerText=numFmt.format(total);
+  var r=MALICIOUS/total*100;
+  elRatio.innerText=r.toFixed(2)+'%';
+  elRatioBar.style.width=Math.max(r,0.5)+'%';
+  if(r>50){elRatio.style.color='#ff0055';elRatioBar.style.background='#ff0055';elRatioDesc.innerText='"SEVERE REGULATORY RISK"';}
+  else if(r>10){elRatio.style.color='#f0883e';elRatioBar.style.background='#f0883e';elRatioDesc.innerText='"SUSPICIOUS VOLUME"';}
+  else if(r>2){elRatio.style.color='#d29922';elRatioBar.style.background='#d29922';elRatioDesc.innerText='"ACCEPTABLE NOISE"';}
+  else{elRatio.style.color='#3fb950';elRatioBar.style.background='#3fb950';elRatioDesc.innerText='"STATISTICAL CAMOUFLAGE ACHIEVED"';}
+}
+function addRow(){
+  var row=document.createElement('div');row.className='feed-row';
+  var tld=tlds[Math.floor(Math.random()*tlds.length)];
+  row.innerHTML='<span class="f-domain">'+rnd()+tld+'</span><span class="f-cost">~$0.30<br><span style="font-size:8px;color:#8b949e">($0.18 ICANN)</span></span><span class="f-paper">$19.49</span>';
+  feedWindow.prepend(row);
+  if(feedWindow.children.length>9)feedWindow.removeChild(feedWindow.lastChild);
+}
+if(btn)btn.addEventListener('click',function(){
+  btn.disabled=true;btn.innerText='EXPLOIT RUNNING... INJECTING PHANTOMS';
+  cur=MALICIOUS;feedWindow.innerHTML='';
+  iv=setInterval(function(){
+    cur+=CHUNK;
+    if(cur>=TARGET){cur=TARGET;clearInterval(iv);btn.innerText='SIMULATION COMPLETE';}
+    upd(cur);addRow();
+  },80);
+});
+})();
+</script>
+
 <script>
 (function(){
 var SS=[
@@ -769,11 +904,7 @@ setSS(0);
 })();
 </script>
 
-<div class="sec"><h2>IP Clusters</h2><div class="ln"></div></div>
-<p class="sec-sub">Shared IPs extracted from zone data — coordinated bulk hosting infrastructure. Populated automatically from <code style="font-family:'JetBrains Mono',monospace;font-size:10px;padding:1px 4px;background:rgba(255,255,255,.05);border-radius:2px">data/ioc/shared_ips.json</code> on each daily fetch.</p>
-<div class="clg" id="clusters">
-  <div class="clcard" style="grid-column:1/-1"><div class="clhdr" style="justify-content:center"><span class="clfp" style="color:var(--tx3)">Populates after first daily fetch run — data pulled directly from ICANN gTLD zone records.</span></div></div>
-</div>
+<div class="clg" id="clusters" style="display:none"></div>
 
 </div>
 
@@ -1178,8 +1309,8 @@ function buildDailyFeed(days){
   tbody.innerHTML=days.slice(0,30).map(function(d){
     var rev=d.revenue_wholesale?'$'+Number(d.revenue_wholesale).toLocaleString(undefined,{minimumFractionDigits:0,maximumFractionDigits:0}):'—';
     var icann=d.icann_fees?'$'+Number(d.icann_fees).toLocaleString(undefined,{minimumFractionDigits:0,maximumFractionDigits:0}):'—';
-    var path=d.path||('data/new/'+esc(d.date||'').slice(0,4)+'/'+esc(d.date||'').slice(5,7)+'/'+esc(d.date||'')+'.txt');
-    var dlLink=path?'<a href="../'+esc(path)+'" style="color:var(--cy);font-family:\'JetBrains Mono\',monospace;font-size:10px">'+esc(d.date||'')+'.txt ↓</a>':'—';
+    var path=d.path||'';
+    var dlLink=path?'<a href="../'+esc(path)+'" style="color:var(--cy);font-family:\'JetBrains Mono\',monospace;font-size:10px">'+esc(d.date||'')+'.txt ↓</a>':'<a href="../data/by_tld/" style="color:var(--tx3);font-family:\'JetBrains Mono\',monospace;font-size:10px">by TLD ↓</a>';
     return '<tr>'
       +'<td class="dom">'+esc(d.date||'')+'</td>'
       +'<td style="color:var(--rd);font-weight:700">'+Number(d.count||0).toLocaleString()+'</td>'
