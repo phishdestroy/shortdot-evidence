@@ -1,0 +1,84 @@
+{
+  "generated": "2026-07-04",
+  "source": "local_evidence_aggregation",
+  "namesilo": {
+    "total": 784392,
+    "note": "NameSilo portfolio extract \u2014 ShortDot TLD domains only",
+    "by_tld": {
+      "icu": 65952,
+      "sbs": 377249,
+      "cfd": 227442,
+      "cyou": 59784,
+      "qpon": 6150,
+      "buzz": 39454,
+      "bond": 8361
+    },
+    "pct_of_zone": {
+      "sbs": 19.7,
+      "cfd": 23.9,
+      "icu": 6.8,
+      "cyou": 7.9,
+      "bond": 0.6,
+      "buzz": 19.0,
+      "qpon": 5.6
+    }
+  },
+  "http_scan": {
+    "source": "pg_global_scan.csv \u2014 FBI PrivacyGuardian v2 dataset",
+    "by_tld": {
+      "cfd": {
+        "scanned": 107532,
+        "live_200": 24033,
+        "pct_live": 22.3
+      },
+      "cyou": {
+        "scanned": 28096,
+        "live_200": 18760,
+        "pct_live": 66.8
+      },
+      "sbs": {
+        "scanned": 176837,
+        "live_200": 40345,
+        "pct_live": 22.8
+      },
+      "icu": {
+        "scanned": 31738,
+        "live_200": 4533,
+        "pct_live": 14.3
+      },
+      "buzz": {
+        "scanned": 22029,
+        "live_200": 7060,
+        "pct_live": 32.0
+      },
+      "bond": {
+        "scanned": 0,
+        "live_200": 0,
+        "pct_live": 0
+      },
+      "qpon": {
+        "scanned": 0,
+        "live_200": 0,
+        "pct_live": 0
+      }
+    }
+  },
+  "risk_scores": {
+    "cfd": 953,
+    "cyou": 214,
+    "sbs": 1040,
+    "icu": 1173,
+    "buzz": 94,
+    "bond": 177,
+    "qpon": 43
+  },
+  "local_unique_domains": {
+    "sbs": 474805,
+    "cfd": 359387,
+    "icu": 118704,
+    "cyou": 93719,
+    "buzz": 82474,
+    "bond": 25390,
+    "qpon": 9985
+  }
+}

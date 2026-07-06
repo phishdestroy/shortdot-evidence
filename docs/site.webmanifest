@@ -1,0 +1,9 @@
+{
+  "name": "ShortDot SA Zone Evidence",
+  "short_name": "ShortDot Evidence",
+  "description": "PhishDestroy investigation into .icu .bond .cyou .sbs .cfd .buzz .qpon zone abuse",
+  "start_url": "/shortdot-evidence/",
+  "display": "browser",
+  "background_color": "#000000",
+  "theme_color": "#0c1018"
+}

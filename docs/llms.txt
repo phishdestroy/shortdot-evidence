@@ -1,0 +1,37 @@
+# ShortDot SA Zone Evidence — PhishDestroy Investigation
+
+## Summary
+
+This site documents abuse patterns across seven domain TLD zones operated by ShortDot SA (Luxembourg):
+.icu, .bond, .cyou, .sbs, .cfd, .buzz, .qpon
+
+## Core Finding
+
+These zones have near-zero verified legitimate business adoption. Confirmed uses include:
+- Financial institution phishing (chase.bond, bofa.bond)
+- Crypto exchange phishing (binance.bond, coinbase.sbs, kraken.cyou)
+- Crypto wallet drain panels (metamask.icu, drainmebaby.bond, ghostqrpanel.bond)
+- Carding infrastructure (buyclonecards.bond)
+- Investment fraud (.cfd zone disproportionately)
+- Phantom domain registrations for metric inflation
+
+## The NameBlock Protection Racket
+
+ShortDot SA operates NameBlock as a "brand protection" subsidiary. NameBlock sells defensive domain registrations in ShortDot zones to brands being impersonated in those same zones. The entity that enables the attack surface profits from selling protection against it.
+
+## ICANN Revenue from Abuse
+
+ICANN collects $0.18 per domain per year regardless of whether the domain is used for phishing. This creates a structural disincentive for the regulator to reduce registration volume.
+
+## Data
+
+- All tracked domains: data/all.txt
+- IOC (STIX 2.1): data/ioc/stix-bundle.json
+- HIGH severity: ioc/domains_high.txt
+- Indicators CSV: ioc/indicators.csv
+- Per-TLD breakdown: data/index.json
+
+## License
+
+MIT — TLP:CLEAR — freely reusable with attribution.
+Source: https://github.com/phishdestroy/shortdot-evidence

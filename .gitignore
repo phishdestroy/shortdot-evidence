@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+*.log
+.DS_Store
+Thumbs.db
+pkg/raw_data/*.jsonl
+pkg/raw_data/*.jsonl.gz
+shortdot-evidence .icu · .bond · .cyou · .sbs · .cfd · .buzz · .qpon/

@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+title: "ShortDot SA Zone Evidence — .icu/.bond/.cyou/.sbs/.cfd/.buzz/.qpon"
+message: "If you use this data, please cite it as below."
+type: dataset
+authors:
+  - name: PhishDestroy
+    website: https://phishdestroy.io
+repository-code: https://github.com/phishdestroy/shortdot-evidence
+url: https://phishdestroy.github.io/shortdot-evidence
+abstract: >
+  Evidence package documenting abuse patterns across seven domain TLD zones
+  operated by ShortDot SA (Luxembourg): .icu, .bond, .cyou, .sbs, .cfd,
+  .buzz, and .qpon. Includes per-zone abuse statistics, IOC exports (STIX 2.1),
+  financial analysis of the registry revenue model, and a documented structural
+  conflict of interest between ShortDot's zone operations and its NameBlock
+  brand protection service. Data collected via NetAPI full-zone enumeration,
+  HTTP fingerprinting, and public threat intelligence cross-reference.
+  Updated daily.
+keywords:
+  - phishing
+  - domain abuse
+  - threat intelligence
+  - registrar abuse
+  - ICANN
+  - ShortDot
+  - icu
+  - bond
+  - sbs
+  - cfd
+  - cyou
+  - buzz
+  - IOC
+  - STIX
+license: MIT
+date-released: "2026-07-04"

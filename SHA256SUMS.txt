@@ -1,0 +1,3 @@
+# SHA-256 checksums for key repository files
+# Updated by scan/fetch_new.py on each run
+# Verify: sha256sum -c SHA256SUMS.txt

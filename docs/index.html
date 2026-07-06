@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ShortDot SA — Zone Abuse Evidence | PhishDestroy</title>
+<meta name="description" content="PhishDestroy investigation into ShortDot SA's seven TLD zones: .icu .bond .cyou .sbs .cfd .buzz .qpon — 6.2M domains, 70% phantom, $12.5M revenue, 0 verified legitimate businesses.">
+<meta name="keywords" content="shortdot, shortdot.bond, icu domain, bond domain, sbs domain, cfd domain, cyou domain, buzz domain, qpon domain, domain abuse, phishing, crypto drain, carding, ICANN, NameBlock, nameblock protection racket, shortdot abuse, shortdot phishing, phishdestroy, CentralNic, new gTLD abuse, brand impersonation domains">
+<meta name="author" content="PhishDestroy Research">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="PhishDestroy">
+<meta property="og:title" content="ShortDot SA — 7 TLD Zones · 6,231,825 Domains · 0 Verified Legitimate">
+<meta property="og:description" content=".icu .bond .cyou .sbs .cfd .buzz .qpon — 70% phantom, $12.5M revenue, 25,966 brand-impersonation domains. Show us one legitimate business.">
+<meta property="og:url" content="https://phishdestroy.github.io/shortdot-evidence/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ShortDot SA — 7 Junk TLD Zones: Who Benefits?">
+<meta name="twitter:description" content="chase.bond · metamask.icu · coinbase.sbs — phishers, not real companies. 6.2M domains, 70% no-IP, $13.7M extracted. PhishDestroy zone investigation.">
+<meta name="twitter:site" content="@Phish_Destroy">
+<link rel="canonical" href="https://phishdestroy.github.io/shortdot-evidence/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="preload" href="data.json" as="fetch" crossorigin>
+<style>
+:root{--bg:#000;--s1:#070b12;--s2:#0c1018;--s3:#111720;--bdr:rgba(255,255,255,.08);--bdr2:rgba(255,255,255,.12);--tx:#f0f6fc;--tx2:#8b949e;--tx3:#484f58;--cy:#6ea8d7;--rd:#da3633;--gn:#3fb950;--or:#c0a060;--vi:#8b5cf6}
+*{box-sizing:border-box;margin:0;padding:0}html{font-size:14px;scroll-behavior:smooth}
+body{background:var(--bg);color:var(--tx);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Inter",sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:var(--cy);text-decoration:none}a:hover{opacity:.8}
+
+/* ── NAV ── */
+.nav{position:sticky;top:0;z-index:100;background:rgba(7,11,18,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--bdr);padding:0 28px;height:52px;display:flex;align-items:center;gap:6px;flex-wrap:nowrap;overflow:hidden}
+.nav-brand{font-weight:700;font-size:14px;color:var(--tx);margin-right:auto;white-space:nowrap;font-family:"JetBrains Mono",monospace}
+.nav-brand em{color:var(--rd);font-style:normal}
+.btn{display:inline-flex;align-items:center;gap:5px;padding:6px 14px;border-radius:5px;font-size:12px;font-weight:600;border:1px solid;text-decoration:none;white-space:nowrap;transition:.12s;cursor:pointer;font-family:inherit}
+.btn:hover{filter:brightness(1.12)}
+.btn.red{background:var(--rd);border-color:var(--rd);color:#fff}
+.btn.ghost{background:rgba(255,255,255,.04);border-color:var(--bdr);color:var(--tx2)}
+.btn.ghost:hover{border-color:var(--bdr2);color:var(--tx)}
+.btn.grn{background:rgba(63,185,80,.08);border-color:rgba(63,185,80,.3);color:var(--gn)}
+.btn.or{background:rgba(192,160,96,.08);border-color:rgba(192,160,96,.3);color:var(--or)}
+
+/* ── DISCLAIMER ── */
+.disclaimer{background:rgba(218,54,51,.08);border-bottom:1px solid rgba(218,54,51,.2);padding:8px 22px;font-size:11px;color:var(--tx2);font-family:"JetBrains Mono",monospace;line-height:1.55;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.disclaimer .ico{font-size:13px;flex-shrink:0;color:var(--rd)}
+.disclaimer .tx{flex:1;min-width:240px;color:var(--tx2)}
+.disclaimer b{color:var(--tx)}
+.disclaimer .x{background:transparent;border:1px solid var(--bdr);color:var(--tx3);width:22px;height:22px;border-radius:4px;cursor:pointer;font-size:11px;line-height:1;flex-shrink:0;font-family:monospace}
+.disclaimer .x:hover{color:var(--tx);border-color:var(--bdr2)}
+
+/* ── HERO ── */
+.hero{padding:48px 28px 40px;border-bottom:1px solid var(--bdr);position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background-image:radial-gradient(circle,rgba(110,168,215,.1) 1px,transparent 1px);background-size:28px 28px;pointer-events:none}
+.hero-inner{position:relative;z-index:1;max-width:1100px;margin:0 auto}
+.badges{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px}
+.hb{font-size:10px;font-weight:600;padding:3px 10px;border:1px solid;text-transform:uppercase;letter-spacing:.06em;font-family:"JetBrains Mono",monospace}
+.hb.live{color:var(--rd);border-color:rgba(218,54,51,.3);background:rgba(218,54,51,.05)}
+.hb.live::before{content:"● ";animation:blink 2s step-end infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+.hb.pl{color:var(--tx2);border-color:var(--bdr)}
+.hb.cy{color:var(--cy);border-color:rgba(110,168,215,.25);background:rgba(110,168,215,.04)}
+.hb.or{color:var(--or);border-color:rgba(192,160,96,.25);background:rgba(192,160,96,.04)}
+h1{font-size:30px;font-weight:300;letter-spacing:-.03em;line-height:1.2;margin-bottom:6px}
+h1 strong{font-weight:800}
+.hero-sub{font-size:11px;color:var(--tx3);font-family:"JetBrains Mono",monospace;letter-spacing:.03em;margin-bottom:30px}
+
+/* ── KPI ROW (nicenic style) ── */
+.kpi-row{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--bdr);border-radius:6px;overflow:hidden;margin-bottom:28px}
+.kpi{background:var(--s1);padding:16px 18px;position:relative}
+.kpi::after{content:"";position:absolute;bottom:0;left:0;right:0;height:3px}
+.kpi.r::after{background:var(--rd)}.kpi.o::after{background:var(--or)}.kpi.c::after{background:var(--cy)}.kpi.g::after{background:var(--gn)}.kpi.v::after{background:var(--vi)}
+.kpi .n{font-size:1.75rem;font-weight:800;line-height:1;font-family:"JetBrains Mono",monospace}
+.kpi .l{font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:var(--tx3);margin-top:4px}
+.kpi .s{font-size:11px;color:var(--tx2);margin-top:6px}
+.kpi.r .n{color:var(--rd)}.kpi.o .n{color:var(--or)}.kpi.c .n{color:var(--cy)}.kpi.g .n{color:var(--gn)}.kpi.v .n{color:var(--vi)}
+.kpi-bar{height:3px;background:rgba(255,255,255,.06);border-radius:2px;margin-top:9px;overflow:hidden}
+.kpi-bar-fill{height:100%;width:0;border-radius:2px;transition:width 1.4s cubic-bezier(.25,.46,.45,.94)}
+@media(max-width:1050px){.kpi-row{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:600px){.kpi-row{grid-template-columns:1fr 1fr}}
+
+/* ── BIGNUMS (legacy, kept for compat) ── */
+.bignums{display:flex;flex-wrap:wrap;gap:26px}
+.bignums .b .n{font-size:2rem;font-weight:800;line-height:1;font-family:"JetBrains Mono",monospace}
+.bignums .b .l{font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:var(--tx3);margin-top:2px}
+.bignums .b.r .n{color:var(--rd)}.bignums .b.o .n{color:var(--or)}.bignums .b.c .n{color:var(--cy)}.bignums .b.g .n{color:var(--gn)}.bignums .b.v .n{color:var(--vi)}
+
+/* ── TICKER ── */
+.ticker-dual{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:28px}
+@media(max-width:700px){.ticker-dual{grid-template-columns:1fr}}
+.ticker-wrap{padding:18px 22px;background:rgba(218,54,51,.05);border:1px solid rgba(218,54,51,.2);border-radius:6px}
+.ticker-wrap.icann{background:rgba(63,185,80,.04);border-color:rgba(63,185,80,.2)}
+.ticker-label{font-size:9px;font-family:"JetBrains Mono",monospace;text-transform:uppercase;letter-spacing:.1em;color:rgba(218,54,51,.7);margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.ticker-wrap.icann .ticker-label{color:rgba(63,185,80,.7)}
+.ticker-label::before{content:"●";animation:blink 1.2s step-end infinite;color:var(--rd)}
+.ticker-wrap.icann .ticker-label::before{color:var(--gn)}
+.ticker-num{font-size:2.6rem;font-weight:900;font-family:"JetBrains Mono",monospace;color:var(--rd);line-height:1;letter-spacing:-.03em}
+.ticker-wrap.icann .ticker-num{color:var(--gn)}
+.ticker-rates{display:flex;gap:16px;margin-top:10px;flex-wrap:wrap}
+.ticker-rates span{font-size:11px;font-family:"JetBrains Mono",monospace;color:var(--tx3)}
+.ticker-rates span b{color:var(--or)}
+.ticker-wrap.icann .ticker-rates span b{color:var(--gn)}
+.ticker-breakdown{display:flex;gap:14px;margin-top:6px;flex-wrap:wrap;padding-top:8px;border-top:1px solid rgba(255,255,255,.05)}
+.ticker-breakdown span{font-size:10px;font-family:"JetBrains Mono",monospace;color:var(--tx3)}
+.ticker-breakdown span b{color:var(--tx2)}
+.ticker-combined{margin-top:8px;padding:10px 14px;background:rgba(255,255,255,.03);border:1px solid var(--bdr);border-radius:4px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.ticker-combined .lbl{font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:var(--tx3);font-family:"JetBrains Mono",monospace;white-space:nowrap}
+.ticker-combined .val{font-size:1.4rem;font-weight:900;font-family:"JetBrains Mono",monospace;color:var(--or)}
+.ticker-combined .sub{font-size:10px;color:var(--tx3);font-family:"JetBrains Mono",monospace}
+
+/* ── TLD ROW ── */
+.tld-row{display:grid;grid-template-columns:repeat(7,1fr);gap:8px;margin:18px 0 0}
+@media(max-width:900px){.tld-row{grid-template-columns:repeat(4,1fr)}}
+.tld-tile{background:var(--s2);border:1px solid rgba(218,54,51,.25);border-radius:5px;padding:11px 10px;text-align:center;text-decoration:none;color:inherit;transition:.12s;display:block}
+.tld-tile:hover{background:var(--s3);transform:translateY(-1px)}
+.tld-name{font-family:"JetBrains Mono",monospace;font-size:17px;font-weight:800;color:var(--rd);line-height:1}
+.tld-count{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--tx2);margin-top:4px}
+.tld-pct{font-size:9px;color:var(--tx3);margin-top:2px;font-family:"JetBrains Mono",monospace}
+.tld-bar-wrap{height:3px;background:rgba(255,255,255,.06);border-radius:2px;margin-top:6px;overflow:hidden}
+.tld-bar-fill{height:100%;background:var(--rd);border-radius:2px}
+
+/* ── WRAP / SECTIONS ── */
+.wrap{max-width:1100px;margin:0 auto;padding:0 28px 32px}
+.sec{display:flex;align-items:center;gap:12px;margin:40px 0 16px}
+.sec h2{font-size:11px;font-weight:700;color:var(--tx);font-family:"JetBrains Mono",monospace;text-transform:uppercase;letter-spacing:.08em;white-space:nowrap}
+.sec-sub{font-size:11px;color:var(--tx2);margin:-8px 0 16px;max-width:780px;line-height:1.65}
+.sec .ln{flex:1;height:1px;background:var(--bdr)}
+
+/* ── HUB CARDS ── */
+.hub{display:grid;grid-template-columns:repeat(4,1fr);gap:11px}
+@media(max-width:880px){.hub{grid-template-columns:repeat(2,1fr)}}
+.hcard{background:var(--s2);border:1px solid var(--bdr);border-radius:7px;padding:16px 18px;display:flex;flex-direction:column;transition:.14s;text-decoration:none;color:inherit;min-width:0}
+.hcard:hover{background:var(--s3);border-color:rgba(255,255,255,.14);transform:translateY(-1px)}
+.hcard.pri{border-color:rgba(110,168,215,.3);background:rgba(110,168,215,.04)}
+.hcard.dan{border-color:rgba(218,54,51,.3);background:rgba(218,54,51,.04)}
+.hcard.war{border-color:rgba(192,160,96,.3);background:rgba(192,160,96,.04)}
+.hcard.grn{border-color:rgba(63,185,80,.3);background:rgba(63,185,80,.04)}
+.hc-ico{font-size:18px;margin-bottom:7px}
+.hc-tit{font-size:12px;font-weight:700;color:var(--tx);margin-bottom:4px}
+.hc-dsc{font-size:11px;color:var(--tx3);line-height:1.5;flex:1;margin-bottom:9px}
+.hc-st{font-size:10px;font-family:"JetBrains Mono",monospace;color:var(--cy);border-top:1px solid var(--bdr);padding-top:6px;margin-top:auto}
+.hc-st.r{color:var(--rd)}.hc-st.o{color:var(--or)}.hc-st.g{color:var(--gn)}.hc-st.v{color:var(--vi)}
+
+/* ── PANEL ── */
+.panel{background:var(--s2);border:1px solid var(--bdr);border-radius:6px;padding:16px 18px}
+.ptit{font-size:9px;text-transform:uppercase;letter-spacing:.07em;color:var(--tx3);font-family:"JetBrains Mono",monospace;margin-bottom:12px}
+
+/* ── CATEGORY GRID ── */
+.catg{display:grid;grid-template-columns:repeat(6,1fr);gap:5px}
+@media(max-width:880px){.catg{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:480px){.catg{grid-template-columns:repeat(3,1fr)}}
+.cc{background:var(--s2);border:1px solid var(--bdr);border-radius:5px;padding:9px 6px;text-align:center}
+.cc .n{font-size:18px;font-weight:800;line-height:1;font-family:"JetBrains Mono",monospace}
+.cc .l{font-size:9px;text-transform:uppercase;letter-spacing:.04em;color:var(--tx3);margin-top:2px;font-family:"JetBrains Mono",monospace}
+.cc.r .n{color:var(--rd)}.cc.o .n{color:var(--or)}.cc.v .n{color:var(--vi)}.cc.c .n{color:var(--cy)}.cc.g .n{color:var(--gn)}
+
+/* ── EBADGE cluster badges ── */
+.ebadge{display:inline-block;font-size:9px;font-weight:700;padding:2px 7px;border-radius:3px;text-transform:uppercase;letter-spacing:.06em;font-family:"JetBrains Mono",monospace}
+.eb-r{background:rgba(218,54,51,.15);color:var(--rd);border:1px solid rgba(218,54,51,.3)}
+.eb-o{background:rgba(192,160,96,.15);color:var(--or);border:1px solid rgba(192,160,96,.3)}
+.eb-g{background:rgba(63,185,80,.15);color:var(--gn);border:1px solid rgba(63,185,80,.3)}
+.eb-m{background:rgba(139,92,246,.15);color:var(--vi);border:1px solid rgba(139,92,246,.3)}
+.eb-c{background:rgba(110,168,215,.15);color:var(--cy);border:1px solid rgba(110,168,215,.3)}
+
+/* ── INLINE BADGE ── */
+.ib{display:inline-block;font-size:9px;font-weight:700;padding:1px 5px;border-radius:2px;vertical-align:middle;margin:0 2px;font-family:"JetBrains Mono",monospace}
+.ib.rd{background:rgba(218,54,51,.15);color:var(--rd)}.ib.or{background:rgba(192,160,96,.15);color:var(--or)}.ib.cy{background:rgba(110,168,215,.15);color:var(--cy)}.ib.gn{background:rgba(63,185,80,.15);color:var(--gn)}
+
+/* ── MINI CARDS ── */
+.mc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+@media(max-width:880px){.mc-grid{grid-template-columns:repeat(2,1fr)}}
+.mc{background:var(--s2);border:1px solid var(--bdr);border-left:3px solid;border-radius:4px;padding:10px 14px;font-size:11px}
+.mc.rd{border-left-color:var(--rd)}.mc.or{border-left-color:var(--or)}.mc.cy{border-left-color:var(--cy)}.mc.gn{border-left-color:var(--gn)}.mc.vi{border-left-color:var(--vi)}
+.mc .mct{font-weight:700;color:var(--tx);margin-bottom:3px;font-size:9px;text-transform:uppercase;letter-spacing:.07em;font-family:"JetBrains Mono",monospace;border-bottom:1px solid var(--bdr);padding-bottom:5px;margin-bottom:7px}
+.mc .mcd{color:var(--tx2);line-height:1.65}
+.mc .mcd strong{color:var(--tx)}
+
+/* ── DONUT ── */
+.donut-wrap{display:flex;align-items:center;gap:20px;padding:12px 0;flex-wrap:wrap}
+.donut-hole{position:relative}
+.leg{display:flex;flex-direction:column;gap:6px}
+.leg-row{display:flex;align-items:center;gap:7px;font-size:11px;color:var(--tx2)}
+.leg-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+
+/* ── CLUSTER CARDS ── */
+.clg{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+@media(max-width:880px){.clg{grid-template-columns:repeat(2,1fr)}}
+.clcard{background:var(--s2);border:1px solid var(--bdr);border-radius:5px;overflow:hidden}
+.clhdr{padding:8px 11px;border-bottom:1px solid var(--bdr);display:flex;gap:7px;align-items:center;flex-wrap:wrap}
+.clcnt{font-family:"JetBrains Mono",monospace;font-size:11px;font-weight:700;color:var(--rd)}
+.clfp{font-family:"JetBrains Mono",monospace;font-size:9px;color:var(--tx3)}
+.cldoms{padding:7px 11px;display:flex;flex-wrap:wrap;gap:3px}
+.cld{font-family:"JetBrains Mono",monospace;font-size:10px;padding:1px 5px;background:var(--s3);border-radius:2px;color:var(--tx2)}
+.cldm{padding:7px 11px;display:flex;flex-wrap:wrap;gap:3px}
+
+/* ── TABLE ── */
+.tbl{width:100%;border-collapse:collapse;font-size:11px;font-family:"JetBrains Mono",monospace}
+.tbl th{text-align:left;padding:6px 10px;color:var(--tx3);font-size:9px;text-transform:uppercase;letter-spacing:.06em;border-bottom:1px solid var(--bdr);font-weight:600}
+.tbl td{padding:7px 10px;border-bottom:1px solid rgba(255,255,255,.04);color:var(--tx2)}
+.tbl tr:hover td{background:rgba(255,255,255,.02)}
+.tbl .dom{color:var(--tx);font-weight:700}
+.tbl .cat-r{color:var(--rd)}.tbl .cat-o{color:var(--or)}.tbl .cat-c{color:var(--cy)}
+
+/* ── BRAND GRID ── */
+.brand-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px}
+.bcard{background:var(--s2);border:1px solid var(--bdr);border-radius:5px;padding:10px 12px;border-top-width:2px}
+.bcard-name{font-size:12px;font-weight:700;color:var(--tx);margin-bottom:6px}
+.bcard-row{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.bcard-n{font-size:20px;font-weight:800;line-height:1;min-width:50px;font-family:"JetBrains Mono",monospace}
+.bcard-bar-wrap{flex:1;height:5px;background:rgba(255,255,255,.06);border-radius:2px;overflow:hidden}
+.bcard-bar{height:100%;border-radius:2px}
+.bcard-samples{display:flex;flex-wrap:wrap;gap:3px}
+.bcard-samples code{font-size:9px;background:rgba(255,255,255,.05);padding:1px 5px;border-radius:2px;color:var(--tx3);font-family:"JetBrains Mono",monospace}
+.brand-tabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+
+/* ── RACKET FLOW ── */
+.racket-flow{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:12px 0}
+@media(max-width:680px){.racket-flow{grid-template-columns:1fr}}
+.rf-step{background:var(--s3);border:1px solid var(--bdr);border-radius:5px;padding:12px 14px}
+.rf-n{font-size:28px;font-weight:800;color:var(--rd);font-family:"JetBrains Mono",monospace;line-height:1;margin-bottom:6px}
+.rf-tit{font-size:11px;font-weight:700;color:var(--tx);margin-bottom:4px}
+.rf-dsc{font-size:10px;color:var(--tx3);line-height:1.6}
+
+/* ── CHALLENGE ── */
+.challenge{background:rgba(218,54,51,.04);border:1px solid rgba(218,54,51,.25);border-radius:6px;padding:24px 26px;margin-bottom:4px}
+.challenge-q{font-size:13px;line-height:1.7;color:var(--tx2);margin-bottom:18px}
+.challenge-q strong{color:var(--tx)}
+.challenge-zero{font-size:5rem;font-weight:900;font-family:"JetBrains Mono",monospace;color:var(--gn);line-height:1}
+.challenge-zero-label{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--tx3);font-family:"JetBrains Mono",monospace;margin-top:4px}
+
+/* ── MIRRORS ── */
+.mirg{display:grid;grid-template-columns:repeat(6,1fr);gap:7px}
+@media(max-width:880px){.mirg{grid-template-columns:repeat(3,1fr)}}
+.mirc{background:var(--s2);border:1px solid var(--bdr);border-radius:5px;padding:9px 11px}
+.mirc .ml{font-size:9px;text-transform:uppercase;letter-spacing:.06em;color:var(--tx3);margin-bottom:3px;font-family:"JetBrains Mono",monospace}
+.mirc a{font-size:11px;font-family:"JetBrains Mono",monospace;word-break:break-all;color:var(--cy)}
+
+/* ── ABOUT GRID ── */
+.about-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:16px}
+@media(max-width:700px){.about-grid{grid-template-columns:1fr}}
+.about-card{background:var(--s2);border:1px solid var(--bdr);border-radius:6px;padding:18px}
+.about-card h3{font-size:12px;font-weight:700;margin-bottom:8px;color:var(--cy);font-family:"JetBrains Mono",monospace;text-transform:uppercase;letter-spacing:.05em}
+.about-card p{font-size:11px;color:var(--tx2);line-height:1.6}
+
+/* ── HASH ROWS ── */
+.hash-row{display:flex;align-items:center;gap:10px;padding:8px 12px;background:var(--s1);border:1px solid var(--bdr);border-radius:4px;margin:6px 0;font-family:"JetBrains Mono",monospace;font-size:11px}
+.hash-val{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--tx2)}
+.copy-btn{font-size:10px;padding:2px 8px;background:var(--s3);border:1px solid var(--bdr);color:var(--tx3);cursor:pointer;border-radius:3px;white-space:nowrap;font-family:"JetBrains Mono",monospace}
+.copy-btn:hover{color:var(--tx)}
+.copy-btn.copied{color:var(--gn);border-color:rgba(63,185,80,.3)}
+
+/* ── HBAR (horizontal bar rows) ── */
+.hbar-grid{display:flex;flex-direction:column;gap:6px}
+.hbar-row{display:flex;align-items:center;gap:8px;font-size:10px;font-family:"JetBrains Mono",monospace}
+.hbar-lbl{width:90px;text-align:right;flex-shrink:0;color:var(--tx2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hbar-wrap{flex:1;height:14px;background:rgba(255,255,255,.04);border-radius:2px;overflow:hidden;min-width:60px}
+.hbar-fill{height:100%;width:0;border-radius:2px;transition:width .9s cubic-bezier(.25,.46,.45,.94)}
+.hbar-val{width:56px;text-align:right;flex-shrink:0;color:var(--tx2)}
+.hbar-note{width:44px;flex-shrink:0;color:var(--tx3);font-size:9px}
+
+/* ── SCROLL REVEAL ── */
+.reveal{opacity:0;transform:translateY(14px);transition:opacity .5s ease,transform .5s ease}
+.reveal.in{opacity:1;transform:none}
+
+/* ── FOOTER ── */
+footer{border-top:1px solid var(--bdr);padding:20px 28px;text-align:center;font-size:11px;font-family:"JetBrains Mono",monospace;color:var(--tx3)}
+footer a{color:var(--cy)}
+
+/* ── DIVIDER GIF ── */
+.divider{display:block;width:100%;max-height:4px;margin:0}
+</style>
+</head>
+<body>
+
+<div class="disclaimer" id="disc-bar">
+  <span class="ico">⚠</span>
+  <span class="tx"><b>TLP:CLEAR</b> · This report is based on full zone enumeration via NetAPI snapshots and public registry data. All data is reproducible from public sources. Suitable for law enforcement, brand protection, and ICANN compliance submission.</span>
+  <button class="x" onclick="document.getElementById('disc-bar').remove()">×</button>
+</div>
+
+<nav class="nav">
+  <span class="nav-brand">PhishDestroy <em>/</em> ShortDot SA</span>
+  <a href="domains.html" class="btn red">All 6.2M Domains</a>
+  <a href="domains.html?tld=bond" class="btn ghost">.bond</a>
+  <a href="domains.html?tld=icu" class="btn ghost">.icu</a>
+  <a href="domains.html?tld=sbs" class="btn ghost">.sbs</a>
+  <a href="domains.html?tld=cfd" class="btn ghost">.cfd</a>
+  <a href="../ioc/domains_high.txt" class="btn grn">IOC Feed</a>
+  <a href="https://github.com/phishdestroy/shortdot-evidence" class="btn ghost">GitHub</a>
+</nav>
+
+<div class="hero">
+<div class="hero-inner">
+  <div class="badges">
+    <span class="hb live">Active Investigation</span>
+    <span class="hb pl">TLP:CLEAR</span>
+    <span class="hb or">ICANN co-beneficiary · $1.74M/yr</span>
+    <span class="hb pl">Full Zone Enumeration · 7 TLDs · July 2026</span>
+    <span class="hb cy">NameBlock Protection Racket</span>
+    <span class="hb or">Designed for abuse — not an accident</span>
+  </div>
+  <h1>ShortDot SA (Luxembourg)<br><strong>Zone Abuse Evidence — Registry Level</strong></h1>
+  <p class="hero-sub">6,231,825 domains · .icu · .bond · .cyou · .sbs · .cfd · .buzz · .qpon · PhishDestroy Research · 2026</p>
+
+  <div class="kpi-row">
+    <div class="kpi r">
+      <div class="n" data-target="6231825">6,231,825</div>
+      <div class="l">Active Domains</div>
+      <div class="s">Across 7 ShortDot zones</div>
+    </div>
+    <div class="kpi o">
+      <div class="n" data-target="70.4%">70.4%</div>
+      <div class="l">Phantom / No-IP</div>
+      <div class="s">4,387,385 never activated</div>
+      <div class="kpi-bar"><div class="kpi-bar-fill" id="phantom-bar" style="background:var(--or)"></div></div>
+    </div>
+    <div class="kpi c">
+      <div class="n" data-target="$12559037">$12,559,037</div>
+      <div class="l">ShortDot Revenue</div>
+      <div class="s">Annual wholesale extracted</div>
+    </div>
+    <div class="kpi g">
+      <div class="n" data-target="$1738556">$1,738,556</div>
+      <div class="l">ICANN Revenue</div>
+      <div class="s">Volume cuts + zone fees / yr</div>
+    </div>
+    <div class="kpi v">
+      <div class="n" data-target="25966">25,966</div>
+      <div class="l">Brand Impersonation</div>
+      <div class="s">Keyword-matched across all 7 zones</div>
+      <div class="kpi-bar"><div class="kpi-bar-fill" id="brand-bar" style="background:var(--vi)"></div></div>
+    </div>
+  </div>
+
+  <div class="ticker-dual">
+    <div class="ticker-wrap">
+      <div class="ticker-label">ShortDot SA wholesale — year to date 2026</div>
+      <div class="ticker-num" id="revenue-ticker">$0</div>
+      <div class="ticker-rates">
+        <span><b class="sd-day">$34,408</b> / day</span>
+        <span><b class="sd-hr">$1,434</b> / hour</span>
+        <span><b class="sd-min">$23.90</b> / min</span>
+      </div>
+      <div class="ticker-breakdown">
+        <span>Annual: <b>$12,559,037</b></span>
+        <span>Per domain: <b>$0.65–$6.50</b></span>
+        <span>Phantom domains included: <b>4,387,385</b></span>
+      </div>
+    </div>
+    <div class="ticker-wrap icann">
+      <div class="ticker-label">ICANN extraction — year to date 2026</div>
+      <div class="ticker-num" id="icann-ticker">$0</div>
+      <div class="ticker-rates">
+        <span><b class="ic-day">$4,763</b> / day</span>
+        <span><b class="ic-hr">$198</b> / hour</span>
+        <span><b class="ic-min">$3.31</b> / min</span>
+      </div>
+      <div class="ticker-breakdown">
+        <span>Volume cut ($0.25/domain): <b>$1,557,956/yr</b></span>
+        <span>Zone fees (7×$25,800): <b>$180,600/yr</b></span>
+        <span>App fees (7×$227k): <b>$1,589,000</b> one-time</span>
+      </div>
+    </div>
+  </div>
+  <div class="ticker-combined">
+    <span class="lbl">Combined extraction YTD 2026</span>
+    <span class="val" id="combined-ticker">$0</span>
+    <span class="sub">ShortDot + ICANN · <span class="co-day">$37,481</span>/day · <span class="co-hr">$1,562</span>/hr · <span class="co-sec">$0.434</span>/sec</span>
+  </div>
+
+  <div class="tld-row">
+    <a href="domains.html?tld=icu" class="tld-tile"><div class="tld-name">.icu</div><div class="tld-count">971,649</div><div class="tld-pct">70.9% phantom</div><div class="tld-bar-wrap"><div class="tld-bar-fill" style="width:70.9%"></div></div></a>
+    <a href="domains.html?tld=bond" class="tld-tile"><div class="tld-name">.bond</div><div class="tld-count">1,327,512</div><div class="tld-pct">92.1% phantom</div><div class="tld-bar-wrap"><div class="tld-bar-fill" style="width:92.1%"></div></div></a>
+    <a href="domains.html?tld=cyou" class="tld-tile"><div class="tld-name">.cyou</div><div class="tld-count">753,652</div><div class="tld-pct">64.6% phantom</div><div class="tld-bar-wrap"><div class="tld-bar-fill" style="width:64.6%"></div></div></a>
+    <a href="domains.html?tld=sbs" class="tld-tile"><div class="tld-name">.sbs</div><div class="tld-count">1,911,124</div><div class="tld-pct">68.9% phantom</div><div class="tld-bar-wrap"><div class="tld-bar-fill" style="width:68.9%"></div></div></a>
+    <a href="domains.html?tld=cfd" class="tld-tile"><div class="tld-name">.cfd</div><div class="tld-count">950,551</div><div class="tld-pct">57.2% phantom</div><div class="tld-bar-wrap"><div class="tld-bar-fill" style="width:57.2%"></div></div></a>
+    <a href="domains.html?tld=buzz" class="tld-tile"><div class="tld-name">.buzz</div><div class="tld-count">207,109</div><div class="tld-pct">39.0% phantom</div><div class="tld-bar-wrap"><div class="tld-bar-fill" style="width:39.0%"></div></div></a>
+    <a href="domains.html?tld=qpon" class="tld-tile"><div class="tld-name">.qpon</div><div class="tld-count">110,228</div><div class="tld-pct">43.3% phantom</div><div class="tld-bar-wrap"><div class="tld-bar-fill" style="width:43.3%"></div></div></a>
+  </div>
+</div>
+</div>
+
+<img class="divider" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" style="max-height:4px;display:block">
+
+<div class="wrap">
+
+<div class="sec"><h2>Zone Investigation Reports</h2><div class="ln"></div></div>
+<p class="sec-sub">Per-zone and cross-zone analysis. Each card links into the domain table pre-filtered by TLD or category.</p>
+<div class="hub">
+  <a href="domains.html?tld=bond" class="hcard dan"><div class="hc-ico">🔗</div><div class="hc-tit">.bond — Finance Impersonation</div><div class="hc-dsc">ShortDot calls it "for trusted brands." 1.3M domains, 92.1% no-IP. <code style="font-family:monospace;font-size:10px;background:rgba(255,255,255,.05);padding:1px 4px;border-radius:2px">chase.bond</code> · <code style="font-family:monospace;font-size:10px;background:rgba(255,255,255,.05);padding:1px 4px;border-radius:2px">bofa.bond</code> · <code style="font-family:monospace;font-size:10px;background:rgba(255,255,255,.05);padding:1px 4px;border-radius:2px">drainmebaby.bond</code> registered openly. Wholesale $6.50/domain.</div><div class="hc-st r">1,327,512 domains · 92.1% phantom · $8.6M revenue</div></a>
+  <a href="domains.html?tld=icu" class="hcard dan"><div class="hc-ico">🎯</div><div class="hc-tit">.icu — Mass Abuse Zone</div><div class="hc-dsc">Flagship zone since 2018. Turkish gambling clusters, crypto drain panels, credential harvesters. 70.9% phantom. Highest raw brand-impersonation count.</div><div class="hc-st r">971,649 domains · metamask.icu · phantom.icu</div></a>
+  <a href="domains.html?tld=sbs" class="hcard dan"><div class="hc-ico">👻</div><div class="hc-tit">.sbs — Phantom Registration Zone</div><div class="hc-dsc">Acquired Apr 2024. NameSilo holds 19.7% of all .sbs (377K domains) — verified from full portfolio extract. 68.9% no-IP. Largest zone by domain count.</div><div class="hc-st o">1,911,124 domains · NameSilo anomaly · Apr 2024</div></a>
+  <a href="domains.html?tld=cfd" class="hcard dan"><div class="hc-ico">📈</div><div class="hc-tit">.cfd — Investment Fraud Zone</div><div class="hc-dsc">Named after a regulated financial derivative. Fake trading platforms, CFD fraud, financial phishing. NameSilo holds 23.9%. No regulated broker operates here.</div><div class="hc-st r">950,551 domains · invest-profits.cfd · trading-elite.cfd</div></a>
+  <a href="domains.html?tld=cyou" class="hcard"><div class="hc-ico">👁</div><div class="hc-tit">.cyou — Dead Zone</div><div class="hc-dsc">"See You" — marketed to creators. Reality: 64.6% phantom, crypto phishing, near-zero legitimate adoption. <code style="font-family:monospace;font-size:10px">kraken.cyou</code> · <code style="font-family:monospace;font-size:10px">uniswap.cyou</code>.</div><div class="hc-st">753,652 domains · 64.6% phantom</div></a>
+  <a href="domains.html?tld=buzz" class="hcard"><div class="hc-ico">🐝</div><div class="hc-tit">.buzz — Spam Infrastructure</div><div class="hc-dsc">207K domains, 39% phantom — lowest rate, meaning more serve active content. Spam distribution and click-fraud infrastructure dominates.</div><div class="hc-st">207,109 domains · $673K revenue/yr</div></a>
+  <a href="../case/NAMEBLOCK.md" class="hcard war"><div class="hc-ico">🛡</div><div class="hc-tit">NameBlock — Protection Racket</div><div class="hc-dsc">ShortDot subsidiary sells "brand protection" in zones ShortDot controls. Creates attack surface → sells insurance. BrandShelter, BrandSight, Brandma also benefit.</div><div class="hc-st o">Double extraction · JPMorgan Chase pays both times</div></a>
+  <a href="../case/FINANCIAL.md" class="hcard pri"><div class="hc-ico">💸</div><div class="hc-tit">Follow the Money</div><div class="hc-dsc">$227K application fee × 7 TLDs. $25,800/yr/zone tribute to ICANN. $0.25/domain volume cut. No investor pays $227K planning to sell $0.99 domains to students.</div><div class="hc-st c">$1.59M apps · $1.74M/yr ICANN · price of admission</div></a>
+</div>
+
+</div>
+
+<img class="divider" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" style="max-height:4px;display:block">
+
+<div class="wrap">
+
+<div class="sec"><h2>Analytics</h2><div class="ln"></div></div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px">
+  <div class="panel">
+    <div class="ptit">Deployment breakdown — 6,231,825 domains</div>
+    <div class="donut-wrap">
+      <div class="donut-hole">
+        <canvas id="donut" width="110" height="110"></canvas>
+      </div>
+      <div class="leg">
+        <div class="leg-row"><div class="leg-dot" style="background:#3fb950"></div><span>Deployed / live &nbsp;<strong style="color:#3fb950;font-family:'JetBrains Mono',monospace">1,844,440</strong> (29.6%)</span></div>
+        <div class="leg-row"><div class="leg-dot" style="background:#da3633"></div><span>No-IP / phantom &nbsp;<strong style="color:#da3633;font-family:'JetBrains Mono',monospace">4,387,385</strong> (70.4%)</span></div>
+        <div class="leg-row"><div class="leg-dot" style="background:#484f58"></div><span>Pending / unresolved &nbsp;<strong style="color:#484f58;font-family:'JetBrains Mono',monospace">0</strong></span></div>
+      </div>
+    </div>
+  </div>
+  <div class="panel">
+    <div class="ptit">Per-TLD domain count + phantom rate</div>
+    <div id="zonebars"><p style="font-size:11px;color:var(--tx3)">Loading…</p></div>
+  </div>
+</div>
+
+<div class="sec"><h2>Category Breakdown</h2><div class="ln"></div></div>
+<p class="sec-sub">Confirmed malicious indicators by type across all 7 zones. From <code style="font-family:'JetBrains Mono',monospace;font-size:10px;padding:1px 4px;background:rgba(255,255,255,.05);border-radius:2px">ioc/indicators.csv</code> — auto-updated daily.</p>
+<div class="catg">
+  <div class="cc r"><div class="n" id="c-phish-finance">—</div><div class="l">Phish Finance</div></div>
+  <div class="cc r"><div class="n" id="c-phish-crypto">—</div><div class="l">Phish Crypto</div></div>
+  <div class="cc r"><div class="n" id="c-drain">—</div><div class="l">Crypto Drain</div></div>
+  <div class="cc r"><div class="n" id="c-carding">—</div><div class="l">Carding</div></div>
+  <div class="cc o"><div class="n" id="c-invest">—</div><div class="l">Invest Fraud</div></div>
+  <div class="cc o"><div class="n" id="c-malware">—</div><div class="l">Malware</div></div>
+  <div class="cc o"><div class="n" id="c-gambling">—</div><div class="l">Gambling</div></div>
+  <div class="cc v"><div class="n" id="c-brand-ioc">—</div><div class="l">Brand IOC</div></div>
+  <div class="cc g"><div class="n" id="c-legit">0</div><div class="l">Verified Legit</div></div>
+  <div class="cc"><div class="n" id="c-total-ioc" style="color:var(--tx3)">—</div><div class="l">Total IOC</div></div>
+  <div class="cc c"><div class="n">25,966</div><div class="l">Brand Zone Scan</div></div>
+  <div class="cc c"><div class="n">6.2M</div><div class="l">Total Zone Domains</div></div>
+</div>
+
+<div class="sec"><h2>Registration Burst Days</h2><div class="ln"></div></div>
+<p class="sec-sub">Top 10 days by new domain volume vs daily average. Spikes ≥5× flag coordinated bulk campaigns.</p>
+<div class="panel reveal" id="burst-bars" style="padding:14px 18px"><p style="font-size:11px;color:var(--tx3);font-family:'JetBrains Mono',monospace">Populates after first daily fetch run.</p></div>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:4px">
+  <div>
+    <div class="sec"><h2>Hosting Geography</h2><div class="ln"></div></div>
+    <p class="sec-sub">Countries hosting IP-resolved domains across all 7 zones.</p>
+    <div class="panel reveal" id="geo-bars" style="padding:14px 18px"><p style="font-size:11px;color:var(--tx3);font-family:'JetBrains Mono',monospace">Loading…</p></div>
+  </div>
+  <div>
+    <div class="sec"><h2>Brand Keyword Heatmap</h2><div class="ln"></div></div>
+    <p class="sec-sub">Top targeted brand &amp; abuse keywords across all domain labels — auto-updated daily.</p>
+    <div class="panel reveal" id="kw-heatmap" style="padding:14px 18px"><p style="font-size:11px;color:var(--tx3);font-family:'JetBrains Mono',monospace">Loading…</p></div>
+  </div>
+</div>
+
+</div>
+
+<img class="divider" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" style="max-height:4px;display:block">
+
+<div class="wrap">
+
+<div class="sec"><h2>Registration Activity</h2><div class="ln"></div></div>
+<p class="sec-sub">Daily new domain registrations across all 7 zones. Click any bar to download that day's domain list.</p>
+<div style="display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap">
+  <button onclick="showView('daily')" id="btn-daily" class="btn active" style="font-size:11px">Daily</button>
+  <button onclick="showView('monthly')" id="btn-monthly" class="btn ghost" style="font-size:11px">Monthly</button>
+  <span style="display:inline-block;width:1px;height:18px;background:var(--bdr);margin:0 4px;align-self:center"></span>
+  <button onclick="showRange('1Y')" id="btn-1y" class="btn ghost" style="font-size:11px">1Y</button>
+  <button onclick="showRange('3Y')" id="btn-3y" class="btn ghost" style="font-size:11px">3Y</button>
+  <button onclick="showRange('all')" id="btn-all" class="btn active" style="font-size:11px">All</button>
+</div>
+<div class="panel" style="padding:14px 18px;margin-bottom:12px">
+  <div style="position:relative;height:180px">
+    <canvas id="reg-chart" style="width:100%;height:180px"></canvas>
+    <div id="reg-chart-empty" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:11px;color:var(--tx3);font-family:'JetBrains Mono',monospace">No daily data yet — populates after first GitHub Actions run at 06:00 UTC</div>
+  </div>
+  <div id="chart-tip" style="font-size:10px;color:var(--tx3);font-family:'JetBrains Mono',monospace;margin-top:6px;min-height:14px"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+<div class="sec"><h2>Daily Registration Feed</h2><div class="ln"></div></div>
+<p class="sec-sub">New domains registered each day across all 7 zones — auto-updated via GitHub Actions at 06:00 UTC. Each day links to a plain-text domain list.</p>
+<div class="panel" style="padding:0;overflow:hidden">
+  <table class="tbl" id="daily-table">
+    <thead><tr><th>Date</th><th>New Domains</th><th>ShortDot Revenue</th><th>ICANN Fees</th><th>List</th></tr></thead>
+    <tbody id="daily-tbody"><tr><td colspan="5" style="color:var(--tx3);text-align:center;padding:20px">Loading daily feed…</td></tr></tbody>
+  </table>
+</div>
+
+<div class="sec"><h2>Brand Impersonation — By Target</h2><div class="ln"></div></div>
+<p class="sec-sub">25,966 domains with real brand names across all 7 zones via full-zone keyword scan. Top brands: Ally Bank 2,512 · Wise 2,249 · Charles Schwab 1,925 · MetaMask 1,847 · Facebook 1,641</p>
+<div class="brand-tabs" id="brand-tabs">
+  <button class="btn red" style="font-size:11px" onclick="filterBrand(this,'all')">All (25,966)</button>
+  <button class="btn ghost" style="font-size:11px" onclick="filterBrand(this,'banking')">Banking (8,847)</button>
+  <button class="btn ghost" style="font-size:11px" onclick="filterBrand(this,'crypto')">Crypto (2,847)</button>
+  <button class="btn ghost" style="font-size:11px" onclick="filterBrand(this,'payment')">Payment (3,920)</button>
+  <button class="btn ghost" style="font-size:11px" onclick="filterBrand(this,'tech')">Tech (4,030)</button>
+  <button class="btn ghost" style="font-size:11px" onclick="filterBrand(this,'social')">Social (3,277)</button>
+  <button class="btn ghost" style="font-size:11px" onclick="filterBrand(this,'gov')">Gov/Post (1,912)</button>
+</div>
+<div class="brand-grid" id="brand-grid">
+  <p style="font-size:11px;color:var(--tx3);grid-column:1/-1">Loading brand data…</p>
+</div>
+
+<div class="sec"><h2>Confirmed High-Severity Cases</h2><div class="ln"></div></div>
+<p class="sec-sub">Confirmed criminal infrastructure. Suitable for law enforcement intake.</p>
+<div class="panel" style="padding:0;overflow:hidden">
+  <table class="tbl" id="high-table">
+    <thead><tr><th>Domain</th><th>Zone</th><th>Category</th><th>Notes</th></tr></thead>
+    <tbody id="high-tbody">
+      <tr><td class="dom">drainmebaby.bond</td><td>.bond</td><td class="cat-r">CRYPTO_DRAIN</td><td>Explicit drain panel, openly registered</td></tr>
+      <tr><td class="dom">metamask-support.icu</td><td>.icu</td><td class="cat-r">PHISHING_CRYPTO</td><td>MetaMask seed phrase harvester</td></tr>
+      <tr><td class="dom">bofa-secure.bond</td><td>.bond</td><td class="cat-r">PHISHING_FINANCE</td><td>Bank of America credential phish</td></tr>
+      <tr><td class="dom">invest-profits.cfd</td><td>.cfd</td><td class="cat-o">INVEST_FRAUD</td><td>Fake CFD trading platform</td></tr>
+      <tr><td class="dom">coinbase-wallet.sbs</td><td>.sbs</td><td class="cat-r">PHISHING_CRYPTO</td><td>Coinbase credential harvester</td></tr>
+      <tr><td class="dom">wallet-recovery.icu</td><td>.icu</td><td class="cat-r">PHISHING_CRYPTO</td><td>Generic seed phrase phish</td></tr>
+    </tbody>
+  </table>
+</div>
+
+</div>
+
+<img class="divider" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" style="max-height:4px;display:block">
+
+<div class="wrap">
+
+<div class="sec"><h2>The Core Question</h2><div class="ln"></div></div>
+<p class="sec-sub">ShortDot SA claims these zones serve "businesses, creators, and communities." We test this claim with data.</p>
+<div style="display:grid;grid-template-columns:1fr 280px;gap:12px;align-items:start">
+  <div class="challenge">
+    <p class="challenge-q">Find us a <strong>Fortune 500 company, government agency, licensed bank, or globally recognized institution</strong> that uses .icu, .sbs, .cfd, .cyou, .bond, .buzz, or .qpon as its <strong>primary operational domain</strong>. Not a test page. Not a redirect. An actual presence.</p>
+    <p class="challenge-q">What ShortDot calls "zones for trusted brands":</p>
+    <div style="font-size:11px;font-family:'JetBrains Mono',monospace;color:var(--tx3);line-height:2.2">
+      <span style="color:var(--rd)">chase.bond</span> — JPMorgan Chase phishing<br>
+      <span style="color:var(--rd)">bofa.bond</span> — Bank of America phishing<br>
+      <span style="color:var(--rd)">metamask.icu</span> — MetaMask wallet drainer<br>
+      <span style="color:var(--rd)">coinbase.sbs</span> — Coinbase credential harvester<br>
+      <span style="color:var(--rd)">drainmebaby.bond</span> — crypto drain panel<br>
+      <span style="color:var(--rd)">invest-profits.cfd</span> — fake investment platform
+    </div>
+  </div>
+  <div class="panel" style="border-color:rgba(63,185,80,.2)">
+    <div class="ptit" style="color:var(--gn)">Verified legitimate sites</div>
+    <div class="challenge-zero" id="stat-legit">0</div>
+    <div class="challenge-zero-label">out of 6,231,825</div>
+    <div style="margin-top:16px;font-size:11px;color:var(--tx3);line-height:1.7">Submit via GitHub issue with evidence: company registration, clear lawful purpose, no abuse feed hits.</div>
+    <div style="margin-top:10px"><a href="https://github.com/phishdestroy/shortdot-evidence/issues" style="color:var(--gn);font-size:11px">Submit a counterexample →</a></div>
+  </div>
+</div>
+
+<div class="sec"><h2>Follow the Money</h2><div class="ln"></div></div>
+<p class="sec-sub">The price of admission proves this is not an accident. No investor pays $227,000 per zone application to sell $0.99 domains to students.</p>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:12px">
+  <div class="panel" style="border-top:3px solid var(--rd)">
+    <div class="ptit">Per-domain economics</div>
+    <div style="font-size:12px;color:var(--tx2);line-height:2">
+      <strong style="color:var(--tx)">.icu / .sbs / .cfd / .cyou</strong><br>
+      Retail: $0.99 · ShortDot: $0.65 · ICANN: $0.18<br>
+      <strong style="color:var(--tx)">.bond</strong><br>
+      Retail: $9.99 · ShortDot: <span style="color:var(--rd);font-weight:700">$6.50</span> · ICANN: $0.18<br>
+      <strong style="color:var(--tx)">.buzz</strong> — $3.25 wholesale<br>
+      <strong style="color:var(--tx)">.qpon</strong> — $2.50 wholesale
+    </div>
+  </div>
+  <div class="panel" style="border-top:3px solid var(--or)">
+    <div class="ptit">Daily extraction rates</div>
+    <div style="font-size:12px;color:var(--tx2);line-height:2.2;font-family:'JetBrains Mono',monospace">
+      ShortDot/day: <span style="color:var(--or);font-weight:700;font-size:14px">$34,408</span><br>
+      ICANN/day: <span style="color:var(--tx);font-weight:700">$3,073</span><br>
+      Combined/day: <span style="color:var(--rd);font-weight:700;font-size:16px">$37,481</span><br>
+      Combined/hour: <span style="color:var(--rd);font-weight:700">$1,562</span><br>
+      Combined/second: <span style="color:var(--tx3)">$0.434</span>
+    </div>
+  </div>
+  <div class="panel" style="border-top:3px solid var(--vi)">
+    <div class="ptit" style="color:var(--vi)">ICANN — structural capture</div>
+    <div style="font-size:12px;color:var(--tx2);line-height:1.9;font-family:'JetBrains Mono',monospace">
+      Application fee/TLD: <b style="color:var(--tx)">$227,000</b><br>
+      Annual zone fee/TLD: <b style="color:var(--tx)">$25,800</b><br>
+      Volume cut (&gt;50k): <b style="color:var(--tx)">$0.25/domain</b><br><br>
+      Total app fees (×7): <b style="color:var(--vi)">$1,589,000</b><br>
+      Annual ICANN revenue: <b style="color:var(--vi)">$1,738,556</b>
+    </div>
+    <div style="margin-top:10px;padding-top:9px;border-top:1px solid rgba(139,92,246,.2);font-size:11px;line-height:1.7;color:var(--tx2)">
+      ICANN cannot effectively enforce against ShortDot without forfeiting <strong style="color:var(--vi)">$1.74M/year</strong> in recurring revenue plus $1.59M in non-refundable application fees already collected. Every phantom domain and every phishing page in these zones generates fees for ICANN. <strong style="color:var(--tx)">The regulator is not a passive bystander — it is a co-beneficiary with a structural incentive not to act.</strong>
+    </div>
+  </div>
+</div>
+
+<div class="sec"><h2>NameBlock — The Complete Business Model</h2><div class="ln"></div></div>
+<p class="sec-sub">This is not an unintended side effect. ShortDot creates the attack surface, then — through NameBlock — sells protection against it. Both legs of the same operation. The protection racket was the plan.</p>
+<div class="racket-flow">
+  <div class="rf-step">
+    <div class="rf-n">1</div>
+    <div class="rf-tit">Zone names chosen as targeting signals</div>
+    <div class="rf-dsc"><strong style="color:var(--rd)">.bond</strong> — implies financial trust. <strong style="color:var(--rd)">.cfd</strong> — named after a regulated financial derivative. <strong style="color:var(--rd)">.icu</strong> — personal credential targeting. These names were not chosen for legitimate businesses. They were chosen because they are credible to phishing victims. NameBlock was registered <em>before</em> the zones reached abuse scale — the brand protection play was prepared in advance.</div>
+  </div>
+  <div class="rf-step">
+    <div class="rf-n">2</div>
+    <div class="rf-tit">Abuse flows at scale — all parties collect</div>
+    <div class="rf-dsc"><span style="font-family:'JetBrains Mono',monospace;color:var(--rd);font-size:10px">chase.bond · metamask.icu · coinbase.sbs</span><br>25,966 brand-impersonation domains. ShortDot collects wholesale per domain. ICANN collects $0.25/domain/year. The victim (end user phished) pays nothing — and loses everything.</div>
+  </div>
+  <div class="rf-step">
+    <div class="rf-n">3</div>
+    <div class="rf-tit">NameBlock sells the other leg</div>
+    <div class="rf-dsc">NameBlock (ShortDot venture) → JPMorgan Chase: <em>"Block your brand across all ShortDot zones or anyone can register it."</em> Chase pays the blocking fee. ShortDot collects wholesale on those defensive registrations. NameBlock collects the service margin. <strong style="color:var(--rd)">The entity that created the threat is paid twice to manage it.</strong> This is not surprising — it was the design.</div>
+  </div>
+</div>
+
+</div>
+
+<img class="divider" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" style="max-height:4px;display:block">
+
+<div class="wrap">
+
+<div class="sec"><h2>NameSilo Phantom Cluster</h2><div class="ln"></div></div>
+<p class="sec-sub">NameSilo holds 784,392 ShortDot domains — 12.6% of the entire 6.2M zone. Verified from full portfolio extract 2026-07-04.</p>
+
+<div style="background:rgba(218,54,51,.04);border:1px solid rgba(218,54,51,.3);border-radius:6px;padding:18px 22px;margin-bottom:12px">
+  <div style="display:flex;align-items:center;gap:16px;margin-bottom:14px;flex-wrap:wrap">
+    <div><div style="font-size:2.2rem;font-weight:900;color:var(--rd);font-family:'JetBrains Mono',monospace;line-height:1">784,392</div><div style="font-size:9px;text-transform:uppercase;letter-spacing:.06em;color:var(--tx3);font-family:'JetBrains Mono',monospace;margin-top:3px">NameSilo ShortDot domains</div></div>
+    <div style="flex:1;min-width:200px;font-size:11px;color:var(--tx2);line-height:1.8"><strong style="color:var(--tx)">NameSilo</strong> holds 12.6% of all 6.2M ShortDot-zone domains. In <strong style="color:var(--rd)">.sbs</strong> and <strong style="color:var(--rd)">.cfd</strong> — the two zones ShortDot acquired April 2024 — NameSilo's share is <strong style="color:var(--rd)">19.7%</strong> and <strong style="color:var(--rd)">23.9%</strong> respectively. Single registrar at 24% concentration in a zone signals coordinated bulk registration.</div>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin-bottom:10px">
+    <div style="background:var(--s3);border-radius:4px;padding:8px 6px;text-align:center"><div style="font-size:13px;font-weight:800;color:var(--rd);font-family:'JetBrains Mono',monospace">377K</div><div style="font-size:9px;color:var(--tx3);font-family:'JetBrains Mono',monospace">.sbs · 19.7%</div><div style="height:3px;background:rgba(255,255,255,.05);border-radius:2px;margin-top:4px"><div style="width:100%;height:3px;background:var(--rd);border-radius:2px"></div></div></div>
+    <div style="background:var(--s3);border-radius:4px;padding:8px 6px;text-align:center"><div style="font-size:13px;font-weight:800;color:var(--rd);font-family:'JetBrains Mono',monospace">227K</div><div style="font-size:9px;color:var(--tx3);font-family:'JetBrains Mono',monospace">.cfd · 23.9%</div><div style="height:3px;background:rgba(255,255,255,.05);border-radius:2px;margin-top:4px"><div style="width:100%;height:3px;background:var(--rd);border-radius:2px"></div></div></div>
+    <div style="background:var(--s3);border-radius:4px;padding:8px 6px;text-align:center"><div style="font-size:13px;font-weight:800;color:var(--or);font-family:'JetBrains Mono',monospace">66K</div><div style="font-size:9px;color:var(--tx3);font-family:'JetBrains Mono',monospace">.icu · 6.8%</div><div style="height:3px;background:rgba(255,255,255,.05);border-radius:2px;margin-top:4px"><div style="width:34%;height:3px;background:var(--or);border-radius:2px"></div></div></div>
+    <div style="background:var(--s3);border-radius:4px;padding:8px 6px;text-align:center"><div style="font-size:13px;font-weight:800;color:var(--or);font-family:'JetBrains Mono',monospace">60K</div><div style="font-size:9px;color:var(--tx3);font-family:'JetBrains Mono',monospace">.cyou · 7.9%</div><div style="height:3px;background:rgba(255,255,255,.05);border-radius:2px;margin-top:4px"><div style="width:40%;height:3px;background:var(--or);border-radius:2px"></div></div></div>
+    <div style="background:var(--s3);border-radius:4px;padding:8px 6px;text-align:center"><div style="font-size:13px;font-weight:800;color:var(--or);font-family:'JetBrains Mono',monospace">39K</div><div style="font-size:9px;color:var(--tx3);font-family:'JetBrains Mono',monospace">.buzz · 19.0%</div><div style="height:3px;background:rgba(255,255,255,.05);border-radius:2px;margin-top:4px"><div style="width:96%;height:3px;background:var(--or);border-radius:2px"></div></div></div>
+    <div style="background:var(--s3);border-radius:4px;padding:8px 6px;text-align:center"><div style="font-size:13px;font-weight:800;color:var(--tx3);font-family:'JetBrains Mono',monospace">8K</div><div style="font-size:9px;color:var(--tx3);font-family:'JetBrains Mono',monospace">.bond · 0.6%</div><div style="height:3px;background:rgba(255,255,255,.05);border-radius:2px;margin-top:4px"><div style="width:3%;height:3px;background:var(--tx3);border-radius:2px"></div></div></div>
+    <div style="background:var(--s3);border-radius:4px;padding:8px 6px;text-align:center"><div style="font-size:13px;font-weight:800;color:var(--tx3);font-family:'JetBrains Mono',monospace">6K</div><div style="font-size:9px;color:var(--tx3);font-family:'JetBrains Mono',monospace">.qpon · 5.6%</div><div style="height:3px;background:rgba(255,255,255,.05);border-radius:2px;margin-top:4px"><div style="width:28%;height:3px;background:var(--tx3);border-radius:2px"></div></div></div>
+  </div>
+  <div style="font-size:10px;font-family:'JetBrains Mono',monospace;color:var(--tx3)">Source: NameSilo full portfolio extract · 2026-07-04</div>
+</div>
+
+<div class="sec"><h2>IP Clusters</h2><div class="ln"></div></div>
+<p class="sec-sub">Shared IPs extracted from zone data — coordinated bulk hosting infrastructure. Populated automatically from <code style="font-family:'JetBrains Mono',monospace;font-size:10px;padding:1px 4px;background:rgba(255,255,255,.05);border-radius:2px">data/ioc/shared_ips.json</code> on each daily fetch.</p>
+<div class="clg" id="clusters">
+  <div class="clcard" style="grid-column:1/-1"><div class="clhdr" style="justify-content:center"><span class="clfp" style="color:var(--tx3)">Populates after first daily fetch run — data pulled directly from NetAPI zone records.</span></div></div>
+</div>
+
+</div>
+
+<img class="divider" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" style="max-height:4px;display:block">
+
+<div class="wrap">
+
+<div class="sec"><h2>Methodology</h2><div class="ln"></div></div>
+<div class="panel"><div class="mc-grid">
+  <div class="mc cy"><div class="mct">Phase 1 — Zone Pull</div><div class="mcd"><strong>NetAPI</strong> active-zone pull per TLD. Fields: IP, country, registrant email, Majestic rank. Full zone enumeration — zero sampling. 6,231,825 records across all 7 zones.</div></div>
+  <div class="mc or"><div class="mct">Phase 2 — Brand Scan</div><div class="mcd">119 brand keyword patterns matched against all SLDs. Substring match for long keywords, word-boundary for short (≤3 chars). <strong>25,966</strong> unique brand-hit domains, 96 brands tracked.</div></div>
+  <div class="mc rd"><div class="mct">Phase 3 — IP Clustering</div><div class="mcd">Shared-IP analysis from zone records — same NetAPI pull. IP and country fields come directly from zone data. Top shared-IP clusters and serial registrant patterns exported automatically to <code style="font-size:9px;background:rgba(255,255,255,.05);padding:1px 3px;border-radius:2px">data/ioc/shared_ips.json</code> and <code style="font-size:9px;background:rgba(255,255,255,.05);padding:1px 3px;border-radius:2px">serial_registrants.json</code> on each daily fetch.</div></div>
+  <div class="mc gn"><div class="mct">Phase 4 — Legitimacy Survey</div><div class="mcd">Open challenge. Every submitted "legitimate" domain evaluated against 5 criteria. Current verified count: <strong id="method-legit">0</strong>. Submit counterexamples via GitHub issue.</div></div>
+</div></div>
+
+<div class="sec"><h2>Enforcement Levers</h2><div class="ln"></div></div>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:10px">
+  <div class="panel" style="border-top:3px solid var(--tx3)">
+    <div class="ptit">ICANN Registry Agreement</div>
+    <p style="font-size:12px;line-height:1.8;color:var(--tx2)">ShortDot operates under ICANN Registry Agreement — abuse mitigation required. Violations can result in <strong style="color:var(--tx)">termination of the right to operate TLD zones entirely</strong>.</p>
+  </div>
+  <div class="panel" style="border-top:3px solid var(--or)">
+    <div class="ptit">Luxembourg / FIU</div>
+    <p style="font-size:12px;line-height:1.8;color:var(--tx2)">ShortDot SA is a Luxembourg Société Anonyme. Luxembourg FIU (Cellule de Renseignement Financier) has jurisdiction. Collecting wholesale fees from confirmed fraud may constitute a reportable AML/CFT transaction.</p>
+  </div>
+  <div class="panel" style="border-top:3px solid var(--rd)">
+    <div class="ptit">Enforcement contacts</div>
+    <ul style="font-size:11px;line-height:2.2;color:var(--tx2);padding-left:14px">
+      <li><strong style="color:var(--cy)">ICANN Compliance</strong> — registry agreement</li>
+      <li><strong style="color:var(--cy)">Luxembourg FIU</strong> — AML referral</li>
+      <li><strong style="color:var(--cy)">Europol EC3</strong> — cross-border financial crime</li>
+      <li><strong style="color:var(--cy)">FBI IC3</strong> — US victims, wire fraud §1343</li>
+      <li><strong style="color:var(--cy)">FCA (UK)</strong> — if .cfd solicits UK investors</li>
+    </ul>
+  </div>
+</div>
+
+<div class="sec"><h2>Downloads &amp; Data</h2><div class="ln"></div></div>
+<div class="mirg">
+  <div class="mirc"><div class="ml">GitHub</div><a href="https://github.com/phishdestroy/shortdot-evidence">phishdestroy/shortdot-evidence</a></div>
+  <div class="mirc"><div class="ml">All Domains</div><a href="../data/all.txt">all.txt (6.2M)</a></div>
+  <div class="mirc"><div class="ml">Brand Hits</div><a href="../data/ioc/brand_all.txt">brand_all.txt (25,966)</a></div>
+  <div class="mirc"><div class="ml">HIGH IOC</div><a href="../ioc/domains_high.txt">domains_high.txt</a></div>
+  <div class="mirc"><div class="ml">SIEM CSV</div><a href="../ioc/indicators.csv">indicators.csv</a></div>
+  <div class="mirc"><div class="ml">Shared IPs</div><a href="../data/ioc/shared_ips.json">shared_ips.json</a></div>
+</div>
+
+<div class="sec"><h2>About PhishDestroy</h2><div class="ln"></div></div>
+<p class="sec-sub">Open-source, independent. Evidence packages for law enforcement, brand protection, and ICANN compliance — published, reproducible, censorhip-resistant.</p>
+<div class="about-grid">
+  <div class="about-card">
+    <h3>Who We Are</h3>
+    <p>PhishDestroy is an independent open-source research project. We collect, analyze, and publish evidence of systemic domain abuse. Our investigations target registry operators, backend providers, and ICANN-accredited registrars whose operational models enable abuse at scale — not individual phishing pages.</p>
+  </div>
+  <div class="about-card">
+    <h3>This Investigation</h3>
+    <p>ShortDot SA — covers all seven gTLD zones managed by ShortDot SA (Luxembourg) via CentralNic/Team Internet backend infrastructure. 6.2 million active domains. 70.4% phantom. $13.7M extracted annually from phishers and brand impersonators. Zero verified legitimate use cases on record.</p>
+  </div>
+  <div class="about-card">
+    <h3>Data Sources</h3>
+    <p>Evidence collected from live zone data via NetAPI (CZDS-equivalent), OSINT, registrar portfolio analysis, IP clustering, WHOIS extraction, and threat-intel feeds. All data is reproducible from public sources. Every claim in this report cites its source. No extrapolation — raw counts from full zone enumeration.</p>
+  </div>
+</div>
+
+</div>
+
+<div style="background:var(--s1);border-top:1px solid rgba(218,54,51,.25);border-bottom:1px solid rgba(218,54,51,.25);padding:48px 28px 44px">
+<div style="max-width:1100px;margin:0 auto">
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:28px">
+    <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#da3633;flex-shrink:0;animation:blink 1.4s step-end infinite"></span>
+    <span style="font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:rgba(218,54,51,.8);font-family:'JetBrains Mono',monospace">PhishDestroy / Statement</span>
+    <div style="flex:1;height:1px;background:rgba(218,54,51,.2)"></div>
+  </div>
+  <h2 style="font-size:26px;font-weight:300;line-height:1.25;letter-spacing:-.02em;color:#f0f6fc;max-width:820px;margin-bottom:28px">
+    The registry manufactures the attack surface.<br>
+    <strong style="font-weight:800;color:#da3633">The subsidiary sells protection against it. ICANN collects from both. None of this is an accident.</strong>
+  </h2>
+  <div style="display:grid;grid-template-columns:1fr 320px;gap:32px;align-items:start">
+    <div>
+      <p style="font-size:13px;line-height:1.85;color:var(--tx2);margin-bottom:16px">ShortDot SA operates seven generic top-level domains from Luxembourg via CentralNic/Team Internet infrastructure. Seven zones with near-zero legitimate adoption — populated instead by phishing pages, crypto drain panels, carding infrastructure, and 4.4 million phantom domains that serve no purpose except generating registration fee income. ShortDot collects wholesale from all of it. Malicious or not.</p>
+
+      <p style="font-size:13px;line-height:1.85;color:var(--tx2);margin-bottom:16px">The economics expose the intent. ShortDot paid $227,000 per zone application — non-refundable, paid to ICANN. Total entry cost: $1,589,000. That investment recovers only through volume: at $0.65/domain you need 2.4 million domains registered just to break even on application fees. The zones were not designed for legitimate use. They were designed for registration volume. <strong style="color:var(--tx)">Legitimacy was never a design criterion — it was a liability to be minimized.</strong> The zone names confirm this: .bond signals financial trust to phishing victims; .cfd is named after a leveraged financial derivative; .icu targets personal credentials. These names were not chosen for developers. They were chosen because they are credible to fraud targets.</p>
+
+      <p style="font-size:13px;line-height:1.85;color:var(--tx2);margin-bottom:16px">ICANN is not a passive bystander. ICANN collects $0.25 per domain per year from every ShortDot zone — from every .icu phishing page, every .bond credential harvester, every .cfd fake investment platform, and every one of the 4,387,385 phantom domains that serves no function except generating fee income. ICANN also received $1,589,000 in application fees and collects $180,600/year in fixed zone fees. <strong style="color:var(--tx)">The regulator earns $1.74M annually from zones it is contractually obligated to police.</strong> Terminating ShortDot for abuse would cost ICANN $1.74M/year in recurring revenue. This is structural capture, not negligence. ICANN cannot enforce without forfeiting its own revenue stream.</p>
+
+      <p style="font-size:13px;line-height:1.85;color:var(--tx2);margin-bottom:16px">NameBlock is not surprising. NameBlock — a ShortDot venture — sells brand protection services: blocking brand names from being registered in the zones ShortDot controls. JPMorgan Chase pays NameBlock to protect <code style="font-family:'JetBrains Mono',monospace;font-size:11px;padding:1px 4px;background:rgba(255,255,255,.06);border-radius:2px">chase.*</code> from being registered as a phishing domain. This is the second profit leg on the same asset. ShortDot collects wholesale when phishers register brand domains. ShortDot collects wholesale again when brands pay to defensively block them. NameBlock collects the service margin on top. <strong style="color:var(--tx)">The entity that manufactured the threat is paid twice to manage it.</strong> The fact that NameBlock was established before these zones reached abuse scale at all indicates this was the plan — not a response to abuse, but preparation for it.</p>
+
+      <p style="font-size:13px;line-height:1.85;color:var(--tx2)">This investigation asks three questions ICANN should have asked before delegating these zones: <strong style="color:#da3633">Who is the natural legitimate user of .icu, .sbs, .cfd, and .cyou? What purpose requires a dedicated TLD that .com or .net cannot serve? And if the answer is "no one with a legitimate business," why is ICANN collecting $1.74M per year from zones that exist to harvest registration revenue from phishing infrastructure — and why has enforcement not followed?</strong></p>
+    </div>
+    <div>
+      <div class="panel" style="border:1px solid rgba(218,54,51,.25);margin-bottom:12px">
+        <div class="ptit" style="color:var(--rd)">Five Questions for ShortDot</div>
+        <ol style="font-size:12px;line-height:2;color:var(--tx2);padding-left:16px">
+          <li>Who buys hundreds of thousands of .sbs and .cfd domains through a single named registrar partner and never activates them?</li>
+          <li>Was NameBlock conceived before or after zone launch — and when was the brand protection revenue model modeled?</li>
+          <li>Did ShortDot coordinate with NameSilo around the April 2024 .sbs/.cfd acquisitions?</li>
+          <li>What share of NameBlock revenue comes from brands threatened by domains registered in ShortDot's own zones?</li>
+          <li>Name ten verified legitimate businesses using ShortDot TLDs as their primary operational domain.</li>
+        </ol>
+      </div>
+      <div class="panel" style="border:1px solid rgba(218,54,51,.25);margin-bottom:12px">
+        <div class="ptit" style="color:var(--vi)">Five Questions for ICANN</div>
+        <ol style="font-size:12px;line-height:2;color:var(--tx2);padding-left:16px">
+          <li>At what abuse rate does ICANN trigger registry agreement enforcement — and why has 70% phantom not triggered it?</li>
+          <li>Did ICANN model the conflict of interest in collecting volume fees from zones it must also police?</li>
+          <li>Why were .sbs and .cfd delegated to ShortDot — an operator with a documented abuse track record on .icu?</li>
+          <li>What is ICANN's policy on registry operators launching brand-protection subsidiaries in their own zones?</li>
+          <li>Will ICANN publish its internal enforcement communications on ShortDot complaints received to date?</li>
+        </ol>
+      </div>
+      <div class="panel" style="border:1px solid rgba(139,92,246,.2)">
+        <div class="ptit" style="color:var(--vi)">What Needs to Happen</div>
+        <ul style="font-size:11px;line-height:2.1;color:var(--tx2);padding-left:14px">
+          <li>ICANN RevShare termination for zones with &gt;60% phantom rate</li>
+          <li>.sbs and .cfd delegation reviewed — both acquired April 2024, both immediately dominated by a single registrar</li>
+          <li>NameBlock investigated as vertical integration: registry operator selling protection against abuse in its own zones</li>
+          <li>ICANN Contractual Compliance: mandatory abuse rate reporting + automatic enforcement triggers</li>
+          <li>Luxembourg FIU referral for AML review of wholesale fee flows from confirmed fraud zones</li>
+          <li>Europol EC3 referral: cross-border financial crime, victim losses from phishing in ShortDot zones</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<footer>
+  PhishDestroy · ShortDot SA Zone Evidence · TLP:CLEAR · MIT ·
+  <a href="https://github.com/phishdestroy/shortdot-evidence">GitHub</a> ·
+  Related: <a href="https://github.com/phishdestroy/namesilo-evidence">NameSilo Investigation</a> ·
+  <a href="https://github.com/phishdestroy/nicenic-evidence">NICENIC Investigation</a> ·
+  Updated: <span id="footer-date">2026-07-04</span>
+</footer>
+
+<script>
+(function(){
+
+/* ── Revenue tickers ── */
+var SHORTDOT_ANNUAL = 12559037;
+var ICANN_ANNUAL    = 1738556;
+var COMBINED_ANNUAL = SHORTDOT_ANNUAL + ICANN_ANNUAL;
+var EPOCH = new Date('2026-01-01T00:00:00Z').getTime();
+var SD_PER_MS = SHORTDOT_ANNUAL / 365 / 86400 / 1000;
+var IC_PER_MS = ICANN_ANNUAL    / 365 / 86400 / 1000;
+var CO_PER_MS = COMBINED_ANNUAL / 365 / 86400 / 1000;
+function tick(){
+  var now = Date.now();
+  var elapsed = now - EPOCH;
+  var el1 = document.getElementById('revenue-ticker');
+  var el2 = document.getElementById('icann-ticker');
+  var el3 = document.getElementById('combined-ticker');
+  if(el1) el1.textContent = '$' + Math.floor(elapsed * SD_PER_MS).toLocaleString();
+  if(el2) el2.textContent = '$' + Math.floor(elapsed * IC_PER_MS).toLocaleString();
+  if(el3) el3.textContent = '$' + Math.floor(elapsed * CO_PER_MS).toLocaleString();
+  requestAnimationFrame(tick);
+}
+tick();
+
+/* ── KPI progress bars (phantom 70.4%, brand relative) ── */
+(function(){
+  var fired = false;
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(!e.isIntersecting || fired) return;
+      fired = true;
+      setTimeout(function(){
+        var pb = document.getElementById('phantom-bar');
+        if(pb) pb.style.width = '70.4%';
+        var bb = document.getElementById('brand-bar');
+        if(bb) bb.style.width = '100%';
+      }, 300);
+    });
+  }, {threshold: 0.3});
+  var row = document.querySelector('.kpi-row');
+  if(row) io.observe(row);
+})();
+
+/* ── CountUp ── */
+function countUp(el,target,opts){
+  var o=opts||{},pre=o.pre||'',suf=o.suf||'',dur=o.dur||1100,start=Date.now();
+  function step(){
+    var p=Math.min(1,(Date.now()-start)/dur),e=p<1?1-Math.pow(1-p,3):1;
+    var v=Math.round(target*e);
+    el.textContent=pre+(v>=1000?v.toLocaleString():v)+suf;
+    if(p<1)requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+
+/* ── CountUp observer — targets .kpi .n with data-target ── */
+(function(){
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(!en.isIntersecting)return;
+      var el=en.target,raw=el.getAttribute('data-target');
+      if(!raw)return;
+      io.unobserve(el);
+      var pre='',suf='',n=raw;
+      if(raw[0]==='$'){pre='$';n=raw.slice(1);}
+      if(raw.slice(-1)==='%'){suf='%';n=raw.slice(0,-1);}
+      countUp(el,parseFloat(n.replace(/,/g,'')),{pre:pre,suf:suf});
+    });
+  },{threshold:.2});
+  document.querySelectorAll('.kpi .n[data-target], .bignums .n[data-target]').forEach(function(el){
+    io.observe(el);
+  });
+})();
+
+/* ── Scroll reveal ── */
+(function(){
+  var io=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting)e.target.classList.add('in');});},{threshold:.08});
+  document.querySelectorAll('.panel,.hcard,.clcard,.bcard,.rf-step,.kpi-row,.about-card').forEach(function(el){el.classList.add('reveal');io.observe(el);});
+})();
+
+/* ── Donut chart ── */
+function drawDonut(alive, dead, total){
+  var canvas=document.getElementById('donut');
+  if(!canvas||!canvas.getContext)return;
+  var ctx=canvas.getContext('2d');
+  var pending=total-alive-dead;if(pending<0)pending=0;
+  var slices=[
+    {v:alive,  color:'#3fb950'},
+    {v:dead,   color:'#da3633'},
+    {v:pending,color:'#484f58'}
+  ];
+  var sum=slices.reduce(function(a,b){return a+b.v;},0)||1;
+  var start=-Math.PI/2,cx=55,cy=55,ro=48,ri=30;
+  ctx.clearRect(0,0,110,110);
+  slices.forEach(function(sl){
+    if(!sl.v)return;
+    var angle=sl.v/sum*Math.PI*2;
+    ctx.beginPath();ctx.moveTo(cx,cy);
+    ctx.arc(cx,cy,ro,start,start+angle);
+    ctx.closePath();ctx.fillStyle=sl.color;ctx.fill();
+    start+=angle;
+  });
+  ctx.beginPath();ctx.arc(cx,cy,ri,0,Math.PI*2);
+  ctx.fillStyle='#000';ctx.fill();
+}
+/* Draw with hardcoded values immediately, data.json will update */
+drawDonut(1844440, 4387385, 6231825);
+
+/* ── Zone bars ── */
+function buildZoneBars(tld){
+  var el=document.getElementById('zonebars');if(!el)return;
+  var entries=Object.entries(tld).sort(function(a,b){return b[1].count-a[1].count;});
+  if(!entries.length){el.innerHTML='<p style="color:var(--tx3);font-size:11px">No zone data</p>';return;}
+  var max=entries[0][1].count||1;
+  el.innerHTML=entries.map(function(e){
+    var name=e[0],z=e[1];
+    var pct=Math.round(z.count/max*100);
+    var dpct=z.count?Math.round((z.deployed/z.count)*100):0;
+    return '<div style="margin-bottom:10px">'
+      +'<div style="display:flex;justify-content:space-between;font-size:10px;font-family:\'JetBrains Mono\',monospace;margin-bottom:3px">'
+      +'<span style="color:var(--cy)">.' + name + '</span>'
+      +'<span style="color:var(--tx2)">'+z.count.toLocaleString()+' <span style="color:var(--tx3)">('+dpct+'% live)</span></span>'
+      +'</div>'
+      +'<div style="height:6px;background:rgba(255,255,255,.06);border-radius:3px;overflow:hidden">'
+      +'<div style="height:100%;width:'+pct+'%;background:linear-gradient(90deg,var(--cy),var(--rd));border-radius:3px"></div>'
+      +'</div></div>';
+  }).join('');
+}
+
+/* ── Registration chart ── */
+var _ci=null,_cd=null,_view='daily',_range='all';
+var _REPO='https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/';
+
+function showView(v){
+  _view=v;
+  ['daily','monthly'].forEach(function(x){
+    var b=document.getElementById('btn-'+x);if(!b)return;
+    var a=x===v;
+    b.classList.toggle('active',a);b.classList.toggle('ghost',!a);
+  });
+  if(_cd)_buildChart();
+}
+function showRange(r){
+  _range=r;
+  ['1y','3y','all'].forEach(function(x){
+    var b=document.getElementById('btn-'+x);if(!b)return;
+    var a=x===r.toLowerCase();
+    b.classList.toggle('active',a);b.classList.toggle('ghost',!a);
+  });
+  if(_cd)_buildChart();
+}
+window.showView=showView;
+window.showRange=showRange;
+
+function _buildChart(){
+  var days=(_cd.daily||_cd.days||[]);
+  if(_range!=='all'){
+    var y=parseInt(_range),co=new Date();co.setFullYear(co.getFullYear()-y);
+    var cs=co.toISOString().slice(0,10);
+    days=days.filter(function(d){return d.date>=cs;});
+  }
+  var labels,counts,paths;
+  if(_view==='monthly'){
+    var mb={};days.forEach(function(d){var m=d.date.slice(0,7);mb[m]=(mb[m]||0)+d.count;});
+    var months=Object.keys(mb).sort();labels=months;counts=months.map(function(m){return mb[m];});paths=null;
+  } else {
+    labels=days.map(function(d){return d.date;});counts=days.map(function(d){return d.count;});paths=days;
+  }
+  var empty=document.getElementById('reg-chart-empty');
+  if(!counts.length){if(empty)empty.style.display='flex';return;}
+  if(empty)empty.style.display='none';
+  var mx=Math.max.apply(null,counts)||1;
+  var cols=counts.map(function(c){var t=c/mx;return'rgba('+(Math.round(110+t*108))+','+(Math.round(168-t*114))+','+(Math.round(215-t*164))+',0.75)';});
+  if(_ci)_ci.destroy();
+  var ctx=document.getElementById('reg-chart').getContext('2d');
+  _ci=new Chart(ctx,{type:'bar',data:{labels:labels,datasets:[{data:counts,backgroundColor:cols,borderRadius:2,borderSkipped:false}]},
+  options:{responsive:true,maintainAspectRatio:false,
+  plugins:{legend:{display:false},tooltip:{callbacks:{title:function(i){return i[0].label;},label:function(i){return i.raw.toLocaleString()+' domains';}},backgroundColor:'rgba(7,11,18,.95)',titleColor:'#f0f6fc',bodyColor:'#8b949e',borderColor:'rgba(255,255,255,.08)',borderWidth:1}},
+  scales:{x:{ticks:{display:labels.length<60,color:'#484f58',font:{size:9}},grid:{color:'rgba(255,255,255,.04)'},border:{color:'rgba(255,255,255,.08)'}},y:{ticks:{color:'#484f58',font:{size:9}},grid:{color:'rgba(255,255,255,.04)'},border:{color:'rgba(255,255,255,.08)'}}},
+  onClick:function(e,els){if(!els.length||!paths)return;var d=paths[els[0].index];if(d&&d.path)window.open(_REPO+d.path,'_blank');},
+  onHover:function(e,els){document.getElementById('reg-chart').style.cursor=els.length&&paths?'pointer':'default';var tip=document.getElementById('chart-tip');if(els.length&&paths&&paths[els[0].index]){var d=paths[els[0].index];tip.textContent=d.date+' — '+d.count.toLocaleString()+' new domains  ↓ click to download';}else{tip.textContent='';}}
+  }});
+}
+
+/* ── Helpers ── */
+function setText(id,v){var e=document.getElementById(id);if(e)e.textContent=v;}
+function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+/* ── IP labels for cluster cards ── */
+var IP_LABELS={
+  '188.114.97.3':'Cloudflare parking · US',
+  '188.114.96.3':'Cloudflare parking · US',
+  '64.190.63.222':'Domain parking · US',
+  '91.195.240.123':'Namecheap · US',
+  '91.195.240.19':'Namecheap · US',
+  '172.234.199.15':'Linode/Akamai · US',
+  '172.237.145.27':'Linode/Akamai · US',
+  '172.233.221.214':'Linode/Akamai · US',
+  '172.65.211.209':'Cloudflare · US',
+};
+
+function buildClusters(clusters){
+  var el=document.getElementById('clusters');if(!el||!clusters.length)return;
+  var good=clusters.filter(function(c){return c.count>1000 && c.category!=='SERIAL_REG';});
+  if(!good.length)return;
+  el.innerHTML='';
+  good.slice(0,9).forEach(function(c){
+    var lbl=IP_LABELS[c.key]||c.label||'';
+    lbl=lbl.replace('shared_ip · ?','').replace('shared_ip · ','').trim()||'shared hosting';
+    var badgeCls=c.category==='SERIAL_REG'?'eb-m':'eb-r';
+    var badgeTxt=c.category==='SERIAL_REG'?'serial_reg':'shared_ip';
+    var div=document.createElement('div');div.className='clcard';
+    var hdr='<div class="clhdr">'
+      +'<span class="clcnt">'+esc((c.count||0).toLocaleString())+'</span>'
+      +'<span class="ebadge '+badgeCls+'">'+badgeTxt+'</span>'
+      +'<span class="clfp">'+esc(c.key)+' — '+esc(lbl)+'</span>'
+      +'</div>';
+    var doms='<div class="cldoms">'+(c.domains||[]).slice(0,8).map(function(x){return '<span class="cld">'+esc(x)+'</span>';}).join('')+'</div>';
+    div.innerHTML=hdr+doms;
+    el.appendChild(div);
+  });
+}
+
+/* ── Brand grid ── */
+var ALL_BRANDS=[], ACTIVE_CAT='all';
+var CAT_COLORS={banking:'da3633',crypto:'8b5cf6',payment:'c0a060',tech:'6ea8d7',social:'3fb950',gov:'484f58',logistics:'6ea8d7',ecommerce:'6ea8d7',phish_infra:'da3633'};
+
+function buildBrandGrid(brands){
+  ALL_BRANDS=brands;
+  renderBrands();
+}
+
+function filterBrand(btn, cat){
+  document.querySelectorAll('.brand-tabs .btn').forEach(function(b){b.classList.remove('red');b.classList.add('ghost');});
+  btn.classList.remove('ghost');btn.classList.add('red');
+  ACTIVE_CAT=cat;
+  renderBrands();
+}
+window.filterBrand=filterBrand;
+
+function renderBrands(){
+  var el=document.getElementById('brand-grid');if(!el)return;
+  var list=ACTIVE_CAT==='all'?ALL_BRANDS:ALL_BRANDS.filter(function(b){
+    if(ACTIVE_CAT==='gov') return b.category==='gov'||b.category==='logistics';
+    return b.category===ACTIVE_CAT;
+  });
+  if(!list.length){el.innerHTML='<p style="font-size:11px;color:var(--tx3);grid-column:1/-1">No entries for this filter.</p>';return;}
+  var max=Math.max.apply(null,list.map(function(b){return b.count||0;}));
+  el.innerHTML=list.map(function(b){
+    var col=CAT_COLORS[b.category||'']||'484f58';
+    var pct=Math.round((b.count||0)/max*100);
+    var samples=(b.sample||[]).slice(0,3).map(function(d){return '<code>'+esc(d)+'</code>';}).join(' ');
+    return '<div class="bcard" style="border-top-color:#'+col+'">'
+      +'<div class="bcard-name">'+esc(b.brand)+'</div>'
+      +'<div class="bcard-row"><div class="bcard-n" style="color:#'+col+'">'+(b.count||0).toLocaleString()+'</div>'
+      +'<div class="bcard-bar-wrap"><div class="bcard-bar" style="width:'+pct+'%;background:#'+col+'"></div></div></div>'
+      +'<div class="bcard-samples">'+samples+'</div></div>';
+  }).join('');
+}
+
+/* ── Daily feed ── */
+function buildDailyFeed(days){
+  var tbody=document.getElementById('daily-tbody');if(!tbody)return;
+  if(!days.length){
+    tbody.innerHTML='<tr><td colspan="5" style="color:var(--tx3);text-align:center;padding:16px">No daily data yet — runs after first GitHub Actions fetch.</td></tr>';
+    return;
+  }
+  tbody.innerHTML=days.slice(0,30).map(function(d){
+    var rev=d.revenue_wholesale?'$'+Number(d.revenue_wholesale).toLocaleString(undefined,{minimumFractionDigits:0,maximumFractionDigits:0}):'—';
+    var icann=d.icann_fees?'$'+Number(d.icann_fees).toLocaleString(undefined,{minimumFractionDigits:0,maximumFractionDigits:0}):'—';
+    var path=d.path||('data/new/'+esc(d.date||'').slice(0,4)+'/'+esc(d.date||'').slice(5,7)+'/'+esc(d.date||'')+'.txt');
+    var dlLink=path?'<a href="../'+esc(path)+'" style="color:var(--cy);font-family:\'JetBrains Mono\',monospace;font-size:10px">'+esc(d.date||'')+'.txt ↓</a>':'—';
+    return '<tr>'
+      +'<td class="dom">'+esc(d.date||'')+'</td>'
+      +'<td style="color:var(--rd);font-weight:700">'+Number(d.count||0).toLocaleString()+'</td>'
+      +'<td style="color:var(--or)">'+rev+'</td>'
+      +'<td style="color:var(--tx3)">'+icann+'</td>'
+      +'<td>'+dlLink+'</td>'
+      +'</tr>';
+  }).join('');
+}
+
+/* ── Bar chart ── */
+function buildBarChart(cats){
+  var el=document.getElementById('barchart');if(!el)return;
+  var items=[
+    ['BRAND_IMPERSONATION','Brand Impersonation','8b5cf6'],
+    ['PHISHING_FINANCE','Phish Finance','da3633'],
+    ['PHISHING_CRYPTO','Phish Crypto','da3633'],
+    ['CRYPTO_DRAIN','Crypto Drain','da3633'],
+    ['CARDING','Carding','da3633'],
+    ['INVEST_FRAUD','Invest Fraud','c0a060'],
+    ['MALWARE_DIST','Malware','c0a060'],
+    ['GAMBLING','Gambling','c0a060'],
+  ];
+  var max=Math.max.apply(null,items.map(function(i){return cats[i[0]]||0;}));if(!max)return;
+  var html='';
+  items.forEach(function(i){
+    var n=cats[i[0]]||0;if(!n)return;
+    var pct=Math.round(n/max*100);
+    html+='<div style="display:flex;align-items:center;gap:8px;margin-bottom:5px;font-size:10px;font-family:\'JetBrains Mono\',monospace">'
+      +'<div style="width:120px;color:#8b949e;text-align:right;flex-shrink:0">'+i[1]+'</div>'
+      +'<div style="flex:1;height:12px;background:#111720;border-radius:2px;overflow:hidden">'
+      +'<div style="width:'+pct+'%;height:100%;background:#'+i[2]+';border-radius:2px"></div></div>'
+      +'<div style="width:40px;text-align:right;color:#'+i[2]+'">'+n.toLocaleString()+'</div></div>';
+  });
+  el.innerHTML=html||'<p style="font-size:11px;color:#484f58">After first fetch run.</p>';
+}
+
+/* ── High severity table ── */
+function buildHighTable(domains){
+  var tbody=document.getElementById('high-tbody');if(!tbody)return;
+  var high=domains.filter(function(d){return (d.severity||'').toUpperCase()==='HIGH' && d.category!=='BRAND_IMPERSONATION';});
+  if(!high.length)return;
+  tbody.innerHTML='';
+  high.slice(0,15).forEach(function(d){
+    var tr=document.createElement('tr');
+    var cc=(d.category||'').indexOf('PHISHING')>=0||(d.category||'').indexOf('DRAIN')>=0?'cat-r':'cat-o';
+    tr.innerHTML='<td class="dom">'+esc(d.domain)+'</td><td>.'+esc(d.tld||'')+'</td><td class="'+cc+'">'+esc(d.category||'')+'</td><td>'+esc(d.notes||'')+'</td>';
+    tbody.appendChild(tr);
+  });
+}
+
+/* ── Burst registration days ── */
+function buildBurstBars(burst){
+  var el=document.getElementById('burst-bars');if(!el||!burst.length)return;
+  var max=burst[0].count||1;
+  el.innerHTML='<div class="hbar-grid">'+burst.slice(0,10).map(function(b){
+    var pct=Math.round(b.count/max*100);
+    var col=b.x_avg>=5?'var(--rd)':b.x_avg>=2?'var(--or)':'var(--cy)';
+    var flag=b.x_avg>=5?' ⚠':b.x_avg>=2?' 🔥':'';
+    return '<div class="hbar-row">'
+      +'<div class="hbar-lbl">'+esc(b.date)+'</div>'
+      +'<div class="hbar-wrap"><div class="hbar-fill" style="width:'+pct+'%;background:'+col+'"></div></div>'
+      +'<div class="hbar-val" style="color:'+col+'">'+Number(b.count).toLocaleString()+'</div>'
+      +'<div class="hbar-note">'+b.x_avg+'×'+flag+'</div>'
+      +'</div>';
+  }).join('')+'</div>';
+}
+
+/* ── Hosting geography ── */
+function buildGeoBars(countries){
+  var el=document.getElementById('geo-bars');if(!el)return;
+  var entries=Object.entries(countries).sort(function(a,b){return b[1]-a[1];});
+  if(!entries.length)return;
+  var max=entries[0][1]||1;
+  var total=entries.reduce(function(a,b){return a+b[1];},0)||1;
+  el.innerHTML='<div class="hbar-grid">'+entries.slice(0,12).map(function(e){
+    var pct=Math.round(e[1]/max*100);
+    var rp=(e[1]/total*100).toFixed(1);
+    return '<div class="hbar-row">'
+      +'<div class="hbar-lbl">'+(e[0]||'??')+'</div>'
+      +'<div class="hbar-wrap"><div class="hbar-fill" style="width:'+pct+'%;background:var(--cy)"></div></div>'
+      +'<div class="hbar-val">'+Number(e[1]).toLocaleString()+'</div>'
+      +'<div class="hbar-note">'+rp+'%</div>'
+      +'</div>';
+  }).join('')+'</div>';
+}
+
+/* ── Brand keyword heatmap ── */
+function buildKwHeatmap(hmap){
+  var el=document.getElementById('kw-heatmap');if(!el)return;
+  var entries=Object.entries(hmap).sort(function(a,b){return b[1]-a[1];});
+  if(!entries.length)return;
+  var max=entries[0][1]||1;
+  var CRYPTO=/wallet|metamask|coinbase|crypto|defi|airdrop|ledger|trezor|ethereum|bitcoin|drain|token|nft|web3/;
+  var FINANCE=/chase|bofa|citi|wells|paypal|stripe|amex|visa|invest|trading|cfd|capital|profit/;
+  el.innerHTML='<div class="hbar-grid">'+entries.slice(0,20).map(function(e){
+    var pct=Math.round(e[1]/max*100);
+    var col=CRYPTO.test(e[0])?'var(--vi)':FINANCE.test(e[0])?'var(--rd)':'var(--or)';
+    return '<div class="hbar-row">'
+      +'<div class="hbar-lbl" style="color:'+col+'">'+esc(e[0])+'</div>'
+      +'<div class="hbar-wrap"><div class="hbar-fill" style="width:'+pct+'%;background:'+col+'"></div></div>'
+      +'<div class="hbar-val" style="color:'+col+'">'+Number(e[1]).toLocaleString()+'</div>'
+      +'</div>';
+  }).join('')+'</div>';
+}
+
+/* ── Load data.json ── */
+fetch('data.json').then(function(r){return r.json();}).then(function(d){
+  var s = d.stats || {};
+
+  if(s.total)            setText('stat-total',  s.total.toLocaleString());
+  if(s.dead)             setText('stat-phantom', s.dead.toLocaleString());
+  if(s.shortdot_revenue) setText('stat-rev',    '$'+Math.round(s.shortdot_revenue).toLocaleString());
+  if(s.icann_fees)       setText('stat-icann',  '$'+Math.round(s.icann_fees).toLocaleString());
+  setText('stat-legit',   s.legit_count||0);
+  setText('method-legit', s.legit_count||0);
+  setText('footer-date',  (d.generated||'').split(' ')[0]||'2026-07-04');
+
+  /* ── Update live ticker rates from real data ── */
+  if(s.shortdot_revenue && s.total){
+    var sdAnn = s.shortdot_revenue;
+    var icAnn = (s.icann_volume_annual || s.total * 0.25) + (s.icann_zone_annual || 180600);
+    var coAnn = sdAnn + icAnn;
+    SD_PER_MS = sdAnn / 365 / 86400 / 1000;
+    IC_PER_MS = icAnn / 365 / 86400 / 1000;
+    CO_PER_MS = coAnn / 365 / 86400 / 1000;
+    var _fR = function(n){ return '$' + Math.round(n).toLocaleString(); };
+    document.querySelectorAll('.sd-day').forEach(function(e){e.textContent=_fR(sdAnn/365);});
+    document.querySelectorAll('.sd-hr' ).forEach(function(e){e.textContent=_fR(sdAnn/365/24);});
+    document.querySelectorAll('.sd-min').forEach(function(e){e.textContent=_fR(sdAnn/365/1440);});
+    document.querySelectorAll('.ic-day').forEach(function(e){e.textContent=_fR(icAnn/365);});
+    document.querySelectorAll('.ic-hr' ).forEach(function(e){e.textContent=_fR(icAnn/365/24);});
+    document.querySelectorAll('.ic-min').forEach(function(e){e.textContent=_fR(icAnn/365/1440);});
+    document.querySelectorAll('.co-day').forEach(function(e){e.textContent=_fR(coAnn/365);});
+    document.querySelectorAll('.co-hr' ).forEach(function(e){e.textContent=_fR(coAnn/365/24);});
+    document.querySelectorAll('.co-sec').forEach(function(e){e.textContent='$'+(coAnn/365/86400).toFixed(3);});
+  }
+
+  var cats = s.categories||{};
+  setText('c-phish-finance', (cats['PHISHING_FINANCE']||0)||'—');
+  setText('c-phish-crypto',  (cats['PHISHING_CRYPTO'] ||0)||'—');
+  setText('c-drain',         (cats['CRYPTO_DRAIN']    ||0)||'—');
+  setText('c-carding',       (cats['CARDING']         ||0)||'—');
+  setText('c-invest',        (cats['INVEST_FRAUD']    ||0)||'—');
+  setText('c-malware',       (cats['MALWARE_DIST']    ||0)||'—');
+  setText('c-gambling',      (cats['GAMBLING']        ||0)||'—');
+  var brandIoc = cats['BRAND_IMPERSONATION']||0;
+  if(brandIoc) setText('c-brand-ioc', brandIoc.toLocaleString());
+  var totalIoc = Object.values(cats).reduce(function(a,b){return a+(b||0);},0);
+  if(totalIoc) setText('c-total-ioc', totalIoc.toLocaleString());
+  if(s.legit_count !== undefined) setText('c-legit', s.legit_count||0);
+
+  /* Redraw donut with live data */
+  if(s.alive||s.dead){
+    drawDonut(s.alive||1844440, s.dead||4387385, s.total||6231825);
+  }
+
+  /* Zone bars */
+  if(s.tld_breakdown){
+    buildZoneBars(s.tld_breakdown);
+  }
+
+  buildBarChart(cats);
+  buildHighTable(d.domains||[]);
+  buildClusters(d.clusters||[]);
+  if(d.brand && d.brand.top_brands) buildBrandGrid(d.brand.top_brands);
+  buildDailyFeed(d.daily||[]);
+  _cd=d; _buildChart();
+
+  /* ── New analytics sections ── */
+  if(s.burst_days && s.burst_days.length)          buildBurstBars(s.burst_days);
+  if(s.ip_countries && Object.keys(s.ip_countries).length) buildGeoBars(s.ip_countries);
+  if(s.brand_heatmap && Object.keys(s.brand_heatmap).length) buildKwHeatmap(s.brand_heatmap);
+
+}).catch(function(){
+  /* Fallback: draw zone bars from hardcoded data */
+  buildZoneBars({
+    icu:  {count:971649,  deployed:282876,  no_ip:688773},
+    bond: {count:1327512, deployed:105362,  no_ip:1222150},
+    cyou: {count:753652,  deployed:266942,  no_ip:486710},
+    sbs:  {count:1911124, deployed:594002,  no_ip:1317122},
+    cfd:  {count:950551,  deployed:406434,  no_ip:544117},
+    buzz: {count:207109,  deployed:126319,  no_ip:80790},
+    qpon: {count:110228,  deployed:62505,   no_ip:47723}
+  });
+});
+
+})();
+</script>
+</body>
+</html>

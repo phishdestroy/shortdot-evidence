@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "label": "phantom no-IP",
+  "message": "70.4%",
+  "color": "critical",
+  "style": "flat-square"
+}
