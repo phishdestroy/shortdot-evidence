@@ -680,18 +680,46 @@ if _readme_path.exists():
 
     _parts.append('### 📥 Download Threat Intelligence')
     _parts.append('')
+    _parts.append('**Full zone files (all domains per TLD):**')
+    _parts.append('')
+    _parts.append('| TLD | All domains | Deployed (+IP) | Phantom (no IP) |')
+    _parts.append('|:--|:--|:--|:--|')
+    for _tld, _info in tld_stats.items():
+        _cnt = f"{_info['count']:,}"
+        _dep = f"{_info['deployed']:,}"
+        _nip = f"{_info['no_ip']:,}"
+        _parts.append(
+            f'| `.{_tld}` '
+            f'| [data/by_tld/{_tld}.txt](data/by_tld/{_tld}.txt) {_cnt} '
+            f'| [deployed/{_tld}.txt](data/ioc/deployed/{_tld}.txt) {_dep} '
+            f'| [phantom/{_tld}.txt](data/ioc/phantom/{_tld}.txt) {_nip} |'
+        )
+    _parts.append(
+        f'| **All zones** | — '
+        f'| [deployed_all.txt](data/ioc/deployed_all.txt) {deployed_count:,} '
+        f'| [phantom_all.txt](data/ioc/phantom_all.txt) {no_ip_count:,} |'
+    )
+    _parts.append('')
+    _parts.append('**IOC & blocklists:**')
+    _parts.append('')
     _parts.append('| File | Format | Description |')
     _parts.append('|:--|:--:|:--|')
-    _parts.append('| [`data/all.txt`](data/all.txt) | TXT | All tracked domains across all 7 zones |')
-    _parts.append('| [`data/index.json`](data/index.json) | JSON | Full analytics snapshot |')
-    _parts.append('| [`data/ioc/serial_registrants.json`](data/ioc/serial_registrants.json) | JSON | Repeat registrants + their domains |')
-    _parts.append('| [`data/ioc/shared_ips.json`](data/ioc/shared_ips.json) | JSON | Bulletproof hosting clusters |')
-    _parts.append('| [`data/ioc/brand_domains.json`](data/ioc/brand_domains.json) | JSON | Domains by targeted brand |')
-    _parts.append('| [`data/ioc/stix-bundle.json`](data/ioc/stix-bundle.json) | STIX 2.1 | MISP/OpenCTI ready bundle |')
-    _parts.append('| [`ioc/domains_confirmed.txt`](ioc/domains_confirmed.txt) | TXT | Feed-confirmed phishing (OpenPhish + URLHaus + PhishTank) |')
+    _parts.append('| [`ioc/domains_confirmed.txt`](ioc/domains_confirmed.txt) | TXT | Feed + intel confirmed phishing |')
     _parts.append('| [`ioc/domains_high.txt`](ioc/domains_high.txt) | TXT | HIGH severity (brand impersonation + feed hits) |')
     _parts.append('| [`ioc/domains_all_malicious.txt`](ioc/domains_all_malicious.txt) | TXT | All classified — all severity |')
-    _parts.append('| [`data/ioc/feed_confirmed.json`](data/ioc/feed_confirmed.json) | JSON | Per-domain feed source mapping |')
+    _parts.append('| [`ioc/indicators.csv`](ioc/indicators.csv) | CSV | Full IOC with TLD/category/severity/IP |')
+    _parts.append('')
+    _parts.append('**Analytics & structured data:**')
+    _parts.append('')
+    _parts.append('| File | Format | Description |')
+    _parts.append('|:--|:--:|:--|')
+    _parts.append('| [`data/index.json`](data/index.json) | JSON | Full analytics snapshot |')
+    _parts.append('| [`data/ioc/brand_domains.json`](data/ioc/brand_domains.json) | JSON | Domains by targeted brand |')
+    _parts.append('| [`data/ioc/serial_registrants.json`](data/ioc/serial_registrants.json) | JSON | Repeat registrants + their domains |')
+    _parts.append('| [`data/ioc/shared_ips.json`](data/ioc/shared_ips.json) | JSON | Bulletproof hosting clusters |')
+    _parts.append('| [`data/ioc/feed_confirmed.json`](data/ioc/feed_confirmed.json) | JSON | Per-domain phishing feed source mapping |')
+    _parts.append('| [`data/ioc/intel_results.json`](data/ioc/intel_results.json) | JSON | Spamhaus/SURBL/URLScan/OTX cross-ref results |')
+    _parts.append('| [`data/ioc/stix-bundle.json`](data/ioc/stix-bundle.json) | STIX 2.1 | MISP/OpenCTI ready bundle |')
     _parts.append('')
     _parts.append('> 📊 Live dashboard: Pages link at top · Updated daily 06:00 UTC')
     _parts.append('')

@@ -346,9 +346,10 @@ All domains in ShortDot's seven zones are enumerated daily from ICANN gTLD zone 
 ```
        ╭───────────────────╮      ╭───────────────────╮      ╭───────────────────╮
        │  1. Zone pull     │ ───▶ │  2. TI cross-ref  │ ───▶ │  3. Legitimacy    │
-       │  per-TLD (ICANN   │      │  Spamhaus / SURBL │      │  classification   │
-       │  public zone data)│      │  URLhaus / ThrFox │      │  human review     │
-       ╰───────────────────╯      ╰───────────────────╯      ╰───────────────────╯
+       │  per-TLD (ICANN   │      │  Spamhaus DBL     │      │  classification   │
+       │  public zone data)│      │  SURBL / URLScan  │      │  human review     │
+       ╰───────────────────╯      │  OTX + 8 feeds    │      ╰───────────────────╯
+                                  ╰───────────────────╯
 ```
 
 ### Legitimacy Classification
@@ -363,10 +364,25 @@ All domains in ShortDot's seven zones are enumerated daily from ICANN gTLD zone 
 
 ### Threat Intelligence Cross-Reference
 
-- **Spamhaus DBL** — spam / phishing / malware / botnet classification
-- **SURBL** — URI reputation
-- **URLhaus** (abuse.ch) — active malware distribution
-- **ThreatFox** (abuse.ch) — IOC database
+**DNS-based (no key required):**
+- **Spamhaus DBL** — spam / phishing / malware / botnet C&C classification
+- **SURBL multi** — corroborating multi-source signal
+
+**Feed cross-reference (phishing domains):**
+- **OpenPhish** — community phishing feed (hourly)
+- **URLhaus** (abuse.ch) — active malware distribution URLs
+- **PhishTank** — verified phishing submissions
+- **mitchellkrogza/Phishing.Database** — 300K+ active phishing domains (daily)
+- **Spam404 lists** — spam/phishing domain blacklist
+- **davidonzo/Threat-Intel** — Italian CERT-style feed
+- **hagezi dns-blocklists** — multi-source aggregation (pro tier)
+- **GlobalAntiScam.org** — scam domain blocklist
+
+**API-based (pre-scanned results):**
+- **URLScan.io** — per-TLD search for pre-scanned malicious pages
+- **AlienVault OTX** — domain pulse lookup (requires `OTX_API_KEY`)
+
+**Correlation:**
 - **PhishDestroy Destroylist** — correlation with main blocklist
 
 </details>
@@ -541,7 +557,7 @@ Step 6: ShortDot collects wholesale + NameBlock collects service fee
 Both profit from the same threat they created.
 ```
 
-> NameBlock is a separate Norwegian company (NameBlock AS). But ShortDot's COO (Kevin Kopas) sits on NameBlock's board while Lars Jensen is an investor — all seven ShortDot zones are enrolled in NameBlock's blocking marketplace. The entity whose principals created the attack surface (ShortDot) has board-level and investment stakes in the company selling protection from it (NameBlock). Insurance sold against a fire that the insurer's principals have a financial interest in not extinguishing.
+> NameBlock is a separate Norwegian company (NameBlock AS). But ShortDot's COO (Kevin Kopas) sits on NameBlock's board, and **Lars Jensen is Chairman (Styrets leder) of NameBlock AS** (brreg confirmed, sole signing authority) — all seven ShortDot zones are enrolled in NameBlock's blocking marketplace. The entity whose principals created the attack surface (ShortDot) has board-level and ownership-governance stakes in the company selling protection from it (NameBlock). Insurance sold against a fire that the insurer's principals have a financial interest in not extinguishing.
 
 </details>
 
@@ -752,7 +768,9 @@ shortdot-evidence/
 │   ├── domains_high.txt        HIGH severity (phishing/drain/carding)
 │   └── indicators.csv          Full IOC table
 ├── scan/
-│   └── fetch_new.py            Daily data pipeline (zone fetch → stats → README)
+│   ├── fetch_new.py            Daily data pipeline (zone fetch → stats → README)
+│   ├── classify_brands.py      Brand/keyword matching + phishing feed cross-ref
+│   └── check_intel.py          TI cross-ref: Spamhaus/SURBL/URLScan/OTX
 ├── stats/
 │   ├── by_tld/                 Per-TLD badge JSON files
 │   └── *.json                  Overall badge JSONs (shields.io format)
