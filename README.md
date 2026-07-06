@@ -22,18 +22,18 @@
 <br/>
 
 [![Live Report](https://img.shields.io/badge/▶_LIVE_REPORT-phishdestroy.github.io%2Fshortdot--evidence-3fb950?style=for-the-badge&labelColor=0c1018)](https://phishdestroy.github.io/shortdot-evidence)
+
 <br/>
 
-> **6,231,825 domains enumerated across 7 ShortDot zones.**  
-> **70.4% phantom (no-IP). $13.7M extracted annually. 25,966 brand-impersonation domains.**  
-> **Verified legitimate businesses using these zones as primary domain: 0.**  
-> Registry-level evidence package for ICANN compliance, law enforcement intake, and brand protection.
+> **6,231,825 domains enumerated across 7 ShortDot zones.**
+> **70.4% phantom (no-IP) · $14.3M extracted annually · 25,966 brand-impersonation domains**
+> **Verified legitimate businesses using these zones as primary domain: `0`**
 
 <br/>
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 <!-- LIVE_STATS:START -->
 
@@ -49,7 +49,9 @@
 <td align="center"><b>⚡ Combined extracted</b><br/><sub><code>$14,297,593</code></sub></td>
 </tr></table>
 
-### 🏷️ TLD Breakdown
+<details>
+<summary><b>📊 TLD Breakdown — click to expand</b></summary>
+<br/>
 
 | TLD | Domains | With IP | No IP (phantom) | Phantom % | Wholesale/domain | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
@@ -62,11 +64,13 @@
 | `.qpon` | 110,228 | 62,505 | 47,723 | 43.3% | $2.50 | $275,570 |
 | **TOTAL** | **6,231,825** | **1,844,440** | **4,387,385** | **70.4%** | — | **$12,559,037** |
 
-*Data: ICANN gTLD zone files · ICANN fees (registry): $1,738,556/yr · Combined extraction: $14,297,593/yr · Brand-impersonation domains: 25,966*
+*Data: ICANN gTLD zone files · ICANN fees (registry): $1,738,556/yr · Combined extraction: $14,297,593/yr*
 
-*Table auto-generated on each daily fetch run.*
+</details>
 
-### 📥 Download Threat Intelligence
+<details>
+<summary><b>📥 Download Threat Intelligence</b></summary>
+<br/>
 
 | File | Format | Description |
 |:--|:--:|:--|
@@ -79,11 +83,13 @@
 | [`ioc/domains_all_malicious.txt`](ioc/domains_all_malicious.txt) | TXT | Confirmed malicious — all severity |
 | [`ioc/domains_high.txt`](ioc/domains_high.txt) | TXT | HIGH severity only (phishing, drain, carding) |
 
-> 📊 Live dashboard: Pages link at top of repository · Updated daily 06:00 UTC
+> 📊 Live dashboard: Pages link at top · Updated daily 06:00 UTC
+
+</details>
 
 <!-- LIVE_STATS:END -->
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ## 📑 Table of Contents
 
@@ -92,7 +98,7 @@
 <td valign="top">
 
 **Investigation**
-- [0 · A Note From Fans](#0--a-note-from-fans)
+- [0 · Special Dedication to NameSilo](#0--special-dedication-to-namesilo)
 - [1 · Background](#1--background)
 - [2 · Subject: ShortDot SA](#2--subject-shortdot-sa)
 - [3 · The Seven Zones](#3--the-seven-zones)
@@ -105,7 +111,7 @@
 - [5 · Show Me One Legitimate Business](#5--show-me-one-legitimate-business)
 - [6 · Follow the Money](#6--follow-the-money)
 - [7 · The "Private Infrastructure" Myth](#7--the-private-infrastructure-myth)
-- [8 · NameBlock — Structural Conflict of Interest](#8--nameblock--structural-conflict-of-interest)
+- [8 · NameBlock — Structural Conflict](#8--nameblock--structural-conflict-of-interest)
 - [9 · Findings](#9--findings)
 
 </td>
@@ -121,35 +127,41 @@
 </tr>
 </table>
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ## 0 · Special Dedication to NameSilo
 
-We must confess: we are massive fans of **[NameSilo](https://github.com/phishdestroy/namesilo-evidence)**. We are endlessly inspired by their mastery — not just their steadfast commitment to retro web design, but their unparalleled operational brilliance in reputation management.
+> 🏆 *We must confess: we are massive fans of **[NameSilo](https://github.com/phishdestroy/namesilo-evidence)**. We are endlessly inspired by their mastery — not just their steadfast commitment to retro web design, but their unparalleled operational brilliance in reputation management.*
 
-It takes true dedication to aggressively publish self-praising PR articles and manufactured reviews while systematically trying to silence independent security researchers. We watch in awe as they zealously defend phishing operators and scam networks, going so far as to blatantly lie about removing VirusTotal detections just to keep their most "valuable" clients online.
+It takes true dedication to aggressively publish self-praising PR articles and manufactured reviews while **systematically trying to silence independent security researchers**. We watch in awe as they zealously defend phishing operators and scam networks, going so far as to **blatantly lie about removing VirusTotal detections** just to keep their most "valuable" clients online.
 
 Their coordinated campaigns to deplatform truth-tellers, block researchers, and scrub the internet of any critical analysis are nothing short of breathtaking.
 
 When a registrar fights this hard and spends this much energy protecting malicious infrastructure, it is only fair that we return the favor. **This repository exists to give their tireless efforts the global public recognition they so desperately deserve.**
 
----
+<details>
+<summary><b>💸 The scheme behind the growth — click to read</b></summary>
+<br/>
 
-**The scheme behind the growth.** ShortDot SA owns the *registry* — it controls the zones and sets wholesale prices. NameSilo operates as a *registrar* and is, by volume, the **single largest buyer** of ShortDot zone domains. Every day, in bulk, NameSilo purchases registrations across `.icu`, `.bond`, `.cyou`, `.sbs`, `.cfd`, `.buzz`, and `.qpon` — the exact zones its business partner controls. The same ownership network sits on both sides. Money moves between related entities. The registry books revenue. The registrar books inventory. No real end customer is required — the registration event itself is the product.
+ShortDot SA owns the *registry* — it controls the zones and sets wholesale prices. NameSilo operates as a *registrar* and is, by volume, the **single largest buyer** of ShortDot zone domains. Every day, in bulk, NameSilo purchases registrations across `.icu`, `.bond`, `.cyou`, `.sbs`, `.cfd`, `.buzz`, and `.qpon` — the exact zones its business partner controls.
+
+The same ownership network sits on both sides. Money moves between related entities. The registry books revenue. The registrar books inventory. No real end customer is required — the registration event itself is the product.
 
 The result: **millions of domains bulk-registered daily, 70.4% with zero DNS records, never activated, never used by any real business.** They were never meant to be used. They were meant to be *counted* — in filings, in pitch decks, in press releases about explosive growth.
 
-Full NameSilo investigation: **[github.com/phishdestroy/namesilo-evidence](https://github.com/phishdestroy/namesilo-evidence)**
+</details>
 
----
+**Full NameSilo investigation → [github.com/phishdestroy/namesilo-evidence](https://github.com/phishdestroy/namesilo-evidence)**
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ## 1 · Background
 
 This repository is the **PhishDestroy investigation into ShortDot SA** — the Luxembourg-registered registry operator behind seven domain zones: `.icu`, `.bond`, `.cyou`, `.sbs`, `.cfd`, `.buzz`, and `.qpon`.
 
-The central question of this investigation is not whether abuse occurs in these zones — it does, at scale. The question is: **what legitimate purpose do these zones serve, and who actually benefits from their existence?**
+The central question is not whether abuse occurs in these zones — it does, at scale. The question is: **what legitimate purpose do these zones serve, and who actually benefits from their existence?**
 
-ShortDot's own marketing claims the zones are for "businesses, creators, and communities." This repository tests that claim with data.
+ShortDot's own marketing claims the zones are for *"businesses, creators, and communities."* This repository tests that claim with data.
 
 ---
 
@@ -163,66 +175,98 @@ ShortDot's own marketing claims the zones are for "businesses, creators, and com
 | 🔧 Technical backend | CentralNic (London) |
 | 🌐 Website | shortdot.bond |
 | 📊 Zones operated | 7 gTLDs (.icu, .bond, .cyou, .sbs, .cfd, .buzz, .qpon) |
-| 🤝 Named partners | GoDaddy, Alibaba, GMO, Namecheap, NameSilo, Dynadot |
+| 🤝 Named partners | GoDaddy, Alibaba, GMO, Namecheap, **NameSilo**, Dynadot |
 | 🛡️ Brand protection arm | NameBlock |
 | 🌐 Partner ventures | Nicky, WebUnited, NameBlock |
 | 📅 First TLD launched | 2018 (.icu) |
 
-ShortDot operates through a network of three subsidiaries: **Nicky** (domain services), **WebUnited** (web infrastructure), and **NameBlock** (brand protection/blocking). The relationship between these entities and the abuse patterns in ShortDot's zones is a core subject of this investigation.
+ShortDot operates through three subsidiaries: **Nicky** (domain services), **WebUnited** (web infrastructure), and **NameBlock** (brand protection/blocking). The relationship between these entities and the abuse patterns in ShortDot's zones is a core subject of this investigation.
 
 ---
 
 ## 3 · The Seven Zones
 
-### .icu
+<details>
+<summary><b>🔴 .icu — Flagship abuse zone · 971,649 domains · 70.9% phantom</b></summary>
+<br/>
 
-Launched 2018. ShortDot's flagship zone. The name allegedly stands for "I See You" — marketed as a personal branding TLD.
+Launched 2018. ShortDot's first and largest zone. Marketed as a personal branding TLD ("I See You").
 
-**Reality:** Consistently top-ranked by abuse.ch, Spamhaus, and SURBL for phishing density. Active registrations are dominated by gambling infrastructure, crypto drain panels, and credential harvesters. Verified legitimate use cases: 0 identified to date.
+**Reality:** Consistently top-ranked by abuse.ch, Spamhaus, and SURBL for phishing density. Active registrations are dominated by gambling infrastructure, crypto drain panels, and credential harvesters targeting financial brands. Verified legitimate use cases: **0 identified to date.**
 
-### .bond
+</details>
+
+<details>
+<summary><b>🔴 .bond — Premium phishing zone · 1,327,512 domains · 92.1% phantom</b></summary>
+<br/>
 
 Premium pricing (~$9.99 retail). Marketed to financial services and "trusted brands."
 
-**Reality:** `chase.bond`, `bofa.bond`, `binance.bond`, `ledger.bond` — these domains exist. None are operated by JPMorgan Chase, Bank of America, Binance, or Ledger SAS. All are phishing pages impersonating those brands. `.bond` has become a phishing trademark precisely because it implies financial trustworthiness to unsuspecting victims.
+**Reality:** `chase.bond`, `bofa.bond`, `binance.bond`, `ledger.bond` — these domains exist. None are operated by JPMorgan Chase, Bank of America, Binance, or Ledger SAS. All are phishing pages impersonating those brands. `.bond` has become a phishing trademark precisely because it implies financial trustworthiness to unsuspecting victims. **92.1% phantom** — the highest in the portfolio.
 
-### .cyou
+</details>
 
-`.cyou` = "See You." Marketed for personal brands, influencers, communities.
+<details>
+<summary><b>🟠 .cyou — Near-zero legitimate adoption · 753,652 domains · 64.6% phantom</b></summary>
+<br/>
+
+`.cyou` = "See You." Marketed for personal brands, influencers, and communities.
 
 **Reality:** Near-zero legitimate adoption. Populated predominantly by parked domains and fraudulent infrastructure. High-volume serial registrations with no corresponding active content.
 
-### .sbs
+</details>
+
+<details>
+<summary><b>🔴 .sbs — Acquisition spike zone · 1,911,124 domains · 68.9% phantom</b></summary>
+<br/>
 
 Acquired April 2024 from Australian SBS Corporation (via IANA transfer). Previously associated with the Australian public broadcaster.
 
-**Reality:** After ShortDot acquisition, registration volume spiked. The overwhelming majority of active .sbs domains serve phishing pages, fake shops, or remain permanently parked (phantom registrations for metric inflation). Concentration at NameSilo is anomalous vs. all other registrars.
+**Reality:** After ShortDot acquisition, registration volume spiked anomalously. The overwhelming majority of active .sbs domains serve phishing pages, fake shops, or remain permanently parked. **NameSilo concentration in .sbs is 55× above market expectation** — coinciding exactly with the acquisition date.
 
-### .cfd
+</details>
+
+<details>
+<summary><b>🔴 .cfd — Financial fraud namespace · 950,551 domains · 57.2% phantom</b></summary>
+<br/>
 
 Acquired April 2024 from DotCFD Registry Ltd. "CFD" = Contract for Difference — a leveraged financial instrument.
 
-**Reality:** A TLD named after a high-risk financial product, operated by a company with no known financial regulation standing, now populated primarily with fake investment platforms, crypto fraud, and financial phishing. The naming itself is a targeting signal.
+**Reality:** A TLD named after a high-risk financial product, operated by a company with no financial regulation standing, populated primarily with fake investment platforms, crypto fraud, and financial phishing. The naming itself is a targeting signal.
 
-### .buzz
+</details>
 
-Marketed as a social media / engagement TLD. Retail price ~$3-5/year.
+<details>
+<summary><b>🟡 .buzz — Spam & click-fraud zone · 207,109 domains · 39.0% phantom</b></summary>
+<br/>
+
+Marketed as a social media / engagement TLD. Retail price ~$3–5/year.
 
 **Reality:** Active abuse zone. Documented use cases include spam distribution infrastructure and click-fraud networks. No verified legitimate business adoption identified.
 
-### .qpon
+</details>
+
+<details>
+<summary><b>🟡 .qpon — Micro-volume affiliate fraud · 110,228 domains · 43.3% phantom</b></summary>
+<br/>
 
 Marketed as a coupon/discount TLD. Extremely low wholesale pricing.
 
-**Reality:** Micro-volume zone. Low adoption even by abuse actors. Primarily used for affiliate fraud and fake discount schemes.
+**Reality:** Primarily used for affiliate fraud and fake discount schemes. Low volume even by abuse standards.
+
+</details>
 
 ---
 
 ## 4 · Methodology
 
+<details>
+<summary><b>🔬 Data collection, classification, and TI cross-reference — click to expand</b></summary>
+<br/>
+
 ### Data Collection
 
-All domains in ShortDot's seven zones are enumerated daily from ICANN gTLD zone data queried per-TLD. Coverage: 100% of zone registrations — no sampling.
+All domains in ShortDot's seven zones are enumerated daily from ICANN gTLD zone data queried per-TLD. Coverage: **100% of zone registrations — no sampling.**
 
 ```
        ╭───────────────────╮      ╭───────────────────╮      ╭───────────────────╮
@@ -234,17 +278,13 @@ All domains in ShortDot's seven zones are enumerated daily from ICANN gTLD zone 
 
 ### Legitimacy Classification
 
-Each active domain is classified into one of three top-level categories:
-
 | Category | Description |
 |---|---|
 | `MALICIOUS` | Confirmed phishing / fraud / malware / drainer / carding |
-| `SUSPICIOUS` | Unverified but exhibits abuse indicators (no IP, keyword match, shared infra) |
-| `LEGITIMATE` | Verified real business with: public company registration, clear business purpose, no impersonation |
+| `SUSPICIOUS` | Unverified but exhibits abuse indicators |
+| `LEGITIMATE` | Verified real business — public registration, clear purpose, no impersonation |
 | `PARKED` | Domain registered, no content served |
 | `DEAD` | No DNS resolution |
-
-The `LEGITIMATE` count is the most important number in this dataset. We actively seek counterexamples to the thesis that these zones have no legitimate purpose.
 
 ### Threat Intelligence Cross-Reference
 
@@ -254,26 +294,30 @@ The `LEGITIMATE` count is the most important number in this dataset. We actively
 - **ThreatFox** (abuse.ch) — IOC database
 - **PhishDestroy Destroylist** — correlation with main blocklist
 
+</details>
+
 ---
 
 ## 5 · Show Me One Legitimate Business
 
-> **This is an open challenge.** Find us a Fortune 500 company, government agency, licensed bank, or globally recognized institution that uses `.icu`, `.sbs`, `.cfd`, `.cyou`, `.bond`, `.buzz`, or `.qpon` as its primary or official domain. Not a test page. Not a redirect. An actual operational presence.
+> **Open challenge.** Find a Fortune 500 company, government agency, or licensed institution that uses `.icu`, `.sbs`, `.cfd`, `.cyou`, `.bond`, `.buzz`, or `.qpon` as its **primary operational domain** — not a test page, not a redirect.
 
-We've been looking. Here is what we found instead:
+Here is what we found instead:
 
-| Domain | What ShortDot's marketing says it is | What it actually is |
+| Domain | ShortDot marketing says | Reality |
 |---|---|---|
-| `chase.bond` | Financial services — trusted brands | JPMorgan Chase **phishing** page |
-| `bofa.bond` | Financial services — trusted brands | Bank of America **phishing** page |
+| `chase.bond` | Financial services — trusted brands | JPMorgan Chase **phishing** |
+| `bofa.bond` | Financial services — trusted brands | Bank of America **phishing** |
 | `binance.bond` | Trusted brand | Binance **phishing** |
-| `ledger.bond` | Trusted brand | Ledger hardware wallet **phishing** |
+| `ledger.bond` | Trusted brand | Ledger wallet **phishing** |
 | `metamask.icu` | Personal / community brand | MetaMask **wallet drainer** |
 | `coinbase.sbs` | Creator / business brand | Coinbase **credential harvester** |
 | `kraken.cyou` | Community / personal | Kraken exchange **phishing** |
 | `uniswap.bond` | DeFi / Web3 innovation | Uniswap **drain panel** |
 
-**Brand impersonation by the numbers — 25,966 confirmed domains across 7 zones:**
+<details>
+<summary><b>🎯 Top 20 impersonated brands — 25,966 confirmed domains</b></summary>
+<br/>
 
 | Target Brand | Domains | Category |
 |---|---|---|
@@ -298,150 +342,104 @@ We've been looking. Here is what we found instead:
 | MetaMask | 481 | Crypto |
 | DHL | 318 | Logistics |
 
-*Full list: [`data/ioc/brand_domains.json`](data/ioc/brand_domains.json) · Per-brand blocklists: [`data/ioc/brands/`](data/ioc/brands/)*
+*Full list: [`data/ioc/brand_domains.json`](data/ioc/brand_domains.json)*
 
-The brands appear as **victims**, not operators. The legitimate companies — Chase, BofA, Binance, Ledger, MetaMask — have not adopted these TLDs. Criminals have adopted them on the brands' behalf, to deceive the brands' customers.
+</details>
 
-**The legitimacy challenge is live:** if you have evidence of a verified, non-phishing, non-squatter legitimate business using a ShortDot TLD as its primary domain, open an issue with evidence. Every submission is reviewed and, if verified, added to the `LEGITIMATE` count.
-
-Current verified legitimate sites: **see [`case/LEGITIMATE_SURVEY.md`](case/LEGITIMATE_SURVEY.md)**
+The brands appear as **victims**, not operators. The legitimacy challenge is live: open an issue with evidence of a verified legitimate business. Every submission is reviewed. Current count: **[`case/LEGITIMATE_SURVEY.md`](case/LEGITIMATE_SURVEY.md)**
 
 ---
 
 ## 6 · Follow the Money
 
-### The ShortDot Revenue Chain
+<details>
+<summary><b>💰 Revenue chain & ICANN fee extraction — click to expand</b></summary>
+<br/>
 
 ```
 ShortDot SA (Luxembourg)
-       │
        │  Charges wholesale per-domain annual fee
-       │  (.icu ~$0.50–$1.00 · .sbs ~$0.50–$1.00 · .cfd ~$0.50–$1.00
-       │   .cyou ~$0.50–$1.00 · .bond ~$5–$8 · .buzz ~$3–$5 · .qpon ~$2–$4)
-       │
+       │  .icu/.sbs/.cfd/.cyou ~$0.65 · .bond ~$6.50 · .buzz ~$3.25 · .qpon ~$2.50
        ▼
-400+ Registrar Partners
-(NameSilo, GoDaddy, Namecheap, Alibaba, GMO, Dynadot…)
-       │
+400+ Registrar Partners (NameSilo · GoDaddy · Namecheap · Alibaba · GMO · Dynadot…)
        │  Register at retail — keep margin
-       │  NameSilo: $0.99 for .sbs → ~$0.50–$0.70 margin per domain
-       │
        ▼
-End registrant (phisher, spammer, scammer, or phantom account)
-       │
+End registrant — phisher / spammer / scammer / phantom account
        │  Uses domain for phishing / carding / draining / metric inflation
        │  OR: domain never activates (phantom, dead-zone padding)
-       │
        ▼
 Revenue flows UP regardless of what domain does
 ShortDot collects · registrar collects · ICANN collects
 The victim (end user phished) pays nothing — and loses everything
 ```
 
-### The Price of Admission — This Is Not an Accident
+### ICANN Fee Extraction
 
-ShortDot wants regulators to believe zone abuse is an unfortunate side effect they're "actively
-combating." The ICANN fee schedule proves otherwise. Getting into this business is not cheap:
+| Fee | Payer | Amount |
+|---|---|---|
+| Annual zone fee | ShortDot → ICANN | $25,800/zone/year |
+| Volume transaction cut | Registrar → ShortDot → ICANN | $0.25/domain/year |
+| Registry wholesale | Registrar → ShortDot | $0.65–$6.50/domain/year |
 
-| ICANN Fee | Amount |
-|---|---|
-| **Application fee** per TLD (non-refundable if rejected) | **$227,000** |
-| **Annual registry fee** per zone | **$25,800/year** |
-| **Volume transaction cut** (zones exceeding 50k domains) | **$0.25/domain/year** |
+At 6,231,825 current active domains:
+- **ICANN volume cuts:** $1,557,956/year
+- **ICANN zone fees:** $180,600/year (7 zones)
+- **ShortDot wholesale:** $12,559,037/year
+- **4,387,385 phantom domains** contribute to all three streams while serving no verifiable purpose
 
-ShortDot operates 7 zones. Application fees alone: **$227,000 × 7 = $1,589,000**.  
-Annual ICANN tribute: **$25,800 × 7 = $180,600/year**.  
-ICANN volume cut at 6.2M domains: **$1,557,956/year** — collected by the regulator.
+> Nobody in this chain has a financial incentive to reduce registration volume — including by filtering out abuse.
 
-> **No investor pays $227,000 per zone application — non-refundable — planning to sell domains
-> to university students at $0.99.** The math only closes one way: volume abuse at scale.
+</details>
 
-The ROI model that actually works:
-
-```
-1. Flood zones with phantom registrations via bulk registrars
-   → $12.6M/year wholesale at current 6.2M domain volume
-   → Inflated metrics signal "market adoption" to outside observers
-
-2. Zone becomes toxic → brands impersonated at scale
-   → NameBlock, BrandShelter, BrandSight, Brandma sell "protection"
-   → Brands pay $100–$500/year per brand per zone × 7 zones
-
-3. ICANN collects $0.25/domain/year + $25,800/zone/year
-   → Silent beneficiary with full regulatory authority to act
-   → Financial incentive to not act
-```
-
-ShortDot spent over **$1.6M just on ICANN applications** to access this structure.
-That is not the investment profile of a company planning to build a legitimate namespace.
-
-### ICANN Fee Extraction (Live Numbers)
-
-Every domain registered in a ShortDot zone generates fees at two levels:
-
-| Fee | Payer | Recipient | Amount |
-|---|---|---|---|
-| ICANN volume cut (zones >50k) | Registrar → ShortDot → ICANN | ICANN | $0.25/domain/year |
-| ICANN annual zone fee | ShortDot | ICANN | $25,800/zone/year |
-| Registry wholesale fee | Registrar | ShortDot | $0.65–$6.50/domain/year |
-
-At **6,231,825 current active domains:**
-- **ICANN volume cuts:** **$1,557,956/year** from ShortDot zones
-- **ICANN zone fees:** **$180,600/year** (7 zones × $25,800)
-- **ShortDot wholesale:** **$12,559,037/year**
-- **4,387,385 phantom (no-IP) domains** contribute to all three revenue streams while
-  serving no verifiable legitimate purpose
-
-Nobody in this chain has a financial incentive to reduce registration volume — including by filtering out abuse.
-
----
-
-### The NameSilo Anomaly
+<details>
+<summary><b>🚩 The NameSilo Anomaly — 55× concentration spike</b></summary>
+<br/>
 
 | Registrar | ShortDot TLD share | Expected |
 |---|---|---|
-| NameSilo | ~11% (.sbs 7% + .cfd 4%) | <1% |
+| **NameSilo** | **~11% (.sbs 7% + .cfd 4%)** | **<1%** |
 | GoDaddy | <0.2% | normal |
 | Namecheap | <1% | normal |
 
-NameSilo is a **named partner** of ShortDot. The 55× concentration anomaly in ShortDot TLDs at NameSilo — coinciding exactly with ShortDot's April 2024 acquisition of .sbs and .cfd — represents the most concrete financial link between registry and registrar in this ecosystem.
+NameSilo is a **named partner** of ShortDot. The 55× concentration anomaly — coinciding exactly with ShortDot's April 2024 acquisition of .sbs and .cfd — represents the most concrete financial link between registry and registrar in this ecosystem.
 
-High-volume phantom registrations through a named partner registrar are consistent with a practice known as **metric padding**: artificially inflating zone size to signal market adoption to investors, analysts, and ICANN during contract reviews. A zone that looks like it has 1.9M registered domains is harder to suspend than one with 50K.
+High-volume phantom registrations through a named partner registrar are consistent with **metric padding**: artificially inflating zone size to signal market adoption to investors, analysts, and ICANN during contract reviews.
 
 **Questions that require answers:**
-1. Who is purchasing hundreds of thousands of .sbs and .cfd domains through NameSilo and not activating them?
+1. Who is purchasing hundreds of thousands of `.sbs` and `.cfd` domains through NameSilo and not activating them?
 2. Where does the payment originate?
-3. Does ShortDot conduct due diligence on bulk orders from named partners?
-4. Does NameSilo's quarterly revenue reporting account for the margin on these phantom registrations separately?
-5. Did the timing of the .sbs/.cfd acquisition and the NameSilo spike involve coordination?
+3. Does NameSilo's revenue reporting account for margin on phantom registrations separately?
+4. Did the timing of the .sbs/.cfd acquisition and the NameSilo spike involve coordination?
+
+</details>
 
 ---
 
 ## 7 · The "Private Infrastructure" Myth
 
-A common defense for massive volumes of phantom (no-IP) registrations is that they serve backend infrastructure, private VPN nodes, or isolated telemetry endpoints. This narrative is technically incoherent.
+<details>
+<summary><b>🔍 Why the "internal network" defense is technically incoherent — click to expand</b></summary>
+<br/>
 
-### 1. Industry Standard: Subdomain Routing
+A common defense for massive volumes of phantom registrations is that they serve backend infrastructure, private VPN nodes, or isolated telemetry endpoints.
 
-Legitimate platforms route millions of unique endpoints using dynamic subdomains under a single controlled root domain. Vercel (`*.vercel.app`), Tailscale (`*.ts.net`), and major ISPs (`*.rr.com`, `*.verizon.net`) generate a million subdomains instantaneously at zero cost. Registering a million separate root domains costs millions in wholesale fees and ICANN transaction charges. No legitimate scalable infrastructure purchases individual root domains for its endpoints.
+**1. Industry standard is subdomain routing.** Vercel (`*.vercel.app`), Tailscale (`*.ts.net`), and major ISPs generate millions of unique endpoints using dynamic subdomains under a single root. Registering a million separate root domains costs millions in wholesale fees. No legitimate scalable infrastructure does this.
 
-### 2. Certificate Transparency Destroys the OPSEC Argument
+**2. Certificate Transparency destroys the OPSEC argument.** Every distinct root domain issued a certificate is permanently recorded in public CT logs. A VPN network using individual root domains actively broadcasts its entire topology to the public internet — an indelible trail of every node and deployment time. This is a fatal architectural flaw.
 
-Modern infrastructure requires SSL/TLS. Every time a distinct root domain is issued a certificate, that issuance is permanently recorded in public Certificate Transparency (CT) logs. A VPN or proxy network using individual root domains for its nodes would be actively broadcasting its entire network topology and deployment timeline to the public internet — an indelible, fully auditable trail of every node provisioned and when. This is a fatal architectural flaw, not a feature.
+**3. Wildcards provide actual privacy.** A single root domain with `*.internal.net` secures millions of nodes without leaking hostnames to CT logs. Subdomains are opaque to passive enumeration; unlike root TLD zone files (publicly downloadable via ICANN CZDS), subdomain trees are invisible to outside observers.
 
-### 3. Wildcards Provide Actual Privacy
+**Conclusion:** The private infrastructure defense fails on cost, OPSEC, and architecture simultaneously. The actual function of phantom registrations is **metric padding** — inflating zone volume to signal adoption to investors and protect the registry from ICANN suspension reviews.
 
-A single root domain with a wildcard certificate (`*.internal-network.net`) secures millions of individual nodes without leaking specific hostnames to CT logs. Subdomains cannot be passively enumerated: unlike root TLD zone files — which are publicly downloadable via ICANN's Centralized Zone Data Service (CZDS) — subdomain trees are opaque to outside observers. Any operator who genuinely prioritizes operational security uses subdomains and wildcards. The registration of millions of distinct non-resolving root domains serves zero legitimate technical purpose.
-
-### Conclusion
-
-The "private infrastructure" defense fails on cost, OPSEC, and technical architecture simultaneously. The actual function of phantom registrations is straightforward: **metric padding** — artificially inflating zone volume to signal market adoption to investors, analysts, and ICANN during contract reviews. A zone with 1.9M registered domains is structurally harder to suspend than one with 50K, regardless of whether those domains resolve to anything.
+</details>
 
 ---
 
 ## 8 · NameBlock — Structural Conflict of Interest
 
-ShortDot describes NameBlock as an "advanced brand protection" service. The mechanics:
+<details>
+<summary><b>🛡️ Insurance sold against a fire the insurer has an interest in not extinguishing</b></summary>
+<br/>
 
 ```
 Step 1: ShortDot creates TLD zones (.icu, .sbs, .bond…)
@@ -462,36 +460,27 @@ Step 4: NameBlock approaches the brand:
 Step 5: Brand pays NameBlock defensive registration fees
                 │
                 ▼
-Step 6: ShortDot collects wholesale fee for the defensive registrations
-        NameBlock collects the service fee on top
+Step 6: ShortDot collects wholesale + NameBlock collects service fee
                 │
                 ▼
-Both ShortDot and NameBlock profit from the same threat they created.
+Both profit from the same threat they created.
 ```
 
-This is **not** an accusation of illegality — defensive domain registration services exist and have legitimate uses. What is documented here is the structural incentive:
+> The entity selling "brand protection" (NameBlock) is a subsidiary of the entity that created the attack surface (ShortDot). The attack surface was manufactured by operating TLDs with near-zero legitimate adoption but high abuse value. Insurance sold against a fire that the insurer has a financial interest in not extinguishing.
 
-> The entity that profits from selling "brand protection" (NameBlock) is a subsidiary venture of the entity that created the attack surface (ShortDot). The attack surface was manufactured by registering TLDs that have near-zero legitimate adoption but high abuse value. Insurance sold against a fire that the insurer has a financial interest in not extinguishing.
-
-ShortDot's own website states NameBlock provides "advanced brand protection tools." The advanced technique: blocking your brand in zones ShortDot controls, where your brand should never have needed protecting in the first place if the zone had proper abuse controls.
+</details>
 
 ---
 
 ## 9 · Findings
 
-### Headline Numbers
-
 *Populated automatically on each fetch run — see [`data/index.json`](data/index.json) for full dataset.*
-
-### Classification by Zone
-
-*Per-TLD breakdown: see [`stats/by_tld/`](stats/by_tld/) directory.*
 
 ### Key Confirmed Cases
 
 | Domain | Zone | Classification | Evidence |
 |---|---|---|---|
-| `chase.bond` | .bond | PHISHING_FINANCE | Brand impersonation, credential harvesting form |
+| `chase.bond` | .bond | PHISHING_FINANCE | Brand impersonation, credential harvesting |
 | `bofa.bond` | .bond | PHISHING_FINANCE | Brand impersonation |
 | `binance.bond` | .bond | PHISHING_CRYPTO | Exchange credential harvester |
 | `ledger.bond` | .bond | PHISHING_CRYPTO | Hardware wallet seed phrase harvester |
@@ -502,16 +491,6 @@ ShortDot's own website states NameBlock provides "advanced brand protection tool
 | `drainmebaby.bond` | .bond | CRYPTO_DRAIN | Explicit naming, wallet drainer |
 | `ghostqrpanel.bond` | .bond | CRYPTO_DRAIN | QR-code drain panel infrastructure |
 
-### The .cfd Problem
-
-The `.cfd` zone deserves special attention. "CFD" = Contract for Difference — a specific, high-risk, regulated financial derivative instrument. Registering a TLD with this name, then operating it with minimal abuse controls, creates a namespace that:
-
-1. Is named after a financial product requiring regulatory licensing to offer
-2. Is operated by an entity with no financial regulation standing
-3. Is disproportionately populated with fake investment platforms and financial fraud
-
-The naming of `.cfd` is not incidental — it is a targeting signal to operators of financial fraud who want domains that look superficially financial.
-
 ---
 
 ## 10 · Timeline of Acquisitions
@@ -520,13 +499,13 @@ The naming of `.cfd` is not incidental — it is a targeting signal to operators
 |---|---|
 | **2018** | ShortDot launches `.icu` — first TLD |
 | **2019–2023** | `.bond`, `.cyou`, `.buzz`, `.qpon` launch |
-| **Apr 2024** | ShortDot acquires `.sbs` from Australian SBS Corporation (IANA record) |
-| **Apr 2024** | ShortDot acquires `.cfd` from DotCFD Registry Ltd (IANA record) |
-| **2024** | NameSilo dead-domain registrations spike 615% (67K → 485K across zones) |
+| **Apr 2024** | ShortDot acquires `.sbs` from Australian SBS Corporation |
+| **Apr 2024** | ShortDot acquires `.cfd` from DotCFD Registry Ltd |
+| **2024** | NameSilo dead-domain registrations spike **615%** (67K → 485K across zones) |
 | **2025** | Spike continues: 585K dead domains, 10K–17K/day |
 | **2026** | PhishDestroy investigation published |
 
-The April 2024 dual acquisition — two new zones added to the ShortDot portfolio — coincides precisely with the anomalous NameSilo registration spike. The statistical likelihood of this being coincidental is low.
+> The April 2024 dual acquisition coincides precisely with the anomalous NameSilo registration spike. The statistical likelihood of this being coincidental is low.
 
 ---
 
@@ -534,28 +513,33 @@ The April 2024 dual acquisition — two new zones added to the ShortDot portfoli
 
 This evidence package is suitable for:
 
-- **ICANN Compliance** — registry operator accountability under RAA / registry agreement
-- **ICANN Registry Agreement** violation reports (abuse mitigation obligations)
-- **Law enforcement referrals** — financial fraud, carding, identity theft
-- **Brand abuse / UDRP** proceedings for brand-impersonating domains
-- **Registrar abuse reports** — forwarding confirmed phishing to registrar abuse teams
-- **Academic / threat intelligence research** — freely reusable under MIT
+| Target | Use |
+|---|---|
+| **ICANN Compliance** | Registry operator accountability under RAA / registry agreement |
+| **Law enforcement** | Financial fraud, carding, identity theft referrals |
+| **Brand protection / UDRP** | Brand-impersonating domain proceedings |
+| **Registrar abuse teams** | Forwarding confirmed phishing |
+| **Threat intelligence** | Freely reusable under MIT |
 
-**For abuse reports:**
-- ShortDot abuse email: see `WHOIS` for each TLD's IANA record
+**Abuse contacts:**
+- ShortDot: WHOIS for each TLD's IANA record
 - ICANN Compliance: `compliance@icann.org`
-- Registrar-specific: see registrar's abuse contact in WHOIS
+- Registrar-specific: WHOIS abuse contact
 
 ---
 
 ## 12 · Repository Structure
+
+<details>
+<summary><b>📁 Directory layout — click to expand</b></summary>
+<br/>
 
 ```
 shortdot-evidence/
 ├── case/
 │   ├── INVESTIGATION.md        Full investigation document
 │   ├── FINANCIAL.md            Follow-the-money analysis
-│   ├── NAMEBLOCK.md            NameBlock structural conflict of interest analysis
+│   ├── NAMEBLOCK.md            NameBlock structural conflict analysis
 │   ├── LEGITIMATE_SURVEY.md    Open challenge — verified legitimate sites
 │   ├── CLUSTERS.md             Operator infrastructure clusters
 │   └── HIGH_SEVERITY.md        High-severity confirmed cases
@@ -573,7 +557,7 @@ shortdot-evidence/
 │   └── fetch_new.py            Daily data pipeline (zone fetch → stats → README)
 ├── stats/
 │   ├── by_tld/                 Per-TLD badge JSON files
-│   └── *.json                  Overall badge JSONs (shields.io endpoint format)
+│   └── *.json                  Overall badge JSONs (shields.io format)
 ├── evidence/
 │   ├── HASHES.txt              SHA-256 of all screenshots
 │   └── [screenshots]           PNG evidence, SHA-256 verified
@@ -581,9 +565,15 @@ shortdot-evidence/
     └── update.yml              Daily automation
 ```
 
+</details>
+
 ---
 
 ## 13 · Citation
+
+<details>
+<summary><b>📖 BibTeX citation — click to expand</b></summary>
+<br/>
 
 ```bibtex
 @misc{phishdestroy2026shortdot,
@@ -597,11 +587,12 @@ shortdot-evidence/
 }
 ```
 
-**License:** MIT — data, code, and analysis are freely reusable with attribution.
+</details>
 
+**License:** MIT — data, code, and analysis freely reusable with attribution.  
 **TLP:** CLEAR — no distribution restrictions.
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 <div align="center">
 <sub>PhishDestroy · Anti-phishing and fraud investigation · <a href="https://phishdestroy.io">phishdestroy.io</a></sub>
