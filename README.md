@@ -200,7 +200,7 @@ ShortDot SA owns the *registry* — it controls the zones and sets wholesale pri
 
 The same ownership network sits on both sides. Money moves between related entities. The registry books revenue. The registrar books inventory. No real end customer is required — the registration event itself is the product.
 
-The economics are engineered for disposability. NameSilo's `.cfd` and `.sbs` registration starts at **$1.39/yr** at bulk tier — renewal is **$19.00/yr**, a **13× gap**. A phishing operator registers a domain for $1.39, runs it for one year, then abandons it rather than pay $19 to renew. This is not an accident; it is the business model. ShortDot collects a wholesale fee on every registration event regardless of whether the domain is ever used or renewed. The 70.4% of ShortDot domains with zero DNS records are not failures — they are the expected output of a system optimised for registration count, not internet utility.
+Namecheap charges **$1.39/yr** (`.cfd`) and **$1.54/yr** (`.sbs`) for a single registration with no minimum commitment. NameSilo charges **$1.88/yr** for both TLDs at its entry tier (1–49 domains) — and only reaches those Namecheap prices at **5,000+ domains** purchased simultaneously. No ordinary registrant buys 5,000 domains at once. The pricing structure leaves no rational explanation for NameSilo's dominant volume in ShortDot zones unless the buyer is not operating in a retail market at all.
 
 The result: **millions of domains bulk-registered daily, 70.4% with zero DNS records, never activated, never used by any real business.** They were never meant to be used. They were meant to be *counted* — in filings, in pitch decks, in press releases about explosive growth.
 
