@@ -133,25 +133,55 @@ def main():
 
     stats = build_stats(index, domains, legit_count)
 
-    # Keep data.json lean: include all non-brand domains + sample of brand domains
-    # Full brand list lives in data/ioc/brand_domains.json
-    brand_sample  = [d for d in domains if d.get("category") == "BRAND_IMPERSONATION"][:200]
-    other_domains = [d for d in domains if d.get("category") != "BRAND_IMPERSONATION"]
-    domains_out   = other_domains + brand_sample
+    # Include all IOC indicators in data.json for the domain table
+    domains_out = domains
 
-    # Load brand summary from classify_brands output
+    # Build brand summary from brand_domains.json (keywords:{kw:[domains]}) + heatmap counts
     brand_json_path = HERE / "data" / "ioc" / "brand_domains.json"
+    _hmap = stats.get("brand_heatmap", {})
+    _CATS = {
+        "crypto": "crypto", "vault": "crypto", "token": "crypto", "nft": "crypto",
+        "bridge": "crypto", "claim": "crypto", "drain": "crypto",
+        "capital": "banking", "fund": "banking", "investment": "banking",
+        "trading": "banking", "trust": "banking", "cfd": "banking",
+        "account": "tech", "secure": "tech", "login": "tech", "connect": "tech",
+        "support": "tech", "official": "tech", "verify": "tech", "update": "tech",
+    }
     brand_summary = {}
     if brand_json_path.exists():
         bd = json.loads(brand_json_path.read_text(encoding="utf-8"))
+        kw_data = bd.get("keywords", {})
+        if kw_data:
+            _top = sorted(
+                [{"brand": kw_name,
+                  "count": _hmap.get(kw_name, len(dom_list) if isinstance(dom_list, list) else 0),
+                  "category": _CATS.get(kw_name, "tech"),
+                  "sample": (dom_list[:5] if isinstance(dom_list, list) else [])}
+                 for kw_name, dom_list in kw_data.items()],
+                key=lambda x: -x["count"]
+            )
+            _cat_totals: dict[str, int] = {}
+            for item in _top:
+                _cat_totals[item["category"]] = _cat_totals.get(item["category"], 0) + item["count"]
+            brand_summary = {
+                "total_brand_domains": sum(_hmap.values()) or sum(
+                    len(v) for v in kw_data.values() if isinstance(v, list)),
+                "categories": _cat_totals,
+                "top_brands": _top[:30],
+            }
+    if not brand_summary and _hmap:
+        _top = sorted(
+            [{"brand": kw, "count": cnt, "category": _CATS.get(kw, "tech"), "sample": []}
+             for kw, cnt in _hmap.items()],
+            key=lambda x: -x["count"]
+        )
+        _cat_totals = {}
+        for item in _top:
+            _cat_totals[item["category"]] = _cat_totals.get(item["category"], 0) + item["count"]
         brand_summary = {
-            "total_brand_domains": bd.get("total_brand_domains", 0),
-            "categories": bd.get("categories", {}),
-            "top_brands": [
-                {"brand": b, "count": v["count"], "category": v["category"],
-                 "sample": v["sample"][:5]}
-                for b, v in list(bd.get("brands", {}).items())[:30]
-            ],
+            "total_brand_domains": sum(_hmap.values()),
+            "categories": _cat_totals,
+            "top_brands": _top[:30],
         }
 
     # Include recent daily feed (last 60 days) from index for dashboard

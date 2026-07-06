@@ -808,11 +808,11 @@ if(btn)btn.addEventListener('click',function(){
 <div class="sec"><h2>Downloads &amp; Data</h2><div class="ln"></div></div>
 <div class="mirg">
   <div class="mirc"><div class="ml">GitHub</div><a href="https://github.com/phishdestroy/shortdot-evidence">phishdestroy/shortdot-evidence</a></div>
-  <div class="mirc"><div class="ml">All Domains</div><a href="../data/all.txt">all.txt (6.2M)</a></div>
-  <div class="mirc"><div class="ml">Brand Hits</div><a href="../data/ioc/brand_all.txt">brand_all.txt (25,966)</a></div>
-  <div class="mirc"><div class="ml">HIGH IOC</div><a href="../ioc/domains_high.txt">domains_high.txt</a></div>
-  <div class="mirc"><div class="ml">SIEM CSV</div><a href="../ioc/indicators.csv">indicators.csv</a></div>
-  <div class="mirc"><div class="ml">Shared IPs</div><a href="../data/ioc/shared_ips.json">shared_ips.json</a></div>
+  <div class="mirc"><div class="ml">All Domains</div><a href="https://github.com/phishdestroy/shortdot-evidence/raw/main/data/all.txt">all.txt (6.2M, raw)</a></div>
+  <div class="mirc"><div class="ml">Brand Hits</div><a href="domains.html?cat=BRAND_IMPERSONATION">brand domains →</a></div>
+  <div class="mirc"><div class="ml">HIGH IOC</div><a href="ioc/domains_high.txt">domains_high.txt</a></div>
+  <div class="mirc"><div class="ml">SIEM CSV</div><a href="ioc/indicators.csv">indicators.csv</a></div>
+  <div class="mirc"><div class="ml">Shared IPs</div><a href="https://github.com/phishdestroy/shortdot-evidence/raw/main/data/ioc/shared_ips.json">shared_ips.json</a></div>
 </div>
 
 <div class="sec"><h2>About PhishDestroy</h2><div class="ln"></div></div>
@@ -1118,7 +1118,7 @@ function buildClusters(clusters){
   var el=document.getElementById('clusters');if(!el||!clusters.length)return;
   var good=clusters.filter(function(c){return c.count>1000 && c.category!=='SERIAL_REG';});
   if(!good.length)return;
-  el.innerHTML='';
+  el.style.display='';el.innerHTML='';
   good.slice(0,9).forEach(function(c){
     var lbl=IP_LABELS[c.key]||c.label||'';
     lbl=lbl.replace('shared_ip · ?','').replace('shared_ip · ','').trim()||'shared hosting';
@@ -1243,8 +1243,10 @@ function buildHighTable(domains){
 /* ── Burst registration days ── */
 function buildBurstBars(burst){
   var el=document.getElementById('burst-bars');if(!el||!burst.length)return;
-  var max=burst[0].count||1;
-  el.innerHTML='<div class="hbar-grid">'+burst.slice(0,10).map(function(b){
+  var real=burst.filter(function(b){return b.count<=500000 && b.x_avg>=1.5;});
+  if(!real.length){el.innerHTML='<p style="font-size:11px;color:var(--tx3);font-family:\'JetBrains Mono\',monospace">No significant burst days detected yet — populates as daily incremental data accumulates.</p>';return;}
+  var max=real[0].count||1;
+  el.innerHTML='<div class="hbar-grid">'+real.slice(0,10).map(function(b){
     var pct=Math.round(b.count/max*100);
     var col=b.x_avg>=5?'var(--rd)':b.x_avg>=2?'var(--or)':'var(--cy)';
     var flag=b.x_avg>=5?' ⚠':b.x_avg>=2?' 🔥':'';

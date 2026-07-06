@@ -7,6 +7,8 @@
 <meta name="description" content="Full searchable domain list across ShortDot SA zones: .icu .bond .cyou .sbs .cfd .buzz .qpon. Filter by TLD, category, severity.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://phishdestroy.github.io/shortdot-evidence/domains.html">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="apple-touch-icon" href="assets/favicon.svg">
 <style>
 :root{--bg:#000;--s1:#070b12;--s2:#0c1018;--s3:#111720;--bdr:rgba(255,255,255,.08);--bdr2:rgba(255,255,255,.12);--tx:#f0f6fc;--tx2:#8b949e;--tx3:#484f58;--cy:#6ea8d7;--rd:#da3633;--gn:#3fb950;--or:#c0a060;--vi:#8b5cf6}
 *{box-sizing:border-box;margin:0;padding:0}html{font-size:14px}
@@ -78,6 +80,20 @@ footer a{color:var(--cy)}
 </div>
 
 <div class="count-bar" id="count-bar">Loading…</div>
+<style>
+.pager{display:flex;align-items:center;gap:8px;padding:8px 20px;border-bottom:1px solid var(--bdr);background:var(--s1);flex-wrap:wrap}
+.pager button{padding:4px 10px;border-radius:3px;font-size:11px;font-family:monospace;border:1px solid var(--bdr);background:var(--s2);color:var(--tx2);cursor:pointer}
+.pager button:hover{border-color:var(--bdr2);color:var(--tx)}
+.pager button:disabled{opacity:.3;cursor:default}
+.pager .pg-info{font-size:10px;color:var(--tx3);font-family:monospace}
+</style>
+<div class="pager" id="pager" style="display:none">
+  <button id="pg-first" onclick="goPage(0)">«</button>
+  <button id="pg-prev"  onclick="goPage(curPage-1)">‹ Prev</button>
+  <span class="pg-info" id="pg-info"></span>
+  <button id="pg-next"  onclick="goPage(curPage+1)">Next ›</button>
+  <button id="pg-last"  onclick="goPage(lastPage)">»</button>
+</div>
 
 <div class="tbl-wrap">
 <table>
@@ -100,71 +116,96 @@ footer a{color:var(--cy)}
 
 <script>
 (function(){
-  var all=[], activeTld='', activeSev='', searchQ='';
+  var all=[], filtered=[], activeTld='', activeSev='', activeCat='', searchQ='';
+  var PAGE_SIZE=200, curPage=0, lastPage=0;
+  window.curPage=0;window.lastPage=0;
 
-  // Read URL params
   var params=new URLSearchParams(location.search);
   if(params.get('tld')) activeTld=params.get('tld');
-  if(params.get('cat')) { /* category filter via URL - apply after load */ }
+  if(params.get('cat')) activeCat=params.get('cat');
 
-  fetch('data.json').then(r=>r.json()).then(function(d){
+  fetch('data.json').then(function(r){return r.json();}).then(function(d){
     all=(d.domains||[]);
     initFilters();
-    render();
+    applyFilter();
   }).catch(function(){
     document.getElementById('count-bar').textContent='Failed to load data.json';
   });
 
   function initFilters(){
-    // TLD filter buttons
     document.querySelectorAll('[data-tld]').forEach(function(b){
       b.classList.toggle('active', b.dataset.tld===activeTld);
       b.addEventListener('click',function(){
         activeTld=b.dataset.tld;
         document.querySelectorAll('[data-tld]').forEach(function(x){x.classList.toggle('active',x.dataset.tld===activeTld);});
-        render();
+        curPage=0;applyFilter();
       });
     });
-    // Sev filter buttons
     document.querySelectorAll('[data-sev]').forEach(function(b){
       b.classList.toggle('active', b.dataset.sev===activeSev);
       b.addEventListener('click',function(){
         activeSev=b.dataset.sev;
         document.querySelectorAll('[data-sev]').forEach(function(x){x.classList.toggle('active',x.dataset.sev===activeSev);});
-        render();
+        curPage=0;applyFilter();
       });
     });
-    // Search
     document.getElementById('search').addEventListener('input',function(){
-      searchQ=this.value.toLowerCase();
-      render();
+      searchQ=this.value.toLowerCase();curPage=0;applyFilter();
     });
   }
 
-  function render(){
-    var filtered=all.filter(function(d){
+  function applyFilter(){
+    filtered=all.filter(function(d){
       if(activeTld && (d.tld||'')!==activeTld) return false;
       if(activeSev && (d.severity||'').toUpperCase()!==activeSev) return false;
+      if(activeCat && (d.category||'')!==activeCat) return false;
       if(searchQ){
-        var hay=(d.domain+d.category+d.notes+d.tld).toLowerCase();
+        var hay=((d.domain||'')+(d.category||'')+(d.notes||'')+(d.tld||'')).toLowerCase();
         if(hay.indexOf(searchQ)<0) return false;
       }
       return true;
     });
+    lastPage=Math.max(0,Math.ceil(filtered.length/PAGE_SIZE)-1);
+    window.lastPage=lastPage;
+    if(curPage>lastPage)curPage=lastPage;
+    window.curPage=curPage;
+    render();
+  }
 
+  window.goPage=function(p){
+    p=Math.max(0,Math.min(p,lastPage));
+    curPage=p;window.curPage=p;
+    render();
+    window.scrollTo(0,0);
+  };
+
+  function render(){
     var tbody=document.getElementById('tbody');
     var empty=document.getElementById('empty');
     var bar=document.getElementById('count-bar');
+    var pager=document.getElementById('pager');
 
-    bar.innerHTML='Showing <span>'+filtered.length.toLocaleString()+'</span> of <span>'+all.length.toLocaleString()+'</span> domains';
+    var start=curPage*PAGE_SIZE, end=start+PAGE_SIZE;
+    var pageRows=filtered.slice(start,end);
 
-    if(!filtered.length){tbody.innerHTML='';empty.style.display='';return;}
+    bar.innerHTML='Showing <span>'+(start+1)+'-'+Math.min(end,filtered.length)+'</span> of <span>'+filtered.length.toLocaleString()+'</span> filtered &nbsp;·&nbsp; <span>'+all.length.toLocaleString()+'</span> total IOC';
+
+    if(!filtered.length){tbody.innerHTML='';empty.style.display='';pager.style.display='none';return;}
     empty.style.display='none';
 
-    var MAX=5000;
-    var rows=filtered.slice(0,MAX);
+    if(filtered.length>PAGE_SIZE){
+      pager.style.display='';
+      document.getElementById('pg-info').textContent='Page '+(curPage+1)+' / '+(lastPage+1);
+      document.getElementById('pg-first').disabled=curPage===0;
+      document.getElementById('pg-prev').disabled=curPage===0;
+      document.getElementById('pg-next').disabled=curPage===lastPage;
+      document.getElementById('pg-last').disabled=curPage===lastPage;
+    } else {
+      pager.style.display='none';
+    }
+
     var html='';
-    rows.forEach(function(d){
+    pageRows.forEach(function(d){
       var sev=(d.severity||'INFO').toUpperCase();
       var sevCls='sev-'+sev[0];
       html+='<tr>'
@@ -178,7 +219,6 @@ footer a{color:var(--cy)}
         +'<td>'+esc(d.notes||d.groq_desc||'')+'</td>'
         +'</tr>';
     });
-    if(filtered.length>MAX) html+='<tr><td colspan="8" style="text-align:center;padding:12px;color:#484f58;font-size:10px">Showing first '+MAX.toLocaleString()+' of '+filtered.length.toLocaleString()+'</td></tr>';
     tbody.innerHTML=html;
   }
 
