@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<defs>
+  <style>
+    .mono { font-family:'Courier New',Courier,monospace }
+    @keyframes glow   { 0%,100%{opacity:1} 50%{opacity:0.6} }
+    @keyframes pulse  { 0%,100%{opacity:1} 50%{opacity:0.15} }
+    @keyframes arc1   { from{stroke-dashoffset:1131} to{stroke-dashoffset:0} }
+    @keyframes arc2   { from{stroke-dashoffset:880}  to{stroke-dashoffset:0} }
+    @keyframes arc3   { from{stroke-dashoffset:628}  to{stroke-dashoffset:0} }
+    @keyframes fadein { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+    @keyframes linein { from{transform:scaleX(0)} to{transform:scaleX(1)} }
+  </style>
+  <!-- Hex dot grid pattern -->
+  <pattern id="hdots" patternUnits="userSpaceOnUse" width="30" height="26">
+    <circle cx="0"  cy="0"  r="0.9" fill="#10202e"/>
+    <circle cx="15" cy="13" r="0.9" fill="#10202e"/>
+    <circle cx="30" cy="0"  r="0.9" fill="#10202e"/>
+    <circle cx="30" cy="26" r="0.9" fill="#10202e"/>
+    <circle cx="0"  cy="26" r="0.9" fill="#10202e"/>
+  </pattern>
+  <linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1">
+    <stop offset="0%" stop-color="#060b12"/>
+    <stop offset="100%" stop-color="#03070f"/>
+  </linearGradient>
+  <linearGradient id="rfade" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="55%" stop-color="#03070f" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#03070f" stop-opacity="0.92"/>
+  </linearGradient>
+  <linearGradient id="sepg" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%"   stop-color="#e05820" stop-opacity="0"/>
+    <stop offset="15%"  stop-color="#e05820" stop-opacity="0.7"/>
+    <stop offset="70%"  stop-color="#e05820" stop-opacity="0.2"/>
+    <stop offset="100%" stop-color="#e05820" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="gw">
+    <feGaussianBlur stdDeviation="2.5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="go">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="cp"><rect width="1200" height="630"/></clipPath>
+</defs>
+
+<!-- BG layers -->
+<rect width="1200" height="630" fill="url(#bg)"/>
+<rect width="1200" height="630" fill="url(#hdots)"/>
+<rect x="620" width="580" height="630" fill="url(#rfade)"/>
+
+<!-- Decorative arcs — top-right -->
+<g clip-path="url(#cp)">
+  <circle class="a1" cx="1160" cy="70" r="180" fill="none" stroke="#e05820" stroke-opacity="0.16" stroke-width="1.5" stroke-dasharray="1131" stroke-dashoffset="1131" style="animation:arc1 2.2s ease-out 0.2s both"/>
+  <circle cx="1160" cy="70" r="140" fill="none" stroke="#e05820" stroke-opacity="0.10" stroke-width="1" stroke-dasharray="880"/>
+  <circle cx="1160" cy="70" r="100" fill="none" stroke="#e05820" stroke-opacity="0.06" stroke-width="1" stroke-dasharray="628"/>
+</g>
+
+<!-- Left accent bar -->
+<rect x="0" y="0" width="6" height="630" fill="#e05820" style="animation:glow 3s ease-in-out infinite"/>
+<!-- Pulsing status dots -->
+<circle cx="34" cy="157" r="4" fill="#e05820" style="animation:pulse 2.8s ease-in-out 0s infinite"/>
+<circle cx="34" cy="315" r="4" fill="#e05820" style="animation:pulse 2.8s ease-in-out 0.9s infinite"/>
+<circle cx="34" cy="473" r="4" fill="#e05820" style="animation:pulse 2.8s ease-in-out 1.8s infinite"/>
+
+<!-- ── HEADER ── -->
+<text x="64" y="46" class="mono" font-size="11" fill="#3a5060" letter-spacing="5">PHISHDESTROY · ACTIVE INVESTIGATION · TLP:CLEAR · 2026</text>
+<line x1="0" y1="62" x2="1200" y2="62" stroke="#0f1a24" stroke-width="1"/>
+
+<!-- ── TITLE BLOCK ── -->
+<text x="64" y="136" class="mono" font-size="12" fill="#3a5060" letter-spacing="4" style="animation:fadein 0.5s ease 0.1s both">REGISTRY OPERATOR · LUXEMBOURG · CENTRALNIC</text>
+
+<!-- Giant SHORTDOT -->
+<text x="58" y="238" class="mono" font-size="92" font-weight="bold" fill="#ddeeff" letter-spacing="-2" filter="url(#gw)" style="animation:fadein 0.7s ease 0.3s both">SHORTDOT</text>
+<!-- SA accent on same baseline -->
+<text x="730" y="238" class="mono" font-size="58" font-weight="bold" fill="#e05820" filter="url(#go)" style="animation:fadein 0.7s ease 0.4s both">SA</text>
+
+<!-- Animated underline -->
+<rect x="64" y="254" width="700" height="3" fill="#e05820" style="animation:linein 0.8s ease 0.5s both;transform-origin:left"/>
+
+<!-- Subtitle -->
+<text x="64" y="294" class="mono" font-size="17" fill="#2a4a5a" letter-spacing="4" style="animation:fadein 0.6s ease 0.6s both">REGISTRY ZONE ABUSE INVESTIGATION</text>
+
+<!-- TLD badge row -->
+<g class="mono" font-size="12" style="animation:fadein 0.6s ease 0.8s both">
+  <rect x="64"  y="312" width="52" height="22" rx="3" fill="#0a1420" stroke="#e05820" stroke-width="0.8" stroke-opacity="0.5"/>
+  <text x="90"  y="327" fill="#e05820" text-anchor="middle">.icu</text>
+  <rect x="124" y="312" width="58" height="22" rx="3" fill="#0a1420" stroke="#e05820" stroke-width="0.8" stroke-opacity="0.5"/>
+  <text x="153" y="327" fill="#e05820" text-anchor="middle">.bond</text>
+  <rect x="190" y="312" width="58" height="22" rx="3" fill="#0a1420" stroke="#e05820" stroke-width="0.8" stroke-opacity="0.5"/>
+  <text x="219" y="327" fill="#e05820" text-anchor="middle">.cyou</text>
+  <rect x="256" y="312" width="50" height="22" rx="3" fill="#0a1420" stroke="#e05820" stroke-width="0.8" stroke-opacity="0.5"/>
+  <text x="281" y="327" fill="#e05820" text-anchor="middle">.sbs</text>
+  <rect x="314" y="312" width="50" height="22" rx="3" fill="#0a1420" stroke="#e05820" stroke-width="0.8" stroke-opacity="0.5"/>
+  <text x="339" y="327" fill="#e05820" text-anchor="middle">.cfd</text>
+  <rect x="372" y="312" width="58" height="22" rx="3" fill="#0a1420" stroke="#e05820" stroke-width="0.8" stroke-opacity="0.5"/>
+  <text x="401" y="327" fill="#e05820" text-anchor="middle">.buzz</text>
+  <rect x="438" y="312" width="58" height="22" rx="3" fill="#0a1420" stroke="#e05820" stroke-width="0.8" stroke-opacity="0.5"/>
+  <text x="467" y="327" fill="#e05820" text-anchor="middle">.qpon</text>
+</g>
+
+<!-- ── STAT CARDS (right column, stacked) ── -->
+
+<!-- Card 1: Domains -->
+<rect x="780" y="80" width="368" height="138" rx="5" fill="#060c16" stroke="#1a2a38" stroke-width="1" style="animation:fadein 0.5s ease 0.4s both"/>
+<rect x="780" y="80" width="368" height="4"   rx="2" fill="#e05820"/>
+<text x="798" y="108" class="mono" font-size="10" fill="#3a5060" letter-spacing="3">DOMAINS IN ZONES</text>
+<text x="798" y="166" class="mono" font-size="48" font-weight="bold" fill="#ddeeff" filter="url(#gw)">6,231,825</text>
+<text x="798" y="205" class="mono" font-size="11" fill="#2a4a5a">Full enumeration · 7 ShortDot gTLDs</text>
+
+<!-- Card 2: Phantom -->
+<rect x="780" y="236" width="368" height="138" rx="5" fill="#060c16" stroke="#1a2a38" stroke-width="1" style="animation:fadein 0.5s ease 0.6s both"/>
+<rect x="780" y="236" width="368" height="4"   rx="2" fill="#c0a060"/>
+<text x="798" y="264" class="mono" font-size="10" fill="#3a5060" letter-spacing="3">PHANTOM / NO DNS AT REGISTRATION</text>
+<text x="798" y="322" class="mono" font-size="48" font-weight="bold" fill="#c0a060" filter="url(#gw)">70.4%</text>
+<text x="798" y="361" class="mono" font-size="11" fill="#2a4a5a">4,387,385 domains — registered, never activated</text>
+
+<!-- Card 3: Brand impersonation -->
+<rect x="780" y="392" width="368" height="138" rx="5" fill="#060c16" stroke="#1a2a38" stroke-width="1" style="animation:fadein 0.5s ease 0.8s both"/>
+<rect x="780" y="392" width="368" height="4"   rx="2" fill="#8b5cf6"/>
+<text x="798" y="420" class="mono" font-size="10" fill="#3a5060" letter-spacing="3">BRAND IMPERSONATION DOMAINS</text>
+<text x="798" y="478" class="mono" font-size="48" font-weight="bold" fill="#8b5cf6" filter="url(#gw)">25,966</text>
+<text x="798" y="517" class="mono" font-size="11" fill="#2a4a5a">chase.bond · metamask.icu · kraken.cyou · …</text>
+
+<!-- ── LOWER LEFT PANEL ── -->
+<line x1="0" y1="360" x2="760" y2="360" stroke="#0f1a24" stroke-width="1"/>
+
+<!-- Key finding -->
+<rect x="64" y="376" width="690" height="64" rx="4" fill="#060c16" stroke="#1a2a38" stroke-width="1"/>
+<rect x="64" y="376" width="4" height="64" fill="#3fb950"/>
+<text x="82" y="398" class="mono" font-size="11" fill="#3a5060" letter-spacing="2">KEY FINDING</text>
+<text x="82" y="428" class="mono" font-size="16" fill="#c9d1d9">Verified legitimate businesses using these zones: <tspan font-size="22" font-weight="bold" fill="#3fb950" filter="url(#gw)">0</tspan></text>
+
+<!-- ICANN / NameBlock lines -->
+<text x="64" y="472" class="mono" font-size="13" fill="#3a5060">ICANN collects <tspan fill="#8b5cf6" font-weight="bold">$1.74M/yr</tspan> from zones it is obligated to police.</text>
+<text x="64" y="494" class="mono" font-size="13" fill="#3a5060">NameBlock (ShortDot) sells <tspan fill="#e05820" font-weight="bold">brand protection</tspan> against the same zones it created.</text>
+
+<!-- ── FOOTER ── -->
+<line x1="0" y1="564" x2="1200" y2="564" stroke="#0f1a24" stroke-width="1"/>
+<circle cx="38" cy="598" r="5" fill="#e05820" opacity="0.8"/>
+<text x="54" y="603" class="mono" font-size="11" fill="#2a3a48" letter-spacing="2">phishdestroy.io</text>
+<text x="600" y="603" class="mono" font-size="11" fill="#2a3a48" text-anchor="middle" letter-spacing="2">github.com/phishdestroy/shortdot-evidence</text>
+<text x="1160" y="603" class="mono" font-size="11" fill="#2a3a48" text-anchor="end" letter-spacing="2">Auto-updated daily · MIT</text>
+</svg>

@@ -105,17 +105,18 @@
 **The Core Question**
 - [5 · Show Me One Legitimate Business](#5--show-me-one-legitimate-business)
 - [6 · Follow the Money](#6--follow-the-money)
-- [7 · The NameBlock Protection Racket](#7--the-nameblock-protection-racket)
-- [8 · Findings](#8--findings)
+- [7 · The "Private Infrastructure" Myth](#7--the-private-infrastructure-myth)
+- [8 · NameBlock — Structural Conflict of Interest](#8--nameblock--structural-conflict-of-interest)
+- [9 · Findings](#9--findings)
 
 </td>
 <td valign="top">
 
 **Data / Legal**
-- [9 · Timeline of Acquisitions](#9--timeline-of-acquisitions)
-- [10 · Enforcement Posture](#10--enforcement-posture)
-- [11 · Repository Structure](#11--repository-structure)
-- [12 · Citation & License](#12--citation)
+- [10 · Timeline of Acquisitions](#10--timeline-of-acquisitions)
+- [11 · Enforcement Posture](#11--enforcement-posture)
+- [12 · Repository Structure](#12--repository-structure)
+- [13 · Citation & License](#13--citation)
 
 </td>
 </tr>
@@ -399,7 +400,29 @@ High-volume phantom registrations through a named partner registrar are consiste
 
 ---
 
-## 7 · NameBlock — Structural Conflict of Interest
+## 7 · The "Private Infrastructure" Myth
+
+A common defense for massive volumes of phantom (no-IP) registrations is that they serve backend infrastructure, private VPN nodes, or isolated telemetry endpoints. This narrative is technically incoherent.
+
+### 1. Industry Standard: Subdomain Routing
+
+Legitimate platforms route millions of unique endpoints using dynamic subdomains under a single controlled root domain. Vercel (`*.vercel.app`), Tailscale (`*.ts.net`), and major ISPs (`*.rr.com`, `*.verizon.net`) generate a million subdomains instantaneously at zero cost. Registering a million separate root domains costs millions in wholesale fees and ICANN transaction charges. No legitimate scalable infrastructure purchases individual root domains for its endpoints.
+
+### 2. Certificate Transparency Destroys the OPSEC Argument
+
+Modern infrastructure requires SSL/TLS. Every time a distinct root domain is issued a certificate, that issuance is permanently recorded in public Certificate Transparency (CT) logs. A VPN or proxy network using individual root domains for its nodes would be actively broadcasting its entire network topology and deployment timeline to the public internet — an indelible, fully auditable trail of every node provisioned and when. This is a fatal architectural flaw, not a feature.
+
+### 3. Wildcards Provide Actual Privacy
+
+A single root domain with a wildcard certificate (`*.internal-network.net`) secures millions of individual nodes without leaking specific hostnames to CT logs. Subdomains cannot be passively enumerated: unlike root TLD zone files — which are publicly downloadable via ICANN's Centralized Zone Data Service (CZDS) — subdomain trees are opaque to outside observers. Any operator who genuinely prioritizes operational security uses subdomains and wildcards. The registration of millions of distinct non-resolving root domains serves zero legitimate technical purpose.
+
+### Conclusion
+
+The "private infrastructure" defense fails on cost, OPSEC, and technical architecture simultaneously. The actual function of phantom registrations is straightforward: **metric padding** — artificially inflating zone volume to signal market adoption to investors, analysts, and ICANN during contract reviews. A zone with 1.9M registered domains is structurally harder to suspend than one with 50K, regardless of whether those domains resolve to anything.
+
+---
+
+## 8 · NameBlock — Structural Conflict of Interest
 
 ShortDot describes NameBlock as an "advanced brand protection" service. The mechanics:
 
@@ -437,7 +460,7 @@ ShortDot's own website states NameBlock provides "advanced brand protection tool
 
 ---
 
-## 8 · Findings
+## 9 · Findings
 
 ### Headline Numbers
 
@@ -474,7 +497,7 @@ The naming of `.cfd` is not incidental — it is a targeting signal to operators
 
 ---
 
-## 9 · Timeline of Acquisitions
+## 10 · Timeline of Acquisitions
 
 | Date | Event |
 |---|---|
@@ -490,7 +513,7 @@ The April 2024 dual acquisition — two new zones added to the ShortDot portfoli
 
 ---
 
-## 10 · Enforcement Posture
+## 11 · Enforcement Posture
 
 This evidence package is suitable for:
 
@@ -508,7 +531,7 @@ This evidence package is suitable for:
 
 ---
 
-## 11 · Repository Structure
+## 12 · Repository Structure
 
 ```
 shortdot-evidence/
@@ -543,7 +566,7 @@ shortdot-evidence/
 
 ---
 
-## 12 · Citation
+## 13 · Citation
 
 ```bibtex
 @misc{phishdestroy2026shortdot,
