@@ -302,48 +302,49 @@ _snap_dir.mkdir(exist_ok=True)
     'tld_stats':          tld_stats,
 }, indent=2), encoding='utf-8')
 
-# ── Write daily TXT + JSON ────────────────────────────────────────────────────
+# ── Write daily TXT + JSON (incremental runs only — active snapshot too large) ──
 data_root = Path('data/new')
-for day_date in dates:
-    yr, mo = day_date[:4], day_date[5:7]
-    day_dir = data_root / yr / mo
-    day_dir.mkdir(parents=True, exist_ok=True)
+if FILTER_TYPE == 'new':
+    for day_date in dates:
+        yr, mo = day_date[:4], day_date[5:7]
+        day_dir = data_root / yr / mo
+        day_dir.mkdir(parents=True, exist_ok=True)
 
-    records = by_date[day_date]
-    domains = sorted(set(r['d'] for r in records))
+        records = by_date[day_date]
+        domains = sorted(set(r['d'] for r in records))
 
-    (day_dir / f'{day_date}.txt').write_text('\n'.join(domains) + '\n', encoding='utf-8')
-    day_json = {
-        'date':              day_date,
-        'count':             len(domains),
-        'revenue_wholesale': day_revenue_wholesale(records),
-        'revenue_retail':    day_revenue_retail(records),
-        'icann_fees':        day_icann_fees(records),
-        'domains': [
-            {k2: v2 for k2, v2 in {
-                'domain':      r['d'],
-                'tld':         r['d'].rsplit('.', 1)[-1].lower(),
-                'expiring_at': r.get('e', ''),
-                'ip':          r.get('i', ''),
-                'ip_country':  r.get('c', ''),
-                'email':       r.get('m', '').split(',')[0].strip().lower() if r.get('m') else '',
-                'phone':       r.get('p', '').split(',')[0].strip() if r.get('p') else '',
-            }.items() if v2}
-            for r in sorted(records, key=lambda x: x['d'])
-        ]
-    }
-    (day_dir / f'{day_date}.json').write_text(json.dumps(day_json, separators=(',', ':')), encoding='utf-8')
+        (day_dir / f'{day_date}.txt').write_text('\n'.join(domains) + '\n', encoding='utf-8')
+        day_json = {
+            'date':              day_date,
+            'count':             len(domains),
+            'revenue_wholesale': day_revenue_wholesale(records),
+            'revenue_retail':    day_revenue_retail(records),
+            'icann_fees':        day_icann_fees(records),
+            'domains': [
+                {k2: v2 for k2, v2 in {
+                    'domain':      r['d'],
+                    'tld':         r['d'].rsplit('.', 1)[-1].lower(),
+                    'expiring_at': r.get('e', ''),
+                    'ip':          r.get('i', ''),
+                    'ip_country':  r.get('c', ''),
+                    'email':       r.get('m', '').split(',')[0].strip().lower() if r.get('m') else '',
+                    'phone':       r.get('p', '').split(',')[0].strip() if r.get('p') else '',
+                }.items() if v2}
+                for r in sorted(records, key=lambda x: x['d'])
+            ]
+        }
+        (day_dir / f'{day_date}.json').write_text(json.dumps(day_json, separators=(',', ':')), encoding='utf-8')
 
-# ── Monthly rollup TXT per TLD ────────────────────────────────────────────────
-by_month = defaultdict(set)
-for day_date, records in by_date.items():
-    by_month[day_date[:7]].update(r['d'] for r in records)
+    # ── Monthly rollup TXT per TLD ────────────────────────────────────────────────
+    by_month = defaultdict(set)
+    for day_date, records in by_date.items():
+        by_month[day_date[:7]].update(r['d'] for r in records)
 
-for month_key, doms in by_month.items():
-    yr = month_key[:4]
-    mp = data_root / yr
-    mp.mkdir(parents=True, exist_ok=True)
-    (mp / f'{month_key}.txt').write_text('\n'.join(sorted(doms)) + '\n', encoding='utf-8')
+    for month_key, doms in by_month.items():
+        yr = month_key[:4]
+        mp = data_root / yr
+        mp.mkdir(parents=True, exist_ok=True)
+        (mp / f'{month_key}.txt').write_text('\n'.join(sorted(doms)) + '\n', encoding='utf-8')
 
 # Per-TLD files
 tld_dir = Path('data/by_tld')
@@ -357,10 +358,13 @@ Path('data/all.txt').write_text('\n'.join(sorted(all_domains)) + '\n', encoding=
 
 # ── data/index.json ───────────────────────────────────────────────────────────
 index_days = [
-    {'date': d, 'count': len(set(r['d'] for r in by_date[d])),
-     'revenue_wholesale': day_revenue_wholesale(by_date[d]),
-     'icann_fees': day_icann_fees(by_date[d]),
-     'path': f'data/new/{d[:4]}/{d[5:7]}/{d}.txt'}
+    {k: v for k, v in {
+        'date':              d,
+        'count':             len(set(r['d'] for r in by_date[d])),
+        'revenue_wholesale': day_revenue_wholesale(by_date[d]),
+        'icann_fees':        day_icann_fees(by_date[d]),
+        'path':              f'data/new/{d[:4]}/{d[5:7]}/{d}.txt' if FILTER_TYPE == 'new' else None,
+    }.items() if v is not None}
     for d in dates
 ]
 Path('data/index.json').write_text(json.dumps({
