@@ -143,6 +143,7 @@ AU  ░░░░░░░░░░░░░░░░░░     21,228 (2.0%)
 **Data / Legal**
 - [10 · Timeline of Acquisitions](#10--timeline-of-acquisitions)
 - [11 · Enforcement Posture](#11--enforcement-posture)
+- [11.1 · The Freenom Legacy vs. ShortDot Reality](#111--the-freenom-legacy-vs-the-shortdot-reality)
 - [12 · Repository Structure](#12--repository-structure)
 - [13 · Citation & License](#13--citation)
 
@@ -548,6 +549,21 @@ This evidence package is suitable for:
 - ShortDot: WHOIS for each TLD's IANA record
 - ICANN Compliance: `compliance@icann.org`
 - Registrar-specific: WHOIS abuse contact
+
+---
+
+## 11.1 · The Freenom Legacy vs. The ShortDot Reality
+
+If we look back at the Freenom case, the sheer volume of toxic infrastructure was colossal. At the time, automated scanning capabilities to process millions of domains at scale were not yet available, so exact historical metrics on their abuse levels cannot be provided. However, one key distinction applies: **free is not cheap. Free is simply free.**
+
+ShortDot SA and its partner registrars operate on a completely different premise — they extract direct financial profit from every single registration. Logically, direct financial gain should dictate a higher level of accountability and stricter operational obligations. One would naturally assume that somewhere in their compliance policies there is a basic, undeniable rule: *do not ignore phishing reports, and do not turn the internet into a toxic dumpster.*
+
+Unfortunately, the reality of how abuse reports are handled suggests that the drive for registration volume heavily outweighs the responsibility to maintain a clean namespace.
+
+> **The Freenom defense — "we offer free domains, enforcement is hard" — was weak but coherent.  
+> ShortDot's equivalent — "we charge per domain and still cannot maintain basic hygiene" — has no coherent defense at all.**
+
+The financial accountability argument is straightforward: when a registry charges wholesale fees on every domain, profits from the NameBlock brand-protection racket running on top of its own zones, and collects revenue regardless of whether those domains serve phishing pages or nothing at all — the registry has removed every incentive to reduce registrations and retained every incentive to maximize them. The result is what this repository documents: 6.2 million domains, zero verified legitimate businesses, and $14.3 million in annual extraction from an ecosystem built around abuse.
 
 ---
 
