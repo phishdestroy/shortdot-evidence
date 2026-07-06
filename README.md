@@ -29,40 +29,42 @@ They were meant to be <i>counted.</i><br/>
 
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-07-04`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-07-06`
 
 <table><tr>
-<td align="center"><b>📦 Domains tracked</b><br/><sub><code>6,231,825</code></sub></td>
-<td align="center"><b>💰 Est. revenue to ShortDot</b><br/><sub><code>$12,559,037</code></sub></td>
-<td align="center"><b>💸 ICANN fees (registry)</b><br/><sub><code>$1,738,556</code></sub></td>
-<td align="center"><b>❌ No-IP phantom</b><br/><sub><code>4,387,385 (70.4%)</code></sub></td>
-<td align="center"><b>🎯 Brand impersonation</b><br/><sub><code>25,966 domains</code></sub></td>
-<td align="center"><b>🏛️ Verified legitimate</b><br/><sub><code>0</code></sub></td>
-<td align="center"><b>⚡ Combined extracted</b><br/><sub><code>$14,297,593</code></sub></td>
+<td align="center"><b>📦 Domains tracked</b><br/><sub><code>6,242,647</code></sub></td>
+<td align="center"><b>💰 Est. ShortDot revenue</b><br/><sub><code>$12,557,633</code></sub></td>
+<td align="center"><b>💸 ICANN fees (registry)</b><br/><sub><code>$1,741,262</code></sub></td>
+<td align="center"><b>✅ Confirmed malicious</b><br/><sub><code>0.1%</code> (4,086)</sub></td>
+<td align="center"><b>🏛️ Verified legitimate</b><br/><sub><code>0</code> sites found</sub></td>
+<td align="center"><b>⚡ Fresh (≤7d)</b><br/><sub><code>100.0%</code></sub></td>
 </tr></table>
 
-<details>
-<summary><b>📊 TLD Breakdown — click to expand</b></summary>
-<br/>
+### 🏷️ TLD Breakdown
 
-| TLD | Domains | With IP | No IP (phantom) | Phantom % | Wholesale/domain | Est. Revenue |
+| TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 971,649 | 282,876 | 688,773 | **70.9%** | $0.65 | $631,572 |
-| `.bond` | 1,327,512 | 105,362 | 1,222,150 | **92.1%** | $6.50 | $8,628,828 |
-| `.cyou` | 753,652 | 266,942 | 486,710 | **64.6%** | $0.65 | $489,874 |
-| `.sbs` | 1,911,124 | 594,002 | 1,317,122 | **68.9%** | $0.65 | $1,242,231 |
-| `.cfd` | 950,551 | 406,434 | 544,117 | **57.2%** | $0.65 | $617,858 |
-| `.buzz` | 207,109 | 126,319 | 80,790 | 39.0% | $3.25 | $673,104 |
-| `.qpon` | 110,228 | 62,505 | 47,723 | 43.3% | $2.50 | $275,570 |
-| **TOTAL** | **6,231,825** | **1,844,440** | **4,387,385** | **70.4%** | — | **$12,559,037** |
+| `.icu` | 976,416 | 62,939 (6.4%) | 913,477 | 1,366 | — | $634,670 |
+| `.bond` | 1,325,001 | 17,841 (1.3%) | 1,307,160 | 126 | — | $8,612,506 |
+| `.cyou` | 756,981 | 31,006 (4.1%) | 725,975 | 338 | — | $492,038 |
+| `.sbs` | 1,912,083 | 130,275 (6.8%) | 1,781,808 | 1,289 | — | $1,242,854 |
+| `.cfd` | 952,385 | 184,159 (19.3%) | 768,226 | 842 | — | $619,050 |
+| `.buzz` | 209,416 | 31,872 (15.2%) | 177,544 | 76 | — | $680,602 |
+| `.qpon` | 110,365 | 10,813 (9.8%) | 99,552 | 49 | — | $275,912 |
 
-*Data: ICANN gTLD zone files · ICANN fees (registry): $1,738,556/yr · Combined extraction: $14,297,593/yr*
+*Table auto-generated on each daily fetch run.*
 
-</details>
+### 📈 Registration Burst Days
 
-<details>
-<summary><b>📥 Download Threat Intelligence</b></summary>
-<br/>
+| Date | Domains | × Average |
+|:--|--:|--:|
+| `2026-07-06` | 6,242,647 | **1.0×** |
+
+### 🎯 Top Targeted Brands & Keywords
+
+`capital (10,395)` &middot; `trust (7,347)` &middot; `fund (5,321)` &middot; `login (4,946)` &middot; `investment (3,972)` &middot; `account (3,791)` &middot; `secure (3,506)` &middot; `connect (3,089)` &middot; `crypto (2,989)` &middot; `support (2,977)` &middot; `official (2,252)` &middot; `claim (2,197)` &middot; `vault (2,023)` &middot; `bridge (1,796)` &middot; `update (1,706)`
+
+### 📥 Download Threat Intelligence
 
 | File | Format | Description |
 |:--|:--:|:--|
@@ -73,11 +75,9 @@ They were meant to be <i>counted.</i><br/>
 | [`data/ioc/brand_domains.json`](data/ioc/brand_domains.json) | JSON | Domains by targeted brand |
 | [`data/ioc/stix-bundle.json`](data/ioc/stix-bundle.json) | STIX 2.1 | MISP/OpenCTI ready bundle |
 | [`ioc/domains_all_malicious.txt`](ioc/domains_all_malicious.txt) | TXT | Confirmed malicious — all severity |
-| [`ioc/domains_high.txt`](ioc/domains_high.txt) | TXT | HIGH severity only (phishing, drain, carding) |
+| [`ioc/domains_high.txt`](ioc/domains_high.txt) | TXT | HIGH severity only |
 
 > 📊 Live dashboard: Pages link at top · Updated daily 06:00 UTC
-
-</details>
 
 <!-- LIVE_STATS:END -->
 
