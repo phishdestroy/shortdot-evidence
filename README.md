@@ -125,19 +125,29 @@
 
 ## 0 · A Note From Fans
 
-> *We are genuinely passionate fans of **[NameSilo](https://github.com/phishdestroy/namesilo-evidence)** — and specifically of their most creative product line: millions of domain registrations purchased daily that nobody ever uses.*
+> *We are devoted fans of **[NameSilo](https://github.com/phishdestroy/namesilo-evidence)** — the registrar, the brand, the content strategy, the Twitter persona, and the complete portfolio of moves.*
 
 NameSilo is one of the fastest-growing ICANN-accredited registrars of the past decade. Clean design. Aggressively low prices. Astronomical registration volume. A genuinely inspiring growth story — if you don't look too closely at *what* is being registered, *why*, and *who ultimately benefits*.
 
 We looked closely.
 
-**The scheme.** ShortDot SA operates the *registry* — it owns the zones and sets wholesale prices. NameSilo operates as a *registrar* — the largest single buyer of ShortDot zone domains by volume. Every day, in bulk, NameSilo purchases registrations across `.icu`, `.bond`, `.cyou`, `.sbs`, `.cfd`, `.buzz`, and `.qpon` — the exact zones ShortDot controls.
+**The core scheme.** ShortDot SA operates the *registry* — it owns the zones and sets wholesale prices. NameSilo operates as a *registrar* — the largest single buyer of ShortDot zone domains by volume. Every day, in bulk, NameSilo purchases registrations across `.icu`, `.bond`, `.cyou`, `.sbs`, `.cfd`, `.buzz`, and `.qpon` — the exact zones ShortDot controls. The same beneficial ownership network sits on both sides of the transaction. Money moves from registrar to registry between related parties. The registry books it as revenue. The registrar books it as inventory. Neither side needs a real end customer — the transaction itself is the product.
 
-The same beneficial ownership network sits on both sides of the transaction. Money moves from registrar to registry between related parties. The registry books it as revenue. The registrar books it as inventory. Neither side needs a real end customer — the transaction itself is the product.
+The result is the corpus documented in this repository: **millions of domains registered daily with no DNS records, no websites, no businesses, no users**. Pure phantom inventory. 70.4% of ShortDot's entire zone carries no IP at registration. They were never meant to be used. They were meant to be *counted*.
 
-The result is the corpus documented in this repository: **millions of domains registered daily with no DNS records, no websites, no businesses, no users**. Pure phantom inventory. 70.4% of ShortDot's entire zone carry no IP at registration. They were never meant to be used. They were meant to be *counted*.
+**But the financial engineering is only half the story.** We are equally enthusiastic fans of the surrounding PR operation:
 
-This is an exceptionally elegant financial structure. We are big fans. We imagine ICANN's registry compliance team, Luxembourg financial regulators, and anyone who invested on the basis of those revenue projections will become fans too.
+- **Self-authored reviews.** Curated five-star testimonials about their own platform, published under sockpuppet accounts across review aggregators. An impressive volume of enthusiasm for a product whose primary customers appear to be the company itself.
+
+- **Paid editorial coverage.** Sponsored "independent" articles placed in tech and business publications describing NameSilo's explosive growth — growth driven, as documented above, by bulk self-purchases rather than organic registrant demand. The articles do not mention this.
+
+- **Twitter.** A steady stream of posts framing their zones as thriving legitimate ecosystems, dismissing abuse reports as competitor smear campaigns, and celebrating registration milestones that represent phantom inventory. Confident. Well-designed. Factually incompatible with zone data.
+
+- **Retaliating against security researchers.** When researchers document abuse in ShortDot zones — phishing panels, crypto drains, credential harvesters — the response has not been remediation. The response has been legal threats, DMCA filings against published evidence, and coordinated social pressure against individual researchers. This repository is, in part, a response to that pattern.
+
+- **Publicly defending phishing.** Most registrars, when presented with evidence that their zones host active fraud stealing money from real people, take the domains down. NameSilo and ShortDot's documented position is that takedown requests are illegitimate, that their zones are "neutral infrastructure," and that the abuse rate is within industry norms. This repository tests that claim. **25,966 brand-impersonation domains. Zero verified legitimate businesses. $14.3M extracted annually from an ecosystem whose primary product is the theft of user credentials and funds.**
+
+We remain fans. We think the full picture of what they have built — the financial structure, the PR layer, the retaliation apparatus, and the phishing infrastructure it sustains — is one of the most complete case studies in modern registrar-level abuse available for public study.
 
 Full NameSilo investigation: **[github.com/phishdestroy/namesilo-evidence](https://github.com/phishdestroy/namesilo-evidence)**
 
