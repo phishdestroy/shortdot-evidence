@@ -644,6 +644,129 @@ footer a{color:var(--cy)}
   <div style="font-size:10px;font-family:'JetBrains Mono',monospace;color:var(--tx3)">Source: NameSilo full portfolio extract · 2026-07-04</div>
 </div>
 
+<div class="sec"><h2>The Statistical Smokescreen</h2><div class="ln"></div></div>
+<p class="sec-sub">Same 25,966 malicious domains. Same data. The "abuse rate" changes by 300× depending on which denominator you use. This is not a coincidence.</p>
+
+<div style="background:rgba(218,54,51,.04);border:1px solid rgba(218,54,51,.3);border-radius:6px;padding:22px;margin-bottom:12px">
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px">
+    <div style="background:var(--s3);border-radius:5px;padding:16px;text-align:center">
+      <div style="font-size:11px;font-family:'JetBrains Mono',monospace;color:var(--tx3);letter-spacing:.08em;margin-bottom:8px">MALICIOUS DOMAINS (FIXED)</div>
+      <div style="font-size:2.8rem;font-weight:900;color:var(--rd);font-family:'JetBrains Mono',monospace;line-height:1">25,966</div>
+      <div style="font-size:10px;color:var(--tx3);font-family:'JetBrains Mono',monospace;margin-top:4px">brand impersonation · phishing · drains</div>
+    </div>
+    <div style="background:var(--s3);border-radius:5px;padding:16px;text-align:center">
+      <div style="font-size:11px;font-family:'JetBrains Mono',monospace;color:var(--tx3);letter-spacing:.08em;margin-bottom:8px">DENOMINATOR (ANIMATING)</div>
+      <div id="smokescreen-label" style="font-size:.85rem;font-weight:700;color:var(--or);font-family:'JetBrains Mono',monospace;line-height:1.3;min-height:2.5em;transition:opacity .3s">Total zone domains</div>
+      <div id="smokescreen-denom" style="font-size:2.0rem;font-weight:900;color:var(--tx);font-family:'JetBrains Mono',monospace;line-height:1;margin-top:4px;transition:opacity .3s">6,231,825</div>
+    </div>
+  </div>
+  <div style="text-align:center;margin-bottom:16px">
+    <div style="font-size:11px;font-family:'JetBrains Mono',monospace;color:var(--tx3);letter-spacing:.08em;margin-bottom:6px">RESULTING "ABUSE RATE"</div>
+    <div id="smokescreen-pct" style="font-size:3.5rem;font-weight:900;font-family:'JetBrains Mono',monospace;line-height:1;transition:color .4s,opacity .3s">0.42%</div>
+    <div id="smokescreen-spin" style="font-size:13px;color:var(--tx2);margin-top:8px;font-style:italic;min-height:1.4em;transition:opacity .3s">"barely anything" — ShortDot's preferred comparison</div>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:6px">
+    <div class="ss-btn active" onclick="setSS(0)" style="background:rgba(218,54,51,.15);border:1px solid rgba(218,54,51,.4);border-radius:4px;padding:6px 4px;text-align:center;cursor:pointer;font-size:9px;font-family:'JetBrains Mono',monospace;color:var(--rd)">vs Total<br/><b>0.42%</b></div>
+    <div class="ss-btn" onclick="setSS(1)" style="background:var(--s3);border:1px solid var(--bdr);border-radius:4px;padding:6px 4px;text-align:center;cursor:pointer;font-size:9px;font-family:'JetBrains Mono',monospace;color:var(--tx3)">vs Live IP<br/><b>1.41%</b></div>
+    <div class="ss-btn" onclick="setSS(2)" style="background:var(--s3);border:1px solid var(--bdr);border-radius:4px;padding:6px 4px;text-align:center;cursor:pointer;font-size:9px;font-family:'JetBrains Mono',monospace;color:var(--tx3)">vs HTTP alive<br/><b>3.46%</b></div>
+    <div class="ss-btn" onclick="setSS(3)" style="background:var(--s3);border:1px solid var(--bdr);border-radius:4px;padding:6px 4px;text-align:center;cursor:pointer;font-size:9px;font-family:'JetBrains Mono',monospace;color:var(--tx3)">vs Real biz<br/><b>47.4%</b></div>
+    <div class="ss-btn" onclick="setSS(4)" style="background:var(--s3);border:1px solid var(--bdr);border-radius:4px;padding:6px 4px;text-align:center;cursor:pointer;font-size:9px;font-family:'JetBrains Mono',monospace;color:var(--tx3)">vs Top-1M<br/><b>145%</b></div>
+  </div>
+  <div style="margin-top:14px;padding-top:12px;border-top:1px solid var(--bdr);font-size:10px;font-family:'JetBrains Mono',monospace;color:var(--tx3)">
+    ▶ Phantom domains exist to manufacture the 0.42% figure. Strip them away and the picture inverts.
+  </div>
+</div>
+
+<div class="sec"><h2>The Price Inflation Machine</h2><div class="ln"></div></div>
+<p class="sec-sub">A domain costing $0.30 wholesale can be booked at $19.49 renewal price. At 6.2M domains, the difference is the difference between a registrar and a laundering instrument.</p>
+
+<div style="background:rgba(139,92,246,.04);border:1px solid rgba(139,92,246,.3);border-radius:6px;padding:22px;margin-bottom:12px">
+
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:20px;text-align:center">
+    <div style="background:var(--s3);border-radius:5px;padding:14px 8px">
+      <div style="font-size:9px;font-family:'JetBrains Mono',monospace;color:var(--tx3);letter-spacing:.06em;margin-bottom:6px">WHOLESALE (ShortDot→NameSilo)</div>
+      <div style="font-size:2rem;font-weight:900;color:#3fb950;font-family:'JetBrains Mono',monospace">$0.30</div>
+      <div style="font-size:9px;color:var(--tx3);margin-top:4px">.sbs actual cost</div>
+    </div>
+    <div style="background:var(--s3);border-radius:5px;padding:14px 8px">
+      <div style="font-size:9px;font-family:'JetBrains Mono',monospace;color:var(--tx3);letter-spacing:.06em;margin-bottom:6px">PROMO RETAIL (NameSilo)</div>
+      <div style="font-size:2rem;font-weight:900;color:var(--or);font-family:'JetBrains Mono',monospace">$1.88</div>
+      <div style="font-size:9px;color:var(--tx3);margin-top:4px">first year "sale"</div>
+    </div>
+    <div style="background:var(--s3);border-radius:5px;padding:14px 8px">
+      <div style="font-size:9px;font-family:'JetBrains Mono',monospace;color:var(--tx3);letter-spacing:.06em;margin-bottom:6px">RENEWAL PRICE (reported)</div>
+      <div style="font-size:2rem;font-weight:900;color:var(--rd);font-family:'JetBrains Mono',monospace">$19.49</div>
+      <div style="font-size:9px;color:var(--tx3);margin-top:4px">book value if counted here</div>
+    </div>
+    <div style="background:rgba(218,54,51,.08);border:1px solid rgba(218,54,51,.3);border-radius:5px;padding:14px 8px">
+      <div style="font-size:9px;font-family:'JetBrains Mono',monospace;color:var(--tx3);letter-spacing:.06em;margin-bottom:6px">INFLATION MULTIPLIER</div>
+      <div style="font-size:2rem;font-weight:900;color:var(--rd);font-family:'JetBrains Mono',monospace">65×</div>
+      <div style="font-size:9px;color:var(--tx3);margin-top:4px">$0.30 → $19.49</div>
+    </div>
+  </div>
+
+  <div style="font-size:11px;font-family:'JetBrains Mono',monospace;color:var(--tx3);margin-bottom:10px;letter-spacing:.05em">AT 1,911,124 .sbs DOMAINS:</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:16px;text-align:center">
+    <div style="background:var(--s3);border-radius:4px;padding:10px">
+      <div style="font-size:9px;color:var(--tx3);font-family:'JetBrains Mono',monospace;margin-bottom:4px">actual wholesale paid</div>
+      <div style="font-size:1.4rem;font-weight:800;color:#3fb950;font-family:'JetBrains Mono',monospace">$573K</div>
+    </div>
+    <div style="background:var(--s3);border-radius:4px;padding:10px">
+      <div style="font-size:9px;color:var(--tx3);font-family:'JetBrains Mono',monospace;margin-bottom:4px">if booked at promo price</div>
+      <div style="font-size:1.4rem;font-weight:800;color:var(--or);font-family:'JetBrains Mono',monospace">$3.6M</div>
+    </div>
+    <div style="background:rgba(218,54,51,.08);border:1px solid rgba(218,54,51,.25);border-radius:4px;padding:10px">
+      <div style="font-size:9px;color:var(--tx3);font-family:'JetBrains Mono',monospace;margin-bottom:4px">if booked at renewal price</div>
+      <div style="font-size:1.4rem;font-weight:800;color:var(--rd);font-family:'JetBrains Mono',monospace">$37.3M</div>
+    </div>
+  </div>
+
+  <div style="font-size:11px;font-family:'JetBrains Mono',monospace;color:var(--tx3);margin-bottom:10px;letter-spacing:.05em">THE PHANTOM REGISTRATION SCHEME:</div>
+  <div style="display:flex;flex-direction:column;gap:0;font-size:11px;font-family:'JetBrains Mono',monospace">
+    <div style="display:flex;gap:10px;padding:8px 10px;background:rgba(63,185,80,.06);border-left:3px solid #3fb950;border-radius:0 3px 3px 0;margin-bottom:2px"><span style="color:#3fb950;min-width:180px">ShortDot sells wholesale</span><span style="color:var(--tx2)">.sbs/.cfd at ~$0.30–0.50/domain to NameSilo (related party)</span></div>
+    <div style="padding-left:20px;color:var(--tx3)">↓</div>
+    <div style="display:flex;gap:10px;padding:8px 10px;background:rgba(192,160,96,.06);border-left:3px solid var(--or);border-radius:0 3px 3px 0;margin-bottom:2px"><span style="color:var(--or);min-width:180px">NameSilo registers at $1.88</span><span style="color:var(--tx2)">counts as "domain under management" · inflates reported metrics · dilutes scam % with dead weight</span></div>
+    <div style="padding-left:20px;color:var(--tx3)">↓</div>
+    <div style="display:flex;gap:10px;padding:8px 10px;background:rgba(218,54,51,.06);border-left:3px solid var(--rd);border-radius:0 3px 3px 0;margin-bottom:2px"><span style="color:var(--rd);min-width:180px">ShortDot books revenue</span><span style="color:var(--tx2)">reports "growing TLD adoption" to ICANN · justifies $227K application cost · attracts registrar partners</span></div>
+    <div style="padding-left:20px;color:var(--tx3)">↓</div>
+    <div style="display:flex;gap:10px;padding:8px 10px;background:rgba(139,92,246,.08);border-left:3px solid #8b5cf6;border-radius:0 3px 3px 0"><span style="color:#8b5cf6;min-width:180px">PrivacyGuardian covers it</span><span style="color:var(--tx2)">NameSilo's privacy shield makes bulk orders look like thousands of individual customers. Nobody checks if domains are real.</span></div>
+  </div>
+  <div style="margin-top:14px;padding-top:12px;border-top:1px solid var(--bdr);font-size:10px;font-family:'JetBrains Mono',monospace;color:var(--tx3)">
+    ▶ Both parties grow. Both report metrics. The phantom domains serve the reporting, not the internet.
+  </div>
+</div>
+
+<script>
+(function(){
+var SS=[
+  {label:'Total zone domains',denom:'6,231,825',pct:'0.42%',color:'#3fb950',spin:'"barely anything" — the preferred comparison when defending the zones'},
+  {label:'Domains with live IP',denom:'1,844,440',pct:'1.41%',color:'#c0a060',spin:'"within industry norms" — still sounds small'},
+  {label:'Domains with HTTP response',denom:'750,000',pct:'3.46%',color:'#e05820',spin:'"every 29th active site is phishing" — less comfortable'},
+  {label:'Real registered businesses',denom:'54,800',pct:'47.4%',color:'#da3633',spin:'"1 phishing page for every 2 businesses" — now it\'s a crisis'},
+  {label:'Top-1M ranked domains',denom:'17,800',pct:'145.8%',color:'#da3633',spin:'"more confirmed scam than legit traffic" — the phantom domains did their job'}
+];
+var cur=0,timer=null;
+function setSS(i){
+  cur=i;
+  var s=SS[i];
+  document.getElementById('smokescreen-label').textContent=s.label;
+  document.getElementById('smokescreen-denom').textContent=s.denom;
+  var p=document.getElementById('smokescreen-pct');
+  p.textContent=s.pct; p.style.color=s.color;
+  document.getElementById('smokescreen-spin').textContent=s.spin;
+  document.querySelectorAll('.ss-btn').forEach(function(b,j){
+    b.style.background=j===i?'rgba(218,54,51,.15)':'var(--s3)';
+    b.style.borderColor=j===i?'rgba(218,54,51,.4)':'var(--bdr)';
+    b.style.color=j===i?'var(--rd)':'var(--tx3)';
+  });
+  clearInterval(timer);
+  timer=setInterval(function(){cur=(cur+1)%SS.length;setSS(cur);},3200);
+}
+window.setSS=setSS;
+setSS(0);
+})();
+</script>
+
 <div class="sec"><h2>IP Clusters</h2><div class="ln"></div></div>
 <p class="sec-sub">Shared IPs extracted from zone data — coordinated bulk hosting infrastructure. Populated automatically from <code style="font-family:'JetBrains Mono',monospace;font-size:10px;padding:1px 4px;background:rgba(255,255,255,.05);border-radius:2px">data/ioc/shared_ips.json</code> on each daily fetch.</p>
 <div class="clg" id="clusters">
