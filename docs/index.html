@@ -1058,20 +1058,25 @@ window.showRange=showRange;
 
 function _buildChart(){
   var days=(_cd.daily||_cd.days||[]);
+  // filter out initial zone snapshots (>500k) — they distort the daily scale
+  var chartDays=days.filter(function(d){return d.count<=500000;});
   if(_range!=='all'){
     var y=parseInt(_range),co=new Date();co.setFullYear(co.getFullYear()-y);
     var cs=co.toISOString().slice(0,10);
-    days=days.filter(function(d){return d.date>=cs;});
+    chartDays=chartDays.filter(function(d){return d.date>=cs;});
   }
   var labels,counts,paths;
   if(_view==='monthly'){
-    var mb={};days.forEach(function(d){var m=d.date.slice(0,7);mb[m]=(mb[m]||0)+d.count;});
+    var mb={};chartDays.forEach(function(d){var m=d.date.slice(0,7);mb[m]=(mb[m]||0)+d.count;});
     var months=Object.keys(mb).sort();labels=months;counts=months.map(function(m){return mb[m];});paths=null;
   } else {
-    labels=days.map(function(d){return d.date;});counts=days.map(function(d){return d.count;});paths=days;
+    labels=chartDays.map(function(d){return d.date;});counts=chartDays.map(function(d){return d.count;});paths=chartDays;
   }
   var empty=document.getElementById('reg-chart-empty');
-  if(!counts.length){if(empty)empty.style.display='flex';return;}
+  if(!counts.length){
+    if(empty){empty.style.display='flex';empty.textContent='Initial zone snapshot captured — daily incremental data populates from 06:00 UTC onwards';}
+    return;
+  }
   if(empty)empty.style.display='none';
   var mx=Math.max.apply(null,counts)||1;
   var cols=counts.map(function(c){var t=c/mx;return'rgba('+(Math.round(110+t*108))+','+(Math.round(168-t*114))+','+(Math.round(215-t*164))+',0.75)';});
@@ -1173,10 +1178,14 @@ function buildDailyFeed(days){
     var rev=d.revenue_wholesale?'$'+Number(d.revenue_wholesale).toLocaleString(undefined,{minimumFractionDigits:0,maximumFractionDigits:0}):'—';
     var icann=d.icann_fees?'$'+Number(d.icann_fees).toLocaleString(undefined,{minimumFractionDigits:0,maximumFractionDigits:0}):'—';
     var path=d.path||'';
+    var isSnapshot=d.count>500000;
+    var countCell=isSnapshot
+      ?'<span style="color:var(--tx2)">'+Number(d.count||0).toLocaleString()+'</span><br><span style="font-size:9px;color:var(--tx3);font-family:\'JetBrains Mono\',monospace">full zone snapshot</span>'
+      :'<span style="color:var(--rd);font-weight:700">'+Number(d.count||0).toLocaleString()+'</span>';
     var dlLink=path?'<a href="../'+esc(path)+'" style="color:var(--cy);font-family:\'JetBrains Mono\',monospace;font-size:10px">'+esc(d.date||'')+'.txt ↓</a>':'<a href="../data/by_tld/" style="color:var(--tx3);font-family:\'JetBrains Mono\',monospace;font-size:10px">by TLD ↓</a>';
     return '<tr>'
       +'<td class="dom">'+esc(d.date||'')+'</td>'
-      +'<td style="color:var(--rd);font-weight:700">'+Number(d.count||0).toLocaleString()+'</td>'
+      +'<td>'+countCell+'</td>'
       +'<td style="color:var(--or)">'+rev+'</td>'
       +'<td style="color:var(--tx3)">'+icann+'</td>'
       +'<td>'+dlLink+'</td>'
@@ -1246,7 +1255,7 @@ function buildBurstBars(burst){
 function buildGeoBars(countries){
   var el=document.getElementById('geo-bars');if(!el)return;
   var entries=Object.entries(countries).sort(function(a,b){return b[1]-a[1];});
-  if(!entries.length)return;
+  if(!entries.length){el.innerHTML='<p style="font-size:11px;color:var(--tx3);font-family:\'JetBrains Mono\',monospace">Hostname-only data — IP geolocation not available from CZDS zone records.</p>';return;}
   var max=entries[0][1]||1;
   var total=entries.reduce(function(a,b){return a+b[1];},0)||1;
   el.innerHTML='<div class="hbar-grid">'+entries.slice(0,12).map(function(e){
@@ -1345,7 +1354,7 @@ fetch('data.json').then(function(r){return r.json();}).then(function(d){
 
   /* ── New analytics sections ── */
   if(s.burst_days && s.burst_days.length)          buildBurstBars(s.burst_days);
-  if(s.ip_countries && Object.keys(s.ip_countries).length) buildGeoBars(s.ip_countries);
+  buildGeoBars(s.ip_countries||{});
   if(s.brand_heatmap && Object.keys(s.brand_heatmap).length) buildKwHeatmap(s.brand_heatmap);
 
 }).catch(function(){
