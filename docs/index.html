@@ -636,6 +636,36 @@ h1 strong::before{content:"Zone Abuse Evidence — Registry Level";position:abso
 <div class="sec" id="exploit-simulator"><h2>Live Simulation: The Phantom Exploit</h2><div class="ln"></div></div>
 <p class="sec-sub">Observing theoretical metric manipulation. While the global domain market stagnates and ICANN raises fees, a hypothetical entity can exploit bulk wholesale pricing (paying essentially just the $0.18 ICANN fee) to mass-generate phantom domains. This creates an illusion of explosive corporate growth and dilutes severe abuse ratios.</p>
 
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:10px;margin-bottom:16px">
+  <div style="background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:14px 16px">
+    <div style="font-size:9px;font-family:monospace;color:#8b949e;letter-spacing:.08em;margin-bottom:6px">ON PAPER</div>
+    <div style="font-size:22px;font-weight:700;color:#f0f6fc;font-variant-numeric:tabular-nums">6,242,647</div>
+    <div style="font-size:10px;color:#8b949e;margin-top:4px">domains under management</div>
+    <div style="margin-top:8px;font-size:10px;color:#3fb950">abuse rate: <strong>0.83%</strong></div>
+  </div>
+  <div style="background:#0d1117;border:1px solid var(--rd);border-radius:6px;padding:14px 16px">
+    <div style="font-size:9px;font-family:monospace;color:#8b949e;letter-spacing:.08em;margin-bottom:6px">REALITY</div>
+    <div style="font-size:22px;font-weight:700;color:#da3633;font-variant-numeric:tabular-nums">1,844,930</div>
+    <div style="font-size:10px;color:#8b949e;margin-top:4px">domains actually deployed</div>
+    <div style="margin-top:8px;font-size:10px;color:var(--rd)">abuse rate: <strong>2.8%</strong></div>
+  </div>
+  <div style="background:#0d1117;border:1px solid #d29922;border-radius:6px;padding:14px 16px">
+    <div style="font-size:9px;font-family:monospace;color:#8b949e;letter-spacing:.08em;margin-bottom:6px">PHANTOM DILUTION</div>
+    <div style="font-size:22px;font-weight:700;color:#d29922;font-variant-numeric:tabular-nums">3.4×</div>
+    <div style="font-size:10px;color:#8b949e;margin-top:4px">4,397,717 phantom domains</div>
+    <div style="margin-top:8px;font-size:10px;color:#d29922">cost to inflate: <strong>~$792K</strong></div>
+  </div>
+  <div style="background:#0d1117;border:1px solid #8b5cf6;border-radius:6px;padding:14px 16px">
+    <div style="font-size:9px;font-family:monospace;color:#8b949e;letter-spacing:.08em;margin-bottom:6px">WHO PROFITS</div>
+    <div style="font-size:11px;font-family:monospace;color:#f0f6fc;line-height:1.9;margin-top:4px">
+      ShortDot: <strong style="color:#3fb950">$12.5M</strong><br>
+      Registrars: <strong style="color:#6ea8d7">$6.7M</strong><br>
+      ICANN: <strong style="color:#8b5cf6">$1.74M</strong><br>
+      <span style="color:#da3633">Victims: $0 — lose all</span>
+    </div>
+  </div>
+</div>
+
 <div class="sim-container">
   <div class="sim-pipeline">
     <div class="pipeline-header"><span class="pulsing-dot"></span> LIVE INJECTION FEED</div>
@@ -726,7 +756,7 @@ var elTotalDom=document.getElementById('sim-total-domains');
 var elRatio=document.getElementById('sim-ratio');
 var elRatioBar=document.getElementById('sim-ratio-bar');
 var elRatioDesc=document.getElementById('sim-ratio-desc');
-var MALICIOUS=22000,TARGET=5180000,CHUNK=65000;
+var MALICIOUS=51670,TARGET=6242647,CHUNK=65000;
 var RAW=0.30,PAPER=19.49,MULT=(PAPER/RAW).toFixed(1);
 var tlds=['.sbs','.cfd','.bond','.cyou','.buzz','.icu'];
 var monFmt=new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0});
@@ -778,7 +808,7 @@ if(btn)btn.addEventListener('click',function(){
 <div class="sec"><h2>Methodology</h2><div class="ln"></div></div>
 <div class="panel"><div class="mc-grid">
   <div class="mc cy"><div class="mct">Phase 1 — Zone Pull</div><div class="mcd">ICANN gTLD zone data pull per TLD via Centralized Zone Data Service. Fields: IP, country, registrant email, Majestic rank. Full zone enumeration — zero sampling. 6,242,647 records across all 7 zones.</div></div>
-  <div class="mc or"><div class="mct">Phase 2 — Brand Scan</div><div class="mcd">119 brand keyword patterns matched against all SLDs. Substring match for long keywords, word-boundary for short (≤3 chars). <strong>51,670</strong> unique brand-hit domains, 96 brands tracked.</div></div>
+  <div class="mc or"><div class="mct">Phase 2 — Brand Scan</div><div class="mcd">595 brand keyword patterns matched against all SLDs. Substring match for long keywords, word-boundary for short (≤3 chars). <strong>51,670</strong> unique brand-hit domains, 595 keywords tracked.</div></div>
   <div class="mc rd"><div class="mct">Phase 3 — IP Clustering</div><div class="mcd">Shared-IP analysis from zone records — same zone pull. IP and country fields come directly from zone data. Top shared-IP clusters and serial registrant patterns exported automatically to <code style="font-size:9px;background:rgba(255,255,255,.05);padding:1px 3px;border-radius:2px">data/ioc/shared_ips.json</code> and <code style="font-size:9px;background:rgba(255,255,255,.05);padding:1px 3px;border-radius:2px">serial_registrants.json</code> on each daily fetch.</div></div>
   <div class="mc gn"><div class="mct">Phase 4 — Legitimacy Survey</div><div class="mcd">Open challenge. Every submitted "legitimate" domain evaluated against 5 criteria. Current verified count: <strong id="method-legit">0</strong>. Submit counterexamples via GitHub issue.</div></div>
 </div></div>
