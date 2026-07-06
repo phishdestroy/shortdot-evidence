@@ -6,7 +6,7 @@
 
 <p align="center">
 <b>ShortDot SA (Luxembourg)</b> — a registry operator that charges ICANN $1.74M/year in fees<br/>
-while its zones host 25,966 brand-impersonation domains targeting Chase, Binance, MetaMask, Ledger.<br/>
+while its zones host 51,670 brand-impersonation domains targeting Chase, Binance, MetaMask, Ledger.<br/>
 70.4% of all registered domains carry no DNS records. They were never meant to be used.<br/>
 They were meant to be <i>counted.</i><br/>
 <b>This repository counts them back.</b>
@@ -356,7 +356,7 @@ Here is what we found instead:
 | `uniswap.bond` | DeFi / Web3 innovation | Uniswap **drain panel** |
 
 <details>
-<summary><b>🎯 Top 20 impersonated brands — 25,966 confirmed domains</b></summary>
+<summary><b>🎯 Top 20 impersonated brands — 51,670 confirmed domains</b></summary>
 <br/>
 
 | Target Brand | Domains | Category |
