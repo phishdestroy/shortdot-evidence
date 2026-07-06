@@ -12,6 +12,13 @@ They were meant to be <i>counted.</i><br/>
 <b>This repository counts them back.</b>
 </p>
 
+<p align="center">
+<b>9.5%</b> of all global phishing originates in ShortDot zones &nbsp;·&nbsp;
+<code>.bond</code> ranks <b>#3 globally</b> by phishing domain count &nbsp;·&nbsp;
+<b>100%</b> of <code>.bond</code> phishing domains were maliciously registered
+<br/><sub>— Interisle Consulting Group, Phishing Landscape 2025 &nbsp;·&nbsp; 1,542,922 phishing domains measured</sub>
+</p>
+
 <div align="center">
 
 <br/>
@@ -173,6 +180,10 @@ AU  ░░░░░░░░░░░░░░░░░░     21,228 (2.0%)
 
 ## 0 · Special Dedication to NameSilo
 
+<details>
+<summary><b>🏆 NameSilo: ShortDot's largest registrar partner and most enthusiastic phishing infrastructure supplier — click to expand</b></summary>
+<br/>
+
 > 🏆 *We must confess: we are massive fans of **[NameSilo](https://github.com/phishdestroy/namesilo-evidence)**. We are endlessly inspired by their mastery — not just their steadfast commitment to retro web design, but their unparalleled operational brilliance in reputation management.*
 
 It takes true dedication to aggressively publish self-praising PR articles and manufactured reviews while **systematically trying to silence independent security researchers**. We watch in awe as they zealously defend phishing operators and scam networks, going so far as to **blatantly lie about removing VirusTotal detections** just to keep their most "valuable" clients online.
@@ -194,6 +205,8 @@ The result: **millions of domains bulk-registered daily, 70.4% with zero DNS rec
 </details>
 
 **Full NameSilo investigation → [github.com/phishdestroy/namesilo-evidence](https://github.com/phishdestroy/namesilo-evidence)**
+
+</details>
 
 ---
 
@@ -621,6 +634,10 @@ This evidence package is suitable for:
 
 ## 11.1 · The Freenom Legacy vs. The ShortDot Reality
 
+<details>
+<summary><b>The "free domains" excuse vs. charging per-domain — click to expand</b></summary>
+<br/>
+
 If we look back at the Freenom case, the sheer volume of toxic infrastructure was colossal. At the time, automated scanning capabilities to process millions of domains at scale were not yet available, so exact historical metrics on their abuse levels cannot be provided. However, one key distinction applies: **free is not cheap. Free is simply free.**
 
 ShortDot SA and its partner registrars operate on a completely different premise — they extract direct financial profit from every single registration. Logically, direct financial gain should dictate a higher level of accountability and stricter operational obligations. One would naturally assume that somewhere in their compliance policies there is a basic, undeniable rule: *do not ignore phishing reports, and do not turn the internet into a toxic dumpster.*
@@ -632,9 +649,15 @@ Unfortunately, the reality of how abuse reports are handled suggests that the dr
 
 The financial accountability argument is straightforward: when a registry charges wholesale fees on every domain, profits from the NameBlock brand-protection racket running on top of its own zones, and collects revenue regardless of whether those domains serve phishing pages or nothing at all — the registry has removed every incentive to reduce registrations and retained every incentive to maximize them. The result is what this repository documents: 6.2 million domains, zero verified legitimate businesses, and $14.3 million in annual extraction from an ecosystem built around abuse.
 
+</details>
+
 ---
 
 ## 11.2 · The "Gambling & Affiliate" Defense and The Illusion of Growth
+
+<details>
+<summary><b>Why the "regional affiliates" defense is structurally dishonest — click to expand</b></summary>
+<br/>
 
 When confronted with astronomical volumes of toxic registrations, registrars like NameSilo frequently attempt to cover their tracks by citing "regional affiliate marketing" or "legitimate gambling traffic." This defense is fundamentally flawed and structurally dishonest.
 
@@ -658,9 +681,15 @@ Furthermore, ShortDot bypassed standard ICANN application scrutiny by simply pur
 
 Ultimately, the ShortDot–NameSilo partnership has contributed absolutely nothing of utility to the global internet. It has generated only mass-scale phishing infrastructure, a corporate extortion loop disguised as "brand protection," and artificially inflated financial metrics built on a foundation of dead zones.
 
+</details>
+
 ---
 
 ## 11.3 · Criminal Infrastructure Record
+
+> **ShortDot zones account for 9.5% of all phishing domains on Earth — nearly 1 in 10.**
+> `.bond` ranks **#3 globally** by phishing domain count (behind only `.com` and `.top`). **100%** of `.bond` phishing domains were maliciously registered — not compromised legitimate sites.
+> Source: Interisle Consulting Group, Phishing Landscape 2025 (1,542,922 domains measured).
 
 <details>
 <summary><b>⚖️ Prosecuted cases, active RICO suits, and the "experience argument" — click to expand</b></summary>
