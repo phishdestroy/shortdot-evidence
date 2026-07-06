@@ -21,7 +21,8 @@ TLD_WHOLESALE = {
     'icu': 0.65, 'cyou': 0.65, 'sbs': 0.65, 'cfd': 0.65,
     'bond': 6.50, 'buzz': 3.25, 'qpon': 2.50,
 }
-ICANN_FEE = 0.18  # ICANN transaction fee per domain per year (paid by registrar to ICANN)
+ICANN_FEE   = 0.25   # ICANN registry volume fee per domain/yr (zones >50k, paid by registry to ICANN)
+ICANN_ZONE  = 25800  # ICANN annual fixed registry fee per TLD
 
 def get_price(domain):
     tld = domain.rsplit('.', 1)[-1].lower()
@@ -113,7 +114,8 @@ def day_icann_fees(records):
 
 total_revenue_retail    = sum(day_revenue_retail(by_date[d])    for d in dates)
 total_revenue_wholesale = sum(day_revenue_wholesale(by_date[d]) for d in dates)
-total_icann_fees        = round(total_domains * ICANN_FEE, 2)
+# Registry pays ICANN: per-domain volume fee + fixed annual zone fees (7 TLDs)
+total_icann_fees        = round(total_domains * ICANN_FEE + len(TLD_LIST) * ICANN_ZONE, 2)
 
 # ── Per-TLD stats ─────────────────────────────────────────────────────────────
 all_recs_flat = [r for records in by_date.values() for r in records]
@@ -486,7 +488,7 @@ if _readme_path.exists():
     _parts.append('<table><tr>')
     _parts.append(f'<td align="center"><b>📦 Domains tracked</b><br/><sub><code>{_fmt(total_domains)}</code></sub></td>')
     _parts.append(f'<td align="center"><b>💰 Est. ShortDot revenue</b><br/><sub><code>${total_revenue_wholesale:,.0f}</code></sub></td>')
-    _parts.append(f'<td align="center"><b>💸 ICANN fees collected</b><br/><sub><code>${total_icann_fees:,.0f}</code></sub></td>')
+    _parts.append(f'<td align="center"><b>💸 ICANN fees (registry)</b><br/><sub><code>${total_icann_fees:,.0f}</code></sub></td>')
     _parts.append(f'<td align="center"><b>✅ Confirmed malicious</b><br/><sub><code>{correlation_pct}%</code> ({_fmt(correlation_count)})</sub></td>')
     _parts.append(f'<td align="center"><b>🏛️ Verified legitimate</b><br/><sub><code>{legit_count}</code> sites found</sub></td>')
     _parts.append(f'<td align="center"><b>⚡ Fresh (≤7d)</b><br/><sub><code>{fresh_pct}%</code></sub></td>')

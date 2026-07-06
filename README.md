@@ -44,11 +44,11 @@
 <table><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><sub><code>6,231,825</code></sub></td>
 <td align="center"><b>💰 Est. revenue to ShortDot</b><br/><sub><code>$12,559,037</code></sub></td>
-<td align="center"><b>💸 ICANN fees collected</b><br/><sub><code>$1,121,729</code></sub></td>
+<td align="center"><b>💸 ICANN fees (registry)</b><br/><sub><code>$1,738,556</code></sub></td>
 <td align="center"><b>❌ No-IP phantom</b><br/><sub><code>4,387,385 (70.4%)</code></sub></td>
 <td align="center"><b>🎯 Brand impersonation</b><br/><sub><code>25,966 domains</code></sub></td>
 <td align="center"><b>🏛️ Verified legitimate</b><br/><sub><code>0</code></sub></td>
-<td align="center"><b>⚡ Combined extracted</b><br/><sub><code>$13,680,765</code></sub></td>
+<td align="center"><b>⚡ Combined extracted</b><br/><sub><code>$14,297,593</code></sub></td>
 </tr></table>
 
 ### 🏷️ TLD Breakdown
@@ -160,7 +160,7 @@ ShortDot operates through a network of three subsidiaries: **Nicky** (domain ser
 
 Launched 2018. ShortDot's flagship zone. The name allegedly stands for "I See You" — marketed as a personal branding TLD.
 
-**Reality:** Consistently top-ranked by abuse.ch, Spamhaus, and SURBL for phishing density. Turkish gambling clusters, crypto drain infrastructure, and credential harvesters dominate active registrations. The "I See You" framing is ironically accurate — phishers are watching your credentials.
+**Reality:** Consistently top-ranked by abuse.ch, Spamhaus, and SURBL for phishing density. Active registrations are dominated by gambling infrastructure, crypto drain panels, and credential harvesters. Verified legitimate use cases: 0 identified to date.
 
 ### .bond
 
@@ -172,7 +172,7 @@ Premium pricing (~$9.99 retail). Marketed to financial services and "trusted bra
 
 `.cyou` = "See You." Marketed for personal brands, influencers, communities.
 
-**Reality:** Near-zero legitimate adoption. Overwhelmingly populated by parked domains and scam infrastructure. High-volume serial registrations with no corresponding websites.
+**Reality:** Near-zero legitimate adoption. Populated predominantly by parked domains and fraudulent infrastructure. High-volume serial registrations with no corresponding active content.
 
 ### .sbs
 
@@ -190,7 +190,7 @@ Acquired April 2024 from DotCFD Registry Ltd. "CFD" = Contract for Difference �
 
 Marketed as a social media / engagement TLD. Retail price ~$3-5/year.
 
-**Reality:** Standard abuse-enabling zone. Popular for spam distribution infrastructure and click fraud networks. "Buzz" in a domain name has near-zero legitimate branding value for credible businesses.
+**Reality:** Active abuse zone. Documented use cases include spam distribution infrastructure and click-fraud networks. No verified legitimate business adoption identified.
 
 ### .qpon
 
@@ -378,36 +378,6 @@ Nobody in this chain has a financial incentive to reduce registration volume —
 
 ---
 
-> ### The Price of Admission: This Is Not an Accident, It's a Business Model
->
-> They want you to believe that the toxic levels of abuse in `.icu`, `.sbs`, and `.cfd` are just
-> an oversight — a byproduct of providing "affordable options for developers."
->
-> Let's just look at the price tag. Launching a new domain zone isn't about "expanding the
-> internet" — it's a ruthless racket where the "regulator" takes a direct cut:
->
-> - **$227,000 upfront** — just to have ICANN read the application (non-refundable if rejected)
-> - **$25,800 annually** — fixed tribute paid to ICANN per zone, every single year
-> - **$0.25 per domain** — straight into ICANN's pockets for every registration once the zone exceeds 50,000 domains
->
-> When ShortDot SA (Luxembourg) spends millions acquiring, launching, and operating seven TLDs,
-> they are not doing it to sell $0.50 domains to students.
-> **No investor pays a $227,000 entry fee to run a charity for beginners.**
->
-> They know exactly what the Return on Investment looks like:
->
-> 1. Flood the market with phantom registrations via NameSilo to inflate capitalization metrics
-> 2. Turn the zone into a toxic wasteland of phishing and malware
-> 3. Launch brand protection subsidiaries (NameBlock, BrandShelter, BrandSight, Brandma) to
->    extract premium fees from Fortune 500 companies forced to block their own trademarks across
->    all 7 zones
->
-> **It is not an innovation. It is not an accident.**
-> It is a highly capitalized, legally sanctioned protection racket — and ICANN gets a cut of
-> every single transaction.
-
----
-
 ### The NameSilo Anomaly
 
 | Registrar | ShortDot TLD share | Expected |
@@ -418,6 +388,8 @@ Nobody in this chain has a financial incentive to reduce registration volume —
 
 NameSilo is a **named partner** of ShortDot. The 55× concentration anomaly in ShortDot TLDs at NameSilo — coinciding exactly with ShortDot's April 2024 acquisition of .sbs and .cfd — represents the most concrete financial link between registry and registrar in this ecosystem.
 
+High-volume phantom registrations through a named partner registrar are consistent with a practice known as **metric padding**: artificially inflating zone size to signal market adoption to investors, analysts, and ICANN during contract reviews. A zone that looks like it has 1.9M registered domains is harder to suspend than one with 50K.
+
 **Questions that require answers:**
 1. Who is purchasing hundreds of thousands of .sbs and .cfd domains through NameSilo and not activating them?
 2. Where does the payment originate?
@@ -427,7 +399,7 @@ NameSilo is a **named partner** of ShortDot. The 55× concentration anomaly in S
 
 ---
 
-## 7 · The NameBlock Protection Racket
+## 7 · NameBlock — Structural Conflict of Interest
 
 ShortDot describes NameBlock as an "advanced brand protection" service. The mechanics:
 
@@ -543,7 +515,7 @@ shortdot-evidence/
 ├── case/
 │   ├── INVESTIGATION.md        Full investigation document
 │   ├── FINANCIAL.md            Follow-the-money analysis
-│   ├── NAMEBLOCK.md            NameBlock protection racket deep-dive
+│   ├── NAMEBLOCK.md            NameBlock structural conflict of interest analysis
 │   ├── LEGITIMATE_SURVEY.md    Open challenge — verified legitimate sites
 │   ├── CLUSTERS.md             Operator infrastructure clusters
 │   └── HIGH_SEVERITY.md        High-severity confirmed cases

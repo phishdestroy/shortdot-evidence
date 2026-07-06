@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<defs>
+  <style>.mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}</style>
+  <linearGradient id="bg" x1="0" y1="0" x2="0.4" y2="1">
+    <stop offset="0%" stop-color="#070b12"/>
+    <stop offset="100%" stop-color="#0d1117"/>
+  </linearGradient>
+  <linearGradient id="rg" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#da3633" stop-opacity="0"/>
+    <stop offset="30%" stop-color="#da3633" stop-opacity="0.18"/>
+    <stop offset="100%" stop-color="#da3633" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="vg" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0"/>
+    <stop offset="60%" stop-color="#8b5cf6" stop-opacity="0.12"/>
+    <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+  </linearGradient>
+  <filter id="gr">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="gb">
+    <feGaussianBlur stdDeviation="2.5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<!-- BG -->
+<rect width="1200" height="630" fill="url(#bg)"/>
+
+<!-- Dot grid -->
+<g opacity="0.18">
+  <rect x="0" y="0" width="1200" height="630" fill="none"/>
+  <!-- Horizontal lines -->
+  <line x1="0" y1="90" x2="1200" y2="90" stroke="#1f2937" stroke-width="0.6"/>
+  <line x1="0" y1="180" x2="1200" y2="180" stroke="#1f2937" stroke-width="0.6"/>
+  <line x1="0" y1="270" x2="1200" y2="270" stroke="#1f2937" stroke-width="0.6"/>
+  <line x1="0" y1="360" x2="1200" y2="360" stroke="#1f2937" stroke-width="0.6"/>
+  <line x1="0" y1="450" x2="1200" y2="450" stroke="#1f2937" stroke-width="0.6"/>
+  <line x1="0" y1="540" x2="1200" y2="540" stroke="#1f2937" stroke-width="0.6"/>
+  <!-- Vertical lines -->
+  <line x1="200" y1="0" x2="200" y2="630" stroke="#1f2937" stroke-width="0.6"/>
+  <line x1="400" y1="0" x2="400" y2="630" stroke="#1f2937" stroke-width="0.6"/>
+  <line x1="600" y1="0" x2="600" y2="630" stroke="#1f2937" stroke-width="0.6"/>
+  <line x1="800" y1="0" x2="800" y2="630" stroke="#1f2937" stroke-width="0.6"/>
+  <line x1="1000" y1="0" x2="1000" y2="630" stroke="#1f2937" stroke-width="0.6"/>
+</g>
+
+<!-- Red top glow strip -->
+<rect x="0" y="0" width="1200" height="6" fill="url(#rg)"/>
+<!-- Bottom strip -->
+<rect x="0" y="624" width="1200" height="6" fill="url(#rg)"/>
+
+<!-- Left red accent bar -->
+<rect x="0" y="0" width="5" height="630" fill="#da3633" opacity="0.7"/>
+
+<!-- Blink dot top-left -->
+<circle cx="40" cy="48" r="8" fill="#da3633" opacity="0.9" filter="url(#gr)"/>
+<circle cx="40" cy="48" r="4" fill="#ff5555"/>
+
+<!-- ── TOP LABEL ── -->
+<text x="66" y="54" class="mono" font-size="12" fill="#8b949e" letter-spacing="5">PHISHDESTROY · ACTIVE INVESTIGATION · TLP:CLEAR · 2026</text>
+
+<!-- Separator 1 -->
+<line x1="0" y1="76" x2="1200" y2="76" stroke="#21262d" stroke-width="1"/>
+
+<!-- ── MAIN TITLE ── -->
+<text x="60" y="146" class="mono" font-size="14" fill="#8b949e" letter-spacing="3">REGISTRY OPERATOR</text>
+<text x="60" y="200" class="mono" font-size="54" font-weight="bold" fill="#f0f6fc" letter-spacing="-1" filter="url(#gb)">ShortDot SA</text>
+<text x="60" y="244" class="mono" font-size="22" fill="#da3633" letter-spacing="1">Zone Abuse Evidence — Registry Level</text>
+
+<!-- Subtitle -->
+<text x="60" y="285" class="mono" font-size="15" fill="#484f58" letter-spacing="2">.icu · .bond · .cyou · .sbs · .cfd · .buzz · .qpon — Luxembourg — CentralNic</text>
+
+<!-- Separator 2 -->
+<line x1="0" y1="316" x2="1200" y2="316" stroke="#21262d" stroke-width="1"/>
+
+<!-- ── STAT BLOCKS ── -->
+
+<!-- Block 1: Total domains -->
+<rect x="60" y="336" width="230" height="108" rx="4" fill="#0c1018" stroke="#21262d" stroke-width="1"/>
+<rect x="60" y="336" width="230" height="3" rx="1" fill="#da3633"/>
+<text x="75" y="366" class="mono" font-size="10" fill="#484f58" letter-spacing="3">TOTAL DOMAINS</text>
+<text x="75" y="408" class="mono" font-size="34" font-weight="bold" fill="#da3633" filter="url(#gr)">6,231,825</text>
+<text x="75" y="432" class="mono" font-size="11" fill="#8b949e">7 ShortDot zones · full enumeration</text>
+
+<!-- Block 2: Phantom -->
+<rect x="310" y="336" width="200" height="108" rx="4" fill="#0c1018" stroke="#21262d" stroke-width="1"/>
+<rect x="310" y="336" width="200" height="3" rx="1" fill="#c0a060"/>
+<text x="325" y="366" class="mono" font-size="10" fill="#484f58" letter-spacing="3">PHANTOM / NO-IP</text>
+<text x="325" y="408" class="mono" font-size="34" font-weight="bold" fill="#c0a060">70.4%</text>
+<text x="325" y="432" class="mono" font-size="11" fill="#8b949e">4,387,385 never activated</text>
+
+<!-- Block 3: Revenue -->
+<rect x="530" y="336" width="220" height="108" rx="4" fill="#0c1018" stroke="#21262d" stroke-width="1"/>
+<rect x="530" y="336" width="220" height="3" rx="1" fill="#6ea8d7"/>
+<text x="545" y="366" class="mono" font-size="10" fill="#484f58" letter-spacing="3">ANNUAL EXTRACTION</text>
+<text x="545" y="408" class="mono" font-size="34" font-weight="bold" fill="#6ea8d7">$13.7M</text>
+<text x="545" y="432" class="mono" font-size="11" fill="#8b949e">ShortDot + ICANN combined</text>
+
+<!-- Block 4: Brand impersonation -->
+<rect x="770" y="336" width="210" height="108" rx="4" fill="#0c1018" stroke="#21262d" stroke-width="1"/>
+<rect x="770" y="336" width="210" height="3" rx="1" fill="#8b5cf6"/>
+<text x="785" y="366" class="mono" font-size="10" fill="#484f58" letter-spacing="3">BRAND IMPERSONATION</text>
+<text x="785" y="408" class="mono" font-size="34" font-weight="bold" fill="#8b5cf6">25,966</text>
+<text x="785" y="432" class="mono" font-size="11" fill="#8b949e">chase.bond · metamask.icu · …</text>
+
+<!-- Block 5: Verified legit -->
+<rect x="1000" y="336" width="160" height="108" rx="4" fill="#0c1018" stroke="rgba(63,185,80,.3)" stroke-width="1"/>
+<rect x="1000" y="336" width="160" height="3" rx="1" fill="#3fb950"/>
+<text x="1015" y="366" class="mono" font-size="10" fill="#484f58" letter-spacing="3">VERIFIED LEGIT</text>
+<text x="1015" y="408" class="mono" font-size="52" font-weight="bold" fill="#3fb950" filter="url(#gb)">0</text>
+<text x="1015" y="432" class="mono" font-size="11" fill="#8b949e">out of 6.2M</text>
+
+<!-- Separator 3 -->
+<line x1="0" y1="464" x2="1200" y2="464" stroke="#21262d" stroke-width="1"/>
+
+<!-- ── ICANN CAPTURE LINE ── -->
+<text x="60" y="508" class="mono" font-size="18" fill="#8b949e">ICANN collects</text>
+<text x="220" y="508" class="mono" font-size="18" font-weight="bold" fill="#8b5cf6">$1.74M/year</text>
+<text x="385" y="508" class="mono" font-size="18" fill="#8b949e">from zones it is contractually obligated to police.</text>
+<text x="60" y="538" class="mono" font-size="18" fill="#8b949e">NameBlock (ShortDot venture) sells</text>
+<text x="475" y="538" class="mono" font-size="18" font-weight="bold" fill="#da3633">brand protection</text>
+<text x="694" y="538" class="mono" font-size="18" fill="#8b949e">against the same zones ShortDot created.</text>
+
+<!-- Separator 4 -->
+<line x1="0" y1="566" x2="1200" y2="566" stroke="#21262d" stroke-width="1"/>
+
+<!-- ── FOOTER ── -->
+<circle cx="40" cy="598" r="5" fill="#da3633" opacity="0.8"/>
+<text x="56" y="603" class="mono" font-size="12" fill="#6e7681" letter-spacing="2">phishdestroy.io</text>
+<text x="600" y="603" class="mono" font-size="12" fill="#6e7681" text-anchor="middle" letter-spacing="2">github.com/phishdestroy/shortdot-evidence</text>
+<text x="1160" y="603" class="mono" font-size="12" fill="#6e7681" text-anchor="end" letter-spacing="2">Auto-updated daily · MIT</text>
+</svg>
