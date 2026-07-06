@@ -542,6 +542,25 @@ for tld in TLD_LIST:
 all_deployed = sorted(r['d'] for r in all_recs_flat if r.get('i'))
 (ioc_dir / 'deployed_all.txt').write_text('\n'.join(all_deployed) + '\n', encoding='utf-8')
 
+# Phantom (no-IP) lists per TLD + combined
+phantom_dir = ioc_dir / 'phantom'
+phantom_dir.mkdir(parents=True, exist_ok=True)
+all_phantom = []
+tld_dir = Path('data/by_tld')
+for tld in TLD_LIST:
+    tld_file = tld_dir / f'{tld}.txt'
+    if not tld_file.exists():
+        continue
+    all_doms = set(tld_file.read_text(encoding='utf-8').splitlines())
+    all_doms.discard('')
+    dep_file = ioc_dir / 'deployed' / f'{tld}.txt'
+    dep_doms = set(dep_file.read_text(encoding='utf-8').splitlines()) if dep_file.exists() else set()
+    dep_doms.discard('')
+    phantom = sorted(all_doms - dep_doms)
+    all_phantom.extend(phantom)
+    (phantom_dir / f'{tld}.txt').write_text('\n'.join(phantom) + '\n', encoding='utf-8')
+(ioc_dir / 'phantom_all.txt').write_text('\n'.join(sorted(all_phantom)) + '\n', encoding='utf-8')
+
 # ── STIX 2.1 bundle ───────────────────────────────────────────────────────────
 import uuid
 
