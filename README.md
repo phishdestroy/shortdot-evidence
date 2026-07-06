@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/docs/assets/banner.svg" width="100%"/>
+<img src="docs/assets/banner.gif" width="100%"/>
 </div>
 
 <div align="center">
