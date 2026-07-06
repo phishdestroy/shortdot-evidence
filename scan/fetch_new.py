@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch new domain registrations from NetAPI across all ShortDot zones and update repository data."""
+"""Enumerate domain registrations across all ShortDot zones from ICANN gTLD zone data and update repository data."""
 
 import os, re, gzip, csv, io, json, urllib.request, urllib.parse
 from pathlib import Path

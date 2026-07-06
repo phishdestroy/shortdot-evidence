@@ -1,134 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
-<defs>
-  <style>
-    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
-    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.15} }
-    @keyframes scanline { 0%{transform:translateY(-10px);opacity:0} 5%{opacity:0.4} 95%{opacity:0.4} 100%{transform:translateY(310px);opacity:0} }
-    @keyframes pulse-red { 0%,100%{r:7;opacity:1} 50%{r:10;opacity:0.5} }
-    @keyframes glow-in { from{opacity:0;filter:blur(4px)} to{opacity:1;filter:blur(0)} }
-
-    @keyframes tld1 { 0%,12%{opacity:1} 14%,100%{opacity:0} }
-    @keyframes tld2 { 0%,12%{opacity:0} 14%,26%{opacity:1} 28%,100%{opacity:0} }
-    @keyframes tld3 { 0%,26%{opacity:0} 28%,40%{opacity:1} 42%,100%{opacity:0} }
-    @keyframes tld4 { 0%,40%{opacity:0} 42%,54%{opacity:1} 56%,100%{opacity:0} }
-    @keyframes tld5 { 0%,54%{opacity:0} 56%,68%{opacity:1} 70%,100%{opacity:0} }
-    @keyframes tld6 { 0%,68%{opacity:0} 70%,82%{opacity:1} 84%,100%{opacity:0} }
-    @keyframes tld7 { 0%,82%{opacity:0} 84%,98%{opacity:1} 100%{opacity:0} }
-
-    @keyframes bar-grow { from{width:0} to{width:var(--w)} }
-    @keyframes fade-up { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
-  </style>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#0c1018"/>
-    <stop offset="100%" stop-color="#0d1117"/>
-  </linearGradient>
-  <linearGradient id="redGrad" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#da3633" stop-opacity="0"/>
-    <stop offset="50%" stop-color="#da3633" stop-opacity="0.12"/>
-    <stop offset="100%" stop-color="#da3633" stop-opacity="0"/>
-  </linearGradient>
-  <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#30363d" stop-opacity="0"/>
-    <stop offset="20%" stop-color="#30363d" stop-opacity="1"/>
-    <stop offset="80%" stop-color="#30363d" stop-opacity="1"/>
-    <stop offset="100%" stop-color="#30363d" stop-opacity="0"/>
-  </linearGradient>
-  <filter id="glow-red">
-    <feGaussianBlur stdDeviation="3" result="blur"/>
-    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-  <filter id="glow-blue">
-    <feGaussianBlur stdDeviation="2" result="blur"/>
-    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
-  <clipPath id="main-clip">
-    <rect width="1200" height="300"/>
-  </clipPath>
-</defs>
-
-<!-- Background -->
-<rect width="1200" height="300" fill="url(#bg)"/>
-
-<!-- Subtle grid -->
-<g opacity="0.3">
-  <line x1="0" y1="60" x2="1200" y2="60" stroke="#1a2030" stroke-width="0.5"/>
-  <line x1="0" y1="120" x2="1200" y2="120" stroke="#1a2030" stroke-width="0.5"/>
-  <line x1="0" y1="180" x2="1200" y2="180" stroke="#1a2030" stroke-width="0.5"/>
-  <line x1="0" y1="240" x2="1200" y2="240" stroke="#1a2030" stroke-width="0.5"/>
-  <line x1="200" y1="0" x2="200" y2="300" stroke="#1a2030" stroke-width="0.5"/>
-  <line x1="400" y1="0" x2="400" y2="300" stroke="#1a2030" stroke-width="0.5"/>
-  <line x1="600" y1="0" x2="600" y2="300" stroke="#1a2030" stroke-width="0.5"/>
-  <line x1="800" y1="0" x2="800" y2="300" stroke="#1a2030" stroke-width="0.5"/>
-  <line x1="1000" y1="0" x2="1000" y2="300" stroke="#1a2030" stroke-width="0.5"/>
-</g>
-
-<!-- Scanline animation -->
-<g clip-path="url(#main-clip)">
-  <rect x="0" y="0" width="1200" height="2" fill="#6ea8d7" opacity="0.4" style="animation: scanline 5s linear infinite;"/>
-</g>
-
-<!-- Red alert glow strips (top and bottom) -->
-<rect x="0" y="0" width="1200" height="4" fill="url(#redGrad)"/>
-<rect x="0" y="296" width="1200" height="4" fill="url(#redGrad)"/>
-
-<!-- Left warning indicator -->
-<circle cx="44" cy="62" r="7" fill="#da3633" filter="url(#glow-red)" style="animation: blink 1.2s ease-in-out infinite;"/>
-<circle cx="44" cy="62" r="3" fill="#ff6b6b"/>
-
-<!-- Right warning indicator -->
-<circle cx="1156" cy="62" r="7" fill="#da3633" filter="url(#glow-red)" style="animation: blink 1.2s ease-in-out infinite 0.6s;"/>
-<circle cx="1156" cy="62" r="3" fill="#ff6b6b"/>
-
-<!-- ══ HEADER ══ -->
-<text x="600" y="50" class="mono" font-size="11" fill="#8b949e" text-anchor="middle" letter-spacing="6" style="animation: fade-up 0.8s ease both;">PHISHDESTROY INVESTIGATION · TLP:CLEAR · PHASE II</text>
-
-<text x="600" y="92" class="mono" font-size="32" font-weight="bold" fill="#c9d1d9" text-anchor="middle" letter-spacing="2" filter="url(#glow-blue)" style="animation: fade-up 0.8s ease 0.2s both;">ShortDot SA — Zone Evidence</text>
-
-<!-- Separator line -->
-<rect x="0" y="110" width="1200" height="1" fill="url(#lineGrad)"/>
-
-<!-- ══ TLD CYCLING ZONE ══ -->
-<!-- "Under investigation:" label -->
-<text x="60" y="160" class="mono" font-size="11" fill="#8b949e" letter-spacing="1">ZONES UNDER INVESTIGATION</text>
-
-<!-- Animated TLD display - centered -->
-<g transform="translate(600,168)">
-  <!-- Each TLD fades in/out on a 14s cycle -->
-  <text text-anchor="middle" class="mono" font-size="52" font-weight="bold" fill="#da3633" letter-spacing="4" filter="url(#glow-red)" opacity="0" style="animation: tld1 14s ease-in-out infinite;">.icu</text>
-  <text text-anchor="middle" class="mono" font-size="52" font-weight="bold" fill="#e3b341" letter-spacing="4" opacity="0" style="animation: tld2 14s ease-in-out infinite;">.bond</text>
-  <text text-anchor="middle" class="mono" font-size="52" font-weight="bold" fill="#da3633" letter-spacing="4" filter="url(#glow-red)" opacity="0" style="animation: tld3 14s ease-in-out infinite;">.cyou</text>
-  <text text-anchor="middle" class="mono" font-size="52" font-weight="bold" fill="#e3b341" letter-spacing="4" opacity="0" style="animation: tld4 14s ease-in-out infinite;">.sbs</text>
-  <text text-anchor="middle" class="mono" font-size="52" font-weight="bold" fill="#da3633" letter-spacing="4" filter="url(#glow-red)" opacity="0" style="animation: tld5 14s ease-in-out infinite;">.cfd</text>
-  <text text-anchor="middle" class="mono" font-size="52" font-weight="bold" fill="#e3b341" letter-spacing="4" opacity="0" style="animation: tld6 14s ease-in-out infinite;">.buzz</text>
-  <text text-anchor="middle" class="mono" font-size="52" font-weight="bold" fill="#da3633" letter-spacing="4" filter="url(#glow-red)" opacity="0" style="animation: tld7 14s ease-in-out infinite;">.qpon</text>
-</g>
-
-<!-- ══ RIGHT PANEL — Stats ══ -->
-<text x="1140" y="137" class="mono" font-size="10" fill="#8b949e" text-anchor="end" letter-spacing="1">ABUSE RATE</text>
-<text x="1140" y="158" class="mono" font-size="36" font-weight="bold" fill="#da3633" text-anchor="end" filter="url(#glow-red)">~86%</text>
-<text x="1140" y="175" class="mono" font-size="10" fill="#8b949e" text-anchor="end">of active domains</text>
-
-<text x="1140" y="205" class="mono" font-size="10" fill="#8b949e" text-anchor="end" letter-spacing="1">LEGIT USE</text>
-<text x="1140" y="226" class="mono" font-size="36" font-weight="bold" fill="#3fb950" text-anchor="end">SHOW US</text>
-<text x="1140" y="243" class="mono" font-size="10" fill="#8b949e" text-anchor="end">name one real business</text>
-
-<!-- ══ LEFT PANEL — Entity ══ -->
-<text x="60" y="137" class="mono" font-size="10" fill="#8b949e" letter-spacing="1">REGISTRY OPERATOR</text>
-<text x="60" y="162" class="mono" font-size="20" font-weight="bold" fill="#6ea8d7">ShortDot SA</text>
-<text x="60" y="180" class="mono" font-size="11" fill="#8b949e">9 Rue Louvigny, Luxembourg</text>
-<text x="60" y="198" class="mono" font-size="11" fill="#8b949e">7 TLD zones · CentralNic backend</text>
-<text x="60" y="218" class="mono" font-size="10" fill="#8b949e" letter-spacing="1">PARTNERS</text>
-<text x="60" y="235" class="mono" font-size="11" fill="#c9d1d9">NameSilo · GoDaddy · Namecheap</text>
-<text x="60" y="252" class="mono" font-size="11" fill="#c9d1d9">Alibaba · GMO · Dynadot + 400+</text>
-
-<!-- ══ Separator line 2 ══ -->
-<rect x="0" y="268" width="1200" height="1" fill="url(#lineGrad)"/>
-
-<!-- ══ FOOTER ══ -->
-<text x="600" y="288" class="mono" font-size="11" fill="#6e7681" text-anchor="middle" letter-spacing="3">phishdestroy.io · Auto-updated daily · MIT · TLP:CLEAR</text>
-
-<!-- Left accent line -->
-<rect x="0" y="110" width="3" height="159" fill="#da3633" opacity="0.6"/>
-<!-- Right accent line -->
-<rect x="1197" y="110" width="3" height="159" fill="#da3633" opacity="0.6"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640">
+  <defs>
+    <style>
+      @keyframes fadein { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
+      @keyframes pulse  { 0%,100% { opacity:1; } 50% { opacity:0.15; } }
+      @keyframes blink  { 0%,100% { opacity:1; } 50% { opacity:0; } }
+      @keyframes scanln { 0% { transform:translateY(-30px); opacity:0; } 5% { opacity:0.35; } 95% { opacity:0.35; } 100% { transform:translateY(680px); opacity:0; } }
+      @keyframes arc1   { from { stroke-dashoffset:1131; } to { stroke-dashoffset:0; } }
+      @keyframes arc2   { from { stroke-dashoffset:880; } to { stroke-dashoffset:0; } }
+      @keyframes arc3   { from { stroke-dashoffset:628; } to { stroke-dashoffset:0; } }
+      @keyframes glow   { 0%,100% { opacity:1; } 50% { opacity:0.6; } }
+      @keyframes slide  { from { opacity:0; transform:translateX(10px); } to { opacity:1; transform:translateX(0); } }
+      @keyframes linein { from { transform:scaleX(0); } to { transform:scaleX(1); } }
+      .lbl { animation:fadein 0.6s ease 0.1s both; }
+      .ttl { animation:fadein 0.7s ease 0.3s both; }
+      .sub { animation:fadein 0.6s ease 0.6s both; }
+      .ln  { animation:linein 0.8s ease 0.5s both; transform-origin:left; }
+      .d1  { animation:pulse 2.8s ease-in-out 0.0s infinite; }
+      .d2  { animation:pulse 2.8s ease-in-out 0.9s infinite; }
+      .d3  { animation:pulse 2.8s ease-in-out 1.8s infinite; }
+      .cur { animation:blink 1.0s step-end infinite; }
+      .scan{ animation:scanln 5s linear 0.8s infinite; }
+      .a1  { animation:arc1 2.2s ease-out 0.2s both; }
+      .a2  { animation:arc2 2.6s ease-out 0.5s both; }
+      .a3  { animation:arc3 3.0s ease-out 0.8s both; }
+      .bar { animation:glow 3s ease-in-out infinite; }
+      .s1  { animation:slide 0.5s ease 0.8s both; }
+      .s2  { animation:slide 0.5s ease 1.0s both; }
+      .s3  { animation:slide 0.5s ease 1.2s both; }
+      .sh  { animation:fadein 0.5s ease 0.7s both; }
+    </style>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020609"/>
+      <stop offset="100%" stop-color="#040c15"/>
+    </linearGradient>
+    <linearGradient id="rp" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#030810" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#030810" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="sg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#fff" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="cp"><rect width="1280" height="640"/></clipPath>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <g clip-path="url(#cp)" stroke="#0c1e30" stroke-width="1" opacity="0.6">
+    <line x1="128" y1="0" x2="128" y2="640"/><line x1="256" y1="0" x2="256" y2="640"/>
+    <line x1="384" y1="0" x2="384" y2="640"/><line x1="512" y1="0" x2="512" y2="640"/>
+    <line x1="640" y1="0" x2="640" y2="640"/><line x1="768" y1="0" x2="768" y2="640"/>
+    <line x1="896" y1="0" x2="896" y2="640"/><line x1="1024" y1="0" x2="1024" y2="640"/>
+    <line x1="1152" y1="0" x2="1152" y2="640"/>
+    <line x1="0" y1="128" x2="1280" y2="128"/><line x1="0" y1="256" x2="1280" y2="256"/>
+    <line x1="0" y1="384" x2="1280" y2="384"/><line x1="0" y1="512" x2="1280" y2="512"/>
+  </g>
+  <rect x="640" y="0" width="640" height="640" fill="url(#rp)" clip-path="url(#cp)"/>
+  <g clip-path="url(#cp)">
+    <circle class="a1" cx="1230" cy="60" r="180" fill="none" stroke="#e05820" stroke-opacity="0.18" stroke-width="1.5" stroke-dasharray="1131" stroke-dashoffset="1131"/>
+    <circle class="a2" cx="1230" cy="60" r="140" fill="none" stroke="#e05820" stroke-opacity="0.12" stroke-width="1" stroke-dasharray="880" stroke-dashoffset="880"/>
+    <circle class="a3" cx="1230" cy="60" r="100" fill="none" stroke="#e05820" stroke-opacity="0.08" stroke-width="1" stroke-dasharray="628" stroke-dashoffset="628"/>
+  </g>
+  <rect class="scan" x="0" y="-30" width="1280" height="30" fill="url(#sg)" clip-path="url(#cp)"/>
+  <rect class="bar" x="0" y="0" width="6" height="640" fill="#e05820"/>
+  <circle class="d1" cx="36" cy="160" r="4" fill="#e05820"/>
+  <circle class="d2" cx="36" cy="320" r="4" fill="#e05820"/>
+  <circle class="d3" cx="36" cy="480" r="4" fill="#e05820"/>
+  <text class="lbl" x="80" y="230" font-family="'Courier New',monospace" font-size="18" fill="#e05820" letter-spacing="8" font-weight="bold">PHISHDESTROY / SHORTDOT SA</text>
+  <text class="ttl" x="72" y="370" font-family="'Courier New',monospace" font-size="100" font-weight="bold" fill="#ddeeff" letter-spacing="2">SHORTDOT</text>
+  <rect class="ln" x="80" y="388" width="820" height="3" fill="#e05820"/>
+  <text class="sub" x="80" y="438" font-family="'Courier New',monospace" font-size="20" fill="#3a6080" letter-spacing="4">REGISTRY ZONE ABUSE INVESTIGATION · 7 gTLDs<tspan class="cur" fill="#e05820">_</tspan></text>
+  <text class="sh" x="80" y="510" font-family="'Courier New',monospace" font-size="13" fill="#e05820" letter-spacing="5" opacity="0.7">INVESTIGATION STATS</text>
+  <g font-family="'Courier New',monospace">
+    <text class="s1" x="80"  y="556" font-size="28" font-weight="bold" fill="#ddeeff">6,231,825</text>
+    <text class="s1" x="80"  y="580" font-size="12" fill="#2a4a60" letter-spacing="2">DOMAINS IN ZONES</text>
+    <text class="s2" x="400" y="556" font-size="28" font-weight="bold" fill="#ddeeff">25,966</text>
+    <text class="s2" x="400" y="580" font-size="12" fill="#2a4a60" letter-spacing="2">BRAND IMPERSONATION</text>
+    <text class="s3" x="720" y="556" font-size="28" font-weight="bold" fill="#e05820">70.4%</text>
+    <text class="s3" x="720" y="580" font-size="12" fill="#2a4a60" letter-spacing="2">PHANTOM / NO-IP</text>
+  </g>
+  <text x="1200" y="620" font-family="'Courier New',monospace" font-size="13" fill="#1a3040" letter-spacing="3" text-anchor="end">PHISHDESTROY · TLP:CLEAR</text>
 </svg>

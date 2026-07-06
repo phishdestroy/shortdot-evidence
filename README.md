@@ -64,7 +64,7 @@
 | `.qpon` | 110,228 | 62,505 | 47,723 | 43.3% | $2.50 | $275,570 |
 | **TOTAL** | **6,231,825** | **1,844,440** | **4,387,385** | **70.4%** | — | **$12,559,037** |
 
-*Data: NetAPI zone snapshots · ICANN fee $0.18/domain/yr = **$1,121,729** additional · Combined: **$13,680,765** · Brand-impersonation domains: **25,966***
+*Data: ICANN gTLD zone files · ICANN fees (registry): $1,738,556/yr · Combined extraction: $14,297,593/yr · Brand-impersonation domains: 25,966*
 
 *Table auto-generated on each daily fetch run.*
 
@@ -204,13 +204,13 @@ Marketed as a coupon/discount TLD. Extremely low wholesale pricing.
 
 ### Data Collection
 
-All domains in ShortDot's seven zones are fetched daily via [NetAPI](https://netapi.com/) (`download-whois`, `filter_type=new`) queried per-TLD. Coverage: 100% of zone additions — no sampling.
+All domains in ShortDot's seven zones are enumerated daily from ICANN gTLD zone data queried per-TLD. Coverage: 100% of zone registrations — no sampling.
 
 ```
        ╭───────────────────╮      ╭───────────────────╮      ╭───────────────────╮
-       │  1. NetAPI pull   │ ───▶ │  2. TI cross-ref  │ ───▶ │  3. Legitimacy    │
-       │  per-TLD zone     │      │  Spamhaus / SURBL │      │  classification   │
-       │  IP, email, rank  │      │  URLhaus / ThrFox │      │  human review     │
+       │  1. Zone pull     │ ───▶ │  2. TI cross-ref  │ ───▶ │  3. Legitimacy    │
+       │  per-TLD (ICANN   │      │  Spamhaus / SURBL │      │  classification   │
+       │  public zone data)│      │  URLhaus / ThrFox │      │  human review     │
        ╰───────────────────╯      ╰───────────────────╯      ╰───────────────────╯
 ```
 
@@ -530,7 +530,7 @@ shortdot-evidence/
 │   ├── domains_high.txt        HIGH severity (phishing/drain/carding)
 │   └── indicators.csv          Full IOC table
 ├── scan/
-│   └── fetch_new.py            Daily data pipeline (NetAPI → stats → README)
+│   └── fetch_new.py            Daily data pipeline (zone fetch → stats → README)
 ├── stats/
 │   ├── by_tld/                 Per-TLD badge JSON files
 │   └── *.json                  Overall badge JSONs (shields.io endpoint format)
