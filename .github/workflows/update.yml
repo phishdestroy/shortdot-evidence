@@ -11,7 +11,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     steps:
       - name: Checkout
@@ -33,16 +33,32 @@ jobs:
       - name: Classify brand patterns
         run: python scan/classify_brands.py
 
+      - name: Cross-reference threat intel
+        env:
+          OTX_API_KEY:     ${{ secrets.OTX_API_KEY }}
+          URLSCAN_API_KEY: ${{ secrets.URLSCAN_API_KEY }}
+        run: python scan/check_intel.py
+
       - name: Rebuild IOC flat files
         run: |
           python - <<'EOF'
           import csv
+          from pathlib import Path
           rows = list(csv.DictReader(open('ioc/indicators.csv', encoding='utf-8-sig', errors='replace')))
           all_doms = sorted(set(r['domain'] for r in rows if r.get('domain')))
           open('ioc/domains_all_malicious.txt','w').write('\n'.join(all_doms)+'\n')
           high = sorted(set(r['domain'] for r in rows if r.get('severity','').upper()=='HIGH' and r.get('domain')))
           open('ioc/domains_high.txt','w').write('\n'.join(high)+'\n')
-          print(f'all={len(all_doms)} high={len(high)}')
+          # Confirmed: feed cross-ref + intel multi-source hits
+          feed_confirmed_path  = Path('data/ioc/feed_confirmed.txt')
+          intel_confirmed_path = Path('data/ioc/intel_confirmed.txt')
+          confirmed = sorted(set(r['domain'] for r in rows if r.get('type','') in ('PHISHING_CONFIRMED','INTEL_CONFIRMED') and r.get('domain')))
+          if feed_confirmed_path.exists():
+              confirmed = sorted(set(confirmed) | (set(feed_confirmed_path.read_text().splitlines()) - {''}))
+          if intel_confirmed_path.exists():
+              confirmed = sorted(set(confirmed) | (set(intel_confirmed_path.read_text().splitlines()) - {''}))
+          open('ioc/domains_confirmed.txt','w').write('\n'.join(confirmed)+'\n')
+          print(f'all={len(all_doms)} high={len(high)} confirmed={len(confirmed)}')
           EOF
 
       - name: Rebuild site data

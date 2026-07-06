@@ -28,6 +28,20 @@ def load_indicators(path: Path) -> list[dict]:
         return list(csv.DictReader(f))
 
 
+def load_intel_results(root: Path) -> dict:
+    path = root / "data" / "ioc" / "intel_results.json"
+    if not path.exists():
+        return {}
+    d = json.loads(path.read_text(encoding="utf-8"))
+    return d
+
+def load_urlscan_evidence(root: Path) -> dict:
+    path = root / "data" / "ioc" / "urlscan_evidence.json"
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text(encoding="utf-8")).get("domains", {})
+
+
 def load_serial_registrants(path: Path) -> list[dict]:
     if not path.exists():
         return []
@@ -70,10 +84,11 @@ def build_clusters(serial_regs: list[dict], shared_ips: list[dict]) -> list[dict
     return clusters[:30]
 
 
-def build_stats(index: dict, domains: list[dict], legit_count: int) -> dict:
+def build_stats(index: dict, domains: list[dict], legit_count: int, intel: dict) -> dict:
     cats = Counter(r.get("category", "") for r in domains)
     high   = sum(1 for r in domains if r.get("severity", "").upper() == "HIGH")
     medium = sum(1 for r in domains if r.get("severity", "").upper() == "MEDIUM")
+    intel_by_src = intel.get("by_source", {})
     return {
         "total":            index.get("total_domains", 0),
         "high":             high,
@@ -105,6 +120,12 @@ def build_stats(index: dict, domains: list[dict], legit_count: int) -> dict:
         "icann_zone_annual":   7 * 25800,
         "categories":       dict(cats.most_common()),
         "screenshots":      0,
+        "intel_total":      intel.get("total", 0),
+        "intel_multisource":intel.get("multi_source", 0),
+        "intel_spamhaus":   intel_by_src.get("spamhaus", 0),
+        "intel_surbl":      intel_by_src.get("surbl", 0),
+        "intel_urlscan":    intel_by_src.get("urlscan", 0),
+        "intel_otx":        intel_by_src.get("otx", 0),
     }
 
 
@@ -131,10 +152,27 @@ def main():
     clusters    = build_clusters(serial_regs, shared_ips)
     print(f"[*] Clusters: {len(clusters)}")
 
-    stats = build_stats(index, domains, legit_count)
+    intel          = load_intel_results(HERE)
+    urlscan_evid   = load_urlscan_evidence(HERE)
+    print(f"[*] Intel hits: {intel.get('total', 0)}  URLScan evidence: {len(urlscan_evid)}")
 
-    # Include all IOC indicators in data.json for the domain table
-    domains_out = domains
+    stats = build_stats(index, domains, legit_count, intel)
+
+    # Include all IOC indicators; enrich with URLScan page titles/scan links
+    if urlscan_evid:
+        domains_out = []
+        for r in domains:
+            ev = urlscan_evid.get(r.get("domain", ""))
+            if ev:
+                r = dict(r)
+                if ev.get("title"):
+                    r.setdefault("notes", "")
+                    r["notes"] = (r["notes"] + " | title: " + ev["title"][:60]).lstrip(" | ")
+                if ev.get("scan_url"):
+                    r["scan_url"] = ev["scan_url"]
+            domains_out.append(r)
+    else:
+        domains_out = domains
 
     # Build brand summary from brand_domains.json (keywords:{kw:[domains]}) + heatmap counts
     brand_json_path = HERE / "data" / "ioc" / "brand_domains.json"

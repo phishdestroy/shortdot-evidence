@@ -358,26 +358,26 @@ h1 strong::before{content:"Zone Abuse Evidence — Registry Level";position:abso
       <div class="ticker-label">ShortDot SA wholesale — year to date 2026</div>
       <div class="ticker-num" id="revenue-ticker">$0</div>
       <div class="ticker-rates">
-        <span><b class="sd-day">$34,408</b> / day</span>
-        <span><b class="sd-hr">$1,434</b> / hour</span>
-        <span><b class="sd-min">$23.90</b> / min</span>
+        <span><b class="sd-day">$34,408/day</b></span>
+        <span><b class="sd-hr">$1,434/hr</b></span>
+        <span><b class="sd-min">$23.90/min</b></span>
       </div>
       <div class="ticker-breakdown">
-        <span>Annual: <b>$12,557,633</b></span>
-        <span>Per domain: <b>$0.65–$6.50</b></span>
-        <span>Phantom domains included: <b>4,397,717</b></span>
+        <span>Annual: <b class="sd-annual">$12,557,633/yr</b></span>
+        <span>Per domain: <b class="sd-per-domain">$0.65–$6.50</b></span>
+        <span>Phantom domains included: <b id="phantom-count-ticker">4,397,717</b></span>
       </div>
     </div>
     <div class="ticker-wrap icann">
       <div class="ticker-label">ICANN extraction — year to date 2026</div>
       <div class="ticker-num" id="icann-ticker">$0</div>
       <div class="ticker-rates">
-        <span><b class="ic-day">$4,763</b> / day</span>
-        <span><b class="ic-hr">$198</b> / hour</span>
-        <span><b class="ic-min">$3.31</b> / min</span>
+        <span><b class="ic-day">$4,763/day</b></span>
+        <span><b class="ic-hr">$198/hr</b></span>
+        <span><b class="ic-min">$3.31/min</b></span>
       </div>
       <div class="ticker-breakdown">
-        <span>Volume cut ($0.25/domain): <b>$1,557,956/yr</b></span>
+        <span>Volume cut ($0.25/domain): <b class="ic-vol-cut">$1,557,956/yr</b></span>
         <span>Zone fees (7×$25,800): <b>$180,600/yr</b></span>
         <span>App fees (7×$227k): <b>$1,589,000</b> one-time</span>
       </div>
@@ -386,7 +386,7 @@ h1 strong::before{content:"Zone Abuse Evidence — Registry Level";position:abso
   <div class="ticker-combined">
     <span class="lbl">Combined extraction YTD 2026</span>
     <span class="val" id="combined-ticker">$0</span>
-    <span class="sub">ShortDot + ICANN · <span class="co-day">$37,481</span>/day · <span class="co-hr">$1,562</span>/hr · <span class="co-sec">$0.434</span>/sec</span>
+    <span class="sub">ShortDot + ICANN · <span class="co-day">$37,481/day</span> · <span class="co-hr">$1,562/hr</span> · <span class="co-sec">$0.434/sec</span></span>
   </div>
 
   <div class="tld-row">
@@ -458,6 +458,17 @@ h1 strong::before{content:"Zone Abuse Evidence — Registry Level";position:abso
   <div class="cc"><div class="n" id="c-total-ioc" style="color:var(--tx3)">—</div><div class="l">Total IOC</div></div>
   <div class="cc c"><div class="n" id="c-brand-scan">51,670</div><div class="l">Brand Zone Scan</div></div>
   <div class="cc c"><div class="n">6.2M</div><div class="l">Total Zone Domains</div></div>
+</div>
+
+<div class="sec"><h2>External Intel Verification</h2><div class="ln"></div></div>
+<p class="sec-sub">ShortDot domains confirmed malicious by independent public threat intelligence sources. Cross-referenced daily against Spamhaus DBL, SURBL, URLScan.io, AlienVault OTX, and GitHub-hosted blocklists.</p>
+<div class="catg">
+  <div class="cc r"><div class="n" id="intel-total">—</div><div class="l">Total Confirmed</div></div>
+  <div class="cc r"><div class="n" id="intel-multisource">—</div><div class="l">Multi-source ≥2</div></div>
+  <div class="cc o"><div class="n" id="intel-spamhaus">—</div><div class="l">Spamhaus DBL</div></div>
+  <div class="cc o"><div class="n" id="intel-surbl">—</div><div class="l">SURBL</div></div>
+  <div class="cc c"><div class="n" id="intel-urlscan">—</div><div class="l">URLScan.io</div></div>
+  <div class="cc v"><div class="n" id="intel-otx">—</div><div class="l">AlienVault OTX</div></div>
 </div>
 
 <div class="sec"><h2>Registration Burst Days</h2><div class="ln"></div></div>
@@ -634,33 +645,36 @@ h1 strong::before{content:"Zone Abuse Evidence — Registry Level";position:abso
 <div class="wrap">
 
 <div class="sec" id="exploit-simulator"><h2>Live Simulation: The Phantom Exploit</h2><div class="ln"></div></div>
-<p class="sec-sub">Observing theoretical metric manipulation. While the global domain market stagnates and ICANN raises fees, a hypothetical entity can exploit bulk wholesale pricing (paying essentially just the $0.18 ICANN fee) to mass-generate phantom domains. This creates an illusion of explosive corporate growth and dilutes severe abuse ratios.</p>
+<p class="sec-sub">How 4.4 million never-activated domains inflate a public company's portfolio metrics, conceal a 2.8% real abuse rate behind a reported 0.83%, and generate $1.74M/year for ICANN — all while a stock trades at P/E 143×.</p>
 
 <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:10px;margin-bottom:16px">
   <div style="background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:14px 16px">
-    <div style="font-size:9px;font-family:monospace;color:#8b949e;letter-spacing:.08em;margin-bottom:6px">ON PAPER</div>
+    <div style="font-size:9px;font-family:monospace;color:#8b949e;letter-spacing:.08em;margin-bottom:6px">ON PAPER (reported)</div>
     <div style="font-size:22px;font-weight:700;color:#f0f6fc;font-variant-numeric:tabular-nums">6,242,647</div>
     <div style="font-size:10px;color:#8b949e;margin-top:4px">domains under management</div>
-    <div style="margin-top:8px;font-size:10px;color:#3fb950">abuse rate: <strong>0.83%</strong></div>
+    <div style="margin-top:8px;font-size:10px;color:#3fb950">reported abuse rate: <strong>0.83%</strong></div>
+    <div style="margin-top:3px;font-size:10px;color:#8b949e">→ "acceptable, growing registry"</div>
   </div>
   <div style="background:#0d1117;border:1px solid var(--rd);border-radius:6px;padding:14px 16px">
-    <div style="font-size:9px;font-family:monospace;color:#8b949e;letter-spacing:.08em;margin-bottom:6px">REALITY</div>
+    <div style="font-size:9px;font-family:monospace;color:#8b949e;letter-spacing:.08em;margin-bottom:6px">REALITY (deployed only)</div>
     <div style="font-size:22px;font-weight:700;color:#da3633;font-variant-numeric:tabular-nums">1,844,930</div>
-    <div style="font-size:10px;color:#8b949e;margin-top:4px">domains actually deployed</div>
-    <div style="margin-top:8px;font-size:10px;color:var(--rd)">abuse rate: <strong>2.8%</strong></div>
+    <div style="font-size:10px;color:#8b949e;margin-top:4px">domains actually live</div>
+    <div style="margin-top:8px;font-size:10px;color:var(--rd)">real abuse rate: <strong>2.8%</strong></div>
+    <div style="margin-top:3px;font-size:10px;color:#da3633">→ ICANN enforcement threshold</div>
   </div>
   <div style="background:#0d1117;border:1px solid #d29922;border-radius:6px;padding:14px 16px">
     <div style="font-size:9px;font-family:monospace;color:#8b949e;letter-spacing:.08em;margin-bottom:6px">PHANTOM DILUTION</div>
     <div style="font-size:22px;font-weight:700;color:#d29922;font-variant-numeric:tabular-nums">3.4×</div>
     <div style="font-size:10px;color:#8b949e;margin-top:4px">4,397,717 phantom domains</div>
-    <div style="margin-top:8px;font-size:10px;color:#d29922">cost to inflate: <strong>~$792K</strong></div>
+    <div style="margin-top:8px;font-size:10px;color:#d29922">registrar cost to inflate: <strong>~$792K</strong></div>
+    <div style="margin-top:3px;font-size:10px;color:#8b949e">$0.18 ICANN + ~$0.12 margin/domain</div>
   </div>
   <div style="background:#0d1117;border:1px solid #8b5cf6;border-radius:6px;padding:14px 16px">
     <div style="font-size:9px;font-family:monospace;color:#8b949e;letter-spacing:.08em;margin-bottom:6px">WHO PROFITS</div>
     <div style="font-size:11px;font-family:monospace;color:#f0f6fc;line-height:1.9;margin-top:4px">
-      ShortDot: <strong style="color:#3fb950">$12.5M</strong><br>
-      Registrars: <strong style="color:#6ea8d7">$6.7M</strong><br>
-      ICANN: <strong style="color:#8b5cf6">$1.74M</strong><br>
+      ShortDot: <strong style="color:#3fb950">$12.5M</strong>/yr<br>
+      Registrars: <strong style="color:#6ea8d7">$6.7M</strong>/yr<br>
+      ICANN: <strong style="color:#8b5cf6">$1.74M</strong>/yr<br>
       <span style="color:#da3633">Victims: $0 — lose all</span>
     </div>
   </div>
@@ -668,79 +682,78 @@ h1 strong::before{content:"Zone Abuse Evidence — Registry Level";position:abso
 
 <div class="sim-container">
   <div class="sim-pipeline">
-    <div class="pipeline-header"><span class="pulsing-dot"></span> LIVE INJECTION FEED</div>
-    <div class="feed-headers"><span>PHANTOM ASSET</span><span style="text-align:center">WHOLESALE COST</span><span style="text-align:right">PAPER VALUE</span></div>
+    <div class="pipeline-header"><span class="pulsing-dot"></span> PHANTOM INJECTION FEED — NAMESILO → SHORTDOT ZONES</div>
+    <div class="feed-headers"><span>PHANTOM DOMAIN</span><span style="text-align:center">REGISTRAR COST</span><span style="text-align:right">RETAIL / AUM</span></div>
     <div class="feed-window" id="phantom-feed"></div>
-    <div class="pipeline-footer">PROCESSING RATE: <span style="color:#00e5ff">1,000 domains / tick</span></div>
+    <div class="pipeline-footer">INJECT RATE: <span style="color:#00e5ff" id="sim-rate-label">65,000 domains / tick</span> &nbsp;·&nbsp; DNS records: <span style="color:#f85149">NONE</span> &nbsp;·&nbsp; Real business: <span style="color:#f85149">NONE</span></div>
   </div>
   <div class="sim-metrics">
     <div class="metric-card paradox-card">
-      <div class="m-title">THE MARKET PARADOX</div>
+      <div class="m-title">MARKET PARADOX — PUBLIC COMPANY (CSE: URL)</div>
       <div class="paradox-grid">
-        <div class="p-col"><span class="p-lbl">GLOBAL INDUSTRY TREND</span><span class="p-val decline">▼ -2.4%</span><span class="p-sub">Stagnant / ICANN Fees Rising</span></div>
-        <div class="p-col"><span class="p-lbl">REPORTED PORTFOLIO GROWTH</span><span class="p-val pump" id="sim-growth-pct">▲ +0%</span><span class="p-sub">Driven by Phantom Injections</span></div>
+        <div class="p-col"><span class="p-lbl">GLOBAL DOMAIN MARKET</span><span class="p-val decline">▼ -2.4%</span><span class="p-sub">Stagnant, fees rising</span></div>
+        <div class="p-col"><span class="p-lbl">NAMESILO PORTFOLIO GROWTH</span><span class="p-val pump" id="sim-growth-pct">▲ +0%</span><span class="p-sub">Phantom-driven</span></div>
+        <div class="p-col"><span class="p-lbl">STOCK P/E RATIO</span><span class="p-val" style="color:#8b5cf6">143×</span><span class="p-sub">$313M market cap</span></div>
       </div>
     </div>
     <div class="metric-card">
-      <div class="m-title">THEORETICAL VALUATION INFLATION (AUM PUMP)</div>
-      <div class="m-row"><span class="m-label">ACTUAL SPEND <span style="color:#8b949e;font-size:9px">(~$0.18 ICANN + $0.12 Reg)</span></span><span class="m-value cost-color" id="sim-cost">$0</span></div>
-      <div class="m-row"><span class="m-label">REPORTED REVENUE/AUM <span style="color:#8b949e;font-size:9px">(Retail $19.49)</span></span><span class="m-value paper-color" id="sim-revenue">$0</span></div>
-      <div class="m-spread">MULTIPLIER EFFECT: <span id="sim-multiplier">1x</span> (Asset value inflated by <span id="sim-spread">$0</span>)</div>
+      <div class="m-title">PHANTOM AUM PUMP — DOMAIN PORTFOLIO INFLATION</div>
+      <div class="m-row"><span class="m-label">WHOLESALE COST TO NAMESILO <span style="color:#8b949e;font-size:9px">(ShortDot wholesale, incl. $0.18 ICANN)</span></span><span class="m-value cost-color" id="sim-cost">$0</span></div>
+      <div class="m-row"><span class="m-label">PORTFOLIO AUM AT RENEWAL <span style="color:#8b949e;font-size:9px">(.sbs $19.49 · .cfd $19.49 · .bond $29.99 · .icu $14.99)</span></span><span class="m-value paper-color" id="sim-revenue">$0</span></div>
+      <div class="m-row"><span class="m-label">ICANN FEES COLLECTED <span style="color:#8b949e;font-size:9px">($0.18/domain)</span></span><span class="m-value" style="color:#8b5cf6" id="sim-icann">$0</span></div>
+      <div class="m-spread">INFLATION RATIO: <span id="sim-multiplier">—</span> &nbsp;|&nbsp; Inflated by: <span id="sim-spread">$0</span></div>
     </div>
     <div class="metric-card">
-      <div class="m-title">STATISTICAL SMOKESCREEN (ABUSE DILUTION)</div>
-      <div class="m-row"><span class="m-label">CONFIRMED ABUSE DOMAINS</span><span class="m-value" style="color:#ff0055">22,000</span></div>
-      <div class="m-row"><span class="m-label">TOTAL DOMAINS IN ECOSYSTEM</span><span class="m-value" id="sim-total-domains">22,000</span></div>
+      <div class="m-title">ABUSE DILUTION — REGULATORY SMOKESCREEN</div>
+      <div class="m-row"><span class="m-label">CONFIRMED MALICIOUS DOMAINS</span><span class="m-value" style="color:#ff0055">51,670</span></div>
+      <div class="m-row"><span class="m-label">TOTAL REPORTED PORTFOLIO</span><span class="m-value" id="sim-total-domains">51,670</span></div>
       <div class="ratio-visual">
-        <div class="ratio-text">"DIRTY RATIO": <span id="sim-ratio" style="color:#ff0055;font-size:24px">100.00%</span></div>
+        <div class="ratio-text">REPORTED ABUSE RATE: <span id="sim-ratio" style="color:#ff0055;font-size:22px;font-family:'JetBrains Mono',monospace">100.00%</span></div>
         <div class="ratio-bar-container"><div class="ratio-bar-fill" id="sim-ratio-bar" style="width:100%"></div></div>
-        <div class="ratio-desc" id="sim-ratio-desc">"SEVERE REGULATORY RISK"</div>
+        <div class="ratio-desc" id="sim-ratio-desc">⚠ SEVERE — ICANN ENFORCEMENT RISK</div>
       </div>
     </div>
-    <button id="start-sim-btn" class="sim-btn">▶ INITIALIZE EXPLOIT SIMULATION</button>
+    <button id="start-sim-btn" class="sim-btn">▶ RUN PHANTOM EXPLOIT SIMULATION</button>
   </div>
 </div>
 
 <style>
 .sim-container{display:flex;gap:20px;background:#0d1117;border:1px solid #30363d;border-radius:8px;padding:20px;margin-bottom:12px}
 .sim-pipeline{flex:1;background:#050a0f;border:1px solid #1a2332;border-radius:6px;display:flex;flex-direction:column;overflow:hidden}
-.pipeline-header{background:#161b22;padding:10px 15px;font-size:12px;font-weight:bold;color:#c9d1d9;border-bottom:1px solid #30363d;display:flex;align-items:center;gap:10px;font-family:'JetBrains Mono',monospace}
-.pulsing-dot{width:8px;height:8px;background:#00ff66;border-radius:50%;box-shadow:0 0 8px #00ff66;animation:plspulse 1s infinite alternate}
+.pipeline-header{background:#161b22;padding:10px 15px;font-size:11px;font-weight:bold;color:#c9d1d9;border-bottom:1px solid #30363d;display:flex;align-items:center;gap:10px;font-family:'JetBrains Mono',monospace}
+.pulsing-dot{width:8px;height:8px;background:#00ff66;border-radius:50%;box-shadow:0 0 8px #00ff66;animation:plspulse 1s infinite alternate;flex-shrink:0}
 @keyframes plspulse{from{opacity:.4}to{opacity:1}}
 .feed-headers{display:grid;grid-template-columns:2fr 1.5fr 1fr;padding:8px 15px;font-size:10px;color:#8b949e;background:#0d1117;border-bottom:1px dashed #30363d;font-family:'JetBrains Mono',monospace}
-.feed-window{height:420px;overflow:hidden;padding:10px}
-.feed-row{display:grid;grid-template-columns:2fr 1.5fr 1fr;align-items:center;font-size:11px;padding:8px 10px;background:rgba(22,27,34,.6);border:1px solid #30363d;border-radius:4px;margin-bottom:8px;animation:sfeedslide .3s ease-out forwards;opacity:0;transform:translateY(-20px);font-family:'JetBrains Mono',monospace}
+.feed-window{height:380px;overflow:hidden;padding:10px}
+.feed-row{display:grid;grid-template-columns:2fr 1.5fr 1fr;align-items:center;font-size:11px;padding:7px 10px;background:rgba(22,27,34,.6);border:1px solid #30363d;border-radius:4px;margin-bottom:7px;animation:sfeedslide .25s ease-out forwards;opacity:0;transform:translateY(-16px);font-family:'JetBrains Mono',monospace}
 @keyframes sfeedslide{to{opacity:1;transform:translateY(0)}}
 .f-domain{color:#8b949e;word-break:break-all}
 .f-cost{color:#f85149;text-align:center}
-.f-paper{color:#3fb950;font-weight:bold;text-align:right}
-.pipeline-footer{background:#161b22;padding:8px 15px;font-size:10px;color:#8b949e;border-top:1px solid #30363d;text-align:right;font-family:'JetBrains Mono',monospace}
-.sim-metrics{flex:1.2;display:flex;flex-direction:column;gap:15px}
-.metric-card{background:#161b22;border:1px solid #30363d;border-radius:6px;padding:15px 20px}
+.f-paper{font-weight:bold;text-align:right}
+.pipeline-footer{background:#161b22;padding:8px 15px;font-size:10px;color:#8b949e;border-top:1px solid #30363d;font-family:'JetBrains Mono',monospace;display:flex;gap:12px}
+.sim-metrics{flex:1.2;display:flex;flex-direction:column;gap:12px}
+.metric-card{background:#161b22;border:1px solid #30363d;border-radius:6px;padding:14px 18px}
 .paradox-card{background:rgba(22,27,34,.8);border-color:#484f58}
-.m-title{font-size:12px;font-weight:bold;color:#c9d1d9;margin-bottom:12px;border-bottom:1px dashed #484f58;padding-bottom:8px;font-family:'JetBrains Mono',monospace;letter-spacing:.05em}
-.paradox-grid{display:flex;gap:15px}
-.p-col{flex:1;display:flex;flex-direction:column;background:#0d1117;padding:10px;border-radius:4px;border:1px solid #30363d;text-align:center}
-.p-lbl{font-size:9px;color:#8b949e;margin-bottom:5px;font-family:'JetBrains Mono',monospace}
-.p-val{font-size:18px;font-weight:bold}
+.m-title{font-size:11px;font-weight:bold;color:#c9d1d9;margin-bottom:10px;border-bottom:1px dashed #484f58;padding-bottom:7px;font-family:'JetBrains Mono',monospace;letter-spacing:.04em}
+.paradox-grid{display:flex;gap:8px}
+.p-col{flex:1;display:flex;flex-direction:column;background:#0d1117;padding:8px;border-radius:4px;border:1px solid #30363d;text-align:center}
+.p-lbl{font-size:9px;color:#8b949e;margin-bottom:4px;font-family:'JetBrains Mono',monospace;line-height:1.3}
+.p-val{font-size:16px;font-weight:bold}
 .p-sub{font-size:9px;color:#484f58;margin-top:2px;font-family:'JetBrains Mono',monospace}
-.decline{color:#f85149}
-.pump{color:#00e5ff;text-shadow:0 0 8px rgba(0,229,255,.3);transition:color .3s}
-.m-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
-.m-label{font-size:11px;color:#8b949e;font-family:'JetBrains Mono',monospace}
-.m-value{font-size:16px;font-weight:bold;font-variant-numeric:tabular-nums}
-.cost-color{color:#f85149}
-.paper-color{color:#3fb950;text-shadow:0 0 10px rgba(63,185,80,.2)}
-.m-spread{margin-top:12px;padding:8px;background:rgba(210,153,34,.1);border:1px dashed #d29922;border-radius:4px;text-align:center;font-size:11px;color:#d29922;font-weight:bold;font-family:'JetBrains Mono',monospace}
-.ratio-visual{margin-top:15px;background:#050a0f;padding:12px;border-radius:4px;border:1px solid #1a2332;text-align:center}
-.ratio-text{font-size:12px;color:#c9d1d9;font-family:'JetBrains Mono',monospace}
-.ratio-bar-container{height:6px;background:#30363d;border-radius:3px;margin:8px 0;overflow:hidden}
+.decline{color:#f85149}.pump{color:#00e5ff;text-shadow:0 0 8px rgba(0,229,255,.3);transition:all .3s}
+.m-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:7px;gap:8px}
+.m-label{font-size:10px;color:#8b949e;font-family:'JetBrains Mono',monospace;line-height:1.4}
+.m-value{font-size:15px;font-weight:bold;font-variant-numeric:tabular-nums;white-space:nowrap}
+.cost-color{color:#f85149}.paper-color{color:#3fb950;text-shadow:0 0 10px rgba(63,185,80,.15)}
+.m-spread{margin-top:10px;padding:7px 10px;background:rgba(210,153,34,.1);border:1px dashed #d29922;border-radius:4px;text-align:center;font-size:11px;color:#d29922;font-weight:bold;font-family:'JetBrains Mono',monospace}
+.ratio-visual{margin-top:12px;background:#050a0f;padding:10px;border-radius:4px;border:1px solid #1a2332;text-align:center}
+.ratio-text{font-size:11px;color:#c9d1d9;font-family:'JetBrains Mono',monospace;margin-bottom:4px}
+.ratio-bar-container{height:6px;background:#30363d;border-radius:3px;margin:6px 0;overflow:hidden}
 .ratio-bar-fill{height:100%;background:#ff0055;transition:width .1s linear,background-color .3s}
-.ratio-desc{font-size:10px;color:#8b949e;letter-spacing:1px;font-family:'JetBrains Mono',monospace}
-.sim-btn{background:#238636;color:#fff;border:1px solid #2ea043;padding:12px;border-radius:6px;font-size:13px;font-weight:bold;cursor:pointer;font-family:inherit;transition:all .2s;width:100%}
-.sim-btn:hover{background:#2ea043}
-.sim-btn:disabled{background:#1a2332;border-color:#30363d;color:#484f58;cursor:not-allowed}
-@media(max-width:900px){.sim-container{flex-direction:column}.feed-window{height:250px}}
+.ratio-desc{font-size:10px;color:#8b949e;letter-spacing:.05em;font-family:'JetBrains Mono',monospace}
+.sim-btn{background:#238636;color:#fff;border:1px solid #2ea043;padding:11px;border-radius:6px;font-size:13px;font-weight:bold;cursor:pointer;font-family:inherit;transition:all .2s;width:100%;margin-top:2px}
+.sim-btn:hover{background:#2ea043}.sim-btn:disabled{background:#1a2332;border-color:#30363d;color:#484f58;cursor:not-allowed}
+@media(max-width:900px){.sim-container{flex-direction:column}.feed-window{height:240px}.paradox-grid{flex-wrap:wrap}}
 </style>
 
 <script>
@@ -756,42 +769,72 @@ var elTotalDom=document.getElementById('sim-total-domains');
 var elRatio=document.getElementById('sim-ratio');
 var elRatioBar=document.getElementById('sim-ratio-bar');
 var elRatioDesc=document.getElementById('sim-ratio-desc');
-var MALICIOUS=51670,TARGET=6242647,CHUNK=65000;
-var RAW=0.30,PAPER=19.49,MULT=(PAPER/RAW).toFixed(1);
-var tlds=['.sbs','.cfd','.bond','.cyou','.buzz','.icu'];
+var elIcann=document.getElementById('sim-icann');
+
+/* TLD config: [name, wholesale, promoReg, renewal, color]
+   wholesale = ShortDot→NameSilo cost
+   promoReg  = NameSilo 1st-year promo price to customer
+   renewal   = NameSilo renewal price (= AUM / book value)
+   Source: NameSilo pricing page (confirmed .sbs 2026-07) */
+var TLDS=[
+  ['.sbs',  0.30, 1.88, 19.49, '#6ea8d7'],
+  ['.cfd',  0.30, 1.88, 19.49, '#6ea8d7'],
+  ['.icu',  0.30, 0.99, 14.99, '#6ea8d7'],
+  ['.cyou', 0.30, 0.99,  9.99, '#c0a060'],
+  ['.buzz', 0.30, 2.99, 14.99, '#c0a060'],
+  ['.bond', 0.30, 9.99, 29.99, '#3fb950']
+];
+var MALICIOUS=51670, TARGET=6242647, CHUNK=65000;
 var monFmt=new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0});
 var numFmt=new Intl.NumberFormat('en-US');
-var cur=MALICIOUS,iv=null;
-function rnd(){return Math.random().toString(36).substring(2,10)+Math.random().toString(36).substring(2,6);}
+var cur=MALICIOUS, iv=null;
+
+function weightedAvgRenewal(){
+  /* renewal price weighted by zone sizes — AUM denominator */
+  return (14.99*976416 + 29.99*1325001 + 19.49*1912083 + 19.49*952385 + 14.99*209416 + 9.99*756981 + 9.99*110365) / 6242647;
+}
+var AVG_RENEWAL=weightedAvgRenewal(); /* ~18-19 */
+
 function upd(total){
   var ph=total-MALICIOUS;
-  elCost.innerText=monFmt.format(ph*RAW);
-  elRev.innerText=monFmt.format(ph*PAPER);
-  elSpread.innerText=monFmt.format(ph*(PAPER-RAW));
-  elMultiplier.innerText=MULT+'x';
-  elGrowth.innerText='▲ +'+numFmt.format(Math.floor((total/MALICIOUS*100)-100))+'%';
+  var totalCost=ph*0.30;
+  var totalAUM=ph*AVG_RENEWAL;
+  var totalIcann=ph*0.18;
+  elCost.innerText=monFmt.format(totalCost);
+  elRev.innerText=monFmt.format(totalAUM);
+  elIcann.innerText=monFmt.format(totalIcann);
+  elSpread.innerText=monFmt.format(totalAUM-totalCost);
+  elMultiplier.innerText=(AVG_RENEWAL/0.30).toFixed(0)+'× cost→AUM';
+  elGrowth.innerText='▲ +'+numFmt.format(Math.round((total/MALICIOUS-1)*100))+'%';
   elTotalDom.innerText=numFmt.format(total);
   var r=MALICIOUS/total*100;
   elRatio.innerText=r.toFixed(2)+'%';
-  elRatioBar.style.width=Math.max(r,0.5)+'%';
-  if(r>50){elRatio.style.color='#ff0055';elRatioBar.style.background='#ff0055';elRatioDesc.innerText='"SEVERE REGULATORY RISK"';}
-  else if(r>10){elRatio.style.color='#f0883e';elRatioBar.style.background='#f0883e';elRatioDesc.innerText='"SUSPICIOUS VOLUME"';}
-  else if(r>2){elRatio.style.color='#d29922';elRatioBar.style.background='#d29922';elRatioDesc.innerText='"ACCEPTABLE NOISE"';}
-  else{elRatio.style.color='#3fb950';elRatioBar.style.background='#3fb950';elRatioDesc.innerText='"STATISTICAL CAMOUFLAGE ACHIEVED"';}
+  elRatioBar.style.width=Math.max(r,0.3)+'%';
+  if(r>50){elRatio.style.color='#ff0055';elRatioBar.style.background='#ff0055';elRatioDesc.innerText='⚠ SEVERE — ICANN ENFORCEMENT RISK';}
+  else if(r>10){elRatio.style.color='#f0883e';elRatioBar.style.background='#f0883e';elRatioDesc.innerText='⚠ SUSPICIOUS — REGULATORY SCRUTINY';}
+  else if(r>2){elRatio.style.color='#d29922';elRatioBar.style.background='#d29922';elRatioDesc.innerText='✓ "ACCEPTABLE NOISE" — AUDIT SAFE';}
+  else{elRatio.style.color='#3fb950';elRatioBar.style.background='#3fb950';elRatioDesc.innerText='✓ STATISTICAL CAMOUFLAGE COMPLETE';}
 }
+
+function rnd(){return Math.random().toString(36).substring(2,10)+Math.random().toString(36).substring(2,6);}
+
 function addRow(){
+  var t=TLDS[Math.floor(Math.random()*TLDS.length)];
   var row=document.createElement('div');row.className='feed-row';
-  var tld=tlds[Math.floor(Math.random()*tlds.length)];
-  row.innerHTML='<span class="f-domain">'+rnd()+tld+'</span><span class="f-cost">~$0.30<br><span style="font-size:8px;color:#8b949e">($0.18 ICANN)</span></span><span class="f-paper">$19.49</span>';
+  /* t = [tld, wholesale, promo, renewal, color] */
+  row.innerHTML='<span class="f-domain">'+rnd()+t[0]+'</span>'
+    +'<span class="f-cost"><span style="font-size:10px">promo $'+t[2].toFixed(2)+'</span><br><span style="font-size:8px;color:#8b949e">wholesale $'+t[1].toFixed(2)+'</span></span>'
+    +'<span class="f-paper" style="color:'+t[4]+'">$'+t[3].toFixed(2)+'<br><span style="font-size:8px;opacity:.7">renewal</span></span>';
   feedWindow.prepend(row);
-  if(feedWindow.children.length>9)feedWindow.removeChild(feedWindow.lastChild);
+  while(feedWindow.children.length>9)feedWindow.removeChild(feedWindow.lastChild);
 }
+
 if(btn)btn.addEventListener('click',function(){
-  btn.disabled=true;btn.innerText='EXPLOIT RUNNING... INJECTING PHANTOMS';
+  btn.disabled=true;btn.innerText='⚙ EXPLOIT RUNNING — INJECTING PHANTOMS…';
   cur=MALICIOUS;feedWindow.innerHTML='';
   iv=setInterval(function(){
     cur+=CHUNK;
-    if(cur>=TARGET){cur=TARGET;clearInterval(iv);btn.innerText='SIMULATION COMPLETE';}
+    if(cur>=TARGET){cur=TARGET;clearInterval(iv);btn.innerText='✓ SIMULATION COMPLETE — '+numFmt.format(TARGET-MALICIOUS)+' PHANTOMS INJECTED';}
     upd(cur);addRow();
   },80);
 });
@@ -955,26 +998,78 @@ if(btn)btn.addEventListener('click',function(){
 <script>
 (function(){
 
-/* ── Revenue tickers ── */
-var SHORTDOT_ANNUAL = 12557633;
-var ICANN_ANNUAL    = 1741262;
-var COMBINED_ANNUAL = SHORTDOT_ANNUAL + ICANN_ANNUAL;
+/* ── Revenue tickers — driven by data.json (auto-updated daily) ── */
 var EPOCH = new Date('2026-01-01T00:00:00Z').getTime();
-var SD_PER_MS = SHORTDOT_ANNUAL / 365 / 86400 / 1000;
-var IC_PER_MS = ICANN_ANNUAL    / 365 / 86400 / 1000;
-var CO_PER_MS = COMBINED_ANNUAL / 365 / 86400 / 1000;
-function tick(){
-  var now = Date.now();
-  var elapsed = now - EPOCH;
-  var el1 = document.getElementById('revenue-ticker');
-  var el2 = document.getElementById('icann-ticker');
-  var el3 = document.getElementById('combined-ticker');
-  if(el1) el1.textContent = '$' + Math.floor(elapsed * SD_PER_MS).toLocaleString();
-  if(el2) el2.textContent = '$' + Math.floor(elapsed * IC_PER_MS).toLocaleString();
-  if(el3) el3.textContent = '$' + Math.floor(elapsed * CO_PER_MS).toLocaleString();
-  requestAnimationFrame(tick);
+var ICANN_ZONE_FEE = 25800, ICANN_VOL_RATE = 0.25, N_TLDS = 7;
+
+function fmtD(n){ return '$'+(n>=1e6?(n/1e6).toFixed(2)+'M':(n>=1e3?(n/1e3).toFixed(0)+'K':n.toFixed(0))); }
+function fmtFull(n){ return '$'+Math.floor(n).toLocaleString(); }
+
+function startTickers(sdAnnual, icAnnual, totalDomains, tldBreakdown){
+  var coAnnual = sdAnnual + icAnnual;
+  var SD_PER_MS = sdAnnual / 365 / 86400 / 1000;
+  var IC_PER_MS = icAnnual / 365 / 86400 / 1000;
+  var CO_PER_MS = coAnnual / 365 / 86400 / 1000;
+
+  /* Update static rate labels from live data */
+  var sdDay = sdAnnual/365, sdHr = sdDay/24, sdMin = sdHr/60;
+  var icDay = icAnnual/365, icHr = icDay/24, icMin = icHr/60;
+  var coDay = coAnnual/365, coHr = coDay/24, coSec = coHr/3600;
+
+  function q(sel){ return document.querySelector(sel); }
+  function setTxt(sel,v){ var e=q(sel); if(e) e.textContent=v; }
+
+  setTxt('.sd-day', fmtD(sdDay)+'/day');
+  setTxt('.sd-hr',  fmtD(sdHr)+'/hr');
+  setTxt('.sd-min', fmtD(sdMin)+'/min');
+  setTxt('.ic-day', fmtD(icDay)+'/day');
+  setTxt('.ic-hr',  fmtD(icHr)+'/hr');
+  setTxt('.ic-min', fmtD(icMin)+'/min');
+  setTxt('.co-day', fmtD(coDay)+'/day');
+  setTxt('.co-hr',  fmtD(coHr)+'/hr');
+  setTxt('.co-sec', fmtD(coAnnual/365/86400)+'/sec');
+
+  /* Breakdown labels */
+  setTxt('.sd-annual',  fmtFull(sdAnnual)+'/yr');
+  setTxt('.ic-vol-cut', fmtFull(totalDomains * ICANN_VOL_RATE)+'/yr');
+
+  /* Tld per-domain range */
+  if(tldBreakdown){
+    var prices = Object.values(tldBreakdown).map(function(t){return t.price||0;}).filter(Boolean);
+    if(prices.length){
+      var lo=Math.min.apply(null,prices), hi=Math.max.apply(null,prices);
+      setTxt('.sd-per-domain', '$'+lo.toFixed(2)+'–$'+hi.toFixed(2));
+    }
+  }
+
+  var el1=document.getElementById('revenue-ticker');
+  var el2=document.getElementById('icann-ticker');
+  var el3=document.getElementById('combined-ticker');
+  function tick(){
+    var elapsed = Date.now() - EPOCH;
+    if(el1) el1.textContent = '$'+Math.floor(elapsed*SD_PER_MS).toLocaleString();
+    if(el2) el2.textContent = '$'+Math.floor(elapsed*IC_PER_MS).toLocaleString();
+    if(el3) el3.textContent = '$'+Math.floor(elapsed*CO_PER_MS).toLocaleString();
+    requestAnimationFrame(tick);
+  }
+  tick();
 }
-tick();
+
+/* Load data.json → derive annual revenue from per-TLD wholesale breakdown */
+fetch('data.json').then(function(r){return r.json();}).then(function(d){
+  var s = d.stats || {};
+  var tld = s.tld_breakdown || {};
+  var sdAnnual = 0;
+  Object.values(tld).forEach(function(t){ sdAnnual += (t.count||0) * (t.price||0); });
+  if(!sdAnnual) sdAnnual = s.shortdot_revenue || 12557633;
+
+  var total = s.total || 6242647;
+  var icAnnual = total * ICANN_VOL_RATE + N_TLDS * ICANN_ZONE_FEE;
+
+  startTickers(sdAnnual, icAnnual, total, tld);
+}).catch(function(){
+  startTickers(12557633, 1741262, 6242647, null);
+});
 
 /* ── KPI progress bars (phantom 70.4%, brand relative) ── */
 (function(){
@@ -1417,6 +1512,14 @@ fetch('data.json').then(function(r){return r.json();}).then(function(d){
   var totalIoc = Object.values(cats).reduce(function(a,b){return a+(b||0);},0);
   if(totalIoc) setText('c-total-ioc', totalIoc.toLocaleString());
   if(s.legit_count !== undefined) setText('c-legit', s.legit_count||0);
+
+  /* Intel verification stats */
+  if(s.intel_total)       setText('intel-total',       s.intel_total.toLocaleString());
+  if(s.intel_multisource) setText('intel-multisource',  s.intel_multisource.toLocaleString());
+  if(s.intel_spamhaus)    setText('intel-spamhaus',     s.intel_spamhaus.toLocaleString());
+  if(s.intel_surbl)       setText('intel-surbl',        s.intel_surbl.toLocaleString());
+  if(s.intel_urlscan)     setText('intel-urlscan',      s.intel_urlscan.toLocaleString());
+  if(s.intel_otx)         setText('intel-otx',          s.intel_otx.toLocaleString());
 
   /* Redraw donut with live data */
   if(s.alive||s.dead){

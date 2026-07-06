@@ -43,6 +43,9 @@ tr:hover td{background:rgba(255,255,255,.02)}
 .dom{color:var(--tx);font-weight:700}
 .sev-H{color:var(--rd)}.sev-M{color:var(--or)}.sev-I{color:var(--tx3)}.sev-L{color:var(--gn)}
 .tld-tag{display:inline-block;font-size:9px;padding:1px 5px;border-radius:2px;background:var(--s3);color:var(--tx3);font-family:monospace}
+.intel-links{white-space:nowrap;font-size:10px;font-family:monospace}
+.intel-links a{color:var(--tx3);text-decoration:none;padding:1px 3px;border:1px solid var(--bdr);border-radius:2px;margin-right:2px;transition:color .1s,border-color .1s}
+.intel-links a:hover{color:var(--cy);border-color:var(--cy)}
 
 .empty{text-align:center;padding:60px 20px;color:var(--tx3);font-size:12px}
 
@@ -115,6 +118,7 @@ footer a{color:var(--cy)}
   <th>Country</th>
   <th>Registered</th>
   <th>Notes</th>
+  <th>Intel</th>
 </tr></thead>
 <tbody id="tbody"></tbody>
 </table>
@@ -241,8 +245,16 @@ footer a{color:var(--cy)}
         +'<td class="'+sevCls+'">'+sev+'</td>'
         +'<td>'+esc(d.ip||'')+'</td>'
         +'<td>'+esc(d.ip_country||'')+'</td>'
-        +'<td>'+esc(d.registered||'')+'</td>'
+        +'<td>'+esc(d.date||d.registered||'')+'</td>'
         +'<td>'+esc(d.notes||d.groq_desc||'')+'</td>'
+        +'<td class="intel-links">'
+          +(d.scan_url
+            ? '<a href="'+esc(d.scan_url)+'" target="_blank" rel="noopener" title="URLScan result" style="color:var(--gn);border-color:var(--gn)">US✓</a> '
+            : '<a href="https://urlscan.io/search/#page.domain%3A'+encodeURIComponent(d.domain)+'" target="_blank" rel="noopener" title="URLScan">US</a> ')
+          +'<a href="https://www.virustotal.com/gui/domain/'+encodeURIComponent(d.domain)+'" target="_blank" rel="noopener" title="VirusTotal">VT</a> '
+          +'<a href="https://otx.alienvault.com/indicator/domain/'+encodeURIComponent(d.domain)+'" target="_blank" rel="noopener" title="AlienVault OTX">OTX</a> '
+          +'<a href="https://search.censys.io/hosts?q='+encodeURIComponent('parsed.names: '+d.domain)+'" target="_blank" rel="noopener" title="Censys">CY</a>'
+        +'</td>'
         +'</tr>';
     });
     tbody.innerHTML=html;

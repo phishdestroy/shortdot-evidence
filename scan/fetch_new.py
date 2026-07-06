@@ -18,12 +18,15 @@ _is_first_run = not bool(_prior_data.get('days'))
 FILTER_TYPE = 'active' if _is_first_run else 'new'
 print(f"Filter mode: {FILTER_TYPE} ({'initial full zone download' if _is_first_run else 'incremental'})")
 
-# Retail price estimates by TLD (USD/year)
+# NameSilo renewal prices (without promo) — used for AUM / portfolio valuation
+# .sbs confirmed $19.49 from NameSilo pricing page 2026-07; others estimated from same tier
 TLD_PRICES = {
-    'icu': 0.99, 'cyou': 0.99, 'sbs': 0.99, 'cfd': 0.99,
-    'bond': 9.99, 'buzz': 4.99, 'qpon': 3.99,
-    # wholesale to ShortDot (used for revenue estimate)
+    'sbs':  19.49, 'cfd':  19.49,
+    'icu':  14.99, 'buzz': 14.99,
+    'cyou':  9.99, 'qpon':  9.99,
+    'bond': 29.99,
 }
+# ShortDot → registrar wholesale rate (registry revenue per domain)
 TLD_WHOLESALE = {
     'icu': 0.65, 'cyou': 0.65, 'sbs': 0.65, 'cfd': 0.65,
     'bond': 6.50, 'buzz': 3.25, 'qpon': 2.50,
@@ -685,8 +688,10 @@ if _readme_path.exists():
     _parts.append('| [`data/ioc/shared_ips.json`](data/ioc/shared_ips.json) | JSON | Bulletproof hosting clusters |')
     _parts.append('| [`data/ioc/brand_domains.json`](data/ioc/brand_domains.json) | JSON | Domains by targeted brand |')
     _parts.append('| [`data/ioc/stix-bundle.json`](data/ioc/stix-bundle.json) | STIX 2.1 | MISP/OpenCTI ready bundle |')
-    _parts.append('| [`ioc/domains_all_malicious.txt`](ioc/domains_all_malicious.txt) | TXT | Confirmed malicious — all severity |')
-    _parts.append('| [`ioc/domains_high.txt`](ioc/domains_high.txt) | TXT | HIGH severity only |')
+    _parts.append('| [`ioc/domains_confirmed.txt`](ioc/domains_confirmed.txt) | TXT | Feed-confirmed phishing (OpenPhish + URLHaus + PhishTank) |')
+    _parts.append('| [`ioc/domains_high.txt`](ioc/domains_high.txt) | TXT | HIGH severity (brand impersonation + feed hits) |')
+    _parts.append('| [`ioc/domains_all_malicious.txt`](ioc/domains_all_malicious.txt) | TXT | All classified — all severity |')
+    _parts.append('| [`data/ioc/feed_confirmed.json`](data/ioc/feed_confirmed.json) | JSON | Per-domain feed source mapping |')
     _parts.append('')
     _parts.append('> 📊 Live dashboard: Pages link at top · Updated daily 06:00 UTC')
     _parts.append('')
