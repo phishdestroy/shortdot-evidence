@@ -15,7 +15,7 @@ TLD_LIST = [t.strip().lstrip('.').lower()
 _prior = Path('data/index.json')
 _prior_data = json.loads(_prior.read_text(encoding='utf-8')) if _prior.exists() else {}
 _is_first_run = not bool(_prior_data.get('days'))
-FILTER_TYPE = 'all' if _is_first_run else 'new'
+FILTER_TYPE = 'active' if _is_first_run else 'new'
 print(f"Filter mode: {FILTER_TYPE} ({'initial full zone download' if _is_first_run else 'incremental'})")
 
 # Retail price estimates by TLD (USD/year)
