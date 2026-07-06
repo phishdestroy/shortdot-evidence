@@ -1034,20 +1034,41 @@ function buildZoneBars(tld){
   var el=document.getElementById('zonebars');if(!el)return;
   var entries=Object.entries(tld).sort(function(a,b){return b[1].count-a[1].count;});
   if(!entries.length){el.innerHTML='<p style="color:var(--tx3);font-size:11px">No zone data</p>';return;}
-  var max=entries[0][1].count||1;
-  el.innerHTML=entries.map(function(e){
+  var RAW='https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/';
+  var html='<div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;font-size:11px;font-family:monospace">'
+    +'<thead><tr style="color:var(--tx3);font-size:9px;text-transform:uppercase;letter-spacing:.06em;border-bottom:1px solid var(--bdr)">'
+    +'<th style="text-align:left;padding:6px 10px">TLD</th>'
+    +'<th style="text-align:right;padding:6px 10px">Total</th>'
+    +'<th style="text-align:right;padding:6px 10px;color:var(--gn)">Deployed</th>'
+    +'<th style="text-align:right;padding:6px 10px;color:var(--or)">Phantom</th>'
+    +'<th style="text-align:right;padding:6px 10px">Phantom%</th>'
+    +'<th style="text-align:right;padding:6px 10px">Revenue/yr</th>'
+    +'<th style="text-align:center;padding:6px 10px">Downloads</th>'
+    +'<th style="text-align:center;padding:6px 10px">IOC</th>'
+    +'</tr></thead><tbody>';
+  entries.forEach(function(e){
     var name=e[0],z=e[1];
-    var pct=Math.round(z.count/max*100);
-    var dpct=z.count?Math.round((z.deployed/z.count)*100):0;
-    return '<div style="margin-bottom:10px">'
-      +'<div style="display:flex;justify-content:space-between;font-size:10px;font-family:\'JetBrains Mono\',monospace;margin-bottom:3px">'
-      +'<span style="color:var(--cy)">.' + name + '</span>'
-      +'<span style="color:var(--tx2)">'+z.count.toLocaleString()+' <span style="color:var(--tx3)">('+dpct+'% live)</span></span>'
-      +'</div>'
-      +'<div style="height:6px;background:rgba(255,255,255,.06);border-radius:3px;overflow:hidden">'
-      +'<div style="height:100%;width:'+pct+'%;background:linear-gradient(90deg,var(--cy),var(--rd));border-radius:3px"></div>'
-      +'</div></div>';
-  }).join('');
+    var phantomPct=z.count?((z.no_ip||z.count-z.deployed)/z.count*100).toFixed(1):0;
+    var phantom=z.no_ip||(z.count-z.deployed)||0;
+    var rev=z.revenue?'$'+(z.revenue/1000).toFixed(0)+'K':'—';
+    var col=parseFloat(phantomPct)>=80?'var(--rd)':parseFloat(phantomPct)>=60?'var(--or)':'var(--tx2)';
+    html+='<tr style="border-bottom:1px solid rgba(255,255,255,.04)">'
+      +'<td style="padding:7px 10px"><a href="domains.html?tld='+name+'" style="color:var(--cy);font-weight:700;text-decoration:none">.'+name+'</a></td>'
+      +'<td style="padding:7px 10px;text-align:right;color:var(--tx2)">'+z.count.toLocaleString()+'</td>'
+      +'<td style="padding:7px 10px;text-align:right;color:var(--gn)">'+z.deployed.toLocaleString()+'</td>'
+      +'<td style="padding:7px 10px;text-align:right;color:var(--or)">'+phantom.toLocaleString()+'</td>'
+      +'<td style="padding:7px 10px;text-align:right;color:'+col+';font-weight:700">'+phantomPct+'%</td>'
+      +'<td style="padding:7px 10px;text-align:right;color:var(--tx3)">'+rev+'</td>'
+      +'<td style="padding:7px 10px;text-align:center">'
+        +'<a href="'+RAW+'data/by_tld/'+name+'.txt" style="color:var(--tx3);text-decoration:none;margin:0 3px" title="all '+name+'" download>all↓</a>'
+        +'<a href="'+RAW+'data/ioc/deployed/'+name+'.txt" style="color:var(--gn);text-decoration:none;margin:0 3px;opacity:.7" title="deployed" download>+IP↓</a>'
+        +'<a href="'+RAW+'data/ioc/phantom/'+name+'.txt" style="color:var(--or);text-decoration:none;margin:0 3px;opacity:.7" title="phantom" download>ph↓</a>'
+      +'</td>'
+      +'<td style="padding:7px 10px;text-align:center"><a href="domains.html?tld='+name+'" style="color:var(--tx3);text-decoration:none;font-size:10px">view →</a></td>'
+      +'</tr>';
+  });
+  html+='</tbody></table></div>';
+  el.innerHTML=html;
 }
 
 /* ── Registration chart ── */
