@@ -3,6 +3,18 @@
 > "Advanced brand protection tools... shaping how digital identity, ownership, and trust evolve online."
 > — ShortDot SA website
 
+> **"ShortDot's NameBlock tool offers advanced brand and trademark protection, securing domains
+> and shielding them from revenue and reputation risks."**
+> — ShortDot SA website (direct quote, emphasis added)
+
+> "We partner with NameBlock, Nicky and WebUnited to provide a comprehensive and effective
+> domain experience."
+> — ShortDot SA website
+
+ShortDot's own marketing describes NameBlock as *"ShortDot's NameBlock tool"* — their tool,
+not an independent partner. The legal separation (NameBlock AS is a Norwegian entity) does not
+prevent ShortDot from publicly claiming ownership of the product in marketing materials.
+
 ---
 
 ## What NameBlock Says It Is
@@ -222,6 +234,65 @@ The market for brand protection in ShortDot zones is not incidental to the zones
 It is a *consequence* of it. Every vendor in this market has a financial incentive for
 ShortDot's zones to remain high-abuse environments. NameBlock has the additional conflict
 of being owned by the registry that creates the environment.
+
+---
+
+---
+
+## ShortDot's "Leading Distribution Channels" — The Admission
+
+ShortDot's official website lists the following companies under the heading **"Leading Distribution Channels"**:
+
+- [BrandShelter](https://www.brandshelter.com/)
+- [BrandMa](https://www.brandma.com/)
+- [BrandSight](https://www.brandsight.com/)
+- [LexSynergy](https://www.lexsynergy.com/)
+
+None of these are domain registrars. All four are brand protection / trademark monitoring services
+whose business model depends on threat levels in domain zones.
+
+ShortDot calls them **distribution channels** — because they distribute demand for defensive
+domain registrations in ShortDot zones. A brand protection company that monitors `.bond`
+and alerts clients to impersonation generates defensive registration orders. Those orders go
+through registrars. ShortDot collects wholesale on every one.
+
+In a legitimate registry ecosystem, brand protection companies are independent monitors.
+In ShortDot's framing, they are distribution partners — part of the revenue chain, not watchdogs.
+
+The architecture, stated publicly on ShortDot's own website:
+
+```
+ShortDot zones generate phishing threat
+        │
+        ├── BrandShelter alerts brand → brand registers defensive domains → ShortDot collects
+        ├── BrandMa alerts brand → brand registers defensive domains → ShortDot collects
+        ├── BrandSight alerts brand → brand registers defensive domains → ShortDot collects
+        ├── LexSynergy files UDRP → brand pays + new defensive domains → ShortDot collects
+        └── NameBlock ("ShortDot's tool") → brand pays subscription + defensive domains → ShortDot collects
+```
+
+ShortDot has 400+ registrar partners. Among the named "Leading Distribution Channels" publicly
+featured on their website are not banks, e-commerce platforms, or technology companies with
+legitimate domain needs — but brand protection vendors whose entire value proposition is the
+threat environment ShortDot's zones create.
+
+---
+
+## Corporate Structure — Corrected Record
+
+NameBlock AS (Norwegian org 991 279 466) is legally separate from ShortDot SA (Luxembourg).
+However the separation is nominal at the principal level:
+
+| Name | ShortDot role | NameBlock role | Source |
+|---|---|---|---|
+| Lars Jensen | Co-Founder & CEO | **Chairman (Styrets leder)** | Norwegian brreg, updated 2025-06-28 |
+| Kevin Kopas | Co-Founder & COO | SVP Biz Dev (publicly stated) | LinkedIn, press releases |
+
+Lars Jensen is the sole person with signing authority over NameBlock AS ("Styrets leder alene").
+The CEO of the registry that creates the abuse threat is simultaneously the Chairman with
+sole signing authority over the company that sells protection from it.
+
+The "legally separate entity" defense does not survive contact with the brreg filing.
 
 ---
 

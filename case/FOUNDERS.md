@@ -75,7 +75,7 @@ of ShortDot sits. No organizational separation exists at the individual level.
 - Pinkard "Pinky" Brand — CEO
 
 **ShortDot principals with NameBlock stakes:**
-- Lars Jensen — investor in NameBlock
+- Lars Jensen — **Chairman (Styrets leder) of NameBlock AS** (brreg org 991 279 466, updated 2025-06-28)
 - Kevin Kopas — SVP + Board Member (while COO of ShortDot)
 
 ---
@@ -142,7 +142,7 @@ perspective but has no publicly documented active abuse enforcement role within 
 
 ```
 ShortDot SA (Luxembourg)
-├── Lars Jensen (CEO) — IANA admin contact for own zones + NameBlock investor
+├── Lars Jensen (CEO) — IANA admin contact for own zones + Chairman of NameBlock AS (brreg confirmed)
 ├── Kevin Kopas (COO) — NameBlock board member while operating zone compliance
 ├── Michael Riedl (Chairman) — CEO of ShortDot's own backend vendor (Team Internet/CentralNic)
 └── Christian Tecar (Board) — Romania-based hosting operator

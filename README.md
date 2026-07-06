@@ -230,7 +230,7 @@ ShortDot operates through three subsidiaries: **Nicky** (domain services), **Web
 
 | Name | ShortDot role | Other simultaneous roles | Structural conflict |
 |---|---|---|---|
-| **Lars Jensen** | Co-Founder & CEO | IANA admin contact for .icu and .bond · investor in NameBlock | CEO of a registry is the IANA-named administrative contact for its own zones — no independent oversight layer |
+| **Lars Jensen** | Co-Founder & CEO | IANA admin contact for .icu and .bond · **Chairman of NameBlock AS** (brreg confirmed, sole signing authority) | CEO of ShortDot = Chairman of NameBlock — same person controls registry creating the threat and company selling protection from it |
 | **Kevin Kopas** | Co-Founder & COO | SVP of Biz Dev + **Board Member at NameBlock** (Nov 2022–present) | ShortDot's operations chief sits on the board of the company that sells "protection" against ShortDot zone threats |
 | **Michael Riedl** | Co-Founder & Chairman | **CEO of Team Internet Group plc** (formerly CentralNic) — ShortDot's technical registry backend | Chairman of the registry client = CEO of its own backend service vendor |
 | **Christian Tecar** | Co-Founder & Board Member | CEO of GlobeHosting / GlobeSSL (Romania-based hosting) | Hosting infrastructure operator on the registry board |
@@ -251,9 +251,9 @@ Kevin Kopas has served simultaneously as:
 - **COO of ShortDot SA** — responsible for zone operations, registrar partnerships, and compliance posture
 - **SVP of Business Development + Board Member at NameBlock** — a company whose revenue model requires persistent threat levels in ShortDot zones to generate demand for blocking services
 
-**NameBlock is not a ShortDot subsidiary.** It is a separate Norwegian company (NameBlock AS, affiliated with iQ Global AS), co-founded by Rolf Larsen and Pinkard "Pinky" Brand. Lars Jensen invested in NameBlock independently; all seven ShortDot zones are enrolled in NameBlock's blocking marketplace as named zone partners.
+**NameBlock is legally separate from ShortDot** (NameBlock AS, Norwegian org 991 279 466). But the separation is nominal: **Lars Jensen is Chairman (Styrets leder) of NameBlock AS** per the Norwegian business registry (brreg), updated 28 June 2025 — with sole signing authority. ShortDot's own website calls it *"ShortDot's NameBlock tool."* All seven ShortDot zones are enrolled in NameBlock's blocking marketplace.
 
-When ShortDot zones generate brand-impersonation domains, the COO of ShortDot (Kopas) is simultaneously a board member of the company selling the defense to the impersonated brands. This is a personal conflict of interest across legally separate entities — not a subsidiary structure, but a governance overlap that produces identical incentive misalignment.
+ShortDot also publicly lists brand protection companies **BrandShelter, BrandMa, BrandSight, and LexSynergy** as *"Leading Distribution Channels"* — not registrars, but vendors whose revenue depends on threat levels in ShortDot zones. When ShortDot zones generate phishing domains, these companies alert brands, who then pay for defensive registrations — which generate wholesale revenue for ShortDot. The protection vendors are literally ShortDot's distribution channel for that secondary revenue stream.
 
 </details>
 
