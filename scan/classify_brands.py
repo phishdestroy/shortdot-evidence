@@ -76,7 +76,6 @@ BRAND_KEYWORDS = [
     ('magiceden',       'Magic Eden',           'crypto'),
     ('magic-eden',      'Magic Eden',           'crypto'),
     ('drainer',         'Crypto Drainer',       'crypto'),
-    ('airdrop',         'Crypto Airdrop',       'crypto'),
     ('mintnft',         'NFT Mint',             'crypto'),
     ('claimnft',        'NFT Claim',            'crypto'),
     ('walletconnect',   'WalletConnect',        'crypto'),
@@ -125,12 +124,9 @@ BRAND_KEYWORDS = [
     ('layerzero',       'LayerZero',            'crypto'),
     ('wormhole',        'Wormhole',             'crypto'),
     ('stargate',        'Stargate Finance',     'crypto'),
-    ('magiceden',       'Magic Eden',           'crypto'),
-    ('blur',            'Blur NFT',             'crypto'),
     ('zora',            'Zora',                 'crypto'),
     ('galxe',           'Galxe',                'crypto'),
     ('jupiter',         'Jupiter',              'crypto'),
-    ('raydium',         'Raydium',              'crypto'),
     ('jito',            'Jito',                 'crypto'),
     ('orca',            'Orca',                 'crypto'),
     ('lido',            'Lido Finance',         'crypto'),
@@ -497,7 +493,8 @@ def _extract_domain(url):
             url = url[2:-1]
         p = urllib.parse.urlparse(url if '://' in url else 'https://' + url)
         host = p.hostname or ''
-        return host.lower().lstrip('www.') if host else ''
+        h = host.lower()
+        return h[4:] if h.startswith('www.') else h
     except Exception:
         return ''
 
