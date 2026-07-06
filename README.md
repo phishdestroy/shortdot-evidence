@@ -22,8 +22,6 @@
 <br/>
 
 [![Live Report](https://img.shields.io/badge/▶_LIVE_REPORT-phishdestroy.github.io%2Fshortdot--evidence-3fb950?style=for-the-badge&labelColor=0c1018)](https://phishdestroy.github.io/shortdot-evidence)
-[![Related: Trustname](https://img.shields.io/badge/📰_RELATED-Trustname_%2F_Fewmoretaps_Evidence-6ea8d7?style=for-the-badge&labelColor=0c1018)](https://github.com/phishdestroy/trustname-evidence)
-
 <br/>
 
 > **6,231,825 domains enumerated across 7 ShortDot zones.**  
@@ -131,8 +129,6 @@ This repository is the **PhishDestroy investigation into ShortDot SA** — the L
 The central question of this investigation is not whether abuse occurs in these zones — it does, at scale. The question is: **what legitimate purpose do these zones serve, and who actually benefits from their existence?**
 
 ShortDot's own marketing claims the zones are for "businesses, creators, and communities." This repository tests that claim with data.
-
-> **Related:** The [Trustname.com / Fewmoretaps OÜ evidence package](https://github.com/phishdestroy/trustname-evidence) documents registrar-level abuse. This investigation operates one layer up — at the registry/TLD level, where the infrastructure for mass phishing is manufactured.
 
 ---
 
