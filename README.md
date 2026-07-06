@@ -139,6 +139,7 @@ AU  ░░░░░░░░░░░░░░░░░░     21,228 (2.0%)
 - [0 · Special Dedication to NameSilo](#0--special-dedication-to-namesilo)
 - [1 · Background](#1--background)
 - [2 · Subject: ShortDot SA](#2--subject-shortdot-sa)
+  - [2.1 · Principals & Structural Conflicts](#-principals--structural-conflicts--click-to-expand)
 - [3 · The Seven Zones](#3--the-seven-zones)
 - [4 · Methodology](#4--methodology)
 
@@ -160,6 +161,7 @@ AU  ░░░░░░░░░░░░░░░░░░     21,228 (2.0%)
 - [11 · Enforcement Posture](#11--enforcement-posture)
 - [11.1 · The Freenom Legacy vs. ShortDot Reality](#111--the-freenom-legacy-vs-the-shortdot-reality)
 - [11.2 · The "Gambling & Affiliate" Defense](#112--the-gambling--affiliate-defense-and-the-illusion-of-growth)
+- [11.3 · Criminal Infrastructure Record](#113--criminal-infrastructure-record)
 - [12 · Repository Structure](#12--repository-structure)
 - [Legal Notice & Responsible Disclosure](#️-legal-notice--responsible-disclosure)
 
@@ -221,6 +223,39 @@ ShortDot's own marketing claims the zones are for *"businesses, creators, and co
 | 📅 First TLD launched | 2018 (.icu) |
 
 ShortDot operates through three subsidiaries: **Nicky** (domain services), **WebUnited** (web infrastructure), and **NameBlock** (brand protection/blocking). The relationship between these entities and the abuse patterns in ShortDot's zones is a core subject of this investigation.
+
+<details>
+<summary><b>👥 Principals & structural conflicts — click to expand</b></summary>
+<br/>
+
+| Name | ShortDot role | Other simultaneous roles | Structural conflict |
+|---|---|---|---|
+| **Lars Jensen** | Co-Founder & CEO | IANA admin contact for .icu and .bond · investor in NameBlock | CEO of a registry is the IANA-named administrative contact for its own zones — no independent oversight layer |
+| **Kevin Kopas** | Co-Founder & COO | SVP of Biz Dev + **Board Member at NameBlock** (Nov 2022–present) | ShortDot's operations chief sits on the board of the company that sells "protection" against ShortDot zone threats |
+| **Michael Riedl** | Co-Founder & Chairman | **CEO of Team Internet Group plc** (formerly CentralNic) — ShortDot's technical registry backend | Chairman of the registry client = CEO of its own backend service vendor |
+| **Christian Tecar** | Co-Founder & Board Member | CEO of GlobeHosting / GlobeSSL (Romania-based hosting) | Hosting infrastructure operator on the registry board |
+
+### The Riedl Conflict — Registry Client and Backend Vendor Share a CEO
+
+Michael Riedl sits simultaneously as:
+- **Chairman of ShortDot SA** — the ICANN-contracted gTLD registry operator
+- **CEO of Team Internet Group plc** (LSE: TIG, formerly CentralNic) — the London-listed company that provides ShortDot's technical registry infrastructure: DNS, EPP protocol, zone file management, SLA monitoring
+
+CentralNic/Team Internet processes every registration event across ShortDot's 6.2 million domains. Contract terms, pricing, and service levels between ShortDot and Team Internet are negotiated by parties sharing a chairman/CEO. No arm's-length relationship exists.
+
+**Disclosed — but title downgraded.** Team Internet's annual reports (2022, 2023, 2024) do disclose ShortDot SA as a related-party transaction — quantified at USD 1.3M (2022), USD 3.2M (2023, later restated to USD 308K), USD 573K (2024). Every instance describes Riedl's ShortDot role as *"Director and Shareholder"* — not Chairman. His board biography in all three annual reports contains no mention of ShortDot SA. Riedl's own website describes him as "Chair" of a "leading new top-level domain registry." Under UK AIM Rule 13, related-party disclosures must describe the **nature** of the relationship — Chairman of a counterparty is a materially different governance position than a passive directorship. Full analysis: [`case/FOUNDERS.md`](case/FOUNDERS.md)
+
+### The Kopas Conflict — Zone Operator on the Brand Protection Board
+
+Kevin Kopas has served simultaneously as:
+- **COO of ShortDot SA** — responsible for zone operations, registrar partnerships, and compliance posture
+- **SVP of Business Development + Board Member at NameBlock** — a company whose revenue model requires persistent threat levels in ShortDot zones to generate demand for blocking services
+
+**NameBlock is not a ShortDot subsidiary.** It is a separate Norwegian company (NameBlock AS, affiliated with iQ Global AS), co-founded by Rolf Larsen and Pinkard "Pinky" Brand. Lars Jensen invested in NameBlock independently; all seven ShortDot zones are enrolled in NameBlock's blocking marketplace as named zone partners.
+
+When ShortDot zones generate brand-impersonation domains, the COO of ShortDot (Kopas) is simultaneously a board member of the company selling the defense to the impersonated brands. This is a personal conflict of interest across legally separate entities — not a subsidiary structure, but a governance overlap that produces identical incentive misalignment.
+
+</details>
 
 ---
 
@@ -506,7 +541,7 @@ Step 6: ShortDot collects wholesale + NameBlock collects service fee
 Both profit from the same threat they created.
 ```
 
-> The entity selling "brand protection" (NameBlock) is a subsidiary of the entity that created the attack surface (ShortDot). The attack surface was manufactured by operating TLDs with near-zero legitimate adoption but high abuse value. Insurance sold against a fire that the insurer has a financial interest in not extinguishing.
+> NameBlock is a separate Norwegian company (NameBlock AS). But ShortDot's COO (Kevin Kopas) sits on NameBlock's board while Lars Jensen is an investor — all seven ShortDot zones are enrolled in NameBlock's blocking marketplace. The entity whose principals created the attack surface (ShortDot) has board-level and investment stakes in the company selling protection from it (NameBlock). Insurance sold against a fire that the insurer's principals have a financial interest in not extinguishing.
 
 </details>
 
@@ -609,6 +644,78 @@ Ultimately, the ShortDot–NameSilo partnership has contributed absolutely nothi
 
 ---
 
+## 11.3 · Criminal Infrastructure Record
+
+<details>
+<summary><b>⚖️ Prosecuted cases, active RICO suits, and the "experience argument" — click to expand</b></summary>
+<br/>
+
+### Convicted: LabHost PhaaS — ShortDot Domains in FBI Criminal Evidence
+
+In April 2024, a coordinated operation across 19 countries dismantled **LabHost** — a phishing-as-a-service platform. Mastermind **Zak Coyne** was sentenced to **8.5 years imprisonment** at Manchester Crown Court (14 April 2025). The FBI published the full list of 42,515 phishing domains from the platform's backend.
+
+**ShortDot TLDs in the FBI-published LabHost domain list:**
+
+| TLD | Domains | Targeted brands |
+|-----|---------|----------------|
+| `.icu` | 110 | Interac, RBC, CIBC, TD Bank, Volksbank, Santander |
+| `.cfd` | 110 | RBC (~60 variants), MetaMask, Canada Post, Spotify |
+| `.sbs` | 90 | Scotiabank (~40 variants), Bell Canada, JP Morgan Chase |
+| `.buzz` | 19 | Canada Post, CIBC, Interac, Netflix |
+| `.cyou` | 8 | Interac, Canada Revenue Agency, Australian services |
+| `.bond` | 5 | Mixed |
+| **Total ShortDot** | **342** | **0.8% of total convicted phishing infrastructure** |
+
+Examples from criminal evidence: `etransfer.icu` · `rbcroyalbank.icu` · `rbc-portal-support.cfd` · `metamask.rf82728.cfd` · `jpmorgan.chaes.sbs` · `scotia-app-support.sbs`
+
+Full parsed dataset: [`ioc/FBI_IC3_LabHost_ShortDot_only.csv`](ioc/FBI_IC3_LabHost_ShortDot_only.csv)
+
+---
+
+### Active: Google RICO Suit — Lighthouse / Smishing Triad (SDNY 2025)
+
+**Google LLC v. DOES 1–25** (S.D.N.Y. 1:25-cv-09421, filed November 2025) — charges include RICO, CFAA, Lanham Act. Infrastructure: ~200,000 fraudulent domains at a time; 1M+ victims across 120 countries; $1B+ estimated losses. ShortDot TLDs `.icu`, `.cfd`, `.sbs`, `.buzz` documented as Smishing Triad infrastructure by Unit 42 (Palo Alto) and SilentPush.
+
+**Google LLC v. Yucheng Chang** (S.D.N.Y. 1:25-cv-10440) — Darcula/Magic Cat PhaaS. Permanent Default Judgment and Permanent Injunction entered. `.cyou` documented in the same infrastructure cluster. In May 2026, Bulgarian police arrested two operators running `.cyou` campaigns from this kit.
+
+---
+
+### Unindicted but Documented: Revolver Rabbit — 500,000 `.bond` Domains
+
+A single unidentified threat actor ("Revolver Rabbit") registered **500,000+ `.bond` domains** for XLoader/Formbook infostealer C2 infrastructure (concentrated May–July 2024, registrar: Key-Systems GmbH). Estimated cost: $1M+. One registrar alone — Key-Systems — registered 74,737 phishing `.bond` domains, placing it in the global top-5 registrars by phishing domain count. No indictment has been filed.
+
+---
+
+### The Numbers That Require No Interpretation
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| `.bond` phishing domains (yr to May 2025) | **79,875** | Interisle 2025 |
+| `.bond` domains maliciously registered (not compromised) | **100%** (79,690 / 79,875) | Interisle 2025 |
+| `.bond` phishing score vs. `.com` | **58×** more abusive per domain | Interisle 2025 |
+| `.cfd` share of zone blacklisted by Spamhaus | **17.54%** (red flag = 10%) | Spamhaus Oct 2025–Mar 2026 |
+| `.bond` annual domain churn rate | **98.57%** | Spamhaus Oct 2025–Mar 2026 |
+| ShortDot malicious-to-legitimate domain ratio | **2.5× more malicious** | MADWeb 2026 (peer-reviewed) |
+| ShortDot TLDs in Interisle Top 20 abuse rankings | **5 of 7 zones, every year 2021–2025** | Interisle 2021–2025 |
+
+100% maliciously registered means: every phishing domain in `.bond` was registered specifically to commit a crime — not a legitimate site that was later compromised. The registry collected wholesale revenue on each registration.
+
+---
+
+### The Experience Argument
+
+ShortDot's principals are not newcomers. Lars Jensen ran a wholesale registrar (Ascio/Speednames) from 2000. Kevin Kopas managed channel operations at PIR (which operates `.org`) and Radix Registry. Michael Riedl was CFO then CEO of CentralNic, which operates registry backends for hundreds of TLDs. Christian Tecar attended 6+ ICANN meetings as an industry stakeholder.
+
+The Interisle abuse data has been **presented at ICANN public meetings every year since 2021**, naming ShortDot zones by name. Spamhaus published an **open letter to ShortDot SA by name** ("We hope you keep .sbs clean"). ICANN sent formal correspondence in June 2026 specifically citing `.icu` and `.bond` in connection with the FBI's LabHost domain list.
+
+People with this background, receiving this information, operating these zones, cannot plausibly claim unawareness.
+
+Full case documentation: [`case/CRIMINAL_CASES.md`](case/CRIMINAL_CASES.md)
+
+</details>
+
+---
+
 ## 12 · Repository Structure
 
 <details>
@@ -621,6 +728,7 @@ shortdot-evidence/
 │   ├── INVESTIGATION.md        Full investigation document
 │   ├── FINANCIAL.md            Follow-the-money analysis
 │   ├── NAMEBLOCK.md            NameBlock structural conflict analysis
+│   ├── FOUNDERS.md             Principal profiles & structural conflicts
 │   ├── LEGITIMATE_SURVEY.md    Open challenge — verified legitimate sites
 │   ├── CLUSTERS.md             Operator infrastructure clusters
 │   └── HIGH_SEVERITY.md        High-severity confirmed cases
