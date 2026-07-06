@@ -13,7 +13,8 @@ TLD_LIST = [t.strip().lstrip('.').lower()
 
 # First-run detection: use filter_type=all if no prior daily data exists
 _prior = Path('data/index.json')
-_is_first_run = not (_prior.exists() and 'last_updated' in json.loads(_prior.read_text(encoding='utf-8')))
+_prior_data = json.loads(_prior.read_text(encoding='utf-8')) if _prior.exists() else {}
+_is_first_run = not bool(_prior_data.get('days'))
 FILTER_TYPE = 'all' if _is_first_run else 'new'
 print(f"Filter mode: {FILTER_TYPE} ({'initial full zone download' if _is_first_run else 'incremental'})")
 

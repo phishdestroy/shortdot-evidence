@@ -125,23 +125,21 @@
 
 ## 0 · A Note From Fans
 
-> *We want to start by saying: we are enormous admirers of **[NiceNIC International Group Co., Limited](https://github.com/phishdestroy/nicenic-evidence)**.*
+> *We are genuinely passionate fans of **[NameSilo](https://github.com/phishdestroy/namesilo-evidence)** — and specifically of their most creative product line: millions of domain registrations purchased daily that nobody ever uses.*
 
-NiceNIC is, by any measure, a remarkable company. The **fastest-growing ICANN-accredited registrar** of the past decade. A gorgeous website. Meteoric revenue curves that make investors weep with joy. It is genuinely inspiring to watch a registrar grow so aggressively, so profitably, in a market this competitive.
+NameSilo is one of the fastest-growing ICANN-accredited registrars of the past decade. Clean design. Aggressively low prices. Astronomical registration volume. A genuinely inspiring growth story — if you don't look too closely at *what* is being registered, *why*, and *who ultimately benefits*.
 
-We are such dedicated fans that we have spent considerable time studying *exactly how* those profits are generated.
+We looked closely.
 
-Here is what we found — and we mean this as the highest possible compliment to their creativity:
+**The scheme.** ShortDot SA operates the *registry* — it owns the zones and sets wholesale prices. NameSilo operates as a *registrar* — the largest single buyer of ShortDot zone domains by volume. Every day, in bulk, NameSilo purchases registrations across `.icu`, `.bond`, `.cyou`, `.sbs`, `.cfd`, `.buzz`, and `.qpon` — the exact zones ShortDot controls.
 
-**The self-dealing revenue loop.** ShortDot SA is the *registry* operator — it sets wholesale prices for its own zones (`.icu`, `.bond`, `.cyou`, etc.). NiceNIC is a *registrar* — it purchases domain registrations from registries and resells them to end customers. ShortDot and NiceNIC share common ownership. NiceNIC is, by a wide margin, the **single largest purchaser of ShortDot zone domains** — bulk-registering millions of domains in the very zones its sister company operates.
+The same beneficial ownership network sits on both sides of the transaction. Money moves from registrar to registry between related parties. The registry books it as revenue. The registrar books it as inventory. Neither side needs a real end customer — the transaction itself is the product.
 
-Under a normal arm's-length arrangement, a registrar of NiceNIC's volume would receive steep wholesale discounts from the registry. Here, the *same beneficial owners control both sides of the transaction*. The registry charges the registrar a price. The registrar records that price as cost-of-goods. The registry records it as revenue. From the outside it looks like a booming business with real customers paying real money. From the inside it is one entity writing a cheque to itself and booking it twice.
+The result is the corpus documented in this repository: **millions of domains registered daily with no DNS records, no websites, no businesses, no users**. Pure phantom inventory. 70.4% of ShortDot's entire zone carry no IP at registration. They were never meant to be used. They were meant to be *counted*.
 
-The domains registered through this loop are the phantom inventory documented throughout this repository: **70.4% carry no DNS records at registration** — never activated, never used by any business. They exist because registration events, not legitimate use, are what generate the revenue figure.
+This is an exceptionally elegant financial structure. We are big fans. We imagine ICANN's registry compliance team, Luxembourg financial regulators, and anyone who invested on the basis of those revenue projections will become fans too.
 
-We think this is a very interesting business model. We also think ICANN's registry agreement section 2.8 (*arms-length dealing*), financial reporting obligations under the registry operator's Luxembourg incorporation, and basic securities-disclosure norms for any investors shown those revenue figures might find it interesting too.
-
-For the full NiceNIC investigation: **[github.com/phishdestroy/nicenic-evidence](https://github.com/phishdestroy/nicenic-evidence)**
+Full NameSilo investigation: **[github.com/phishdestroy/namesilo-evidence](https://github.com/phishdestroy/namesilo-evidence)**
 
 ---
 
