@@ -1058,36 +1058,42 @@ window.showRange=showRange;
 
 function _buildChart(){
   var days=(_cd.daily||_cd.days||[]);
-  // filter out initial zone snapshots (>500k) — they distort the daily scale
-  var chartDays=days.filter(function(d){return d.count<=500000;});
+  var allDays=days.slice();
   if(_range!=='all'){
     var y=parseInt(_range),co=new Date();co.setFullYear(co.getFullYear()-y);
     var cs=co.toISOString().slice(0,10);
-    chartDays=chartDays.filter(function(d){return d.date>=cs;});
+    allDays=allDays.filter(function(d){return d.date>=cs;});
   }
-  var labels,counts,paths;
+  var labels,counts,paths,snapFlags;
   if(_view==='monthly'){
-    var mb={};chartDays.forEach(function(d){var m=d.date.slice(0,7);mb[m]=(mb[m]||0)+d.count;});
-    var months=Object.keys(mb).sort();labels=months;counts=months.map(function(m){return mb[m];});paths=null;
+    var mb={};allDays.forEach(function(d){var m=d.date.slice(0,7);mb[m]=(mb[m]||0)+(d.count>500000?0:d.count);});
+    var months=Object.keys(mb).sort();labels=months;counts=months.map(function(m){return mb[m];});paths=null;snapFlags=null;
   } else {
-    labels=chartDays.map(function(d){return d.date;});counts=chartDays.map(function(d){return d.count;});paths=chartDays;
+    labels=allDays.map(function(d){return d.date;});
+    counts=allDays.map(function(d){return d.count>500000?0:d.count;});
+    paths=allDays;snapFlags=allDays.map(function(d){return d.count>500000;});
   }
   var empty=document.getElementById('reg-chart-empty');
-  if(!counts.length){
-    if(empty){empty.style.display='flex';empty.textContent='Initial zone snapshot captured — daily incremental data populates from 06:00 UTC onwards';}
+  var hasReal=counts.some(function(c){return c>0;});
+  var hasSnap=snapFlags&&snapFlags.some(function(f){return f;});
+  if(!hasReal&&!hasSnap){
+    if(empty){empty.style.display='flex';empty.textContent='No data yet — daily incremental data populates from 06:00 UTC onwards';}
     return;
   }
   if(empty)empty.style.display='none';
   var mx=Math.max.apply(null,counts)||1;
-  var cols=counts.map(function(c){var t=c/mx;return'rgba('+(Math.round(110+t*108))+','+(Math.round(168-t*114))+','+(Math.round(215-t*164))+',0.75)';});
+  var cols=counts.map(function(c,i){
+    if(snapFlags&&snapFlags[i])return'rgba(72,79,88,0.4)';
+    var t=c/mx;return'rgba('+(Math.round(110+t*108))+','+(Math.round(168-t*114))+','+(Math.round(215-t*164))+',0.75)';
+  });
   if(_ci)_ci.destroy();
   var ctx=document.getElementById('reg-chart').getContext('2d');
-  _ci=new Chart(ctx,{type:'bar',data:{labels:labels,datasets:[{data:counts,backgroundColor:cols,borderRadius:2,borderSkipped:false}]},
+  _ci=new Chart(ctx,{type:'bar',data:{labels:labels,datasets:[{data:counts.map(function(c,i){return (snapFlags&&snapFlags[i])?1:c;}),backgroundColor:cols,borderRadius:2,borderSkipped:false}]},
   options:{responsive:true,maintainAspectRatio:false,
-  plugins:{legend:{display:false},tooltip:{callbacks:{title:function(i){return i[0].label;},label:function(i){return i.raw.toLocaleString()+' domains';}},backgroundColor:'rgba(7,11,18,.95)',titleColor:'#f0f6fc',bodyColor:'#8b949e',borderColor:'rgba(255,255,255,.08)',borderWidth:1}},
-  scales:{x:{ticks:{display:labels.length<60,color:'#484f58',font:{size:9}},grid:{color:'rgba(255,255,255,.04)'},border:{color:'rgba(255,255,255,.08)'}},y:{ticks:{color:'#484f58',font:{size:9}},grid:{color:'rgba(255,255,255,.04)'},border:{color:'rgba(255,255,255,.08)'}}},
+  plugins:{legend:{display:false},tooltip:{callbacks:{title:function(i){return i[0].label;},label:function(i){var sf=snapFlags&&snapFlags[i[0].dataIndex];return sf?'Full zone snapshot (6.2M total domains)':i.raw.toLocaleString()+' new domains';}},backgroundColor:'rgba(7,11,18,.95)',titleColor:'#f0f6fc',bodyColor:'#8b949e',borderColor:'rgba(255,255,255,.08)',borderWidth:1}},
+  scales:{x:{ticks:{display:labels.length<60,color:'#484f58',font:{size:9}},grid:{color:'rgba(255,255,255,.04)'},border:{color:'rgba(255,255,255,.08)'}},y:{ticks:{color:'#484f58',font:{size:9},callback:function(v){return v===1&&snapFlags?'':v.toLocaleString();}},grid:{color:'rgba(255,255,255,.04)'},border:{color:'rgba(255,255,255,.08)'}}},
   onClick:function(e,els){if(!els.length||!paths)return;var d=paths[els[0].index];if(d&&d.path)window.open(_REPO+d.path,'_blank');},
-  onHover:function(e,els){document.getElementById('reg-chart').style.cursor=els.length&&paths?'pointer':'default';var tip=document.getElementById('chart-tip');if(els.length&&paths&&paths[els[0].index]){var d=paths[els[0].index];tip.textContent=d.date+' — '+d.count.toLocaleString()+' new domains  ↓ click to download';}else{tip.textContent='';}}
+  onHover:function(e,els){document.getElementById('reg-chart').style.cursor=els.length&&paths?'pointer':'default';var tip=document.getElementById('chart-tip');if(els.length&&paths&&paths[els[0].index]){var d=paths[els[0].index];var sf=snapFlags&&snapFlags[els[0].index];tip.textContent=sf?d.date+' — full zone snapshot, 6.2M total domains':d.date+' — '+d.count.toLocaleString()+' new domains  ↓ click to download';}else{tip.textContent='';}}
   }});
 }
 
