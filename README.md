@@ -211,7 +211,7 @@ ShortDot operates through three subsidiaries: **Nicky** (domain services), **Web
 ## 3 · The Seven Zones
 
 <details>
-<summary><b>🔴 .icu — Flagship abuse zone · 971,649 domains · 70.9% phantom</b></summary>
+<summary><b>🔴 .icu — Flagship abuse zone · 976,416 domains · 71.6% phantom</b></summary>
 <br/>
 
 Launched 2018. ShortDot's first and largest zone. Marketed as a personal branding TLD ("I See You").
@@ -221,17 +221,17 @@ Launched 2018. ShortDot's first and largest zone. Marketed as a personal brandin
 </details>
 
 <details>
-<summary><b>🔴 .bond — Premium phishing zone · 1,327,512 domains · 92.1% phantom</b></summary>
+<summary><b>🔴 .bond — Premium phishing zone · 1,325,001 domains · 92.0% phantom</b></summary>
 <br/>
 
 Premium pricing (~$9.99 retail). Marketed to financial services and "trusted brands."
 
-**Reality:** `chase.bond`, `bofa.bond`, `binance.bond`, `ledger.bond` — these domains exist. None are operated by JPMorgan Chase, Bank of America, Binance, or Ledger SAS. All are phishing pages impersonating those brands. `.bond` has become a phishing trademark precisely because it implies financial trustworthiness to unsuspecting victims. **92.1% phantom** — the highest in the portfolio.
+**Reality:** `chase.bond`, `bofa.bond`, `binance.bond`, `ledger.bond` — these domains exist. None are operated by JPMorgan Chase, Bank of America, Binance, or Ledger SAS. All are phishing pages impersonating those brands. `.bond` has become a phishing trademark precisely because it implies financial trustworthiness to unsuspecting victims. **92.0% phantom** — the highest in the portfolio.
 
 </details>
 
 <details>
-<summary><b>🟠 .cyou — Near-zero legitimate adoption · 753,652 domains · 64.6% phantom</b></summary>
+<summary><b>🟠 .cyou — Near-zero legitimate adoption · 756,981 domains · 64.9% phantom</b></summary>
 <br/>
 
 `.cyou` = "See You." Marketed for personal brands, influencers, and communities.
@@ -241,7 +241,7 @@ Premium pricing (~$9.99 retail). Marketed to financial services and "trusted bra
 </details>
 
 <details>
-<summary><b>🔴 .sbs — Acquisition spike zone · 1,911,124 domains · 68.9% phantom</b></summary>
+<summary><b>🔴 .sbs — Acquisition spike zone · 1,912,083 domains · 68.8% phantom</b></summary>
 <br/>
 
 Acquired April 2024 from Australian SBS Corporation (via IANA transfer). Previously associated with the Australian public broadcaster.
@@ -251,7 +251,7 @@ Acquired April 2024 from Australian SBS Corporation (via IANA transfer). Previou
 </details>
 
 <details>
-<summary><b>🔴 .cfd — Financial fraud namespace · 950,551 domains · 57.2% phantom</b></summary>
+<summary><b>🔴 .cfd — Financial fraud namespace · 952,385 domains · 57.2% phantom</b></summary>
 <br/>
 
 Acquired April 2024 from DotCFD Registry Ltd. "CFD" = Contract for Difference — a leveraged financial instrument.
@@ -261,7 +261,7 @@ Acquired April 2024 from DotCFD Registry Ltd. "CFD" = Contract for Difference �
 </details>
 
 <details>
-<summary><b>🟡 .buzz — Spam & click-fraud zone · 207,109 domains · 39.0% phantom</b></summary>
+<summary><b>🟡 .buzz — Spam & click-fraud zone · 209,416 domains · 37.8% phantom</b></summary>
 <br/>
 
 Marketed as a social media / engagement TLD. Retail price ~$3–5/year.
@@ -271,7 +271,7 @@ Marketed as a social media / engagement TLD. Retail price ~$3–5/year.
 </details>
 
 <details>
-<summary><b>🟡 .qpon — Micro-volume affiliate fraud · 110,228 domains · 43.3% phantom</b></summary>
+<summary><b>🟡 .qpon — Micro-volume affiliate fraud · 110,365 domains · 44.5% phantom</b></summary>
 <br/>
 
 Marketed as a coupon/discount TLD. Extremely low wholesale pricing.

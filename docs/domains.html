@@ -80,6 +80,11 @@ footer a{color:var(--cy)}
 </div>
 
 <div class="count-bar" id="count-bar">Loading…</div>
+<div id="dl-bar" style="display:none;padding:7px 20px;font-size:10px;font-family:monospace;color:var(--tx3);border-bottom:1px solid var(--bdr);background:var(--s2);display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+  <span style="color:var(--tx2)">Full zone files:</span>
+  <span id="dl-links"></span>
+  <span style="color:var(--tx3)">· Table shows IOC-classified domains only</span>
+</div>
 <style>
 .pager{display:flex;align-items:center;gap:8px;padding:8px 20px;border-bottom:1px solid var(--bdr);background:var(--s1);flex-wrap:wrap}
 .pager button{padding:4px 10px;border-radius:3px;font-size:11px;font-family:monospace;border:1px solid var(--bdr);background:var(--s2);color:var(--tx2);cursor:pointer}
@@ -120,9 +125,23 @@ footer a{color:var(--cy)}
   var PAGE_SIZE=200, curPage=0, lastPage=0;
   window.curPage=0;window.lastPage=0;
 
+  var RAW='https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/';
+  var TLDS=['icu','bond','cyou','sbs','cfd','buzz','qpon'];
   var params=new URLSearchParams(location.search);
   if(params.get('tld')) activeTld=params.get('tld');
   if(params.get('cat')) activeCat=params.get('cat');
+  (function buildDlBar(){
+    var bar=document.getElementById('dl-bar');
+    var linksEl=document.getElementById('dl-links');
+    if(!linksEl)return;
+    var tlds=activeTld?[activeTld]:TLDS;
+    var html=tlds.map(function(t){
+      return '<a href="'+RAW+'data/by_tld/'+t+'.txt" style="color:var(--cy);text-decoration:none" download>.'+t+' all ↓</a>'
+        +' <a href="'+RAW+'data/ioc/deployed/'+t+'.txt" style="color:var(--gn);text-decoration:none;margin-left:2px" download>.'+t+' deployed ↓</a>';
+    }).join(' · ');
+    linksEl.innerHTML=html;
+    bar.style.display='flex';
+  })();
 
   fetch('data.json').then(function(r){return r.json();}).then(function(d){
     all=(d.domains||[]);

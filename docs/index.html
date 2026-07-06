@@ -1262,17 +1262,19 @@ function buildBurstBars(burst){
 }
 
 /* ── Hosting geography ── */
+var CC_FLAG={AD:'🇦🇩',AE:'🇦🇪',AF:'🇦🇫',AG:'🇦🇬',AI:'🇦🇮',AL:'🇦🇱',AM:'🇦🇲',AO:'🇦🇴',AR:'🇦🇷',AT:'🇦🇹',AU:'🇦🇺',AZ:'🇦🇿',BA:'🇧🇦',BB:'🇧🇧',BD:'🇧🇩',BE:'🇧🇪',BF:'🇧🇫',BG:'🇧🇬',BH:'🇧🇭',BI:'🇧🇮',BJ:'🇧🇯',BM:'🇧🇲',BN:'🇧🇳',BO:'🇧🇴',BR:'🇧🇷',BS:'🇧🇸',BT:'🇧🇹',BW:'🇧🇼',BY:'🇧🇾',BZ:'🇧🇿',CA:'🇨🇦',CD:'🇨🇩',CF:'🇨🇫',CG:'🇨🇬',CH:'🇨🇭',CI:'🇨🇮',CL:'🇨🇱',CM:'🇨🇲',CN:'🇨🇳',CO:'🇨🇴',CR:'🇨🇷',CU:'🇨🇺',CV:'🇨🇻',CY:'🇨🇾',CZ:'🇨🇿',DE:'🇩🇪',DJ:'🇩🇯',DK:'🇩🇰',DM:'🇩🇲',DO:'🇩🇴',DZ:'🇩🇿',EC:'🇪🇨',EE:'🇪🇪',EG:'🇪🇬',ER:'🇪🇷',ES:'🇪🇸',ET:'🇪🇹',FI:'🇫🇮',FJ:'🇫🇯',FK:'🇫🇰',FM:'🇫🇲',FR:'🇫🇷',GA:'🇬🇦',GB:'🇬🇧',GD:'🇬🇩',GE:'🇬🇪',GF:'🇬🇫',GH:'🇬🇭',GI:'🇬🇮',GL:'🇬🇱',GM:'🇬🇲',GN:'🇬🇳',GP:'🇬🇵',GQ:'🇬🇶',GR:'🇬🇷',GT:'🇬🇹',GU:'🇬🇺',GW:'🇬🇼',GY:'🇬🇾',HK:'🇭🇰',HN:'🇭🇳',HR:'🇭🇷',HT:'🇭🇹',HU:'🇭🇺',ID:'🇮🇩',IE:'🇮🇪',IL:'🇮🇱',IN:'🇮🇳',IO:'🇮🇴',IQ:'🇮🇶',IR:'🇮🇷',IS:'🇮🇸',IT:'🇮🇹',JM:'🇯🇲',JO:'🇯🇴',JP:'🇯🇵',KE:'🇰🇪',KG:'🇰🇬',KH:'🇰🇭',KI:'🇰🇮',KM:'🇰🇲',KN:'🇰🇳',KP:'🇰🇵',KR:'🇰🇷',KW:'🇰🇼',KY:'🇰🇾',KZ:'🇰🇿',LA:'🇱🇦',LB:'🇱🇧',LC:'🇱🇨',LI:'🇱🇮',LK:'🇱🇰',LR:'🇱🇷',LS:'🇱🇸',LT:'🇱🇹',LU:'🇱🇺',LV:'🇱🇻',LY:'🇱🇾',MA:'🇲🇦',MC:'🇲🇨',MD:'🇲🇩',ME:'🇲🇪',MG:'🇲🇬',MH:'🇲🇭',MK:'🇲🇰',ML:'🇲🇱',MM:'🇲🇲',MN:'🇲🇳',MO:'🇲🇴',MP:'🇲🇵',MQ:'🇲🇶',MR:'🇲🇷',MS:'🇲🇸',MT:'🇲🇹',MU:'🇲🇺',MV:'🇲🇻',MW:'🇲🇼',MX:'🇲🇽',MY:'🇲🇾',MZ:'🇲🇿',NA:'🇳🇦',NC:'🇳🇨',NE:'🇳🇪',NF:'🇳🇫',NG:'🇳🇬',NI:'🇳🇮',NL:'🇳🇱',NO:'🇳🇴',NP:'🇳🇵',NR:'🇳🇷',NU:'🇳🇺',NZ:'🇳🇿',OM:'🇴🇲',PA:'🇵🇦',PE:'🇵🇪',PF:'🇵🇫',PG:'🇵🇬',PH:'🇵🇭',PK:'🇵🇰',PL:'🇵🇱',PM:'🇵🇲',PR:'🇵🇷',PS:'🇵🇸',PT:'🇵🇹',PW:'🇵🇼',PY:'🇵🇾',QA:'🇶🇦',RE:'🇷🇪',RO:'🇷🇴',RS:'🇷🇸',RU:'🇷🇺',RW:'🇷🇼',SA:'🇸🇦',SB:'🇸🇧',SC:'🇸🇨',SD:'🇸🇩',SE:'🇸🇪',SG:'🇸🇬',SH:'🇸🇭',SI:'🇸🇮',SK:'🇸🇰',SL:'🇸🇱',SM:'🇸🇲',SN:'🇸🇳',SO:'🇸🇴',SR:'🇸🇷',SS:'🇸🇸',ST:'🇸🇹',SV:'🇸🇻',SX:'🇸🇽',SY:'🇸🇾',SZ:'🇸🇿',TC:'🇹🇨',TD:'🇹🇩',TG:'🇹🇬',TH:'🇹🇭',TJ:'🇹🇯',TK:'🇹🇰',TL:'🇹🇱',TM:'🇹🇲',TN:'🇹🇳',TO:'🇹🇴',TR:'🇹🇷',TT:'🇹🇹',TV:'🇹🇻',TW:'🇹🇼',TZ:'🇹🇿',UA:'🇺🇦',UG:'🇺🇬',US:'🇺🇸',UY:'🇺🇾',UZ:'🇺🇿',VA:'🇻🇦',VC:'🇻🇨',VE:'🇻🇪',VG:'🇻🇬',VI:'🇻🇮',VN:'🇻🇳',VU:'🇻🇺',WF:'🇼🇫',WS:'🇼🇸',YE:'🇾🇪',YT:'🇾🇹',ZA:'🇿🇦',ZM:'🇿🇲',ZW:'🇿🇼'};
 function buildGeoBars(countries){
   var el=document.getElementById('geo-bars');if(!el)return;
   var entries=Object.entries(countries).sort(function(a,b){return b[1]-a[1];});
-  if(!entries.length){el.innerHTML='<p style="font-size:11px;color:var(--tx3);font-family:\'JetBrains Mono\',monospace">Hostname-only data — IP geolocation not available from CZDS zone records.</p>';return;}
+  if(!entries.length){el.innerHTML='<p style="font-size:11px;color:var(--tx3);font-family:monospace">No IP geolocation data available.</p>';return;}
   var max=entries[0][1]||1;
   var total=entries.reduce(function(a,b){return a+b[1];},0)||1;
   el.innerHTML='<div class="hbar-grid">'+entries.slice(0,12).map(function(e){
     var pct=Math.round(e[1]/max*100);
     var rp=(e[1]/total*100).toFixed(1);
+    var flag=CC_FLAG[e[0]]||'🌐';
     return '<div class="hbar-row">'
-      +'<div class="hbar-lbl">'+(e[0]||'??')+'</div>'
+      +'<div class="hbar-lbl">'+flag+' '+(e[0]||'??')+'</div>'
       +'<div class="hbar-wrap"><div class="hbar-fill" style="width:'+pct+'%;background:var(--cy)"></div></div>'
       +'<div class="hbar-val">'+Number(e[1]).toLocaleString()+'</div>'
       +'<div class="hbar-note">'+rp+'%</div>'
@@ -1332,13 +1334,13 @@ fetch('data.json').then(function(r){return r.json();}).then(function(d){
   }
 
   var cats = s.categories||{};
-  setText('c-phish-finance', (cats['PHISHING_FINANCE']||0)||'—');
-  setText('c-phish-crypto',  (cats['PHISHING_CRYPTO'] ||0)||'—');
-  setText('c-drain',         (cats['CRYPTO_DRAIN']    ||0)||'—');
-  setText('c-carding',       (cats['CARDING']         ||0)||'—');
-  setText('c-invest',        (cats['INVEST_FRAUD']    ||0)||'—');
-  setText('c-malware',       (cats['MALWARE_DIST']    ||0)||'—');
-  setText('c-gambling',      (cats['GAMBLING']        ||0)||'—');
+  setText('c-phish-finance', cats['PHISHING_FINANCE']||0);
+  setText('c-phish-crypto',  cats['PHISHING_CRYPTO'] ||0);
+  setText('c-drain',         cats['CRYPTO_DRAIN']    ||0);
+  setText('c-carding',       cats['CARDING']         ||0);
+  setText('c-invest',        cats['INVEST_FRAUD']    ||0);
+  setText('c-malware',       cats['MALWARE_DIST']    ||0);
+  setText('c-gambling',      cats['GAMBLING']        ||0);
   var brandIoc = cats['BRAND_IMPERSONATION']||0;
   if(brandIoc) setText('c-brand-ioc', brandIoc.toLocaleString());
   var totalIoc = Object.values(cats).reduce(function(a,b){return a+(b||0);},0);
