@@ -618,7 +618,6 @@ All data in this repository was collected exclusively from publicly accessible s
 | WHOIS | Public WHOIS protocol (RFC 3912) |
 | HTTP responses | Passive crawl of publicly reachable URLs |
 | DNS records | Passive DNS / authoritative queries |
-| Screenshots | Rendered pages accessible to any browser |
 
 No non-public systems were accessed. No credentials were tested. No authentication was bypassed. No victim data was processed.
 
@@ -631,7 +630,7 @@ This publication is conducted under:
 
 This research documents objectively verifiable facts: domain registration patterns, HTTP response content, and registrar abuse-response latency. These facts were publicly visible before this repository existed.
 
-NameSilo, LLC is an ICANN-accredited registrar operating under contractual obligations to the global internet community. Publication of factual evidence of contractual non-compliance is not defamation — it is the function ICANN's transparency requirements were built to serve.
+ShortDot SA is an ICANN-accredited registry operator under contractual obligations to the global internet community. Publication of factual evidence of registry contractual non-compliance is not defamation — it is the function ICANN's transparency requirements were built to serve.
 
 ### Mirrors & Redistribution
 
