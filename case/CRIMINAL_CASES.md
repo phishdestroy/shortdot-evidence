@@ -117,24 +117,49 @@ by ShortDot SA.
 
 ## Part 4 — Authoritative Research Record (Admissible as Expert Evidence)
 
+### Global Phishing Share — The Headline Number
+
+**Source:** Interisle Consulting Group, *Phishing Landscape 2025*, September 2025
+**Methodology:** ~4 million phishing reports aggregated from APWG, SURBL, OpenPhish, PhishTank
+**Period:** May 2024 – April 2025
+**Total global phishing domains measured:** 1,542,922
+
+| ShortDot TLD | Phishing domains | Share of global phishing |
+|---|---|---|
+| `.bond` | 79,875 | **5.18%** |
+| `.cfd` | 24,241 | **1.57%** |
+| `.sbs` | 23,293 | **1.51%** |
+| `.icu` | 19,392 | **1.26%** |
+| **ShortDot combined** | **146,801** | **9.5%** |
+
+> **ShortDot SA zones account for 9.5% of all phishing domains on Earth — nearly 1 in 10.**
+
+Context: ShortDot controls 7 TLDs out of 1,200+ in the global namespace.
+
 ### Interisle Consulting Group — Phishing Landscape 2025
 
 Five ShortDot zones simultaneously appear in the top-20 most-abused TLD rankings in each of
 the five annual Interisle studies (2021–2025). Of 24 new gTLDs that made the Top 20 over this
 period, five are ShortDot-operated.
 
-| TLD | Phishing domains (Yr to May 2025) | Maliciously registered | Phishing score | vs .com |
-|-----|----------------------------------|----------------------|----------------|---------|
-| `.bond` | **79,875** | **100%** (79,690/79,875) | **1,759** | **58×** |
-| `.cfd` | **24,241** | **96%** | 748 | 25× |
-| `.icu` | 19,392 | high | 459 | 15× |
-| `.sbs` | 23,293 | high | 296 | 10× |
-| `.cyou` | — | high | 347 | 12× |
-| `.com` (reference) | — | — | **30** | 1× |
+| TLD | Global rank (abs. phishing count) | Phishing domains | Maliciously registered | Phishing score | vs .com |
+|-----|----------------------------------|-----------------|----------------------|----------------|---------|
+| `.bond` | **#3** (behind .com and .top only) | **79,875** (+524% YoY) | **100%** (79,690/79,875) | **1,759** | **59×** |
+| `.cfd` | #14 | **24,241** | **96%** (23,219/24,241) | 748 | 25× |
+| `.sbs` | #17 | **23,293** | high | 296 | 10× |
+| `.icu` | #19 | **19,392** | high | 459 | 15× |
+| `.com` (reference) | #1 | — | — | **30** | 1× |
 
-**100% maliciously registered (.bond):** Of 79,875 phishing domains observed in `.bond`,
-79,690 (99.8%) were registered specifically to commit phishing — not compromised legitimate sites.
-This is the structural signature of a zone with no legitimate adoption.
+**1 in 6 `.bond` domains is a phishing site** (79,875 / 454,000 zone size = 17.6%).
+
+**100% maliciously registered (.bond):** Of 79,875 phishing domains in `.bond`, 79,690 (99.8%)
+were registered specifically to commit phishing — not compromised legitimate sites. This is the
+structural signature of a zone purpose-built for criminal use.
+
+**New gTLD context:** New gTLDs represent 11% of the global domain market but 51% of all
+phishing domains. ShortDot operates the worst-performing cluster within that 11%.
+
+Source: https://domainnamewire.com/wp-content/Interisle_Phishing-Landscape-2025.pdf
 
 ### Spamhaus Domain Reputation Update (Oct 2025 – Mar 2026)
 
@@ -142,14 +167,16 @@ This is the structural signature of a zone with no legitimate adoption.
 |-----|----------------------|--------------------|
 | `.cfd` | **17.54%** | >10% = red flag |
 | `.qpon` | **12.17%** | >10% = red flag |
-| `.icu` | 9.73% | — |
+| `.icu` | 9.73% | approaching threshold |
 | `.cyou` | 4.02% | — |
 | `.sbs` | 2.98% | — |
-| `.bond` | 5.17% (1.15M zone, 59,271 listed) | Three consecutive periods with 98%+ domain churn |
+| `.bond` | 5.17% (1.15M zone, 59,271 listed) | 98%+ annual churn for 3 consecutive periods |
 
 `.bond` registered the highest new-domain-to-total-zone ratio of any gTLD tracked: 1.13M new
-domains against a 1.15M zone = **98.57% annual churn**. This is the operational signature of
-bulk criminal registration-and-discard cycles, not legitimate business adoption.
+domains against a 1.15M zone = **98.57% annual churn**. Operational signature: bulk
+register-and-discard cycles characteristic of criminal infrastructure, not legitimate business.
+
+Source: Spamhaus domain reputation reports, available at spamhaus.org/resource-hub/domain-reputation/
 
 ### MADWeb 2026 Academic Paper — "Generational Analysis of TLD Reputation"
 
@@ -158,10 +185,23 @@ Peer-reviewed academic analysis presented at MADWeb 2026:
 > "ShortDot SA, with three TLDs, has **2.5× more malicious domains than legitimate** — the
 > worst malicious-to-benign ratio of any registry operator analysed."
 
-`.sbs` acquisition finding:
 > "`.sbs` became preferred for malicious registrations **after acquisition by ShortDot SA**"
 
 Source: https://madweb.work/papers/2026/madweb26-paper30.pdf
+
+### Cybercrime Information Center — Trend Continuation (Nov 2025 – Jan 2026)
+
+Most recent available quarterly data shows ShortDot zones worsening, not improving:
+
+| TLD | Rank (Nov 2025–Jan 2026) | Phishing domains |
+|-----|--------------------------|-----------------|
+| `.icu` | **#7** | 27,662 |
+| `.sbs` | **#8** | 23,471 |
+| `.cfd` | **#9** | 22,870 |
+| `.cyou` | #17 | 9,491 |
+| `.qpon` | — | 2,259 |
+
+Source: https://www.cybercrimeinfocenter.org/phishing-activity-in-tlds-november-january-2026
 
 ### ICANN Correspondence — Rose/Aaron to Sinha, 26 June 2026
 

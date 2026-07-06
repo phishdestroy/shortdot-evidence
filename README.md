@@ -688,17 +688,26 @@ A single unidentified threat actor ("Revolver Rabbit") registered **500,000+ `.b
 
 ### The Numbers That Require No Interpretation
 
+> **ShortDot zones account for 9.5% of all phishing domains on Earth — nearly 1 in 10.**
+> Source: Interisle Consulting Group, Phishing Landscape 2025 (1,542,922 global phishing domains measured, May 2024–April 2025).
+
 | Metric | Value | Source |
 |--------|-------|--------|
-| `.bond` phishing domains (yr to May 2025) | **79,875** | Interisle 2025 |
+| ShortDot zones combined — share of **all global phishing** | **9.5%** (146,801 / 1,542,922) | Interisle 2025 |
+| `.bond` — rank by absolute phishing domain count | **#3 globally** (behind only .com and .top) | Interisle 2025 |
+| `.bond` phishing domains (yr to May 2025) | **79,875** (+524% YoY) | Interisle 2025 |
+| 1 in how many `.bond` domains is a phishing site | **1 in 6** (17.6% of entire zone) | Interisle 2025 |
 | `.bond` domains maliciously registered (not compromised) | **100%** (79,690 / 79,875) | Interisle 2025 |
-| `.bond` phishing score vs. `.com` | **58×** more abusive per domain | Interisle 2025 |
-| `.cfd` share of zone blacklisted by Spamhaus | **17.54%** (red flag = 10%) | Spamhaus Oct 2025–Mar 2026 |
+| `.bond` phishing score vs. `.com` | **59×** more abusive per domain | Interisle 2025 |
+| `.cfd` domains maliciously registered | **96%** (23,219 / 24,241) | Interisle 2025 |
+| `.cfd` share of zone blacklisted by Spamhaus | **17.54%** (red flag threshold = 10%) | Spamhaus Oct 2025–Mar 2026 |
 | `.bond` annual domain churn rate | **98.57%** | Spamhaus Oct 2025–Mar 2026 |
-| ShortDot malicious-to-legitimate domain ratio | **2.5× more malicious** | MADWeb 2026 (peer-reviewed) |
+| ShortDot malicious-to-legitimate domain ratio | **2.5× more malicious than legitimate** | MADWeb 2026 (peer-reviewed) |
 | ShortDot TLDs in Interisle Top 20 abuse rankings | **5 of 7 zones, every year 2021–2025** | Interisle 2021–2025 |
+| New gTLDs share of domain market | 11% | Interisle 2025 |
+| New gTLDs share of **all phishing** | **51%** | Interisle 2025 |
 
-100% maliciously registered means: every phishing domain in `.bond` was registered specifically to commit a crime — not a legitimate site that was later compromised. The registry collected wholesale revenue on each registration.
+New gTLDs are 11% of the domain market but generate 51% of phishing. ShortDot operates the most abusive cluster within that 11%. 100% maliciously registered means every phishing domain in `.bond` was registered specifically to commit fraud — not a legitimate site that was later compromised. The registry collected wholesale revenue on each.
 
 ---
 
