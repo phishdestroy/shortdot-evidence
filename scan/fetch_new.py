@@ -66,10 +66,17 @@ for tld in TLD_LIST:
 
     reader = csv.reader(io.StringIO(raw))
     try:
-        next(reader)
+        header = next(reader)
+        print(f"  .{tld} header: {header[:5]}")
     except StopIteration:
-        print(f"  .{tld}: empty response")
+        print(f"  .{tld}: empty response (len={len(raw)})")
         continue
+
+    # debug: print first 3 data rows to verify CSV format
+    debug_rows = []
+    all_rows = list(reader)
+    print(f"  .{tld} rows: {len(all_rows)} total, first: {all_rows[0][:5] if all_rows else 'none'}")
+    reader = iter(all_rows)
 
     tld_count = 0
     for row in reader:
