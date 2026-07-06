@@ -33,6 +33,18 @@ jobs:
       - name: Classify brand patterns
         run: python scan/classify_brands.py
 
+      - name: Rebuild IOC flat files
+        run: |
+          python - <<'EOF'
+          import csv
+          rows = list(csv.DictReader(open('ioc/indicators.csv', encoding='utf-8-sig', errors='replace')))
+          all_doms = sorted(set(r['domain'] for r in rows if r.get('domain')))
+          open('ioc/domains_all_malicious.txt','w').write('\n'.join(all_doms)+'\n')
+          high = sorted(set(r['domain'] for r in rows if r.get('severity','').upper()=='HIGH' and r.get('domain')))
+          open('ioc/domains_high.txt','w').write('\n'.join(high)+'\n')
+          print(f'all={len(all_doms)} high={len(high)}')
+          EOF
+
       - name: Rebuild site data
         run: |
           python docs/build_datajson.py \
