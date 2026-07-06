@@ -53,17 +53,22 @@ footer a{color:var(--cy)}
 <body>
 
 <nav class="nav">
-  <span class="nav-brand">PhishDestroy <em>/</em> ShortDot SA <em>/</em> Domains</span>
+  <span class="nav-brand">PhishDestroy <em>/</em> ShortDot SA <em>/</em> IOC Table</span>
   <a href="index.html" class="btn ghost">← Report</a>
   <a href="../ioc/domains_high.txt" class="btn red">⬇ HIGH IOC</a>
 </nav>
+
+<div style="background:#1a0a00;border-bottom:1px solid #c0602040;padding:8px 20px;font-size:11px;font-family:monospace;color:#c09060">
+  ⚠ This table contains <strong style="color:#e0a060" id="ioc-count-note">~9K</strong> IOC-classified domains (confirmed malicious by keyword/brand matching).
+  Full zone data (6.2M domains): use the download links below each filter.
+</div>
 
 <div class="toolbar">
   <div class="search-wrap">
     <input type="search" id="search" placeholder="Search domain, category, notes…" autocomplete="off">
   </div>
   <div class="filter-group" id="tld-filters">
-    <button class="btn active" data-tld="">All TLDs</button>
+    <button class="btn active" data-tld="">All IOC</button>
     <button class="btn ghost" data-tld="icu">.icu</button>
     <button class="btn ghost" data-tld="bond">.bond</button>
     <button class="btn ghost" data-tld="cyou">.cyou</button>
@@ -73,17 +78,16 @@ footer a{color:var(--cy)}
     <button class="btn ghost" data-tld="qpon">.qpon</button>
   </div>
   <div class="filter-group" id="sev-filters">
-    <button class="btn active" data-sev="">All</button>
+    <button class="btn active" data-sev="">All sev</button>
     <button class="btn ghost" data-sev="HIGH">HIGH</button>
     <button class="btn ghost" data-sev="MEDIUM">MED</button>
   </div>
 </div>
 
 <div class="count-bar" id="count-bar">Loading…</div>
-<div id="dl-bar" style="display:none;padding:7px 20px;font-size:10px;font-family:monospace;color:var(--tx3);border-bottom:1px solid var(--bdr);background:var(--s2);display:flex;gap:12px;align-items:center;flex-wrap:wrap">
-  <span style="color:var(--tx2)">Full zone files:</span>
+<div id="dl-bar" style="padding:7px 20px;font-size:10px;font-family:monospace;color:var(--tx3);border-bottom:1px solid var(--bdr);background:var(--s2);display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+  <span style="color:var(--tx2);font-weight:700">Full zone downloads:</span>
   <span id="dl-links"></span>
-  <span style="color:var(--tx3)">· Table shows IOC-classified domains only</span>
 </div>
 <style>
 .pager{display:flex;align-items:center;gap:8px;padding:8px 20px;border-bottom:1px solid var(--bdr);background:var(--s1);flex-wrap:wrap}
@@ -146,6 +150,8 @@ footer a{color:var(--cy)}
 
   fetch('data.json').then(function(r){return r.json();}).then(function(d){
     all=(d.domains||[]);
+    var noteEl=document.getElementById('ioc-count-note');
+    if(noteEl) noteEl.textContent=all.length.toLocaleString();
     initFilters();
     applyFilter();
   }).catch(function(){
