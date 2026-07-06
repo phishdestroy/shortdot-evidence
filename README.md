@@ -145,8 +145,7 @@ AU  ░░░░░░░░░░░░░░░░░░     21,228 (2.0%)
 - [11 · Enforcement Posture](#11--enforcement-posture)
 - [11.1 · The Freenom Legacy vs. ShortDot Reality](#111--the-freenom-legacy-vs-the-shortdot-reality)
 - [12 · Repository Structure](#12--repository-structure)
-- [13 · Citation & License](#13--citation)
-- [14 · Legal Notices](#14--legal-notices)
+- [Legal Notice & Responsible Disclosure](#️-legal-notice--responsible-disclosure)
 
 </td>
 </tr>
@@ -609,100 +608,48 @@ shortdot-evidence/
 
 ---
 
-## 13 · Citation
+## ⚖️ Legal Notice & Responsible Disclosure
 
-<details>
-<summary><b>📖 BibTeX citation — click to expand</b></summary>
-<br/>
+All data in this repository was collected exclusively from publicly accessible sources:
 
-```bibtex
-@misc{phishdestroy2026shortdot,
-  author       = {PhishDestroy},
-  title        = {ShortDot SA Zone Evidence — .icu/.bond/.cyou/.sbs/.cfd/.buzz/.qpon},
-  year         = {2026},
-  publisher    = {GitHub},
-  journal      = {GitHub repository},
-  howpublished = {\url{https://github.com/phishdestroy/shortdot-evidence}},
-  note         = {TLP:CLEAR. Updated daily.}
-}
-```
-
-</details>
-
-**License:** MIT — data, code, and analysis freely reusable with attribution.  
-**TLP:** CLEAR — no distribution restrictions.
-
----
-
-## 14 · Legal Notices
-
-### 14.1 · Disclaimer
-
-This repository constitutes independent security research and public-interest journalism. All data originates from **publicly accessible sources**: ICANN Centralized Zone Data Service (CZDS) zone files, publicly available WHOIS/RDAP records, passive DNS, and publicly observable network infrastructure. No systems were accessed without authorization. No credentials were tested or exploited.
-
-Domain names listed herein are **publicly registered strings** in ICANN-delegated top-level domains. Their publication for research, abuse documentation, and threat intelligence purposes is protected under the doctrines of fair use, freedom of expression, and public interest disclosure recognized in the jurisdictions of the European Union, the United States, and applicable international law.
-
-**Accuracy:** Statistics are derived from automated zone enumeration and DNS resolution sampling. Figures represent best-effort analysis of publicly observable data at the time of fetch. They do not constitute a legal determination of malicious intent for any individual domain or registrant.
-
-**No defamation:** References to ShortDot SA, CentralNic Group plc, Team Internet AG, NameSilo LLC, and ICANN are made solely on the basis of documented, publicly observable facts. All conclusions are the authors' own interpretation of that public record.
-
----
-
-### 14.2 · Intellectual Property & Rights
-
-**Original analysis, commentary, and code** in this repository are © PhishDestroy contributors and released under the MIT License (see `LICENSE`).
-
-**Zone data** (domain name strings) is sourced from ICANN CZDS under the CZDS Access Agreement. Zone file data is not subject to copyright in domain name strings themselves (see *Feist Publications v. Rural Telephone Service*, 499 U.S. 340 (1991) and equivalent EU doctrine). Compilation methodology and derived statistics remain original work.
-
-**Indicators of compromise** (IOC lists, STIX bundle, classification output) are released as **TLP:CLEAR** threat intelligence. Recipients may redistribute, incorporate into products, and publish without restriction, provided attribution to this repository is maintained where technically feasible.
-
----
-
-### 14.3 · Mirror & Redistribution Policy
-
-You are **explicitly permitted** to:
-
-- Mirror, archive, or fork this repository in full
-- Redistribute IOC lists and domain data in any format (STIX, CSV, plain text, API)
-- Integrate data into threat-intelligence platforms, security products, or academic publications
-- Publish excerpts or the full dataset in reports, filings, or press materials
-- Create derivative blocking lists, firewall rules, or detection signatures
-
-You are **not permitted** to:
-
-- Represent this data as your own original research without attribution
-- Use this data to target individuals or organizations for harassment
-- Use the PhishDestroy name or branding to imply endorsement of unrelated products
-
-**Preferred attribution:** `PhishDestroy — ShortDot SA Zone Evidence · https://github.com/phishdestroy/shortdot-evidence`
-
----
-
-### 14.4 · Takedown & Dispute Policy
-
-**Domain registrants** who believe a specific domain has been misclassified may open a GitHub Issue with:
-1. Evidence of legitimate business purpose (company registration, regulatory license, clear lawful use case)
-2. Evidence of no abuse-feed hits (VirusTotal clean, URLhaus clean, OpenPhish clean)
-
-Verified legitimate domains will be documented in `case/LEGITIMATE_SURVEY.md` and excluded from high-severity IOC exports within 72 hours of verification.
-
-**Registry operators, registrars, and legal counsel** may contact the maintainers via GitHub Issues for factual corrections. Correction requests must identify the specific factual claim, the claimed error, and supporting evidence. Requests to suppress accurate factual information will be declined and may themselves be documented.
-
-This project has no obligation to remove accurate public-interest information under DMCA §512(f), the EU Digital Services Act, or analogous instruments where the information constitutes non-commercial security research.
-
----
-
-### 14.5 · Governing Principles
-
-This investigation is conducted under the following frameworks:
-
-| Framework | Relevance |
+| Source | Method |
 |---|---|
-| **ICANN Registry Agreement** (§3.18) | Registry operators must maintain abuse contacts and respond to reports |
-| **EU NIS2 Directive** (Art. 28) | TLD registries must implement abuse-mitigation policies |
-| **Budapest Convention on Cybercrime** (Art. 13) | Facilitation of computer-related fraud by inaction |
-| **GDPR** (Art. 6(1)(f)) | Legitimate interest basis for processing domain/IP data in security research |
-| **US CFAA** | No systems accessed; passive observation only |
+| Zone files | ICANN CZDS — accredited access, permissible use |
+| WHOIS | Public WHOIS protocol (RFC 3912) |
+| HTTP responses | Passive crawl of publicly reachable URLs |
+| DNS records | Passive DNS / authoritative queries |
+| Screenshots | Rendered pages accessible to any browser |
+
+No non-public systems were accessed. No credentials were tested. No authentication was bypassed. No victim data was processed.
+
+This publication is conducted under:
+- **ICANN Registrar Accreditation Agreement §3.18** (abuse response obligations)
+- **CISA Coordinated Vulnerability Disclosure guidelines**
+- **FIRST.org TLP:CLEAR** — unlimited public sharing permitted
+
+### Regarding Reputational Impact
+
+This research documents objectively verifiable facts: domain registration patterns, HTTP response content, and registrar abuse-response latency. These facts were publicly visible before this repository existed.
+
+NameSilo, LLC is an ICANN-accredited registrar operating under contractual obligations to the global internet community. Publication of factual evidence of contractual non-compliance is not defamation — it is the function ICANN's transparency requirements were built to serve.
+
+### Mirrors & Redistribution
+
+This repository may be freely mirrored, archived, and forked. The domain name data it contains is **not private property** and includes **no personal data** — it consists solely of publicly registered domain strings, observable network metadata, and derived statistics, all originating from public sources. Mirrors of all critical data files are maintained independently of this primary repository.
+
+Distribution of IOC lists and derived detection signatures is explicitly encouraged. Preferred attribution: `PhishDestroy — ShortDot SA Zone Evidence · https://github.com/phishdestroy/shortdot-evidence`
+
+### Disputes & Corrections
+
+We do not respond individually to parties with a documented or evident interest in suppressing this research. However, a transparent public process exists: **[open a GitHub Issue](https://github.com/phishdestroy/shortdot-evidence/issues)**.
+
+Correction requests must identify a specific factual claim and provide documented counter-evidence. Verified corrections are published within 72 hours. Requests to suppress accurate information will be declined and documented.
+
+| | |
+|---|---|
+| **License** | MIT — data, code, and analysis freely reusable with attribution |
+| **TLP** | CLEAR — unlimited distribution |
+| **Contact** | [phishdestroy.io](https://phishdestroy.io) · [GitHub Issues](https://github.com/phishdestroy/shortdot-evidence/issues) |
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
