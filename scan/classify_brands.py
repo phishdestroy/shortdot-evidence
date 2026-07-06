@@ -146,7 +146,9 @@ BRAND_KEYWORDS = [
     ('floki',           'Floki',                'crypto'),
     ('aptos',           'Aptos',                'crypto'),
     ('sui',             'Sui',                  'crypto'),
-    ('near',            'NEAR',                 'crypto'),
+    ('near-protocol',   'NEAR Protocol',        'crypto'),
+    ('nearprotocol',    'NEAR Protocol',        'crypto'),
+    ('nearwallet',      'NEAR Wallet',          'crypto'),
     ('solana',          'Solana',               'crypto'),
     ('tron',            'TRON',                 'crypto'),
     ('cosmos',          'Cosmos',               'crypto'),
@@ -302,7 +304,7 @@ BRAND_KEYWORDS = [
 SHORT_RE = {}
 SUBSTR_KW = {}
 for kw, brand, cat in BRAND_KEYWORDS:
-    if len(kw) <= 3:
+    if len(kw) <= 5:
         SHORT_RE[kw] = (brand, cat, re.compile(r'(?:^|[\-_.])' + re.escape(kw) + r'(?:[\-_.]|$)'))
     else:
         SUBSTR_KW[kw] = (brand, cat)
