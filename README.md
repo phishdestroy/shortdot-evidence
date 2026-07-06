@@ -35,7 +35,7 @@ They were meant to be <i>counted.</i><br/>
 <td align="center"><b>📦 Domains tracked</b><br/><sub><code>6,242,647</code></sub></td>
 <td align="center"><b>💰 Est. ShortDot revenue</b><br/><sub><code>$12,557,633</code></sub></td>
 <td align="center"><b>💸 ICANN fees (registry)</b><br/><sub><code>$1,741,262</code></sub></td>
-<td align="center"><b>✅ Confirmed malicious</b><br/><sub><code>0.1%</code> (4,086)</sub></td>
+<td align="center"><b>✅ Confirmed malicious</b><br/><sub><code>0.1%</code> (4,097)</sub></td>
 <td align="center"><b>🏛️ Verified legitimate</b><br/><sub><code>0</code> sites found</sub></td>
 <td align="center"><b>⚡ Fresh (≤7d)</b><br/><sub><code>100.0%</code></sub></td>
 </tr></table>
@@ -44,15 +44,28 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 976,416 | 62,939 (6.4%) | 913,477 | 1,366 | — | $634,670 |
-| `.bond` | 1,325,001 | 17,841 (1.3%) | 1,307,160 | 126 | — | $8,612,506 |
-| `.cyou` | 756,981 | 31,006 (4.1%) | 725,975 | 338 | — | $492,038 |
-| `.sbs` | 1,912,083 | 130,275 (6.8%) | 1,781,808 | 1,289 | — | $1,242,854 |
-| `.cfd` | 952,385 | 184,159 (19.3%) | 768,226 | 842 | — | $619,050 |
-| `.buzz` | 209,416 | 31,872 (15.2%) | 177,544 | 76 | — | $680,602 |
-| `.qpon` | 110,365 | 10,813 (9.8%) | 99,552 | 49 | — | $275,912 |
+| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 1,377 | — | $634,670 |
+| `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 126 | — | $8,612,506 |
+| `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 338 | — | $492,038 |
+| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 1,289 | — | $1,242,854 |
+| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 842 | — | $619,050 |
+| `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 76 | — | $680,602 |
+| `.qpon` | 110,365 | 61,237 (55.5%) | 49,128 | 49 | — | $275,912 |
 
 *Table auto-generated on each daily fetch run.*
+
+### 🌍 Top Hosting Countries
+
+```
+US  ██████████████████    468,298 (45.2%)
+DE  ██████░░░░░░░░░░░░    162,307 (15.7%)
+HK  ████░░░░░░░░░░░░░░    129,089 (12.4%)
+SG  █░░░░░░░░░░░░░░░░░     32,334 (3.1%)
+JP  █░░░░░░░░░░░░░░░░░     30,942 (3.0%)
+CA  █░░░░░░░░░░░░░░░░░     27,952 (2.7%)
+NL  ░░░░░░░░░░░░░░░░░░     21,834 (2.1%)
+AU  ░░░░░░░░░░░░░░░░░░     21,228 (2.0%)
+```
 
 ### 📈 Registration Burst Days
 
@@ -62,7 +75,7 @@ They were meant to be <i>counted.</i><br/>
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`capital (10,395)` &middot; `trust (7,347)` &middot; `fund (5,321)` &middot; `login (4,946)` &middot; `investment (3,972)` &middot; `account (3,791)` &middot; `secure (3,506)` &middot; `connect (3,089)` &middot; `crypto (2,989)` &middot; `support (2,977)` &middot; `official (2,252)` &middot; `claim (2,197)` &middot; `vault (2,023)` &middot; `bridge (1,796)` &middot; `update (1,706)`
+`service (25,150)` &middot; `near (19,480)` &middot; `dia (17,053)` &middot; `hop (12,844)` &middot; `capital (10,395)` &middot; `invest (7,729)` &middot; `tron (6,652)` &middot; `portal (6,280)` &middot; `security (6,125)` &middot; `finance (6,101)` &middot; `support (5,954)` &middot; `fund (5,321)` &middot; `login (4,946)` &middot; `bank (4,858)` &middot; `base (4,795)`
 
 ### 📥 Download Threat Intelligence
 
