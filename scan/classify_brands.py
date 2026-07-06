@@ -674,3 +674,16 @@ if bulk_entropy:
 all_lines = [header] + original_rows + new_rows
 (ROOT / 'ioc/indicators.csv').write_text('\n'.join(all_lines) + '\n', encoding='utf-8')
 print(f'indicators.csv: {len(original_rows)} manual + {len(new_rows)} auto = {len(all_lines)} total')
+
+# Write live badge JSON for README shields.io/endpoint
+_stats_dir = ROOT / 'stats'
+_stats_dir.mkdir(exist_ok=True)
+(_stats_dir / 'brand_total.json').write_text(json.dumps({
+    'schemaVersion': 1,
+    'label': 'brand impersonation',
+    'message': f'{len(all_brand_domains):,} domains',
+    'color': 'da3633',
+    'labelColor': '0c1018',
+    'style': 'flat-square',
+}), encoding='utf-8')
+print(f'stats/brand_total.json: {len(all_brand_domains):,}')

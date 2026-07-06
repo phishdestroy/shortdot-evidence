@@ -25,7 +25,7 @@ They were meant to be <i>counted.</i><br/>
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+---
 
 <!-- LIVE_STATS:START -->
 
@@ -118,16 +118,16 @@ AU  ░░░░░░░░░░░░░░░░░░     21,228 (2.0%)
 
 <br/>
 
-![](https://img.shields.io/badge/Zones_Enumerated-6%2C242%2C647-da3633?style=flat-square&labelColor=0d1117)
-![](https://img.shields.io/badge/Phantom_Rate-70.4%25-da3633?style=flat-square&labelColor=0d1117)
-![](https://img.shields.io/badge/Brand_Impersonation-51%2C670-da3633?style=flat-square&labelColor=0d1117)
-![](https://img.shields.io/badge/Verified_Legit-0-da3633?style=flat-square&labelColor=0d1117)
-![](https://img.shields.io/badge/ICANN_Fees_Paid-$1%2C741%2C262%2Fyr-da3633?style=flat-square&labelColor=0d1117)
-![](https://img.shields.io/badge/ShortDot_Revenue-$12.6M%2Fyr-da3633?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/stats/total.json)
+![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/stats/no_ip.json)
+![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/stats/brand_total.json)
+![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/stats/legit.json)
+![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/stats/icann.json)
+![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/stats/revenue.json)
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+---
 
 ## 📑 Table of Contents
 
@@ -169,7 +169,7 @@ AU  ░░░░░░░░░░░░░░░░░░     21,228 (2.0%)
 </tr>
 </table>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+---
 
 ## 0 · Special Dedication to NameSilo
 
@@ -195,7 +195,7 @@ The result: **millions of domains bulk-registered daily, 70.4% with zero DNS rec
 
 **Full NameSilo investigation → [github.com/phishdestroy/namesilo-evidence](https://github.com/phishdestroy/namesilo-evidence)**
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+---
 
 ## 1 · Background
 
@@ -827,7 +827,7 @@ Correction requests must identify a specific factual claim and provide documente
 | **TLP** | CLEAR — unlimited distribution |
 | **Contact** | [phishdestroy.io](https://phishdestroy.io) · [GitHub Issues](https://github.com/phishdestroy/shortdot-evidence/issues) |
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+---
 
 <div align="center">
 <sub>PhishDestroy · Anti-phishing and fraud investigation · <a href="https://phishdestroy.io">phishdestroy.io</a></sub>
