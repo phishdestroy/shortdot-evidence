@@ -2,15 +2,17 @@
 <img src="docs/assets/banner.gif" width="100%"/>
 </div>
 
+<h3 align="center">7 zones. 6.2 million domains. Zero verified legitimate businesses.<br/>We enumerated every single one.</h3>
+
+<p align="center">
+<b>ShortDot SA (Luxembourg)</b> — a registry operator that charges ICANN $1.74M/year in fees<br/>
+while its zones host 25,966 brand-impersonation domains targeting Chase, Binance, MetaMask, Ledger.<br/>
+70.4% of all registered domains carry no DNS records. They were never meant to be used.<br/>
+They were meant to be <i>counted.</i><br/>
+<b>This repository counts them back.</b>
+</p>
+
 <div align="center">
-
-<br/>
-
-# ShortDot SA — Zone Abuse Evidence
-
-### `.icu` &nbsp;·&nbsp; `.bond` &nbsp;·&nbsp; `.cyou` &nbsp;·&nbsp; `.sbs` &nbsp;·&nbsp; `.cfd` &nbsp;·&nbsp; `.buzz` &nbsp;·&nbsp; `.qpon`
-
-**7 gTLD zones · Luxembourg registry operator · PhishDestroy Research · 2026**
 
 <br/>
 
@@ -18,16 +20,6 @@
 [![TLP CLEAR](https://img.shields.io/badge/TLP-CLEAR-3fb950?style=for-the-badge&labelColor=0c1018)](https://www.first.org/tlp/)
 [![License MIT](https://img.shields.io/badge/license-MIT-c0a060?style=for-the-badge&labelColor=0c1018)](LICENSE)
 [![Auto-updated](https://img.shields.io/badge/data-auto--updated_daily-8b5cf6?style=for-the-badge&labelColor=0c1018)](https://github.com/phishdestroy/shortdot-evidence/actions)
-
-<br/>
-
-[![Live Report](https://img.shields.io/badge/▶_LIVE_REPORT-phishdestroy.github.io%2Fshortdot--evidence-3fb950?style=for-the-badge&labelColor=0c1018)](https://phishdestroy.github.io/shortdot-evidence)
-
-<br/>
-
-> **6,231,825 domains enumerated across 7 ShortDot zones.**
-> **70.4% phantom (no-IP) · $14.3M extracted annually · 25,966 brand-impersonation domains**
-> **Verified legitimate businesses using these zones as primary domain: `0`**
 
 <br/>
 
@@ -88,6 +80,24 @@
 </details>
 
 <!-- LIVE_STATS:END -->
+
+<div align="center">
+
+[![🔴 LIVE SITE](https://img.shields.io/badge/%F0%9F%94%B4%20LIVE-phishdestroy.github.io%2Fshortdot--evidence-FF3333?style=for-the-badge)](https://phishdestroy.github.io/shortdot-evidence/)
+[![Evidence Portal](https://img.shields.io/badge/Evidence_Portal-GitHub_Pages-161b22?style=for-the-badge&logo=github)](https://phishdestroy.github.io/shortdot-evidence/)
+[![ICANN Filed](https://img.shields.io/badge/ICANN-Compliance_Filed-e36209?style=for-the-badge)](https://www.icann.org/compliance)
+[![MIT License](https://img.shields.io/badge/License-MIT-238636?style=for-the-badge)](LICENSE)
+
+<br/>
+
+![](https://img.shields.io/badge/Zones_Enumerated-6%2C231%2C825-da3633?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/Phantom_Rate-70.4%25-da3633?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/Brand_Impersonation-25%2C966-da3633?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/Verified_Legit-0-da3633?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/ICANN_Fees_Paid-$1%2C738%2C556%2Fyr-da3633?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/ShortDot_Revenue-$12.6M%2Fyr-da3633?style=flat-square&labelColor=0d1117)
+
+</div>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
