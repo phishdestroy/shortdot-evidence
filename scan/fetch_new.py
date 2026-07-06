@@ -64,32 +64,21 @@ for tld in TLD_LIST:
         print(f"  .{tld} fetch failed: {e}")
         continue
 
+    # API CSV format: url, majestic_rank, dns1, dns2, hostname
     reader = csv.reader(io.StringIO(raw))
     try:
-        header = next(reader)
-        print(f"  .{tld} header: {header[:5]}")
+        next(reader)  # skip header row
     except StopIteration:
-        print(f"  .{tld}: empty response (len={len(raw)})")
+        print(f"  .{tld}: empty response")
         continue
-
-    # debug: print first 3 data rows to verify CSV format
-    debug_rows = []
-    all_rows = list(reader)
-    print(f"  .{tld} rows: {len(all_rows)} total, first: {all_rows[0][:5] if all_rows else 'none'}")
-    reader = iter(all_rows)
 
     tld_count = 0
     for row in reader:
-        if len(row) < 3:
+        if len(row) < 1:
             continue
-        domain       = row[1].strip().lower()
-        reg_date     = row[2].strip()
-        expiring_at  = row[3].strip() if len(row) > 3 else ''
-        majestic_rank = row[4].strip() if len(row) > 4 else ''
-        emails_raw   = row[5].strip() if len(row) > 5 else ''
-        phones_raw   = row[6].strip() if len(row) > 6 else ''
-        ip           = row[7].strip() if len(row) > 7 else ''
-        ip_country   = row[8].strip() if len(row) > 8 else ''
+        domain   = row[0].strip().lower()
+        rank     = row[1].strip() if len(row) > 1 else ''
+        hostname = row[4].strip() if len(row) > 4 else ''
 
         if not domain or '.' not in domain:
             continue
@@ -97,12 +86,16 @@ for tld in TLD_LIST:
         if domain_tld != tld:
             continue
 
-        effective_date = reg_date if (len(reg_date) == 10 and reg_date[:4].isdigit()) else TODAY
         record = {
-            'd': domain, 'e': expiring_at, 'r': majestic_rank,
-            'm': emails_raw, 'p': phones_raw, 'i': ip, 'c': ip_country,
+            'd': domain,
+            'e': '',      # expiry not available from this endpoint
+            'r': rank,
+            'm': '',      # email not available
+            'p': '',      # phone not available
+            'i': hostname,  # resolved hostname as deployment proxy
+            'c': '',      # country not available
         }
-        by_date[effective_date].append(record)
+        by_date[TODAY].append(record)
         all_domains.add(domain)
         tld_domain_sets[tld].add(domain)
         tld_count += 1

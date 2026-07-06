@@ -9,3 +9,6 @@ Thumbs.db
 pkg/raw_data/*.jsonl
 pkg/raw_data/*.jsonl.gz
 shortdot-evidence .icu · .bond · .cyou · .sbs · .cfd · .buzz · .qpon/
+# Large generated zone dumps (>50MB) — per-TLD downloads tracked in data/by_tld/ instead
+data/all.txt
+data/new/
