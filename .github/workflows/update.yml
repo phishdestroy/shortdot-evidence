@@ -30,6 +30,17 @@ jobs:
           TLD_LIST: icu,bond,cyou,sbs,cfd,buzz,qpon
         run: python scan/fetch_new.py
 
+      - name: Classify brand patterns
+        run: python scan/classify_brands.py
+
+      - name: Rebuild site data
+        run: |
+          python docs/build_datajson.py \
+            --index data/index.json \
+            --ioc ioc/indicators.csv \
+            --legit case/LEGITIMATE_SURVEY.md \
+            --out docs/data.json
+
       - name: Commit & push changes
         run: |
           git config user.name 'phishdestroy-bot'

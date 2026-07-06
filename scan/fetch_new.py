@@ -232,25 +232,105 @@ serial_email_count = sum(1 for c in email_counts.values() if c >= 5)
 # ── Brand keyword heatmap ─────────────────────────────────────────────────────
 # Extra finance/crypto keywords relevant to ShortDot zone abuse
 BRAND_KEYWORDS = [
-    # Crypto wallets & protocols
-    'metamask','coinbase','binance','wallet','defi','airdrop','claim','bitcoin',
-    'ethereum','crypto','token','nft','web3','ledger','trezor','uniswap','opensea',
-    'kraken','kucoin','bybit','okx','huobi','trust','phantom','solana','polygon',
-    'arbitrum','optimism','swap','bridge','staking','yield','vault','farm','mint',
-    'solflare','tron','bnb','avax','base','sui','near','dydx','blur','zksync',
-    'raydium','jupiter','lido','curve','compound','aave',
-    # Phishing action patterns (substring matches *-login, *-support, claim-*, etc.)
-    'connect','secure','support','login','verify','account','update','official',
-    'recover','recovery','unlock','restore','activate','suspended','alert','urgent',
-    'presale','giveaway','reward','bonus','portal','helpdesk','customer','service',
-    'signin','signup','claimable','airdropping','freetoken',
-    # Finance & banking
-    'chase','bofa','citi','wells','paypal','stripe','amex','visa','mastercard',
-    'robinhood','schwab','fidelity','etrade','bank','banking','exchange',
-    'investment','trading','profit','income','forex','cfd','fund','capital',
-    # Big tech (impersonation targets)
+    # Core crypto wallets
+    'metamask','coinbase','binance','trustwallet','phantom','ledger','trezor',
+    'uniswap','opensea','raydium','jupiter','kraken','okx','bybit','kucoin',
+    'exodus','walletconnect','myetherwallet','safepal','mathwallet','bitget',
+    'tokenpocket','imtoken','coinomi','electrum','rabby','rainbow','argent',
+    'braavos','keplr','cosmostation','yoroi','eternl','flint','petra','martian',
+    'suiet','spika','fewcha','pontem','solflare','tronlink','tronwallet','ronin',
+    'metamsk','metmask','mettamask','metmsk','coinbas','coinbse','walet','wallett',
+    'trustpad','truspad','upheld','dlscord','logiin','extnsion','flnance','ciaim',
+    'ailocation','autth','auths',
+    # Hardware wallets / multi-wallet
+    'keepkey','coldcard','bitbox','ellipal','dcent','onekey','tangem','gridplus',
+    'cypherock','satochip','bcvault','coolwallet','opendime','bitclip','arculus',
+    'prokey','secux','keystone','coinkite','ngwallet','blade','hyperpay','hypermate',
+    # DeFi — AMMs / DEXes
+    'sushiswap','pancakeswap','cowswap','paraswap','kyber','traderjoe','quickswap',
+    'aerodrome','velodrome','camelot','ramses','lynex','equalizer','thena',
+    'curve','balancer','bancor','swapr','1inch','openocean','rango','li.fi',
+    'dydx','gmx','hyperliquid','drift','aevo','vertex','mango','perpetual',
+    'orca','meteora','lifinity','cetus','aldrin','crema','atrix','obyte',
+    # DeFi — lending/yield
+    'aave','compound','maker','yearn','convex','pendle','morpho','eigenlayer',
+    'lido','marinade','jito','kamino','marginfi','solend','suilend','benqi',
+    'liquity','euler','ribbon','harvest','barnbridge','truefi','clearpool',
+    'maple','goldfinch','inverse','dforce','iron','dhedge','piedao','powerpool',
+    'alchemix','enzyme','indexed','setprotocol','badger','pickle','vesper',
+    # Layer 2 / chains
+    'optimism','arbitrum','starknet','linea','zksync','polygon','base','scroll',
+    'mantle','blast','taiko','manta','zircuit','berachain','monad','megaeth',
+    'metis','aurora','boba','loopring','zkfair','zkevm','zkcandy','zkpad','zkswap',
+    'zkswapfinance','zklend','xlayer','soneium','sonic','dymension','celestia',
+    'hyperliquid','monad','berachain','mitosis','plume','megaeth',
+    # Bridges / cross-chain
+    'wormhole','synapse','celer','stargate','layerzero','orbiter','debridge',
+    'allbridge','multichain','anyswap','connext','nomad','hop','across','socket',
+    'symbiosis','renzo','renzoprotocol','kelpdao','zetachain','zircuit',
+    'altlayer','manta','starknet','deBridge','orbitbridge','polynetwork',
+    'boringdao','chainhop','snowbridge','lightlink',
+    # NFT / gaming
+    'magiceden','blur','zora','nfts','nft','opensea','foundation','rarible',
+    'superrare','async','objkt','tezos','rtfkt','azuki','doodles','pudgypenguins',
+    'pudgy','bayc','otherdeed','otherside','neotokyo','galxe','quest','kollab',
+    'collabland','pacmoon','memecoin','meme','floki','bonk','pepe','pepecoin',
+    'pepeunchained','shiba','notcoin','bitcoin','bnb','avax','tron','stellar',
+    'ripple','xlm','xrp','near','sui','aptos','cardano','polkadot','cosmos',
+    # Staking / liquid staking
+    'staking','stake','staked','stakingreward','stakingsreward','lido','marinade',
+    'rocketpool','frax','ankr','sfrxeth','cbeth','wsteth','lidofinance',
+    'beefyapp','beefy','beefyhub','beefyapps','yearn','convex','aura','frax',
+    # Airdrops / claims
+    'airdrop','airdrops','airdropalerts','claim','claims','claimable','claiming',
+    'allocation','allocations','allocate','eligible','eligibility','presale',
+    'whitelist','freemint','premint','premints','giveaway','reward','rewards',
+    'bonus','gift','gifts','drop','drops','earn','prize',
+    # Phishing actions
+    'connect','verify','login','signin','signup','secure','support','recovery',
+    'restore','unlock','activate','portal','auth','register','update','official',
+    'account','alert','urgent','suspended','billing','helpdesk','customer','service',
+    'confirm','verification','migrate','migration','access','join','invite','invites',
+    'transfer','redeem','launch','launchpad','mainnet','testnet','eligibility',
+    'wallet','wallets','token','tokens','crypto','defi','web3','dapp','dapps',
+    # Finance / banking
+    'paypal','stripe','revolut','wise','cashapp','venmo','zelle','robinhood',
+    'chase','bofa','citi','wells','amex','visa','mastercard','discover','ally',
+    'schwab','fidelity','etrade','bank','banking','exchange','trading','invest',
+    'investment','profit','forex','fund','capital','finance','financial',
+    'advcash','payeer','paybis','paxful','paxos','transak','simplex','indacoin',
+    'changenow','changelly','bestchange','moonpay','banxa','wazirx','coindcx',
+    'giottus','unocoin','buyucoin','coinfident','coinfield','coingate','coinhub',
+    'coinify','coinigy','coinjar','coinmama','coinone','coinpayments','coinspace',
+    'coinstats','coinswitch','coinus','coinvault','coinwallet','coinweb',
+    # Big tech / social
     'google','apple','microsoft','amazon','netflix','facebook','instagram',
-    'tiktok','telegram','whatsapp','twitter','discord',
+    'tiktok','telegram','whatsapp','twitter','discord','youtube','spotify',
+    'steam','roblox','zoom','linkedin','reddit','snapchat','uber',
+    # Specific threat actors / infra patterns
+    'drain','drainer','seed','seedphrase','privatekey','mnemonic','phrase',
+    'phishing','scam','hack','exploit','honeypot','rug','fake',
+    'phpmyadmin','cpanel','webmail','imap','autoconfig','smtp','mysql',
+    'security','alert','helpdesk','portal','dashboard','customer','support',
+    # More DeFi / newer
+    'eigenlayer','ethena','pendle','morpho','symbiotic','karak','swell',
+    'ondo','usual','euler','aevo','hyperliquid','dydx','drift','gmx',
+    'pyth','chainlink','redstone','switchboard','dia',
+    'worldcoin','worldlibertyfinancial','wlfi','trump','spacex','tesla',
+    'polkadex','polkadotjs','cosmos','osmosis','keplr','leap','station',
+    'karura','acala','moonbeam','moonriver','astar','shiden','khala','phala',
+    'harmony','hedera','hbar','iota','velas','elrond','multiversx','elrond',
+    'zilliqa','zilpay','waves','ergo','kadena','solana','near','aurora',
+    'harmony','klaytn','icon','neo','ontology','vechain','tron','eos',
+    'iost','steemit','steemkeychain','hive','hivekeychain','blurt',
+    # Ton / telegram ecosystem
+    'tonkeeper','tonhub','tonspace','tonsafe','tonwallet','tonflow',
+    'tonrocket','toncrystal','tonup','tonana','mytonwallet','myton',
+    # DEX aggregators / trackers
+    'dappradar','defillama','debank','zerion','zapperfi','instadapp',
+    'zapper','1inch','paraswap','openocean','kyber','rango','li.fi',
+    # CSGO / gaming skins
+    'csgo','skins','case','skin','cs2','gaming',
 ]
 keyword_counts = Counter()
 for domain in all_domains:
@@ -448,6 +528,19 @@ for kw in brand_heatmap:
     encoding='utf-8')
 _brand_lines = [f'{kw}\t{d}' for kw, doms in brand_domains_export.items() for d in doms]
 (ioc_dir / 'brand_domains.txt').write_text('\n'.join(_brand_lines) + '\n' if _brand_lines else '', encoding='utf-8')
+
+# Per-TLD deployed domain files
+deployed_dir = ioc_dir / 'deployed'
+deployed_dir.mkdir(parents=True, exist_ok=True)
+for tld in TLD_LIST:
+    tld_recs = [r for r in all_recs_flat if r['d'].rsplit('.', 1)[-1].lower() == tld]
+    deployed_doms = sorted(r['d'] for r in tld_recs if r.get('i'))
+    if deployed_doms:
+        (deployed_dir / f'{tld}.txt').write_text('\n'.join(deployed_doms) + '\n', encoding='utf-8')
+
+# Combined deployed list
+all_deployed = sorted(r['d'] for r in all_recs_flat if r.get('i'))
+(ioc_dir / 'deployed_all.txt').write_text('\n'.join(all_deployed) + '\n', encoding='utf-8')
 
 # ── STIX 2.1 bundle ───────────────────────────────────────────────────────────
 import uuid
