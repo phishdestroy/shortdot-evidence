@@ -55,6 +55,9 @@ jobs:
         with:
           ref: main
 
+      - name: Copy IOC files for Pages
+        run: cp -r ioc/ docs/ioc/
+
       - uses: actions/configure-pages@v4
 
       - uses: actions/upload-pages-artifact@v3

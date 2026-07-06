@@ -280,7 +280,7 @@ footer a{color:var(--cy)}
 
 <div class="disclaimer" id="disc-bar">
   <span class="ico">⚠</span>
-  <span class="tx"><b>TLP:CLEAR</b> · This report is based on full zone enumeration via NetAPI snapshots and public registry data. All data is reproducible from public sources. Suitable for law enforcement, brand protection, and ICANN compliance submission.</span>
+  <span class="tx"><b>TLP:CLEAR</b> · This report is based on full zone enumeration via ICANN gTLD zone data and public registry records. All data is reproducible from public sources. Suitable for law enforcement, brand protection, and ICANN compliance submission.</span>
   <button class="x" onclick="document.getElementById('disc-bar').remove()">×</button>
 </div>
 
@@ -647,7 +647,7 @@ footer a{color:var(--cy)}
 <div class="sec"><h2>IP Clusters</h2><div class="ln"></div></div>
 <p class="sec-sub">Shared IPs extracted from zone data — coordinated bulk hosting infrastructure. Populated automatically from <code style="font-family:'JetBrains Mono',monospace;font-size:10px;padding:1px 4px;background:rgba(255,255,255,.05);border-radius:2px">data/ioc/shared_ips.json</code> on each daily fetch.</p>
 <div class="clg" id="clusters">
-  <div class="clcard" style="grid-column:1/-1"><div class="clhdr" style="justify-content:center"><span class="clfp" style="color:var(--tx3)">Populates after first daily fetch run — data pulled directly from NetAPI zone records.</span></div></div>
+  <div class="clcard" style="grid-column:1/-1"><div class="clhdr" style="justify-content:center"><span class="clfp" style="color:var(--tx3)">Populates after first daily fetch run — data pulled directly from ICANN gTLD zone records.</span></div></div>
 </div>
 
 </div>
@@ -658,9 +658,9 @@ footer a{color:var(--cy)}
 
 <div class="sec"><h2>Methodology</h2><div class="ln"></div></div>
 <div class="panel"><div class="mc-grid">
-  <div class="mc cy"><div class="mct">Phase 1 — Zone Pull</div><div class="mcd"><strong>NetAPI</strong> active-zone pull per TLD. Fields: IP, country, registrant email, Majestic rank. Full zone enumeration — zero sampling. 6,231,825 records across all 7 zones.</div></div>
+  <div class="mc cy"><div class="mct">Phase 1 — Zone Pull</div><div class="mcd">ICANN gTLD zone data pull per TLD via Centralized Zone Data Service. Fields: IP, country, registrant email, Majestic rank. Full zone enumeration — zero sampling. 6,231,825 records across all 7 zones.</div></div>
   <div class="mc or"><div class="mct">Phase 2 — Brand Scan</div><div class="mcd">119 brand keyword patterns matched against all SLDs. Substring match for long keywords, word-boundary for short (≤3 chars). <strong>25,966</strong> unique brand-hit domains, 96 brands tracked.</div></div>
-  <div class="mc rd"><div class="mct">Phase 3 — IP Clustering</div><div class="mcd">Shared-IP analysis from zone records — same NetAPI pull. IP and country fields come directly from zone data. Top shared-IP clusters and serial registrant patterns exported automatically to <code style="font-size:9px;background:rgba(255,255,255,.05);padding:1px 3px;border-radius:2px">data/ioc/shared_ips.json</code> and <code style="font-size:9px;background:rgba(255,255,255,.05);padding:1px 3px;border-radius:2px">serial_registrants.json</code> on each daily fetch.</div></div>
+  <div class="mc rd"><div class="mct">Phase 3 — IP Clustering</div><div class="mcd">Shared-IP analysis from zone records — same zone pull. IP and country fields come directly from zone data. Top shared-IP clusters and serial registrant patterns exported automatically to <code style="font-size:9px;background:rgba(255,255,255,.05);padding:1px 3px;border-radius:2px">data/ioc/shared_ips.json</code> and <code style="font-size:9px;background:rgba(255,255,255,.05);padding:1px 3px;border-radius:2px">serial_registrants.json</code> on each daily fetch.</div></div>
   <div class="mc gn"><div class="mct">Phase 4 — Legitimacy Survey</div><div class="mcd">Open challenge. Every submitted "legitimate" domain evaluated against 5 criteria. Current verified count: <strong id="method-legit">0</strong>. Submit counterexamples via GitHub issue.</div></div>
 </div></div>
 
@@ -709,7 +709,7 @@ footer a{color:var(--cy)}
   </div>
   <div class="about-card">
     <h3>Data Sources</h3>
-    <p>Evidence collected from live zone data via NetAPI (CZDS-equivalent), OSINT, registrar portfolio analysis, IP clustering, WHOIS extraction, and threat-intel feeds. All data is reproducible from public sources. Every claim in this report cites its source. No extrapolation — raw counts from full zone enumeration.</p>
+    <p>Evidence collected from ICANN gTLD zone data (CZDS), OSINT, registrar portfolio analysis, IP clustering, WHOIS extraction, and threat-intel feeds. All data is reproducible from public sources. Every claim in this report cites its source. No extrapolation — raw counts from full zone enumeration.</p>
   </div>
 </div>
 

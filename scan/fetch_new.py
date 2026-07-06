@@ -11,6 +11,12 @@ TODAY    = date.today().isoformat()
 TLD_LIST = [t.strip().lstrip('.').lower()
             for t in os.environ.get("TLD_LIST", "icu,bond,cyou,sbs,cfd,buzz,qpon").split(',')]
 
+# First-run detection: use filter_type=all if no prior daily data exists
+_prior = Path('data/index.json')
+_is_first_run = not (_prior.exists() and 'last_updated' in json.loads(_prior.read_text(encoding='utf-8')))
+FILTER_TYPE = 'all' if _is_first_run else 'new'
+print(f"Filter mode: {FILTER_TYPE} ({'initial full zone download' if _is_first_run else 'incremental'})")
+
 # Retail price estimates by TLD (USD/year)
 TLD_PRICES = {
     'icu': 0.99, 'cyou': 0.99, 'sbs': 0.99, 'cfd': 0.99,
@@ -42,7 +48,7 @@ for tld in TLD_LIST:
     params = urllib.parse.urlencode({
         'method':       'download',
         'zone_tld':     tld,
-        'filter_type':  'new',
+        'filter_type':  FILTER_TYPE,
         'token':        TOKEN,
         'dataset_type': 'dataset',
     })
