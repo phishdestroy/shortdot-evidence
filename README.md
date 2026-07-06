@@ -79,16 +79,31 @@ AU  ░░░░░░░░░░░░░░░░░░     21,228 (2.0%)
 
 ### 📥 Download Threat Intelligence
 
+**Full zone files (all domains per TLD):**
+
+| TLD | All domains | Deployed (+IP) | Phantom (no IP) |
+|:--|:--|:--|:--|
+| `.icu` | [icu.txt](data/by_tld/icu.txt) 976K | [deployed/icu.txt](data/ioc/deployed/icu.txt) 278K | [phantom/icu.txt](data/ioc/phantom/icu.txt) 699K |
+| `.bond` | [bond.txt](data/by_tld/bond.txt) 1.3M | [deployed/bond.txt](data/ioc/deployed/bond.txt) 106K | [phantom/bond.txt](data/ioc/phantom/bond.txt) 1.2M |
+| `.cyou` | [cyou.txt](data/by_tld/cyou.txt) 757K | [deployed/cyou.txt](data/ioc/deployed/cyou.txt) 266K | [phantom/cyou.txt](data/ioc/phantom/cyou.txt) 491K |
+| `.sbs` | [sbs.txt](data/by_tld/sbs.txt) 1.9M | [deployed/sbs.txt](data/ioc/deployed/sbs.txt) 597K | [phantom/sbs.txt](data/ioc/phantom/sbs.txt) 1.3M |
+| `.cfd` | [cfd.txt](data/by_tld/cfd.txt) 952K | [deployed/cfd.txt](data/ioc/deployed/cfd.txt) 407K | [phantom/cfd.txt](data/ioc/phantom/cfd.txt) 545K |
+| `.buzz` | [buzz.txt](data/by_tld/buzz.txt) 209K | [deployed/buzz.txt](data/ioc/deployed/buzz.txt) 130K | [phantom/buzz.txt](data/ioc/phantom/buzz.txt) 79K |
+| `.qpon` | [qpon.txt](data/by_tld/qpon.txt) 110K | [deployed/qpon.txt](data/ioc/deployed/qpon.txt) 61K | [phantom/qpon.txt](data/ioc/phantom/qpon.txt) 49K |
+| **All zones** | — | [deployed_all.txt](data/ioc/deployed_all.txt) 1.84M | [phantom_all.txt](data/ioc/phantom_all.txt) 4.4M |
+
+**IOC & analytics:**
+
 | File | Format | Description |
 |:--|:--:|:--|
-| [`data/all.txt`](data/all.txt) | TXT | All tracked domains across all 7 zones |
+| [`ioc/domains_high.txt`](ioc/domains_high.txt) | TXT | HIGH severity confirmed malicious (8,880) |
+| [`ioc/domains_all_malicious.txt`](ioc/domains_all_malicious.txt) | TXT | All IOC entries (8,880) |
+| [`ioc/indicators.csv`](ioc/indicators.csv) | CSV | Full IOC with TLD/category/severity/IP |
 | [`data/index.json`](data/index.json) | JSON | Full analytics snapshot |
-| [`data/ioc/serial_registrants.json`](data/ioc/serial_registrants.json) | JSON | Repeat registrants + their domains |
+| [`data/ioc/brand_domains.json`](data/ioc/brand_domains.json) | JSON | 51,670 brand-matching domains |
+| [`data/ioc/serial_registrants.json`](data/ioc/serial_registrants.json) | JSON | Repeat registrants + domains |
 | [`data/ioc/shared_ips.json`](data/ioc/shared_ips.json) | JSON | Bulletproof hosting clusters |
-| [`data/ioc/brand_domains.json`](data/ioc/brand_domains.json) | JSON | Domains by targeted brand |
 | [`data/ioc/stix-bundle.json`](data/ioc/stix-bundle.json) | STIX 2.1 | MISP/OpenCTI ready bundle |
-| [`ioc/domains_all_malicious.txt`](ioc/domains_all_malicious.txt) | TXT | Confirmed malicious — all severity |
-| [`ioc/domains_high.txt`](ioc/domains_high.txt) | TXT | HIGH severity only |
 
 > 📊 Live dashboard: Pages link at top · Updated daily 06:00 UTC
 
@@ -105,7 +120,7 @@ AU  ░░░░░░░░░░░░░░░░░░     21,228 (2.0%)
 
 ![](https://img.shields.io/badge/Zones_Enumerated-6%2C242%2C647-da3633?style=flat-square&labelColor=0d1117)
 ![](https://img.shields.io/badge/Phantom_Rate-70.4%25-da3633?style=flat-square&labelColor=0d1117)
-![](https://img.shields.io/badge/Brand_Impersonation-25%2C966-da3633?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/Brand_Impersonation-51%2C670-da3633?style=flat-square&labelColor=0d1117)
 ![](https://img.shields.io/badge/Verified_Legit-0-da3633?style=flat-square&labelColor=0d1117)
 ![](https://img.shields.io/badge/ICANN_Fees_Paid-$1%2C741%2C262%2Fyr-da3633?style=flat-square&labelColor=0d1117)
 ![](https://img.shields.io/badge/ShortDot_Revenue-$12.6M%2Fyr-da3633?style=flat-square&labelColor=0d1117)
