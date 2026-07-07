@@ -3,7 +3,7 @@
 **Status:** Active  
 **Scope:** All domains registered in ShortDot-operated TLD zones: .icu, .bond, .cyou, .sbs, .cfd, .buzz, .qpon  
 **Investigation start:** 2026  
-**Data source:** NetAPI — full zone delta, daily pull
+**Data source:** ICANN CZDS — full zone data, daily pull
 
 ---
 
@@ -25,14 +25,14 @@
 
 ## Methodology
 
-### Data Collection — NetAPI Pull
+### Data Collection — ICANN CZDS Zone Pull
 
-**Tool:** NetAPI `download-whois` endpoint, `filter_type=new`, queried per TLD  
-**Coverage:** 100% of zone additions — no sampling  
+**Source:** ICANN Centralized Zone Data Service (CZDS), accredited access, queried per TLD  
+**Coverage:** 100% of zone registrations — no sampling  
 **Collected per domain:**
 - Registration date, expiration date
-- Registrar, registrant email, phone (where not privacy-shielded)
-- IP address at registration time, IP country
+- Registrar
+- IP address, IP country
 - Majestic rank (zero = unranked, new, no established web presence)
 
 ### HTTP Fingerprint (Phase 2)
@@ -151,7 +151,7 @@ Verification:
 sha256sum -c evidence/HASHES.txt
 ```
 
-Raw data: `pkg/raw_data/` — gzip-compressed JSONL from NetAPI and HTTP scan stages.
+Raw data: `pkg/raw_data/` — gzip-compressed JSONL from zone fetch and HTTP scan stages.
 
 ---
 

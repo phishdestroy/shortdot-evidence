@@ -2,7 +2,7 @@
 
 ## fetch_new.py
 
-Daily data pipeline: NetAPI pull → per-TLD stats → IOC exports → README update → badge JSON.
+Daily data pipeline: ICANN CZDS zone pull → per-TLD stats → IOC exports → README update → badge JSON.
 
 ### Requirements
 
@@ -13,7 +13,7 @@ Daily data pipeline: NetAPI pull → per-TLD stats → IOC exports → README up
 
 | Variable | Required | Description |
 |---|---|---|
-| `NETAPI_TOKEN` | Yes | NetAPI authentication token |
+| `NETAPI_TOKEN` | Yes | Zone data access token |
 | `TLD_LIST` | No | Comma-separated TLDs (default: `icu,bond,cyou,sbs,cfd,buzz,qpon`) |
 
 ### Run Locally

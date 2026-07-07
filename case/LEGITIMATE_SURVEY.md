@@ -1,6 +1,6 @@
 # Legitimate Use Survey — ShortDot Zones
 
-**Verified count: **0****
+**Verified count: 0**
 
 > **Open challenge:** Find us a verified, non-phishing, non-squatter, non-parked legitimate business using `.icu`, `.bond`, `.cyou`, `.sbs`, `.cfd`, `.buzz`, or `.qpon` as its primary domain. Submit via GitHub issue.
 

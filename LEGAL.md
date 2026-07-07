@@ -5,7 +5,7 @@
 This repository contains factual documentation of domain registrations, network data, HTTP response characteristics, and publicly observable abuse indicators in domain zones operated by ShortDot SA.
 
 All data was collected via:
-- NetAPI (WHOIS zone data — publicly licensed)
+- ICANN CZDS (gTLD zone data — accredited access, permissible use)
 - Public DNS resolution
 - HTTP GET requests to publicly accessible URLs
 - Cross-reference with public threat intelligence databases (Spamhaus DBL, SURBL, URLhaus, ThreatFox)

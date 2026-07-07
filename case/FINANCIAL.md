@@ -1,6 +1,6 @@
 # Follow the Money: ShortDot SA Financial Analysis
 
-> **Aggregate snapshot — 2026-07-04 (NetAPI zone data)**
+> **Aggregate snapshot — 2026-07-04 (ICANN CZDS zone data)**
 >
 > | Metric | Value |
 > |---|---|
@@ -49,13 +49,13 @@
 
 | TLD | Retail price | ShortDot wholesale (est.) | ICANN fee | ShortDot margin | ICANN take |
 |---|---|---|---|---|---|
-| `.icu` | $0.99 | $0.65 | $0.18 | **$0.65** | **$0.18** |
-| `.sbs` | $0.99 | $0.65 | $0.18 | **$0.65** | **$0.18** |
-| `.cfd` | $0.99 | $0.65 | $0.18 | **$0.65** | **$0.18** |
-| `.cyou` | $0.99 | $0.65 | $0.18 | **$0.65** | **$0.18** |
-| `.bond` | $9.99 | $6.50 | $0.18 | **$6.50** | **$0.18** |
-| `.buzz` | $4.99 | $3.25 | $0.18 | **$3.25** | **$0.18** |
-| `.qpon` | $3.99 | $2.50 | $0.18 | **$2.50** | **$0.18** |
+| `.icu` | $0.99 | $0.65 | $0.25 | **$0.65** | **$0.25** |
+| `.sbs` | $0.99 | $0.65 | $0.25 | **$0.65** | **$0.25** |
+| `.cfd` | $0.99 | $0.65 | $0.25 | **$0.65** | **$0.25** |
+| `.cyou` | $0.99 | $0.65 | $0.25 | **$0.65** | **$0.25** |
+| `.bond` | $9.99 | $6.50 | $0.25 | **$6.50** | **$0.25** |
+| `.buzz` | $4.99 | $3.25 | $0.25 | **$3.25** | **$0.25** |
+| `.qpon` | $3.99 | $2.50 | $0.25 | **$2.50** | **$0.25** |
 
 *Wholesale prices are estimates based on industry norms for new gTLDs. ShortDot does not publish wholesale pricing publicly.*
 

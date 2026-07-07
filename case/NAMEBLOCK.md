@@ -237,8 +237,6 @@ of being owned by the registry that creates the environment.
 
 ---
 
----
-
 ## ShortDot's "Leading Distribution Channels" — The Admission
 
 ShortDot's official website lists the following companies under the heading **"Leading Distribution Channels"**:

@@ -107,7 +107,7 @@ Top registrant emails (≥5 domains, redacted):
 
 ## Shared Hosting Clusters — Live Data (2026-07-04)
 
-Data source: NetAPI zone snapshots. Counts = unique domains across all 7 ShortDot zones
+Data source: ICANN CZDS zone data. Counts = unique domains across all 7 ShortDot zones
 pointing to that IP. Full list: `data/ioc/shared_ips.json`
 
 ### Cloudflare Parking Cluster (368,223 domains)

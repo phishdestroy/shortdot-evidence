@@ -2,12 +2,12 @@
 
 ## Zone Data
 
-**Source:** NetAPI (`https://netapi.com/`) — `download-whois` method, `filter_type=new`, queried per TLD  
+**Source:** ICANN Centralized Zone Data Service (CZDS) — per-TLD zone file access, accredited  
 **Coverage:** All seven ShortDot-operated zones: .icu, .bond, .cyou, .sbs, .cfd, .buzz, .qpon  
 **Update frequency:** Daily (GitHub Actions, 06:00 UTC)  
-**Data format:** CSV (domain, registration date, expiration date, registrar, email, phone, IP, IP country, Majestic rank)
+**Data format:** Domain name, registration/expiration dates, registrar, IP address, IP country
 
-The NetAPI license permits use for security research and threat intelligence. WHOIS data for generic TLDs is publicly accessible per ICANN policy.
+ICANN CZDS access is granted under the CZDS terms of use for security research and threat intelligence. Zone file data for generic TLDs is publicly accessible to accredited parties per ICANN policy.
 
 ## Threat Intelligence Sources
 

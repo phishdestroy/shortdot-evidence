@@ -13,7 +13,7 @@ abstract: >
   .buzz, and .qpon. Includes per-zone abuse statistics, IOC exports (STIX 2.1),
   financial analysis of the registry revenue model, and a documented structural
   conflict of interest between ShortDot's zone operations and its NameBlock
-  brand protection service. Data collected via NetAPI full-zone enumeration,
+  brand protection service. Data collected via ICANN CZDS full-zone enumeration,
   HTTP fingerprinting, and public threat intelligence cross-reference.
   Updated daily.
 keywords:
