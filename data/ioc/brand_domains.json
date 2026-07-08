@@ -1,136 +1,173 @@
 {
-  "generated": "2026-07-07",
-  "total_brand_domains": 19,
-  "total_raw_hits": 19,
-  "total_scanned": 6072,
-  "feed_confirmed": 18631,
-  "pattern_candidates": 754,
+  "generated": "2026-07-08",
+  "total_brand_domains": 17,
+  "total_raw_hits": 17,
+  "total_scanned": 9137,
+  "feed_confirmed": 17916,
+  "pattern_candidates": 1824,
   "categories": {
-    "telecom": 7,
-    "crypto": 5,
+    "crypto": 6,
     "banking": 3,
     "tech": 3,
-    "social": 1
+    "telecom": 2,
+    "social": 2,
+    "payment": 1
   },
   "keywords": {
-    "t-mobile": [
-      "galabet-mobileadres.icu",
-      "grandpashabetmobile2026.icu",
-      "grandpashabetmobilegir.icu",
-      "holiganbetmobile2026.icu",
-      "jojobetmobile2026.icu",
-      "madridbetmobilerisim.icu"
-    ],
-    "amazon": [
-      "amazon-mx.sbs",
-      "eserviceamazonterm.sbs",
-      "amazoon.buzz"
+    "ledger": [
+      "silverledger.cfd",
+      "app-legal-ledger.icu",
+      "purseledgersaving.icu"
     ],
     "discover": [
-      "tomediscovery.cyou",
-      "tomediscoveryhub.cyou"
+      "discovers.buzz"
     ],
-    "argent": [
-      "neobit-argentix.sbs",
-      "telecomargentina.sbs"
+    "anz_bank": [
+      "anz-eigen-region.cfd"
     ],
-    "tiktok": [
-      "tiktokglobal.buzz"
+    "t-mobile": [
+      "betgitmobile.icu"
     ],
-    "staking_portal": [
-      "vapolinstaking.cfd"
+    "metamask": [
+      "metamaskagent.icu"
     ],
-    "bmo_bank": [
-      "bmo-harri.sbs"
+    "fidelity": [
+      "bookfidelityworld.sbs"
     ],
-    "ledger": [
-      "preparednessledger.sbs"
+    "discord": [
+      "discordzapretka.sbs"
+    ],
+    "apple_icloud": [
+      "eaicloud.sbs"
+    ],
+    "interac": [
+      "interactivecourse.sbs"
     ],
     "rogers": [
-      "rogerscanada.sbs"
+      "kennyrogers.sbs"
     ],
-    "tron": [
-      "tron-twt.sbs"
+    "solana": [
+      "meteora-solana.sbs"
+    ],
+    "google": [
+      "ratgoogle.sbs"
+    ],
+    "telegram": [
+      "telegramproxye.sbs"
+    ],
+    "staking_portal": [
+      "vapolinstaking.sbs"
+    ],
+    "amazon": [
+      "amaz-on.icu"
     ]
   },
   "brands": {
-    "T-Mobile": {
-      "count": 6,
-      "category": "telecom",
-      "sample": [
-        "galabet-mobileadres.icu",
-        "grandpashabetmobile2026.icu",
-        "grandpashabetmobilegir.icu",
-        "holiganbetmobile2026.icu",
-        "jojobetmobile2026.icu",
-        "madridbetmobilerisim.icu"
-      ]
-    },
-    "Amazon": {
+    "Ledger": {
       "count": 3,
-      "category": "tech",
+      "category": "crypto",
       "sample": [
-        "amazon-mx.sbs",
-        "eserviceamazonterm.sbs",
-        "amazoon.buzz"
+        "silverledger.cfd",
+        "app-legal-ledger.icu",
+        "purseledgersaving.icu"
       ]
     },
     "Discover": {
-      "count": 2,
+      "count": 1,
       "category": "banking",
       "sample": [
-        "tomediscovery.cyou",
-        "tomediscoveryhub.cyou"
+        "discovers.buzz"
       ]
     },
-    "Argent": {
-      "count": 2,
+    "ANZ Bank": {
+      "count": 1,
+      "category": "banking",
+      "sample": [
+        "anz-eigen-region.cfd"
+      ]
+    },
+    "T-Mobile": {
+      "count": 1,
+      "category": "telecom",
+      "sample": [
+        "betgitmobile.icu"
+      ]
+    },
+    "MetaMask": {
+      "count": 1,
       "category": "crypto",
       "sample": [
-        "neobit-argentix.sbs",
-        "telecomargentina.sbs"
+        "metamaskagent.icu"
       ]
     },
-    "TikTok": {
+    "Fidelity": {
+      "count": 1,
+      "category": "banking",
+      "sample": [
+        "bookfidelityworld.sbs"
+      ]
+    },
+    "Discord": {
       "count": 1,
       "category": "social",
       "sample": [
-        "tiktokglobal.buzz"
+        "discordzapretka.sbs"
       ]
     },
-    "Staking Portal": {
+    "Apple iCloud": {
       "count": 1,
-      "category": "crypto",
+      "category": "tech",
       "sample": [
-        "vapolinstaking.cfd"
+        "eaicloud.sbs"
       ]
     },
-    "BMO Bank": {
+    "Interac": {
       "count": 1,
-      "category": "banking",
+      "category": "payment",
       "sample": [
-        "bmo-harri.sbs"
-      ]
-    },
-    "Ledger": {
-      "count": 1,
-      "category": "crypto",
-      "sample": [
-        "preparednessledger.sbs"
+        "interactivecourse.sbs"
       ]
     },
     "Rogers": {
       "count": 1,
       "category": "telecom",
       "sample": [
-        "rogerscanada.sbs"
+        "kennyrogers.sbs"
       ]
     },
-    "TRON": {
+    "Solana": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "tron-twt.sbs"
+        "meteora-solana.sbs"
+      ]
+    },
+    "Google": {
+      "count": 1,
+      "category": "tech",
+      "sample": [
+        "ratgoogle.sbs"
+      ]
+    },
+    "Telegram": {
+      "count": 1,
+      "category": "social",
+      "sample": [
+        "telegramproxye.sbs"
+      ]
+    },
+    "Staking Portal": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "vapolinstaking.sbs"
+      ]
+    },
+    "Amazon": {
+      "count": 1,
+      "category": "tech",
+      "sample": [
+        "amaz-on.icu"
       ]
     }
   }
