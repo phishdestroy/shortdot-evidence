@@ -1,177 +1,134 @@
 {
-  "generated": "2026-07-09",
-  "total_brand_domains": 21,
-  "total_raw_hits": 21,
-  "total_scanned": 17888,
-  "feed_confirmed": 17012,
-  "pattern_candidates": 834,
+  "generated": "2026-07-10",
+  "total_brand_domains": 18,
+  "total_raw_hits": 18,
+  "total_scanned": 6444,
+  "feed_confirmed": 18409,
+  "pattern_candidates": 743,
   "categories": {
-    "telecom": 5,
+    "banking": 6,
     "tech": 4,
-    "crypto": 3,
-    "banking": 2,
-    "invest_fraud": 2,
-    "smishing": 1,
-    "logistics": 1,
-    "payment": 1,
-    "ecommerce": 1,
-    "gov": 1
+    "crypto": 4,
+    "telecom": 3,
+    "social": 1
   },
   "keywords": {
+    "fidelity": [
+      "aifidelityspace.cyou",
+      "fidelityak.cyou",
+      "fidelityal.cyou",
+      "fidelityam.cyou"
+    ],
+    "apple": [
+      "apple-jp.bond",
+      "apple-jp.buzz",
+      "apple-jp.qpon"
+    ],
     "t-mobile": [
-      "holiganbet-mobilerisin.cfd",
-      "grandpashabetmobilerisim.icu",
-      "matbet-mobilerisim.icu"
+      "grandpashabetmobileadres.icu",
+      "kavbetmobilegiris.icu",
+      "mavibetmobile.icu"
     ],
-    "microsoft": [
-      "outlooks.bond",
-      "outlooks.icu"
+    "discover": [
+      "spiritdiscoverycoach.cyou",
+      "execdiscoverycourse.sbs"
     ],
-    "google": [
-      "st1-colud-google.bond",
-      "googler.icu"
+    "kraken": [
+      "kraken-100amp.buzz"
     ],
-    "trading_bot_scam": [
-      "fb-tradingbotai.icu",
-      "fb-tradingbotai24.icu"
+    "discord": [
+      "discordsapp.cfd"
     ],
-    "vodafone": [
-      "hoimevodafone.sbs",
-      "homevodafone.sbs"
+    "celestia": [
+      "celestialcoachingteam.cyou"
+    ],
+    "base": [
+      "base-rewards.sbs"
     ],
     "ledger": [
-      "ledgerbryn-ai.sbs",
-      "ledgerly.sbs"
+      "ledgerai.sbs"
     ],
-    "toll_smishing": [
-      "etoll-gov.buzz"
-    ],
-    "dhl": [
-      "dhl-huq-com.cfd"
-    ],
-    "bmo_bank": [
-      "fr-ca-bmo.cfd"
-    ],
-    "interac": [
-      "openinteractivejson.cyou"
-    ],
-    "argent": [
-      "argentum100jugar.icu"
-    ],
-    "alibaba": [
-      "alibabaom.sbs"
-    ],
-    "fidelity": [
-      "fidelityonlinehelp.sbs"
-    ],
-    "usps": [
-      "usps-tracking-system.sbs"
+    "microsoft": [
+      "onmicrosoftfolder.sbs"
     ]
   },
   "brands": {
+    "Fidelity": {
+      "count": 4,
+      "category": "banking",
+      "sample": [
+        "aifidelityspace.cyou",
+        "fidelityak.cyou",
+        "fidelityal.cyou",
+        "fidelityam.cyou"
+      ]
+    },
+    "Apple": {
+      "count": 3,
+      "category": "tech",
+      "sample": [
+        "apple-jp.bond",
+        "apple-jp.buzz",
+        "apple-jp.qpon"
+      ]
+    },
     "T-Mobile": {
       "count": 3,
       "category": "telecom",
       "sample": [
-        "holiganbet-mobilerisin.cfd",
-        "grandpashabetmobilerisim.icu",
-        "matbet-mobilerisim.icu"
+        "grandpashabetmobileadres.icu",
+        "kavbetmobilegiris.icu",
+        "mavibetmobile.icu"
       ]
     },
-    "Microsoft": {
+    "Discover": {
       "count": 2,
-      "category": "tech",
+      "category": "banking",
       "sample": [
-        "outlooks.bond",
-        "outlooks.icu"
+        "spiritdiscoverycoach.cyou",
+        "execdiscoverycourse.sbs"
       ]
     },
-    "Google": {
-      "count": 2,
-      "category": "tech",
+    "Kraken": {
+      "count": 1,
+      "category": "crypto",
       "sample": [
-        "st1-colud-google.bond",
-        "googler.icu"
+        "kraken-100amp.buzz"
       ]
     },
-    "Trading Bot Scam": {
-      "count": 2,
-      "category": "invest_fraud",
+    "Discord": {
+      "count": 1,
+      "category": "social",
       "sample": [
-        "fb-tradingbotai.icu",
-        "fb-tradingbotai24.icu"
+        "discordsapp.cfd"
       ]
     },
-    "Vodafone": {
-      "count": 2,
-      "category": "telecom",
+    "Celestia": {
+      "count": 1,
+      "category": "crypto",
       "sample": [
-        "hoimevodafone.sbs",
-        "homevodafone.sbs"
+        "celestialcoachingteam.cyou"
+      ]
+    },
+    "Base": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "base-rewards.sbs"
       ]
     },
     "Ledger": {
-      "count": 2,
-      "category": "crypto",
-      "sample": [
-        "ledgerbryn-ai.sbs",
-        "ledgerly.sbs"
-      ]
-    },
-    "Toll Smishing": {
-      "count": 1,
-      "category": "smishing",
-      "sample": [
-        "etoll-gov.buzz"
-      ]
-    },
-    "DHL": {
-      "count": 1,
-      "category": "logistics",
-      "sample": [
-        "dhl-huq-com.cfd"
-      ]
-    },
-    "BMO Bank": {
-      "count": 1,
-      "category": "banking",
-      "sample": [
-        "fr-ca-bmo.cfd"
-      ]
-    },
-    "Interac": {
-      "count": 1,
-      "category": "payment",
-      "sample": [
-        "openinteractivejson.cyou"
-      ]
-    },
-    "Argent": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "argentum100jugar.icu"
+        "ledgerai.sbs"
       ]
     },
-    "Alibaba": {
+    "Microsoft": {
       "count": 1,
-      "category": "ecommerce",
+      "category": "tech",
       "sample": [
-        "alibabaom.sbs"
-      ]
-    },
-    "Fidelity": {
-      "count": 1,
-      "category": "banking",
-      "sample": [
-        "fidelityonlinehelp.sbs"
-      ]
-    },
-    "USPS": {
-      "count": 1,
-      "category": "gov",
-      "sample": [
-        "usps-tracking-system.sbs"
+        "onmicrosoftfolder.sbs"
       ]
     }
   }
