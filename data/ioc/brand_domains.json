@@ -1,134 +1,109 @@
 {
-  "generated": "2026-07-10",
-  "total_brand_domains": 18,
-  "total_raw_hits": 18,
-  "total_scanned": 6444,
-  "feed_confirmed": 18409,
-  "pattern_candidates": 743,
+  "generated": "2026-07-11",
+  "total_brand_domains": 10,
+  "total_raw_hits": 10,
+  "total_scanned": 7565,
+  "feed_confirmed": 16231,
+  "pattern_candidates": 1231,
   "categories": {
-    "banking": 6,
-    "tech": 4,
-    "crypto": 4,
-    "telecom": 3,
-    "social": 1
+    "crypto": 5,
+    "social": 3,
+    "logistics": 1,
+    "ecommerce": 1
   },
   "keywords": {
-    "fidelity": [
-      "aifidelityspace.cyou",
-      "fidelityak.cyou",
-      "fidelityal.cyou",
-      "fidelityam.cyou"
-    ],
-    "apple": [
-      "apple-jp.bond",
-      "apple-jp.buzz",
-      "apple-jp.qpon"
-    ],
-    "t-mobile": [
-      "grandpashabetmobileadres.icu",
-      "kavbetmobilegiris.icu",
-      "mavibetmobile.icu"
-    ],
-    "discover": [
-      "spiritdiscoverycoach.cyou",
-      "execdiscoverycourse.sbs"
-    ],
-    "kraken": [
-      "kraken-100amp.buzz"
-    ],
-    "discord": [
-      "discordsapp.cfd"
-    ],
     "celestia": [
-      "celestialcoachingteam.cyou"
+      "celestialwisdom.cyou",
+      "celestiaraalliance.sbs"
     ],
-    "base": [
-      "base-rewards.sbs"
+    "argent": [
+      "argentaonline.cfd"
+    ],
+    "ups": [
+      "ups-no.cfd"
+    ],
+    "telegram": [
+      "holiganbet-telegram.icu"
+    ],
+    "ebay": [
+      "ebay-kleinanzeigen.sbs"
+    ],
+    "facebook": [
+      "facebook-log.sbs"
     ],
     "ledger": [
-      "ledgerai.sbs"
+      "thegaladariledger.sbs"
     ],
-    "microsoft": [
-      "onmicrosoftfolder.sbs"
+    "petra_wallet": [
+      "villavickystudios-petra.sbs"
+    ],
+    "instagram": [
+      "lnstagram.cyou"
     ]
   },
   "brands": {
-    "Fidelity": {
-      "count": 4,
-      "category": "banking",
-      "sample": [
-        "aifidelityspace.cyou",
-        "fidelityak.cyou",
-        "fidelityal.cyou",
-        "fidelityam.cyou"
-      ]
-    },
-    "Apple": {
-      "count": 3,
-      "category": "tech",
-      "sample": [
-        "apple-jp.bond",
-        "apple-jp.buzz",
-        "apple-jp.qpon"
-      ]
-    },
-    "T-Mobile": {
-      "count": 3,
-      "category": "telecom",
-      "sample": [
-        "grandpashabetmobileadres.icu",
-        "kavbetmobilegiris.icu",
-        "mavibetmobile.icu"
-      ]
-    },
-    "Discover": {
+    "Celestia": {
       "count": 2,
-      "category": "banking",
+      "category": "crypto",
       "sample": [
-        "spiritdiscoverycoach.cyou",
-        "execdiscoverycourse.sbs"
+        "celestialwisdom.cyou",
+        "celestiaraalliance.sbs"
       ]
     },
-    "Kraken": {
+    "Argent": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "kraken-100amp.buzz"
+        "argentaonline.cfd"
       ]
     },
-    "Discord": {
+    "UPS": {
+      "count": 1,
+      "category": "logistics",
+      "sample": [
+        "ups-no.cfd"
+      ]
+    },
+    "Telegram": {
       "count": 1,
       "category": "social",
       "sample": [
-        "discordsapp.cfd"
+        "holiganbet-telegram.icu"
       ]
     },
-    "Celestia": {
+    "eBay": {
       "count": 1,
-      "category": "crypto",
+      "category": "ecommerce",
       "sample": [
-        "celestialcoachingteam.cyou"
+        "ebay-kleinanzeigen.sbs"
       ]
     },
-    "Base": {
+    "Facebook": {
       "count": 1,
-      "category": "crypto",
+      "category": "social",
       "sample": [
-        "base-rewards.sbs"
+        "facebook-log.sbs"
       ]
     },
     "Ledger": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "ledgerai.sbs"
+        "thegaladariledger.sbs"
       ]
     },
-    "Microsoft": {
+    "Petra Wallet": {
       "count": 1,
-      "category": "tech",
+      "category": "crypto",
       "sample": [
-        "onmicrosoftfolder.sbs"
+        "villavickystudios-petra.sbs"
+      ]
+    },
+    "Instagram": {
+      "count": 1,
+      "category": "social",
+      "sample": [
+        "lnstagram.cyou"
       ]
     }
   }
