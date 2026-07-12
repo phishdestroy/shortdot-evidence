@@ -1,109 +1,86 @@
 {
-  "generated": "2026-07-11",
-  "total_brand_domains": 10,
-  "total_raw_hits": 10,
-  "total_scanned": 7565,
-  "feed_confirmed": 16231,
-  "pattern_candidates": 1231,
+  "generated": "2026-07-12",
+  "total_brand_domains": 7,
+  "total_raw_hits": 7,
+  "total_scanned": 8750,
+  "feed_confirmed": 16473,
+  "pattern_candidates": 1034,
   "categories": {
-    "crypto": 5,
-    "social": 3,
-    "logistics": 1,
-    "ecommerce": 1
+    "crypto": 4,
+    "tech": 2,
+    "payment": 1
   },
   "keywords": {
-    "celestia": [
-      "celestialwisdom.cyou",
-      "celestiaraalliance.sbs"
-    ],
-    "argent": [
-      "argentaonline.cfd"
-    ],
-    "ups": [
-      "ups-no.cfd"
-    ],
-    "telegram": [
-      "holiganbet-telegram.icu"
-    ],
-    "ebay": [
-      "ebay-kleinanzeigen.sbs"
-    ],
-    "facebook": [
-      "facebook-log.sbs"
-    ],
     "ledger": [
-      "thegaladariledger.sbs"
+      "ledgernet.buzz"
     ],
-    "petra_wallet": [
-      "villavickystudios-petra.sbs"
+    "celestia": [
+      "celestialkaquam.cfd"
     ],
-    "instagram": [
-      "lnstagram.cyou"
+    "cosmos": [
+      "cosmos173.cfd"
+    ],
+    "stripe": [
+      "stripeqbitvr.cyou"
+    ],
+    "amazon": [
+      "chainamazoncominteresting65.sbs"
+    ],
+    "jupiter": [
+      "jupiter005.sbs"
+    ],
+    "google": [
+      "sgoogle.sbs"
     ]
   },
   "brands": {
-    "Celestia": {
-      "count": 2,
-      "category": "crypto",
-      "sample": [
-        "celestialwisdom.cyou",
-        "celestiaraalliance.sbs"
-      ]
-    },
-    "Argent": {
-      "count": 1,
-      "category": "crypto",
-      "sample": [
-        "argentaonline.cfd"
-      ]
-    },
-    "UPS": {
-      "count": 1,
-      "category": "logistics",
-      "sample": [
-        "ups-no.cfd"
-      ]
-    },
-    "Telegram": {
-      "count": 1,
-      "category": "social",
-      "sample": [
-        "holiganbet-telegram.icu"
-      ]
-    },
-    "eBay": {
-      "count": 1,
-      "category": "ecommerce",
-      "sample": [
-        "ebay-kleinanzeigen.sbs"
-      ]
-    },
-    "Facebook": {
-      "count": 1,
-      "category": "social",
-      "sample": [
-        "facebook-log.sbs"
-      ]
-    },
     "Ledger": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "thegaladariledger.sbs"
+        "ledgernet.buzz"
       ]
     },
-    "Petra Wallet": {
+    "Celestia": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "villavickystudios-petra.sbs"
+        "celestialkaquam.cfd"
       ]
     },
-    "Instagram": {
+    "Cosmos": {
       "count": 1,
-      "category": "social",
+      "category": "crypto",
       "sample": [
-        "lnstagram.cyou"
+        "cosmos173.cfd"
+      ]
+    },
+    "Stripe": {
+      "count": 1,
+      "category": "payment",
+      "sample": [
+        "stripeqbitvr.cyou"
+      ]
+    },
+    "Amazon": {
+      "count": 1,
+      "category": "tech",
+      "sample": [
+        "chainamazoncominteresting65.sbs"
+      ]
+    },
+    "Jupiter": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "jupiter005.sbs"
+      ]
+    },
+    "Google": {
+      "count": 1,
+      "category": "tech",
+      "sample": [
+        "sgoogle.sbs"
       ]
     }
   }
