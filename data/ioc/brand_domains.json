@@ -1,86 +1,103 @@
 {
-  "generated": "2026-07-12",
-  "total_brand_domains": 7,
-  "total_raw_hits": 7,
-  "total_scanned": 8750,
-  "feed_confirmed": 16473,
-  "pattern_candidates": 1034,
+  "generated": "2026-07-13",
+  "total_brand_domains": 10,
+  "total_raw_hits": 10,
+  "total_scanned": 5659,
+  "feed_confirmed": 16628,
+  "pattern_candidates": 777,
   "categories": {
-    "crypto": 4,
-    "tech": 2,
-    "payment": 1
+    "tech": 3,
+    "crypto": 2,
+    "telecom": 2,
+    "logistics": 1,
+    "banking": 1,
+    "ecommerce": 1
   },
   "keywords": {
-    "ledger": [
-      "ledgernet.buzz"
+    "apple": [
+      "id-apple.icu",
+      "appie.buzz"
     ],
-    "celestia": [
-      "celestialkaquam.cfd"
+    "t-mobile": [
+      "jojobetmobile.icu",
+      "mariobetmobile.icu"
     ],
-    "cosmos": [
-      "cosmos173.cfd"
+    "argent": [
+      "correoiargentino.buzz"
     ],
-    "stripe": [
-      "stripeqbitvr.cyou"
+    "dhl": [
+      "info-dhl.cfd"
     ],
-    "amazon": [
-      "chainamazoncominteresting65.sbs"
+    "bank_of_america": [
+      "www-bankofamericaijcf.cfd"
     ],
-    "jupiter": [
-      "jupiter005.sbs"
+    "crypto_drainer": [
+      "kinsdrainerhandsaw.cyou"
     ],
-    "google": [
-      "sgoogle.sbs"
+    "ebay": [
+      "ebay-payments1.icu"
+    ],
+    "microsoft": [
+      "industryoutlook.sbs"
     ]
   },
   "brands": {
-    "Ledger": {
+    "Apple": {
+      "count": 2,
+      "category": "tech",
+      "sample": [
+        "id-apple.icu",
+        "appie.buzz"
+      ]
+    },
+    "T-Mobile": {
+      "count": 2,
+      "category": "telecom",
+      "sample": [
+        "jojobetmobile.icu",
+        "mariobetmobile.icu"
+      ]
+    },
+    "Argent": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "ledgernet.buzz"
+        "correoiargentino.buzz"
       ]
     },
-    "Celestia": {
+    "DHL": {
+      "count": 1,
+      "category": "logistics",
+      "sample": [
+        "info-dhl.cfd"
+      ]
+    },
+    "Bank of America": {
+      "count": 1,
+      "category": "banking",
+      "sample": [
+        "www-bankofamericaijcf.cfd"
+      ]
+    },
+    "Crypto Drainer": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "celestialkaquam.cfd"
+        "kinsdrainerhandsaw.cyou"
       ]
     },
-    "Cosmos": {
+    "eBay": {
       "count": 1,
-      "category": "crypto",
+      "category": "ecommerce",
       "sample": [
-        "cosmos173.cfd"
+        "ebay-payments1.icu"
       ]
     },
-    "Stripe": {
-      "count": 1,
-      "category": "payment",
-      "sample": [
-        "stripeqbitvr.cyou"
-      ]
-    },
-    "Amazon": {
+    "Microsoft": {
       "count": 1,
       "category": "tech",
       "sample": [
-        "chainamazoncominteresting65.sbs"
-      ]
-    },
-    "Jupiter": {
-      "count": 1,
-      "category": "crypto",
-      "sample": [
-        "jupiter005.sbs"
-      ]
-    },
-    "Google": {
-      "count": 1,
-      "category": "tech",
-      "sample": [
-        "sgoogle.sbs"
+        "industryoutlook.sbs"
       ]
     }
   }

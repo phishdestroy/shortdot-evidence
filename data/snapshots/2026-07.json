@@ -1,10 +1,10 @@
 {
   "month": "2026-07",
-  "generated": "2026-07-12",
-  "total_domains": 8750,
-  "total_rev_retail": 144687.0,
-  "total_rev_wholesale": 14865.5,
-  "total_icann_fees": 182787.5,
+  "generated": "2026-07-13",
+  "total_domains": 5581,
+  "total_rev_retail": 92234.19,
+  "total_rev_wholesale": 8636.55,
+  "total_icann_fees": 181995.25,
   "avg_reg_days": 365,
   "deployment_rate": 0.0,
   "fresh_pct": 100.0,
@@ -14,59 +14,59 @@
   "legit_count": 0,
   "tld_stats": {
     "icu": {
-      "count": 1384,
+      "count": 1685,
       "deployed": 0,
-      "no_ip": 1384,
+      "no_ip": 1685,
       "deploy_rate": 0.0,
-      "revenue": 899.6,
+      "revenue": 1095.25,
       "price": 0.65
     },
     "bond": {
-      "count": 218,
+      "count": 390,
       "deployed": 0,
-      "no_ip": 218,
+      "no_ip": 390,
       "deploy_rate": 0.0,
-      "revenue": 1417.0,
+      "revenue": 2535.0,
       "price": 6.5
     },
     "cyou": {
-      "count": 815,
+      "count": 877,
       "deployed": 0,
-      "no_ip": 815,
+      "no_ip": 877,
       "deploy_rate": 0.0,
-      "revenue": 529.75,
+      "revenue": 570.05,
       "price": 0.65
     },
     "sbs": {
-      "count": 2312,
+      "count": 955,
       "deployed": 0,
-      "no_ip": 2312,
+      "no_ip": 955,
       "deploy_rate": 0.0,
-      "revenue": 1502.8,
+      "revenue": 620.75,
       "price": 0.65
     },
     "cfd": {
-      "count": 959,
+      "count": 625,
       "deployed": 0,
-      "no_ip": 959,
+      "no_ip": 625,
       "deploy_rate": 0.0,
-      "revenue": 623.35,
+      "revenue": 406.25,
       "price": 0.65
     },
     "buzz": {
-      "count": 2984,
+      "count": 1049,
       "deployed": 0,
-      "no_ip": 2984,
+      "no_ip": 1049,
       "deploy_rate": 0.0,
-      "revenue": 9698.0,
+      "revenue": 3409.25,
       "price": 3.25
     },
     "qpon": {
-      "count": 78,
+      "count": 0,
       "deployed": 0,
-      "no_ip": 78,
-      "deploy_rate": 0.0,
-      "revenue": 195.0,
+      "no_ip": 0,
+      "deploy_rate": 0,
+      "revenue": 0,
       "price": 2.5
     }
   }
