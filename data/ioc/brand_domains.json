@@ -1,103 +1,92 @@
 {
-  "generated": "2026-07-13",
-  "total_brand_domains": 10,
-  "total_raw_hits": 10,
-  "total_scanned": 5659,
-  "feed_confirmed": 16628,
-  "pattern_candidates": 777,
+  "generated": "2026-07-14",
+  "total_brand_domains": 9,
+  "total_raw_hits": 9,
+  "total_scanned": 3806,
+  "feed_confirmed": 16797,
+  "pattern_candidates": 516,
   "categories": {
-    "tech": 3,
-    "crypto": 2,
+    "crypto": 3,
+    "payment": 2,
     "telecom": 2,
-    "logistics": 1,
-    "banking": 1,
-    "ecommerce": 1
+    "social": 1,
+    "tech": 1
   },
   "keywords": {
-    "apple": [
-      "id-apple.icu",
-      "appie.buzz"
+    "argent": [
+      "correoiargentino.buzz",
+      "vamos-argentina.cfd"
     ],
     "t-mobile": [
-      "jojobetmobile.icu",
-      "mariobetmobile.icu"
+      "holiganbetmobileapp.icu",
+      "jojobetmobilegiris.icu"
     ],
-    "argent": [
-      "correoiargentino.buzz"
+    "interac": [
+      "interac-cash.cfd"
     ],
-    "dhl": [
-      "info-dhl.cfd"
+    "claim_portal": [
+      "text-claim-esl.cfd"
     ],
-    "bank_of_america": [
-      "www-bankofamericaijcf.cfd"
+    "revolut": [
+      "revolute-jp.icu"
     ],
-    "crypto_drainer": [
-      "kinsdrainerhandsaw.cyou"
+    "tiktok": [
+      "rendatiktok.sbs"
     ],
-    "ebay": [
-      "ebay-payments1.icu"
-    ],
-    "microsoft": [
-      "industryoutlook.sbs"
+    "apple": [
+      "appie.buzz"
     ]
   },
   "brands": {
-    "Apple": {
+    "Argent": {
       "count": 2,
-      "category": "tech",
+      "category": "crypto",
       "sample": [
-        "id-apple.icu",
-        "appie.buzz"
+        "correoiargentino.buzz",
+        "vamos-argentina.cfd"
       ]
     },
     "T-Mobile": {
       "count": 2,
       "category": "telecom",
       "sample": [
-        "jojobetmobile.icu",
-        "mariobetmobile.icu"
+        "holiganbetmobileapp.icu",
+        "jojobetmobilegiris.icu"
       ]
     },
-    "Argent": {
+    "Interac": {
+      "count": 1,
+      "category": "payment",
+      "sample": [
+        "interac-cash.cfd"
+      ]
+    },
+    "Claim Portal": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "correoiargentino.buzz"
+        "text-claim-esl.cfd"
       ]
     },
-    "DHL": {
+    "Revolut": {
       "count": 1,
-      "category": "logistics",
+      "category": "payment",
       "sample": [
-        "info-dhl.cfd"
+        "revolute-jp.icu"
       ]
     },
-    "Bank of America": {
+    "TikTok": {
       "count": 1,
-      "category": "banking",
+      "category": "social",
       "sample": [
-        "www-bankofamericaijcf.cfd"
+        "rendatiktok.sbs"
       ]
     },
-    "Crypto Drainer": {
-      "count": 1,
-      "category": "crypto",
-      "sample": [
-        "kinsdrainerhandsaw.cyou"
-      ]
-    },
-    "eBay": {
-      "count": 1,
-      "category": "ecommerce",
-      "sample": [
-        "ebay-payments1.icu"
-      ]
-    },
-    "Microsoft": {
+    "Apple": {
       "count": 1,
       "category": "tech",
       "sample": [
-        "industryoutlook.sbs"
+        "appie.buzz"
       ]
     }
   }

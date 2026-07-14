@@ -1,80 +1,80 @@
 {
   "days": [
     {
-      "date": "2026-07-13",
-      "count": 5581,
-      "revenue_wholesale": 8636.55,
-      "icann_fees": 1395.25,
-      "path": "data/new/2026/07/2026-07-13.txt"
+      "date": "2026-07-14",
+      "count": 2757,
+      "revenue_wholesale": 2648.75,
+      "icann_fees": 689.25,
+      "path": "data/new/2026/07/2026-07-14.txt"
     }
   ],
-  "total_domains": 5581,
+  "total_domains": 2757,
   "tld_breakdown": {
     "icu": {
-      "count": 1685,
+      "count": 961,
       "deployed": 0,
-      "no_ip": 1685,
+      "no_ip": 961,
       "deploy_rate": 0.0,
-      "revenue": 1095.25,
+      "revenue": 624.65,
       "price": 0.65
     },
     "bond": {
-      "count": 390,
+      "count": 130,
       "deployed": 0,
-      "no_ip": 390,
+      "no_ip": 130,
       "deploy_rate": 0.0,
-      "revenue": 2535.0,
+      "revenue": 845.0,
       "price": 6.5
     },
     "cyou": {
-      "count": 877,
+      "count": 398,
       "deployed": 0,
-      "no_ip": 877,
+      "no_ip": 398,
       "deploy_rate": 0.0,
-      "revenue": 570.05,
+      "revenue": 258.7,
       "price": 0.65
     },
     "sbs": {
-      "count": 955,
+      "count": 694,
       "deployed": 0,
-      "no_ip": 955,
+      "no_ip": 694,
       "deploy_rate": 0.0,
-      "revenue": 620.75,
+      "revenue": 451.1,
       "price": 0.65
     },
     "cfd": {
-      "count": 625,
+      "count": 522,
       "deployed": 0,
-      "no_ip": 625,
+      "no_ip": 522,
       "deploy_rate": 0.0,
-      "revenue": 406.25,
+      "revenue": 339.3,
       "price": 0.65
     },
     "buzz": {
-      "count": 1049,
-      "deployed": 0,
-      "no_ip": 1049,
-      "deploy_rate": 0.0,
-      "revenue": 3409.25,
-      "price": 3.25
-    },
-    "qpon": {
       "count": 0,
       "deployed": 0,
       "no_ip": 0,
       "deploy_rate": 0,
       "revenue": 0,
+      "price": 3.25
+    },
+    "qpon": {
+      "count": 52,
+      "deployed": 0,
+      "no_ip": 52,
+      "deploy_rate": 0.0,
+      "revenue": 130.0,
       "price": 2.5
     }
   },
-  "total_rev_retail": 92234.19,
-  "total_rev_wholesale": 8636.55,
-  "total_icann_fees": 181995.25,
+  "total_rev_retail": 46499.43,
+  "total_rev_wholesale": 2648.75,
+  "total_icann_fees": 181289.25,
   "avg_registration_days": 365,
   "ip_countries": {},
   "top_shared_ips": {},
   "deployed_count": 0,
-  "no_ip_count": 5581,
+  "no_ip_count": 2757,
   "deployment_rate": 0.0,
   "reg_periods": {
     "lt_1yr": 0,
@@ -85,7 +85,7 @@
   "pct_gt_1yr": 0,
   "pct_gt_2yr": 0,
   "catch_age_buckets": {
-    "same_day": 5581,
+    "same_day": 2757,
     "within_week": 0,
     "within_month": 0,
     "older": 0
@@ -94,42 +94,42 @@
   "fresh_pct": 100.0,
   "burst_days": [
     {
-      "date": "2026-07-13",
-      "count": 5581,
+      "date": "2026-07-14",
+      "count": 2757,
       "x_avg": 1.0
     }
   ],
   "brand_heatmap": {
-    "finance": 53,
-    "dia": 12,
-    "official": 12,
-    "hop": 12,
-    "gaming": 8,
+    "finance": 59,
+    "official": 27,
+    "bonus": 24,
+    "secure": 10,
+    "portal": 10,
+    "account": 8,
     "eos": 7,
-    "portal": 6,
-    "secure": 5,
-    "icon": 5,
-    "sui": 5,
-    "service": 5,
-    "account": 4,
-    "gift": 4,
-    "confirm": 4,
-    "wise": 4,
-    "bonus": 4,
+    "service": 4,
+    "reward": 3,
     "neo": 3,
-    "bank": 3,
-    "crypto": 3,
-    "drop": 3,
-    "join": 3,
-    "invest": 3,
-    "verify": 3,
-    "defi": 3,
-    "nomad": 2,
-    "invite": 2,
-    "quest": 2,
-    "drain": 2,
-    "lido": 2,
-    "aurora": 2
+    "claim": 3,
+    "hop": 2,
+    "case": 2,
+    "confirm": 2,
+    "hive": 2,
+    "aura": 2,
+    "tron": 2,
+    "gaming": 2,
+    "security": 2,
+    "maple": 2,
+    "auth": 2,
+    "claims": 2,
+    "drift": 2,
+    "iron": 1,
+    "launch": 1,
+    "trading": 1,
+    "seed": 1,
+    "capital": 1,
+    "login": 1,
+    "argent": 1
   },
   "unranked_pct": 100.0,
   "ranked_count": 0,
@@ -138,5 +138,5 @@
   "legit_count": 0,
   "serial_email_count": 0,
   "legit_ratio_pct": 0.0,
-  "last_updated": "2026-07-13"
+  "last_updated": "2026-07-14"
 }
