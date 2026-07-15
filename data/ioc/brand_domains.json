@@ -1,22 +1,17 @@
 {
-  "generated": "2026-07-14",
-  "total_brand_domains": 9,
-  "total_raw_hits": 9,
-  "total_scanned": 3806,
-  "feed_confirmed": 16797,
-  "pattern_candidates": 516,
+  "generated": "2026-07-15",
+  "total_brand_domains": 7,
+  "total_raw_hits": 7,
+  "total_scanned": 4412,
+  "feed_confirmed": 16750,
+  "pattern_candidates": 524,
   "categories": {
-    "crypto": 3,
     "payment": 2,
+    "crypto": 2,
     "telecom": 2,
-    "social": 1,
-    "tech": 1
+    "social": 1
   },
   "keywords": {
-    "argent": [
-      "correoiargentino.buzz",
-      "vamos-argentina.cfd"
-    ],
     "t-mobile": [
       "holiganbetmobileapp.icu",
       "jojobetmobilegiris.icu"
@@ -27,25 +22,17 @@
     "claim_portal": [
       "text-claim-esl.cfd"
     ],
+    "argent": [
+      "vamos-argentina.cfd"
+    ],
     "revolut": [
       "revolute-jp.icu"
     ],
     "tiktok": [
       "rendatiktok.sbs"
-    ],
-    "apple": [
-      "appie.buzz"
     ]
   },
   "brands": {
-    "Argent": {
-      "count": 2,
-      "category": "crypto",
-      "sample": [
-        "correoiargentino.buzz",
-        "vamos-argentina.cfd"
-      ]
-    },
     "T-Mobile": {
       "count": 2,
       "category": "telecom",
@@ -68,6 +55,13 @@
         "text-claim-esl.cfd"
       ]
     },
+    "Argent": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "vamos-argentina.cfd"
+      ]
+    },
     "Revolut": {
       "count": 1,
       "category": "payment",
@@ -80,13 +74,6 @@
       "category": "social",
       "sample": [
         "rendatiktok.sbs"
-      ]
-    },
-    "Apple": {
-      "count": 1,
-      "category": "tech",
-      "sample": [
-        "appie.buzz"
       ]
     }
   }
