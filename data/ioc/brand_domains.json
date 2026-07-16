@@ -1,79 +1,197 @@
 {
-  "generated": "2026-07-15",
-  "total_brand_domains": 7,
-  "total_raw_hits": 7,
-  "total_scanned": 4412,
-  "feed_confirmed": 16750,
-  "pattern_candidates": 524,
+  "generated": "2026-07-16",
+  "total_brand_domains": 25,
+  "total_raw_hits": 25,
+  "total_scanned": 13730,
+  "feed_confirmed": 16814,
+  "pattern_candidates": 2711,
   "categories": {
-    "payment": 2,
-    "crypto": 2,
-    "telecom": 2,
+    "crypto": 13,
+    "telecom": 5,
+    "payment": 3,
+    "tech": 2,
+    "ecommerce": 1,
     "social": 1
   },
   "keywords": {
     "t-mobile": [
-      "holiganbetmobileapp.icu",
-      "jojobetmobilegiris.icu"
+      "galabet-mobile.icu",
+      "galabet-mobilerisim.icu",
+      "jojobet-mobile.icu",
+      "lunabetmobile.icu",
+      "tumbet-mobilerisim.icu"
+    ],
+    "solana": [
+      "solanavolumebot.buzz",
+      "solanachangers.cyou",
+      "drift-solana.sbs"
+    ],
+    "ledger": [
+      "novaledger.buzz",
+      "startupledger.sbs"
     ],
     "interac": [
-      "interac-cash.cfd"
-    ],
-    "claim_portal": [
-      "text-claim-esl.cfd"
+      "interac-id.cfd",
+      "interacorp.cfd"
     ],
     "argent": [
-      "vamos-argentina.cfd"
+      "verargentinainglaterra.cfd",
+      "argentina-play.sbs"
     ],
-    "revolut": [
-      "revolute-jp.icu"
+    "exodus": [
+      "exodusplumbing.buzz"
     ],
-    "tiktok": [
-      "rendatiktok.sbs"
+    "amazon": [
+      "culturaamazonica.cfd"
+    ],
+    "petra_wallet": [
+      "villavickystudios-petra.cfd"
+    ],
+    "walmart": [
+      "walmartgw.cfd"
+    ],
+    "stripe": [
+      "cstripes.cyou"
+    ],
+    "apple_icloud": [
+      "infoicloud.icu"
+    ],
+    "kraken": [
+      "kraken-signin-session.icu"
+    ],
+    "base": [
+      "secure-lake-3749-base-3810d.icu"
+    ],
+    "whatsapp": [
+      "xn--whatsapp-zs8m440ksi9d4x3a.icu"
+    ],
+    "hyperliquid": [
+      "hyperliquid-xyz.sbs"
+    ],
+    "sushiswap": [
+      "sushiswap-dex.sbs"
     ]
   },
   "brands": {
     "T-Mobile": {
-      "count": 2,
+      "count": 5,
       "category": "telecom",
       "sample": [
-        "holiganbetmobileapp.icu",
-        "jojobetmobilegiris.icu"
+        "galabet-mobile.icu",
+        "galabet-mobilerisim.icu",
+        "jojobet-mobile.icu",
+        "lunabetmobile.icu",
+        "tumbet-mobilerisim.icu"
+      ]
+    },
+    "Solana": {
+      "count": 3,
+      "category": "crypto",
+      "sample": [
+        "solanavolumebot.buzz",
+        "solanachangers.cyou",
+        "drift-solana.sbs"
+      ]
+    },
+    "Ledger": {
+      "count": 2,
+      "category": "crypto",
+      "sample": [
+        "novaledger.buzz",
+        "startupledger.sbs"
       ]
     },
     "Interac": {
-      "count": 1,
+      "count": 2,
       "category": "payment",
       "sample": [
-        "interac-cash.cfd"
-      ]
-    },
-    "Claim Portal": {
-      "count": 1,
-      "category": "crypto",
-      "sample": [
-        "text-claim-esl.cfd"
+        "interac-id.cfd",
+        "interacorp.cfd"
       ]
     },
     "Argent": {
+      "count": 2,
+      "category": "crypto",
+      "sample": [
+        "verargentinainglaterra.cfd",
+        "argentina-play.sbs"
+      ]
+    },
+    "Exodus": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "vamos-argentina.cfd"
+        "exodusplumbing.buzz"
       ]
     },
-    "Revolut": {
+    "Amazon": {
+      "count": 1,
+      "category": "tech",
+      "sample": [
+        "culturaamazonica.cfd"
+      ]
+    },
+    "Petra Wallet": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "villavickystudios-petra.cfd"
+      ]
+    },
+    "Walmart": {
+      "count": 1,
+      "category": "ecommerce",
+      "sample": [
+        "walmartgw.cfd"
+      ]
+    },
+    "Stripe": {
       "count": 1,
       "category": "payment",
       "sample": [
-        "revolute-jp.icu"
+        "cstripes.cyou"
       ]
     },
-    "TikTok": {
+    "Apple iCloud": {
+      "count": 1,
+      "category": "tech",
+      "sample": [
+        "infoicloud.icu"
+      ]
+    },
+    "Kraken": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "kraken-signin-session.icu"
+      ]
+    },
+    "Base": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "secure-lake-3749-base-3810d.icu"
+      ]
+    },
+    "WhatsApp": {
       "count": 1,
       "category": "social",
       "sample": [
-        "rendatiktok.sbs"
+        "xn--whatsapp-zs8m440ksi9d4x3a.icu"
+      ]
+    },
+    "Hyperliquid": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "hyperliquid-xyz.sbs"
+      ]
+    },
+    "SushiSwap": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "sushiswap-dex.sbs"
       ]
     }
   }

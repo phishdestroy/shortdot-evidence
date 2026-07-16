@@ -1,80 +1,80 @@
 {
   "days": [
     {
-      "date": "2026-07-15",
-      "count": 1707,
-      "revenue_wholesale": 5468.25,
-      "icann_fees": 426.75,
-      "path": "data/new/2026/07/2026-07-15.txt"
+      "date": "2026-07-16",
+      "count": 13730,
+      "revenue_wholesale": 14148.95,
+      "icann_fees": 3432.5,
+      "path": "data/new/2026/07/2026-07-16.txt"
     }
   ],
-  "total_domains": 1707,
+  "total_domains": 13730,
   "tld_breakdown": {
     "icu": {
-      "count": 0,
+      "count": 3477,
       "deployed": 0,
-      "no_ip": 0,
-      "deploy_rate": 0,
-      "revenue": 0,
+      "no_ip": 3477,
+      "deploy_rate": 0.0,
+      "revenue": 2260.05,
       "price": 0.65
     },
     "bond": {
-      "count": 0,
+      "count": 344,
       "deployed": 0,
-      "no_ip": 0,
-      "deploy_rate": 0,
-      "revenue": 0,
+      "no_ip": 344,
+      "deploy_rate": 0.0,
+      "revenue": 2236.0,
       "price": 6.5
     },
     "cyou": {
-      "count": 0,
+      "count": 1979,
       "deployed": 0,
-      "no_ip": 0,
-      "deploy_rate": 0,
-      "revenue": 0,
+      "no_ip": 1979,
+      "deploy_rate": 0.0,
+      "revenue": 1286.35,
       "price": 0.65
     },
     "sbs": {
-      "count": 0,
+      "count": 4569,
       "deployed": 0,
-      "no_ip": 0,
-      "deploy_rate": 0,
-      "revenue": 0,
+      "no_ip": 4569,
+      "deploy_rate": 0.0,
+      "revenue": 2969.85,
       "price": 0.65
     },
     "cfd": {
-      "count": 0,
+      "count": 2093,
       "deployed": 0,
-      "no_ip": 0,
-      "deploy_rate": 0,
-      "revenue": 0,
+      "no_ip": 2093,
+      "deploy_rate": 0.0,
+      "revenue": 1360.45,
       "price": 0.65
     },
     "buzz": {
-      "count": 1601,
+      "count": 1155,
       "deployed": 0,
-      "no_ip": 1601,
+      "no_ip": 1155,
       "deploy_rate": 0.0,
-      "revenue": 5203.25,
+      "revenue": 3753.75,
       "price": 3.25
     },
     "qpon": {
-      "count": 106,
+      "count": 113,
       "deployed": 0,
-      "no_ip": 106,
+      "no_ip": 113,
       "deploy_rate": 0.0,
-      "revenue": 265.0,
+      "revenue": 282.5,
       "price": 2.5
     }
   },
-  "total_rev_retail": 25057.93,
-  "total_rev_wholesale": 5468.25,
-  "total_icann_fees": 181026.75,
+  "total_rev_retail": 230491.7,
+  "total_rev_wholesale": 14148.95,
+  "total_icann_fees": 184032.5,
   "avg_registration_days": 365,
   "ip_countries": {},
   "top_shared_ips": {},
   "deployed_count": 0,
-  "no_ip_count": 1707,
+  "no_ip_count": 13730,
   "deployment_rate": 0.0,
   "reg_periods": {
     "lt_1yr": 0,
@@ -85,7 +85,7 @@
   "pct_gt_1yr": 0,
   "pct_gt_2yr": 0,
   "catch_age_buckets": {
-    "same_day": 1707,
+    "same_day": 13730,
     "within_week": 0,
     "within_month": 0,
     "older": 0
@@ -94,31 +94,49 @@
   "fresh_pct": 100.0,
   "burst_days": [
     {
-      "date": "2026-07-15",
-      "count": 1707,
+      "date": "2026-07-16",
+      "count": 13730,
       "x_avg": 1.0
     }
   ],
   "brand_heatmap": {
-    "ondo": 3,
-    "zora": 2,
-    "alert": 2,
-    "bank": 1,
-    "aura": 1,
-    "dia": 1,
-    "pepe": 1,
-    "eos": 1,
-    "leap": 1,
-    "service": 1,
-    "stake": 1,
-    "confirm": 1
+    "finance": 136,
+    "hop": 63,
+    "official": 39,
+    "dia": 31,
+    "join": 25,
+    "eos": 21,
+    "service": 19,
+    "exchange": 18,
+    "secure": 17,
+    "access": 17,
+    "base": 17,
+    "connect": 14,
+    "quest": 14,
+    "portal": 14,
+    "earn": 12,
+    "wise": 11,
+    "iron": 10,
+    "crypto": 10,
+    "ondo": 10,
+    "support": 10,
+    "drift": 10,
+    "reward": 9,
+    "gaming": 9,
+    "trading": 8,
+    "invest": 8,
+    "capital": 7,
+    "fund": 7,
+    "rewards": 7,
+    "auth": 7,
+    "bonus": 7
   },
   "unranked_pct": 100.0,
   "ranked_count": 0,
-  "correlation_count": 0,
-  "correlation_pct": 0.0,
+  "correlation_count": 11,
+  "correlation_pct": 0.1,
   "legit_count": 0,
   "serial_email_count": 0,
   "legit_ratio_pct": 0.0,
-  "last_updated": "2026-07-15"
+  "last_updated": "2026-07-16"
 }
