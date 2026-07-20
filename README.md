@@ -36,12 +36,12 @@ They were meant to be <i>counted.</i><br/>
 
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-07-19`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-07-20`
 
 <table><tr>
-<td align="center"><b>📦 Domains tracked</b><br/><sub><code>12,805</code></sub></td>
-<td align="center"><b>💰 Est. ShortDot revenue</b><br/><sub><code>$14,428</code></sub></td>
-<td align="center"><b>💸 ICANN fees (registry)</b><br/><sub><code>$183,801</code></sub></td>
+<td align="center"><b>📦 Domains tracked</b><br/><sub><code>5,830</code></sub></td>
+<td align="center"><b>💰 Est. ShortDot revenue</b><br/><sub><code>$8,271</code></sub></td>
+<td align="center"><b>💸 ICANN fees (registry)</b><br/><sub><code>$182,058</code></sub></td>
 <td align="center"><b>✅ Confirmed malicious</b><br/><sub><code>0.0%</code> (1)</sub></td>
 <td align="center"><b>🏛️ Verified legitimate</b><br/><sub><code>0</code> sites found</sub></td>
 <td align="center"><b>⚡ Fresh (≤7d)</b><br/><sub><code>100.0%</code></sub></td>
@@ -51,13 +51,13 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 1,350 | 0 (0.0%) | 1,350 | 0 | — | $878 |
-| `.bond` | 364 | 0 (0.0%) | 364 | 0 | — | $2,366 |
-| `.cyou` | 950 | 0 (0.0%) | 950 | 0 | — | $618 |
-| `.sbs` | 1,548 | 0 (0.0%) | 1,548 | 1 | — | $1,006 |
-| `.cfd` | 7,022 | 0 (0.0%) | 7,022 | 0 | — | $4,564 |
-| `.buzz` | 1,426 | 0 (0.0%) | 1,426 | 0 | — | $4,634 |
-| `.qpon` | 145 | 0 (0.0%) | 145 | 0 | — | $362 |
+| `.icu` | 1,079 | 0 (0.0%) | 1,079 | 1 | — | $701 |
+| `.bond` | 166 | 0 (0.0%) | 166 | 0 | — | $1,079 |
+| `.cyou` | 929 | 0 (0.0%) | 929 | 0 | — | $604 |
+| `.sbs` | 1,587 | 0 (0.0%) | 1,587 | 0 | — | $1,032 |
+| `.cfd` | 701 | 0 (0.0%) | 701 | 0 | — | $456 |
+| `.buzz` | 1,306 | 0 (0.0%) | 1,306 | 0 | — | $4,244 |
+| `.qpon` | 62 | 0 (0.0%) | 62 | 0 | — | $155 |
 
 *Table auto-generated on each daily fetch run.*
 
@@ -65,11 +65,11 @@ They were meant to be <i>counted.</i><br/>
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-07-19` | 12,805 | **1.0×** |
+| `2026-07-20` | 5,830 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`tron (90)` &middot; `finance (60)` &middot; `dia (18)` &middot; `capital (18)` &middot; `base (16)` &middot; `hop (15)` &middot; `portal (14)` &middot; `gaming (10)` &middot; `quest (9)` &middot; `web3 (9)` &middot; `neo (8)` &middot; `wallet (8)` &middot; `eos (7)` &middot; `join (7)` &middot; `fund (5)`
+`finance (52)` &middot; `hop (14)` &middot; `eos (10)` &middot; `tron (8)` &middot; `portal (8)` &middot; `dia (8)` &middot; `login (6)` &middot; `gaming (6)` &middot; `neo (5)` &middot; `official (5)` &middot; `capital (4)` &middot; `rug (4)` &middot; `secure (3)` &middot; `trading (3)` &middot; `confirm (3)`
 
 ### 📥 Download Threat Intelligence
 
@@ -77,14 +77,14 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | All domains | Deployed (+IP) | Phantom (no IP) |
 |:--|:--|:--|:--|
-| `.icu` | [data/by_tld/icu.txt](data/by_tld/icu.txt) 1,350 | [deployed/icu.txt](data/ioc/deployed/icu.txt) 0 | [phantom/icu.txt](data/ioc/phantom/icu.txt) 1,350 |
-| `.bond` | [data/by_tld/bond.txt](data/by_tld/bond.txt) 364 | [deployed/bond.txt](data/ioc/deployed/bond.txt) 0 | [phantom/bond.txt](data/ioc/phantom/bond.txt) 364 |
-| `.cyou` | [data/by_tld/cyou.txt](data/by_tld/cyou.txt) 950 | [deployed/cyou.txt](data/ioc/deployed/cyou.txt) 0 | [phantom/cyou.txt](data/ioc/phantom/cyou.txt) 950 |
-| `.sbs` | [data/by_tld/sbs.txt](data/by_tld/sbs.txt) 1,548 | [deployed/sbs.txt](data/ioc/deployed/sbs.txt) 0 | [phantom/sbs.txt](data/ioc/phantom/sbs.txt) 1,548 |
-| `.cfd` | [data/by_tld/cfd.txt](data/by_tld/cfd.txt) 7,022 | [deployed/cfd.txt](data/ioc/deployed/cfd.txt) 0 | [phantom/cfd.txt](data/ioc/phantom/cfd.txt) 7,022 |
-| `.buzz` | [data/by_tld/buzz.txt](data/by_tld/buzz.txt) 1,426 | [deployed/buzz.txt](data/ioc/deployed/buzz.txt) 0 | [phantom/buzz.txt](data/ioc/phantom/buzz.txt) 1,426 |
-| `.qpon` | [data/by_tld/qpon.txt](data/by_tld/qpon.txt) 145 | [deployed/qpon.txt](data/ioc/deployed/qpon.txt) 0 | [phantom/qpon.txt](data/ioc/phantom/qpon.txt) 145 |
-| **All zones** | — | [deployed_all.txt](data/ioc/deployed_all.txt) 0 | [phantom_all.txt](data/ioc/phantom_all.txt) 12,805 |
+| `.icu` | [data/by_tld/icu.txt](data/by_tld/icu.txt) 1,079 | [deployed/icu.txt](data/ioc/deployed/icu.txt) 0 | [phantom/icu.txt](data/ioc/phantom/icu.txt) 1,079 |
+| `.bond` | [data/by_tld/bond.txt](data/by_tld/bond.txt) 166 | [deployed/bond.txt](data/ioc/deployed/bond.txt) 0 | [phantom/bond.txt](data/ioc/phantom/bond.txt) 166 |
+| `.cyou` | [data/by_tld/cyou.txt](data/by_tld/cyou.txt) 929 | [deployed/cyou.txt](data/ioc/deployed/cyou.txt) 0 | [phantom/cyou.txt](data/ioc/phantom/cyou.txt) 929 |
+| `.sbs` | [data/by_tld/sbs.txt](data/by_tld/sbs.txt) 1,587 | [deployed/sbs.txt](data/ioc/deployed/sbs.txt) 0 | [phantom/sbs.txt](data/ioc/phantom/sbs.txt) 1,587 |
+| `.cfd` | [data/by_tld/cfd.txt](data/by_tld/cfd.txt) 701 | [deployed/cfd.txt](data/ioc/deployed/cfd.txt) 0 | [phantom/cfd.txt](data/ioc/phantom/cfd.txt) 701 |
+| `.buzz` | [data/by_tld/buzz.txt](data/by_tld/buzz.txt) 1,306 | [deployed/buzz.txt](data/ioc/deployed/buzz.txt) 0 | [phantom/buzz.txt](data/ioc/phantom/buzz.txt) 1,306 |
+| `.qpon` | [data/by_tld/qpon.txt](data/by_tld/qpon.txt) 62 | [deployed/qpon.txt](data/ioc/deployed/qpon.txt) 0 | [phantom/qpon.txt](data/ioc/phantom/qpon.txt) 62 |
+| **All zones** | — | [deployed_all.txt](data/ioc/deployed_all.txt) 0 | [phantom_all.txt](data/ioc/phantom_all.txt) 5,830 |
 
 **IOC & blocklists:**
 

@@ -1,97 +1,91 @@
 {
-  "generated": "2026-07-19",
-  "total_brand_domains": 16,
-  "total_raw_hits": 16,
-  "total_scanned": 12805,
-  "feed_confirmed": 14315,
-  "pattern_candidates": 1006,
+  "generated": "2026-07-20",
+  "total_brand_domains": 9,
+  "total_raw_hits": 9,
+  "total_scanned": 5830,
+  "feed_confirmed": 14490,
+  "pattern_candidates": 1130,
   "categories": {
-    "crypto": 7,
-    "tech": 4,
-    "telecom": 3,
-    "social": 2
+    "payment": 4,
+    "crypto": 3,
+    "telecom": 1,
+    "social": 1
   },
   "keywords": {
-    "web3": [
-      "web3-dex.cfd",
-      "web3-dex.cyou",
-      "web3-dex.qpon",
-      "twt-web3.sbs",
-      "web3-dex.sbs"
+    "paypal": [
+      "paypalx.bond",
+      "paypalx.cfd",
+      "paypalx.sbs"
     ],
-    "apple_icloud": [
-      "icloudeam.bond",
-      "shanshuicloud.cfd",
-      "shanshuicloud.cyou",
-      "folioservicloud.sbs"
+    "web3": [
+      "web3-hongkong.buzz"
+    ],
+    "ledger": [
+      "abacusledger.cfd"
     ],
     "t-mobile": [
-      "betsatmobile.icu",
-      "holiganbet-mobilerisimi.icu",
-      "jojobet-mobilerisimi.icu"
+      "jetbet-mobile-giris.icu"
     ],
-    "discord": [
-      "discordbothosting.cfd",
-      "imadiscorduser.cfd"
+    "lido_finance": [
+      "lido-fi.icu"
     ],
-    "celestia": [
-      "mcelestialde.bond"
+    "whatsapp": [
+      "whatsapp-go.icu"
     ],
-    "tron": [
-      "tron-refund.cfd"
+    "revolut": [
+      "courserevolutionize.sbs"
     ]
   },
   "brands": {
-    "Web3": {
-      "count": 5,
-      "category": "crypto",
+    "PayPal": {
+      "count": 3,
+      "category": "payment",
       "sample": [
-        "web3-dex.cfd",
-        "web3-dex.cyou",
-        "web3-dex.qpon",
-        "twt-web3.sbs",
-        "web3-dex.sbs"
+        "paypalx.bond",
+        "paypalx.cfd",
+        "paypalx.sbs"
       ]
     },
-    "Apple iCloud": {
-      "count": 4,
-      "category": "tech",
+    "Web3": {
+      "count": 1,
+      "category": "crypto",
       "sample": [
-        "icloudeam.bond",
-        "shanshuicloud.cfd",
-        "shanshuicloud.cyou",
-        "folioservicloud.sbs"
+        "web3-hongkong.buzz"
+      ]
+    },
+    "Ledger": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "abacusledger.cfd"
       ]
     },
     "T-Mobile": {
-      "count": 3,
+      "count": 1,
       "category": "telecom",
       "sample": [
-        "betsatmobile.icu",
-        "holiganbet-mobilerisimi.icu",
-        "jojobet-mobilerisimi.icu"
+        "jetbet-mobile-giris.icu"
       ]
     },
-    "Discord": {
-      "count": 2,
+    "Lido Finance": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "lido-fi.icu"
+      ]
+    },
+    "WhatsApp": {
+      "count": 1,
       "category": "social",
       "sample": [
-        "discordbothosting.cfd",
-        "imadiscorduser.cfd"
+        "whatsapp-go.icu"
       ]
     },
-    "Celestia": {
+    "Revolut": {
       "count": 1,
-      "category": "crypto",
+      "category": "payment",
       "sample": [
-        "mcelestialde.bond"
-      ]
-    },
-    "TRON": {
-      "count": 1,
-      "category": "crypto",
-      "sample": [
-        "tron-refund.cfd"
+        "courserevolutionize.sbs"
       ]
     }
   }
