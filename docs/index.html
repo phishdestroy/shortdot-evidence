@@ -1001,15 +1001,16 @@ if(btn)btn.addEventListener('click',function(){
 /* ── Revenue tickers — driven by data.json (auto-updated daily) ── */
 var EPOCH = new Date('2026-01-01T00:00:00Z').getTime();
 var ICANN_ZONE_FEE = 25800, ICANN_VOL_RATE = 0.25, N_TLDS = 7;
+var SD_PER_MS = 0, IC_PER_MS = 0, CO_PER_MS = 0;
 
 function fmtD(n){ return '$'+(n>=1e6?(n/1e6).toFixed(2)+'M':(n>=1e3?(n/1e3).toFixed(0)+'K':n.toFixed(0))); }
 function fmtFull(n){ return '$'+Math.floor(n).toLocaleString(); }
 
 function startTickers(sdAnnual, icAnnual, totalDomains, tldBreakdown){
   var coAnnual = sdAnnual + icAnnual;
-  var SD_PER_MS = sdAnnual / 365 / 86400 / 1000;
-  var IC_PER_MS = icAnnual / 365 / 86400 / 1000;
-  var CO_PER_MS = coAnnual / 365 / 86400 / 1000;
+  SD_PER_MS = sdAnnual / 365 / 86400 / 1000;
+  IC_PER_MS = icAnnual / 365 / 86400 / 1000;
+  CO_PER_MS = coAnnual / 365 / 86400 / 1000;
 
   /* Update static rate labels from live data */
   var sdDay = sdAnnual/365, sdHr = sdDay/24, sdMin = sdHr/60;
@@ -1561,3 +1562,4 @@ fetch('data.json').then(function(r){return r.json();}).then(function(d){
 </script>
 </body>
 </html>
+
