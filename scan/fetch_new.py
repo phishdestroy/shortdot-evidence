@@ -454,6 +454,20 @@ index_days = [
     }.items() if v is not None}
     for d in dates
 ]
+# Merge new entries with prior day history so data accumulates across CI runs
+_prior_days_by_date = {_pd['date']: _pd for _pd in _prior_data.get('days', [])}
+for _d in index_days:
+    _prior_days_by_date[_d['date']] = _d
+index_days = sorted(_prior_days_by_date.values(), key=lambda x: x['date'])
+
+# In incremental mode preserve zone-wide totals from the initial full scan
+if FILTER_TYPE == 'new':
+    total_domains           = _prior_data.get('total_domains', total_domains)
+    tld_stats               = _prior_data.get('tld_breakdown', tld_stats)
+    total_revenue_retail    = _prior_data.get('total_rev_retail', round(total_revenue_retail, 2))
+    total_revenue_wholesale = _prior_data.get('total_rev_wholesale', round(total_revenue_wholesale, 2))
+    total_icann_fees        = _prior_data.get('total_icann_fees', total_icann_fees)
+
 Path('data/index.json').write_text(json.dumps({
     'days':                    index_days,
     'total_domains':           total_domains,
@@ -773,3 +787,4 @@ for _tld, _info in tld_stats.items():
     (tld_badge_dir / f'{_tld}.json').write_text(badge(f'.{_tld}', _msg, 'da3633'), encoding='utf-8')
 
 print(f"\nDone: {total_domains:,} domains | ${total_revenue_wholesale:,.2f} wholesale | ${total_icann_fees:,.2f} ICANN | legit: {legit_count} | deployed: {deploy_rate:.0f}% | fresh: {fresh_pct}%")
+
