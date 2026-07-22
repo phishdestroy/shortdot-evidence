@@ -1,91 +1,104 @@
 {
-  "generated": "2026-07-20",
-  "total_brand_domains": 9,
-  "total_raw_hits": 9,
-  "total_scanned": 5830,
-  "feed_confirmed": 14490,
-  "pattern_candidates": 1130,
+  "generated": "2026-07-22",
+  "total_brand_domains": 11,
+  "total_raw_hits": 11,
+  "total_scanned": 6995,
+  "feed_confirmed": 14361,
+  "pattern_candidates": 809,
   "categories": {
-    "payment": 4,
-    "crypto": 3,
-    "telecom": 1,
-    "social": 1
+    "crypto": 5,
+    "tech": 3,
+    "gov": 1,
+    "banking": 1,
+    "payment": 1
   },
   "keywords": {
-    "paypal": [
-      "paypalx.bond",
-      "paypalx.cfd",
-      "paypalx.sbs"
+    "apple_icloud": [
+      "beibeicloud.cfd",
+      "beibeicloud.cyou",
+      "naorbiton-e-vicloudo-nalunarum.sbs"
     ],
-    "web3": [
-      "web3-hongkong.buzz"
+    "argent": [
+      "correoiargentlino.buzz",
+      "correoiargenttlno.icu"
     ],
-    "ledger": [
-      "abacusledger.cfd"
+    "pendle": [
+      "pendlefi.cfd"
     ],
-    "t-mobile": [
-      "jetbet-mobile-giris.icu"
+    "uniswap": [
+      "uniswapdx.cfd"
     ],
-    "lido_finance": [
-      "lido-fi.icu"
+    "mygov": [
+      "ato-mygov.icu"
     ],
-    "whatsapp": [
-      "whatsapp-go.icu"
+    "rainbow_wallet": [
+      "rainbow-wh.icu"
+    ],
+    "discover": [
+      "dazzlingresidencediscover.sbs"
     ],
     "revolut": [
-      "courserevolutionize.sbs"
+      "urlrevolutionraising13.sbs"
     ]
   },
   "brands": {
-    "PayPal": {
+    "Apple iCloud": {
       "count": 3,
-      "category": "payment",
+      "category": "tech",
       "sample": [
-        "paypalx.bond",
-        "paypalx.cfd",
-        "paypalx.sbs"
+        "beibeicloud.cfd",
+        "beibeicloud.cyou",
+        "naorbiton-e-vicloudo-nalunarum.sbs"
       ]
     },
-    "Web3": {
+    "Argent": {
+      "count": 2,
+      "category": "crypto",
+      "sample": [
+        "correoiargentlino.buzz",
+        "correoiargenttlno.icu"
+      ]
+    },
+    "Pendle": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "web3-hongkong.buzz"
+        "pendlefi.cfd"
       ]
     },
-    "Ledger": {
+    "Uniswap": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "abacusledger.cfd"
+        "uniswapdx.cfd"
       ]
     },
-    "T-Mobile": {
+    "myGov": {
       "count": 1,
-      "category": "telecom",
+      "category": "gov",
       "sample": [
-        "jetbet-mobile-giris.icu"
+        "ato-mygov.icu"
       ]
     },
-    "Lido Finance": {
+    "Rainbow Wallet": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "lido-fi.icu"
+        "rainbow-wh.icu"
       ]
     },
-    "WhatsApp": {
+    "Discover": {
       "count": 1,
-      "category": "social",
+      "category": "banking",
       "sample": [
-        "whatsapp-go.icu"
+        "dazzlingresidencediscover.sbs"
       ]
     },
     "Revolut": {
       "count": 1,
       "category": "payment",
       "sample": [
-        "courserevolutionize.sbs"
+        "urlrevolutionraising13.sbs"
       ]
     }
   }
