@@ -1,38 +1,38 @@
 {
-  "generated": "2026-07-24",
+  "generated": "2026-07-25",
   "total_brand_domains": 11,
   "total_raw_hits": 11,
-  "total_scanned": 6995,
-  "feed_confirmed": 14294,
-  "pattern_candidates": 809,
+  "total_scanned": 10926,
+  "feed_confirmed": 12842,
+  "pattern_candidates": 795,
   "categories": {
-    "crypto": 5,
-    "tech": 3,
-    "gov": 1,
-    "banking": 1,
-    "payment": 1
+    "tech": 4,
+    "crypto": 3,
+    "payment": 2,
+    "logistics": 1,
+    "banking": 1
   },
   "keywords": {
     "apple_icloud": [
-      "beibeicloud.cfd",
-      "beibeicloud.cyou",
+      "nisicloud.cfd",
+      "kafeicloud.cyou",
+      "nisicloud.cyou",
       "naorbiton-e-vicloudo-nalunarum.sbs"
     ],
-    "argent": [
-      "correoiargentlino.buzz",
-      "correoiargenttlno.icu"
+    "stripe": [
+      "stripepay.buzz"
     ],
-    "pendle": [
-      "pendlefi.cfd"
+    "canada_post": [
+      "canadapost-postesqcanada.cfd"
     ],
-    "uniswap": [
-      "uniswapdx.cfd"
+    "base": [
+      "erhallten-base.cfd"
     ],
-    "mygov": [
-      "ato-mygov.icu"
+    "phantom_wallet": [
+      "phantomgardenzk.cfd"
     ],
-    "rainbow_wallet": [
-      "rainbow-wh.icu"
+    "cosmos": [
+      "pharmacosmos.cfd"
     ],
     "discover": [
       "dazzlingresidencediscover.sbs"
@@ -43,48 +43,48 @@
   },
   "brands": {
     "Apple iCloud": {
-      "count": 3,
+      "count": 4,
       "category": "tech",
       "sample": [
-        "beibeicloud.cfd",
-        "beibeicloud.cyou",
+        "nisicloud.cfd",
+        "kafeicloud.cyou",
+        "nisicloud.cyou",
         "naorbiton-e-vicloudo-nalunarum.sbs"
       ]
     },
-    "Argent": {
-      "count": 2,
-      "category": "crypto",
+    "Stripe": {
+      "count": 1,
+      "category": "payment",
       "sample": [
-        "correoiargentlino.buzz",
-        "correoiargenttlno.icu"
+        "stripepay.buzz"
       ]
     },
-    "Pendle": {
+    "Canada Post": {
+      "count": 1,
+      "category": "logistics",
+      "sample": [
+        "canadapost-postesqcanada.cfd"
+      ]
+    },
+    "Base": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "pendlefi.cfd"
+        "erhallten-base.cfd"
       ]
     },
-    "Uniswap": {
+    "Phantom Wallet": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "uniswapdx.cfd"
+        "phantomgardenzk.cfd"
       ]
     },
-    "myGov": {
-      "count": 1,
-      "category": "gov",
-      "sample": [
-        "ato-mygov.icu"
-      ]
-    },
-    "Rainbow Wallet": {
+    "Cosmos": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "rainbow-wh.icu"
+        "pharmacosmos.cfd"
       ]
     },
     "Discover": {
