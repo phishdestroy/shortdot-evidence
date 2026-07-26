@@ -1,104 +1,185 @@
 {
-  "generated": "2026-07-25",
-  "total_brand_domains": 11,
-  "total_raw_hits": 11,
-  "total_scanned": 10926,
-  "feed_confirmed": 12842,
-  "pattern_candidates": 795,
+  "generated": "2026-07-26",
+  "total_brand_domains": 19,
+  "total_raw_hits": 19,
+  "total_scanned": 13958,
+  "feed_confirmed": 12988,
+  "pattern_candidates": 1361,
   "categories": {
-    "tech": 4,
-    "crypto": 3,
-    "payment": 2,
-    "logistics": 1,
-    "banking": 1
+    "crypto": 9,
+    "social": 4,
+    "tech": 3,
+    "payment": 1,
+    "invest_fraud": 1,
+    "telecom": 1
   },
   "keywords": {
-    "apple_icloud": [
-      "nisicloud.cfd",
-      "kafeicloud.cyou",
-      "nisicloud.cyou",
-      "naorbiton-e-vicloudo-nalunarum.sbs"
+    "telegram": [
+      "abolethtelegram.cfd",
+      "unlock-telegram.sbs"
     ],
-    "stripe": [
-      "stripepay.buzz"
+    "rainbow_wallet": [
+      "rainbow-riches-app.cfd",
+      "rainbow-riches-app.cyou"
     ],
-    "canada_post": [
-      "canadapost-postesqcanada.cfd"
+    "argent": [
+      "aether-argentina.sbs",
+      "argentinajoker.sbs"
     ],
-    "base": [
-      "erhallten-base.cfd"
+    "interac": [
+      "interac-app.cfd"
+    ],
+    "binance": [
+      "binance226.icu"
+    ],
+    "microsoft": [
+      "microsoft-r.icu"
+    ],
+    "trading_bot_scam": [
+      "tradingbot.icu"
+    ],
+    "amazon": [
+      "amazonnon.sbs"
+    ],
+    "celestia": [
+      "celestialseedvy.sbs"
+    ],
+    "comcast": [
+      "infinity-mail-comcast-online.sbs"
+    ],
+    "web3": [
+      "jackpot-web3.sbs"
+    ],
+    "kucoin": [
+      "kucoinsuport.sbs"
+    ],
+    "linkedin": [
+      "linkedinacctreceivables.sbs"
     ],
     "phantom_wallet": [
-      "phantomgardenzk.cfd"
+      "phantomvisioneyr.sbs"
     ],
-    "cosmos": [
-      "pharmacosmos.cfd"
+    "google": [
+      "playstoregoogle.sbs"
     ],
-    "discover": [
-      "dazzlingresidencediscover.sbs"
-    ],
-    "revolut": [
-      "urlrevolutionraising13.sbs"
+    "tiktok": [
+      "savetiktok.sbs"
     ]
   },
   "brands": {
-    "Apple iCloud": {
-      "count": 4,
-      "category": "tech",
+    "Telegram": {
+      "count": 2,
+      "category": "social",
       "sample": [
-        "nisicloud.cfd",
-        "kafeicloud.cyou",
-        "nisicloud.cyou",
-        "naorbiton-e-vicloudo-nalunarum.sbs"
+        "abolethtelegram.cfd",
+        "unlock-telegram.sbs"
       ]
     },
-    "Stripe": {
+    "Rainbow Wallet": {
+      "count": 2,
+      "category": "crypto",
+      "sample": [
+        "rainbow-riches-app.cfd",
+        "rainbow-riches-app.cyou"
+      ]
+    },
+    "Argent": {
+      "count": 2,
+      "category": "crypto",
+      "sample": [
+        "aether-argentina.sbs",
+        "argentinajoker.sbs"
+      ]
+    },
+    "Interac": {
       "count": 1,
       "category": "payment",
       "sample": [
-        "stripepay.buzz"
+        "interac-app.cfd"
       ]
     },
-    "Canada Post": {
-      "count": 1,
-      "category": "logistics",
-      "sample": [
-        "canadapost-postesqcanada.cfd"
-      ]
-    },
-    "Base": {
+    "Binance": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "erhallten-base.cfd"
+        "binance226.icu"
+      ]
+    },
+    "Microsoft": {
+      "count": 1,
+      "category": "tech",
+      "sample": [
+        "microsoft-r.icu"
+      ]
+    },
+    "Trading Bot Scam": {
+      "count": 1,
+      "category": "invest_fraud",
+      "sample": [
+        "tradingbot.icu"
+      ]
+    },
+    "Amazon": {
+      "count": 1,
+      "category": "tech",
+      "sample": [
+        "amazonnon.sbs"
+      ]
+    },
+    "Celestia": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "celestialseedvy.sbs"
+      ]
+    },
+    "Comcast": {
+      "count": 1,
+      "category": "telecom",
+      "sample": [
+        "infinity-mail-comcast-online.sbs"
+      ]
+    },
+    "Web3": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "jackpot-web3.sbs"
+      ]
+    },
+    "KuCoin": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "kucoinsuport.sbs"
+      ]
+    },
+    "LinkedIn": {
+      "count": 1,
+      "category": "social",
+      "sample": [
+        "linkedinacctreceivables.sbs"
       ]
     },
     "Phantom Wallet": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "phantomgardenzk.cfd"
+        "phantomvisioneyr.sbs"
       ]
     },
-    "Cosmos": {
+    "Google": {
       "count": 1,
-      "category": "crypto",
+      "category": "tech",
       "sample": [
-        "pharmacosmos.cfd"
+        "playstoregoogle.sbs"
       ]
     },
-    "Discover": {
+    "TikTok": {
       "count": 1,
-      "category": "banking",
+      "category": "social",
       "sample": [
-        "dazzlingresidencediscover.sbs"
-      ]
-    },
-    "Revolut": {
-      "count": 1,
-      "category": "payment",
-      "sample": [
-        "urlrevolutionraising13.sbs"
+        "savetiktok.sbs"
       ]
     }
   }

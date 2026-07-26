@@ -36,7 +36,7 @@ They were meant to be <i>counted.</i><br/>
 
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-07-25`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-07-26`
 
 <table><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><sub><code>6,242,647</code></sub></td>
@@ -51,11 +51,11 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 1 | — | $634,670 |
+| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 0 | — | $634,670 |
 | `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
 | `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
-| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 0 | — | $1,242,854 |
-| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 2 | — | $619,050 |
+| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 3 | — | $1,242,854 |
+| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 0 | — | $619,050 |
 | `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 0 | — | $680,602 |
 | `.qpon` | 110,365 | 61,237 (55.5%) | 49,128 | 0 | — | $275,912 |
 
@@ -65,11 +65,11 @@ They were meant to be <i>counted.</i><br/>
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-07-25` | 9,393 | **1.0×** |
+| `2026-07-26` | 13,958 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`bonus (21)` &middot; `dia (16)` &middot; `official (9)` &middot; `eos (8)` &middot; `auth (6)` &middot; `invite (5)` &middot; `hop (5)` &middot; `service (5)` &middot; `signin (5)` &middot; `gaming (5)` &middot; `login (4)` &middot; `account (4)` &middot; `aurora (4)` &middot; `secure (4)` &middot; `portal (4)`
+`hop (24)` &middot; `bonus (19)` &middot; `tron (16)` &middot; `eos (14)` &middot; `service (13)` &middot; `official (13)` &middot; `dia (11)` &middot; `xrp (11)` &middot; `signin (10)` &middot; `capital (8)` &middot; `portal (8)` &middot; `aura (7)` &middot; `quest (6)` &middot; `gaming (6)` &middot; `case (5)`
 
 ### 📥 Download Threat Intelligence
 
@@ -84,7 +84,7 @@ They were meant to be <i>counted.</i><br/>
 | `.cfd` | [data/by_tld/cfd.txt](data/by_tld/cfd.txt) 952,385 | [deployed/cfd.txt](data/ioc/deployed/cfd.txt) 407,496 | [phantom/cfd.txt](data/ioc/phantom/cfd.txt) 544,889 |
 | `.buzz` | [data/by_tld/buzz.txt](data/by_tld/buzz.txt) 209,416 | [deployed/buzz.txt](data/ioc/deployed/buzz.txt) 130,210 | [phantom/buzz.txt](data/ioc/phantom/buzz.txt) 79,206 |
 | `.qpon` | [data/by_tld/qpon.txt](data/by_tld/qpon.txt) 110,365 | [deployed/qpon.txt](data/ioc/deployed/qpon.txt) 61,237 | [phantom/qpon.txt](data/ioc/phantom/qpon.txt) 49,128 |
-| **All zones** | — | [deployed_all.txt](data/ioc/deployed_all.txt) 0 | [phantom_all.txt](data/ioc/phantom_all.txt) 9,393 |
+| **All zones** | — | [deployed_all.txt](data/ioc/deployed_all.txt) 0 | [phantom_all.txt](data/ioc/phantom_all.txt) 13,958 |
 
 **IOC & blocklists:**
 

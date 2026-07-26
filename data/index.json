@@ -101,6 +101,13 @@
       "revenue_wholesale": 15592.3,
       "icann_fees": 2348.25,
       "path": "data/new/2026/07/2026-07-25.txt"
+    },
+    {
+      "date": "2026-07-26",
+      "count": 13958,
+      "revenue_wholesale": 14433.5,
+      "icann_fees": 3489.5,
+      "path": "data/new/2026/07/2026-07-26.txt"
     }
   ],
   "total_domains": 6242647,
@@ -169,7 +176,7 @@
   "ip_countries": {},
   "top_shared_ips": {},
   "deployed_count": 0,
-  "no_ip_count": 9393,
+  "no_ip_count": 13958,
   "deployment_rate": 0.0,
   "reg_periods": {
     "lt_1yr": 0,
@@ -180,7 +187,7 @@
   "pct_gt_1yr": 0,
   "pct_gt_2yr": 0,
   "catch_age_buckets": {
-    "same_day": 9393,
+    "same_day": 13958,
     "within_week": 0,
     "within_month": 0,
     "older": 0
@@ -189,42 +196,42 @@
   "fresh_pct": 100.0,
   "burst_days": [
     {
-      "date": "2026-07-25",
-      "count": 9393,
+      "date": "2026-07-26",
+      "count": 13958,
       "x_avg": 1.0
     }
   ],
   "brand_heatmap": {
-    "bonus": 21,
-    "dia": 16,
-    "official": 9,
-    "eos": 8,
-    "auth": 6,
-    "invite": 5,
-    "hop": 5,
-    "service": 5,
-    "signin": 5,
-    "gaming": 5,
+    "hop": 24,
+    "bonus": 19,
+    "tron": 16,
+    "eos": 14,
+    "service": 13,
+    "official": 13,
+    "dia": 11,
+    "xrp": 11,
+    "signin": 10,
+    "capital": 8,
+    "portal": 8,
+    "aura": 7,
+    "quest": 6,
+    "gaming": 6,
+    "case": 5,
+    "okx": 5,
+    "connect": 4,
+    "sui": 4,
+    "neo": 4,
+    "earn": 4,
+    "base": 4,
     "login": 4,
-    "account": 4,
-    "aurora": 4,
-    "secure": 4,
-    "portal": 4,
-    "tron": 4,
-    "access": 3,
-    "neo": 3,
-    "invites": 3,
-    "quest": 3,
-    "base": 3,
-    "wise": 3,
-    "foundation": 2,
-    "drift": 2,
-    "sui": 2,
-    "renzo": 2,
-    "zora": 2,
-    "invest": 2,
-    "investment": 2,
-    "connect": 2
+    "meme": 4,
+    "support": 4,
+    "stake": 3,
+    "confirm": 3,
+    "account": 3,
+    "invest": 3,
+    "vertex": 3,
+    "invite": 3
   },
   "unranked_pct": 100.0,
   "ranked_count": 0,
@@ -233,5 +240,5 @@
   "legit_count": 0,
   "serial_email_count": 0,
   "legit_ratio_pct": 0.0,
-  "last_updated": "2026-07-25"
+  "last_updated": "2026-07-26"
 }

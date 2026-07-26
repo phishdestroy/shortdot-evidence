@@ -1,10 +1,10 @@
 {
   "month": "2026-07",
-  "generated": "2026-07-25",
-  "total_domains": 9393,
-  "total_rev_retail": 145677.57,
-  "total_rev_wholesale": 15592.3,
-  "total_icann_fees": 182948.25,
+  "generated": "2026-07-26",
+  "total_domains": 13958,
+  "total_rev_retail": 253049.92,
+  "total_rev_wholesale": 14433.5,
+  "total_icann_fees": 184089.5,
   "avg_reg_days": 365,
   "deployment_rate": 0.0,
   "fresh_pct": 100.0,
@@ -14,59 +14,59 @@
   "legit_count": 0,
   "tld_stats": {
     "icu": {
-      "count": 4286,
+      "count": 1172,
       "deployed": 0,
-      "no_ip": 4286,
+      "no_ip": 1172,
       "deploy_rate": 0.0,
-      "revenue": 2785.9,
+      "revenue": 761.8,
       "price": 0.65
     },
     "bond": {
-      "count": 345,
+      "count": 192,
       "deployed": 0,
-      "no_ip": 345,
+      "no_ip": 192,
       "deploy_rate": 0.0,
-      "revenue": 2242.5,
+      "revenue": 1248.0,
       "price": 6.5
     },
     "cyou": {
-      "count": 884,
+      "count": 847,
       "deployed": 0,
-      "no_ip": 884,
+      "no_ip": 847,
       "deploy_rate": 0.0,
-      "revenue": 574.6,
+      "revenue": 550.55,
       "price": 0.65
     },
     "sbs": {
-      "count": 0,
+      "count": 3457,
       "deployed": 0,
-      "no_ip": 0,
-      "deploy_rate": 0,
-      "revenue": 0,
+      "no_ip": 3457,
+      "deploy_rate": 0.0,
+      "revenue": 2247.05,
       "price": 0.65
     },
     "cfd": {
-      "count": 987,
+      "count": 6644,
       "deployed": 0,
-      "no_ip": 987,
+      "no_ip": 6644,
       "deploy_rate": 0.0,
-      "revenue": 641.55,
+      "revenue": 4318.6,
       "price": 0.65
     },
     "buzz": {
-      "count": 2827,
+      "count": 1590,
       "deployed": 0,
-      "no_ip": 2827,
+      "no_ip": 1590,
       "deploy_rate": 0.0,
-      "revenue": 9187.75,
+      "revenue": 5167.5,
       "price": 3.25
     },
     "qpon": {
-      "count": 64,
+      "count": 56,
       "deployed": 0,
-      "no_ip": 64,
+      "no_ip": 56,
       "deploy_rate": 0.0,
-      "revenue": 160.0,
+      "revenue": 140.0,
       "price": 2.5
     }
   }
