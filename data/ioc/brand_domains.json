@@ -1,64 +1,158 @@
 {
-  "generated": "2026-07-27",
-  "total_brand_domains": 8,
-  "total_raw_hits": 8,
-  "total_scanned": 5141,
-  "feed_confirmed": 13221,
-  "pattern_candidates": 426,
+  "generated": "2026-07-29",
+  "total_brand_domains": 18,
+  "total_raw_hits": 18,
+  "total_scanned": 6880,
+  "feed_confirmed": 13588,
+  "pattern_candidates": 820,
   "categories": {
-    "crypto": 5,
-    "social": 2,
-    "banking": 1
+    "tech": 7,
+    "crypto": 7,
+    "payment": 2,
+    "gov": 1,
+    "social": 1
   },
   "keywords": {
+    "apple_icloud": [
+      "naicloud.cfd",
+      "naicloud.cyou",
+      "naicloud.sbs"
+    ],
     "ledger": [
-      "ledger-com-app.icu",
-      "ledger-com-apps.icu",
-      "ledger-com-start.icu",
-      "ledger-com-starts.icu"
+      "ledger-com-live.icu",
+      "ledger-com-nano.icu",
+      "ledger-com-wallet.icu"
     ],
-    "whatsapp": [
-      "whatsapp-189.sbs",
-      "whatsapp212.sbs"
+    "netflix": [
+      "netflixcasino-denemebonusukazan.icu",
+      "netflixcasino-resmi1.icu"
     ],
-    "discover": [
-      "discoverydockbeacon.sbs"
+    "centrelink": [
+      "2026centrelink-notice.cfd"
+    ],
+    "phantom_wallet": [
+      "phantom-media.cfd"
+    ],
+    "stripe": [
+      "stripesumass.cfd"
+    ],
+    "tron": [
+      "tron-connect.cfd"
+    ],
+    "trust_wallet": [
+      "trustwallets.cfd"
+    ],
+    "google": [
+      "alikhangoogle.cyou"
+    ],
+    "cashapp": [
+      "cash-app.cyou"
+    ],
+    "tiktok": [
+      "tiktokplaza.cyou"
+    ],
+    "apple": [
+      "apple-v.sbs"
     ],
     "rainbow_wallet": [
-      "rainbow-riches-app.sbs"
+      "rainbowdinneraccess.sbs"
     ]
   },
   "brands": {
+    "Apple iCloud": {
+      "count": 3,
+      "category": "tech",
+      "sample": [
+        "naicloud.cfd",
+        "naicloud.cyou",
+        "naicloud.sbs"
+      ]
+    },
     "Ledger": {
-      "count": 4,
+      "count": 3,
       "category": "crypto",
       "sample": [
-        "ledger-com-app.icu",
-        "ledger-com-apps.icu",
-        "ledger-com-start.icu",
-        "ledger-com-starts.icu"
+        "ledger-com-live.icu",
+        "ledger-com-nano.icu",
+        "ledger-com-wallet.icu"
       ]
     },
-    "WhatsApp": {
+    "Netflix": {
       "count": 2,
+      "category": "tech",
+      "sample": [
+        "netflixcasino-denemebonusukazan.icu",
+        "netflixcasino-resmi1.icu"
+      ]
+    },
+    "Centrelink": {
+      "count": 1,
+      "category": "gov",
+      "sample": [
+        "2026centrelink-notice.cfd"
+      ]
+    },
+    "Phantom Wallet": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "phantom-media.cfd"
+      ]
+    },
+    "Stripe": {
+      "count": 1,
+      "category": "payment",
+      "sample": [
+        "stripesumass.cfd"
+      ]
+    },
+    "TRON": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "tron-connect.cfd"
+      ]
+    },
+    "Trust Wallet": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "trustwallets.cfd"
+      ]
+    },
+    "Google": {
+      "count": 1,
+      "category": "tech",
+      "sample": [
+        "alikhangoogle.cyou"
+      ]
+    },
+    "CashApp": {
+      "count": 1,
+      "category": "payment",
+      "sample": [
+        "cash-app.cyou"
+      ]
+    },
+    "TikTok": {
+      "count": 1,
       "category": "social",
       "sample": [
-        "whatsapp-189.sbs",
-        "whatsapp212.sbs"
+        "tiktokplaza.cyou"
       ]
     },
-    "Discover": {
+    "Apple": {
       "count": 1,
-      "category": "banking",
+      "category": "tech",
       "sample": [
-        "discoverydockbeacon.sbs"
+        "apple-v.sbs"
       ]
     },
     "Rainbow Wallet": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "rainbow-riches-app.sbs"
+        "rainbowdinneraccess.sbs"
       ]
     }
   }

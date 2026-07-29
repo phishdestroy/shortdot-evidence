@@ -1,4 +1,3 @@
-ledger-com-app.icu
-ledger-com-apps.icu
-ledger-com-start.icu
-ledger-com-starts.icu
+ledger-com-live.icu
+ledger-com-nano.icu
+ledger-com-wallet.icu
