@@ -1,158 +1,142 @@
 {
-  "generated": "2026-07-29",
-  "total_brand_domains": 18,
-  "total_raw_hits": 18,
-  "total_scanned": 6880,
-  "feed_confirmed": 13588,
-  "pattern_candidates": 820,
+  "generated": "2026-07-30",
+  "total_brand_domains": 17,
+  "total_raw_hits": 17,
+  "total_scanned": 11217,
+  "feed_confirmed": 12205,
+  "pattern_candidates": 732,
   "categories": {
-    "tech": 7,
-    "crypto": 7,
+    "tech": 4,
+    "crypto": 4,
     "payment": 2,
-    "gov": 1,
+    "banking": 2,
+    "telecom": 2,
+    "logistics": 2,
     "social": 1
   },
   "keywords": {
-    "apple_icloud": [
-      "naicloud.cfd",
-      "naicloud.cyou",
-      "naicloud.sbs"
-    ],
-    "ledger": [
-      "ledger-com-live.icu",
-      "ledger-com-nano.icu",
-      "ledger-com-wallet.icu"
-    ],
-    "netflix": [
-      "netflixcasino-denemebonusukazan.icu",
-      "netflixcasino-resmi1.icu"
-    ],
-    "centrelink": [
-      "2026centrelink-notice.cfd"
-    ],
-    "phantom_wallet": [
-      "phantom-media.cfd"
-    ],
-    "stripe": [
-      "stripesumass.cfd"
-    ],
-    "tron": [
-      "tron-connect.cfd"
-    ],
-    "trust_wallet": [
-      "trustwallets.cfd"
-    ],
     "google": [
-      "alikhangoogle.cyou"
+      "googleedu.bond",
+      "google-veo.icu",
+      "googlername.icu",
+      "googleberaksi.sbs"
     ],
-    "cashapp": [
-      "cash-app.cyou"
+    "revolut": [
+      "revolution-casino.bond",
+      "revolutt.bond"
     ],
-    "tiktok": [
-      "tiktokplaza.cyou"
-    ],
-    "apple": [
-      "apple-v.sbs"
+    "t-mobile": [
+      "seka-bet-mobile.cfd",
+      "imaj-bet-mobile.icu"
     ],
     "rainbow_wallet": [
-      "rainbowdinneraccess.sbs"
+      "rainbowdoor.icu",
+      "rainbowtrout.sbs"
+    ],
+    "bmo_bank": [
+      "ca-bmo.cfd"
+    ],
+    "fidelity": [
+      "myfidelityinvestmentprofolio.cfd"
+    ],
+    "trust_wallet": [
+      "trustwalletcards.cfd"
+    ],
+    "base": [
+      "cloud-review-4580aged-base-92d5.icu"
+    ],
+    "royal_mail": [
+      "royalmailr.icu"
+    ],
+    "fedex": [
+      "fedex.qpon"
+    ],
+    "tiktok": [
+      "tiktokpaybonus.sbs"
     ]
   },
   "brands": {
-    "Apple iCloud": {
-      "count": 3,
+    "Google": {
+      "count": 4,
       "category": "tech",
       "sample": [
-        "naicloud.cfd",
-        "naicloud.cyou",
-        "naicloud.sbs"
+        "googleedu.bond",
+        "google-veo.icu",
+        "googlername.icu",
+        "googleberaksi.sbs"
       ]
     },
-    "Ledger": {
-      "count": 3,
-      "category": "crypto",
-      "sample": [
-        "ledger-com-live.icu",
-        "ledger-com-nano.icu",
-        "ledger-com-wallet.icu"
-      ]
-    },
-    "Netflix": {
+    "Revolut": {
       "count": 2,
-      "category": "tech",
-      "sample": [
-        "netflixcasino-denemebonusukazan.icu",
-        "netflixcasino-resmi1.icu"
-      ]
-    },
-    "Centrelink": {
-      "count": 1,
-      "category": "gov",
-      "sample": [
-        "2026centrelink-notice.cfd"
-      ]
-    },
-    "Phantom Wallet": {
-      "count": 1,
-      "category": "crypto",
-      "sample": [
-        "phantom-media.cfd"
-      ]
-    },
-    "Stripe": {
-      "count": 1,
       "category": "payment",
       "sample": [
-        "stripesumass.cfd"
+        "revolution-casino.bond",
+        "revolutt.bond"
       ]
     },
-    "TRON": {
-      "count": 1,
+    "T-Mobile": {
+      "count": 2,
+      "category": "telecom",
+      "sample": [
+        "seka-bet-mobile.cfd",
+        "imaj-bet-mobile.icu"
+      ]
+    },
+    "Rainbow Wallet": {
+      "count": 2,
       "category": "crypto",
       "sample": [
-        "tron-connect.cfd"
+        "rainbowdoor.icu",
+        "rainbowtrout.sbs"
+      ]
+    },
+    "BMO Bank": {
+      "count": 1,
+      "category": "banking",
+      "sample": [
+        "ca-bmo.cfd"
+      ]
+    },
+    "Fidelity": {
+      "count": 1,
+      "category": "banking",
+      "sample": [
+        "myfidelityinvestmentprofolio.cfd"
       ]
     },
     "Trust Wallet": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "trustwallets.cfd"
+        "trustwalletcards.cfd"
       ]
     },
-    "Google": {
+    "Base": {
       "count": 1,
-      "category": "tech",
+      "category": "crypto",
       "sample": [
-        "alikhangoogle.cyou"
+        "cloud-review-4580aged-base-92d5.icu"
       ]
     },
-    "CashApp": {
+    "Royal Mail": {
       "count": 1,
-      "category": "payment",
+      "category": "logistics",
       "sample": [
-        "cash-app.cyou"
+        "royalmailr.icu"
+      ]
+    },
+    "FedEx": {
+      "count": 1,
+      "category": "logistics",
+      "sample": [
+        "fedex.qpon"
       ]
     },
     "TikTok": {
       "count": 1,
       "category": "social",
       "sample": [
-        "tiktokplaza.cyou"
-      ]
-    },
-    "Apple": {
-      "count": 1,
-      "category": "tech",
-      "sample": [
-        "apple-v.sbs"
-      ]
-    },
-    "Rainbow Wallet": {
-      "count": 1,
-      "category": "crypto",
-      "sample": [
-        "rainbowdinneraccess.sbs"
+        "tiktokpaybonus.sbs"
       ]
     }
   }
