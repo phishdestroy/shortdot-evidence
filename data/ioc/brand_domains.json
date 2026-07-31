@@ -1,142 +1,108 @@
 {
-  "generated": "2026-07-30",
-  "total_brand_domains": 17,
-  "total_raw_hits": 17,
-  "total_scanned": 11217,
-  "feed_confirmed": 12205,
-  "pattern_candidates": 732,
+  "generated": "2026-07-31",
+  "total_brand_domains": 9,
+  "total_raw_hits": 9,
+  "total_scanned": 5310,
+  "feed_confirmed": 13725,
+  "pattern_candidates": 705,
   "categories": {
-    "tech": 4,
     "crypto": 4,
-    "payment": 2,
     "banking": 2,
-    "telecom": 2,
-    "logistics": 2,
-    "social": 1
+    "ecommerce": 1,
+    "tech": 1,
+    "payment": 1
   },
   "keywords": {
-    "google": [
-      "googleedu.bond",
-      "google-veo.icu",
-      "googlername.icu",
-      "googleberaksi.sbs"
+    "jupiter": [
+      "jupiter1165.cyou"
     ],
-    "revolut": [
-      "revolution-casino.bond",
-      "revolutt.bond"
+    "coinbase_typosquat": [
+      "coinbasket.icu"
     ],
-    "t-mobile": [
-      "seka-bet-mobile.cfd",
-      "imaj-bet-mobile.icu"
+    "commbank": [
+      "commbank.qpon"
     ],
-    "rainbow_wallet": [
-      "rainbowdoor.icu",
-      "rainbowtrout.sbs"
+    "kraken": [
+      "krakenrowel.qpon"
     ],
-    "bmo_bank": [
-      "ca-bmo.cfd"
+    "discover": [
+      "aidiscoverhub.sbs"
     ],
-    "fidelity": [
-      "myfidelityinvestmentprofolio.cfd"
+    "alibaba": [
+      "alibaba-bolivia.sbs"
+    ],
+    "microsoft": [
+      "auth-microsoft.sbs"
+    ],
+    "interac": [
+      "cash-interac.sbs"
     ],
     "trust_wallet": [
-      "trustwalletcards.cfd"
-    ],
-    "base": [
-      "cloud-review-4580aged-base-92d5.icu"
-    ],
-    "royal_mail": [
-      "royalmailr.icu"
-    ],
-    "fedex": [
-      "fedex.qpon"
-    ],
-    "tiktok": [
-      "tiktokpaybonus.sbs"
+      "trustwallet-drop.sbs"
     ]
   },
   "brands": {
-    "Google": {
-      "count": 4,
-      "category": "tech",
-      "sample": [
-        "googleedu.bond",
-        "google-veo.icu",
-        "googlername.icu",
-        "googleberaksi.sbs"
-      ]
-    },
-    "Revolut": {
-      "count": 2,
-      "category": "payment",
-      "sample": [
-        "revolution-casino.bond",
-        "revolutt.bond"
-      ]
-    },
-    "T-Mobile": {
-      "count": 2,
-      "category": "telecom",
-      "sample": [
-        "seka-bet-mobile.cfd",
-        "imaj-bet-mobile.icu"
-      ]
-    },
-    "Rainbow Wallet": {
-      "count": 2,
+    "Jupiter": {
+      "count": 1,
       "category": "crypto",
       "sample": [
-        "rainbowdoor.icu",
-        "rainbowtrout.sbs"
+        "jupiter1165.cyou"
       ]
     },
-    "BMO Bank": {
+    "Coinbase typosquat": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "coinbasket.icu"
+      ]
+    },
+    "CommBank": {
       "count": 1,
       "category": "banking",
       "sample": [
-        "ca-bmo.cfd"
+        "commbank.qpon"
       ]
     },
-    "Fidelity": {
+    "Kraken": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "krakenrowel.qpon"
+      ]
+    },
+    "Discover": {
       "count": 1,
       "category": "banking",
       "sample": [
-        "myfidelityinvestmentprofolio.cfd"
+        "aidiscoverhub.sbs"
+      ]
+    },
+    "Alibaba": {
+      "count": 1,
+      "category": "ecommerce",
+      "sample": [
+        "alibaba-bolivia.sbs"
+      ]
+    },
+    "Microsoft": {
+      "count": 1,
+      "category": "tech",
+      "sample": [
+        "auth-microsoft.sbs"
+      ]
+    },
+    "Interac": {
+      "count": 1,
+      "category": "payment",
+      "sample": [
+        "cash-interac.sbs"
       ]
     },
     "Trust Wallet": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "trustwalletcards.cfd"
-      ]
-    },
-    "Base": {
-      "count": 1,
-      "category": "crypto",
-      "sample": [
-        "cloud-review-4580aged-base-92d5.icu"
-      ]
-    },
-    "Royal Mail": {
-      "count": 1,
-      "category": "logistics",
-      "sample": [
-        "royalmailr.icu"
-      ]
-    },
-    "FedEx": {
-      "count": 1,
-      "category": "logistics",
-      "sample": [
-        "fedex.qpon"
-      ]
-    },
-    "TikTok": {
-      "count": 1,
-      "category": "social",
-      "sample": [
-        "tiktokpaybonus.sbs"
+        "trustwallet-drop.sbs"
       ]
     }
   }

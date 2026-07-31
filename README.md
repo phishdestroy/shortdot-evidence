@@ -36,7 +36,7 @@ They were meant to be <i>counted.</i><br/>
 
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-07-30`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-07-31`
 
 <table><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><sub><code>6,242,647</code></sub></td>
@@ -65,11 +65,11 @@ They were meant to be <i>counted.</i><br/>
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-07-30` | 11,217 | **1.0×** |
+| `2026-07-31` | 5,310 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`dia (14)` &middot; `hop (12)` &middot; `eos (8)` &middot; `service (8)` &middot; `bonus (8)` &middot; `earn (8)` &middot; `official (7)` &middot; `gaming (5)` &middot; `auth (5)` &middot; `webmail (5)` &middot; `sui (5)` &middot; `capital (4)` &middot; `fund (4)` &middot; `support (4)` &middot; `stake (4)`
+`capital (19)` &middot; `tron (14)` &middot; `quest (11)` &middot; `dia (11)` &middot; `eos (10)` &middot; `bonus (10)` &middot; `base (9)` &middot; `service (8)` &middot; `neo (7)` &middot; `hop (7)` &middot; `drop (6)` &middot; `manta (6)` &middot; `portal (6)` &middot; `connect (5)` &middot; `seed (5)`
 
 ### 📥 Download Threat Intelligence
 
@@ -84,7 +84,7 @@ They were meant to be <i>counted.</i><br/>
 | `.cfd` | [data/by_tld/cfd.txt](data/by_tld/cfd.txt) 952,385 | [deployed/cfd.txt](data/ioc/deployed/cfd.txt) 407,496 | [phantom/cfd.txt](data/ioc/phantom/cfd.txt) 544,889 |
 | `.buzz` | [data/by_tld/buzz.txt](data/by_tld/buzz.txt) 209,416 | [deployed/buzz.txt](data/ioc/deployed/buzz.txt) 130,210 | [phantom/buzz.txt](data/ioc/phantom/buzz.txt) 79,206 |
 | `.qpon` | [data/by_tld/qpon.txt](data/by_tld/qpon.txt) 110,365 | [deployed/qpon.txt](data/ioc/deployed/qpon.txt) 61,237 | [phantom/qpon.txt](data/ioc/phantom/qpon.txt) 49,128 |
-| **All zones** | — | [deployed_all.txt](data/ioc/deployed_all.txt) 0 | [phantom_all.txt](data/ioc/phantom_all.txt) 11,217 |
+| **All zones** | — | [deployed_all.txt](data/ioc/deployed_all.txt) 0 | [phantom_all.txt](data/ioc/phantom_all.txt) 5,310 |
 
 **IOC & blocklists:**
 
