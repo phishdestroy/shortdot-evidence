@@ -1,108 +1,145 @@
 {
-  "generated": "2026-07-31",
-  "total_brand_domains": 9,
-  "total_raw_hits": 9,
-  "total_scanned": 5310,
-  "feed_confirmed": 13725,
-  "pattern_candidates": 705,
+  "generated": "2026-08-01",
+  "total_brand_domains": 16,
+  "total_raw_hits": 16,
+  "total_scanned": 6638,
+  "feed_confirmed": 6130,
+  "pattern_candidates": 502,
   "categories": {
-    "crypto": 4,
-    "banking": 2,
-    "ecommerce": 1,
-    "tech": 1,
+    "social": 7,
+    "crypto": 5,
+    "banking": 3,
     "payment": 1
   },
   "keywords": {
-    "jupiter": [
-      "jupiter1165.cyou"
+    "twitter_x": [
+      "betpastwitter-y40v.icu",
+      "perabettwitter-xzen.icu",
+      "romabettwitter-fgow.icu",
+      "romabettwitter-pr6w.icu"
     ],
-    "coinbase_typosquat": [
-      "coinbasket.icu"
+    "ledger": [
+      "lanternledger.cfd",
+      "ledgeraxiom.cfd"
     ],
-    "commbank": [
-      "commbank.qpon"
+    "discord": [
+      "discordaged.bond"
     ],
-    "kraken": [
-      "krakenrowel.qpon"
+    "nab": [
+      "nab-com-au.cfd"
     ],
-    "discover": [
-      "aidiscoverhub.sbs"
+    "bankwest": [
+      "rwardbankwest1.cfd"
     ],
-    "alibaba": [
-      "alibaba-bolivia.sbs"
+    "base": [
+      "addendum-200notice-encryption-base.icu"
     ],
-    "microsoft": [
-      "auth-microsoft.sbs"
+    "charles_schwab": [
+      "schwabsonline.icu"
+    ],
+    "tiktok": [
+      "usatiktok.icu"
+    ],
+    "argent": [
+      "correoargentinn.sbs"
     ],
     "interac": [
-      "cash-interac.sbs"
+      "interac-emt.sbs"
     ],
-    "trust_wallet": [
-      "trustwallet-drop.sbs"
+    "claim_portal": [
+      "support-claim-esl-org.sbs"
+    ],
+    "telegram": [
+      "telegram24.sbs"
     ]
   },
   "brands": {
-    "Jupiter": {
-      "count": 1,
-      "category": "crypto",
+    "Twitter/X": {
+      "count": 4,
+      "category": "social",
       "sample": [
-        "jupiter1165.cyou"
+        "betpastwitter-y40v.icu",
+        "perabettwitter-xzen.icu",
+        "romabettwitter-fgow.icu",
+        "romabettwitter-pr6w.icu"
       ]
     },
-    "Coinbase typosquat": {
-      "count": 1,
+    "Ledger": {
+      "count": 2,
       "category": "crypto",
       "sample": [
-        "coinbasket.icu"
+        "lanternledger.cfd",
+        "ledgeraxiom.cfd"
       ]
     },
-    "CommBank": {
+    "Discord": {
+      "count": 1,
+      "category": "social",
+      "sample": [
+        "discordaged.bond"
+      ]
+    },
+    "NAB": {
       "count": 1,
       "category": "banking",
       "sample": [
-        "commbank.qpon"
+        "nab-com-au.cfd"
       ]
     },
-    "Kraken": {
-      "count": 1,
-      "category": "crypto",
-      "sample": [
-        "krakenrowel.qpon"
-      ]
-    },
-    "Discover": {
+    "Bankwest": {
       "count": 1,
       "category": "banking",
       "sample": [
-        "aidiscoverhub.sbs"
+        "rwardbankwest1.cfd"
       ]
     },
-    "Alibaba": {
+    "Base": {
       "count": 1,
-      "category": "ecommerce",
+      "category": "crypto",
       "sample": [
-        "alibaba-bolivia.sbs"
+        "addendum-200notice-encryption-base.icu"
       ]
     },
-    "Microsoft": {
+    "Charles Schwab": {
       "count": 1,
-      "category": "tech",
+      "category": "banking",
       "sample": [
-        "auth-microsoft.sbs"
+        "schwabsonline.icu"
+      ]
+    },
+    "TikTok": {
+      "count": 1,
+      "category": "social",
+      "sample": [
+        "usatiktok.icu"
+      ]
+    },
+    "Argent": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "correoargentinn.sbs"
       ]
     },
     "Interac": {
       "count": 1,
       "category": "payment",
       "sample": [
-        "cash-interac.sbs"
+        "interac-emt.sbs"
       ]
     },
-    "Trust Wallet": {
+    "Claim Portal": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "trustwallet-drop.sbs"
+        "support-claim-esl-org.sbs"
+      ]
+    },
+    "Telegram": {
+      "count": 1,
+      "category": "social",
+      "sample": [
+        "telegram24.sbs"
       ]
     }
   }

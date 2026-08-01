@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-31",
-  "total": 8416,
-  "multi_source": 1275,
+  "generated": "2026-08-01",
+  "total": 8322,
+  "multi_source": 1223,
   "by_source": {
-    "spamhaus": 8416,
-    "surbl": 1907,
+    "spamhaus": 8322,
+    "surbl": 1895,
     "urlscan": 0,
     "otx": 0
   },
@@ -55,6 +55,9 @@
     "1524bets10.icu": {
       "spamhaus": "PHISHING"
     },
+    "160989.cfd": {
+      "spamhaus": "SPAM"
+    },
     "16358.qpon": {
       "spamhaus": "SPAM",
       "surbl": "LISTED:127.0.0.64"
@@ -77,9 +80,6 @@
     "1714259.cfd": {
       "spamhaus": "SPAM"
     },
-    "17418e8713c9e6444e34a8cf5a361673.icu": {
-      "spamhaus": "SPAM"
-    },
     "17664.cfd": {
       "spamhaus": "SPAM"
     },
@@ -89,9 +89,6 @@
     "192001.cfd": {
       "spamhaus": "SPAM",
       "surbl": "MALWARE"
-    },
-    "1a865b4f4b5053a17a98cdd29237c38a.icu": {
-      "spamhaus": "SPAM"
     },
     "1b383phjgmf9i8hwv69.cyou": {
       "spamhaus": "SPAM"
@@ -168,7 +165,8 @@
       "spamhaus": "ABUSED_REDIRECTOR"
     },
     "23514285.cfd": {
-      "spamhaus": "PHISHING"
+      "spamhaus": "PHISHING",
+      "surbl": "MALWARE"
     },
     "2394904f3f3f.qpon": {
       "spamhaus": "PHISHING"
@@ -193,7 +191,8 @@
       "spamhaus": "SPAM"
     },
     "2848124.sbs": {
-      "spamhaus": "PHISHING"
+      "spamhaus": "PHISHING",
+      "surbl": "MALWARE"
     },
     "288001.cfd": {
       "spamhaus": "SPAM"
@@ -478,7 +477,7 @@
       "spamhaus": "SPAM"
     },
     "5c776933e709708f532da9454bd54498.sbs": {
-      "spamhaus": "SPAM"
+      "spamhaus": "ABUSED_REDIRECTOR"
     },
     "5ei1zlm7w7ut9bezxfj5.cfd": {
       "spamhaus": "SPAM"
@@ -511,12 +510,10 @@
       "spamhaus": "SPAM"
     },
     "6252131902.cfd": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "625241233.cfd": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "638292.cfd": {
       "spamhaus": "PHISHING"
@@ -568,7 +565,8 @@
       "spamhaus": "PHISHING"
     },
     "724519.cfd": {
-      "spamhaus": "PHISHING"
+      "spamhaus": "PHISHING",
+      "surbl": "MALWARE"
     },
     "726123412.cfd": {
       "spamhaus": "PHISHING"
@@ -752,8 +750,7 @@
       "spamhaus": "PHISHING"
     },
     "9494183.sbs": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "94rtb5yxlj13fw6.cfd": {
       "spamhaus": "SPAM"
@@ -869,7 +866,7 @@
     },
     "abbrurancu.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "abbyoutfeat.cfd": {
       "spamhaus": "SPAM"
@@ -959,7 +956,7 @@
     },
     "accafreinn.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "acclaimbra.cyou": {
       "spamhaus": "SPAM",
@@ -1031,10 +1028,6 @@
     "acephdisgr.cyou": {
       "spamhaus": "SPAM",
       "surbl": "MALWARE"
-    },
-    "acervammal.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
     },
     "acetizehawbucktaximen.qpon": {
       "spamhaus": "SPAM"
@@ -1125,7 +1118,7 @@
       "surbl": "LISTED:127.0.0.64"
     },
     "admiration-noble.sbs": {
-      "spamhaus": "ABUSED_REDIRECTOR"
+      "spamhaus": "BOTNET_CC"
     },
     "admirsatel.cyou": {
       "spamhaus": "SPAM",
@@ -1255,9 +1248,6 @@
     "agtlaylocktritish.cfd": {
       "spamhaus": "SPAM"
     },
-    "aguaralekythi.cyou": {
-      "spamhaus": "SPAM"
-    },
     "agudistinsnare.cyou": {
       "spamhaus": "SPAM"
     },
@@ -1281,6 +1271,10 @@
     },
     "airbaglinenysorghe.cyou": {
       "spamhaus": "SPAM"
+    },
+    "airedohioaxseeds.cfd": {
+      "spamhaus": "SPAM",
+      "surbl": "MALWARE"
     },
     "airmassashmen.cyou": {
       "spamhaus": "SPAM"
@@ -1397,17 +1391,10 @@
     "algollethy.cfd": {
       "spamhaus": "SPAM"
     },
-    "algondiner.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
-    },
     "algsat.icu": {
       "spamhaus": "ABUSED_REDIRECTOR"
     },
     "alhagiskatoma.cfd": {
-      "spamhaus": "SPAM"
-    },
-    "alieneesowle.qpon": {
       "spamhaus": "SPAM"
     },
     "alignerspawnsessede.cyou": {
@@ -1739,15 +1726,13 @@
       "spamhaus": "PHISHING"
     },
     "allegro.399h8h7.qpon": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "allegro.4892985.sbs": {
       "spamhaus": "PHISHING"
     },
     "allegro.4912919gg.qpon": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "allegro.52300t92g3223.qpon": {
       "spamhaus": "PHISHING",
@@ -2905,6 +2890,10 @@
     "allegrolokalnie.letnie-okazje777316465.cyou": {
       "spamhaus": "PHISHING"
     },
+    "allegrolokalnie.letnie-okazje8741298561.cyou": {
+      "spamhaus": "PHISHING",
+      "surbl": "MALWARE"
+    },
     "allegrolokalnie.letnie-okazje876326411.bond": {
       "spamhaus": "PHISHING"
     },
@@ -2996,8 +2985,7 @@
       "surbl": "MALWARE"
     },
     "allegrolokalnie.lokalna-83891.sbs": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "allegrolokalnie.lokalna-884456.sbs": {
       "spamhaus": "PHISHING"
@@ -3105,8 +3093,7 @@
       "spamhaus": "PHISHING"
     },
     "allegrolokalnie.lokalna-ofeta1023xz3y2j002.icu": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "allegrolokalnie.lokalna-ofeta1981729.sbs": {
       "spamhaus": "PHISHING"
@@ -3452,8 +3439,7 @@
       "spamhaus": "PHISHING"
     },
     "allegrolokalnie.pl-328838.sbs": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "allegrolokalnie.pl-390.cfd": {
       "spamhaus": "PHISHING"
@@ -3574,7 +3560,8 @@
       "spamhaus": "PHISHING"
     },
     "allegrolokalnie.pl-54373.sbs": {
-      "spamhaus": "PHISHING"
+      "spamhaus": "PHISHING",
+      "surbl": "MALWARE"
     },
     "allegrolokalnie.pl-54389432.cyou": {
       "spamhaus": "PHISHING"
@@ -3993,7 +3980,8 @@
       "spamhaus": "PHISHING"
     },
     "allegrolokalnie.pl-ogloszenie9967883927.cyou": {
-      "spamhaus": "PHISHING"
+      "spamhaus": "PHISHING",
+      "surbl": "MALWARE"
     },
     "allegrolokalnie.pl-prywatne-475.sbs": {
       "spamhaus": "PHISHING"
@@ -4023,9 +4011,6 @@
       "spamhaus": "PHISHING"
     },
     "allegrolokalnie.pl-smart8758124.cfd": {
-      "spamhaus": "PHISHING"
-    },
-    "allegrolokalnie.pl-smartaukcja24-h.icu": {
       "spamhaus": "PHISHING"
     },
     "allegrolokalnie.pl-smartzakup24-h.icu": {
@@ -4115,8 +4100,7 @@
       "spamhaus": "PHISHING"
     },
     "allegrolokalnie.rezerwacja95081274.sbs": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "allegrolokalnie.rozne-398575722.sbs": {
       "spamhaus": "PHISHING"
@@ -4218,7 +4202,7 @@
     },
     "allibdiser.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "allibragio.cyou": {
       "spamhaus": "SPAM",
@@ -4229,9 +4213,6 @@
       "surbl": "LISTED:127.0.0.64"
     },
     "allowedwhoope.qpon": {
-      "spamhaus": "SPAM"
-    },
-    "allytextlore.qpon": {
       "spamhaus": "SPAM"
     },
     "almagracockles.cyou": {
@@ -4419,7 +4400,7 @@
     },
     "antidgloba.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "antippacat.cyou": {
       "spamhaus": "SPAM",
@@ -4531,7 +4512,7 @@
     },
     "arbitluco.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "archabevaz.cyou": {
       "spamhaus": "SPAM",
@@ -4618,7 +4599,7 @@
     },
     "arrapmirli.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "arrayprocessing.cfd": {
       "spamhaus": "PHISHING"
@@ -4742,7 +4723,7 @@
     },
     "astripropy.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "astronneatens.cfd": {
       "spamhaus": "SPAM"
@@ -4772,9 +4753,6 @@
       "spamhaus": "SPAM"
     },
     "atimygud.cyou": {
-      "spamhaus": "SPAM"
-    },
-    "atlasesdilates.qpon": {
       "spamhaus": "SPAM"
     },
     "atlatlstanks.qpon": {
@@ -4880,7 +4858,7 @@
     },
     "autoineigh.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "autolrispa.cyou": {
       "spamhaus": "SPAM",
@@ -4940,9 +4918,6 @@
       "spamhaus": "SPAM"
     },
     "awokechirked.cfd": {
-      "spamhaus": "SPAM"
-    },
-    "awokekamalas.cfd": {
       "spamhaus": "SPAM"
     },
     "awokensilicyl.cyou": {
@@ -5259,9 +5234,6 @@
     "bdank.icu": {
       "spamhaus": "PHISHING"
     },
-    "beachesdixit.cfd": {
-      "spamhaus": "SPAM"
-    },
     "beaksuccisa.qpon": {
       "spamhaus": "SPAM"
     },
@@ -5377,8 +5349,7 @@
       "spamhaus": "SPAM"
     },
     "belutejapepluton.cfd": {
-      "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "spamhaus": "SPAM"
     },
     "bemirenudges.cfd": {
       "spamhaus": "SPAM"
@@ -5473,9 +5444,6 @@
     "beteelaboiling.cyou": {
       "spamhaus": "SPAM"
     },
-    "betisleaves.cfd": {
-      "spamhaus": "SPAM"
-    },
     "betoffice-giris.icu": {
       "spamhaus": "PHISHING"
     },
@@ -5548,10 +5516,6 @@
     },
     "binderyvocalic.cfd": {
       "spamhaus": "SPAM"
-    },
-    "bindeusufr.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
     },
     "bindsthea.cyou": {
       "spamhaus": "SPAM"
@@ -5631,7 +5595,7 @@
       "spamhaus": "SPAM"
     },
     "blackkkkdate.icu": {
-      "spamhaus": "ABUSED_REDIRECTOR"
+      "spamhaus": "PHISHING"
     },
     "blackkkkkdate.icu": {
       "spamhaus": "PHISHING"
@@ -5754,7 +5718,7 @@
       "spamhaus": "SPAM"
     },
     "bognervopi.icu": {
-      "spamhaus": "ABUSED_REDIRECTOR"
+      "spamhaus": "BOTNET_CC"
     },
     "boguingmowra.cfd": {
       "spamhaus": "SPAM"
@@ -5819,7 +5783,7 @@
     },
     "bookkmaldi.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "boomboxbecuna.cyou": {
       "spamhaus": "PHISHING"
@@ -5847,9 +5811,6 @@
     },
     "borrnopi.icu": {
       "spamhaus": "ABUSED_REDIRECTOR"
-    },
-    "bosomycrampetpoof.cfd": {
-      "spamhaus": "SPAM"
     },
     "botagleeksimpresa.qpon": {
       "spamhaus": "SPAM"
@@ -6168,9 +6129,6 @@
     "c815mg3lrb6646kl.cfd": {
       "spamhaus": "SPAM"
     },
-    "c81mm9t4tkxxk815n2kgwi1twl8.cfd": {
-      "spamhaus": "SPAM"
-    },
     "c8n3h0.cfd": {
       "spamhaus": "PHISHING"
     },
@@ -6182,9 +6140,6 @@
     },
     "ca.gov-zai.cfd": {
       "spamhaus": "PHISHING"
-    },
-    "caamingsirship.cyou": {
-      "spamhaus": "SPAM"
     },
     "cabbagyflagger.qpon": {
       "spamhaus": "SPAM"
@@ -6249,9 +6204,6 @@
     "camaligminchen.qpon": {
       "spamhaus": "SPAM"
     },
-    "cambiamonacid.qpon": {
-      "spamhaus": "SPAM"
-    },
     "cameluslupous.qpon": {
       "spamhaus": "SPAM"
     },
@@ -6266,8 +6218,7 @@
       "spamhaus": "SPAM"
     },
     "canadapost-postesqcanada.cfd": {
-      "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "spamhaus": "SPAM"
     },
     "canamoreggae.qpon": {
       "spamhaus": "SPAM"
@@ -6668,7 +6619,7 @@
     },
     "choridetes.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "choristlibget.cfd": {
       "spamhaus": "SPAM"
@@ -6907,7 +6858,7 @@
     },
     "coffefaler.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "coffrsospi.cyou": {
       "spamhaus": "SPAM"
@@ -6940,7 +6891,7 @@
     },
     "collabenad.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "collaexpat.cyou": {
       "spamhaus": "SPAM",
@@ -7138,7 +7089,8 @@
       "spamhaus": "PHISHING"
     },
     "com-kfade.bond": {
-      "spamhaus": "PHISHING"
+      "spamhaus": "PHISHING",
+      "surbl": "MALWARE"
     },
     "com-kfadf.bond": {
       "spamhaus": "PHISHING"
@@ -7245,7 +7197,7 @@
     },
     "comenracqu.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "comicsarabesk.cfd": {
       "spamhaus": "SPAM"
@@ -7254,10 +7206,6 @@
       "spamhaus": "PHISHING"
     },
     "commesconc.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
-    },
-    "commieccep.cyou": {
       "spamhaus": "SPAM",
       "surbl": "LISTED:127.0.0.64"
     },
@@ -7439,7 +7387,10 @@
       "spamhaus": "SPAM"
     },
     "corraia.icu": {
-      "spamhaus": "ABUSED_REDIRECTOR"
+      "spamhaus": "BOTNET_CC"
+    },
+    "correoargentinn.sbs": {
+      "spamhaus": "SPAM"
     },
     "correoiargentino.buzz": {
       "spamhaus": "PHISHING",
@@ -7537,7 +7488,7 @@
     },
     "crampbenef.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "craneyjiggle.cfd": {
       "spamhaus": "SPAM"
@@ -7741,9 +7692,6 @@
     "cw4gh9vcnhvthkf5wihv8ut.cfd": {
       "spamhaus": "SPAM"
     },
-    "cx9ul.cyou": {
-      "spamhaus": "PHISHING"
-    },
     "cxtkctckl2qzv2.cyou": {
       "spamhaus": "SPAM"
     },
@@ -7834,9 +7782,6 @@
     "daildoumas.cfd": {
       "spamhaus": "SPAM"
     },
-    "daisiedveritecabda.cfd": {
-      "spamhaus": "SPAM"
-    },
     "dakoitsgrouch.cyou": {
       "spamhaus": "SPAM"
     },
@@ -7892,9 +7837,6 @@
     "dareddebat.qpon": {
       "spamhaus": "SPAM"
     },
-    "darenasseize.qpon": {
-      "spamhaus": "SPAM"
-    },
     "dasturgrote.qpon": {
       "spamhaus": "SPAM"
     },
@@ -7915,10 +7857,6 @@
     },
     "daybedamido.qpon": {
       "spamhaus": "SPAM"
-    },
-    "dcsde.buzz": {
-      "spamhaus": "PHISHING",
-      "surbl": "LISTED:127.0.0.64"
     },
     "ddosprotections.subverifer.icu": {
       "spamhaus": "PHISHING"
@@ -8055,7 +7993,7 @@
     },
     "deparzimbe.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "depicperco.cyou": {
       "spamhaus": "SPAM",
@@ -8128,7 +8066,7 @@
     },
     "dextrlose.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "dh.sewarsremeets.cfd": {
       "spamhaus": "SPAM"
@@ -8137,9 +8075,6 @@
       "spamhaus": "SPAM"
     },
     "dhl-huq-com.cfd": {
-      "spamhaus": "PHISHING"
-    },
-    "dhl7.buzz": {
       "spamhaus": "PHISHING"
     },
     "dhlbafbz.sbs": {
@@ -8202,16 +8137,13 @@
     "dhlyacgyv.icu": {
       "spamhaus": "PHISHING"
     },
-    "dhsuahjksh.icu": {
-      "spamhaus": "PHISHING"
-    },
     "diabaesper.cyou": {
       "spamhaus": "SPAM",
       "surbl": "LISTED:127.0.0.64"
     },
     "diadomudsi.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "diadosarti.cyou": {
       "spamhaus": "SPAM",
@@ -8401,7 +8333,7 @@
     },
     "disenabbal.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "diserincav.cyou": {
       "spamhaus": "SPAM",
@@ -8493,10 +8425,6 @@
       "spamhaus": "SPAM",
       "surbl": "LISTED:127.0.0.64"
     },
-    "disvipreap.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
-    },
     "ditonepenmanpunty.cfd": {
       "spamhaus": "SPAM"
     },
@@ -8519,10 +8447,6 @@
     },
     "divorcebullion.qpon": {
       "spamhaus": "SPAM"
-    },
-    "divulincap.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
     },
     "divulsemicraco.cyou": {
       "spamhaus": "SPAM"
@@ -8555,9 +8479,6 @@
     "dmca-abuse.cfd": {
       "spamhaus": "PHISHING",
       "surbl": "MALWARE"
-    },
-    "dmv.ca-govgar.icu": {
-      "spamhaus": "PHISHING"
     },
     "dntemert.cyou": {
       "spamhaus": "SPAM",
@@ -9235,10 +9156,6 @@
     "drix.cdnportable.cyou": {
       "spamhaus": "PHISHING"
     },
-    "drofmadisci.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
-    },
     "dromickvetch.cfd": {
       "spamhaus": "SPAM"
     },
@@ -9366,6 +9283,10 @@
     "dzerenwelting.cfd": {
       "spamhaus": "SPAM"
     },
+    "e-albania.icu": {
+      "spamhaus": "SPAM",
+      "surbl": "MALWARE"
+    },
     "e-t3llstra.icu": {
       "spamhaus": "SPAM"
     },
@@ -9433,9 +9354,6 @@
       "spamhaus": "SPAM"
     },
     "eeyuchchateus.qpon": {
-      "spamhaus": "SPAM"
-    },
-    "efformiodoso.qpon": {
       "spamhaus": "SPAM"
     },
     "effortnapping.qpon": {
@@ -9506,10 +9424,6 @@
     },
     "elopedchapmanrebozos.qpon": {
       "spamhaus": "SPAM"
-    },
-    "elsewunthr.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
     },
     "elusorybeer.cyou": {
       "spamhaus": "SPAM"
@@ -9698,8 +9612,7 @@
       "spamhaus": "SPAM"
     },
     "eobuwies.sbs": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "eoferta87490.cfd": {
       "spamhaus": "PHISHING"
@@ -9740,7 +9653,7 @@
     },
     "epiloriavv.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "epitonic.cfd": {
       "spamhaus": "PHISHING"
@@ -9819,9 +9732,6 @@
     "est-bitmekbilmeyenuzunbiyol.sbs": {
       "spamhaus": "SPAM"
     },
-    "est-rukusece.sbs": {
-      "spamhaus": "SPAM"
-    },
     "estatsges.qpon": {
       "spamhaus": "SPAM"
     },
@@ -9839,8 +9749,7 @@
       "spamhaus": "PHISHING"
     },
     "etasscoffstopers.cfd": {
-      "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "spamhaus": "SPAM"
     },
     "etbgc71fv2p3lor6cz.cfd": {
       "spamhaus": "SPAM"
@@ -10070,9 +9979,6 @@
     "famillerimas.cyou": {
       "spamhaus": "SPAM"
     },
-    "fanamembind.cyou": {
-      "spamhaus": "SPAM"
-    },
     "fannersrhytinarandon.cyou": {
       "spamhaus": "SPAM"
     },
@@ -10235,9 +10141,6 @@
     "fide1iltym.cyou": {
       "spamhaus": "PHISHING"
     },
-    "fidebiu.icu": {
-      "spamhaus": "PHISHING"
-    },
     "fidei-itjy.cyou": {
       "spamhaus": "PHISHING"
     },
@@ -10360,9 +10263,6 @@
       "spamhaus": "SPAM",
       "surbl": "LISTED:127.0.0.64"
     },
-    "finance91-a89.sbs": {
-      "spamhaus": "SPAM"
-    },
     "finance91-dicta7.sbs": {
       "spamhaus": "SPAM",
       "surbl": "LISTED:127.0.0.64"
@@ -10380,10 +10280,6 @@
       "surbl": "LISTED:127.0.0.64"
     },
     "finance92-quos89.sbs": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
-    },
-    "finance92-repellendus52.sbs": {
       "spamhaus": "SPAM",
       "surbl": "LISTED:127.0.0.64"
     },
@@ -10512,14 +10408,6 @@
     },
     "finance98-quia21.sbs": {
       "spamhaus": "PHISHING"
-    },
-    "finance98-sunt98.sbs": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
-    },
-    "finance99-consectetur39.sbs": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
     },
     "finance99-odio77.sbs": {
       "spamhaus": "SPAM",
@@ -11165,10 +11053,6 @@
     "galopscoynye.qpon": {
       "spamhaus": "SPAM"
     },
-    "galvafigat.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
-    },
     "gambogecringedresh.cfd": {
       "spamhaus": "SPAM"
     },
@@ -11435,7 +11319,7 @@
     },
     "giubbamylo.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "giuggpirnge.cyou": {
       "spamhaus": "SPAM",
@@ -12404,10 +12288,6 @@
     "grailrank.qpon": {
       "spamhaus": "SPAM"
     },
-    "grammindra.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
-    },
     "gramycopeman.cfd": {
       "spamhaus": "SPAM"
     },
@@ -12579,9 +12459,6 @@
     "gulleystately.cyou": {
       "spamhaus": "SPAM"
     },
-    "guloimmisincamp.qpon": {
-      "spamhaus": "SPAM"
-    },
     "gunbirlikveberaberlikgunudur.sbs": {
       "spamhaus": "SPAM"
     },
@@ -12687,9 +12564,6 @@
     "haberler2223399.sbs": {
       "spamhaus": "SPAM"
     },
-    "haberler223522.sbs": {
-      "spamhaus": "SPAM"
-    },
     "haberler235423.sbs": {
       "spamhaus": "SPAM"
     },
@@ -12763,9 +12637,6 @@
       "spamhaus": "SPAM"
     },
     "halvaglegmackled.qpon": {
-      "spamhaus": "SPAM"
-    },
-    "hamaldskiffs.qpon": {
       "spamhaus": "SPAM"
     },
     "hammilykalasieridged.cyou": {
@@ -13185,7 +13056,7 @@
       "spamhaus": "PHISHING"
     },
     "holopebamiy.bond": {
-      "spamhaus": "ABUSED_REDIRECTOR"
+      "spamhaus": "BOTNET_CC"
     },
     "homevodafone.sbs": {
       "spamhaus": "PHISHING"
@@ -13242,9 +13113,6 @@
       "spamhaus": "SPAM"
     },
     "host06s.cfd": {
-      "spamhaus": "SPAM"
-    },
-    "host07s.cfd": {
       "spamhaus": "SPAM"
     },
     "host09s.cfd": {
@@ -13572,7 +13440,7 @@
     },
     "imbiasilur.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "imbibersemiurn.qpon": {
       "spamhaus": "SPAM"
@@ -13591,7 +13459,7 @@
     },
     "immelevira.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "immensegymsiajt.cyou": {
       "spamhaus": "SPAM"
@@ -13661,7 +13529,7 @@
     },
     "incaseolit.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "incivicdojiggytousled.qpon": {
       "spamhaus": "SPAM"
@@ -13680,16 +13548,9 @@
       "spamhaus": "SPAM",
       "surbl": "LISTED:127.0.0.64"
     },
-    "incroimbus.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
-    },
     "indispattu.cyou": {
       "spamhaus": "SPAM",
       "surbl": "LISTED:127.0.0.64"
-    },
-    "indrmli-149luk-gunler.sbs": {
-      "spamhaus": "SPAM"
     },
     "indulinpentailhews.cfd": {
       "spamhaus": "SPAM"
@@ -13716,10 +13577,6 @@
       "spamhaus": "SPAM",
       "surbl": "LISTED:127.0.0.64"
     },
-    "infiorinvi.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
-    },
     "infixescensors.cyou": {
       "spamhaus": "SPAM"
     },
@@ -13732,7 +13589,7 @@
     },
     "infodberth.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "inforcompo.cyou": {
       "spamhaus": "SPAM",
@@ -13771,15 +13628,11 @@
       "spamhaus": "PHISHING",
       "surbl": "LISTED:127.0.0.64"
     },
-    "ingroockst.cyou": {
-      "spamhaus": "PHISHING",
-      "surbl": "LISTED:127.0.0.64"
-    },
     "ingrowberylsrosales.qpon": {
       "spamhaus": "PHISHING"
     },
     "inguenpercy.cyou": {
-      "spamhaus": "SPAM"
+      "spamhaus": "PHISHING"
     },
     "inhardemer.cyou": {
       "spamhaus": "SPAM",
@@ -13869,7 +13722,7 @@
     },
     "intritrasb.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "intrunkharangcetanes.cyou": {
       "spamhaus": "SPAM"
@@ -13881,13 +13734,6 @@
       "spamhaus": "SPAM"
     },
     "inutilecooeed.cyou": {
-      "spamhaus": "SPAM"
-    },
-    "inveninart.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
-    },
-    "invidiablither.qpon": {
       "spamhaus": "SPAM"
     },
     "invogdiste.cyou": {
@@ -13934,7 +13780,7 @@
     },
     "ipertcodia.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "ipostbarbu.cyou": {
       "spamhaus": "SPAM",
@@ -13974,8 +13820,7 @@
       "spamhaus": "SPAM"
     },
     "isduygc.cfd": {
-      "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "spamhaus": "SPAM"
     },
     "isingmuddy.cyou": {
       "spamhaus": "SPAM"
@@ -14007,10 +13852,6 @@
     },
     "isotelyessedetontine.qpon": {
       "spamhaus": "SPAM"
-    },
-    "ispanmirac.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
     },
     "isserspela.cyou": {
       "spamhaus": "SPAM",
@@ -14139,8 +13980,7 @@
       "spamhaus": "SPAM"
     },
     "jbsy-online.icu": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "jcqakol.icu": {
       "spamhaus": "SPAM"
@@ -14174,7 +14014,7 @@
     },
     "jeweledgew.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "jewhoodblicky.qpon": {
       "spamhaus": "SPAM"
@@ -14195,9 +14035,6 @@
       "spamhaus": "SPAM"
     },
     "jingobreaths.cfd": {
-      "spamhaus": "SPAM"
-    },
-    "jitrosidewayindaba.qpon": {
       "spamhaus": "SPAM"
     },
     "jivingafrithm.cyou": {
@@ -14468,7 +14305,7 @@
       "spamhaus": "PHISHING"
     },
     "kavbet-login.icu": {
-      "spamhaus": "SPAM"
+      "spamhaus": "PHISHING"
     },
     "kayosgluttonclean.cyou": {
       "spamhaus": "SPAM"
@@ -14855,9 +14692,6 @@
       "spamhaus": "SPAM",
       "surbl": "MALWARE"
     },
-    "labioserelicti.cyou": {
-      "spamhaus": "SPAM"
-    },
     "laburbiffe.cyou": {
       "spamhaus": "SPAM",
       "surbl": "LISTED:127.0.0.64"
@@ -14897,9 +14731,6 @@
       "surbl": "LISTED:127.0.0.64"
     },
     "lanaissurcrue.qpon": {
-      "spamhaus": "SPAM"
-    },
-    "langcatestishydroa.qpon": {
       "spamhaus": "SPAM"
     },
     "langleimproof.cyou": {
@@ -15018,7 +14849,7 @@
       "spamhaus": "SPAM"
     },
     "ledesla.cfd": {
-      "spamhaus": "ABUSED_REDIRECTOR"
+      "spamhaus": "BOTNET_CC"
     },
     "ledger-com-app.icu": {
       "spamhaus": "PHISHING"
@@ -15060,9 +14891,6 @@
       "spamhaus": "SPAM",
       "surbl": "MALWARE"
     },
-    "leoneseclaudia.cyou": {
-      "spamhaus": "SPAM"
-    },
     "lepchapentritbiddery.cyou": {
       "spamhaus": "SPAM"
     },
@@ -15083,10 +14911,12 @@
       "surbl": "MALWARE"
     },
     "letnie-okazje6741786125.cyou": {
-      "spamhaus": "PHISHING"
+      "spamhaus": "PHISHING",
+      "surbl": "MALWARE"
     },
     "letnie-okazje77416698.cyou": {
-      "spamhaus": "PHISHING"
+      "spamhaus": "PHISHING",
+      "surbl": "MALWARE"
     },
     "letternrede.cfd": {
       "spamhaus": "SPAM"
@@ -15223,9 +15053,6 @@
     "litstercurve.qpon": {
       "spamhaus": "SPAM"
     },
-    "lixiviagrex.cfd": {
-      "spamhaus": "SPAM"
-    },
     "lizziextem.cyou": {
       "spamhaus": "SPAM",
       "surbl": "LISTED:127.0.0.64"
@@ -15299,15 +15126,14 @@
       "spamhaus": "PHISHING"
     },
     "lokalna-329131.sbs": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "lokalna-473921.sbs": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "lokalna-73992132.sbs": {
-      "spamhaus": "PHISHING"
+      "spamhaus": "PHISHING",
+      "surbl": "MALWARE"
     },
     "lokalna-884456.sbs": {
       "spamhaus": "PHISHING"
@@ -15316,7 +15142,8 @@
       "spamhaus": "PHISHING"
     },
     "lokalna-93882713232.sbs": {
-      "spamhaus": "PHISHING"
+      "spamhaus": "PHISHING",
+      "surbl": "MALWARE"
     },
     "lokalna-ofera74764345.sbs": {
       "spamhaus": "PHISHING",
@@ -15330,7 +15157,8 @@
       "surbl": "LISTED:127.0.0.64"
     },
     "lokalna-oferta857521.sbs": {
-      "spamhaus": "PHISHING"
+      "spamhaus": "PHISHING",
+      "surbl": "MALWARE"
     },
     "lokalna-oferta94291.cfd": {
       "spamhaus": "PHISHING",
@@ -15659,7 +15487,7 @@
     },
     "manherisor.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "manifammuc.cyou": {
       "spamhaus": "SPAM",
@@ -15755,9 +15583,6 @@
       "spamhaus": "SPAM"
     },
     "maskcubical.cfd": {
-      "spamhaus": "SPAM"
-    },
-    "maskedpairedredsear.cyou": {
       "spamhaus": "SPAM"
     },
     "maskermixedlyglucid.qpon": {
@@ -15904,10 +15729,6 @@
     "meioticbanba.cfd": {
       "spamhaus": "SPAM"
     },
-    "meligimpel.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
-    },
     "meltingpristaw.qpon": {
       "spamhaus": "SPAM"
     },
@@ -15922,10 +15743,6 @@
     },
     "memosaramis.qpon": {
       "spamhaus": "SPAM"
-    },
-    "menagzizan.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
     },
     "mendejobnamepanama.cyou": {
       "spamhaus": "SPAM"
@@ -16015,7 +15832,7 @@
     },
     "metagexuda.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "metahelp.businessbluemetatick.sbs": {
       "spamhaus": "PHISHING"
@@ -16055,9 +15872,6 @@
     },
     "mgreyouth.cfd": {
       "spamhaus": "SPAM"
-    },
-    "mhh7.icu": {
-      "spamhaus": "PHISHING"
     },
     "miasmiccushing.qpon": {
       "spamhaus": "SPAM"
@@ -16170,7 +15984,7 @@
     },
     "missirassa.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "missoutenflamedallan.qpon": {
       "spamhaus": "SPAM"
@@ -16325,10 +16139,6 @@
     },
     "monaxendymal.qpon": {
       "spamhaus": "SPAM"
-    },
-    "mongotrni.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
     },
     "monnyfooling.cfd": {
       "spamhaus": "SPAM"
@@ -16647,6 +16457,9 @@
       "spamhaus": "PHISHING",
       "surbl": "MALWARE"
     },
+    "nab-com-au.cfd": {
+      "spamhaus": "PHISHING"
+    },
     "nailrodchoughs.qpon": {
       "spamhaus": "SPAM"
     },
@@ -16746,10 +16559,6 @@
       "spamhaus": "SPAM"
     },
     "neciincav.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
-    },
-    "necrorinve.cyou": {
       "spamhaus": "SPAM",
       "surbl": "LISTED:127.0.0.64"
     },
@@ -16937,7 +16746,7 @@
     },
     "noncoselci.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "nonfaambie.cyou": {
       "spamhaus": "SPAM",
@@ -16966,7 +16775,7 @@
     },
     "nonspprecl.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "nonsuiteunice.qpon": {
       "spamhaus": "SPAM"
@@ -17014,7 +16823,7 @@
     },
     "nougainter.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "novellekamichi.cfd": {
       "spamhaus": "SPAM"
@@ -17029,8 +16838,7 @@
       "spamhaus": "PHISHING"
     },
     "nr-32843mnlkfds32.cyou": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "nr-428954.cfd": {
       "spamhaus": "PHISHING"
@@ -17119,7 +16927,7 @@
     },
     "obedisciov.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "obelialjelled.cfd": {
       "spamhaus": "SPAM"
@@ -17134,10 +16942,6 @@
     "oblinode.sbs": {
       "spamhaus": "SPAM",
       "surbl": "MALWARE"
-    },
-    "occamdetur.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
     },
     "ochredravin.qpon": {
       "spamhaus": "SPAM"
@@ -17237,8 +17041,7 @@
       "surbl": "MALWARE"
     },
     "oferta238283.icu": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "oferta248738.sbs": {
       "spamhaus": "PHISHING"
@@ -17248,8 +17051,7 @@
       "surbl": "MALWARE"
     },
     "oferta368283.icu": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "oferta39231.cfd": {
       "spamhaus": "PHISHING",
@@ -17259,8 +17061,7 @@
       "spamhaus": "PHISHING"
     },
     "oferta41231.sbs": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "oferta43399.cfd": {
       "spamhaus": "PHISHING",
@@ -17275,7 +17076,8 @@
       "surbl": "MALWARE"
     },
     "oferta84153.cfd": {
-      "spamhaus": "PHISHING"
+      "spamhaus": "PHISHING",
+      "surbl": "MALWARE"
     },
     "oferta91061123.cfd": {
       "spamhaus": "PHISHING"
@@ -17285,8 +17087,7 @@
       "surbl": "MALWARE"
     },
     "oferta91284.cfd": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "oferta9313.cfd": {
       "spamhaus": "PHISHING",
@@ -17297,8 +17098,7 @@
       "surbl": "MALWARE"
     },
     "oferta94281.cfd": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "ofeta-1413.sbs": {
       "spamhaus": "PHISHING"
@@ -17404,9 +17204,6 @@
     },
     "okazja-na-lato-2026-o45rgve.sbs": {
       "spamhaus": "PHISHING"
-    },
-    "okeebobbedancre.cyou": {
-      "spamhaus": "SPAM"
     },
     "okergerbe.cyou": {
       "spamhaus": "SPAM"
@@ -17567,12 +17364,8 @@
       "spamhaus": "PHISHING",
       "surbl": "LISTED:127.0.0.64"
     },
-    "oralistkatunpanung.cyou": {
-      "spamhaus": "SPAM"
-    },
     "orbifirm.sbs": {
-      "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "spamhaus": "SPAM"
     },
     "orchardrivers.cfd": {
       "spamhaus": "SPAM"
@@ -17693,10 +17486,6 @@
     "outholdsighful.cyou": {
       "spamhaus": "SPAM"
     },
-    "outincrawl.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
-    },
     "outiook-offlceauthyfyveriflive.icu": {
       "spamhaus": "PHISHING"
     },
@@ -17732,7 +17521,7 @@
     },
     "overlammor.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "overlpompa.cyou": {
       "spamhaus": "SPAM",
@@ -17899,9 +17688,6 @@
     "palishhunchy.cfd": {
       "spamhaus": "SPAM"
     },
-    "palissestelaialumna.cyou": {
-      "spamhaus": "SPAM"
-    },
     "pallicortezproetus.qpon": {
       "spamhaus": "SPAM"
     },
@@ -17923,7 +17709,7 @@
     },
     "pandiinsta.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "panganeguttled.qpon": {
       "spamhaus": "SPAM"
@@ -18033,9 +17819,6 @@
     "parys.evas.buzz": {
       "spamhaus": "PHISHING"
     },
-    "pashagaming-guncelgirisin.icu": {
-      "spamhaus": "PHISHING"
-    },
     "pasilloungodbases.qpon": {
       "spamhaus": "SPAM"
     },
@@ -18061,10 +17844,6 @@
     },
     "pastorsbiacid.qpon": {
       "spamhaus": "SPAM"
-    },
-    "pastutight.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
     },
     "patacabowsery.cyou": {
       "spamhaus": "SPAM"
@@ -18199,9 +17978,6 @@
       "spamhaus": "SPAM"
     },
     "peganumjarful.cfd": {
-      "spamhaus": "SPAM"
-    },
-    "pekansbeylics.qpon": {
       "spamhaus": "SPAM"
     },
     "pekansvaughnrhyming.qpon": {
@@ -18388,10 +18164,6 @@
     "phoningtch.cfd": {
       "spamhaus": "SPAM"
     },
-    "phonoadvoc.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
-    },
     "phonomelica.cfd": {
       "spamhaus": "SPAM"
     },
@@ -18469,9 +18241,6 @@
       "spamhaus": "SPAM"
     },
     "pietismfinland.cyou": {
-      "spamhaus": "SPAM"
-    },
-    "pietosoappend.cfd": {
       "spamhaus": "SPAM"
     },
     "piggiunste.cyou": {
@@ -18610,19 +18379,16 @@
       "spamhaus": "PHISHING"
     },
     "pl-03819.sbs": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "pl-049.sbs": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "pl-07.sbs": {
       "spamhaus": "PHISHING"
     },
     "pl-0748.sbs": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "pl-10690206.cfd": {
       "spamhaus": "PHISHING"
@@ -18657,8 +18423,7 @@
       "surbl": "MALWARE"
     },
     "pl-434733.sbs": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "pl-4347382.sbs": {
       "spamhaus": "PHISHING",
@@ -18677,14 +18442,14 @@
       "spamhaus": "PHISHING"
     },
     "pl-437393.sbs": {
-      "spamhaus": "PHISHING"
+      "spamhaus": "PHISHING",
+      "surbl": "MALWARE"
     },
     "pl-443733.sbs": {
       "spamhaus": "PHISHING"
     },
     "pl-443793.sbs": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "pl-444732.sbs": {
       "spamhaus": "PHISHING"
@@ -18720,8 +18485,7 @@
       "spamhaus": "PHISHING"
     },
     "pl-473893.sbs": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "pl-48918956819.sbs": {
       "spamhaus": "PHISHING"
@@ -18800,8 +18564,7 @@
       "spamhaus": "PHISHING"
     },
     "pl-984523.sbs": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "pl-alebilet.sbs": {
       "spamhaus": "PHISHING",
@@ -18846,8 +18609,7 @@
       "spamhaus": "PHISHING"
     },
     "pl-oferta912712672332.icu": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "pl-oferta9837392.sbs": {
       "spamhaus": "PHISHING"
@@ -18874,7 +18636,8 @@
       "spamhaus": "PHISHING"
     },
     "pl-ogloszenie9967883927.cyou": {
-      "spamhaus": "PHISHING"
+      "spamhaus": "PHISHING",
+      "surbl": "MALWARE"
     },
     "pl-przvf.sbs": {
       "spamhaus": "PHISHING"
@@ -19022,10 +18785,6 @@
     "pocztexz-pl.icu": {
       "spamhaus": "PHISHING"
     },
-    "podallecetu.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
-    },
     "poderdaybl.cyou": {
       "spamhaus": "SPAM",
       "surbl": "LISTED:127.0.0.64"
@@ -19138,7 +18897,7 @@
       "spamhaus": "SPAM"
     },
     "porky94124.icu": {
-      "spamhaus": "ABUSED_REDIRECTOR"
+      "spamhaus": "BOTNET_CC"
     },
     "portaintor.cyou": {
       "spamhaus": "SPAM",
@@ -19171,7 +18930,7 @@
     },
     "possibuksh.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "post.charge124.cfd": {
       "spamhaus": "PHISHING"
@@ -19258,10 +19017,6 @@
       "spamhaus": "SPAM",
       "surbl": "MALWARE"
     },
-    "precodissa.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
-    },
     "precointem.cyou": {
       "spamhaus": "SPAM",
       "surbl": "LISTED:127.0.0.64"
@@ -19288,10 +19043,6 @@
     },
     "presidecaribed.cyou": {
       "spamhaus": "SPAM"
-    },
-    "presifearti.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "MALWARE"
     },
     "presleysemidry.cfd": {
       "spamhaus": "SPAM"
@@ -19570,7 +19321,7 @@
     },
     "pulpofagio.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "pulseskerbed.qpon": {
       "spamhaus": "SPAM"
@@ -19819,9 +19570,6 @@
       "spamhaus": "PHISHING",
       "surbl": "LISTED:127.0.0.64"
     },
-    "r582cmkwklbyb4v7.cfd": {
-      "spamhaus": "SPAM"
-    },
     "r6883e4wqhecxtjx2u.cfd": {
       "spamhaus": "SPAM"
     },
@@ -19858,7 +19606,7 @@
     },
     "radamalluc.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "radicsafen.cyou": {
       "spamhaus": "SPAM",
@@ -20129,7 +19877,7 @@
     },
     "recluprobl.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "rectabother.qpon": {
       "spamhaus": "SPAM"
@@ -20177,9 +19925,6 @@
       "spamhaus": "SPAM"
     },
     "reflyvolutalinget.cyou": {
-      "spamhaus": "SPAM"
-    },
-    "reforgecomport.cfd": {
       "spamhaus": "SPAM"
     },
     "regatdimin.cyou": {
@@ -20607,10 +20352,6 @@
       "spamhaus": "SPAM",
       "surbl": "MALWARE"
     },
-    "rischblast.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
-    },
     "risconegri.cyou": {
       "spamhaus": "SPAM",
       "surbl": "LISTED:127.0.0.64"
@@ -20679,7 +20420,7 @@
     },
     "robbepresh.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "robbylinkpi.icu": {
       "spamhaus": "ABUSED_REDIRECTOR"
@@ -20929,10 +20670,6 @@
     "saithpersicoathwart.qpon": {
       "spamhaus": "SPAM"
     },
-    "saldezaglo.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
-    },
     "sale-gonser.sbs": {
       "spamhaus": "PHISHING"
     },
@@ -20984,7 +20721,7 @@
     },
     "sanctdicol.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "sanfanderbornk.icu": {
       "spamhaus": "PHISHING"
@@ -21129,10 +20866,6 @@
       "spamhaus": "SPAM",
       "surbl": "LISTED:127.0.0.64"
     },
-    "sbranmedio.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
-    },
     "sbrigsycon.cyou": {
       "spamhaus": "SPAM",
       "surbl": "LISTED:127.0.0.64"
@@ -21177,7 +20910,7 @@
     },
     "scassattut.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "scatchostomy.qpon": {
       "spamhaus": "SPAM"
@@ -21215,6 +20948,10 @@
     },
     "schorlyaxites.qpon": {
       "spamhaus": "SPAM"
+    },
+    "schwabsonline.icu": {
+      "spamhaus": "PHISHING",
+      "surbl": "MALWARE"
     },
     "sciezka.cfd": {
       "spamhaus": "PHISHING"
@@ -21265,7 +21002,7 @@
     },
     "scorrgrafi.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "scoterastalk.qpon": {
       "spamhaus": "SPAM"
@@ -21303,9 +21040,6 @@
       "spamhaus": "SPAM",
       "surbl": "LISTED:127.0.0.64"
     },
-    "scrithemolompi.qpon": {
-      "spamhaus": "SPAM"
-    },
     "scrougespongesgutsy.cyou": {
       "spamhaus": "SPAM"
     },
@@ -21335,9 +21069,6 @@
     "seasonendued.cyou": {
       "spamhaus": "SPAM"
     },
-    "seatsnort.qpon": {
-      "spamhaus": "SPAM"
-    },
     "sebaitbedmate.cyou": {
       "spamhaus": "SPAM"
     },
@@ -21364,6 +21095,9 @@
       "spamhaus": "PHISHING"
     },
     "secure-escononline.icu": {
+      "spamhaus": "PHISHING"
+    },
+    "secure-golden1.cfd": {
       "spamhaus": "PHISHING"
     },
     "secureclosing-portal.icu": {
@@ -21463,7 +21197,7 @@
     },
     "sensutopst.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "sentrygabiescloes.qpon": {
       "spamhaus": "SPAM"
@@ -21510,7 +21244,7 @@
     },
     "serotcontr.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "serpensguarabu.qpon": {
       "spamhaus": "SPAM"
@@ -21522,7 +21256,8 @@
       "spamhaus": "SPAM"
     },
     "serv.maxora20.cyou": {
-      "spamhaus": "SPAM"
+      "spamhaus": "SPAM",
+      "surbl": "MALWARE"
     },
     "service-provider.bond": {
       "spamhaus": "SPAM"
@@ -21573,9 +21308,6 @@
       "spamhaus": "PHISHING"
     },
     "servicezko.cyou": {
-      "spamhaus": "PHISHING"
-    },
-    "servicezmw.sbs": {
       "spamhaus": "PHISHING"
     },
     "servies.autopoint-ia.sbs": {
@@ -21864,9 +21596,6 @@
     "sirloinnewtshiper.cyou": {
       "spamhaus": "SPAM"
     },
-    "sirpleswashes.cyou": {
-      "spamhaus": "SPAM"
-    },
     "sirupedheatful.cfd": {
       "spamhaus": "SPAM"
     },
@@ -21899,7 +21628,7 @@
     },
     "skeehydro.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "skeinedresiantpumelos.cfd": {
       "spamhaus": "SPAM"
@@ -22008,9 +21737,6 @@
       "spamhaus": "PHISHING",
       "surbl": "LISTED:127.0.0.64"
     },
-    "smalmtitiesindiums.cyou": {
-      "spamhaus": "SPAM"
-    },
     "smanimesco.cyou": {
       "spamhaus": "SPAM",
       "surbl": "LISTED:127.0.0.64"
@@ -22019,8 +21745,7 @@
       "spamhaus": "PHISHING"
     },
     "smart-46782.sbs": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "smart-ofera88558530.sbs": {
       "spamhaus": "PHISHING"
@@ -22069,10 +21794,6 @@
     },
     "smutchynowtsubgape.cyou": {
       "spamhaus": "SPAM"
-    },
-    "smutcprece.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
     },
     "smykpl-sale.sbs": {
       "spamhaus": "PHISHING"
@@ -22207,10 +21928,6 @@
     },
     "somechapmenfaugh.qpon": {
       "spamhaus": "SPAM"
-    },
-    "somegdiazo.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
     },
     "somerssteels.qpon": {
       "spamhaus": "SPAM"
@@ -22373,9 +22090,6 @@
     "spidarubalogin.bond": {
       "spamhaus": "PHISHING"
     },
-    "spiesdeigns.cfd": {
-      "spamhaus": "SPAM"
-    },
     "spilunatio.cyou": {
       "spamhaus": "SPAM",
       "surbl": "MALWARE"
@@ -22449,7 +22163,7 @@
     },
     "spropdissa.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "spuddledyslogy.cyou": {
       "spamhaus": "SPAM"
@@ -22654,7 +22368,7 @@
     },
     "strafsalti.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "strampromo.cyou": {
       "spamhaus": "SPAM",
@@ -22762,7 +22476,7 @@
     },
     "suggibaret.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "sughistrab.cyou": {
       "spamhaus": "SPAM",
@@ -22813,6 +22527,9 @@
     "suppoische.cyou": {
       "spamhaus": "SPAM",
       "surbl": "MALWARE"
+    },
+    "support-claim-esl-org.sbs": {
+      "spamhaus": "PHISHING"
     },
     "supputefakofo.cyou": {
       "spamhaus": "SPAM"
@@ -23450,9 +23167,6 @@
     "teleafni.sbs": {
       "spamhaus": "SPAM"
     },
-    "telefonkarsilastirmalari.sbs": {
-      "spamhaus": "PHISHING"
-    },
     "teleiebd.sbs": {
       "spamhaus": "SPAM"
     },
@@ -23523,8 +23237,7 @@
       "spamhaus": "SPAM"
     },
     "tepyvma.icu": {
-      "spamhaus": "PHISHING",
-      "surbl": "MALWARE"
+      "spamhaus": "PHISHING"
     },
     "tepzqlmvnd.cyou": {
       "spamhaus": "PHISHING"
@@ -23928,7 +23641,8 @@
       "spamhaus": "SPAM"
     },
     "tiktokplaza.cyou": {
-      "spamhaus": "SPAM"
+      "spamhaus": "SPAM",
+      "surbl": "MALWARE"
     },
     "tilesremedy.qpon": {
       "spamhaus": "SPAM"
@@ -24079,9 +23793,6 @@
     "torcsdiene.cfd": {
       "spamhaus": "SPAM"
     },
-    "tornoteregga.cfd": {
-      "spamhaus": "SPAM"
-    },
     "torrybok11.icu": {
       "spamhaus": "ABUSED_REDIRECTOR"
     },
@@ -24093,10 +23804,6 @@
     },
     "tortsslent.cyou": {
       "spamhaus": "SPAM"
-    },
-    "tortupumpta.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
     },
     "torulashootee.qpon": {
       "spamhaus": "SPAM"
@@ -24169,7 +23876,7 @@
     },
     "traseduckm.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "trasfobova.cyou": {
       "spamhaus": "SPAM",
@@ -24213,9 +23920,6 @@
     "tribrachalestculmed.cyou": {
       "spamhaus": "SPAM"
     },
-    "tribzonnar.cyou": {
-      "spamhaus": "SPAM"
-    },
     "tricesunplait.cfd": {
       "spamhaus": "SPAM"
     },
@@ -24236,9 +23940,6 @@
       "spamhaus": "SPAM"
     },
     "trinolkgf.cfd": {
-      "spamhaus": "SPAM"
-    },
-    "trippeddi.cyou": {
       "spamhaus": "SPAM"
     },
     "trithomed.qpon": {
@@ -24291,8 +23992,7 @@
       "spamhaus": "SPAM"
     },
     "trstwcard.icu": {
-      "spamhaus": "PHISHING",
-      "surbl": "LISTED:127.0.0.64"
+      "spamhaus": "PHISHING"
     },
     "trucklairage.cfd": {
       "spamhaus": "SPAM"
@@ -24463,10 +24163,6 @@
     },
     "tyighduant.qpon": {
       "spamhaus": "SPAM"
-    },
-    "tymbascrim.cyou": {
-      "spamhaus": "SPAM",
-      "surbl": "LISTED:127.0.0.64"
     },
     "typeytwiners.cfd": {
       "spamhaus": "SPAM"
@@ -24687,9 +24383,6 @@
       "spamhaus": "SPAM"
     },
     "unboatkip.cyou": {
-      "spamhaus": "SPAM"
-    },
-    "unburntchetah.cyou": {
       "spamhaus": "SPAM"
     },
     "unbusytophi.cyou": {
@@ -24994,6 +24687,9 @@
     "urophimahuaaedilic.cyou": {
       "spamhaus": "SPAM"
     },
+    "usatiktok.icu": {
+      "spamhaus": "SPAM"
+    },
     "usbekibern.cyou": {
       "spamhaus": "SPAM",
       "surbl": "MALWARE"
@@ -25026,7 +24722,7 @@
     },
     "usucacircu.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "utierumme.cyou": {
       "spamhaus": "SPAM",
@@ -25222,9 +24918,6 @@
       "spamhaus": "SPAM",
       "surbl": "LISTED:127.0.0.64"
     },
-    "vfyq5.cyou": {
-      "spamhaus": "PHISHING"
-    },
     "vg3uuq.cfd": {
       "spamhaus": "PHISHING"
     },
@@ -25245,7 +24938,7 @@
     },
     "vicunsolim.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "videndazanze.qpon": {
       "spamhaus": "SPAM"
@@ -25351,9 +25044,6 @@
     "vm3cit.qpon": {
       "spamhaus": "PHISHING"
     },
-    "vmk6e9phjbfilui.cfd": {
-      "spamhaus": "SPAM"
-    },
     "vo.minbarsynacmy.cyou": {
       "spamhaus": "SPAM"
     },
@@ -25376,7 +25066,7 @@
     },
     "voltmbutte.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "volumedwidegap.qpon": {
       "spamhaus": "SPAM"
@@ -25472,7 +25162,7 @@
       "spamhaus": "SPAM"
     },
     "wailciry9911.icu": {
-      "spamhaus": "BOTNET_CC"
+      "spamhaus": "ABUSED_REDIRECTOR"
     },
     "wairsbruxism.qpon": {
       "spamhaus": "SPAM"
@@ -25524,9 +25214,6 @@
       "spamhaus": "SPAM"
     },
     "wappatoskee.cyou": {
-      "spamhaus": "SPAM"
-    },
-    "wappspewy.cyou": {
       "spamhaus": "SPAM"
     },
     "warfareventfabled.qpon": {
@@ -25589,9 +25276,6 @@
     "weansenlacparlia.cfd": {
       "spamhaus": "SPAM",
       "surbl": "MALWARE"
-    },
-    "weanyerknaw.cfd": {
-      "spamhaus": "SPAM"
     },
     "weanyersociusnaggly.cfd": {
       "spamhaus": "SPAM"
@@ -25664,13 +25348,7 @@
     "whatsapp1.icu": {
       "spamhaus": "SPAM"
     },
-    "whatsiiolo.icu": {
-      "spamhaus": "PHISHING"
-    },
     "whatsiioso.icu": {
-      "spamhaus": "PHISHING"
-    },
-    "whatsiioxo.icu": {
       "spamhaus": "PHISHING"
     },
     "whauvegrimes.cyou": {
@@ -25855,6 +25533,9 @@
     "woodinespuddedupbeat.qpon": {
       "spamhaus": "SPAM"
     },
+    "woofstersest.qpon": {
+      "spamhaus": "SPAM"
+    },
     "woohookbepsom.cfd": {
       "spamhaus": "SPAM"
     },
@@ -25928,19 +25609,10 @@
     "wrothenitent.cyou": {
       "spamhaus": "SPAM"
     },
-    "wsctyoto.sbs": {
-      "spamhaus": "PHISHING"
-    },
     "wscyeoto.icu": {
       "spamhaus": "PHISHING"
     },
-    "wscyoito.icu": {
-      "spamhaus": "PHISHING"
-    },
     "wscyosbs.sbs": {
-      "spamhaus": "PHISHING"
-    },
-    "wscyqoto.sbs": {
       "spamhaus": "PHISHING"
     },
     "wscywoto.sbs": {
@@ -26033,9 +25705,6 @@
       "spamhaus": "PHISHING"
     },
     "xicakemoter.cyou": {
-      "spamhaus": "SPAM"
-    },
-    "xiifunorin.qpon": {
       "spamhaus": "SPAM"
     },
     "xjnueiii85kguhnrzpz3.cfd": {
@@ -26318,9 +25987,6 @@
       "spamhaus": "PHISHING",
       "surbl": "MALWARE"
     },
-    "z7zbptkuletn3pjmq38wcgph8e27xn.cyou": {
-      "spamhaus": "SPAM"
-    },
     "z8hv3fuozlzg6gjlqt.cyou": {
       "spamhaus": "SPAM"
     },
@@ -26422,7 +26088,7 @@
     },
     "zinccosmo.cyou": {
       "spamhaus": "SPAM",
-      "surbl": "MALWARE"
+      "surbl": "LISTED:127.0.0.64"
     },
     "zincoamrellewick.cyou": {
       "spamhaus": "SPAM"
