@@ -1,145 +1,163 @@
 {
-  "generated": "2026-08-01",
-  "total_brand_domains": 16,
-  "total_raw_hits": 16,
-  "total_scanned": 6638,
-  "feed_confirmed": 6130,
-  "pattern_candidates": 502,
+  "generated": "2026-08-02",
+  "total_brand_domains": 20,
+  "total_raw_hits": 20,
+  "total_scanned": 7199,
+  "feed_confirmed": 6141,
+  "pattern_candidates": 560,
   "categories": {
-    "social": 7,
+    "tech": 6,
     "crypto": 5,
+    "telecom": 4,
     "banking": 3,
-    "payment": 1
+    "payment": 1,
+    "social": 1
   },
   "keywords": {
-    "twitter_x": [
-      "betpastwitter-y40v.icu",
-      "perabettwitter-xzen.icu",
-      "romabettwitter-fgow.icu",
-      "romabettwitter-pr6w.icu"
+    "t-mobile": [
+      "hiltonbetmobile.icu",
+      "jojo-betmobile.icu",
+      "jokerbetmobile.icu",
+      "vegabetmobile.icu"
+    ],
+    "fidelity": [
+      "fidelityan.cyou",
+      "fidelityao.cyou",
+      "fidelityap.cyou"
+    ],
+    "google": [
+      "google66.bond",
+      "googleaccount.cfd"
+    ],
+    "apple_icloud": [
+      "pacificloud.bond",
+      "adaicloud.cfd"
+    ],
+    "cosmos": [
+      "cosmospin.buzz"
+    ],
+    "ethena": [
+      "ethena-fi.cfd"
     ],
     "ledger": [
-      "lanternledger.cfd",
-      "ledgeraxiom.cfd"
-    ],
-    "discord": [
-      "discordaged.bond"
-    ],
-    "nab": [
-      "nab-com-au.cfd"
-    ],
-    "bankwest": [
-      "rwardbankwest1.cfd"
+      "loomledger.cfd"
     ],
     "base": [
-      "addendum-200notice-encryption-base.icu"
-    ],
-    "charles_schwab": [
-      "schwabsonline.icu"
-    ],
-    "tiktok": [
-      "usatiktok.icu"
-    ],
-    "argent": [
-      "correoargentinn.sbs"
+      "apex-base.sbs"
     ],
     "interac": [
-      "interac-emt.sbs"
+      "interac-eft.sbs"
     ],
-    "claim_portal": [
-      "support-claim-esl-org.sbs"
+    "microsoft": [
+      "outlookclient.sbs"
     ],
-    "telegram": [
-      "telegram24.sbs"
+    "kraken": [
+      "slkrakenqdrant.sbs"
+    ],
+    "whatsapp": [
+      "whatsappfra.sbs"
+    ],
+    "youtube": [
+      "youtubemod.sbs"
     ]
   },
   "brands": {
-    "Twitter/X": {
+    "T-Mobile": {
       "count": 4,
-      "category": "social",
+      "category": "telecom",
       "sample": [
-        "betpastwitter-y40v.icu",
-        "perabettwitter-xzen.icu",
-        "romabettwitter-fgow.icu",
-        "romabettwitter-pr6w.icu"
+        "hiltonbetmobile.icu",
+        "jojo-betmobile.icu",
+        "jokerbetmobile.icu",
+        "vegabetmobile.icu"
+      ]
+    },
+    "Fidelity": {
+      "count": 3,
+      "category": "banking",
+      "sample": [
+        "fidelityan.cyou",
+        "fidelityao.cyou",
+        "fidelityap.cyou"
+      ]
+    },
+    "Google": {
+      "count": 2,
+      "category": "tech",
+      "sample": [
+        "google66.bond",
+        "googleaccount.cfd"
+      ]
+    },
+    "Apple iCloud": {
+      "count": 2,
+      "category": "tech",
+      "sample": [
+        "pacificloud.bond",
+        "adaicloud.cfd"
+      ]
+    },
+    "Cosmos": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "cosmospin.buzz"
+      ]
+    },
+    "Ethena": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "ethena-fi.cfd"
       ]
     },
     "Ledger": {
-      "count": 2,
+      "count": 1,
       "category": "crypto",
       "sample": [
-        "lanternledger.cfd",
-        "ledgeraxiom.cfd"
-      ]
-    },
-    "Discord": {
-      "count": 1,
-      "category": "social",
-      "sample": [
-        "discordaged.bond"
-      ]
-    },
-    "NAB": {
-      "count": 1,
-      "category": "banking",
-      "sample": [
-        "nab-com-au.cfd"
-      ]
-    },
-    "Bankwest": {
-      "count": 1,
-      "category": "banking",
-      "sample": [
-        "rwardbankwest1.cfd"
+        "loomledger.cfd"
       ]
     },
     "Base": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "addendum-200notice-encryption-base.icu"
-      ]
-    },
-    "Charles Schwab": {
-      "count": 1,
-      "category": "banking",
-      "sample": [
-        "schwabsonline.icu"
-      ]
-    },
-    "TikTok": {
-      "count": 1,
-      "category": "social",
-      "sample": [
-        "usatiktok.icu"
-      ]
-    },
-    "Argent": {
-      "count": 1,
-      "category": "crypto",
-      "sample": [
-        "correoargentinn.sbs"
+        "apex-base.sbs"
       ]
     },
     "Interac": {
       "count": 1,
       "category": "payment",
       "sample": [
-        "interac-emt.sbs"
+        "interac-eft.sbs"
       ]
     },
-    "Claim Portal": {
+    "Microsoft": {
+      "count": 1,
+      "category": "tech",
+      "sample": [
+        "outlookclient.sbs"
+      ]
+    },
+    "Kraken": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "support-claim-esl-org.sbs"
+        "slkrakenqdrant.sbs"
       ]
     },
-    "Telegram": {
+    "WhatsApp": {
       "count": 1,
       "category": "social",
       "sample": [
-        "telegram24.sbs"
+        "whatsappfra.sbs"
+      ]
+    },
+    "YouTube": {
+      "count": 1,
+      "category": "tech",
+      "sample": [
+        "youtubemod.sbs"
       ]
     }
   }

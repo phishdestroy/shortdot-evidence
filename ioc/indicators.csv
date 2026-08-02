@@ -26898,3 +26898,58 @@ casinoas-portali.icu,icu,,MEDIUM,,,,Pattern: action_suffix
 chelovek-pauk-2026.sbs,sbs,,MEDIUM,,,,Pattern: revolver_rabbit_c2
 closeedu.cyou,cyou,,MEDIUM,,,,Pattern: crypto_recovery
 walletwhisper.sbs,sbs,,MEDIUM,,,,Pattern: crypto_recovery
+hiltonbetmobile.icu,icu,,HIGH,,,,T-Mobile brand impersonation
+jojo-betmobile.icu,icu,,HIGH,,,,T-Mobile brand impersonation
+jokerbetmobile.icu,icu,,HIGH,,,,T-Mobile brand impersonation
+vegabetmobile.icu,icu,,HIGH,,,,T-Mobile brand impersonation
+fidelityan.cyou,cyou,,HIGH,,,,Confirmed by openphish
+fidelityao.cyou,cyou,,HIGH,,,,Fidelity brand impersonation
+fidelityap.cyou,cyou,,HIGH,,,,Confirmed by openphish
+google66.bond,bond,,HIGH,,,,Google brand impersonation
+googleaccount.cfd,cfd,,HIGH,,,,Google brand impersonation
+adaicloud.cfd,cfd,,HIGH,,,,Apple iCloud brand impersonation
+pacificloud.bond,bond,,HIGH,,,,Apple iCloud brand impersonation
+cosmospin.buzz,buzz,,HIGH,,,,Cosmos brand impersonation
+ethena-fi.cfd,cfd,,HIGH,,,,Ethena brand impersonation
+loomledger.cfd,cfd,,HIGH,,,,Ledger brand impersonation
+apex-base.sbs,sbs,,HIGH,,,,Base brand impersonation
+interac-eft.sbs,sbs,,HIGH,,,,Interac brand impersonation
+outlookclient.sbs,sbs,,HIGH,,,,Microsoft brand impersonation
+slkrakenqdrant.sbs,sbs,,HIGH,,,,Kraken brand impersonation
+whatsappfra.sbs,sbs,,HIGH,,,,WhatsApp brand impersonation
+youtubemod.sbs,sbs,,HIGH,,,,YouTube brand impersonation
+ag88oa.123111.cyou,cyou,,HIGH,,,,Confirmed by openphish
+allegrolokalnie.lokalna-919192.sbs,sbs,,HIGH,,,,Confirmed by phishtank
+allegrolokalnie.pl-482921.sbs,sbs,,HIGH,,,,Confirmed by phishtank
+allegrolokalnie.pl-5891795691.sbs,sbs,,HIGH,,,,Confirmed by phishtank
+allegrolokalnie.pl-98578917685.sbs,sbs,,HIGH,,,,Confirmed by phishtank
+allegrolokalnie.pl-oferta658937811.cfd,cfd,,HIGH,,,,Confirmed by phishtank
+fide1iltyn.cyou,cyou,,HIGH,,,,Confirmed by openphish
+fide1iltyo.cyou,cyou,,HIGH,,,,Confirmed by openphish
+fide1iltyp.cyou,cyou,,HIGH,,,,Confirmed by openphish
+fidelltyan.cyou,cyou,,HIGH,,,,Confirmed by openphish
+fidelltyao.cyou,cyou,,HIGH,,,,Confirmed by openphish
+geotherm.cfd,cfd,,HIGH,,,,Confirmed by phishtank
+ai-verify.bond,bond,,MEDIUM,,,,Pattern: action_suffix
+auth-global-g.sbs,sbs,,MEDIUM,,,,Pattern: action_prefix
+casinoroyal-portalgiris.icu,icu,,MEDIUM,,,,Pattern: action_suffix+random_suffix
+cn-secure.cfd,cfd,,MEDIUM,,,,Pattern: action_suffix
+dinamobethaftasonu-login.icu,icu,,MEDIUM,,,,Pattern: action_suffix
+dinamobethaftasonu-login2.icu,icu,,MEDIUM,,,,Pattern: action_suffix
+dlscover-login.cfd,cfd,,MEDIUM,,,,Pattern: action_suffix
+inswallet.cfd,cfd,,MEDIUM,,,,Pattern: crypto_recovery
+inswallet.icu,icu,,MEDIUM,,,,Pattern: crypto_recovery
+lunabethaftasonu-login2.icu,icu,,MEDIUM,,,,Pattern: action_suffix
+magic-signal.cyou,cyou,,MEDIUM,,,,Pattern: invest_fraud
+martin-automobile.buzz,buzz,,MEDIUM,,,,Pattern: invest_fraud+random_suffix
+modern-signal.sbs,sbs,,MEDIUM,,,,Pattern: invest_fraud
+natunatoto-secure.cfd,cfd,,MEDIUM,,,,Pattern: action_suffix
+onlinee-accouunt-login.sbs,sbs,,MEDIUM,,,,Pattern: action_suffix
+otchivw-garage-automobile-oran.cyou,cyou,,MEDIUM,,,,Pattern: invest_fraud
+personal-login.sbs,sbs,,MEDIUM,,,,Pattern: action_suffix
+playtime-login.cyou,cyou,,MEDIUM,,,,Pattern: action_suffix
+portal-seg-social.sbs,sbs,,MEDIUM,,,,Pattern: action_prefix
+pp-portalsncb.sbs,sbs,,MEDIUM,,,,Pattern: action_suffix
+service-public.bond,bond,,MEDIUM,,,,Pattern: action_prefix
+service-publlc.bond,bond,,MEDIUM,,,,Pattern: action_prefix
+svo-portal.icu,icu,,MEDIUM,,,,Pattern: action_suffix
