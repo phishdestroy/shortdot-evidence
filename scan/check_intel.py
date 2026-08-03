@@ -39,61 +39,104 @@ deployed = set()
 if dep_path.exists():
     deployed.update(l for l in dep_path.read_text().splitlines() if l)
 
-targets = candidates & deployed if deployed else candidates
+# Check all brand/IOC candidates regardless of deployment status.
+# Deployed filter was meant to skip phantoms, but brand domains are
+# specifically suspicious regardless — we want to know if they're listed.
+targets = candidates
 targets = {d for d in targets if d.rsplit('.', 1)[-1] in SHORTDOT_TLDS}
-print(f"Intel check targets: {len(targets):,} deployed brand/IOC domains")
+print(f"Intel check targets: {len(targets):,} brand/IOC domains")
 
 results = defaultdict(dict)   # domain -> {source: verdict}
 
-# ── 1. Spamhaus DBL — DNS zone blacklist ─────────────────────────────────────
-# Returns 127.0.1.2=spam 127.0.1.4=phishing/malware 127.0.1.5=botnet C&C
-DBL_CODES = {
-    '127.0.1.2': 'SPAM',
-    '127.0.1.4': 'PHISHING',
-    '127.0.1.5': 'BOTNET_CC',
-    '127.0.1.6': 'ABUSED_REDIRECTOR',
-}
+# ── DNS resolver — use local unbound (127.0.0.1) when running on server,
+#    fall back to system resolver. Public resolvers (1.1.1.1, 8.8.8.8) block
+#    Spamhaus/SURBL queries with 127.255.255.254 "policy rejected" responses.
+import dns.resolver as _dns_mod
+_LOCAL_RESOLVER = _dns_mod.Resolver(configure=False)
+_LOCAL_RESOLVER.nameservers = ['127.0.0.1']
+_LOCAL_RESOLVER.timeout = 3
+_LOCAL_RESOLVER.lifetime = 6
 
-def _dbl(domain):
+def _dns_lookup(query: str) -> str | None:
+    """Return first A record or None. Uses local unbound."""
     try:
-        ip = socket.gethostbyname(f'{domain}.dbl.spamhaus.org')
-        return domain, DBL_CODES.get(ip, f'LISTED:{ip}')
-    except socket.gaierror:
-        return domain, None
+        ans = _LOCAL_RESOLVER.resolve(query, 'A')
+        return str(ans[0])
+    except Exception:
+        return None
 
-print('Spamhaus DBL check ...')
-dbl_hits = {}
-with concurrent.futures.ThreadPoolExecutor(max_workers=80) as ex:
-    for domain, verdict in ex.map(_dbl, sorted(targets)):
+
+# ── Domain-based DNSBL/URIBL/RHSBL lists ────────────────────────────────────
+# Each entry: (zone, key_name, decode_fn)
+# decode_fn(last_octet_int) -> str label  OR  None = just "LISTED"
+
+def _last(ip): return int(ip.split('.')[-1]) if ip else 0
+
+DOMAIN_LISTS = [
+    # Spamhaus family
+    ('dbl.spamhaus.org',   'spamhaus_dbl',
+     lambda ip: {127: 'ERROR', 2: 'SPAM', 3: 'SPAM', 4: 'PHISHING', 5: 'BOTNET_CC', 6: 'REDIRECTOR'}.get(_last(ip), f'LISTED:{ip}')),
+    ('zrd.spamhaus.org',   'spamhaus_zrd',
+     lambda ip: {2: 'RECENTLY_ABUSED', 3: 'MASKED_REGISTRANT'}.get(_last(ip), f'LISTED:{ip}')),
+    # SURBL family
+    ('multi.surbl.org',    'surbl_multi',
+     lambda ip: '+'.join(v for b, v in [(2,'SPAM'),(4,'PHISHING'),(8,'MALWARE'),(16,'VIRUS')] if _last(ip) & b) or f'LISTED:{ip}'),
+    ('phalanx.surbl.org',  'surbl_phalanx',
+     lambda ip: 'PHALANX' if ip else None),
+    # URIBL family
+    ('multi.uribl.com',    'uribl_multi',
+     lambda ip: '+'.join(v for b, v in [(2,'BLACK'),(4,'GREY'),(8,'RED')] if _last(ip) & b) or f'LISTED:{ip}'),
+    ('black.uribl.com',    'uribl_black',   lambda ip: 'BLACK'),
+    ('grey.uribl.com',     'uribl_grey',    lambda ip: 'GREY'),
+    ('red.uribl.com',      'uribl_red',     lambda ip: 'RED'),
+    ('riddler.uribl.com',  'uribl_riddler',  lambda ip: 'LISTED'),
+    ('uribl.swinog.ch',    'swinog',         lambda ip: 'LISTED'),
+    # Spam Eating Monkey
+    ('uribl.spameatingmonkey.net',  'sem_uribl',    lambda ip: 'LISTED'),
+    ('urired.spameatingmonkey.net', 'sem_urired',   lambda ip: 'RED'),
+    ('fresh.spameatingmonkey.net',  'sem_fresh',    lambda ip: 'FRESH'),
+    ('fresh15.spameatingmonkey.net','sem_fresh15',  lambda ip: 'FRESH15'),
+    # Misc
+    ('dbl.suomispam.net',           'suomispam',    lambda ip: 'LISTED'),
+    ('rhsbl.sorbs.net',             'sorbs_rhsbl',  lambda ip: 'LISTED'),
+    ('black.junkemailfilter.com',   'jef_black',    lambda ip: 'BLACK'),
+    ('hostkarma.junkemailfilter.com','jef_hostkarma',lambda ip: 'LISTED'),
+    ('rhsbl.scientificspam.net',    'scientificspam', lambda ip: 'LISTED'),
+    ('ubl.unsubscore.com',          'unsubscore',   lambda ip: 'LISTED'),
+    ('uribl.abuse.ro',              'abusero',      lambda ip: 'LISTED'),
+    ('rhsbl.zapbl.net',             'zapbl',        lambda ip: 'LISTED'),
+    ('communicado.fmb.la',          'fmb_comm',     lambda ip: 'LISTED'),
+    ('nsbl.fmb.la',                 'fmb_nsbl',     lambda ip: 'LISTED'),
+    ('short.fmb.la',                'fmb_short',    lambda ip: 'LISTED'),
+]
+
+# Track per-list hits for stats
+list_hits = {entry[1]: {} for entry in DOMAIN_LISTS}
+
+def _check_domain_list(args):
+    domain, zone, key, decode = args
+    ip = _dns_lookup(f'{domain}.{zone}')
+    if ip and not ip.startswith('127.255'):   # 127.255.255.254 = policy block
+        verdict = decode(ip)
+        return domain, key, verdict
+    return domain, key, None
+
+print(f'Checking {len(targets):,} domains across {len(DOMAIN_LISTS)} domain-based blocklists ...')
+tasks = [(d, zone, key, dec) for d in sorted(targets) for zone, key, dec in [(e[0], e[1], e[2]) for e in DOMAIN_LISTS]]
+with concurrent.futures.ThreadPoolExecutor(max_workers=120) as ex:
+    for domain, key, verdict in ex.map(_check_domain_list, tasks):
         if verdict:
-            dbl_hits[domain] = verdict
-            results[domain]['spamhaus'] = verdict
+            list_hits[key][domain] = verdict
+            results[domain][key] = verdict
 
-c = Counter(dbl_hits.values())
-print(f'  {len(dbl_hits):,} hits — {c}')
+for zone, key, _ in DOMAIN_LISTS:
+    n = len(list_hits[key])
+    if n: print(f'  {key:28s}: {n:,} hits')
 
-# ── 2. SURBL multi — DNS zone blacklist ───────────────────────────────────────
-# multi.surbl.org: 127.0.0.2=spam 127.0.0.4=phish 127.0.0.8=malware
-SURBL_CODES = {2: 'SPAM', 4: 'PHISHING', 8: 'MALWARE', 16: 'VIRUS'}
-
-def _surbl(domain):
-    try:
-        ip = socket.gethostbyname(f'{domain}.multi.surbl.org')
-        last = int(ip.split('.')[-1])
-        tags = [v for bit, v in SURBL_CODES.items() if last & bit]
-        return domain, '+'.join(tags) if tags else f'LISTED:{ip}'
-    except socket.gaierror:
-        return domain, None
-
-print('SURBL multi check ...')
-surbl_hits = {}
-with concurrent.futures.ThreadPoolExecutor(max_workers=80) as ex:
-    for domain, verdict in ex.map(_surbl, sorted(targets)):
-        if verdict:
-            surbl_hits[domain] = verdict
-            results[domain]['surbl'] = verdict
-
-print(f'  {len(surbl_hits):,} hits — {Counter(surbl_hits.values()).most_common(5)}')
+# Convenience aliases for backward-compatible aggregation
+dbl_hits  = list_hits['spamhaus_dbl']
+surbl_hits = {d: v for k in ('surbl_multi','uribl_multi','uribl_black') for d, v in list_hits[k].items()}
+all_dns_hits = {d for hits in list_hits.values() for d in hits}
 
 # ── 3. URLScan.io — search pre-scanned malicious ShortDot domains ─────────────
 # Search for each TLD: tag:malicious + domain:*.tld — gets previously scanned pages
@@ -177,17 +220,24 @@ else:
     print('OTX skipped (set OTX_API_KEY env var to enable)')
 
 # ── Aggregate & score ─────────────────────────────────────────────────────────
-all_confirmed = set(dbl_hits) | set(urlscan_hits) | set(otx_hits)
-multi_source  = {d for d in all_confirmed
-                 if sum([d in dbl_hits, d in surbl_hits, d in urlscan_hits, d in otx_hits]) >= 2}
+all_confirmed = all_dns_hits | set(urlscan_hits) | set(otx_hits)
+# multi_source: flagged by ≥2 independent sources
+def _source_count(d):
+    return sum([
+        d in all_dns_hits,
+        d in urlscan_hits,
+        d in otx_hits,
+    ])
+multi_source = {d for d in all_confirmed if _source_count(d) >= 2}
 
 print(f'\nSummary:')
-print(f'  Spamhaus DBL:  {len(dbl_hits):,}')
-print(f'  SURBL:         {len(surbl_hits):,}')
-print(f'  URLScan:       {len(urlscan_hits):,}')
-print(f'  OTX:           {len(otx_hits):,}')
-print(f'  Multi-source:  {len(multi_source):,}  ← highest confidence')
-print(f'  Total unique:  {len(all_confirmed):,}')
+print(f'  DNS blocklists total: {len(all_dns_hits):,}')
+print(f'    Spamhaus DBL:       {len(dbl_hits):,}')
+print(f'    SURBL/URIBL:        {len(surbl_hits):,}')
+print(f'  URLScan:              {len(urlscan_hits):,}')
+print(f'  OTX:                  {len(otx_hits):,}')
+print(f'  Multi-source (≥2):    {len(multi_source):,}  ← highest confidence')
+print(f'  Total unique:         {len(all_confirmed):,}')
 
 # ── Write results ─────────────────────────────────────────────────────────────
 ioc_dir = ROOT / 'data/ioc'
