@@ -671,12 +671,42 @@ for domain, feeds in sorted(feed_hits.items()):
 BULK_TAGS = {'high_entropy', 'random_suffix'}
 ioc_pattern_hits = {d: t for d, t in pattern_hits.items() if not set(t).issubset(BULK_TAGS)}
 
+# Map pattern tags to dashboard-compatible category types
+PATTERN_TO_CAT = {
+    'banking':          'PHISHING_FINANCE',
+    'payment':          'PHISHING_FINANCE',
+    'smishing':         'PHISHING_FINANCE',
+    'smishing_toll':    'PHISHING_FINANCE',
+    'smishing_delivery':'PHISHING_FINANCE',
+    'smishing_parcel':  'PHISHING_FINANCE',
+    'smishing_tracking':'PHISHING_FINANCE',
+    'logistics':        'PHISHING_FINANCE',
+    'ecommerce':        'PHISHING_FINANCE',
+    'telecom':          'PHISHING_FINANCE',
+    'gov':              'PHISHING_FINANCE',
+    'social':           'PHISHING_FINANCE',
+    'tech':             'PHISHING_FINANCE',
+    'crypto':           'PHISHING_CRYPTO',
+    'crypto_recovery':  'PHISHING_CRYPTO',
+    'drain_infra':      'CRYPTO_DRAIN',
+    'action_prefix':    'PHISHING_CRYPTO',
+    'action_suffix':    'PHISHING_CRYPTO',
+    'invest_fraud':     'INVEST_FRAUD',
+    'phish_infra':      'PHISHING_CRYPTO',
+}
+
 for domain, tags in sorted(ioc_pattern_hits.items()):
     if domain in all_brand_domains or domain in feed_hits:
         continue
     tld = domain.rsplit('.', 1)[-1]
+    # Pick highest-priority category from tags
+    cat = 'PHISH_PATTERN'
+    for tag in tags:
+        if tag in PATTERN_TO_CAT:
+            cat = PATTERN_TO_CAT[tag]
+            break
     tag_str = '+'.join(tags[:3])
-    new_rows.append(f'{domain},{tld},PHISH_PATTERN,MEDIUM,,,{TODAY},Pattern: {tag_str}')
+    new_rows.append(f'{domain},{tld},{cat},MEDIUM,,,{TODAY},Pattern: {tag_str}')
 
 # Write bulk-entropy domains to separate file (too large for indicators.csv)
 bulk_entropy = sorted(d for d, t in pattern_hits.items() if set(t) & BULK_TAGS)
