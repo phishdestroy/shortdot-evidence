@@ -433,15 +433,26 @@ if FILTER_TYPE == 'new':
         mp.mkdir(parents=True, exist_ok=True)
         (mp / f'{month_key}.txt').write_text('\n'.join(sorted(doms)) + '\n', encoding='utf-8')
 
-# Per-TLD files
+# Per-TLD files — cumulative: merge today's fetch into the existing zone set.
+# These files are the zone reference for classify_brands.py, so they must hold
+# every domain ever seen, not just today's delta.
 tld_dir = Path('data/by_tld')
 tld_dir.mkdir(parents=True, exist_ok=True)
 for tld, doms in tld_domain_sets.items():
-    if doms:
-        (tld_dir / f'{tld}.txt').write_text('\n'.join(sorted(doms)) + '\n', encoding='utf-8')
+    if not doms:
+        continue
+    tld_file = tld_dir / f'{tld}.txt'
+    merged = set(doms)
+    if tld_file.exists():
+        merged |= {l.strip() for l in tld_file.read_text(encoding='utf-8').splitlines() if l.strip()}
+    tld_file.write_text('\n'.join(sorted(merged)) + '\n', encoding='utf-8')
 
-# all.txt
-Path('data/all.txt').write_text('\n'.join(sorted(all_domains)) + '\n', encoding='utf-8')
+# all.txt — cumulative for the same reason
+all_path = Path('data/all.txt')
+all_merged = set(all_domains)
+if all_path.exists():
+    all_merged |= {l.strip() for l in all_path.read_text(encoding='utf-8').splitlines() if l.strip()}
+all_path.write_text('\n'.join(sorted(all_merged)) + '\n', encoding='utf-8')
 
 # ── data/index.json ───────────────────────────────────────────────────────────
 index_days = [

@@ -579,6 +579,25 @@ for tld_file in sorted((ROOT / 'data/by_tld').glob('*.txt')):
 
 print(f'Pattern-based phishing candidates: {len(pattern_hits):,}')
 
+# Write per-brand txt files — cumulative: a domain that impersonated a brand
+# yesterday still did so today, so merge instead of overwriting with the
+# current scan's hits only.
+brand_dir = ROOT / 'data/ioc/brands'
+brand_dir.mkdir(exist_ok=True)
+for brand, hits in brand_hits.items():
+    safe = re.sub(r'[^a-z0-9]', '_', brand.lower())
+    brand_file = brand_dir / f'{safe}.txt'
+    merged = set(h[0] for h in hits)
+    if brand_file.exists():
+        merged |= {l.strip() for l in brand_file.read_text(encoding='utf-8').splitlines() if l.strip()}
+    brand_file.write_text('\n'.join(sorted(merged)) + '\n', encoding='utf-8')
+
+# The cumulative brand set is the union of every per-brand file, including
+# brands not hit by the current scan.
+for brand_file in brand_dir.glob('*.txt'):
+    all_brand_domains |= {l.strip() for l in brand_file.read_text(encoding='utf-8').splitlines() if l.strip()}
+print(f'Cumulative brand-hit domains: {len(all_brand_domains):,}')
+
 # Write brand_domains.json
 kw_domains = {}
 for brand, hits in sorted_brands:
@@ -605,14 +624,6 @@ brand_out = {
 }
 (ROOT / 'data/ioc/brand_domains.json').write_text(
     json.dumps(brand_out, indent=2), encoding='utf-8')
-
-# Write per-brand txt files
-brand_dir = ROOT / 'data/ioc/brands'
-brand_dir.mkdir(exist_ok=True)
-for brand, hits in brand_hits.items():
-    safe = re.sub(r'[^a-z0-9]', '_', brand.lower())
-    (brand_dir / f'{safe}.txt').write_text(
-        '\n'.join(sorted(set(h[0] for h in hits))) + '\n', encoding='utf-8')
 
 # Write feed_confirmed.txt
 if feed_hits:

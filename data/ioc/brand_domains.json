@@ -1,89 +1,1195 @@
 {
   "generated": "2026-08-03",
-  "total_brand_domains": 8,
-  "total_raw_hits": 8,
-  "total_scanned": 4266,
-  "feed_confirmed": 6166,
-  "pattern_candidates": 434,
+  "total_brand_domains": 51985,
+  "total_raw_hits": 291,
+  "total_scanned": 174653,
+  "feed_confirmed": 6169,
+  "pattern_candidates": 19491,
   "categories": {
-    "payment": 3,
-    "tech": 2,
-    "crypto": 2,
-    "telecom": 1
+    "crypto": 103,
+    "tech": 52,
+    "telecom": 38,
+    "social": 28,
+    "banking": 27,
+    "payment": 25,
+    "logistics": 6,
+    "ecommerce": 5,
+    "gov": 3,
+    "invest_fraud": 3,
+    "smishing": 1
   },
   "keywords": {
-    "interac": [
-      "notesinteractive.cyou",
-      "interac-9753.sbs"
+    "t-mobile": [
+      "holiganbet-mobilerisin.cfd",
+      "seka-bet-mobile.cfd",
+      "betgitmobile.icu",
+      "betsatmobile.icu",
+      "galabet-mobile.icu",
+      "galabet-mobileadres.icu",
+      "galabet-mobilerisim.icu",
+      "grandpashabetmobile2026.icu",
+      "grandpashabetmobileadres.icu",
+      "grandpashabetmobilegir.icu",
+      "grandpashabetmobilerisim.icu",
+      "hiltonbetmobile.icu",
+      "holiganbet-mobilerisimi.icu",
+      "holiganbetmobile2026.icu",
+      "holiganbetmobileapp.icu",
+      "imaj-bet-mobile.icu",
+      "jetbet-mobile-giris.icu",
+      "jojo-betmobile.icu",
+      "jojobet-mobile.icu",
+      "jojobet-mobilerisimi.icu",
+      "jojobetmobile.icu",
+      "jojobetmobile2026.icu",
+      "jojobetmobilegiris.icu",
+      "jokerbetmobile.icu",
+      "kavbetmobilegiris.icu",
+      "lunabetmobile.icu",
+      "madridbetmobilerisim.icu",
+      "mariobetmobile.icu",
+      "matbet-mobilerisim.icu",
+      "mavibetmobile.icu",
+      "pulibet-mobile.icu",
+      "tumbet-mobilerisim.icu",
+      "vegabetmobile.icu"
     ],
-    "google": [
-      "google66.bond"
+    "ledger": [
+      "ledgernet.buzz",
+      "novaledger.buzz",
+      "abacusledger.cfd",
+      "lanternledger.cfd",
+      "ledgeraxiom.cfd",
+      "loomledger.cfd",
+      "silverledger.cfd",
+      "app-legal-ledger.icu",
+      "ledger-com-app.icu",
+      "ledger-com-apps.icu",
+      "ledger-com-live.icu",
+      "ledger-com-nano.icu",
+      "ledger-com-start.icu",
+      "ledger-com-starts.icu",
+      "ledger-com-wallet.icu",
+      "purseledgersaving.icu",
+      "ledgerai.sbs",
+      "ledgerbryn-ai.sbs",
+      "ledgerly.sbs",
+      "preparednessledger.sbs",
+      "startupledger.sbs",
+      "thegaladariledger.sbs"
     ],
     "apple_icloud": [
-      "pacificloud.bond"
+      "icloudeam.bond",
+      "pacificloud.bond",
+      "adaicloud.cfd",
+      "beibeicloud.cfd",
+      "naicloud.cfd",
+      "nisicloud.cfd",
+      "shanshuicloud.cfd",
+      "beibeicloud.cyou",
+      "kafeicloud.cyou",
+      "naicloud.cyou",
+      "nisicloud.cyou",
+      "shanshuicloud.cyou",
+      "infoicloud.icu",
+      "eaicloud.sbs",
+      "folioservicloud.sbs",
+      "naicloud.sbs",
+      "naorbiton-e-vicloudo-nalunarum.sbs"
     ],
     "argent": [
-      "correoargentino.buzz"
+      "correoargentino.buzz",
+      "correoiargentino.buzz",
+      "correoiargentlino.buzz",
+      "argentaonline.cfd",
+      "vamos-argentina.cfd",
+      "verargentinainglaterra.cfd",
+      "argentum100jugar.icu",
+      "correoiargenttlno.icu",
+      "aether-argentina.sbs",
+      "argentina-play.sbs",
+      "argentinajoker.sbs",
+      "correoargentinn.sbs",
+      "neobit-argentix.sbs",
+      "telecomargentina.sbs"
     ],
-    "t-mobile": [
-      "pulibet-mobile.icu"
+    "google": [
+      "google66.bond",
+      "googleedu.bond",
+      "st1-colud-google.bond",
+      "googleaccount.cfd",
+      "alikhangoogle.cyou",
+      "google-veo.icu",
+      "googler.icu",
+      "googlername.icu",
+      "googleberaksi.sbs",
+      "playstoregoogle.sbs",
+      "ratgoogle.sbs",
+      "sgoogle.sbs"
     ],
-    "ethena": [
-      "s7-ethena.icu"
+    "interac": [
+      "interac-app.cfd",
+      "interac-cash.cfd",
+      "interac-id.cfd",
+      "interacorp.cfd",
+      "notesinteractive.cyou",
+      "openinteractivejson.cyou",
+      "cash-interac.sbs",
+      "interac-9753.sbs",
+      "interac-eft.sbs",
+      "interac-emt.sbs",
+      "interactivecourse.sbs"
+    ],
+    "fidelity": [
+      "myfidelityinvestmentprofolio.cfd",
+      "aifidelityspace.cyou",
+      "fidelityak.cyou",
+      "fidelityal.cyou",
+      "fidelityam.cyou",
+      "fidelityan.cyou",
+      "fidelityao.cyou",
+      "fidelityap.cyou",
+      "bookfidelityworld.sbs",
+      "fidelityonlinehelp.sbs"
+    ],
+    "discover": [
+      "discovers.buzz",
+      "spiritdiscoverycoach.cyou",
+      "tomediscovery.cyou",
+      "tomediscoveryhub.cyou",
+      "aidiscoverhub.sbs",
+      "dazzlingresidencediscover.sbs",
+      "discoverydockbeacon.sbs",
+      "execdiscoverycourse.sbs"
+    ],
+    "microsoft": [
+      "outlooks.bond",
+      "microsoft-r.icu",
+      "outlooks.icu",
+      "auth-microsoft.sbs",
+      "industryoutlook.sbs",
+      "onmicrosoftfolder.sbs",
+      "outlookclient.sbs"
+    ],
+    "web3": [
+      "web3-hongkong.buzz",
+      "web3-dex.cfd",
+      "web3-dex.cyou",
+      "web3-dex.qpon",
+      "jackpot-web3.sbs",
+      "twt-web3.sbs",
+      "web3-dex.sbs"
+    ],
+    "amazon": [
+      "culturaamazonica.cfd",
+      "amazon-mx.sbs",
+      "amazonnon.sbs",
+      "chainamazoncominteresting65.sbs",
+      "eserviceamazonterm.sbs",
+      "amaz-on.icu",
+      "amazoon.buzz"
+    ],
+    "rainbow_wallet": [
+      "rainbow-riches-app.cfd",
+      "rainbow-riches-app.cyou",
+      "rainbow-wh.icu",
+      "rainbowdoor.icu",
+      "rainbow-riches-app.sbs",
+      "rainbowdinneraccess.sbs",
+      "rainbowtrout.sbs"
+    ],
+    "apple": [
+      "apple-jp.bond",
+      "apple-jp.buzz",
+      "id-apple.icu",
+      "apple-jp.qpon",
+      "apple-v.sbs",
+      "appie.buzz"
+    ],
+    "celestia": [
+      "mcelestialde.bond",
+      "celestialkaquam.cfd",
+      "celestialcoachingteam.cyou",
+      "celestialwisdom.cyou",
+      "celestialseedvy.sbs",
+      "celestiaraalliance.sbs"
     ],
     "revolut": [
-      "fieldsjprevolutionary12.sbs"
+      "revolution-casino.bond",
+      "revolutt.bond",
+      "revolute-jp.icu",
+      "courserevolutionize.sbs",
+      "fieldsjprevolutionary12.sbs",
+      "urlrevolutionraising13.sbs"
+    ],
+    "tiktok": [
+      "tiktokglobal.buzz",
+      "tiktokplaza.cyou",
+      "usatiktok.icu",
+      "rendatiktok.sbs",
+      "savetiktok.sbs",
+      "tiktokpaybonus.sbs"
+    ],
+    "base": [
+      "erhallten-base.cfd",
+      "addendum-200notice-encryption-base.icu",
+      "cloud-review-4580aged-base-92d5.icu",
+      "secure-lake-3749-base-3810d.icu",
+      "apex-base.sbs",
+      "base-rewards.sbs"
+    ],
+    "discord": [
+      "discordaged.bond",
+      "discordbothosting.cfd",
+      "discordsapp.cfd",
+      "imadiscorduser.cfd",
+      "discordzapretka.sbs"
+    ],
+    "telegram": [
+      "abolethtelegram.cfd",
+      "holiganbet-telegram.icu",
+      "telegram24.sbs",
+      "telegramproxye.sbs",
+      "unlock-telegram.sbs"
+    ],
+    "whatsapp": [
+      "whatsapp-go.icu",
+      "xn--whatsapp-zs8m440ksi9d4x3a.icu",
+      "whatsapp-189.sbs",
+      "whatsapp212.sbs",
+      "whatsappfra.sbs"
+    ],
+    "kraken": [
+      "kraken-100amp.buzz",
+      "kraken-signin-session.icu",
+      "krakenrowel.qpon",
+      "slkrakenqdrant.sbs"
+    ],
+    "solana": [
+      "solanavolumebot.buzz",
+      "solanachangers.cyou",
+      "drift-solana.sbs",
+      "meteora-solana.sbs"
+    ],
+    "stripe": [
+      "stripepay.buzz",
+      "stripesumass.cfd",
+      "cstripes.cyou",
+      "stripeqbitvr.cyou"
+    ],
+    "twitter_x": [
+      "betpastwitter-y40v.icu",
+      "perabettwitter-xzen.icu",
+      "romabettwitter-fgow.icu",
+      "romabettwitter-pr6w.icu"
+    ],
+    "paypal": [
+      "paypalx.bond",
+      "paypalx.cfd",
+      "paypalx.sbs"
+    ],
+    "cosmos": [
+      "cosmospin.buzz",
+      "cosmos173.cfd",
+      "pharmacosmos.cfd"
+    ],
+    "bmo_bank": [
+      "ca-bmo.cfd",
+      "fr-ca-bmo.cfd",
+      "bmo-harri.sbs"
+    ],
+    "phantom_wallet": [
+      "phantom-media.cfd",
+      "phantomgardenzk.cfd",
+      "phantomvisioneyr.sbs"
+    ],
+    "tron": [
+      "tron-connect.cfd",
+      "tron-refund.cfd",
+      "tron-twt.sbs"
+    ],
+    "trust_wallet": [
+      "trustwalletcards.cfd",
+      "trustwallets.cfd",
+      "trustwallet-drop.sbs"
+    ],
+    "trading_bot_scam": [
+      "fb-tradingbotai.icu",
+      "fb-tradingbotai24.icu",
+      "tradingbot.icu"
+    ],
+    "dhl": [
+      "dhl-huq-com.cfd",
+      "info-dhl.cfd"
+    ],
+    "ethena": [
+      "ethena-fi.cfd",
+      "s7-ethena.icu"
+    ],
+    "claim_portal": [
+      "text-claim-esl.cfd",
+      "support-claim-esl-org.sbs"
+    ],
+    "staking_portal": [
+      "vapolinstaking.cfd",
+      "vapolinstaking.sbs"
+    ],
+    "petra_wallet": [
+      "villavickystudios-petra.cfd",
+      "villavickystudios-petra.sbs"
+    ],
+    "jupiter": [
+      "jupiter1165.cyou",
+      "jupiter005.sbs"
+    ],
+    "ebay": [
+      "ebay-payments1.icu",
+      "ebay-kleinanzeigen.sbs"
+    ],
+    "netflix": [
+      "netflixcasino-denemebonusukazan.icu",
+      "netflixcasino-resmi1.icu"
+    ],
+    "alibaba": [
+      "alibaba-bolivia.sbs",
+      "alibabaom.sbs"
+    ],
+    "vodafone": [
+      "hoimevodafone.sbs",
+      "homevodafone.sbs"
+    ],
+    "rogers": [
+      "kennyrogers.sbs",
+      "rogerscanada.sbs"
+    ],
+    "toll_smishing": [
+      "etoll-gov.buzz"
+    ],
+    "exodus": [
+      "exodusplumbing.buzz"
+    ],
+    "centrelink": [
+      "2026centrelink-notice.cfd"
+    ],
+    "anz_bank": [
+      "anz-eigen-region.cfd"
+    ],
+    "canada_post": [
+      "canadapost-postesqcanada.cfd"
+    ],
+    "nab": [
+      "nab-com-au.cfd"
+    ],
+    "pendle": [
+      "pendlefi.cfd"
+    ],
+    "bankwest": [
+      "rwardbankwest1.cfd"
+    ],
+    "uniswap": [
+      "uniswapdx.cfd"
+    ],
+    "ups": [
+      "ups-no.cfd"
+    ],
+    "walmart": [
+      "walmartgw.cfd"
+    ],
+    "bank_of_america": [
+      "www-bankofamericaijcf.cfd"
+    ],
+    "cashapp": [
+      "cash-app.cyou"
+    ],
+    "crypto_drainer": [
+      "kinsdrainerhandsaw.cyou"
+    ],
+    "mygov": [
+      "ato-mygov.icu"
+    ],
+    "binance": [
+      "binance226.icu"
+    ],
+    "coinbase_typosquat": [
+      "coinbasket.icu"
+    ],
+    "lido_finance": [
+      "lido-fi.icu"
+    ],
+    "metamask": [
+      "metamaskagent.icu"
+    ],
+    "royal_mail": [
+      "royalmailr.icu"
+    ],
+    "charles_schwab": [
+      "schwabsonline.icu"
+    ],
+    "commbank": [
+      "commbank.qpon"
+    ],
+    "fedex": [
+      "fedex.qpon"
+    ],
+    "facebook": [
+      "facebook-log.sbs"
+    ],
+    "hyperliquid": [
+      "hyperliquid-xyz.sbs"
+    ],
+    "comcast": [
+      "infinity-mail-comcast-online.sbs"
+    ],
+    "kucoin": [
+      "kucoinsuport.sbs"
+    ],
+    "linkedin": [
+      "linkedinacctreceivables.sbs"
+    ],
+    "sushiswap": [
+      "sushiswap-dex.sbs"
+    ],
+    "usps": [
+      "usps-tracking-system.sbs"
+    ],
+    "youtube": [
+      "youtubemod.sbs"
+    ],
+    "instagram": [
+      "lnstagram.cyou"
     ]
   },
   "brands": {
-    "Interac": {
-      "count": 2,
-      "category": "payment",
+    "T-Mobile": {
+      "count": 33,
+      "category": "telecom",
       "sample": [
-        "notesinteractive.cyou",
-        "interac-9753.sbs"
+        "holiganbet-mobilerisin.cfd",
+        "seka-bet-mobile.cfd",
+        "betgitmobile.icu",
+        "betsatmobile.icu",
+        "galabet-mobile.icu",
+        "galabet-mobileadres.icu",
+        "galabet-mobilerisim.icu",
+        "grandpashabetmobile2026.icu",
+        "grandpashabetmobileadres.icu",
+        "grandpashabetmobilegir.icu",
+        "grandpashabetmobilerisim.icu",
+        "hiltonbetmobile.icu",
+        "holiganbet-mobilerisimi.icu",
+        "holiganbetmobile2026.icu",
+        "holiganbetmobileapp.icu",
+        "imaj-bet-mobile.icu",
+        "jetbet-mobile-giris.icu",
+        "jojo-betmobile.icu",
+        "jojobet-mobile.icu",
+        "jojobet-mobilerisimi.icu",
+        "jojobetmobile.icu",
+        "jojobetmobile2026.icu",
+        "jojobetmobilegiris.icu",
+        "jokerbetmobile.icu",
+        "kavbetmobilegiris.icu",
+        "lunabetmobile.icu",
+        "madridbetmobilerisim.icu",
+        "mariobetmobile.icu",
+        "matbet-mobilerisim.icu",
+        "mavibetmobile.icu"
       ]
     },
-    "Google": {
-      "count": 1,
-      "category": "tech",
+    "Ledger": {
+      "count": 22,
+      "category": "crypto",
       "sample": [
-        "google66.bond"
+        "ledgernet.buzz",
+        "novaledger.buzz",
+        "abacusledger.cfd",
+        "lanternledger.cfd",
+        "ledgeraxiom.cfd",
+        "loomledger.cfd",
+        "silverledger.cfd",
+        "app-legal-ledger.icu",
+        "ledger-com-app.icu",
+        "ledger-com-apps.icu",
+        "ledger-com-live.icu",
+        "ledger-com-nano.icu",
+        "ledger-com-start.icu",
+        "ledger-com-starts.icu",
+        "ledger-com-wallet.icu",
+        "purseledgersaving.icu",
+        "ledgerai.sbs",
+        "ledgerbryn-ai.sbs",
+        "ledgerly.sbs",
+        "preparednessledger.sbs",
+        "startupledger.sbs",
+        "thegaladariledger.sbs"
       ]
     },
     "Apple iCloud": {
-      "count": 1,
+      "count": 17,
       "category": "tech",
       "sample": [
-        "pacificloud.bond"
+        "icloudeam.bond",
+        "pacificloud.bond",
+        "adaicloud.cfd",
+        "beibeicloud.cfd",
+        "naicloud.cfd",
+        "nisicloud.cfd",
+        "shanshuicloud.cfd",
+        "beibeicloud.cyou",
+        "kafeicloud.cyou",
+        "naicloud.cyou",
+        "nisicloud.cyou",
+        "shanshuicloud.cyou",
+        "infoicloud.icu",
+        "eaicloud.sbs",
+        "folioservicloud.sbs",
+        "naicloud.sbs",
+        "naorbiton-e-vicloudo-nalunarum.sbs"
       ]
     },
     "Argent": {
-      "count": 1,
+      "count": 14,
       "category": "crypto",
       "sample": [
-        "correoargentino.buzz"
+        "correoargentino.buzz",
+        "correoiargentino.buzz",
+        "correoiargentlino.buzz",
+        "argentaonline.cfd",
+        "vamos-argentina.cfd",
+        "verargentinainglaterra.cfd",
+        "argentum100jugar.icu",
+        "correoiargenttlno.icu",
+        "aether-argentina.sbs",
+        "argentina-play.sbs",
+        "argentinajoker.sbs",
+        "correoargentinn.sbs",
+        "neobit-argentix.sbs",
+        "telecomargentina.sbs"
       ]
     },
-    "T-Mobile": {
-      "count": 1,
-      "category": "telecom",
+    "Google": {
+      "count": 12,
+      "category": "tech",
       "sample": [
-        "pulibet-mobile.icu"
+        "google66.bond",
+        "googleedu.bond",
+        "st1-colud-google.bond",
+        "googleaccount.cfd",
+        "alikhangoogle.cyou",
+        "google-veo.icu",
+        "googler.icu",
+        "googlername.icu",
+        "googleberaksi.sbs",
+        "playstoregoogle.sbs",
+        "ratgoogle.sbs",
+        "sgoogle.sbs"
       ]
     },
-    "Ethena": {
-      "count": 1,
+    "Interac": {
+      "count": 11,
+      "category": "payment",
+      "sample": [
+        "interac-app.cfd",
+        "interac-cash.cfd",
+        "interac-id.cfd",
+        "interacorp.cfd",
+        "notesinteractive.cyou",
+        "openinteractivejson.cyou",
+        "cash-interac.sbs",
+        "interac-9753.sbs",
+        "interac-eft.sbs",
+        "interac-emt.sbs",
+        "interactivecourse.sbs"
+      ]
+    },
+    "Fidelity": {
+      "count": 10,
+      "category": "banking",
+      "sample": [
+        "myfidelityinvestmentprofolio.cfd",
+        "aifidelityspace.cyou",
+        "fidelityak.cyou",
+        "fidelityal.cyou",
+        "fidelityam.cyou",
+        "fidelityan.cyou",
+        "fidelityao.cyou",
+        "fidelityap.cyou",
+        "bookfidelityworld.sbs",
+        "fidelityonlinehelp.sbs"
+      ]
+    },
+    "Discover": {
+      "count": 8,
+      "category": "banking",
+      "sample": [
+        "discovers.buzz",
+        "spiritdiscoverycoach.cyou",
+        "tomediscovery.cyou",
+        "tomediscoveryhub.cyou",
+        "aidiscoverhub.sbs",
+        "dazzlingresidencediscover.sbs",
+        "discoverydockbeacon.sbs",
+        "execdiscoverycourse.sbs"
+      ]
+    },
+    "Microsoft": {
+      "count": 7,
+      "category": "tech",
+      "sample": [
+        "outlooks.bond",
+        "microsoft-r.icu",
+        "outlooks.icu",
+        "auth-microsoft.sbs",
+        "industryoutlook.sbs",
+        "onmicrosoftfolder.sbs",
+        "outlookclient.sbs"
+      ]
+    },
+    "Web3": {
+      "count": 7,
       "category": "crypto",
       "sample": [
-        "s7-ethena.icu"
+        "web3-hongkong.buzz",
+        "web3-dex.cfd",
+        "web3-dex.cyou",
+        "web3-dex.qpon",
+        "jackpot-web3.sbs",
+        "twt-web3.sbs",
+        "web3-dex.sbs"
+      ]
+    },
+    "Amazon": {
+      "count": 7,
+      "category": "tech",
+      "sample": [
+        "culturaamazonica.cfd",
+        "amazon-mx.sbs",
+        "amazonnon.sbs",
+        "chainamazoncominteresting65.sbs",
+        "eserviceamazonterm.sbs",
+        "amaz-on.icu",
+        "amazoon.buzz"
+      ]
+    },
+    "Rainbow Wallet": {
+      "count": 7,
+      "category": "crypto",
+      "sample": [
+        "rainbow-riches-app.cfd",
+        "rainbow-riches-app.cyou",
+        "rainbow-wh.icu",
+        "rainbowdoor.icu",
+        "rainbow-riches-app.sbs",
+        "rainbowdinneraccess.sbs",
+        "rainbowtrout.sbs"
+      ]
+    },
+    "Apple": {
+      "count": 6,
+      "category": "tech",
+      "sample": [
+        "apple-jp.bond",
+        "apple-jp.buzz",
+        "id-apple.icu",
+        "apple-jp.qpon",
+        "apple-v.sbs",
+        "appie.buzz"
+      ]
+    },
+    "Celestia": {
+      "count": 6,
+      "category": "crypto",
+      "sample": [
+        "mcelestialde.bond",
+        "celestialkaquam.cfd",
+        "celestialcoachingteam.cyou",
+        "celestialwisdom.cyou",
+        "celestialseedvy.sbs",
+        "celestiaraalliance.sbs"
       ]
     },
     "Revolut": {
+      "count": 6,
+      "category": "payment",
+      "sample": [
+        "revolution-casino.bond",
+        "revolutt.bond",
+        "revolute-jp.icu",
+        "courserevolutionize.sbs",
+        "fieldsjprevolutionary12.sbs",
+        "urlrevolutionraising13.sbs"
+      ]
+    },
+    "TikTok": {
+      "count": 6,
+      "category": "social",
+      "sample": [
+        "tiktokglobal.buzz",
+        "tiktokplaza.cyou",
+        "usatiktok.icu",
+        "rendatiktok.sbs",
+        "savetiktok.sbs",
+        "tiktokpaybonus.sbs"
+      ]
+    },
+    "Base": {
+      "count": 6,
+      "category": "crypto",
+      "sample": [
+        "erhallten-base.cfd",
+        "addendum-200notice-encryption-base.icu",
+        "cloud-review-4580aged-base-92d5.icu",
+        "secure-lake-3749-base-3810d.icu",
+        "apex-base.sbs",
+        "base-rewards.sbs"
+      ]
+    },
+    "Discord": {
+      "count": 5,
+      "category": "social",
+      "sample": [
+        "discordaged.bond",
+        "discordbothosting.cfd",
+        "discordsapp.cfd",
+        "imadiscorduser.cfd",
+        "discordzapretka.sbs"
+      ]
+    },
+    "Telegram": {
+      "count": 5,
+      "category": "social",
+      "sample": [
+        "abolethtelegram.cfd",
+        "holiganbet-telegram.icu",
+        "telegram24.sbs",
+        "telegramproxye.sbs",
+        "unlock-telegram.sbs"
+      ]
+    },
+    "WhatsApp": {
+      "count": 5,
+      "category": "social",
+      "sample": [
+        "whatsapp-go.icu",
+        "xn--whatsapp-zs8m440ksi9d4x3a.icu",
+        "whatsapp-189.sbs",
+        "whatsapp212.sbs",
+        "whatsappfra.sbs"
+      ]
+    },
+    "Kraken": {
+      "count": 4,
+      "category": "crypto",
+      "sample": [
+        "kraken-100amp.buzz",
+        "kraken-signin-session.icu",
+        "krakenrowel.qpon",
+        "slkrakenqdrant.sbs"
+      ]
+    },
+    "Solana": {
+      "count": 4,
+      "category": "crypto",
+      "sample": [
+        "solanavolumebot.buzz",
+        "solanachangers.cyou",
+        "drift-solana.sbs",
+        "meteora-solana.sbs"
+      ]
+    },
+    "Stripe": {
+      "count": 4,
+      "category": "payment",
+      "sample": [
+        "stripepay.buzz",
+        "stripesumass.cfd",
+        "cstripes.cyou",
+        "stripeqbitvr.cyou"
+      ]
+    },
+    "Twitter/X": {
+      "count": 4,
+      "category": "social",
+      "sample": [
+        "betpastwitter-y40v.icu",
+        "perabettwitter-xzen.icu",
+        "romabettwitter-fgow.icu",
+        "romabettwitter-pr6w.icu"
+      ]
+    },
+    "PayPal": {
+      "count": 3,
+      "category": "payment",
+      "sample": [
+        "paypalx.bond",
+        "paypalx.cfd",
+        "paypalx.sbs"
+      ]
+    },
+    "Cosmos": {
+      "count": 3,
+      "category": "crypto",
+      "sample": [
+        "cosmospin.buzz",
+        "cosmos173.cfd",
+        "pharmacosmos.cfd"
+      ]
+    },
+    "BMO Bank": {
+      "count": 3,
+      "category": "banking",
+      "sample": [
+        "ca-bmo.cfd",
+        "fr-ca-bmo.cfd",
+        "bmo-harri.sbs"
+      ]
+    },
+    "Phantom Wallet": {
+      "count": 3,
+      "category": "crypto",
+      "sample": [
+        "phantom-media.cfd",
+        "phantomgardenzk.cfd",
+        "phantomvisioneyr.sbs"
+      ]
+    },
+    "TRON": {
+      "count": 3,
+      "category": "crypto",
+      "sample": [
+        "tron-connect.cfd",
+        "tron-refund.cfd",
+        "tron-twt.sbs"
+      ]
+    },
+    "Trust Wallet": {
+      "count": 3,
+      "category": "crypto",
+      "sample": [
+        "trustwalletcards.cfd",
+        "trustwallets.cfd",
+        "trustwallet-drop.sbs"
+      ]
+    },
+    "Trading Bot Scam": {
+      "count": 3,
+      "category": "invest_fraud",
+      "sample": [
+        "fb-tradingbotai.icu",
+        "fb-tradingbotai24.icu",
+        "tradingbot.icu"
+      ]
+    },
+    "DHL": {
+      "count": 2,
+      "category": "logistics",
+      "sample": [
+        "dhl-huq-com.cfd",
+        "info-dhl.cfd"
+      ]
+    },
+    "Ethena": {
+      "count": 2,
+      "category": "crypto",
+      "sample": [
+        "ethena-fi.cfd",
+        "s7-ethena.icu"
+      ]
+    },
+    "Claim Portal": {
+      "count": 2,
+      "category": "crypto",
+      "sample": [
+        "text-claim-esl.cfd",
+        "support-claim-esl-org.sbs"
+      ]
+    },
+    "Staking Portal": {
+      "count": 2,
+      "category": "crypto",
+      "sample": [
+        "vapolinstaking.cfd",
+        "vapolinstaking.sbs"
+      ]
+    },
+    "Petra Wallet": {
+      "count": 2,
+      "category": "crypto",
+      "sample": [
+        "villavickystudios-petra.cfd",
+        "villavickystudios-petra.sbs"
+      ]
+    },
+    "Jupiter": {
+      "count": 2,
+      "category": "crypto",
+      "sample": [
+        "jupiter1165.cyou",
+        "jupiter005.sbs"
+      ]
+    },
+    "eBay": {
+      "count": 2,
+      "category": "ecommerce",
+      "sample": [
+        "ebay-payments1.icu",
+        "ebay-kleinanzeigen.sbs"
+      ]
+    },
+    "Netflix": {
+      "count": 2,
+      "category": "tech",
+      "sample": [
+        "netflixcasino-denemebonusukazan.icu",
+        "netflixcasino-resmi1.icu"
+      ]
+    },
+    "Alibaba": {
+      "count": 2,
+      "category": "ecommerce",
+      "sample": [
+        "alibaba-bolivia.sbs",
+        "alibabaom.sbs"
+      ]
+    },
+    "Vodafone": {
+      "count": 2,
+      "category": "telecom",
+      "sample": [
+        "hoimevodafone.sbs",
+        "homevodafone.sbs"
+      ]
+    },
+    "Rogers": {
+      "count": 2,
+      "category": "telecom",
+      "sample": [
+        "kennyrogers.sbs",
+        "rogerscanada.sbs"
+      ]
+    },
+    "Toll Smishing": {
+      "count": 1,
+      "category": "smishing",
+      "sample": [
+        "etoll-gov.buzz"
+      ]
+    },
+    "Exodus": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "exodusplumbing.buzz"
+      ]
+    },
+    "Centrelink": {
+      "count": 1,
+      "category": "gov",
+      "sample": [
+        "2026centrelink-notice.cfd"
+      ]
+    },
+    "ANZ Bank": {
+      "count": 1,
+      "category": "banking",
+      "sample": [
+        "anz-eigen-region.cfd"
+      ]
+    },
+    "Canada Post": {
+      "count": 1,
+      "category": "logistics",
+      "sample": [
+        "canadapost-postesqcanada.cfd"
+      ]
+    },
+    "NAB": {
+      "count": 1,
+      "category": "banking",
+      "sample": [
+        "nab-com-au.cfd"
+      ]
+    },
+    "Pendle": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "pendlefi.cfd"
+      ]
+    },
+    "Bankwest": {
+      "count": 1,
+      "category": "banking",
+      "sample": [
+        "rwardbankwest1.cfd"
+      ]
+    },
+    "Uniswap": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "uniswapdx.cfd"
+      ]
+    },
+    "UPS": {
+      "count": 1,
+      "category": "logistics",
+      "sample": [
+        "ups-no.cfd"
+      ]
+    },
+    "Walmart": {
+      "count": 1,
+      "category": "ecommerce",
+      "sample": [
+        "walmartgw.cfd"
+      ]
+    },
+    "Bank of America": {
+      "count": 1,
+      "category": "banking",
+      "sample": [
+        "www-bankofamericaijcf.cfd"
+      ]
+    },
+    "CashApp": {
       "count": 1,
       "category": "payment",
       "sample": [
-        "fieldsjprevolutionary12.sbs"
+        "cash-app.cyou"
+      ]
+    },
+    "Crypto Drainer": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "kinsdrainerhandsaw.cyou"
+      ]
+    },
+    "myGov": {
+      "count": 1,
+      "category": "gov",
+      "sample": [
+        "ato-mygov.icu"
+      ]
+    },
+    "Binance": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "binance226.icu"
+      ]
+    },
+    "Coinbase typosquat": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "coinbasket.icu"
+      ]
+    },
+    "Lido Finance": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "lido-fi.icu"
+      ]
+    },
+    "MetaMask": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "metamaskagent.icu"
+      ]
+    },
+    "Royal Mail": {
+      "count": 1,
+      "category": "logistics",
+      "sample": [
+        "royalmailr.icu"
+      ]
+    },
+    "Charles Schwab": {
+      "count": 1,
+      "category": "banking",
+      "sample": [
+        "schwabsonline.icu"
+      ]
+    },
+    "CommBank": {
+      "count": 1,
+      "category": "banking",
+      "sample": [
+        "commbank.qpon"
+      ]
+    },
+    "FedEx": {
+      "count": 1,
+      "category": "logistics",
+      "sample": [
+        "fedex.qpon"
+      ]
+    },
+    "Facebook": {
+      "count": 1,
+      "category": "social",
+      "sample": [
+        "facebook-log.sbs"
+      ]
+    },
+    "Hyperliquid": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "hyperliquid-xyz.sbs"
+      ]
+    },
+    "Comcast": {
+      "count": 1,
+      "category": "telecom",
+      "sample": [
+        "infinity-mail-comcast-online.sbs"
+      ]
+    },
+    "KuCoin": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "kucoinsuport.sbs"
+      ]
+    },
+    "LinkedIn": {
+      "count": 1,
+      "category": "social",
+      "sample": [
+        "linkedinacctreceivables.sbs"
+      ]
+    },
+    "SushiSwap": {
+      "count": 1,
+      "category": "crypto",
+      "sample": [
+        "sushiswap-dex.sbs"
+      ]
+    },
+    "USPS": {
+      "count": 1,
+      "category": "gov",
+      "sample": [
+        "usps-tracking-system.sbs"
+      ]
+    },
+    "YouTube": {
+      "count": 1,
+      "category": "tech",
+      "sample": [
+        "youtubemod.sbs"
+      ]
+    },
+    "Instagram": {
+      "count": 1,
+      "category": "social",
+      "sample": [
+        "lnstagram.cyou"
       ]
     }
   }
