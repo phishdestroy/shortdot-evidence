@@ -1,163 +1,89 @@
 {
-  "generated": "2026-08-02",
-  "total_brand_domains": 20,
-  "total_raw_hits": 20,
-  "total_scanned": 7199,
-  "feed_confirmed": 6141,
-  "pattern_candidates": 560,
+  "generated": "2026-08-03",
+  "total_brand_domains": 8,
+  "total_raw_hits": 8,
+  "total_scanned": 4266,
+  "feed_confirmed": 6166,
+  "pattern_candidates": 434,
   "categories": {
-    "tech": 6,
-    "crypto": 5,
-    "telecom": 4,
-    "banking": 3,
-    "payment": 1,
-    "social": 1
+    "payment": 3,
+    "tech": 2,
+    "crypto": 2,
+    "telecom": 1
   },
   "keywords": {
-    "t-mobile": [
-      "hiltonbetmobile.icu",
-      "jojo-betmobile.icu",
-      "jokerbetmobile.icu",
-      "vegabetmobile.icu"
-    ],
-    "fidelity": [
-      "fidelityan.cyou",
-      "fidelityao.cyou",
-      "fidelityap.cyou"
+    "interac": [
+      "notesinteractive.cyou",
+      "interac-9753.sbs"
     ],
     "google": [
-      "google66.bond",
-      "googleaccount.cfd"
+      "google66.bond"
     ],
     "apple_icloud": [
-      "pacificloud.bond",
-      "adaicloud.cfd"
+      "pacificloud.bond"
     ],
-    "cosmos": [
-      "cosmospin.buzz"
+    "argent": [
+      "correoargentino.buzz"
+    ],
+    "t-mobile": [
+      "pulibet-mobile.icu"
     ],
     "ethena": [
-      "ethena-fi.cfd"
+      "s7-ethena.icu"
     ],
-    "ledger": [
-      "loomledger.cfd"
-    ],
-    "base": [
-      "apex-base.sbs"
-    ],
-    "interac": [
-      "interac-eft.sbs"
-    ],
-    "microsoft": [
-      "outlookclient.sbs"
-    ],
-    "kraken": [
-      "slkrakenqdrant.sbs"
-    ],
-    "whatsapp": [
-      "whatsappfra.sbs"
-    ],
-    "youtube": [
-      "youtubemod.sbs"
+    "revolut": [
+      "fieldsjprevolutionary12.sbs"
     ]
   },
   "brands": {
-    "T-Mobile": {
-      "count": 4,
-      "category": "telecom",
+    "Interac": {
+      "count": 2,
+      "category": "payment",
       "sample": [
-        "hiltonbetmobile.icu",
-        "jojo-betmobile.icu",
-        "jokerbetmobile.icu",
-        "vegabetmobile.icu"
-      ]
-    },
-    "Fidelity": {
-      "count": 3,
-      "category": "banking",
-      "sample": [
-        "fidelityan.cyou",
-        "fidelityao.cyou",
-        "fidelityap.cyou"
+        "notesinteractive.cyou",
+        "interac-9753.sbs"
       ]
     },
     "Google": {
-      "count": 2,
+      "count": 1,
       "category": "tech",
       "sample": [
-        "google66.bond",
-        "googleaccount.cfd"
+        "google66.bond"
       ]
     },
     "Apple iCloud": {
-      "count": 2,
+      "count": 1,
       "category": "tech",
       "sample": [
-        "pacificloud.bond",
-        "adaicloud.cfd"
+        "pacificloud.bond"
       ]
     },
-    "Cosmos": {
+    "Argent": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "cosmospin.buzz"
+        "correoargentino.buzz"
+      ]
+    },
+    "T-Mobile": {
+      "count": 1,
+      "category": "telecom",
+      "sample": [
+        "pulibet-mobile.icu"
       ]
     },
     "Ethena": {
       "count": 1,
       "category": "crypto",
       "sample": [
-        "ethena-fi.cfd"
+        "s7-ethena.icu"
       ]
     },
-    "Ledger": {
-      "count": 1,
-      "category": "crypto",
-      "sample": [
-        "loomledger.cfd"
-      ]
-    },
-    "Base": {
-      "count": 1,
-      "category": "crypto",
-      "sample": [
-        "apex-base.sbs"
-      ]
-    },
-    "Interac": {
+    "Revolut": {
       "count": 1,
       "category": "payment",
       "sample": [
-        "interac-eft.sbs"
-      ]
-    },
-    "Microsoft": {
-      "count": 1,
-      "category": "tech",
-      "sample": [
-        "outlookclient.sbs"
-      ]
-    },
-    "Kraken": {
-      "count": 1,
-      "category": "crypto",
-      "sample": [
-        "slkrakenqdrant.sbs"
-      ]
-    },
-    "WhatsApp": {
-      "count": 1,
-      "category": "social",
-      "sample": [
-        "whatsappfra.sbs"
-      ]
-    },
-    "YouTube": {
-      "count": 1,
-      "category": "tech",
-      "sample": [
-        "youtubemod.sbs"
+        "fieldsjprevolutionary12.sbs"
       ]
     }
   }

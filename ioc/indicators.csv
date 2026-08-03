@@ -26902,9 +26902,9 @@ hiltonbetmobile.icu,icu,,HIGH,,,,T-Mobile brand impersonation
 jojo-betmobile.icu,icu,,HIGH,,,,T-Mobile brand impersonation
 jokerbetmobile.icu,icu,,HIGH,,,,T-Mobile brand impersonation
 vegabetmobile.icu,icu,,HIGH,,,,T-Mobile brand impersonation
-fidelityan.cyou,cyou,,HIGH,,,,Confirmed by openphish
+fidelityan.cyou,cyou,,HIGH,,,,Confirmed by phishtank
 fidelityao.cyou,cyou,,HIGH,,,,Fidelity brand impersonation
-fidelityap.cyou,cyou,,HIGH,,,,Confirmed by openphish
+fidelityap.cyou,cyou,,HIGH,,,,Confirmed by phishtank
 google66.bond,bond,,HIGH,,,,Google brand impersonation
 googleaccount.cfd,cfd,,HIGH,,,,Google brand impersonation
 adaicloud.cfd,cfd,,HIGH,,,,Apple iCloud brand impersonation
@@ -26924,11 +26924,11 @@ allegrolokalnie.pl-482921.sbs,sbs,,HIGH,,,,Confirmed by phishtank
 allegrolokalnie.pl-5891795691.sbs,sbs,,HIGH,,,,Confirmed by phishtank
 allegrolokalnie.pl-98578917685.sbs,sbs,,HIGH,,,,Confirmed by phishtank
 allegrolokalnie.pl-oferta658937811.cfd,cfd,,HIGH,,,,Confirmed by phishtank
-fide1iltyn.cyou,cyou,,HIGH,,,,Confirmed by openphish
+fide1iltyn.cyou,cyou,,HIGH,,,,Confirmed by phishtank
 fide1iltyo.cyou,cyou,,HIGH,,,,Confirmed by openphish
 fide1iltyp.cyou,cyou,,HIGH,,,,Confirmed by openphish
-fidelltyan.cyou,cyou,,HIGH,,,,Confirmed by openphish
-fidelltyao.cyou,cyou,,HIGH,,,,Confirmed by openphish
+fidelltyan.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+fidelltyao.cyou,cyou,,HIGH,,,,Confirmed by phishtank
 geotherm.cfd,cfd,,HIGH,,,,Confirmed by phishtank
 ai-verify.bond,bond,,MEDIUM,,,,Pattern: action_suffix
 auth-global-g.sbs,sbs,,MEDIUM,,,,Pattern: action_prefix
@@ -26953,3 +26953,44 @@ pp-portalsncb.sbs,sbs,,MEDIUM,,,,Pattern: action_suffix
 service-public.bond,bond,,MEDIUM,,,,Pattern: action_prefix
 service-publlc.bond,bond,,MEDIUM,,,,Pattern: action_prefix
 svo-portal.icu,icu,,MEDIUM,,,,Pattern: action_suffix
+interac-9753.sbs,sbs,,HIGH,,,,Interac brand impersonation
+notesinteractive.cyou,cyou,,HIGH,,,,Interac brand impersonation
+correoargentino.buzz,buzz,,HIGH,,,,Argent brand impersonation
+pulibet-mobile.icu,icu,,HIGH,,,,T-Mobile brand impersonation
+s7-ethena.icu,icu,,HIGH,,,,Ethena brand impersonation
+fieldsjprevolutionary12.sbs,sbs,,HIGH,,,,Revolut brand impersonation
+allegrolokalnie.lokalna-01738.sbs,sbs,,HIGH,,,,Confirmed by phishtank
+allegrolokalnie.lokalna-12912.sbs,sbs,,HIGH,,,,Confirmed by phishtank
+allegrolokalnie.pl-77323.icu,icu,,HIGH,,,,Confirmed by phishtank
+fi-delitly.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+fi-delitmy.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+fi-delitny.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+fi-delitoy.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+fi-delitpy.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+fide-litiy.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+fide-litly.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+fide-litmy.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+fide-litny.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+fide-litoy.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+fide-litpy.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+fide-lltky.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+fide-lltly.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+fide-lltmy.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+fide-lltny.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+fide-lltoy.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+fide-lltpy.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+flde-liggy.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+flde-lighy.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+flde-ligiy.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+flde-ligjy.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+flde-ligky.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+flde-ligly.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+flde-ligmy.cyou,cyou,,HIGH,,,,Confirmed by phishtank
+kleinanzeigen.344351.cfd,cfd,,HIGH,,,,Confirmed by phishtank
+customer-e10adc39.cfd,cfd,,MEDIUM,,,,Pattern: action_prefix+random_suffix
+imajbet-login.icu,icu,,MEDIUM,,,,Pattern: action_suffix
+lcoud-support-ishop.cfd,cfd,,MEDIUM,,,,Pattern: action_prefix+action_suffix
+service-public.cyou,cyou,,MEDIUM,,,,Pattern: action_prefix
+service-public.icu,icu,,MEDIUM,,,,Pattern: action_prefix
+thunderseed.buzz,buzz,,MEDIUM,,,,Pattern: crypto_recovery
+walletsforge.qpon,qpon,,MEDIUM,,,,Pattern: crypto_recovery
