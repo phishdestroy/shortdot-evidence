@@ -64,8 +64,8 @@ footer a{color:var(--cy)}
 </nav>
 
 <div style="background:#1a0a00;border-bottom:1px solid #c0602040;padding:8px 20px;font-size:11px;font-family:monospace;color:#c09060">
-  ⚠ This table contains <strong style="color:#e0a060" id="ioc-count-note">~9K</strong> IOC-classified domains (confirmed malicious by keyword/brand matching).
-  Full zone data (6.2M domains): use the download links below each filter.
+  ⚠ This table contains <strong style="color:#e0a060" id="ioc-count-note">~158K</strong> IOC-classified domains (confirmed malicious by feed cross-reference and keyword matching).
+  Full zone data (6.4M domains): use the download links below each filter.
 </div>
 
 <div class="toolbar">
@@ -248,7 +248,7 @@ footer a{color:var(--cy)}
         +'<td>'+esc(d.ip||'')+'</td>'
         +'<td>'+esc(d.ip_country||'')+'</td>'
         +'<td>'+esc(d.date||d.registered||'')+'</td>'
-        +'<td>'+esc(d.notes||d.groq_desc||'')+'</td>'
+        +'<td>'+renderFeeds(d.notes||d.groq_desc||'')+'</td>'
         +'<td class="intel-links">'
           +(d.scan_url
             ? '<a href="'+esc(d.scan_url)+'" target="_blank" rel="noopener" title="URLScan result" style="color:var(--gn);border-color:var(--gn)">US✓</a> '
@@ -263,6 +263,50 @@ footer a{color:var(--cy)}
   }
 
   function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+  var FEED_LABELS={
+    'hagezi_tif':'Hagezi:TIF','hagezi_pro':'Hagezi:Pro','hagezi_ultimate':'Hagezi:Ult',
+    'hagezi_wildcard_tif':'Hagezi:TIF',
+    'blocklistproject_malware':'BP:Malware','blocklistproject_phishing':'BP:Phish',
+    'blocklistproject_scam':'BP:Scam','blocklistproject_fraud':'BP:Fraud',
+    'maltrail':'Maltrail','mitchellkrogza':'PhishDB:MK','phishing_database_active':'PhishDB',
+    'phishdb_active':'PhishDB','phishdb_links':'PhishDB:URL',
+    'metamask':'MetaMask','enkrypt':'Enkrypt','scamblocklist':'ScamBlock',
+    'phishing_filter_hosts':'Malware-Filter','phishing_filter':'Malware-Filter',
+    'urlhaus_filter_hosts':'URLhaus','urlhaus_domains':'URLhaus',
+    'phishtank':'PhishTank','openphish':'OpenPhish','phishing_army':'PhishArmy',
+    'cert_pl':'CERT.pl','dandelion_antimalware':'Dandelion','dandelion_scam':'Dandelion',
+    'firebog_all':'Firebog','ublock_badware':'uBlock:Bad','ublock_filters':'uBlock',
+    'abpindo':'ABPindo','easylist':'EasyList',
+    'hagezi_pro':'Hagezi:Pro','hagezi_ult':'Hagezi:Ult',
+  };
+  var FEED_COLORS={
+    'hagezi_tif':'#da3633','hagezi_wildcard_tif':'#da3633','maltrail':'#da3633',
+    'blocklistproject_malware':'#c05040','blocklistproject_phishing':'#e08030',
+    'blocklistproject_scam':'#e08030','blocklistproject_fraud':'#e08030',
+    'mitchellkrogza':'#c0a060','phishing_database_active':'#c0a060','phishdb_active':'#c0a060',
+    'metamask':'#3b82f6','enkrypt':'#3b82f6','scamblocklist':'#3b82f6',
+    'phishing_filter_hosts':'#8b5cf6','phishing_filter':'#8b5cf6',
+    'urlhaus_filter_hosts':'#8b5cf6','urlhaus_domains':'#8b5cf6',
+    'phishtank':'#e08030','openphish':'#e08030','phishing_army':'#e08030',
+    'cert_pl':'#3fb950','dandelion_antimalware':'#6ea8d7','dandelion_scam':'#6ea8d7',
+    'firebog_all':'#3fb950','ublock_badware':'#8b5cf6','ublock_filters':'#6ea8d7',
+  };
+
+  function renderFeeds(notes){
+    if(!notes) return '';
+    if(notes.indexOf('Feeds:')<0) return esc(notes);
+    var raw=notes.replace(/^Feeds:\s*/,'');
+    var feeds=raw.split('|');
+    return feeds.map(function(f){
+      f=f.trim();
+      var label=FEED_LABELS[f]||f.replace(/_/g,' ');
+      var color=FEED_COLORS[f]||'#484f58';
+      return '<span style="display:inline-block;font-size:9px;padding:1px 5px;border-radius:2px;'
+        +'background:'+color+'22;color:'+color+';border:1px solid '+color+'44;'
+        +'font-family:monospace;margin:1px 2px 1px 0;white-space:nowrap">'+esc(label)+'</span>';
+    }).join('');
+  }
 })();
 </script>
 </body>
