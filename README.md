@@ -871,3 +871,35 @@ Correction requests must identify a specific factual claim and provide documente
 <div align="center">
 <sub>PhishDestroy · Anti-phishing and fraud investigation · <a href="https://phishdestroy.io">phishdestroy.io</a></sub>
 </div>
+
+## IOC Data — `2026-08-03`
+
+| Metric | Count |
+|:--|--:|
+| **Total IOC domains** | **244,622** |
+| HIGH severity | 160,232 |
+| MEDIUM severity | 84,390 |
+| Zone total | 6,405,634 |
+| Hit rate | 3.82% |
+
+### By Category
+
+| Category | Domains |
+|:--|--:|
+| `MALWARE` | 105,845 |
+| `BRAND_IMPERSONATION` | 41,750 |
+| `` | 26,995 |
+| `PHISHING_CONFIRMED` | 24,327 |
+| `PHISHING_FINANCE` | 23,860 |
+
+### Download Threat Intelligence
+
+| File | Format | Description |
+|:--|:--:|:--|
+| [`ioc/indicators.csv`](ioc/indicators.csv) | CSV | Full IOC: domain, category, severity, date, sources |
+| [`ioc/domains_high.txt`](https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/ioc/domains_high.txt) | TXT | HIGH severity domains only (160,232) |
+| [`ioc/domains_all_malicious.txt`](https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/ioc/domains_all_malicious.txt) | TXT | All IOC domains (244,622) |
+
+**Sources used:** Hagezi TIF (2.1M), BlocklistProject Malware/Phishing (2.5M+120K), Maltrail (914K), mitchellkrogza PhishDB (385K), MetaMask, ScamBlock, CERT.pl, Phishing.Database, uBlock, Dandelion, firebog.net, brand keyword scan (BRAND_KEYWORDS from classify_brands).
+
+> Live report: [https://phishdestroy.github.io/shortdot-evidence](https://phishdestroy.github.io/shortdot-evidence)
