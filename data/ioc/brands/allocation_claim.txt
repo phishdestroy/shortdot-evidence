@@ -31,6 +31,7 @@ corporationrentallocation.bond
 corporationrentallocationagent.bond
 detailsallocation-servicee.icu
 etf-asset-allocation.sbs
+exposureallocationamplifier32.sbs
 individualrentallocationagent.bond
 moneyhub-allocation2.sbs
 moneyhub-assetallocation2.sbs

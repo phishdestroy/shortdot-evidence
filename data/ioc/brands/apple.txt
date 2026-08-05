@@ -43,7 +43,19 @@ apappleef.bond
 apappleefa.bond
 aphid-piapple.sbs
 apineapple.cyou
+app1e.buzz
+app1e.cyou
+app1e.icu
+app1e.sbs
+appe.cyou
+appel.icu
+appie.bond
 appie.buzz
+appie.cfd
+appie.cyou
+appie.icu
+appie.sbs
+appl3.cfd
 apple-accounts.cyou
 apple-alert-location.sbs
 apple-anma.icu
@@ -148,6 +160,8 @@ apple-lost-cloud-support.sbs
 apple-lost-id.sbs
 apple-lost-locations-gmb.sbs
 apple-ltd.icu
+apple-magic-app.cfd
+apple-magic-app.cyou
 apple-maps.cfd
 apple-maps.cyou
 apple-maps.icu
@@ -545,6 +559,8 @@ appleyoujd.sbs
 appleys.sbs
 appleyug.cyou
 appleza.cfd
+applle.icu
+appple.sbs
 apps-apple.cfd
 asdapple.icu
 asitenciaapplenews.cfd

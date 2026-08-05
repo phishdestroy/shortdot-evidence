@@ -1,7 +1,10 @@
 allupdatecoinbaseus.sbs
 authcoinbasecure.sbs
 bitcoinbase.icu
+c-oinbase.icu
 cacoinbase.icu
+coibase.sbs
+coimbase.cyou
 coinbase-airdrop-en.cfd
 coinbase-airdrop-en.icu
 coinbase-airdrop.cfd
@@ -78,6 +81,13 @@ coinbaseusa.icu
 coinbasewallet.cfd
 coinbasewallet.icu
 coinbasewallet.sbs
+colnbase.bond
+colnbase.cyou
+colnbase.icu
+colnbase.sbs
+conibase.cfd
+conibase.icu
+conibase.sbs
 eacoinbasec.icu
 ecoinbase.cyou
 free-coinbase.cfd

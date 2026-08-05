@@ -1,5 +1,6 @@
 io-trezorsuite.cyou
 kilomtrezoryarisirlar.cfd
+rezor.sbs
 trezor-claim.icu
 trezor-security-update.sbs
 trezor-suite-support.cfd
@@ -23,3 +24,4 @@ trezorsuite.cfd
 trezorsuite.cyou
 trezorsuite.sbs
 trezoruite.bond
+trzor.cfd
