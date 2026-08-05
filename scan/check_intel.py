@@ -52,13 +52,35 @@ results = defaultdict(dict)   # domain -> {source: verdict}
 #    fall back to system resolver. Public resolvers (1.1.1.1, 8.8.8.8) block
 #    Spamhaus/SURBL queries with 127.255.255.254 "policy rejected" responses.
 import dns.resolver as _dns_mod
-_LOCAL_RESOLVER = _dns_mod.Resolver(configure=False)
-_LOCAL_RESOLVER.nameservers = ['127.0.0.1']
-_LOCAL_RESOLVER.timeout = 3
-_LOCAL_RESOLVER.lifetime = 6
+
+def _pick_resolver():
+    """Prefer the local unbound; fall back to the system resolver when absent.
+
+    Without the fallback every lookup fails on a host with no unbound (a CI
+    runner, for instance) and the whole DNSBL pass silently reports zero hits.
+    Policy-reject answers from public resolvers are filtered by the 127.255
+    check at the call site, so the fallback cannot invent listings.
+    """
+    local = _dns_mod.Resolver(configure=False)
+    local.nameservers = ['127.0.0.1']
+    local.timeout = 3
+    local.lifetime = 6
+    try:
+        local.resolve('dbl.spamhaus.org', 'A')
+        print('[i] DNS: local unbound at 127.0.0.1')
+        return local
+    except Exception:
+        system = _dns_mod.Resolver()
+        system.timeout = 3
+        system.lifetime = 6
+        print('[i] DNS: no local unbound — using system resolver '
+              '(public resolvers may policy-reject Spamhaus/SURBL queries)')
+        return system
+
+_LOCAL_RESOLVER = _pick_resolver()
 
 def _dns_lookup(query: str) -> str | None:
-    """Return first A record or None. Uses local unbound."""
+    """Return first A record or None."""
     try:
         ans = _LOCAL_RESOLVER.resolve(query, 'A')
         return str(ans[0])
