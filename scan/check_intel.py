@@ -53,13 +53,13 @@ results = defaultdict(dict)   # domain -> {source: verdict}
 #    Spamhaus/SURBL queries with 127.255.255.254 "policy rejected" responses.
 import dns.resolver as _dns_mod
 
-def _pick_resolver():
-    """Prefer the local unbound; fall back to the system resolver when absent.
+def _probe_local_resolver():
+    """Return a resolver bound to the local unbound, or None when it is absent.
 
-    Without the fallback every lookup fails on a host with no unbound (a CI
-    runner, for instance) and the whole DNSBL pass silently reports zero hits.
-    Policy-reject answers from public resolvers are filtered by the 127.255
-    check at the call site, so the fallback cannot invent listings.
+    A public resolver is not a usable substitute here: these zones answer
+    127.255.255.254 "policy rejected" to open resolvers, so the pass would
+    spend hours producing no verdicts. Without unbound the DNSBL stage is
+    skipped outright and says so, instead of silently reporting zero hits.
     """
     local = _dns_mod.Resolver(configure=False)
     local.nameservers = ['127.0.0.1']
@@ -67,20 +67,19 @@ def _pick_resolver():
     local.lifetime = 6
     try:
         local.resolve('dbl.spamhaus.org', 'A')
-        print('[i] DNS: local unbound at 127.0.0.1')
-        return local
     except Exception:
-        system = _dns_mod.Resolver()
-        system.timeout = 3
-        system.lifetime = 6
-        print('[i] DNS: no local unbound — using system resolver '
-              '(public resolvers may policy-reject Spamhaus/SURBL queries)')
-        return system
+        return None
+    return local
 
-_LOCAL_RESOLVER = _pick_resolver()
+_LOCAL_RESOLVER = _probe_local_resolver()
+DNSBL_ENABLED = _LOCAL_RESOLVER is not None
+print('[i] DNS: local unbound at 127.0.0.1' if DNSBL_ENABLED else
+      '[!] DNS: no local unbound at 127.0.0.1 — domain blocklist stage disabled')
 
 def _dns_lookup(query: str) -> str | None:
     """Return first A record or None."""
+    if _LOCAL_RESOLVER is None:
+        return None
     try:
         ans = _LOCAL_RESOLVER.resolve(query, 'A')
         return str(ans[0])
@@ -143,13 +142,18 @@ def _check_domain_list(args):
         return domain, key, verdict
     return domain, key, None
 
-print(f'Checking {len(targets):,} domains across {len(DOMAIN_LISTS)} domain-based blocklists ...')
-tasks = [(d, zone, key, dec) for d in sorted(targets) for zone, key, dec in [(e[0], e[1], e[2]) for e in DOMAIN_LISTS]]
-with concurrent.futures.ThreadPoolExecutor(max_workers=120) as ex:
-    for domain, key, verdict in ex.map(_check_domain_list, tasks):
-        if verdict:
-            list_hits[key][domain] = verdict
-            results[domain][key] = verdict
+if not DNSBL_ENABLED:
+    print(f'[!] skipped {len(DOMAIN_LISTS)} domain-based blocklists — '
+          f'{len(targets):,} domains left unchecked (needs local unbound; '
+          f'{len(targets) * len(DOMAIN_LISTS):,} queries would be rejected by an open resolver)')
+else:
+    print(f'Checking {len(targets):,} domains across {len(DOMAIN_LISTS)} domain-based blocklists ...')
+    tasks = [(d, zone, key, dec) for d in sorted(targets) for zone, key, dec in [(e[0], e[1], e[2]) for e in DOMAIN_LISTS]]
+    with concurrent.futures.ThreadPoolExecutor(max_workers=120) as ex:
+        for domain, key, verdict in ex.map(_check_domain_list, tasks):
+            if verdict:
+                list_hits[key][domain] = verdict
+                results[domain][key] = verdict
 
 for zone, key, _ in DOMAIN_LISTS:
     n = len(list_hits[key])
