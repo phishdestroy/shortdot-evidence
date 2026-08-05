@@ -645,6 +645,18 @@ def _redact(e):
     local, dom = e.split('@', 1)
     return (local[0] if len(local) <= 3 else local[:3]) + '***@' + dom
 
+def _ioc_counts():
+    """Sizes of the published ioc/ blocklists (header and blank lines skipped)."""
+    def _n(p):
+        f = Path(p)
+        if not f.exists():
+            return 0
+        return sum(1 for ln in f.read_text(encoding='utf-8', errors='replace').splitlines()
+                   if ln.strip() and not ln.lstrip().startswith('#'))
+    return _n('ioc/domains_all_malicious.txt'), _n('ioc/domains_high.txt')
+
+_ioc_all, _ioc_high = _ioc_counts()
+
 _readme_path = Path('README.md')
 if _readme_path.exists():
     _md = _readme_path.read_text(encoding='utf-8')
@@ -656,7 +668,10 @@ if _readme_path.exists():
     _parts.append(f'<td align="center"><b>📦 Domains tracked</b><br/><sub><code>{_fmt(total_domains)}</code></sub></td>')
     _parts.append(f'<td align="center"><b>💰 Est. ShortDot revenue</b><br/><sub><code>${total_revenue_wholesale:,.0f}</code></sub></td>')
     _parts.append(f'<td align="center"><b>💸 ICANN fees (registry)</b><br/><sub><code>${total_icann_fees:,.0f}</code></sub></td>')
-    _parts.append(f'<td align="center"><b>✅ Confirmed malicious</b><br/><sub><code>{correlation_pct}%</code> ({_fmt(correlation_count)})</sub></td>')
+    if _ioc_all:
+        _parts.append(f'<td align="center"><b>✅ IOC classified</b><br/><sub><code>{_fmt(_ioc_all)}</code> ({_fmt(_ioc_high)} HIGH)</sub></td>')
+    else:
+        _parts.append(f'<td align="center"><b>✅ Confirmed malicious</b><br/><sub><code>{correlation_pct}%</code> ({_fmt(correlation_count)})</sub></td>')
     _parts.append(f'<td align="center"><b>🏛️ Verified legitimate</b><br/><sub><code>{legit_count}</code> sites found</sub></td>')
     _parts.append(f'<td align="center"><b>⚡ Fresh (≤7d)</b><br/><sub><code>{fresh_pct}%</code></sub></td>')
     _parts.append('</tr></table>')

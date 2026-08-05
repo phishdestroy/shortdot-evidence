@@ -103,6 +103,7 @@ IN  ░░░░░░░░░░░░░░░░░░          1 (0.5%)
 
 | File | Format | Description |
 |:--|:--:|:--|
+| [feed-ioc.html](https://phishdestroy.github.io/shortdot-evidence/feed-ioc.html) | HTML | Searchable IOC browser — 237,903 indicators, severity + feed source badges, urlscan/VT/OTX lookups |
 | [`ioc/domains_confirmed.txt`](ioc/domains_confirmed.txt) | TXT | Feed + intel confirmed phishing |
 | [`ioc/domains_high.txt`](ioc/domains_high.txt) | TXT | HIGH severity (brand impersonation + feed hits) |
 | [`ioc/domains_all_malicious.txt`](ioc/domains_all_malicious.txt) | TXT | All classified — all severity |
