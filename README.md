@@ -42,7 +42,7 @@ They were meant to be <i>counted.</i><br/>
 <td align="center"><b>📦 Domains tracked</b><br/><sub><code>6,242,647</code></sub></td>
 <td align="center"><b>💰 Est. ShortDot revenue</b><br/><sub><code>$12,557,633</code></sub></td>
 <td align="center"><b>💸 ICANN fees (registry)</b><br/><sub><code>$1,741,262</code></sub></td>
-<td align="center"><b>✅ IOC classified</b><br/><sub><code>237,894</code> (153,775 HIGH)</sub></td>
+<td align="center"><b>✅ IOC classified</b><br/><sub><code>301,332</code> (154,396 HIGH)</sub></td>
 <td align="center"><b>🏛️ Verified legitimate</b><br/><sub><code>0</code> sites found</sub></td>
 <td align="center"><b>⚡ Fresh (≤7d)</b><br/><sub><code>100.0%</code></sub></td>
 </tr></table>
@@ -82,7 +82,7 @@ BG  ░░░░░░░░░░░░░░░░░░          1 (0.7%)
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`portal (20)` &middot; `hop (18)` &middot; `tron (14)` &middot; `eos (14)` &middot; `quest (13)` &middot; `dia (12)` &middot; `official (11)` &middot; `connect (10)` &middot; `bonus (9)` &middot; `base (9)` &middot; `gaming (9)` &middot; `apple (9)` &middot; `service (8)` &middot; `login (8)` &middot; `linea (8)`
+`portal (20)` &middot; `hop (18)` &middot; `eos (14)` &middot; `tron (14)` &middot; `quest (13)` &middot; `dia (12)` &middot; `official (11)` &middot; `connect (10)` &middot; `gaming (9)` &middot; `bonus (9)` &middot; `base (9)` &middot; `apple (9)` &middot; `login (8)` &middot; `linea (8)` &middot; `service (8)`
 
 ### 📥 Download Threat Intelligence
 
