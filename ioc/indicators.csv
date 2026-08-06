@@ -246010,3 +246010,17 @@ fbrhxy.cfd,cfd,,HIGH,,,,Confirmed by phishtank
 lxgvbk.cfd,cfd,,HIGH,,,,Confirmed by phishtank
 n4kc2ki9a.sbs,sbs,,HIGH,,,,Confirmed by phishtank
 n7ck2a.icu,icu,,HIGH,,,,Confirmed by phishtank
+kucoinus.cyou,cyou,,HIGH,,,,KuCoin brand impersonation
+anz-sport.icu,icu,,HIGH,,,,ANZ Bank brand impersonation
+bmo-sport.icu,icu,,HIGH,,,,BMO Bank brand impersonation
+7097-citi-identity-verif.icu,icu,,HIGH,,,,Citibank brand impersonation
+kavbettwitter-0l29.icu,icu,,HIGH,,,,Twitter/X brand impersonation
+wellfargo.cfd,cfd,,HIGH,,,,Wells Fargo brand impersonation
+260615503.sbs,sbs,,HIGH,,,,Confirmed by openphish
+allegrolokalnie.lokalna-02741.sbs,sbs,,HIGH,,,,Confirmed by phishtank
+allegrolokalnie.po-23981.sbs,sbs,,HIGH,,,,Confirmed by phishtank
+asset-recovery.cfd,cfd,,MEDIUM,,,,Pattern: action_suffix+random_suffix
+delivery-order.buzz,buzz,,MEDIUM,,,,Pattern: smishing_delivery
+info-login-session233899201982.cyou,cyou,,MEDIUM,,,,Pattern: action_prefix+action_suffix
+manager-login.icu,icu,,MEDIUM,,,,Pattern: action_suffix
+service-diag-solutions.cfd,cfd,,MEDIUM,,,,Pattern: action_prefix

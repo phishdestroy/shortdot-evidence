@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-05",
-  "count": 6177,
+  "generated": "2026-08-06",
+  "count": 6179,
   "domains": {
     "03mtbauthaux.cfd": [
       "mitchellkrogza"
@@ -294,6 +294,9 @@
       "phishtank"
     ],
     "260615469.sbs": [
+      "openphish"
+    ],
+    "260615503.sbs": [
       "openphish"
     ],
     "27393859.webku.buzz": [
@@ -3326,6 +3329,9 @@
     "allegrolokalnie.lokalna-01921.sbs": [
       "phishtank"
     ],
+    "allegrolokalnie.lokalna-02741.sbs": [
+      "phishtank"
+    ],
     "allegrolokalnie.lokalna-03.sbs": [
       "phishtank"
     ],
@@ -4710,6 +4716,9 @@
       "phishtank"
     ],
     "allegrolokalnie.plx9423665784.cfd": [
+      "phishtank"
+    ],
+    "allegrolokalnie.po-23981.sbs": [
       "phishtank"
     ],
     "allegrolokalnie.po12801-f12.cfd": [
@@ -14251,9 +14260,6 @@
     ],
     "mso-aunth.presidrive.sbs": [
       "mitchellkrogza"
-    ],
-    "mtoken.cfd": [
-      "openphish"
     ],
     "mucngammuoiothk.cyou": [
       "mitchellkrogza"

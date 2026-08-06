@@ -186,6 +186,7 @@ dhl-live.icu
 dhl-logistics.cfd
 dhl-logln.cfd
 dhl-lol.cfd
+dhl-lvse.icu
 dhl-lw.cfd
 dhl-mauritiuis.sbs
 dhl-me-home.icu
@@ -244,6 +245,7 @@ dhl-shipping.cfd
 dhl-shop.cfd
 dhl-sky.icu
 dhl-spain.cfd
+dhl-sport.icu
 dhl-status.bond
 dhl-status.cyou
 dhl-status.icu
