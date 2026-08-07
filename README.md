@@ -36,13 +36,13 @@ They were meant to be <i>counted.</i><br/>
 
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-08-06`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-08-07`
 
 <table><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><sub><code>6,242,647</code></sub></td>
 <td align="center"><b>💰 Est. ShortDot revenue</b><br/><sub><code>$12,557,633</code></sub></td>
 <td align="center"><b>💸 ICANN fees (registry)</b><br/><sub><code>$1,741,262</code></sub></td>
-<td align="center"><b>✅ IOC classified</b><br/><sub><code>301,338</code> (154,402 HIGH)</sub></td>
+<td align="center"><b>✅ IOC classified</b><br/><sub><code>301,352</code> (154,411 HIGH)</sub></td>
 <td align="center"><b>🏛️ Verified legitimate</b><br/><sub><code>0</code> sites found</sub></td>
 <td align="center"><b>⚡ Fresh (≤7d)</b><br/><sub><code>100.0%</code></sub></td>
 </tr></table>
@@ -54,7 +54,7 @@ They were meant to be <i>counted.</i><br/>
 | `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 0 | — | $634,670 |
 | `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
 | `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
-| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 0 | — | $1,242,854 |
+| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 3 | — | $1,242,854 |
 | `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 0 | — | $619,050 |
 | `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 0 | — | $680,602 |
 | `.qpon` | 110,365 | 61,237 (55.5%) | 49,128 | 0 | — | $275,912 |
@@ -64,25 +64,25 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████        219 (89.8%)
-AU  ░░░░░░░░░░░░░░░░░░         11 (4.5%)
-HK  ░░░░░░░░░░░░░░░░░░          6 (2.5%)
-NL  ░░░░░░░░░░░░░░░░░░          3 (1.2%)
-SG  ░░░░░░░░░░░░░░░░░░          2 (0.8%)
-LU  ░░░░░░░░░░░░░░░░░░          1 (0.4%)
-UA  ░░░░░░░░░░░░░░░░░░          1 (0.4%)
-DE  ░░░░░░░░░░░░░░░░░░          1 (0.4%)
+US  ██████████████████        136 (84.0%)
+AU  ░░░░░░░░░░░░░░░░░░          7 (4.3%)
+HK  ░░░░░░░░░░░░░░░░░░          6 (3.7%)
+NL  ░░░░░░░░░░░░░░░░░░          6 (3.7%)
+SG  ░░░░░░░░░░░░░░░░░░          2 (1.2%)
+UA  ░░░░░░░░░░░░░░░░░░          2 (1.2%)
+LU  ░░░░░░░░░░░░░░░░░░          1 (0.6%)
+RU  ░░░░░░░░░░░░░░░░░░          1 (0.6%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-08-06` | 19,391 | **1.0×** |
+| `2026-08-07` | 19,172 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`tron (454)` &middot; `hop (27)` &middot; `portal (26)` &middot; `gaming (21)` &middot; `dia (15)` &middot; `quest (13)` &middot; `bonus (13)` &middot; `base (9)` &middot; `neo (9)` &middot; `apple (9)` &middot; `eos (9)` &middot; `transfer (8)` &middot; `sui (7)` &middot; `login (6)` &middot; `service (6)`
+`tron (454)` &middot; `hop (26)` &middot; `portal (24)` &middot; `gaming (23)` &middot; `dia (23)` &middot; `capital (18)` &middot; `bonus (12)` &middot; `eos (10)` &middot; `apple (9)` &middot; `base (8)` &middot; `transfer (8)` &middot; `neo (7)` &middot; `sui (6)` &middot; `auth (5)` &middot; `bank (5)`
 
 ### 📥 Download Threat Intelligence
 
@@ -97,7 +97,7 @@ DE  ░░░░░░░░░░░░░░░░░░          1 (0.4%)
 | `.cfd` | [data/by_tld/cfd.txt](data/by_tld/cfd.txt) 952,385 | [deployed/cfd.txt](data/ioc/deployed/cfd.txt) 407,496 | [phantom/cfd.txt](data/ioc/phantom/cfd.txt) 544,889 |
 | `.buzz` | [data/by_tld/buzz.txt](data/by_tld/buzz.txt) 209,416 | [deployed/buzz.txt](data/ioc/deployed/buzz.txt) 130,210 | [phantom/buzz.txt](data/ioc/phantom/buzz.txt) 79,206 |
 | `.qpon` | [data/by_tld/qpon.txt](data/by_tld/qpon.txt) 110,365 | [deployed/qpon.txt](data/ioc/deployed/qpon.txt) 61,237 | [phantom/qpon.txt](data/ioc/phantom/qpon.txt) 49,128 |
-| **All zones** | — | [deployed_all.txt](data/ioc/deployed_all.txt) 273 | [phantom_all.txt](data/ioc/phantom_all.txt) 19,118 |
+| **All zones** | — | [deployed_all.txt](data/ioc/deployed_all.txt) 195 | [phantom_all.txt](data/ioc/phantom_all.txt) 18,977 |
 
 **IOC & blocklists:**
 

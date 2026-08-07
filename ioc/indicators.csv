@@ -246023,4 +246023,18 @@ asset-recovery.cfd,cfd,,MEDIUM,,,,Pattern: action_suffix+random_suffix
 delivery-order.buzz,buzz,,MEDIUM,,,,Pattern: smishing_delivery
 info-login-session233899201982.cyou,cyou,,MEDIUM,,,,Pattern: action_prefix+action_suffix
 manager-login.icu,icu,,MEDIUM,,,,Pattern: action_suffix
-service-diag-solutions.cfd,cfd,,MEDIUM,,,,Pattern: action_prefix
+service-diag-solutions.cfd,cfd,,HIGH,,,,Confirmed by openphish
+agroamazonia.sbs,sbs,,HIGH,,,,Amazon brand impersonation
+uniswapapp.sbs,sbs,,HIGH,,,,Uniswap brand impersonation
+exq9-jito.sbs,sbs,,HIGH,,,,Jito brand impersonation
+azxsvtr.cfd,cfd,,HIGH,,,,Confirmed by phishtank
+corireos.bond,bond,,HIGH,,,,Confirmed by phishtank
+dqb.buzz,buzz,,HIGH,,,,Confirmed by phishtank
+etsyverifyshop82719.icu,icu,,HIGH,,,,Confirmed by phishtank
+fortvalue.cfd,cfd,,HIGH,,,,Confirmed by openphish
+gltdzxr.cfd,cfd,,HIGH,,,,Confirmed by phishtank
+glvnkdz.cfd,cfd,,HIGH,,,,Confirmed by phishtank
+qtgamd.icu,icu,,HIGH,,,,Confirmed by openphish
+sportuaacolora.icu,icu,,HIGH,,,,Confirmed by phishtank
+salles-auth-plat.sbs,sbs,,MEDIUM,,,,Pattern: action_prefix+action_suffix
+tpwallet.sbs,sbs,,MEDIUM,,,,Pattern: crypto_recovery
