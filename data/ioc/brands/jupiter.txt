@@ -71,6 +71,7 @@ jupiterlist.sbs
 jupiterllc.sbs
 jupiterly.sbs
 jupitermap.sbs
+jupiternetwork.cfd
 jupiternews.icu
 jupiteroffer.sbs
 jupiterorjinalgiris.icu

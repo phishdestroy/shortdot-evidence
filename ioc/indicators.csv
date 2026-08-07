@@ -246023,7 +246023,7 @@ asset-recovery.cfd,cfd,,MEDIUM,,,,Pattern: action_suffix+random_suffix
 delivery-order.buzz,buzz,,MEDIUM,,,,Pattern: smishing_delivery
 info-login-session233899201982.cyou,cyou,,MEDIUM,,,,Pattern: action_prefix+action_suffix
 manager-login.icu,icu,,MEDIUM,,,,Pattern: action_suffix
-service-diag-solutions.cfd,cfd,,HIGH,,,,Confirmed by openphish
+service-diag-solutions.cfd,cfd,,MEDIUM,,,,Pattern: action_prefix
 agroamazonia.sbs,sbs,,HIGH,,,,Amazon brand impersonation
 uniswapapp.sbs,sbs,,HIGH,,,,Uniswap brand impersonation
 exq9-jito.sbs,sbs,,HIGH,,,,Jito brand impersonation
@@ -246038,3 +246038,20 @@ qtgamd.icu,icu,,HIGH,,,,Confirmed by openphish
 sportuaacolora.icu,icu,,HIGH,,,,Confirmed by phishtank
 salles-auth-plat.sbs,sbs,,MEDIUM,,,,Pattern: action_prefix+action_suffix
 tpwallet.sbs,sbs,,MEDIUM,,,,Pattern: crypto_recovery
+ggoogledocudytf.icu,icu,,HIGH,,,,Google brand impersonation
+avrupabet-mobile.icu,icu,,HIGH,,,,T-Mobile brand impersonation
+holiganbet-mobilephone.icu,icu,,HIGH,,,,T-Mobile brand impersonation
+canadapostees-ca.cfd,cfd,,HIGH,,,,Canada Post brand impersonation
+canadapostes-ca.cfd,cfd,,HIGH,,,,Canada Post brand impersonation
+jupiternetwork.cfd,cfd,,HIGH,,,,Jupiter brand impersonation
+rainbowparallel.icu,icu,,HIGH,,,,Rainbow Wallet brand impersonation
+bmo-onllne.sbs,sbs,,HIGH,,,,BMO Bank brand impersonation
+nakitbahistwitter-3k4p.icu,icu,,HIGH,,,,Twitter/X brand impersonation
+zora-vrijednava.sbs,sbs,,HIGH,,,,Zora brand impersonation
+2026vvipseed.buzz,buzz,,MEDIUM,,,,Pattern: crypto_recovery
+account-maildocuments-xsaas.icu,icu,,MEDIUM,,,,Pattern: action_prefix
+active-signals.cyou,cyou,,MEDIUM,,,,Pattern: invest_fraud
+holiganbet-support.icu,icu,,MEDIUM,,,,Pattern: action_suffix
+legal-service-help-2026.sbs,sbs,,MEDIUM,,,,Pattern: action_prefix
+order-delivery.buzz,buzz,,MEDIUM,,,,Pattern: smishing_delivery+random_suffix
+portal-segi.icu,icu,,MEDIUM,,,,Pattern: action_prefix
