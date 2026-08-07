@@ -83,6 +83,9 @@ jobs:
           print(f'all={n_all} high={n_high} confirmed={n_conf}')
           EOF
 
+      - name: Copy index to chart-data for Pages daily feed
+        run: cp data/index.json docs/chart-data.json
+
       - name: Rebuild site data
         run: |
           python docs/build_datajson.py \
