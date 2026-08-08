@@ -78324,7 +78324,7 @@ risefocusgroup.buzz,buzz,,HIGH,,,,Feeds: blocklistproject_malware|hagezi_wildcar
 live-draw-sdy.cfd,cfd,,MEDIUM,,,,Feeds: blocklistproject_malware
 capitaltop-torqevan.sbs,sbs,,MEDIUM,,,,Feeds: hagezi_wildcard_tif
 ventureservices.sbs,sbs,,HIGH,,,,Feeds: blocklistproject_malware|hagezi_wildcard_tif|maltrail_domains
-gls-grouposl.qpon,qpon,,MEDIUM,,,,Feeds: hagezi_wildcard_tif
+gls-grouposl.qpon,qpon,,HIGH,,,,Confirmed by phishtank
 neonacblow.cfd,cfd,,MEDIUM,,,,Feeds: blocklistproject_malware|hagezi_wildcard_tif
 0248-casino.buzz,buzz,,MEDIUM,,,,Feeds: hagezi_wildcard_tif
 alfreda-3.cfd,cfd,,MEDIUM,,,,Feeds: blocklistproject_malware|hagezi_wildcard_tif
@@ -246029,7 +246029,7 @@ uniswapapp.sbs,sbs,,HIGH,,,,Uniswap brand impersonation
 exq9-jito.sbs,sbs,,HIGH,,,,Jito brand impersonation
 azxsvtr.cfd,cfd,,HIGH,,,,Confirmed by phishtank
 corireos.bond,bond,,HIGH,,,,Confirmed by phishtank
-dqb.buzz,buzz,,HIGH,,,,Confirmed by phishtank
+dqb.buzz,buzz,,HIGH,,,,Confirmed by openphish+phishtank
 etsyverifyshop82719.icu,icu,,HIGH,,,,Confirmed by phishtank
 fortvalue.cfd,cfd,,HIGH,,,,Confirmed by openphish
 gltdzxr.cfd,cfd,,HIGH,,,,Confirmed by phishtank
@@ -246055,3 +246055,14 @@ holiganbet-support.icu,icu,,MEDIUM,,,,Pattern: action_suffix
 legal-service-help-2026.sbs,sbs,,MEDIUM,,,,Pattern: action_prefix
 order-delivery.buzz,buzz,,MEDIUM,,,,Pattern: smishing_delivery+random_suffix
 portal-segi.icu,icu,,MEDIUM,,,,Pattern: action_prefix
+allegrolokalnie.7342527.cfd,cfd,,HIGH,,,,Confirmed by phishtank
+allegrolokalnie.pl-013337.icu,icu,,HIGH,,,,Confirmed by phishtank
+allegrolokalnie.smart-92932.cfd,cfd,,HIGH,,,,Confirmed by phishtank
+applandfgh.icu,icu,,HIGH,,,,Confirmed by openphish
+asbrobizz.buzz,buzz,,HIGH,,,,Confirmed by phishtank
+ascustoms.buzz,buzz,,HIGH,,,,Confirmed by phishtank
+finesa.zoels.cfd,cfd,,HIGH,,,,Confirmed by phishtank
+go.testingcenter.sbs,sbs,,HIGH,,,,Confirmed by phishtank
+m-flow.cfd,cfd,,HIGH,,,,Confirmed by phishtank
+o9-ilx-xnqp.b6vcmy.qpon,qpon,,HIGH,,,,Confirmed by phishtank
+xmohup.cfd,cfd,,HIGH,,,,Confirmed by phishtank

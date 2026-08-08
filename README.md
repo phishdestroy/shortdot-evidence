@@ -36,13 +36,13 @@ They were meant to be <i>counted.</i><br/>
 
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-08-07`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-08-08`
 
 <table><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><sub><code>6,242,647</code></sub></td>
 <td align="center"><b>💰 Est. ShortDot revenue</b><br/><sub><code>$12,557,633</code></sub></td>
 <td align="center"><b>💸 ICANN fees (registry)</b><br/><sub><code>$1,741,262</code></sub></td>
-<td align="center"><b>✅ IOC classified</b><br/><sub><code>301,366</code> (154,424 HIGH)</sub></td>
+<td align="center"><b>✅ IOC classified</b><br/><sub><code>301,383</code> (154,434 HIGH)</sub></td>
 <td align="center"><b>🏛️ Verified legitimate</b><br/><sub><code>0</code> sites found</sub></td>
 <td align="center"><b>⚡ Fresh (≤7d)</b><br/><sub><code>100.0%</code></sub></td>
 </tr></table>
@@ -78,11 +78,11 @@ DE  ░░░░░░░░░░░░░░░░░░          2 (1.3%)
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-08-07` | 15,356 | **1.0×** |
+| `2026-08-08` | 15,356 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`service (60)` &middot; `bonus (28)` &middot; `dia (25)` &middot; `hop (17)` &middot; `portal (16)` &middot; `official (16)` &middot; `connect (10)` &middot; `eos (8)` &middot; `base (8)` &middot; `support (6)` &middot; `tron (6)` &middot; `aura (5)` &middot; `wise (5)` &middot; `gaming (4)` &middot; `manta (4)`
+`service (60)` &middot; `bonus (28)` &middot; `dia (25)` &middot; `hop (17)` &middot; `portal (16)` &middot; `official (16)` &middot; `connect (10)` &middot; `eos (8)` &middot; `base (8)` &middot; `tron (6)` &middot; `support (6)` &middot; `aura (5)` &middot; `wise (5)` &middot; `manta (4)` &middot; `gaming (4)`
 
 ### 📥 Download Threat Intelligence
 

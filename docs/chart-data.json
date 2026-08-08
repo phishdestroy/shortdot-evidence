@@ -178,6 +178,13 @@
       "revenue_wholesale": 18388.05,
       "icann_fees": 3839.0,
       "path": "data/new/2026/08/2026-08-07.txt"
+    },
+    {
+      "date": "2026-08-08",
+      "count": 15356,
+      "revenue_wholesale": 18388.05,
+      "icann_fees": 3839.0,
+      "path": "data/new/2026/08/2026-08-08.txt"
     }
   ],
   "total_domains": 6242647,
@@ -298,7 +305,7 @@
   "fresh_pct": 100.0,
   "burst_days": [
     {
-      "date": "2026-08-07",
+      "date": "2026-08-08",
       "count": 15356,
       "x_avg": 1.0
     }
@@ -313,27 +320,27 @@
     "connect": 10,
     "eos": 8,
     "base": 8,
-    "support": 6,
     "tron": 6,
+    "support": 6,
     "aura": 5,
     "wise": 5,
-    "gaming": 4,
     "manta": 4,
+    "gaming": 4,
     "ondo": 4,
-    "apple": 3,
-    "crypto": 3,
     "boba": 3,
-    "quest": 3,
-    "rug": 3,
-    "meme": 3,
-    "zoom": 3,
-    "capital": 3,
     "join": 3,
-    "hack": 2,
-    "redstone": 2,
+    "rug": 3,
+    "quest": 3,
+    "zoom": 3,
+    "meme": 3,
+    "crypto": 3,
+    "apple": 3,
+    "capital": 3,
+    "defi": 2,
     "sui": 2,
-    "orca": 2,
-    "waves": 2
+    "linea": 2,
+    "hack": 2,
+    "okx": 2
   },
   "unranked_pct": 100.0,
   "ranked_count": 0,
@@ -342,5 +349,5 @@
   "legit_count": 0,
   "serial_email_count": 0,
   "legit_ratio_pct": 0.0,
-  "last_updated": "2026-08-07"
+  "last_updated": "2026-08-08"
 }

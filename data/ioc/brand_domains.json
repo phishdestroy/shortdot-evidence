@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-07",
+  "generated": "2026-08-08",
   "total_brand_domains": 54615,
   "total_raw_hits": 21739,
   "total_scanned": 6448868,
-  "feed_confirmed": 6184,
+  "feed_confirmed": 6196,
   "pattern_candidates": 622369,
   "categories": {
     "crypto": 5193,
@@ -5553,22 +5553,22 @@
       "binancetrzone.sbs",
       "trbinancelogin.sbs",
       "www-binance.sbs",
-      "biance.cyou",
-      "binace.icu",
-      "binancce.sbs",
-      "binancce.cfd",
-      "inance.icu",
       "binane.icu",
       "binane.cyou",
+      "blnance.icu",
+      "blnance.cyou",
+      "blnance.sbs",
+      "binancce.sbs",
+      "binancce.cfd",
       "bnance.sbs",
+      "biance.cyou",
+      "inance.icu",
+      "binace.icu",
       "binanc.icu",
       "binanc.bond",
       "binanc.cyou",
       "binanc.qpon",
-      "binamce.icu",
-      "blnance.icu",
-      "blnance.cyou",
-      "blnance.sbs"
+      "binamce.icu"
     ],
     "staking_portal": [
       "corestaking.bond",
@@ -6891,14 +6891,14 @@
       "intercadfacebook.sbs",
       "pl-ankietyfacebook.sbs",
       "shenxianmalifacebook.sbs",
-      "faceebook.cyou",
-      "faceboo.icu",
       "facebok.icu",
-      "faccebook.icu",
-      "faecbook.icu",
       "faceboko.icu",
-      "faceb0ok.bond",
-      "face-book.sbs"
+      "faecbook.icu",
+      "face-book.sbs",
+      "faccebook.icu",
+      "faceboo.icu",
+      "faceebook.cyou",
+      "faceb0ok.bond"
     ],
     "phantom_wallet": [
       "phantomgift.bond",
@@ -7026,8 +7026,8 @@
       "wings138-phantom.sbs",
       "zzphantommm13.sbs",
       "zzphantommm4.sbs",
-      "phantm.bond",
-      "phntom.buzz"
+      "phntom.buzz",
+      "phantm.bond"
     ],
     "jupiter": [
       "jupiter-ag.bond",
@@ -7841,15 +7841,15 @@
       "stakingcoinbase.sbs",
       "wyncoinbase.sbs",
       "coibase.sbs",
-      "conibase.icu",
-      "conibase.sbs",
-      "conibase.cfd",
+      "coimbase.cyou",
+      "c-oinbase.icu",
       "colnbase.icu",
       "colnbase.bond",
       "colnbase.cyou",
       "colnbase.sbs",
-      "coimbase.cyou",
-      "c-oinbase.icu"
+      "conibase.icu",
+      "conibase.sbs",
+      "conibase.cfd"
     ],
     "coinbase_typosquat": [
       "coinbase-bitmart-kyc-auth.bond",
@@ -8059,16 +8059,16 @@
       "tejeta-netflix.sbs",
       "totonetflix.sbs",
       "netfllx.icu",
-      "netfiix.icu",
-      "netfiix.cfd",
+      "net-flix.sbs",
+      "netlfix.icu",
       "netfix.icu",
       "netfix.cfd",
       "netfix.qpon",
-      "netlfix.icu",
-      "netfilx.icu",
-      "netfilx.sbs",
       "metflix.sbs",
-      "net-flix.sbs"
+      "netfiix.icu",
+      "netfiix.cfd",
+      "netfilx.icu",
+      "netfilx.sbs"
     ],
     "paypal": [
       "paypal-aol.bond",
@@ -8160,17 +8160,17 @@
       "paypalsupport.sbs",
       "paypalx.sbs",
       "stripepaypal.sbs",
+      "payal.sbs",
+      "paypai.cfd",
+      "paypa1.cfd",
       "pay-pal.icu",
       "pay-pal.cfd",
       "pay-pal.buzz",
       "papal.icu",
       "papal.sbs",
-      "paypa.icu",
+      "pypal.icu",
       "paypl.icu",
-      "paypa1.cfd",
-      "payal.sbs",
-      "paypai.cfd",
-      "pypal.icu"
+      "paypa.icu"
     ],
     "stripe": [
       "austripe.bond",
@@ -8937,20 +8937,20 @@
       "myprivatinstagram.sbs",
       "pagesupportinstagramid.sbs",
       "spy-instagram.sbs",
+      "instagrarn.cyou",
+      "instagrarn.sbs",
       "instaqram.sbs",
-      "insatgram.icu",
-      "instagraam.buzz",
       "lnstagram.icu",
       "lnstagram.cyou",
       "lnstagram.sbs",
       "lnstagram.cfd",
       "lnstagram.buzz",
-      "instagrarn.cyou",
-      "instagrarn.sbs",
-      "instagrm.cyou",
+      "insatgram.icu",
       "instgram.icu",
       "instgram.sbs",
-      "insta-gram.buzz"
+      "instagraam.buzz",
+      "insta-gram.buzz",
+      "instagrm.cyou"
     ],
     "trust_wallet": [
       "trust-wallet.bond",
@@ -9026,12 +9026,12 @@
       "trustwalletuppdates.sbs",
       "updatetrustwalletservce.sbs",
       "trutwallet.bond",
-      "trustwalet.icu",
-      "trustwalet.cfd",
       "trustwalle.icu",
+      "trustwailet.cfd",
       "trustwalllet.icu",
       "trustwalllet.sbs",
-      "trustwailet.cfd"
+      "trustwalet.icu",
+      "trustwalet.cfd"
     ],
     "vodafone": [
       "eshop-vodafone.bond",
@@ -10344,10 +10344,10 @@
       "metamaskservice.sbs",
       "metamaskstaking.sbs",
       "metamasksverify.sbs",
-      "metamsak.icu",
       "metamaks.cyou",
       "metamaks.sbs",
-      "metamak.icu"
+      "metamak.icu",
+      "metamsak.icu"
     ],
     "anz_bank": [
       "anz.bond",
@@ -10854,16 +10854,16 @@
       "uniswapapp.sbs",
       "uniswapodex.sbs",
       "ww3-uniswap.sbs",
-      "uni-swap.icu",
-      "uni-swap.cyou",
-      "uni-swap.sbs",
-      "unlswap.icu",
-      "unlswap.sbs",
       "uiswap.sbs",
       "uniwap.icu",
       "unsiwap.icu",
+      "unlswap.icu",
+      "unlswap.sbs",
       "unswap.sbs",
-      "unswap.cfd"
+      "unswap.cfd",
+      "uni-swap.icu",
+      "uni-swap.cyou",
+      "uni-swap.sbs"
     ],
     "ebay": [
       "online-ebay.bond",
@@ -11251,11 +11251,11 @@
       "openseanews.sbs",
       "opensearl.sbs",
       "openseason.sbs",
+      "openseea.icu",
       "opensae.icu",
       "open-sea.icu",
-      "openseea.icu",
-      "openssea.icu",
-      "opense.icu"
+      "opense.icu",
+      "openssea.icu"
     ],
     "raydium": [
       "raydium.bond",
@@ -15815,9 +15815,9 @@
         "uniswapapp.sbs",
         "uniswapodex.sbs",
         "ww3-uniswap.sbs",
-        "uni-swap.icu",
-        "uni-swap.cyou",
-        "uni-swap.sbs",
+        "uiswap.sbs",
+        "uniwap.icu",
+        "unsiwap.icu",
         "unlswap.icu",
         "unlswap.sbs"
       ]
@@ -16239,11 +16239,11 @@
         "openseanews.sbs",
         "opensearl.sbs",
         "openseason.sbs",
+        "openseea.icu",
         "opensae.icu",
         "open-sea.icu",
-        "openseea.icu",
-        "openssea.icu",
-        "opense.icu"
+        "opense.icu",
+        "openssea.icu"
       ]
     },
     "Raydium": {
