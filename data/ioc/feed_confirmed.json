@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-08",
-  "count": 6196,
+  "generated": "2026-08-09",
+  "count": 6201,
   "domains": {
     "03mtbauthaux.cfd": [
       "mitchellkrogza"
@@ -2918,6 +2918,9 @@
     "allegrolokalnie.1980913-p24.buzz": [
       "mitchellkrogza"
     ],
+    "allegrolokalnie.21457841.cfd": [
+      "phishtank"
+    ],
     "allegrolokalnie.214678154.sbs": [
       "phishtank"
     ],
@@ -2997,6 +3000,9 @@
       "phishtank"
     ],
     "allegrolokalnie.7342527.cfd": [
+      "phishtank"
+    ],
+    "allegrolokalnie.746938488402.cfd": [
       "phishtank"
     ],
     "allegrolokalnie.786214-id.buzz": [
@@ -3338,6 +3344,9 @@
     "allegrolokalnie.lokalna-0729.sbs": [
       "phishtank"
     ],
+    "allegrolokalnie.lokalna-09271.sbs": [
+      "phishtank"
+    ],
     "allegrolokalnie.lokalna-1.sbs": [
       "phishtank"
     ],
@@ -3651,6 +3660,9 @@
       "mitchellkrogza"
     ],
     "allegrolokalnie.oferta-23ih4ihui33ni12.sbs": [
+      "phishtank"
+    ],
+    "allegrolokalnie.oferta-2451784.cfd": [
       "phishtank"
     ],
     "allegrolokalnie.oferta-3412900.icu": [
@@ -6079,9 +6091,6 @@
     ],
     "appixms.icu": [
       "mitchellkrogza"
-    ],
-    "applandfgh.icu": [
-      "openphish"
     ],
     "apple-soporte.com-f509.cfd": [
       "mitchellkrogza"
@@ -9027,7 +9036,6 @@
       "phishtank"
     ],
     "dqb.buzz": [
-      "openphish",
       "phishtank"
     ],
     "dqctvuqfidelity.qpon": [
@@ -13026,6 +13034,9 @@
     "kkkyyfbhfbcj66.icu": [
       "mitchellkrogza"
     ],
+    "kkm.9988330.icu": [
+      "openphish"
+    ],
     "klaimdana.updatebaru.cfd": [
       "mitchellkrogza"
     ],
@@ -15164,6 +15175,9 @@
     ],
     "pangmen.sbs": [
       "mitchellkrogza"
+    ],
+    "paribcardsegu.bond": [
+      "openphish"
     ],
     "parking-pteu.cfd": [
       "phishtank"

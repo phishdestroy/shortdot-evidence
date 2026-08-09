@@ -246029,7 +246029,7 @@ uniswapapp.sbs,sbs,,HIGH,,,,Uniswap brand impersonation
 exq9-jito.sbs,sbs,,HIGH,,,,Jito brand impersonation
 azxsvtr.cfd,cfd,,HIGH,,,,Confirmed by phishtank
 corireos.bond,bond,,HIGH,,,,Confirmed by phishtank
-dqb.buzz,buzz,,HIGH,,,,Confirmed by openphish+phishtank
+dqb.buzz,buzz,,HIGH,,,,Confirmed by phishtank
 etsyverifyshop82719.icu,icu,,HIGH,,,,Confirmed by phishtank
 fortvalue.cfd,cfd,,HIGH,,,,Confirmed by openphish
 gltdzxr.cfd,cfd,,HIGH,,,,Confirmed by phishtank
@@ -246066,3 +246066,30 @@ go.testingcenter.sbs,sbs,,HIGH,,,,Confirmed by phishtank
 m-flow.cfd,cfd,,HIGH,,,,Confirmed by phishtank
 o9-ilx-xnqp.b6vcmy.qpon,qpon,,HIGH,,,,Confirmed by phishtank
 xmohup.cfd,cfd,,HIGH,,,,Confirmed by phishtank
+feijicloud.cfd,cfd,,HIGH,,,,Apple iCloud brand impersonation
+microsoft3.sbs,sbs,,HIGH,,,,Microsoft brand impersonation
+canadapostea.cfd,cfd,,HIGH,,,,Canada Post brand impersonation
+canadapostea.cyou,cyou,,HIGH,,,,Canada Post brand impersonation
+canadapostea.icu,icu,,HIGH,,,,Canada Post brand impersonation
+matbet-tron.icu,icu,,HIGH,,,,TRON brand impersonation
+bmo-digitall.sbs,sbs,,HIGH,,,,BMO Bank brand impersonation
+bankofamerica.qpon,qpon,,HIGH,,,,Bank of America brand impersonation
+rogersells.bond,bond,,HIGH,,,,Rogers brand impersonation
+rogersells.cyou,cyou,,HIGH,,,,Rogers brand impersonation
+app-polkadot.sbs,sbs,,HIGH,,,,Polkadot brand impersonation
+ronin.buzz,buzz,,HIGH,,,,Ronin brand impersonation
+allegrolokalnie.21457841.cfd,cfd,,HIGH,,,,Confirmed by phishtank
+allegrolokalnie.746938488402.cfd,cfd,,HIGH,,,,Confirmed by phishtank
+allegrolokalnie.lokalna-09271.sbs,sbs,,HIGH,,,,Confirmed by phishtank
+allegrolokalnie.oferta-2451784.cfd,cfd,,HIGH,,,,Confirmed by phishtank
+kkm.9988330.icu,icu,,HIGH,,,,Confirmed by openphish
+paribcardsegu.bond,bond,,HIGH,,,,Confirmed by openphish
+io-updatecenter.sbs,sbs,,MEDIUM,,,,Pattern: action_suffix
+nustar-ph-login.cyou,cyou,,MEDIUM,,,,Pattern: action_suffix
+seed789.cfd,cfd,,MEDIUM,,,,Pattern: crypto_recovery
+service-datenschutz.icu,icu,,MEDIUM,,,,Pattern: action_prefix+random_suffix
+service-info.icu,icu,,MEDIUM,,,,Pattern: action_prefix
+sicherheit-service-vb.icu,icu,,MEDIUM,,,,Pattern: action_prefix
+soqriseedly.icu,icu,,MEDIUM,,,,Pattern: crypto_recovery
+uslovnyy-ment-2026.buzz,buzz,,MEDIUM,,,,Pattern: revolver_rabbit_c2
+walletbridge.cfd,cfd,,MEDIUM,,,,Pattern: crypto_recovery

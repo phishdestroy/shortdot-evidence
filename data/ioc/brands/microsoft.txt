@@ -95,6 +95,7 @@ microsoft.cyou
 microsoft.icu
 microsoft.qpon
 microsoft.sbs
+microsoft3.sbs
 microsoft365.sbs
 microsoft365account.bond
 microsoft365account.icu

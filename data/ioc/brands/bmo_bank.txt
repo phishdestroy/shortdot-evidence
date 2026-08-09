@@ -8,6 +8,7 @@ bmo-canada.sbs
 bmo-customer-service.sbs
 bmo-digital-login.sbs
 bmo-digital-us.sbs
+bmo-digitall.sbs
 bmo-form.sbs
 bmo-forum.sbs
 bmo-harri.sbs

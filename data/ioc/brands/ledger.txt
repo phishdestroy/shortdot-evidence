@@ -153,6 +153,7 @@ encryptedledger-insight.icu
 estoraledger.cyou
 estorledger.cyou
 estorxsledger.cyou
+everydayledger.sbs
 farmhouseledger.sbs
 farmledger.icu
 ferroledger.cyou
@@ -187,6 +188,7 @@ gravonledger.cyou
 gravoxsledger.cyou
 greenledger.cfd
 greenledgerfield.bond
+groveledger.sbs
 groveledgerstudio.bond
 growthledger.bond
 growthledger.sbs
@@ -384,6 +386,7 @@ ledgerwise.sbs
 ledgerwiz.icu
 ledgerwoodmeadowdusk.bond
 ledgerworks.bond
+ledgerwynd.sbs
 ledgger.icu
 legder.cfd
 legder.icu
@@ -753,3 +756,4 @@ willowledger.icu
 www-ledger-live.cfd
 xenoledger.sbs
 xrpledgerz.sbs
+yardledger.sbs
