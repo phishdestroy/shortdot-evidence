@@ -42,7 +42,7 @@ They were meant to be <i>counted.</i><br/>
 <td align="center"><b>📦 Domains tracked</b><br/><sub><code>6,242,647</code></sub></td>
 <td align="center"><b>💰 Est. ShortDot revenue</b><br/><sub><code>$12,557,633</code></sub></td>
 <td align="center"><b>💸 ICANN fees (registry)</b><br/><sub><code>$1,741,262</code></sub></td>
-<td align="center"><b>✅ IOC classified</b><br/><sub><code>301,421</code> (154,464 HIGH)</sub></td>
+<td align="center"><b>✅ IOC classified</b><br/><sub><code>301,435</code> (154,470 HIGH)</sub></td>
 <td align="center"><b>🏛️ Verified legitimate</b><br/><sub><code>0</code> sites found</sub></td>
 <td align="center"><b>⚡ Fresh (≤7d)</b><br/><sub><code>100.0%</code></sub></td>
 </tr></table>
@@ -81,7 +81,7 @@ BG  ░░░░░░░░░░░░░░░░░░          1 (0.3%)
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`bonus (19)` &middot; `apple (13)` &middot; `hop (13)` &middot; `dia (11)` &middot; `portal (10)` &middot; `capital (10)` &middot; `base (9)` &middot; `join (7)` &middot; `bank (7)` &middot; `eos (7)` &middot; `wallet (6)` &middot; `claim (6)` &middot; `steam (5)` &middot; `banking (5)` &middot; `service (5)`
+`bonus (19)` &middot; `apple (13)` &middot; `hop (13)` &middot; `dia (11)` &middot; `capital (10)` &middot; `portal (10)` &middot; `base (9)` &middot; `join (7)` &middot; `bank (7)` &middot; `eos (7)` &middot; `wallet (6)` &middot; `claim (6)` &middot; `banking (5)` &middot; `official (5)` &middot; `service (5)`
 
 ### 📥 Download Threat Intelligence
 
