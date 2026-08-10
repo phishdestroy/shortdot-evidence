@@ -25,63 +25,13 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install requests dnspython
+        run: pip install requests
 
       - name: Fetch zone data & update stats
         env:
           NETAPI_TOKEN: ${{ secrets.NETAPI_TOKEN }}
           TLD_LIST: icu,bond,cyou,sbs,cfd,buzz,qpon
         run: python scan/fetch_new.py
-
-      - name: Classify brand patterns
-        run: python scan/classify_brands.py
-
-      - name: Cross-reference threat intel
-        env:
-          OTX_API_KEY:     ${{ secrets.OTX_API_KEY }}
-          URLSCAN_API_KEY: ${{ secrets.URLSCAN_API_KEY }}
-        run: python scan/check_intel.py
-
-      - name: Rebuild IOC flat files
-        run: |
-          python - <<'EOF'
-          import csv
-          from pathlib import Path
-
-          # The published blocklists are cumulative. A rebuild merges the fresh
-          # classification into what is already published instead of replacing
-          # it: indicators.csv only carries the current pass, so overwriting
-          # dropped 48k HIGH and 1.4k confirmed domains on 2026-08-05.
-          def published(rel):
-              p = Path(rel)
-              if not p.exists():
-                  return set()
-              return {l.strip().lower() for l in p.read_text(encoding='utf-8', errors='replace').splitlines()
-                      if l.strip() and not l.lstrip().startswith('#')}
-
-          def write(rel, doms):
-              Path(rel).write_text('\n'.join(sorted(doms)) + '\n', encoding='utf-8')
-              return len(doms)
-
-          rows = list(csv.DictReader(open('ioc/indicators.csv', encoding='utf-8-sig', errors='replace')))
-          all_doms = {r['domain'].strip().lower() for r in rows if r.get('domain')}
-          high = {r['domain'].strip().lower() for r in rows
-                  if r.get('severity','').upper() == 'HIGH' and r.get('domain')}
-          # Confirmed: feed cross-ref + intel multi-source hits
-          confirmed = {r['domain'].strip().lower() for r in rows
-                       if r.get('type','') in ('PHISHING_CONFIRMED','INTEL_CONFIRMED') and r.get('domain')}
-          for src in ('data/ioc/feed_confirmed.txt', 'data/ioc/intel_confirmed.txt'):
-              confirmed |= published(src)
-
-          high      |= published('ioc/domains_high.txt')
-          confirmed |= published('ioc/domains_confirmed.txt')
-          all_doms  |= published('ioc/domains_all_malicious.txt') | high | confirmed
-
-          n_all  = write('ioc/domains_all_malicious.txt', all_doms)
-          n_high = write('ioc/domains_high.txt', high)
-          n_conf = write('ioc/domains_confirmed.txt', confirmed)
-          print(f'all={n_all} high={n_high} confirmed={n_conf}')
-          EOF
 
       - name: Copy index to chart-data for Pages daily feed
         run: cp data/index.json docs/chart-data.json
