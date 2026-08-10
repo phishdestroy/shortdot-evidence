@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-09",
-  "count": 6201,
+  "generated": "2026-08-10",
+  "count": 6203,
   "domains": {
     "03mtbauthaux.cfd": [
       "mitchellkrogza"
@@ -4433,6 +4433,9 @@
     "allegrolokalnie.pl-oferta4129261728341957.cfd": [
       "phishtank"
     ],
+    "allegrolokalnie.pl-oferta42321.sbs": [
+      "phishtank"
+    ],
     "allegrolokalnie.pl-oferta4356f5647.buzz": [
       "mitchellkrogza"
     ],
@@ -4875,6 +4878,9 @@
       "phishtank"
     ],
     "allegrolokalnie.smart-92932.cfd": [
+      "phishtank"
+    ],
+    "allegrolokalnie.smart-95822.cfd": [
       "phishtank"
     ],
     "allegrolokalnie.smart-98642.cfd": [
@@ -7767,6 +7773,9 @@
       "mitchellkrogza"
     ],
     "corireos.bond": [
+      "phishtank"
+    ],
+    "cornhqcv-online.icu": [
       "phishtank"
     ],
     "cornhqcv.icu": [
@@ -13034,9 +13043,6 @@
     "kkkyyfbhfbcj66.icu": [
       "mitchellkrogza"
     ],
-    "kkm.9988330.icu": [
-      "openphish"
-    ],
     "klaimdana.updatebaru.cfd": [
       "mitchellkrogza"
     ],
@@ -15176,9 +15182,6 @@
     "pangmen.sbs": [
       "mitchellkrogza"
     ],
-    "paribcardsegu.bond": [
-      "openphish"
-    ],
     "parking-pteu.cfd": [
       "phishtank"
     ],
@@ -15709,6 +15712,9 @@
     ],
     "pointss.sbs": [
       "mitchellkrogza"
+    ],
+    "polizcardactiv.bond": [
+      "openphish"
     ],
     "polomoz.buzz": [
       "mitchellkrogza"

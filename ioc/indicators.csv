@@ -246093,3 +246093,17 @@ sicherheit-service-vb.icu,icu,,MEDIUM,,,,Pattern: action_prefix
 soqriseedly.icu,icu,,MEDIUM,,,,Pattern: crypto_recovery
 uslovnyy-ment-2026.buzz,buzz,,MEDIUM,,,,Pattern: revolver_rabbit_c2
 walletbridge.cfd,cfd,,MEDIUM,,,,Pattern: crypto_recovery
+airdrop-blast.icu,icu,,HIGH,,,,Crypto Airdrop brand impersonation
+grandpashabetmobiles.icu,icu,,HIGH,,,,T-Mobile brand impersonation
+allegrolokalnie.pl-oferta42321.sbs,sbs,,HIGH,,,,Confirmed by phishtank
+allegrolokalnie.smart-95822.cfd,cfd,,HIGH,,,,Confirmed by phishtank
+cornhqcv-online.icu,icu,,HIGH,,,,Confirmed by phishtank
+polizcardactiv.bond,bond,,HIGH,,,,Confirmed by openphish
+merit-bet-2026.icu,icu,,MEDIUM,,,,Pattern: revolver_rabbit_c2
+pay-checkout-wallet.cfd,cfd,,MEDIUM,,,,Pattern: crypto_recovery
+pay-gateway-wallet.cfd,cfd,,MEDIUM,,,,Pattern: crypto_recovery
+pay-invoice-wallet.cfd,cfd,,MEDIUM,,,,Pattern: crypto_recovery
+pay-merchant-wallet.cfd,cfd,,MEDIUM,,,,Pattern: crypto_recovery
+payment-billing-wallet.cfd,cfd,,MEDIUM,,,,Pattern: crypto_recovery
+payment-portal-wallet.cfd,cfd,,MEDIUM,,,,Pattern: action_prefix+action_suffix+crypto_recovery
+seedprod.cyou,cyou,,MEDIUM,,,,Pattern: crypto_recovery

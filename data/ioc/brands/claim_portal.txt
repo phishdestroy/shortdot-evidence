@@ -1066,6 +1066,8 @@ esl-org-claimnow.sbs
 esl-org-claims.cfd
 esl-org-claims.sbs
 esl-org-claims001.sbs
+esl-org-file-claim.cfd
+esl-org-file-claim.sbs
 esl-org-fraudclaim.cfd
 esl-org-fraudclaim.sbs
 esl-org-txt-claim.sbs

@@ -1247,6 +1247,7 @@ airdrop-announcement.icu
 airdrop-app.cfd
 airdrop-bankles.sbs
 airdrop-bankless.sbs
+airdrop-blast.icu
 airdrop-blum.icu
 airdrop-boost.icu
 airdrop-boundless.icu
@@ -8029,6 +8030,9 @@ canadapostpostescanadashop.icu
 canadapostpostsofficecan.cfd
 canadapostpostsofficecan.sbs
 canadapostpu.cyou
+canadapostqaz.cfd
+canadapostqaz.cyou
+canadapostqaz.icu
 canadapostsh.icu
 canadapostsupport.sbs
 canadapostt--postescanada.sbs
@@ -17003,6 +17007,8 @@ esl-org-claimnow.sbs
 esl-org-claims.cfd
 esl-org-claims.sbs
 esl-org-claims001.sbs
+esl-org-file-claim.cfd
+esl-org-file-claim.sbs
 esl-org-fraudclaim.cfd
 esl-org-fraudclaim.sbs
 esl-org-txt-claim.sbs
@@ -21804,6 +21810,7 @@ googlegmailawrar.icu
 googlegmailikes.sbs
 googlego.icu
 googlegoogle.icu
+googlehackathon.bond
 googlehealth.icu
 googlehf.icu
 googlehfgj.cyou
@@ -22297,6 +22304,7 @@ grandpashabetmobile2026.icu
 grandpashabetmobileadres.icu
 grandpashabetmobilegir.icu
 grandpashabetmobilerisim.icu
+grandpashabetmobiles.icu
 grandpashabt-mobileqiris.icu
 grantwise.bond
 graphbase.icu
@@ -24230,6 +24238,7 @@ icloud-mail.cfd
 icloud-mail.sbs
 icloud-me.sbs
 icloud-my-x.icu
+icloud-mydevice.icu
 icloud-no-se-sincroniza-vwq.cyou
 icloud-rest.cfd
 icloud-server-e8.sbs
@@ -36782,6 +36791,7 @@ property-management-near-me.cfd
 property-management-near-me.sbs
 propertywisecounsel.sbs
 propheticallybif.buzz
+propledger.buzz
 propodpatron.sbs
 proprimebase.buzz
 propsyncbase.cyou
@@ -49360,6 +49370,7 @@ v3-raydium.sbs
 v3-staking.icu
 v3-staking.sbs
 v4-hyperliquid.sbs
+v4-ledger.cfd
 v4-orca.sbs
 v4-sushiswap.sbs
 va-claim-status.cfd

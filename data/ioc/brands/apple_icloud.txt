@@ -141,6 +141,7 @@ icloud-mail.cfd
 icloud-mail.sbs
 icloud-me.sbs
 icloud-my-x.icu
+icloud-mydevice.icu
 icloud-no-se-sincroniza-vwq.cyou
 icloud-rest.cfd
 icloud-server-e8.sbs

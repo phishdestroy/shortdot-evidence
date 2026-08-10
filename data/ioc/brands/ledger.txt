@@ -593,6 +593,7 @@ primeledger.sbs
 prismledger.sbs
 productionready-ledger-kitx.icu
 profitledger.sbs
+propledger.buzz
 prosperityledger.sbs
 pulseledgerharvest.sbs
 purseledgersaving.icu
@@ -700,6 +701,7 @@ unityledger.bond
 urbanledger369.cfd
 urbanledgerline.bond
 urbanledgerroom.bond
+v4-ledger.cfd
 valdoledger.cyou
 valdorledger.cyou
 valenledger.cyou
