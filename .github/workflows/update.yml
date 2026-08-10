@@ -24,9 +24,6 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install dependencies
-        run: pip install requests
-
       - name: Fetch zone data & update stats
         env:
           NETAPI_TOKEN: ${{ secrets.NETAPI_TOKEN }}
