@@ -36,7 +36,7 @@ They were meant to be <i>counted.</i><br/>
 
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-08-11`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-08-12`
 
 <table><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><sub><code>6,242,647</code></sub></td>
@@ -51,10 +51,10 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 1 | — | $634,670 |
-| `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 1 | — | $8,612,506 |
+| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 0 | — | $634,670 |
+| `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
 | `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
-| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 1 | — | $1,242,854 |
+| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 0 | — | $1,242,854 |
 | `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 0 | — | $619,050 |
 | `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 0 | — | $680,602 |
 | `.qpon` | 110,365 | 61,237 (55.5%) | 49,128 | 0 | — | $275,912 |
@@ -64,25 +64,25 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████        176 (72.7%)
-AU  ██░░░░░░░░░░░░░░░░         28 (11.6%)
-HK  █░░░░░░░░░░░░░░░░░         14 (5.8%)
-UA  ░░░░░░░░░░░░░░░░░░          6 (2.5%)
-SG  ░░░░░░░░░░░░░░░░░░          4 (1.7%)
-VN  ░░░░░░░░░░░░░░░░░░          4 (1.7%)
-DE  ░░░░░░░░░░░░░░░░░░          3 (1.2%)
-RU  ░░░░░░░░░░░░░░░░░░          3 (1.2%)
+GB  ██████████████████         30 (34.1%)
+US  ███████████░░░░░░░         19 (21.6%)
+HK  █████████░░░░░░░░░         15 (17.0%)
+RU  ██████░░░░░░░░░░░░         11 (12.5%)
+SG  ███░░░░░░░░░░░░░░░          6 (6.8%)
+JP  █░░░░░░░░░░░░░░░░░          2 (2.3%)
+DE  █░░░░░░░░░░░░░░░░░          2 (2.3%)
+NL  █░░░░░░░░░░░░░░░░░          2 (2.3%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-08-11` | 4,399 | **1.0×** |
+| `2026-08-12` | 12,700 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`apple (13)` &middot; `bonus (13)` &middot; `eos (8)` &middot; `base (8)` &middot; `tron (8)` &middot; `hop (6)` &middot; `service (6)` &middot; `dia (6)` &middot; `portal (6)` &middot; `token (5)` &middot; `gaming (5)` &middot; `stake (5)` &middot; `bank (5)` &middot; `linea (4)` &middot; `lido (4)`
+`dia (16)` &middot; `bonus (16)` &middot; `drift (14)` &middot; `eos (12)` &middot; `hop (12)` &middot; `dymension (12)` &middot; `apple (12)` &middot; `base (11)` &middot; `secure (8)` &middot; `service (8)` &middot; `access (8)` &middot; `portal (8)` &middot; `quest (7)` &middot; `transfer (5)` &middot; `neo (5)`
 
 ### 📥 Download Threat Intelligence
 
@@ -97,7 +97,7 @@ RU  ░░░░░░░░░░░░░░░░░░          3 (1.2%)
 | `.cfd` | [data/by_tld/cfd.txt](data/by_tld/cfd.txt) 952,385 | [deployed/cfd.txt](data/ioc/deployed/cfd.txt) 407,496 | [phantom/cfd.txt](data/ioc/phantom/cfd.txt) 544,889 |
 | `.buzz` | [data/by_tld/buzz.txt](data/by_tld/buzz.txt) 209,416 | [deployed/buzz.txt](data/ioc/deployed/buzz.txt) 130,210 | [phantom/buzz.txt](data/ioc/phantom/buzz.txt) 79,206 |
 | `.qpon` | [data/by_tld/qpon.txt](data/by_tld/qpon.txt) 110,365 | [deployed/qpon.txt](data/ioc/deployed/qpon.txt) 61,237 | [phantom/qpon.txt](data/ioc/phantom/qpon.txt) 49,128 |
-| **All zones** | — | [deployed_all.txt](data/ioc/deployed_all.txt) 320 | [phantom_all.txt](data/ioc/phantom_all.txt) 4,079 |
+| **All zones** | — | [deployed_all.txt](data/ioc/deployed_all.txt) 137 | [phantom_all.txt](data/ioc/phantom_all.txt) 12,563 |
 
 **IOC & blocklists:**
 

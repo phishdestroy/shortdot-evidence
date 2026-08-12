@@ -1,441 +1,176 @@
 {
-  "generated": "2026-08-11",
-  "count": 27,
+  "generated": "2026-08-12",
+  "count": 10,
   "ips": [
     {
-      "ip": "76.223.57.73",
-      "count": 30,
-      "country": "US",
-      "domains": [
-        "aljra.cfd",
-        "bcbdx.cfd",
-        "bnvqh.cfd",
-        "dfoql.cfd",
-        "fmual.cfd",
-        "gbiuh.cfd",
-        "guukm.cfd",
-        "hqjkd.cfd",
-        "imrln.cfd",
-        "jipsn.cfd",
-        "jqxtc.cfd",
-        "kicmt.cfd",
-        "llpzf.cfd",
-        "lxutm.cfd",
-        "mbglt.cfd",
-        "mquks.cfd",
-        "ntzgi.cfd",
-        "otxgp.cfd",
-        "qjrmj.cfd",
-        "qzlmg.cfd",
-        "rjdsp.cfd",
-        "scgxb.cfd",
-        "tzqoa.cfd",
-        "uckbj.cfd",
-        "uslwu.cfd",
-        "vaihy.cfd",
-        "wiyhb.cfd",
-        "wnxxl.cfd",
-        "zexvp.cfd",
-        "zgoef.cfd"
-      ]
-    },
-    {
-      "ip": "13.248.213.92",
-      "count": 26,
-      "country": "US",
-      "domains": [
-        "agfjt.cfd",
-        "bayhi.cfd",
-        "beioj.cfd",
-        "dnijx.cfd",
-        "doanh.cfd",
-        "dxdme.cfd",
-        "ffoxz.cfd",
-        "fgnbn.cfd",
-        "garxj.cfd",
-        "hmuxb.cfd",
-        "iilbx.cfd",
-        "jitiv.cfd",
-        "kgrli.cfd",
-        "nxuco.cfd",
-        "qgsea.cfd",
-        "qoybc.cfd",
-        "qweeq.cfd",
-        "ruhny.cfd",
-        "ueyww.cfd",
-        "vdduf.cfd",
-        "wjrve.cfd",
-        "xqaow.cfd",
-        "yqlgs.cfd",
-        "zeeiz.cfd",
-        "zrniw.cfd",
-        "zyhpd.cfd"
-      ]
-    },
-    {
-      "ip": "15.197.149.68",
-      "count": 19,
-      "country": "US",
-      "domains": [
-        "cdcbl.cfd",
-        "cwxfm.cfd",
-        "fmwrq.cfd",
-        "fyqih.cfd",
-        "itzai.cfd",
-        "ivfqo.cfd",
-        "qosym.cfd",
-        "qqcuq.cfd",
-        "ssirv.cfd",
-        "tkbxe.cfd",
-        "tyxye.cfd",
-        "vctdq.cfd",
-        "vdnnf.cfd",
-        "vockd.cfd",
-        "wkaqy.cfd",
-        "wlvsm.cfd",
-        "xkvmb.cfd",
-        "xndzi.cfd",
-        "yaxhr.cfd"
-      ]
-    },
-    {
-      "ip": "188.114.97.3",
-      "count": 18,
-      "country": "",
-      "domains": [
-        "0zrme.buzz",
-        "1win-c0r1g.buzz",
-        "4kwang676933.buzz",
-        "6dhr.buzz",
-        "7000gqmb2.buzz",
-        "avxcl74.buzz",
-        "bishejingxuan769568.buzz",
-        "caowo.buzz",
-        "dgudi9.buzz",
-        "fj6gw.buzz",
-        "heiliaowang455892.buzz",
-        "huaqq3.buzz",
-        "keonhacai.buzz",
-        "luxebet.buzz",
-        "r7-portal.buzz",
-        "ufabet.bond",
-        "uutp494559.buzz",
-        "xsny-z8.buzz"
-      ]
-    },
-    {
-      "ip": "172.237.145.27",
-      "count": 16,
-      "country": "US",
-      "domains": [
-        "33ech7.sbs",
-        "5eynyx.sbs",
-        "fenix.sbs",
-        "jrw2s8.sbs",
-        "keonhacai88.cyou",
-        "ksw4ew.sbs",
-        "oxytv.sbs",
-        "pulsenews.buzz",
-        "rfnpk4.sbs",
-        "stdhubiuwbkad.sbs",
-        "tslbox.sbs",
-        "tw7tn2.sbs",
-        "wangjieaa.sbs",
-        "xy679.cyou",
-        "yf3cjh.sbs",
-        "zxklsjpwga223.sbs"
-      ]
-    },
-    {
-      "ip": "3.33.241.96",
-      "count": 15,
-      "country": "US",
-      "domains": [
-        "bcdyo.cfd",
-        "btrms.cfd",
-        "cgoum.cfd",
-        "gtwmi.cfd",
-        "gzwlf.cfd",
-        "hkaxt.cfd",
-        "hkhou.cfd",
-        "kggxi.cfd",
-        "ogemo.cfd",
-        "pogxj.cfd",
-        "resla.cfd",
-        "rnftk.cfd",
-        "sxxth.cfd",
-        "wjwas.cfd",
-        "wwmwc.cfd"
-      ]
-    },
-    {
-      "ip": "188.114.96.3",
-      "count": 14,
-      "country": "",
-      "domains": [
-        "7k3mer.buzz",
-        "chaojiyitv.buzz",
-        "danbady113460.buzz",
-        "flyjy27.buzz",
-        "hay888.buzz",
-        "llxxm-m6.buzz",
-        "mnh91sewqafe.buzz",
-        "ntten-z8.buzz",
-        "rbdx74.buzz",
-        "situsprediksi.buzz",
-        "tvbchiyouwow.buzz",
-        "wcnjq242001.buzz",
-        "xiaoniao483158.buzz",
-        "yzqs711971.buzz"
-      ]
-    },
-    {
-      "ip": "172.233.221.214",
-      "count": 13,
-      "country": "US",
-      "domains": [
-        "4ct223.sbs",
-        "5734d8.sbs",
-        "744111145.sbs",
-        "8gelitt.cyou",
-        "bkdstxpso.cyou",
-        "ddw2ne.sbs",
-        "f3fhch.sbs",
-        "feh3ap.sbs",
-        "j5sdx2.sbs",
-        "j5wk3k.sbs",
-        "mugouav.sbs",
-        "wmapk18.sbs",
-        "xgwyz.sbs"
-      ]
-    },
-    {
-      "ip": "172.234.199.15",
-      "count": 12,
-      "country": "US",
-      "domains": [
-        "28w2f8.sbs",
-        "2dnax8.sbs",
-        "796037476.sbs",
-        "7j3nhf.sbs",
-        "aka5.sbs",
-        "jd28.icu",
-        "modrid.sbs",
-        "no-deposit-bonus.cfd",
-        "phfn2p.sbs",
-        "se8e45.sbs",
-        "t3na3n.sbs",
-        "warszawa-cas.sbs"
-      ]
-    },
-    {
-      "ip": "44.227.65.245",
-      "count": 9,
-      "country": "US",
-      "domains": [
-        "jif.buzz",
-        "kapalobaruak.buzz",
-        "kapalobaruak.cfd",
-        "kapalobaruak.cyou",
-        "kutangjalang.buzz",
-        "kutangjalang.cyou",
-        "kvzqo.cfd",
-        "unohi.cfd",
-        "upyoj.cfd"
-      ]
-    },
-    {
-      "ip": "172.237.129.108",
-      "count": 8,
-      "country": "US",
-      "domains": [
-        "7fj2j5.sbs",
-        "7nchrh.sbs",
-        "c4d3ak.sbs",
-        "ftta2w.sbs",
-        "nna24x.sbs",
-        "rkw38w.sbs",
-        "ss7484.sbs",
-        "ykne8k.sbs"
-      ]
-    },
-    {
-      "ip": "103.224.212.146",
-      "count": 6,
-      "country": "AU",
-      "domains": [
-        "155ffhs.sbs",
-        "225cbhs.sbs",
-        "488ffhs.sbs",
-        "82225.sbs",
-        "86545.sbs",
-        "nusa77.buzz"
-      ]
-    },
-    {
-      "ip": "103.224.212.147",
-      "count": 6,
-      "country": "AU",
-      "domains": [
-        "221vvhs.sbs",
-        "226gghs.sbs",
-        "47xohs.sbs",
-        "86544.sbs",
-        "913557.sbs",
-        "990060a4.sbs"
-      ]
-    },
-    {
-      "ip": "172.237.129.242",
-      "count": 6,
-      "country": "US",
-      "domains": [
-        "8a2dr2.sbs",
-        "globebase.sbs",
-        "hw4ehy.sbs",
-        "petyt5.sbs",
-        "t87x2d.sbs",
-        "twpyy.sbs"
-      ]
-    },
-    {
-      "ip": "172.234.24.211",
-      "count": 5,
-      "country": "US",
-      "domains": [
-        "adukoin.cyou",
-        "gg88org.icu",
-        "kimsacasino.buzz",
-        "lastcall.buzz",
-        "trexo.cfd"
-      ]
-    },
-    {
-      "ip": "103.224.212.118",
-      "count": 5,
-      "country": "AU",
-      "domains": [
-        "223mphs.sbs",
-        "224hphs.sbs",
-        "88168a1.sbs",
-        "88168a8.sbs",
-        "avnyg.icu"
-      ]
-    },
-    {
-      "ip": "103.224.182.189",
-      "count": 5,
-      "country": "AU",
-      "domains": [
-        "14bdhdhs.sbs",
-        "224cbhs.sbs",
-        "225mphs.sbs",
-        "27044.sbs",
-        "990060a7.sbs"
-      ]
-    },
-    {
       "ip": "172.65.211.209",
-      "count": 4,
+      "count": 37,
       "country": "",
       "domains": [
-        "2288bet.bond",
-        "7788bet.bond",
-        "aifdy.icu",
-        "doutv.icu"
+        "24txy.icu",
+        "285668.cyou",
+        "99sec.icu",
+        "ak888.icu",
+        "aoimo.cyou",
+        "arays.cyou",
+        "biioelznab3.icu",
+        "bvo130.icu",
+        "chunchun.icu",
+        "coderjin.icu",
+        "collegestu.icu",
+        "conseil.icu",
+        "douyoubanfan.icu",
+        "elinextcloud.icu",
+        "gnh938.icu",
+        "hydz7777.icu",
+        "isee-you.icu",
+        "lylovezl.icu",
+        "mandezhuorui.icu",
+        "marius.icu",
+        "mengna.icu",
+        "ningyile.icu",
+        "qhe388.icu",
+        "qqcyjzz.icu",
+        "sctzsctz.icu",
+        "server-hsnaswai.icu",
+        "tangxiaojun.icu",
+        "taose-peach.icu",
+        "u78zy.cyou",
+        "underpants.icu",
+        "wmxh103.icu",
+        "wsnzzg.icu",
+        "xiangyangkai.icu",
+        "yicheng.icu",
+        "yuanshan1.icu",
+        "zjxplay.icu",
+        "zptc-s.icu"
+      ]
+    },
+    {
+      "ip": "144.124.235.167",
+      "count": 30,
+      "country": "GB",
+      "domains": [
+        "1win-bbi5.cfd",
+        "1win-bbm2.cfd",
+        "1win-bcm9.cfd",
+        "1win-bfu3.cfd",
+        "1win-bhq1.cfd",
+        "1win-bhq8.cfd",
+        "1win-bjd9.cfd",
+        "1win-bkb7.cfd",
+        "1win-blp7.cfd",
+        "1win-bnf1.cfd",
+        "1win-bng8.cfd",
+        "1win-bno2.cfd",
+        "1win-brf4.cfd",
+        "1win-brp3.cfd",
+        "1win-brx3.cfd",
+        "1win-bsd6.cfd",
+        "1win-bud7.cfd",
+        "1win-bvj3.cfd",
+        "1win-bws3.cfd",
+        "1win-bxv9.cfd",
+        "1win-wda6.cfd",
+        "1win-wfa4.cfd",
+        "1win-wfg3.cfd",
+        "1win-wit2.cfd",
+        "1win-wnb2.cfd",
+        "1win-wvb3.cfd",
+        "1win-wxn1.cfd",
+        "1win-wyn6.cfd",
+        "1win-wzn0.cfd",
+        "1win-wzv0.cfd"
+      ]
+    },
+    {
+      "ip": "185.149.120.253",
+      "count": 10,
+      "country": "RU",
+      "domains": [
+        "1win0961.buzz",
+        "1win1323.buzz",
+        "1win2875.buzz",
+        "1win6122.buzz",
+        "1win7109.buzz",
+        "1win7216.buzz",
+        "1win7473.buzz",
+        "1win8734.buzz",
+        "riobet6095.buzz",
+        "riobet8789.buzz"
+      ]
+    },
+    {
+      "ip": "47.76.127.217",
+      "count": 6,
+      "country": "HK",
+      "domains": [
+        "ffdgg.icu",
+        "hainasystem.icu",
+        "inf1n1ty.icu",
+        "sulian.cyou",
+        "tangziyuan.icu",
+        "zqwhcm.icu"
       ]
     },
     {
       "ip": "8.218.208.240",
-      "count": 4,
+      "count": 3,
       "country": "HK",
       "domains": [
-        "changyuan.icu",
-        "gys0923.icu",
-        "tangtianqi.icu",
-        "ztbx888.icu"
+        "dgddg.icu",
+        "moookai.icu",
+        "sshl888.icu"
       ]
     },
     {
       "ip": "43.153.249.96",
-      "count": 4,
+      "count": 3,
       "country": "SG",
       "domains": [
-        "cboblog.icu",
-        "dwcat.icu",
-        "kkkaaa.icu",
-        "maomaoen.icu"
+        "ouqimail.icu",
+        "vip123.icu",
+        "xiaowu520.icu"
       ]
     },
     {
-      "ip": "44.227.76.166",
-      "count": 4,
-      "country": "US",
-      "domains": [
-        "bwmtk.cfd",
-        "ghifs.buzz",
-        "jifs.buzz",
-        "xotik.buzz"
-      ]
-    },
-    {
-      "ip": "124.156.190.61",
+      "ip": "47.91.170.222",
       "count": 3,
       "country": "HK",
       "domains": [
-        "jiulingkeji.icu",
-        "lzrwebsite.icu",
-        "soul888.icu"
+        "juzitang.icu",
+        "linwan.icu",
+        "yunpan.icu"
       ]
     },
     {
-      "ip": "172.239.57.117",
+      "ip": "101.33.46.108",
+      "count": 3,
+      "country": "SG",
+      "domains": [
+        "603keji.icu",
+        "oxgubar.icu",
+        "yzrsever.icu"
+      ]
+    },
+    {
+      "ip": "172.234.24.211",
       "count": 3,
       "country": "US",
       "domains": [
-        "aa888.sbs",
-        "gg88org.cyou",
-        "skyforge.cfd"
+        "agensgp.cyou",
+        "lightspelllatter.cyou",
+        "vip288.bond"
       ]
     },
     {
-      "ip": "103.224.182.249",
+      "ip": "188.114.97.3",
       "count": 3,
-      "country": "AU",
+      "country": "",
       "domains": [
-        "08290.sbs",
-        "09035.sbs",
-        "15667.sbs"
-      ]
-    },
-    {
-      "ip": "172.237.129.236",
-      "count": 3,
-      "country": "US",
-      "domains": [
-        "7ttrx4.sbs",
-        "da87d4.sbs",
-        "f5r8ht.sbs"
-      ]
-    },
-    {
-      "ip": "43.229.5.175",
-      "count": 3,
-      "country": "HK",
-      "domains": [
-        "03468.buzz",
-        "06741.buzz",
-        "98070.buzz"
-      ]
-    },
-    {
-      "ip": "156.233.229.62",
-      "count": 3,
-      "country": "VN",
-      "domains": [
-        "332326a.buzz",
-        "552523a.buzz",
-        "993919a.buzz"
+        "aaiqiyi3.buzz",
+        "payment83951.cfd",
+        "sex-movies.cfd"
       ]
     }
   ]
