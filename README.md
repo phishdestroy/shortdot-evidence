@@ -36,7 +36,7 @@ They were meant to be <i>counted.</i><br/>
 
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-08-12`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-08-13`
 
 <table><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><sub><code>6,242,647</code></sub></td>
@@ -64,25 +64,24 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-GB  ██████████████████         30 (34.1%)
-US  ███████████░░░░░░░         19 (21.6%)
-HK  █████████░░░░░░░░░         15 (17.0%)
-RU  ██████░░░░░░░░░░░░         11 (12.5%)
-SG  ███░░░░░░░░░░░░░░░          6 (6.8%)
-JP  █░░░░░░░░░░░░░░░░░          2 (2.3%)
-DE  █░░░░░░░░░░░░░░░░░          2 (2.3%)
-NL  █░░░░░░░░░░░░░░░░░          2 (2.3%)
+US  ██████████████████         38 (40.0%)
+RU  ██████████████░░░░         31 (32.6%)
+HK  ███████░░░░░░░░░░░         15 (15.8%)
+AU  █░░░░░░░░░░░░░░░░░          4 (4.2%)
+SG  █░░░░░░░░░░░░░░░░░          3 (3.2%)
+DE  █░░░░░░░░░░░░░░░░░          3 (3.2%)
+CA  ░░░░░░░░░░░░░░░░░░          1 (1.1%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-08-12` | 12,700 | **1.0×** |
+| `2026-08-13` | 5,956 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`dia (16)` &middot; `bonus (16)` &middot; `drift (14)` &middot; `eos (12)` &middot; `hop (12)` &middot; `dymension (12)` &middot; `apple (12)` &middot; `base (11)` &middot; `secure (8)` &middot; `service (8)` &middot; `access (8)` &middot; `portal (8)` &middot; `quest (7)` &middot; `transfer (5)` &middot; `neo (5)`
+`bonus (24)` &middot; `official (23)` &middot; `hop (22)` &middot; `apple (16)` &middot; `portal (12)` &middot; `base (11)` &middot; `dia (11)` &middot; `tron (10)` &middot; `eos (9)` &middot; `dashboard (8)` &middot; `quest (7)` &middot; `capital (6)` &middot; `drift (6)` &middot; `support (6)` &middot; `service (5)`
 
 ### 📥 Download Threat Intelligence
 
@@ -97,7 +96,7 @@ NL  █░░░░░░░░░░░░░░░░░          2 (2.3%)
 | `.cfd` | [data/by_tld/cfd.txt](data/by_tld/cfd.txt) 952,385 | [deployed/cfd.txt](data/ioc/deployed/cfd.txt) 407,496 | [phantom/cfd.txt](data/ioc/phantom/cfd.txt) 544,889 |
 | `.buzz` | [data/by_tld/buzz.txt](data/by_tld/buzz.txt) 209,416 | [deployed/buzz.txt](data/ioc/deployed/buzz.txt) 130,210 | [phantom/buzz.txt](data/ioc/phantom/buzz.txt) 79,206 |
 | `.qpon` | [data/by_tld/qpon.txt](data/by_tld/qpon.txt) 110,365 | [deployed/qpon.txt](data/ioc/deployed/qpon.txt) 61,237 | [phantom/qpon.txt](data/ioc/phantom/qpon.txt) 49,128 |
-| **All zones** | — | [deployed_all.txt](data/ioc/deployed_all.txt) 137 | [phantom_all.txt](data/ioc/phantom_all.txt) 12,563 |
+| **All zones** | — | [deployed_all.txt](data/ioc/deployed_all.txt) 137 | [phantom_all.txt](data/ioc/phantom_all.txt) 5,819 |
 
 **IOC & blocklists:**
 
