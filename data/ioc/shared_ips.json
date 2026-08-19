@@ -1,369 +1,92 @@
 {
-  "generated": "2026-08-18",
-  "count": 22,
+  "generated": "2026-08-19",
+  "count": 6,
   "ips": [
     {
-      "ip": "13.248.213.92",
-      "count": 33,
-      "country": "US",
-      "domains": [
-        "alrvo.cfd",
-        "blvrh.cfd",
-        "dtrik.cfd",
-        "dxaar.cfd",
-        "fsvia.cfd",
-        "fuqpy.cfd",
-        "hvmnx.cfd",
-        "jdcdv.cfd",
-        "jntqj.cfd",
-        "jqefi.cfd",
-        "lepal.cfd",
-        "lyfaw.cfd",
-        "nmdzv.cfd",
-        "nzhqt.cfd",
-        "oftwe.cfd",
-        "owhnm.cfd",
-        "pddfa.cfd",
-        "pdzmr.cfd",
-        "qeadg.cfd",
-        "rfbbv.cfd",
-        "snvpr.cfd",
-        "stpet.cfd",
-        "tgsfd.cfd",
-        "thdtd.cfd",
-        "tpxdf.cfd",
-        "unirz.cfd",
-        "vckfq.cfd",
-        "vdsmx.cfd",
-        "vjtad.cfd",
-        "xojrk.cfd",
-        "xuoab.cfd",
-        "ylglw.cfd",
-        "zvonf.cfd"
-      ]
-    },
-    {
-      "ip": "15.197.149.68",
-      "count": 27,
-      "country": "US",
-      "domains": [
-        "apfak.cfd",
-        "dtyph.cfd",
-        "egzjd.cfd",
-        "enmhk.cfd",
-        "fdsws.cfd",
-        "gcqnx.cfd",
-        "gfjvd.cfd",
-        "hmpdg.cfd",
-        "inely.cfd",
-        "jcpre.cfd",
-        "kincs.cfd",
-        "kqijm.cfd",
-        "kqmhu.cfd",
-        "ksoai.cfd",
-        "ocgnb.cfd",
-        "okobq.cfd",
-        "qgnqt.cfd",
-        "towzj.cfd",
-        "ulczy.cfd",
-        "vfsff.cfd",
-        "vgacc.cfd",
-        "vltpu.cfd",
-        "wryua.cfd",
-        "wtujf.cfd",
-        "xgihg.cfd",
-        "xqmsj.cfd",
-        "xwosi.cfd"
-      ]
-    },
-    {
-      "ip": "76.223.57.73",
-      "count": 21,
-      "country": "US",
-      "domains": [
-        "bdsby.cfd",
-        "bpczk.cfd",
-        "eecah.cfd",
-        "escrs.cfd",
-        "exjzw.cfd",
-        "gjqka.cfd",
-        "ipboc.cfd",
-        "iztcw.cfd",
-        "kdryy.cfd",
-        "mhcss.cfd",
-        "pclwd.cfd",
-        "rjjsm.cfd",
-        "rmynp.cfd",
-        "ugytg.cfd",
-        "vgbsj.cfd",
-        "vrlpw.cfd",
-        "wbpbz.cfd",
-        "whbkh.cfd",
-        "xgydd.cfd",
-        "xypzh.cfd",
-        "ygtan.cfd"
-      ]
-    },
-    {
-      "ip": "3.33.241.96",
-      "count": 21,
-      "country": "US",
-      "domains": [
-        "bgnzg.cfd",
-        "bkupd.cfd",
-        "bmqiu.cfd",
-        "bxqew.cfd",
-        "dxkqj.cfd",
-        "fvnhu.cfd",
-        "ikulk.cfd",
-        "jczkj.cfd",
-        "jmysn.cfd",
-        "kervn.cfd",
-        "ksoxu.cfd",
-        "kujhi.cfd",
-        "kzxlj.cfd",
-        "lzlph.cfd",
-        "ohipq.cfd",
-        "quift.cfd",
-        "slzzv.cfd",
-        "thnqc.cfd",
-        "vgvgc.cfd",
-        "wrmid.cfd",
-        "xtakl.cfd"
-      ]
-    },
-    {
-      "ip": "52.38.196.63",
-      "count": 13,
-      "country": "US",
-      "domains": [
-        "12pzq.sbs",
-        "12swq.sbs",
-        "12tuoq.sbs",
-        "12ufq.sbs",
-        "12uwq.sbs",
-        "133hpq.sbs",
-        "133ppq.sbs",
-        "133vvq.sbs",
-        "134vvq.sbs",
-        "144mpq.sbs",
-        "14xoq.sbs",
-        "155nnq.sbs",
-        "mindmap.buzz"
-      ]
-    },
-    {
-      "ip": "44.233.250.75",
-      "count": 12,
-      "country": "US",
-      "domains": [
-        "12vqq.sbs",
-        "12wvq.sbs",
-        "133jjq.sbs",
-        "134ccq.sbs",
-        "13dieq.sbs",
-        "144eeq.sbs",
-        "144jjq.sbs",
-        "144xoq.sbs",
-        "149ppq.sbs",
-        "14dieq.sbs",
-        "155vvq.sbs",
-        "pokerdom-casino.buzz"
-      ]
-    },
-    {
       "ip": "188.114.97.3",
-      "count": 8,
+      "count": 15,
       "country": "",
       "domains": [
-        "fenghe88.sbs",
-        "h155d4yh.buzz",
-        "j9wsz0hm.buzz",
-        "m4ufree-movies.cfd",
-        "primegfx.icu",
-        "sktorrent.cfd",
-        "tkzqrq7c.buzz",
-        "togelhariini.buzz"
-      ]
-    },
-    {
-      "ip": "154.23.161.139",
-      "count": 8,
-      "country": "US",
-      "domains": [
-        "12peq.sbs",
-        "133cbq.sbs",
-        "133ffq.sbs",
-        "134zzq.sbs",
-        "13kuiq.sbs",
-        "144zzq.sbs",
-        "14ebq.sbs",
-        "14geiq.sbs"
-      ]
-    },
-    {
-      "ip": "154.23.161.103",
-      "count": 8,
-      "country": "US",
-      "domains": [
-        "12rpq.sbs",
-        "12xgq.sbs",
-        "133kmtq.sbs",
-        "134bbq.sbs",
-        "136aaq.sbs",
-        "139vvq.sbs",
-        "149eeq.sbs",
-        "14kuiq.sbs"
-      ]
-    },
-    {
-      "ip": "174.139.197.210",
-      "count": 8,
-      "country": "US",
-      "domains": [
-        "131ddq.sbs",
-        "133nnq.sbs",
-        "134eeq.sbs",
-        "137ffq.sbs",
-        "137uuq.sbs",
-        "144szq.sbs",
-        "14bdhdq.sbs",
-        "155cbq.sbs"
-      ]
-    },
-    {
-      "ip": "174.139.197.77",
-      "count": 7,
-      "country": "US",
-      "domains": [
-        "12uqq.sbs",
-        "131vvq.sbs",
-        "133mpq.sbs",
-        "13bdhdq.sbs",
-        "144ffq.sbs",
-        "144wwq.sbs",
-        "155szq.sbs"
-      ]
-    },
-    {
-      "ip": "44.227.76.166",
-      "count": 6,
-      "country": "US",
-      "domains": [
-        "ayra.buzz",
-        "ayrahluth.buzz",
-        "isssomebodyhere.cyou",
-        "kyzonconferenceproduct.sbs",
-        "minixwatch.buzz",
-        "neelmah.buzz"
-      ]
-    },
-    {
-      "ip": "154.23.161.203",
-      "count": 6,
-      "country": "US",
-      "domains": [
-        "12ojq.sbs",
-        "132vvq.sbs",
-        "133sqwq.sbs",
-        "134ttq.sbs",
-        "144hpq.sbs",
-        "155hpq.sbs"
-      ]
-    },
-    {
-      "ip": "154.23.161.37",
-      "count": 5,
-      "country": "US",
-      "domains": [
-        "133xoq.sbs",
-        "135eeq.sbs",
-        "144kxwq.sbs",
-        "149ddq.sbs",
-        "155mpq.sbs"
-      ]
-    },
-    {
-      "ip": "154.23.161.89",
-      "count": 4,
-      "country": "US",
-      "domains": [
-        "12xtq.sbs",
-        "149hhq.sbs",
-        "14liaoq.sbs",
-        "155sqwq.sbs"
-      ]
-    },
-    {
-      "ip": "154.23.161.129",
-      "count": 4,
-      "country": "US",
-      "domains": [
-        "135bbq.sbs",
-        "13geiq.sbs",
-        "14hanq.sbs",
-        "155kxwq.sbs"
-      ]
-    },
-    {
-      "ip": "44.227.65.245",
-      "count": 4,
-      "country": "US",
-      "domains": [
-        "ayraaluthra.buzz",
-        "ayrah.buzz",
-        "ayrahluthra.buzz",
-        "bestz65.sbs"
-      ]
-    },
-    {
-      "ip": "172.65.211.209",
-      "count": 3,
-      "country": "",
-      "domains": [
-        "clockxhl.icu",
-        "ejjjb.icu",
-        "ytytds05.cyou"
-      ]
-    },
-    {
-      "ip": "128.14.74.124",
-      "count": 3,
-      "country": "US",
-      "domains": [
-        "daxiong.icu",
-        "haijiao26c.cyou",
-        "madou22c.cyou"
-      ]
-    },
-    {
-      "ip": "172.234.24.211",
-      "count": 3,
-      "country": "US",
-      "domains": [
-        "33winn.icu",
-        "dehima-kepeca.sbs",
-        "movie2ktv.cfd"
-      ]
-    },
-    {
-      "ip": "159.203.143.218",
-      "count": 3,
-      "country": "US",
-      "domains": [
-        "mkstore.bond",
-        "witherhosting.bond",
-        "zensoft.bond"
+        "1win-2024-akg.buzz",
+        "1win-2024-ggvv.buzz",
+        "1win-aaa-official27.buzz",
+        "1win-asd22.buzz",
+        "1win-casino66.buzz",
+        "1win-casino79.buzz",
+        "1win-ddd-official21.buzz",
+        "1win-eee-officia31.buzz",
+        "1win-fff-official29.buzz",
+        "1win-fff-official30.buzz",
+        "1win-game-slots-hixo.buzz",
+        "1win-nnn-official29.buzz",
+        "1win-qaz2.buzz",
+        "1win-rdz4.buzz",
+        "1win-site--9ud7.buzz"
       ]
     },
     {
       "ip": "188.114.96.3",
-      "count": 3,
+      "count": 11,
       "country": "",
       "domains": [
-        "1win-7we2k.buzz",
-        "coat1.cyou",
-        "safir-marketing.bond"
+        "1win-2024-akx.buzz",
+        "1win-2024-stv.buzz",
+        "1win-aaa-official25.buzz",
+        "1win-aaa-official28.buzz",
+        "1win-casino83.buzz",
+        "1win-ccc-official26.buzz",
+        "1win-fff-official27.buzz",
+        "1win-ujm-official20.buzz",
+        "1win-wse5.buzz",
+        "966966.buzz",
+        "g2g98.buzz"
+      ]
+    },
+    {
+      "ip": "172.65.211.209",
+      "count": 8,
+      "country": "",
+      "domains": [
+        "7-17-3xxxxoooo.icu",
+        "fed4sgp7458.icu",
+        "fruugo.cyou",
+        "guluo.icu",
+        "qx8866.sbs",
+        "sanxinme.icu",
+        "scmfcm.icu",
+        "ssuua360.icu"
+      ]
+    },
+    {
+      "ip": "172.239.57.117",
+      "count": 4,
+      "country": "US",
+      "domains": [
+        "agen88.sbs",
+        "hdhub4u.sbs",
+        "phimmoi.icu",
+        "ptcgtw.cyou"
+      ]
+    },
+    {
+      "ip": "172.237.129.236",
+      "count": 4,
+      "country": "US",
+      "domains": [
+        "99345.sbs",
+        "besiaoc63.sbs",
+        "ftrdwe.sbs",
+        "rowerowy-mistrz.sbs"
+      ]
+    },
+    {
+      "ip": "103.224.212.147",
+      "count": 3,
+      "country": "AU",
+      "domains": [
+        "715aa8.cfd",
+        "71cuo8.cfd",
+        "749hh8.cfd"
       ]
     }
   ]
