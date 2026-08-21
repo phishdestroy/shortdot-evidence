@@ -1,65 +1,141 @@
 {
-  "generated": "2026-08-20",
-  "count": 3,
+  "generated": "2026-08-21",
+  "count": 11,
   "ips": [
     {
-      "ip": "188.114.97.3",
-      "count": 22,
+      "ip": "188.114.96.3",
+      "count": 9,
       "country": "",
       "domains": [
-        "1111mod-two.buzz",
-        "9bet.bond",
-        "ae888f.buzz",
-        "agentoto69.cfd",
-        "anheiwang32.buzz",
-        "avshouce25.buzz",
-        "bishejingxuan39.buzz",
-        "bkk-dh-z8.buzz",
-        "ffdha.cfd",
-        "flyyin-gt8.buzz",
-        "ganbendh45.buzz",
-        "ganbendh50.buzz",
-        "gkjj15.buzz",
-        "gzmeme-13.buzz",
-        "hlfuli-654.buzz",
-        "hlfulifrom.buzz",
-        "juzi-1g.buzz",
-        "llmsh.buzz",
-        "mdr-17.buzz",
-        "naido-7ys.buzz",
-        "vvzx55.buzz",
-        "yrysj.buzz"
+        "19tuohs.sbs",
+        "fanjing.cfd",
+        "luanluh-9qz.buzz",
+        "movies4u.cfd",
+        "quickrewards.cyou",
+        "s888.buzz",
+        "taobwang258-wo9.buzz",
+        "u888.buzz",
+        "webtube.icu"
       ]
     },
     {
-      "ip": "188.114.96.3",
-      "count": 14,
-      "country": "",
+      "ip": "103.224.212.147",
+      "count": 9,
+      "country": "AU",
       "domains": [
-        "13av-4.icu",
-        "2021-03-21sywpahupzc.buzz",
-        "avshouce23.buzz",
-        "avtop1.buzz",
-        "jsss16.buzz",
-        "order109.icu",
-        "ps88hb.cfd",
-        "rousp1.buzz",
-        "rousp3.buzz",
-        "uutp33.buzz",
-        "vega-movies.buzz",
-        "xingcai18e.cyou",
-        "xsny-8op.buzz",
-        "yyshunv2.buzz"
+        "2lvxmfu5z4.icu",
+        "5rrt8m1uiz.icu",
+        "9385ea4erm.sbs",
+        "e1o07fn7ju.icu",
+        "sesehj95.sbs",
+        "tf21tk9bjp.icu",
+        "ur1tusadab.icu",
+        "ybbr42ky9g.icu",
+        "zid9uhza8a.icu"
+      ]
+    },
+    {
+      "ip": "172.234.199.15",
+      "count": 8,
+      "country": "US",
+      "domains": [
+        "102116298.sbs",
+        "123067690.sbs",
+        "12seleyen.cyou",
+        "141518168.sbs",
+        "152722961.sbs",
+        "163889359.sbs",
+        "187648011.sbs",
+        "nxcqw.cyou"
+      ]
+    },
+    {
+      "ip": "103.224.212.118",
+      "count": 6,
+      "country": "AU",
+      "domains": [
+        "3x5nuip8z6.icu",
+        "777d.buzz",
+        "vg2mmhl4v6.icu",
+        "y2hon3tqc6.icu",
+        "ynxh00pse5.icu",
+        "zrjjtuix7t.icu"
       ]
     },
     {
       "ip": "172.239.57.117",
+      "count": 6,
+      "country": "US",
+      "domains": [
+        "1test26may.sbs",
+        "1win-carrot.sbs",
+        "2test26may.sbs",
+        "aestheticfadewhich.cyou",
+        "mahjong333max.cfd",
+        "repelishd.sbs"
+      ]
+    },
+    {
+      "ip": "103.224.182.189",
+      "count": 5,
+      "country": "AU",
+      "domains": [
+        "00shew5hcl.icu",
+        "21qspsc4qq.icu",
+        "5srinit42i.icu",
+        "f2yiajqyeu.icu",
+        "zhaoav11.icu"
+      ]
+    },
+    {
+      "ip": "188.114.97.3",
+      "count": 4,
+      "country": "",
+      "domains": [
+        "3patti.buzz",
+        "abcya.buzz",
+        "myav-zxx5bb.buzz",
+        "tropicana77.buzz"
+      ]
+    },
+    {
+      "ip": "172.65.211.209",
+      "count": 3,
+      "country": "",
+      "domains": [
+        "f2game1.bond",
+        "ga8b.sbs",
+        "heiliaowang.icu"
+      ]
+    },
+    {
+      "ip": "172.234.24.211",
       "count": 3,
       "country": "US",
       "domains": [
-        "18xs.cyou",
-        "asia200.sbs",
-        "leon-6efe.buzz"
+        "1win-max.sbs",
+        "gomoviesfree.cfd",
+        "we88.cfd"
+      ]
+    },
+    {
+      "ip": "104.143.94.39",
+      "count": 3,
+      "country": "US",
+      "domains": [
+        "avzxmf68.sbs",
+        "bcyma124.sbs",
+        "yyhhz116.sbs"
+      ]
+    },
+    {
+      "ip": "128.65.195.180",
+      "count": 3,
+      "country": "CH",
+      "domains": [
+        "adwdwcawa.sbs",
+        "dawdawdwadawdaw.sbs",
+        "dwadawdadwwadwadaw.sbs"
       ]
     }
   ]
