@@ -1,301 +1,274 @@
 {
-  "generated": "2026-08-29",
+  "generated": "2026-08-30",
   "keywords": {
-    "service": [
-      "allzeit-service365.sbs",
-      "betreuung-service24.icu",
-      "betreuung-service365.icu",
-      "datenschutz-service247.icu",
-      "datenschutz-service247.sbs",
-      "datenschutz-service360.icu",
-      "datenschutz-service360.sbs",
-      "datenschutz-service365.icu",
-      "datenschutz-service365.sbs",
-      "datenschutzservice24.cyou",
-      "datenschutzservice24.icu",
-      "datenschutzservice24.sbs",
-      "datenservice24.cfd",
-      "datenservice24.sbs",
-      "quick-download-service.cyou",
-      "schutz-service11.cyou",
-      "schutz-service11.icu",
-      "sec24service.cyou",
-      "service-sicher24.cfd",
-      "service-sicher24.sbs",
-      "service-sicher365.sbs",
-      "service-sicherheit24.sbs",
-      "service-verfahren24.cfd",
-      "service-verfahren24.sbs",
-      "service247.cfd",
-      "service247.sbs",
-      "service360.sbs",
-      "service365.sbs",
-      "servicesicherheit24.cyou",
-      "servicesicherheit24.icu",
-      "servicesicherheit24.sbs",
-      "serviceverfahren1.cyou",
-      "serviceverfahren1.icu",
-      "serviceverfahren1.sbs",
-      "sicher-service24.cfd",
-      "sicher-service24.sbs",
-      "sicher-service365.sbs",
-      "sicherheitsservice24.cyou",
-      "sicherheitsservice24.sbs",
-      "verfahren-service24.cfd",
-      "verfahren-service24.sbs",
-      "verfahrenservice24.sbs",
-      "verfahrenservice365.cyou",
-      "verfahrenservice365.icu",
-      "verfahrenservice365.sbs"
-    ],
     "bonus": [
-      "bonusgiris.icu",
-      "bonuswincok20.cyou",
-      "denemebonuscularic2-kara.cfd",
-      "denemebonuscuverenn-sitelerkara.cfd",
-      "denemebonusucv-zeus.cfd",
-      "denemebonusudz-zeus.cfd",
-      "denemebonusuxn-zeus.cfd",
-      "denemebonusuxt-zeus.cfd",
-      "denemebonusuzeus.cfd",
-      "denemebonusuzz-zeus.cfd",
-      "dnmbonuszeusda.cfd",
-      "extrabet-bonus.cfd",
-      "grandpashabet-bonuslari-girisi.icu",
-      "grandpashabetvipbonus.cfd",
-      "holiganbet-bonuslari-girisi.icu",
-      "jetztbonus.cfd",
-      "jetztbonus.cyou",
-      "jojobet-bonus-jojobet.icu",
-      "jojobet-bonuslari-girisi.icu",
-      "jojobet-fast-bonus.icu",
-      "jojobetaktifbonus.icu",
-      "kara-denemebonuscuverenz.icu",
-      "kingroyal-bonuslari-girisi.icu",
-      "madridbet-bonuslari-girisi.icu",
-      "marsbahis-bonuslari-girisi.icu",
-      "meritbet-bonuslari-girisi.icu",
-      "meritking-bonuslari-girisi.icu",
-      "nzbonus.sbs",
-      "paribahis-bonus2.icu",
-      "paribahis-bonusicintikla1.icu",
-      "raadissonbetbonus.icu",
-      "zeus-bonusdeneme.cfd",
-      "zeus-denemebonusss.cfd",
-      "zeus-denemebonusuvv.cfd",
-      "zeus-denemebvbonus.cfd",
-      "zeus-denemenbonus.cfd",
-      "zeusmex-denemebonusu.cfd",
-      "zeustr-denemebonusu.cfd",
-      "zeusx-denemebonusu.cfd"
-    ],
-    "signin": [
-      "signindcx.icu",
-      "signineckb.icu",
-      "signineo.icu",
-      "signingjx.icu",
-      "signingmsn.icu",
-      "signinhzgx.icu",
-      "signinjd.icu",
-      "signinkys.icu",
-      "signinnbfs.icu",
-      "signinos.icu",
-      "signinpbfr.icu",
-      "signinpuf.icu",
-      "signinrzt.icu",
-      "signinwbs.icu",
-      "signinwcu.icu",
-      "signinweci.icu",
-      "signinwgu.icu",
-      "signinwwn.icu",
-      "signinynif.icu",
-      "signinzha.icu"
-    ],
-    "capital": [
-      "capital-top-qyxvoren.sbs",
-      "capital-top-ravzoren.sbs",
-      "capital-top-selqavin.sbs",
-      "capital-top-uvqarex.sbs",
-      "capital-top-vynzorel.sbs",
-      "capitaltop-hynvarex.sbs",
-      "capitaltop-jalqeron.sbs",
-      "capitaltop-korxavil.sbs",
-      "capitaltop-lysvoren.sbs",
-      "capitaltop-mexqalin.sbs",
-      "deficapitals.bond",
-      "firmholdcapital.sbs",
-      "iweb3capital.buzz",
-      "kryonexcapital.cfd",
-      "novalyxcapital.cfd",
-      "tradecapital.bond",
-      "web3capitals.bond",
-      "whitewolfcapital.bond"
-    ],
-    "dia": [
-      "avageradiak.cfd",
-      "canadianfabricsbrunswick85.sbs",
-      "desafio7dias.sbs",
-      "dialogarmedi.sbs",
-      "dialoguehub.cfd",
-      "harmoniadial.sbs",
-      "indiansafari.sbs",
-      "mansidian.sbs",
-      "mediacaofami.buzz",
-      "mediadoresda.buzz",
-      "medialek.cyou",
-      "meridiana.cfd",
-      "qsdiaca.cfd"
-    ],
-    "portal": [
-      "ocportal.sbs",
-      "portalhominhabrkambiente.cfd",
-      "portalsaegsoaial.cfd",
-      "systematci-portal-netsuite.icu",
-      "yeniportallar3.sbs"
-    ],
-    "hop": [
-      "bedavashoptr.icu",
-      "cubuhop.icu",
-      "glassesusashops.sbs",
-      "huybaoshop.cfd",
-      "jykmshop.cfd",
-      "lenscraftersshop.sbs",
-      "nexthop.cfd",
-      "ney55shop.buzz",
-      "pranashop.sbs"
-    ],
-    "login": [
-      "login-2ec.icu",
-      "login-b1h.icu",
-      "login-h6s.icu",
-      "login-ve9.icu",
-      "login-xt3.icu",
-      "meritbet-login.icu",
-      "rajabetsloginapp.sbs",
-      "vip188login.cyou"
-    ],
-    "official": [
-      "alibaba-official.icu",
-      "kralbetofficial.icu",
-      "official3708.buzz",
-      "official7378.buzz",
-      "official8477.buzz",
-      "officialvacation.sbs",
-      "tzoskudran-official.sbs"
-    ],
-    "fund": [
-      "arawa-fundex.cfd",
-      "firmvaultfund.sbs",
-      "lemonbalmpfund.cyou",
-      "moneyrefund.sbs",
-      "onchainfunds.qpon",
-      "refundsmoney.cfd",
-      "refundsmoney.sbs"
-    ],
-    "gift": [
-      "bmwusagift.sbs",
-      "bostonpropergift.sbs",
-      "cadenlanegift.sbs",
-      "mybiat-giftery.cfd",
-      "paintwithnumbergift.sbs"
-    ],
-    "earn": [
-      "clarityincorporatelearning.cyou",
-      "demolearning.bond",
-      "execlearnstrategy.cyou",
-      "firstmarklearning.sbs",
-      "learntop.cfd"
-    ],
-    "rug": [
-      "freshuteuyuunewurug.buzz",
-      "luckyuteuyuunewurug48.buzz",
-      "ruggertheyvedefault.cfd",
-      "rugsdimensionswaves44.sbs",
-      "validuteuyuunewurug.buzz"
-    ],
-    "defi": [
-      "deficapitals.bond",
-      "globaltradefi.bond",
-      "qdefitreasury.bond",
-      "ydefiincomes.qpon"
-    ],
-    "bank": [
-      "assetprotectionbank.cfd",
-      "combank-online.sbs",
-      "go2bankus.cfd",
-      "valueprovincebank.cfd"
-    ],
-    "eos": [
-      "eospreviouslyassumes67.sbs",
-      "teosbet-guncelgiris.cfd",
-      "teosbetsplus.icu",
-      "teosbetyenigirisleri.icu"
-    ],
-    "gaming": [
-      "gamingdenmark.bond",
-      "itzmasgaming.bond",
-      "itzmasgaming.cyou",
-      "madridbet-playgaming.icu"
+      "betbom-denemebonuslari.icu",
+      "betsmovebonus-7evj.icu",
+      "bonus-zeusdnmbonus.cfd",
+      "bonusvergleich.sbs",
+      "bonuswincok21.cyou",
+      "canadabonus.sbs",
+      "casibombonusyakala.icu",
+      "casinowon-saf-bonus.icu",
+      "denemebonuskk-zeus.cfd",
+      "denemebonusubz-zeus.cfd",
+      "denemebonusunxd-zeus.cfd",
+      "denemebonusuvr-zeus.cfd",
+      "denemebonusuzeu.cfd",
+      "denemebonusuzeuspr.cfd",
+      "denemebonusuzeuss.cfd",
+      "denemecibonuss-zeus.cfd",
+      "denemeesbonus-zeus.cfd",
+      "denemexbonusu-zeus.cfd",
+      "denemexybonusu-zeus.cfd",
+      "denemezsbonusu-primezeus.cfd",
+      "gameofbet-aktif-bonus.icu",
+      "grandpashabet-bonus-hemen.icu",
+      "holiganbet-fast-bonus.icu",
+      "jojobet-bonus.cfd",
+      "kipsdenembonus-zeus.cfd",
+      "kolaybet-bonusgiris.icu",
+      "mavibetbonus2026.icu",
+      "mavibetbonustr.icu",
+      "migliorbonus.sbs",
+      "mybiat-bonus.cfd",
+      "paribahis-bonus1.icu",
+      "paribahis-bonuslaradresi1.icu",
+      "romabet-aktif-bonus.icu",
+      "ssdenemebonusu-sszeus.cfd",
+      "zeu-denemebonusu.cfd",
+      "zeus-denemebonusum.cfd",
+      "zeus-denemebonusunn.cfd",
+      "zeus-denemexvbonus.cfd",
+      "zeusfd-denemebonusu.cfd",
+      "zeusprr-denemebonusu.cfd"
     ],
     "finance": [
-      "financeforges.qpon",
-      "novalfinance.cyou",
-      "profltfinance.buzz",
-      "refinanceifink55.sbs"
+      "finance26-velit25.sbs",
+      "finance90-blanditiis70.sbs",
+      "finance90-fugit88.sbs",
+      "finance90-placeat49.sbs",
+      "finance91-quia59.sbs",
+      "finance92-aperiam60.sbs",
+      "finance94-accusantium2.sbs",
+      "finance94-nostrum85.sbs",
+      "finance95-veritatis69.sbs",
+      "finance96-dolorum14.sbs",
+      "finance96-praesentium8.sbs",
+      "finance96-rerum60.sbs",
+      "finance97-ea8.sbs",
+      "finance99-eos83.sbs",
+      "finance99-ex91.sbs"
+    ],
+    "dia": [
+      "cordialarchivediscussion.cyou",
+      "cordialblogdiscussion.cyou",
+      "cordialmagazinediscussion.cyou",
+      "cordialwebsitediscussion.cyou",
+      "cordialwebsitenegotiation.cyou",
+      "diandan.icu",
+      "marianeassisdias.sbs",
+      "pinup-diaf.sbs",
+      "radiantlovers.cfd",
+      "umdiafeliz.sbs",
+      "xdiasx.cfd"
+    ],
+    "service": [
+      "bugbarriercontrolservices.cyou",
+      "bugstopremovalservices.cyou",
+      "centermonitorreviewcheckserviceprotectauth.sbs",
+      "eservice7-11mgcw.bond",
+      "neighborlyportapottyservices.cyou",
+      "onetservice.icu",
+      "roofing-services-10175.bond",
+      "rsa-roofing-services-8n.bond",
+      "servicekshtv.cyou",
+      "servicelockuseractiveunifiedcheckreviewauthalert.sbs",
+      "sureguardpestservices.cyou"
+    ],
+    "portal": [
+      "jokerbet-aktifportal.icu",
+      "netportallar.sbs",
+      "portalmetanoia.sbs",
+      "proportal.cfd",
+      "rapidprotectshieldmonitorvalidationverifyportal.sbs"
+    ],
+    "official": [
+      "betcioresmiadresofficial.icu",
+      "lk21official.sbs",
+      "official3250.buzz",
+      "official3603.buzz",
+      "official9044.buzz",
+      "officialdynamicreviewcheckprofileclearupdate.sbs",
+      "temptationsofficialoffer.sbs",
+      "temptationsofficialoffers.sbs",
+      "ultrabet-2026-official.icu"
+    ],
+    "hop": [
+      "allegroshop.cyou",
+      "eekoshop.icu",
+      "hades-shopoffer.sbs",
+      "hades-shoponline.sbs",
+      "shopacctk.cyou",
+      "shopclicktop100.sbs",
+      "shopclicktop1000.sbs",
+      "shoppergoonline.icu"
+    ],
+    "connect": [
+      "connectionline.cyou",
+      "connectionlines.cyou",
+      "connectionsline.cyou",
+      "connectstats.cyou",
+      "platinumconnect.sbs",
+      "statsconnect.cyou",
+      "temptconnect.sbs",
+      "zylaconnect.sbs"
+    ],
+    "alert": [
+      "centralmemberlockcenteralertadvancedaccess.sbs",
+      "fullcontrolalertdirectaccountsafetydynamiclogin.sbs",
+      "nextlogindirectaccesscontrolalertfirstidentity.sbs",
+      "servicelockuseractiveunifiedcheckreviewauthalert.sbs"
+    ],
+    "account": [
+      "accountstore.buzz",
+      "aimanegerhelpaccountsuseidentity.cfd",
+      "fullcontrolalertdirectaccountsafetydynamiclogin.sbs",
+      "logicaccounts.buzz",
+      "nextgenaccounts.buzz",
+      "proaccounts.buzz",
+      "verifiblueaccountsecure.cfd",
+      "zenaccounts.buzz"
     ],
     "base": [
-      "freshbase.sbs",
-      "kryptonbase.cfd",
-      "songhbase.cyou",
-      "vbaseball.sbs"
+      "aaacinebase.cfd",
+      "aaafilmbase.cfd",
+      "aaamoviebase.cfd",
+      "aaaphimbase.cfd",
+      "aaascreenbase.cfd",
+      "aaawatchbase.cfd",
+      "basedmall.sbs"
     ],
-    "customer": [
-      "forsheincustomer.icu",
-      "proshipcustomer.icu"
+    "skin": [
+      "bosskingroyalerisim.icu",
+      "shwskin.cfd",
+      "skinpack.bond",
+      "skinpack.cfd",
+      "skinpack.cyou",
+      "skinpack.icu",
+      "skinpack.sbs"
     ],
-    "auth": [
-      "authtrumpswallet.cfd",
-      "documentscloud-esignauthenticate2fashared.icu",
-      "piauths.icu",
-      "sharedpdf-esignauthenticate2fadocuments.icu"
+    "celer": [
+      "alobet-guncelerisim.icu",
+      "casinoroyal-guncelerisim2026tr.icu",
+      "kalebet-2026guncelerisimtr.icu",
+      "kargabet-guncelerisim.icu",
+      "pusula-betguncelerisim.icu",
+      "tophillbet-guncelerisim.icu"
+    ],
+    "login": [
+      "fullcontrolalertdirectaccountsafetydynamiclogin.sbs",
+      "fullfirstupdateshieldnoticerapidchecklogin.sbs",
+      "instantlogins.buzz",
+      "king555login.bond",
+      "merdeka77login.sbs",
+      "nextlogindirectaccesscontrolalertfirstidentity.sbs"
+    ],
+    "quest": [
+      "hptoto-quest.sbs",
+      "questclickmaster.sbs",
+      "questclicktop100.sbs",
+      "questclicktop1000.sbs",
+      "questclickworld.sbs",
+      "questtopclick.sbs"
+    ],
+    "support": [
+      "creatormonetizationsupporthelp.cfd",
+      "creatormonetizationsupportsystem.cfd",
+      "pro-support.buzz"
+    ],
+    "drift": [
+      "driftik.buzz",
+      "drifton.buzz",
+      "driftux.buzz"
+    ],
+    "update": [
+      "assessment-2026-updates.cfd",
+      "fullfirstupdateshieldnoticerapidchecklogin.sbs",
+      "juroupdate.icu",
+      "officialdynamicreviewcheckprofileclearupdate.sbs",
+      "updatekaspersky.icu"
+    ],
+    "access": [
+      "centralmemberlockcenteralertadvancedaccess.sbs",
+      "kizaaccess.buzz",
+      "nextlogindirectaccesscontrolalertfirstidentity.sbs",
+      "primeaccess.buzz",
+      "stealthaccess.buzz"
+    ],
+    "secure": [
+      "securekeys.buzz",
+      "securepayments.sbs",
+      "securevidviewer.buzz",
+      "text-secure-esl.sbs",
+      "verifiblueaccountsecure.cfd"
     ],
     "invite": [
-      "invites-tiopnh.sbs",
-      "invitesdorm.cfd",
-      "invitetracker.sbs"
+      "charminginvite.icu",
+      "goodtimesinvite.icu",
+      "guestinvite.icu",
+      "heartfeltinvite.icu",
+      "yourpartyinvite.icu"
     ],
-    "stake": [
-      "avrupabet-stake.icu",
-      "betmoon-stake.icu",
-      "mavibet-stake.icu"
+    "bank": [
+      "bdo-banke.buzz",
+      "bdo-banke.qpon",
+      "programapagbank.sbs",
+      "tonnerytrustbank.cfd"
     ],
-    "wallet": [
-      "authtrumpswallet.cfd",
-      "io-wallet.bond",
-      "trustwallett.cyou"
+    "verify": [
+      "advancedmonitorrapidstrongdirectcoreverify.sbs",
+      "io-verify-hub.bond",
+      "rapidprotectshieldmonitorvalidationverifyportal.sbs",
+      "verifyme.sbs"
     ],
     "tron": [
-      "nezertronixpro-ng.cfd"
+      "advancedmonitorrapidstrongdirectcoreverify.sbs",
+      "technotron.cfd"
     ],
-    "atrix": [
-      "natrixcussed.cfd",
-      "nexurionmatrix.cfd"
+    "netflix": [
+      "netflix00.cfd",
+      "netflixe.buzz",
+      "netflixe.cyou",
+      "netflixe.icu"
     ],
-    "join": [
-      "joinplatned.bond",
-      "joinstockvip.sbs"
+    "eos": [
+      "finance99-eos83.sbs",
+      "fisio8-eos7.sbs",
+      "fisio9-eos97.sbs",
+      "teosbet-adres2026yap.icu"
+    ],
+    "tesla": [
+      "teslabahis-gercek-adresin.sbs",
+      "teslabahis-gercekadresi.sbs",
+      "teslabahis-gercekadresin.sbs",
+      "teslatotosgp.cyou"
+    ],
+    "apple": [
+      "applebest.cfd",
+      "appleps.buzz",
+      "applezz.buzz",
+      "applezz.cfd"
     ],
     "unlock": [
-      "indrawndiscantunlocks.qpon",
-      "process-unlocking-profile.cfd"
+      "process-unlock-your-profile.cfd",
+      "unlock-profile.cfd",
+      "unlock-your-profile.cfd"
     ],
-    "invites": [
-      "invites-tiopnh.sbs",
-      "invitesdorm.cfd"
-    ],
-    "webmail": [
-      "webmailnotificacao.cyou",
-      "webmailnotificacao.sbs"
+    "zoom": [
+      "bozooma.buzz",
+      "kazoomo.buzz",
+      "vazoomi.buzz"
     ]
   }
 }
