@@ -1,166 +1,43 @@
 {
-  "generated": "2026-09-10",
-  "count": 9,
+  "generated": "2026-09-11",
+  "count": 7,
   "ips": [
     {
+      "ip": "156.234.119.108",
+      "count": 6,
+      "country": "HK",
+      "domains": [
+        "3ol8xnpwdu.icu",
+        "3pze1n9ojg.icu",
+        "5n4hp6oqtc.icu",
+        "o8rw2kt7ib.icu",
+        "wsmjp22ddt.icu",
+        "z51zqpjsh3.icu"
+      ]
+    },
+    {
       "ip": "188.114.96.3",
-      "count": 36,
+      "count": 6,
       "country": "",
       "domains": [
-        "4asd41sfw54sd.buzz",
-        "8asd41sfw54sd.buzz",
-        "91cangku108695.buzz",
-        "betsatoriginal.icu",
-        "betwild-gentr.icu",
-        "bflix.cyou",
-        "casibom9837.icu",
-        "eiij5zvg.buzz",
-        "erisimtr2026.icu",
-        "grandpashabet8269.icu",
-        "grandpashabet8969.icu",
-        "heiliaowang791542.buzz",
-        "heimei68.buzz",
-        "hlrk525558.buzz",
-        "inindhodd.buzz",
-        "jigv32dl.buzz",
-        "kingtotolive.sbs",
-        "lyjzy42.buzz",
-        "lyjzy44.buzz",
-        "matbet1986.icu",
-        "mg7qd7vh.buzz",
-        "perena.cfd",
-        "roketbeterisim.icu",
-        "rrsvls6r.buzz",
-        "turbosloterisim.icu",
-        "vavada-1vd4.buzz",
-        "vdcasino-girisburadan.icu",
-        "vdcasino-originaltr.icu",
-        "vdcasinoriginal.icu",
-        "xiaoniao21.buzz",
-        "yazhouziyuan1.buzz",
-        "zhengbucug.sbs",
-        "zhengbucuh.buzz",
-        "zhengbucur.buzz",
-        "zirvebetgir.icu",
-        "znakomstvadnr.icu"
+        "abc88-vn.cfd",
+        "hls4.bond",
+        "khatrimazacom.buzz",
+        "kuailianjsq.icu",
+        "miyou.cfd",
+        "xxx-tube.cfd"
       ]
     },
     {
       "ip": "188.114.97.3",
-      "count": 24,
+      "count": 5,
       "country": "",
       "domains": [
-        "1asd41sfw54sd.buzz",
-        "2024vvippop.buzz",
-        "6hjeyxc5.buzz",
-        "78damv.buzz",
-        "7tl77xvj.buzz",
-        "90hqsnyet.buzz",
-        "appav1.buzz",
-        "avavav.buzz",
-        "bishejingxuan191254.buzz",
-        "fdn2nbho.buzz",
-        "girisleriguncel.icu",
-        "kingtotolive.icu",
-        "l1svq9vh.buzz",
-        "lyjzy41.buzz",
-        "qybwm5j1.buzz",
-        "spincoadresleri.icu",
-        "v2rg1afo.buzz",
-        "vavada-6tya.buzz",
-        "vavada-7e5v.buzz",
-        "vavada-official-site.buzz",
-        "vdcasinoaktifadres.icu",
-        "yazhouziyuan215372.buzz",
-        "zhengbucuq.sbs",
-        "zirvedengir.icu"
-      ]
-    },
-    {
-      "ip": "3.33.241.96",
-      "count": 20,
-      "country": "US",
-      "domains": [
-        "aafns.cfd",
-        "bhklv.cfd",
-        "crxbb.cfd",
-        "elfdl.cfd",
-        "emgan.cfd",
-        "etyxn.cfd",
-        "exklm.cfd",
-        "oxwjq.cfd",
-        "rhwhh.cfd",
-        "ssypi.cfd",
-        "tcktk.cfd",
-        "tgtcw.cfd",
-        "tnxvo.cfd",
-        "vvmsr.cfd",
-        "wjbfd.cfd",
-        "xjawo.cfd",
-        "ybrxa.cfd",
-        "yjfqt.cfd",
-        "yrqgn.cfd",
-        "zxypm.cfd"
-      ]
-    },
-    {
-      "ip": "13.248.213.92",
-      "count": 14,
-      "country": "US",
-      "domains": [
-        "ajkqy.cfd",
-        "bhisk.cfd",
-        "bwrcq.cfd",
-        "drubh.cfd",
-        "dwpml.cfd",
-        "fhumz.cfd",
-        "grlvb.cfd",
-        "qgbfk.cfd",
-        "qxqkk.cfd",
-        "riftp.cfd",
-        "slbat.cfd",
-        "vvpyg.cfd",
-        "xqigl.cfd",
-        "xzxiz.cfd"
-      ]
-    },
-    {
-      "ip": "76.223.57.73",
-      "count": 14,
-      "country": "US",
-      "domains": [
-        "awajk.cfd",
-        "bbqau.cfd",
-        "bgqqv.cfd",
-        "cgxti.cfd",
-        "chdkx.cfd",
-        "dtfjx.cfd",
-        "dwrkb.cfd",
-        "gscue.cfd",
-        "neyxa.cfd",
-        "rnyfz.cfd",
-        "tnsih.cfd",
-        "urmqq.cfd",
-        "wrgmu.cfd",
-        "zxmgx.cfd"
-      ]
-    },
-    {
-      "ip": "15.197.149.68",
-      "count": 11,
-      "country": "US",
-      "domains": [
-        "bneud.cfd",
-        "dsdcp.cfd",
-        "kdeep.cfd",
-        "kgfsc.cfd",
-        "pabhw.cfd",
-        "qjdmp.cfd",
-        "qyabz.cfd",
-        "rqpng.cfd",
-        "tlkoe.cfd",
-        "ttyra.cfd",
-        "zlcit.cfd"
+        "88xx.bond",
+        "gofundmeme.buzz",
+        "jojobet.buzz",
+        "kubet77.buzz",
+        "lumexa.cfd"
       ]
     },
     {
@@ -168,31 +45,40 @@
       "count": 4,
       "country": "US",
       "domains": [
-        "adultcamdelights.sbs",
-        "cacuocbongda.sbs",
-        "vavada-8639.buzz",
-        "vavadakazino.bond"
+        "duniatotomenang.cfd",
+        "fmovieshd.icu",
+        "methstreams.bond",
+        "pg77.buzz"
       ]
     },
     {
-      "ip": "78.40.196.235",
-      "count": 4,
-      "country": "NL",
-      "domains": [
-        "vavada-vql5.buzz",
-        "vavadabye.buzz",
-        "vavadacat.buzz",
-        "vavadado.buzz"
-      ]
-    },
-    {
-      "ip": "103.224.212.200",
+      "ip": "20.196.213.40",
       "count": 3,
-      "country": "AU",
+      "country": "KR",
       "domains": [
-        "adult-only-hotels-wo-7143.sbs",
-        "adult-only-hotels-wo-9162.sbs",
-        "adultonlymotels.sbs"
+        "0qrb8466o8.icu",
+        "djcgu96dhw.icu",
+        "oej8p27ou8.icu"
+      ]
+    },
+    {
+      "ip": "4.217.192.98",
+      "count": 3,
+      "country": "KR",
+      "domains": [
+        "4ryfzi8jhl.icu",
+        "9igvup908n.icu",
+        "g07ij9t71y.icu"
+      ]
+    },
+    {
+      "ip": "20.24.204.59",
+      "count": 3,
+      "country": "HK",
+      "domains": [
+        "btp669ko0w.icu",
+        "c5npmgvnu8.icu",
+        "qey03sbatc.icu"
       ]
     }
   ]
