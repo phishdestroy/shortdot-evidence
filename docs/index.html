@@ -994,7 +994,7 @@ if(btn)btn.addEventListener('click',function(){
   <a href="https://github.com/phishdestroy/shortdot-evidence">GitHub</a> ·
   Related: <a href="https://github.com/phishdestroy/namesilo-evidence">NameSilo Investigation</a> ·
   <a href="https://github.com/phishdestroy/nicenic-evidence">NICENIC Investigation</a> ·
-  Updated: <span id="footer-date">2026-07-04</span>
+  Updated: <span id="footer-date">2026-09-13</span>
 </footer>
 
 <script>
@@ -1480,7 +1480,7 @@ fetch('data.json').then(function(r){return r.json();}).then(function(d){
   if(s.icann_fees)       setText('stat-icann',  '$'+Math.round(s.icann_fees).toLocaleString());
   setText('stat-legit',   s.legit_count||0);
   setText('method-legit', s.legit_count||0);
-  setText('footer-date',  (d.generated||'').split(' ')[0]||'2026-07-04');
+  setText('footer-date',  (d.last_updated||'').split(' ')[0]||'2026-09-13');
 
   /* ── Update live ticker rates from real data ── */
   if(s.shortdot_revenue && s.total){
