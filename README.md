@@ -96,7 +96,7 @@ NL  ░░░░░░░░░░░░░░░░░░          1 (1.6%)
 | `.cfd` | [data/by_tld/cfd.txt](data/by_tld/cfd.txt) 952,385 | [deployed/cfd.txt](data/ioc/deployed/cfd.txt) 407,496 | [phantom/cfd.txt](data/ioc/phantom/cfd.txt) 544,889 |
 | `.buzz` | [data/by_tld/buzz.txt](data/by_tld/buzz.txt) 209,416 | [deployed/buzz.txt](data/ioc/deployed/buzz.txt) 130,210 | [phantom/buzz.txt](data/ioc/phantom/buzz.txt) 79,206 |
 | `.qpon` | [data/by_tld/qpon.txt](data/by_tld/qpon.txt) 110,365 | [deployed/qpon.txt](data/ioc/deployed/qpon.txt) 61,237 | [phantom/qpon.txt](data/ioc/phantom/qpon.txt) 49,128 |
-| **All zones** | — | [deployed_all.txt](data/ioc/deployed_all.txt) 117 | [phantom_all.txt](data/ioc/phantom_all.txt) 7,822 |
+| **All zones** | — | [deployed_all.txt](data/ioc/deployed_all.txt) 1,844,930 | [phantom_all.txt](data/ioc/phantom_all.txt) 4,397,717 |
 
 **IOC & blocklists:**
 
