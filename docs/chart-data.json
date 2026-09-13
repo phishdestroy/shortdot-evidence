@@ -519,9 +519,9 @@
     "154.210.73.148": 1,
     "154.217.248.17": 1
   },
-  "deployed_count": 117,
-  "no_ip_count": 7822,
-  "deployment_rate": 1.5,
+  "deployed_count": 1844930,
+  "no_ip_count": 4397717,
+  "deployment_rate": 29.6,
   "reg_periods": {
     "lt_1yr": 0,
     "eq_1yr": 0,

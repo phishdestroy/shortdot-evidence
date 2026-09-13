@@ -478,6 +478,12 @@ if FILTER_TYPE == 'new':
     total_revenue_retail    = _prior_data.get('total_rev_retail', round(total_revenue_retail, 2))
     total_revenue_wholesale = _prior_data.get('total_rev_wholesale', round(total_revenue_wholesale, 2))
     total_icann_fees        = _prior_data.get('total_icann_fees', total_icann_fees)
+    deployed_count          = sum(item.get('deployed', 0) for item in tld_stats.values())
+    no_ip_count             = sum(item.get('no_ip', 0) for item in tld_stats.values())
+    deploy_rate             = round(deployed_count / total_domains * 100, 1) if total_domains else 0
+    ip_countries            = _prior_data.get('ip_countries', ip_countries)
+    top_shared_ips          = _prior_data.get('top_shared_ips', top_shared_ips)
+    avg_lifetime            = _prior_data.get('avg_registration_days', avg_lifetime)
 
 Path('data/index.json').write_text(json.dumps({
     'days':                    index_days,
