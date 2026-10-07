@@ -474,6 +474,9 @@ for _d in index_days:
     _prior_days_by_date[_d['date']] = _d
 index_days = sorted(_prior_days_by_date.values(), key=lambda x: x['date'])
 
+ip_countries   = dict(country_counts.most_common(10))
+top_shared_ips = dict(ip_counts.most_common(20))
+
 # In incremental mode preserve zone-wide totals from the initial full scan
 if FILTER_TYPE == 'new':
     total_domains           = _prior_data.get('total_domains', total_domains)
@@ -496,8 +499,8 @@ Path('data/index.json').write_text(json.dumps({
     'total_rev_wholesale':     round(total_revenue_wholesale, 2),
     'total_icann_fees':        total_icann_fees,
     'avg_registration_days':   avg_lifetime,
-    'ip_countries':            dict(country_counts.most_common(10)),
-    'top_shared_ips':          dict(ip_counts.most_common(20)),
+    'ip_countries':            ip_countries,
+    'top_shared_ips':          top_shared_ips,
     'deployed_count':          deployed_count,
     'no_ip_count':             no_ip_count,
     'deployment_rate':         deploy_rate,
