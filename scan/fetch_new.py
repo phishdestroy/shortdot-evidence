@@ -111,7 +111,10 @@ for tld in TLD_LIST:
 
 dates = sorted(by_date.keys())
 if not dates:
-    print("No data returned"); exit(0)
+    # Every TLD failed (e.g. NetAPI 403 "No active/paid plan"): fail the run
+    # instead of committing a refreshed data.json with no new data.
+    print("::error::NetAPI returned no data for any TLD (token expired / plan inactive?)")
+    raise SystemExit(1)
 
 total_domains = len(all_domains)
 print(f"\nTotal: {total_domains:,} unique domains across {len(dates)} days ({dates[0]} → {dates[-1]})")
