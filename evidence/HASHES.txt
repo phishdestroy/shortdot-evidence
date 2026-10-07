@@ -1,0 +1,3 @@
+# SHA-256 hashes of evidence screenshots
+# Format: sha256hash  filename
+# Populated as evidence is captured

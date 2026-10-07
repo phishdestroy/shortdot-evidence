@@ -1,0 +1,73 @@
+{
+  "month": "2026-09",
+  "generated": "2026-09-12",
+  "total_domains": 7939,
+  "total_rev_retail": 129834.11,
+  "total_rev_wholesale": 9897.4,
+  "total_icann_fees": 182584.75,
+  "avg_reg_days": 365,
+  "deployment_rate": 1.5,
+  "fresh_pct": 100.0,
+  "unranked_pct": 100.0,
+  "correlation_pct": 0.0,
+  "serial_registrants": 0,
+  "legit_count": 0,
+  "tld_stats": {
+    "icu": {
+      "count": 1349,
+      "deployed": 17,
+      "no_ip": 1332,
+      "deploy_rate": 1.3,
+      "revenue": 876.85,
+      "price": 0.65
+    },
+    "bond": {
+      "count": 404,
+      "deployed": 2,
+      "no_ip": 402,
+      "deploy_rate": 0.5,
+      "revenue": 2626.0,
+      "price": 6.5
+    },
+    "cyou": {
+      "count": 1844,
+      "deployed": 11,
+      "no_ip": 1833,
+      "deploy_rate": 0.6,
+      "revenue": 1198.6,
+      "price": 0.65
+    },
+    "sbs": {
+      "count": 1721,
+      "deployed": 34,
+      "no_ip": 1687,
+      "deploy_rate": 2.0,
+      "revenue": 1118.65,
+      "price": 0.65
+    },
+    "cfd": {
+      "count": 1642,
+      "deployed": 9,
+      "no_ip": 1633,
+      "deploy_rate": 0.5,
+      "revenue": 1067.3,
+      "price": 0.65
+    },
+    "buzz": {
+      "count": 750,
+      "deployed": 44,
+      "no_ip": 706,
+      "deploy_rate": 5.9,
+      "revenue": 2437.5,
+      "price": 3.25
+    },
+    "qpon": {
+      "count": 229,
+      "deployed": 0,
+      "no_ip": 229,
+      "deploy_rate": 0.0,
+      "revenue": 572.5,
+      "price": 2.5
+    }
+  }
+}

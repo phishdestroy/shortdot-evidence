@@ -1,0 +1,595 @@
+{
+  "days": [
+    {
+      "count": 6242647,
+      "date": "2026-07-06"
+    },
+    {
+      "revenue_wholesale": 8858.35,
+      "icann_fees": 1518.0,
+      "count": 6072,
+      "date": "2026-07-07",
+      "path": "data/new/2026/07/2026-07-07.txt"
+    },
+    {
+      "revenue_wholesale": 10395.75,
+      "icann_fees": 2284.25,
+      "count": 9137,
+      "date": "2026-07-08",
+      "path": "data/new/2026/07/2026-07-08.txt"
+    },
+    {
+      "revenue_wholesale": 16593.8,
+      "icann_fees": 4472.0,
+      "count": 17888,
+      "date": "2026-07-09",
+      "path": "data/new/2026/07/2026-07-09.txt"
+    },
+    {
+      "revenue_wholesale": 8763.6,
+      "icann_fees": 1611.0,
+      "count": 6444,
+      "date": "2026-07-10",
+      "path": "data/new/2026/07/2026-07-10.txt"
+    },
+    {
+      "revenue_wholesale": 8464.5,
+      "icann_fees": 1891.25,
+      "count": 7565,
+      "date": "2026-07-11",
+      "path": "data/new/2026/07/2026-07-11.txt"
+    },
+    {
+      "revenue_wholesale": 14865.5,
+      "icann_fees": 2187.5,
+      "count": 8750,
+      "date": "2026-07-12",
+      "path": "data/new/2026/07/2026-07-12.txt"
+    },
+    {
+      "revenue_wholesale": 8636.55,
+      "icann_fees": 1395.25,
+      "count": 5581,
+      "date": "2026-07-13",
+      "path": "data/new/2026/07/2026-07-13.txt"
+    },
+    {
+      "revenue_wholesale": 2648.75,
+      "icann_fees": 689.25,
+      "count": 2757,
+      "date": "2026-07-14",
+      "path": "data/new/2026/07/2026-07-14.txt"
+    },
+    {
+      "revenue_wholesale": 5468.25,
+      "icann_fees": 426.75,
+      "count": 1707,
+      "date": "2026-07-15",
+      "path": "data/new/2026/07/2026-07-15.txt"
+    },
+    {
+      "revenue_wholesale": 14148.95,
+      "icann_fees": 3432.5,
+      "count": 13730,
+      "date": "2026-07-16",
+      "path": "data/new/2026/07/2026-07-16.txt"
+    },
+    {
+      "revenue_wholesale": 14428.5,
+      "icann_fees": 3201.25,
+      "count": 12805,
+      "date": "2026-07-19",
+      "path": "data/new/2026/07/2026-07-19.txt"
+    },
+    {
+      "revenue_wholesale": 8270.9,
+      "icann_fees": 1457.5,
+      "count": 5830,
+      "date": "2026-07-20",
+      "path": "data/new/2026/07/2026-07-20.txt"
+    },
+    {
+      "date": "2026-07-22",
+      "count": 6995,
+      "revenue_wholesale": 9637.5,
+      "icann_fees": 1748.75,
+      "path": "data/new/2026/07/2026-07-22.txt"
+    },
+    {
+      "date": "2026-07-25",
+      "count": 9393,
+      "revenue_wholesale": 15592.3,
+      "icann_fees": 2348.25,
+      "path": "data/new/2026/07/2026-07-25.txt"
+    },
+    {
+      "date": "2026-07-26",
+      "count": 13958,
+      "revenue_wholesale": 14433.5,
+      "icann_fees": 3489.5,
+      "path": "data/new/2026/07/2026-07-26.txt"
+    },
+    {
+      "date": "2026-07-27",
+      "count": 5141,
+      "revenue_wholesale": 7642.95,
+      "icann_fees": 1285.25,
+      "path": "data/new/2026/07/2026-07-27.txt"
+    },
+    {
+      "date": "2026-07-29",
+      "count": 6880,
+      "revenue_wholesale": 10484.7,
+      "icann_fees": 1720.0,
+      "path": "data/new/2026/07/2026-07-29.txt"
+    },
+    {
+      "date": "2026-07-30",
+      "count": 11217,
+      "revenue_wholesale": 13371.1,
+      "icann_fees": 2804.25,
+      "path": "data/new/2026/07/2026-07-30.txt"
+    },
+    {
+      "date": "2026-07-31",
+      "count": 5310,
+      "revenue_wholesale": 7236.9,
+      "icann_fees": 1327.5,
+      "path": "data/new/2026/07/2026-07-31.txt"
+    },
+    {
+      "date": "2026-08-01",
+      "count": 6638,
+      "revenue_wholesale": 10595.35,
+      "icann_fees": 1659.5,
+      "path": "data/new/2026/08/2026-08-01.txt"
+    },
+    {
+      "date": "2026-08-02",
+      "count": 7199,
+      "revenue_wholesale": 10798.45,
+      "icann_fees": 1799.75,
+      "path": "data/new/2026/08/2026-08-02.txt"
+    },
+    {
+      "date": "2026-08-03",
+      "count": 3659,
+      "revenue_wholesale": 3627.8,
+      "icann_fees": 914.75,
+      "path": "data/new/2026/08/2026-08-03.txt"
+    },
+    {
+      "date": "2026-08-05",
+      "count": 9761,
+      "revenue_wholesale": 17223.05,
+      "icann_fees": 2440.25,
+      "path": "data/new/2026/08/2026-08-05.txt"
+    },
+    {
+      "date": "2026-08-06",
+      "count": 19391,
+      "revenue_wholesale": 26583.05,
+      "icann_fees": 4847.75,
+      "path": "data/new/2026/08/2026-08-06.txt"
+    },
+    {
+      "date": "2026-08-07",
+      "count": 15356,
+      "revenue_wholesale": 18388.05,
+      "icann_fees": 3839.0,
+      "path": "data/new/2026/08/2026-08-07.txt"
+    },
+    {
+      "date": "2026-08-08",
+      "count": 15356,
+      "revenue_wholesale": 18388.05,
+      "icann_fees": 3839.0,
+      "path": "data/new/2026/08/2026-08-08.txt"
+    },
+    {
+      "date": "2026-08-09",
+      "count": 7414,
+      "revenue_wholesale": 7905.8,
+      "icann_fees": 1853.5,
+      "path": "data/new/2026/08/2026-08-09.txt"
+    },
+    {
+      "date": "2026-08-10",
+      "count": 5119,
+      "revenue_wholesale": 5952.8,
+      "icann_fees": 1279.75,
+      "path": "data/new/2026/08/2026-08-10.txt"
+    },
+    {
+      "date": "2026-08-11",
+      "count": 4399,
+      "revenue_wholesale": 7062.55,
+      "icann_fees": 1099.75,
+      "path": "data/new/2026/08/2026-08-11.txt"
+    },
+    {
+      "date": "2026-08-12",
+      "count": 12700,
+      "revenue_wholesale": 17235.95,
+      "icann_fees": 3175.0,
+      "path": "data/new/2026/08/2026-08-12.txt"
+    },
+    {
+      "date": "2026-08-13",
+      "count": 5956,
+      "revenue_wholesale": 9123.65,
+      "icann_fees": 1489.0,
+      "path": "data/new/2026/08/2026-08-13.txt"
+    },
+    {
+      "date": "2026-08-14",
+      "count": 9354,
+      "revenue_wholesale": 13774.5,
+      "icann_fees": 2338.5,
+      "path": "data/new/2026/08/2026-08-14.txt"
+    },
+    {
+      "date": "2026-08-15",
+      "count": 4846,
+      "revenue_wholesale": 6091.15,
+      "icann_fees": 1211.5,
+      "path": "data/new/2026/08/2026-08-15.txt"
+    },
+    {
+      "date": "2026-08-16",
+      "count": 8754,
+      "revenue_wholesale": 10543.8,
+      "icann_fees": 2188.5,
+      "path": "data/new/2026/08/2026-08-16.txt"
+    },
+    {
+      "date": "2026-08-17",
+      "count": 4998,
+      "revenue_wholesale": 6173.45,
+      "icann_fees": 1249.5,
+      "path": "data/new/2026/08/2026-08-17.txt"
+    },
+    {
+      "date": "2026-08-18",
+      "count": 5090,
+      "revenue_wholesale": 6431.7,
+      "icann_fees": 1272.5,
+      "path": "data/new/2026/08/2026-08-18.txt"
+    },
+    {
+      "date": "2026-08-19",
+      "count": 6791,
+      "revenue_wholesale": 8697.05,
+      "icann_fees": 1697.75,
+      "path": "data/new/2026/08/2026-08-19.txt"
+    },
+    {
+      "date": "2026-08-20",
+      "count": 7569,
+      "revenue_wholesale": 9864.6,
+      "icann_fees": 1892.25,
+      "path": "data/new/2026/08/2026-08-20.txt"
+    },
+    {
+      "date": "2026-08-21",
+      "count": 9221,
+      "revenue_wholesale": 15754.35,
+      "icann_fees": 2305.25,
+      "path": "data/new/2026/08/2026-08-21.txt"
+    },
+    {
+      "date": "2026-08-22",
+      "count": 7055,
+      "revenue_wholesale": 8347.65,
+      "icann_fees": 1763.75,
+      "path": "data/new/2026/08/2026-08-22.txt"
+    },
+    {
+      "date": "2026-08-23",
+      "count": 7140,
+      "revenue_wholesale": 9467.0,
+      "icann_fees": 1785.0,
+      "path": "data/new/2026/08/2026-08-23.txt"
+    },
+    {
+      "date": "2026-08-24",
+      "count": 7319,
+      "revenue_wholesale": 9400.75,
+      "icann_fees": 1829.75,
+      "path": "data/new/2026/08/2026-08-24.txt"
+    },
+    {
+      "date": "2026-08-25",
+      "count": 5571,
+      "revenue_wholesale": 5675.5,
+      "icann_fees": 1392.75,
+      "path": "data/new/2026/08/2026-08-25.txt"
+    },
+    {
+      "date": "2026-08-27",
+      "count": 6139,
+      "revenue_wholesale": 6706.55,
+      "icann_fees": 1534.75,
+      "path": "data/new/2026/08/2026-08-27.txt"
+    },
+    {
+      "date": "2026-08-28",
+      "count": 6729,
+      "revenue_wholesale": 7171.35,
+      "icann_fees": 1682.25,
+      "path": "data/new/2026/08/2026-08-28.txt"
+    },
+    {
+      "date": "2026-08-29",
+      "count": 5534,
+      "revenue_wholesale": 6530.95,
+      "icann_fees": 1383.5,
+      "path": "data/new/2026/08/2026-08-29.txt"
+    },
+    {
+      "date": "2026-08-30",
+      "count": 5031,
+      "revenue_wholesale": 5736.1,
+      "icann_fees": 1257.75,
+      "path": "data/new/2026/08/2026-08-30.txt"
+    },
+    {
+      "date": "2026-08-31",
+      "count": 6273,
+      "revenue_wholesale": 6492.2,
+      "icann_fees": 1568.25,
+      "path": "data/new/2026/08/2026-08-31.txt"
+    },
+    {
+      "date": "2026-09-01",
+      "count": 12335,
+      "revenue_wholesale": 11708.7,
+      "icann_fees": 3083.75,
+      "path": "data/new/2026/09/2026-09-01.txt"
+    },
+    {
+      "date": "2026-09-02",
+      "count": 6989,
+      "revenue_wholesale": 8918.4,
+      "icann_fees": 1747.25,
+      "path": "data/new/2026/09/2026-09-02.txt"
+    },
+    {
+      "date": "2026-09-03",
+      "count": 6990,
+      "revenue_wholesale": 9405.65,
+      "icann_fees": 1747.5,
+      "path": "data/new/2026/09/2026-09-03.txt"
+    },
+    {
+      "date": "2026-09-04",
+      "count": 9803,
+      "revenue_wholesale": 9290.75,
+      "icann_fees": 2450.75,
+      "path": "data/new/2026/09/2026-09-04.txt"
+    },
+    {
+      "date": "2026-09-05",
+      "count": 7511,
+      "revenue_wholesale": 12390.65,
+      "icann_fees": 1877.75,
+      "path": "data/new/2026/09/2026-09-05.txt"
+    },
+    {
+      "date": "2026-09-06",
+      "count": 4543,
+      "revenue_wholesale": 5391.35,
+      "icann_fees": 1135.75,
+      "path": "data/new/2026/09/2026-09-06.txt"
+    },
+    {
+      "date": "2026-09-07",
+      "count": 5563,
+      "revenue_wholesale": 6146.8,
+      "icann_fees": 1390.75,
+      "path": "data/new/2026/09/2026-09-07.txt"
+    },
+    {
+      "date": "2026-09-08",
+      "count": 10902,
+      "revenue_wholesale": 11931.35,
+      "icann_fees": 2725.5,
+      "path": "data/new/2026/09/2026-09-08.txt"
+    },
+    {
+      "date": "2026-09-09",
+      "count": 11901,
+      "revenue_wholesale": 12089.15,
+      "icann_fees": 2975.25,
+      "path": "data/new/2026/09/2026-09-09.txt"
+    },
+    {
+      "date": "2026-09-10",
+      "count": 11171,
+      "revenue_wholesale": 10735.05,
+      "icann_fees": 2792.75,
+      "path": "data/new/2026/09/2026-09-10.txt"
+    },
+    {
+      "date": "2026-09-11",
+      "count": 11572,
+      "revenue_wholesale": 11190.1,
+      "icann_fees": 2893.0,
+      "path": "data/new/2026/09/2026-09-11.txt"
+    },
+    {
+      "date": "2026-09-12",
+      "count": 7939,
+      "revenue_wholesale": 9897.4,
+      "icann_fees": 1984.75,
+      "path": "data/new/2026/09/2026-09-12.txt"
+    },
+    {
+      "date": "2026-10-07",
+      "count": 9105,
+      "revenue_wholesale": 9387.65,
+      "icann_fees": 2276.25,
+      "path": "data/new/2026/10/2026-10-07.txt"
+    }
+  ],
+  "total_domains": 6242647,
+  "tld_breakdown": {
+    "icu": {
+      "count": 976416,
+      "price": 0.65,
+      "no_ip": 698689,
+      "deploy_rate": 28.4,
+      "revenue": 634670.4,
+      "deployed": 277727
+    },
+    "bond": {
+      "count": 1325001,
+      "price": 6.5,
+      "no_ip": 1218967,
+      "deploy_rate": 8.0,
+      "revenue": 8612506.5,
+      "deployed": 106034
+    },
+    "cyou": {
+      "count": 756981,
+      "price": 0.65,
+      "no_ip": 491324,
+      "deploy_rate": 35.1,
+      "revenue": 492037.65,
+      "deployed": 265657
+    },
+    "sbs": {
+      "count": 1912083,
+      "price": 0.65,
+      "no_ip": 1315514,
+      "deploy_rate": 31.2,
+      "revenue": 1242853.95,
+      "deployed": 596569
+    },
+    "cfd": {
+      "count": 952385,
+      "price": 0.65,
+      "no_ip": 544889,
+      "deploy_rate": 42.8,
+      "revenue": 619050.25,
+      "deployed": 407496
+    },
+    "buzz": {
+      "count": 209416,
+      "price": 3.25,
+      "no_ip": 79206,
+      "deploy_rate": 62.2,
+      "revenue": 680602.0,
+      "deployed": 130210
+    },
+    "qpon": {
+      "count": 110365,
+      "price": 2.5,
+      "no_ip": 49128,
+      "deploy_rate": 55.5,
+      "revenue": 275912.5,
+      "deployed": 61237
+    }
+  },
+  "total_rev_retail": 95222.7,
+  "total_rev_wholesale": 12557633.25,
+  "total_icann_fees": 1741261.75,
+  "avg_registration_days": 365,
+  "ip_countries": {
+    "US": 41,
+    "AU": 7,
+    "RU": 5,
+    "HK": 4,
+    "DE": 3,
+    "SG": 1,
+    "NL": 1
+  },
+  "top_shared_ips": {
+    "188.114.97.3": 19,
+    "188.114.96.3": 12,
+    "174.139.197.77": 5,
+    "185.149.120.253": 4,
+    "172.234.24.211": 3,
+    "174.139.197.210": 3,
+    "44.233.250.75": 2,
+    "172.237.129.108": 2,
+    "2.57.91.92": 2,
+    "159.203.143.218": 2,
+    "172.239.57.117": 2,
+    "103.224.212.118": 2,
+    "107.191.112.168": 2,
+    "154.23.161.139": 2,
+    "91.195.240.19": 2,
+    "156.236.37.15": 1,
+    "45.116.145.177": 1,
+    "154.214.113.72": 1,
+    "154.210.73.148": 1,
+    "154.217.248.17": 1
+  },
+  "deployed_count": 1844930,
+  "no_ip_count": 4397717,
+  "deployment_rate": 29.6,
+  "reg_periods": {
+    "lt_1yr": 0,
+    "eq_1yr": 0,
+    "yr_2": 0,
+    "yr_3plus": 0
+  },
+  "pct_gt_1yr": 0,
+  "pct_gt_2yr": 0,
+  "catch_age_buckets": {
+    "same_day": 9105,
+    "within_week": 0,
+    "within_month": 0,
+    "older": 0
+  },
+  "avg_catch_age_days": 0,
+  "fresh_pct": 100.0,
+  "burst_days": [
+    {
+      "date": "2026-10-07",
+      "count": 9105,
+      "x_avg": 1.0
+    }
+  ],
+  "brand_heatmap": {
+    "portal": 28,
+    "support": 26,
+    "hop": 14,
+    "dia": 13,
+    "steam": 12,
+    "service": 11,
+    "allocation": 10,
+    "morpho": 10,
+    "finance": 8,
+    "base": 8,
+    "orca": 8,
+    "connect": 7,
+    "drift": 6,
+    "fund": 6,
+    "sui": 5,
+    "mantle": 5,
+    "reward": 5,
+    "rewards": 5,
+    "ally": 5,
+    "helpdesk": 4,
+    "eos": 4,
+    "zoom": 4,
+    "invest": 4,
+    "bank": 4,
+    "invite": 4,
+    "secure": 4,
+    "confirm": 4,
+    "token": 4,
+    "alert": 4,
+    "quest": 3
+  },
+  "unranked_pct": 100.0,
+  "ranked_count": 0,
+  "correlation_count": 14,
+  "correlation_pct": 0.2,
+  "legit_count": 0,
+  "serial_email_count": 2,
+  "legit_ratio_pct": 0.0,
+  "last_updated": "2026-10-07"
+}

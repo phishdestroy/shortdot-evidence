@@ -1,0 +1,17 @@
+keybank-authverify.icu
+keybank-sign0nvalid.icu
+keybank-verifyibxaccess.icu
+keybankauth-rtnverify.icu
+keybankauth-verifyibx.icu
+keybankauth-verifytxn.icu
+keybankcommercialclientpayment.icu
+keybankdept-rtnverify.icu
+keybankdept-verifyibx.icu
+keybankibx-acctsign0n.icu
+keybankibx-authverify.icu
+keybankibx-verify.icu
+keybanksvcus01.cfd
+keybankverify-auth.icu
+keybankverify-rtndept.icu
+turkeybankasi.sbs
+txnverify-keybankibx.icu
