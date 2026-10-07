@@ -1,42 +1,24 @@
 {
   "generated": "2026-10-07",
   "keywords": {
-    "tron": [
-      "boat-create-strong.bond",
-      "patronarena.cfd",
-      "patronarena1.cfd",
-      "patronarena10.cfd",
-      "patronarena2.cfd",
-      "patronarena3.cfd",
-      "patronarena4.cfd",
-      "patronarena5.cfd",
-      "patronarena6.cfd",
-      "patronarena7.cfd",
-      "patronarena8.cfd",
-      "patronarena9.cfd",
-      "patronskor10.cfd",
-      "patronskor6.cfd",
-      "patronskor7.cfd",
-      "patronskor8.cfd",
-      "patronskor9.cfd"
-    ],
     "portal": [
+      "eooportal.bond",
       "ethena-portal.sbs",
+      "login-to-incme-portal-docs.cfd",
+      "logon-to-1task-portal-docs.cfd",
       "portal-derive.sbs",
-      "portal-enlace-mx.cfd",
       "portal-enlace-mx.sbs",
-      "portal-flarenetwork.cfd",
-      "portal-seduc-ce.bond",
-      "portal-seduc-ce.cfd",
       "portal-seduc-ce.cyou",
       "portal-seduc-ce.sbs",
       "portal-yield.sbs",
-      "portaltgss-gob.bond",
+      "portalseg-es.cfd",
+      "portalsege-es.cfd",
       "portaltgss-gob.qpon",
       "portaltgss-gob.sbs",
       "proposalreviewportals.icu"
     ],
     "support": [
+      "mailcenter-usaa-com-ssl-support.bond",
       "qwicksupport.sbs",
       "supportbusinessactive.sbs",
       "supportbusinessadvance.sbs",
@@ -50,56 +32,96 @@
       "supportbusinesssuccess.sbs",
       "supportbusinessvision.sbs"
     ],
-    "dia": [
-      "arcadiakvety.sbs",
-      "immediatenextgen.cfd",
-      "indianxxx.cyou",
-      "irradiancebnd.bond",
-      "mediaone.icu",
-      "meridianscared.sbs",
-      "mondialrelay.cfd",
-      "pastpedia.cyou",
-      "radiancebnd.bond",
-      "readymeridian.sbs",
-      "steradianbnd.bond",
-      "thermalmedia.sbs",
-      "vshareilcoudialumi.icu",
-      "xiugoudiary.icu",
-      "zodiak-lordfilm.cfd"
-    ],
-    "allocation": [
-      "allocation-axisrobotics.bond",
-      "allocation-axisrobotics.cfd",
-      "allocation-axisrobotics.cyou",
-      "allocation-cashmere-exchange.bond",
-      "allocation-cashmere-exchange.cfd",
-      "allocation-cashmere-exchange.cyou",
-      "allocation-flyingtulip.cfd",
-      "allocation-flyingtulip.cyou",
-      "allocation-usenosh.cfd",
-      "allocation-usenosh.cyou",
-      "allocations-cashmere-exchange.cfd",
-      "firelight-allocations.bond",
-      "firelight-allocations.cfd",
-      "firelight-allocations.cyou"
-    ],
     "hop": [
+      "3xhopi.cfd",
+      "heavierpristishoplite.cfd",
       "hopcba.sbs",
       "hopqx.cyou",
       "morphopets.sbs",
+      "restaurantshop.bond",
+      "sagasshop.cfd",
       "shakaraashop.sbs",
-      "shopcdn106.cfd",
+      "shop-pay.cfd",
       "shopcdn106.cyou",
       "theivershop.sbs",
       "usdtshop.icu",
-      "vasiliskshop.cfd",
-      "waterworkshop.cfd",
+      "workshoplamp.cfd",
       "yektashop.sbs"
     ],
+    "dia": [
+      "arcadiakvety.sbs",
+      "coordiadora.cfd",
+      "gmedia.buzz",
+      "indianxxx.cyou",
+      "mediaone.icu",
+      "meridianscared.sbs",
+      "pastpedia.cyou",
+      "readymeridian.sbs",
+      "sadaqmedia.cfd",
+      "sadiauddin.cfd",
+      "thermalmedia.sbs",
+      "vshareilcoudialumi.icu",
+      "xiugoudiary.icu"
+    ],
+    "steam": [
+      "gckbusinessteam1.cfd",
+      "gckbusinessteam2.cfd",
+      "gcksuccessteam1.cfd",
+      "gcksuccessteam10.cfd",
+      "gcksuccessteam2.cfd",
+      "gcksuccessteam3.cfd",
+      "gcksuccessteam4.cfd",
+      "gcksuccessteam5.cfd",
+      "gcksuccessteam6.cfd",
+      "gcksuccessteam8.cfd",
+      "gcksuccessteam9.cfd",
+      "spaceship-lionsteam-test-domain-q.sbs"
+    ],
+    "service": [
+      "centuryinternationationalcarrierservice.sbs",
+      "ch-twint-services-post.cfd",
+      "genoffer-prom-promotion-services.icu",
+      "mailcenter-usaa-com-customerservice.cyou",
+      "retailservices.bond",
+      "service-datenschutz.cfd",
+      "service-verfahren.cfd",
+      "servicesicherheit.cfd",
+      "sicherheits-service.cfd",
+      "sicherheitsservice.cfd",
+      "verfahrens-service.cfd"
+    ],
+    "allocation": [
+      "allocation-axisrobotics.cyou",
+      "allocation-cashmere-exchange.cyou",
+      "allocation-flyingtulip.cyou",
+      "allocation-mantle.bond",
+      "allocation-mantle.cfd",
+      "allocation-multiplifi.cfd",
+      "allocation-soil.cfd",
+      "allocation-usenosh.cyou",
+      "allocations-multipli.cfd",
+      "firelight-allocations.cyou"
+    ],
+    "morpho": [
+      "ecosystem-morpho.cfd",
+      "enter-morpho.sbs",
+      "morphofnd.cfd",
+      "morphofnd.sbs",
+      "morphopets.sbs"
+    ],
+    "finance": [
+      "airdrop-dopplerfinance.bond",
+      "airdrop-dopplerfinance.cfd",
+      "boros-pendlefinance.cfd",
+      "carllstonalliedfinance.sbs",
+      "dhanifinance.cfd",
+      "painelfinanceiro.sbs",
+      "ryskfinance.cfd",
+      "tge-dopplerfinance.cfd"
+    ],
     "base": [
-      "basefxo.bond",
-      "basefxo.buzz",
-      "basefxo.cfd",
+      "basedone.bond",
+      "basedone.cfd",
       "basefxo.cyou",
       "basefxo.icu",
       "basefxo.qpon",
@@ -107,154 +129,133 @@
       "crewbase.sbs",
       "pixelbasepro.cyou"
     ],
-    "bonus": [
-      "ampdenemebonusuu.icu",
-      "bazoka-bonus.icu",
-      "bonbonus.buzz",
-      "bonuskodu.icu",
-      "evacasinobonus.buzz",
-      "jetton-bonus.cfd",
-      "jettonbonus24.cfd",
-      "jettonbonus7.cfd"
-    ],
-    "service": [
-      "centuryinternationationalcarrierservice.sbs",
-      "genoffer-prom-promotion-services.icu",
-      "mailcenter-usaa-com-customerservice.bond",
-      "mailcenter-usaa-com-customerservice.cyou",
-      "mzservice.cfd",
-      "topsservice.cfd",
-      "valkfietsservice.cfd"
-    ],
-    "sui": [
-      "3sui3.cfd",
-      "suitable-talent.cfd",
-      "suitablecandidates.cfd",
-      "suitabletalent.cfd",
-      "suite-204cl01.sbs",
-      "suixinfei.icu",
-      "tsuina.cyou"
-    ],
-    "exchange": [
-      "allocation-cashmere-exchange.bond",
-      "allocation-cashmere-exchange.cfd",
-      "allocation-cashmere-exchange.cyou",
-      "allocations-cashmere-exchange.cfd",
-      "cashmere-exchange.cfd",
-      "cashmereexchange.cfd",
-      "ramses-exchange.sbs"
-    ],
-    "secure": [
-      "4front-securenow.cfd",
-      "neurosecure.cfd",
-      "neurosecure.sbs",
-      "secureaccount-secureverlficationport.sbs",
-      "securedcontract.icu",
-      "securenow-4front.cfd"
-    ],
-    "morpho": [
-      "enter-morpho.sbs",
-      "morphofnd.sbs",
-      "morphopets.sbs"
+    "orca": [
+      "forcash.sbs",
+      "mirrorcareful.cfd",
+      "selectorcasino064.buzz",
+      "selectorcasino354.buzz",
+      "selectorcasino361.buzz",
+      "selectorcasino477.buzz",
+      "selectorcasino624.buzz",
+      "vectorcag.icu"
     ],
     "connect": [
       "cloud-connect.sbs",
       "cloudconnect.sbs",
-      "connect-hyperlink.cfd",
       "connect-hyperlink.sbs",
+      "connectt.cfd",
+      "hire-connects.cfd",
+      "hireconnects.cfd",
       "mailnodeconnect.sbs"
     ],
-    "neo": [
-      "neobjatnyj-okean-lordfilm.cfd",
-      "neobyatnyi-okean-lordfilm.cfd",
-      "neobyatnyy-okean-lordfilm.cfd",
-      "neon-drift-8.sbs",
-      "neozhidannye-svyazi-lordfilm.sbs"
-    ],
-    "account": [
-      "account-verify-4front.cfd",
-      "accountcenterllm.cfd",
-      "accountverify-4front.cfd",
-      "safeaccounts.icu",
-      "secureaccount-secureverlficationport.sbs"
-    ],
-    "iron": [
-      "ironcrownventures.buzz",
-      "ironcycle.sbs",
-      "ironkeepgroup.buzz",
-      "ironspireholdings.buzz",
-      "mikesredironsteelllc.buzz"
-    ],
-    "bank": [
-      "4frontcu-onlinebanking.cfd",
-      "banksiadepure.qpon",
-      "nspkbank.icu",
-      "onlinebanking-4frontcu.cfd",
-      "upbankuplong.cfd"
-    ],
-    "verify": [
-      "account-verify-4front.cfd",
-      "accountverify-4front.cfd",
-      "autoverify.bond",
-      "mailcenter-usaa-com-verify.bond",
-      "mailcenter-usaa-com-verify.cyou"
-    ],
-    "join": [
-      "ijointheparty.icu",
-      "join365.bond",
-      "joingrup.sbs",
-      "jointheteam.cfd"
-    ],
-    "orca": [
-      "forcash.sbs",
-      "selectorcasino077.buzz",
-      "selectorcasino677.buzz",
-      "vectorcag.icu"
-    ],
-    "token": [
-      "madewithtokens.icu",
-      "tokenpoket-cdn-xgu.cfd",
-      "tokenpoket-cdn-xgu.sbs",
-      "xingyuntoken.cyou"
-    ],
     "drift": [
+      "driftspine.buzz",
       "driftwave666.cyou",
       "neon-drift-8.sbs"
+    ],
+    "fund": [
+      "advancefunds26.buzz",
+      "advancefunds27.buzz",
+      "advancefunds28.buzz",
+      "funds-approval.cyou",
+      "funds-approval.sbs",
+      "fundsacces.cyou"
+    ],
+    "sui": [
+      "buzzsuite.buzz",
+      "gopursuing.bond",
+      "suite-204cl01.sbs",
+      "suixinfei.icu",
+      "tsuina.cyou"
+    ],
+    "mantle": [
+      "allocation-mantle.bond",
+      "allocation-mantle.cfd",
+      "ecosystems-mantle.cfd",
+      "rewards-mantle.bond",
+      "rewards-mantle.cfd"
+    ],
+    "reward": [
+      "rewards-flarenetwork.bond",
+      "rewards-flarenetwork.cfd",
+      "rewards-mantle.bond",
+      "rewards-mantle.cfd",
+      "rewards-stable.cfd"
+    ],
+    "rewards": [
+      "rewards-flarenetwork.bond",
+      "rewards-flarenetwork.cfd",
+      "rewards-mantle.bond",
+      "rewards-mantle.cfd",
+      "rewards-stable.cfd"
+    ],
+    "ally": [
+      "candytallyun.cfd",
+      "legally-blonde-lordfilm.sbs",
+      "swimpapallyrifting.cfd",
+      "tallyguidesocialsspry.bond",
+      "tallyguidesocilsspry.bond"
     ],
     "helpdesk": [
       "3mhelpdesk.icu",
       "3mohelpdesk.icu"
     ],
-    "allocations": [
-      "allocations-cashmere-exchange.cfd",
-      "firelight-allocations.bond",
-      "firelight-allocations.cfd",
-      "firelight-allocations.cyou"
+    "eos": [
+      "correosentre.cyou",
+      "finnce76-eos85.sbs",
+      "primevideos.bond",
+      "xvideost.cfd"
     ],
-    "fund": [
-      "funds-approval.bond",
-      "funds-approval.cyou",
-      "funds-approval.sbs",
-      "fundsacces.cyou"
+    "zoom": [
+      "fintechzoom.bond",
+      "us05webzoom.cfd",
+      "us05webzoom.sbs",
+      "zoomapk.sbs"
     ],
-    "customer": [
-      "mailcenter-usaa-com-customerservice.bond",
-      "mailcenter-usaa-com-customerservice.cyou"
+    "invest": [
+      "investment-qaf.cyou",
+      "meritholtinvest-ca.cfd",
+      "rstinvestruxshona.cfd",
+      "tur-invest.sbs"
+    ],
+    "bank": [
+      "banksiadepure.qpon",
+      "discoverbank.cfd",
+      "nspkbank.icu",
+      "www-usaa-com-onlinebanking.bond"
+    ],
+    "invite": [
+      "cardinvites.icu",
+      "invitedetails.icu",
+      "selecteinvites.cfd",
+      "yayinvite.icu"
+    ],
+    "secure": [
+      "neurosecure.sbs",
+      "secureaccount-secureverlficationport.sbs",
+      "securedcontract.icu",
+      "secureloadpros.bond"
+    ],
+    "confirm": [
+      "confirm059185277.sbs",
+      "confirm059185725.sbs",
+      "confirmation77501.cfd",
+      "confirmelementcandidate60.sbs"
+    ],
+    "token": [
+      "madewithtokens.icu",
+      "tokenpket-cdn-hk.cfd",
+      "tokenpoket-cdn-xgu.sbs",
+      "xingyuntoken.cyou"
     ],
     "alert": [
       "fraudalertsnow-esl-org.sbs",
       "nsealerts.sbs"
     ],
-    "web3": [
-      "haiou-web3.cyou",
-      "web3-trust.icu",
-      "web3savingsplan.bond",
-      "web3savingsplan.icu"
-    ],
-    "confirm": [
-      "confirm059185277.sbs",
-      "confirm059185725.sbs",
-      "confirmelementcandidate60.sbs"
+    "quest": [
+      "ethernetquest.sbs",
+      "referralrequestedpontiac75.sbs",
+      "requests.cyou"
     ]
   }
 }
