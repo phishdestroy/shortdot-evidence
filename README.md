@@ -1,10 +1,10 @@
 > [!NOTE]
 > **This project now lives on GitLab.**
-> On 2026-10-08 the `phishdestroy` organization on GitHub became unavailable. The reason is not yet known.
-> All repositories were restored here from their latest GitHub state (source commit `ddee1e9`).
-> Development continues on GitLab.
+> On 2026-10-07 the `phishdestroy` organization on GitHub was blocked; the reason is not yet known
+> ([our statement](https://gitlab.com/phishdestroy)). This repository was restored here from its latest
+> GitHub state (source commit `ddee1e9`) and development continues on GitLab.
 >
-> 📜 Last public GitHub snapshot: [Wayback Machine](https://web.archive.org/web/2026/https://github.com/phishdestroy)
+> 📜 Last public GitHub snapshot: [Wayback Machine](https://web.archive.org/web/20261003121912/https://github.com/phishdestroy)
 > · 🔁 Old links: replace `github.com` with `gitlab.com`
 
 <div align="center">
