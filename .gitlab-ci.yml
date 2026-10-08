@@ -1,3 +1,4 @@
+# Runs on the PhishDestroy server runner (tag pd-server, shell executor).
 # Daily NetAPI fetch (replaces .github/workflows/update.yml; same steps) and
 # GitLab Pages deployment. `fetch` runs from the pipeline schedule (or a manual
 # "Run pipeline"); it pushes the update with the job token and hands the fresh
@@ -7,15 +8,16 @@ stages: [fetch, deploy]
 fetch:
   stage: fetch
   image: python:3.12
+  tags: [pd-server]
   variables:
     GIT_DEPTH: "1"
     TLD_LIST: "icu,bond,cyou,sbs,cfd,buzz,qpon"
   rules:
     - if: $CI_PIPELINE_SOURCE == "schedule" || $CI_PIPELINE_SOURCE == "web"
   script:
-    - python scan/fetch_new.py
+    - python3 scan/fetch_new.py
     - cp data/index.json docs/chart-data.json
-    - python docs/build_datajson.py --index data/index.json --ioc ioc/indicators.csv --legit case/LEGITIMATE_SURVEY.md --out docs/data.json
+    - python3 docs/build_datajson.py --index data/index.json --ioc ioc/indicators.csv --legit case/LEGITIMATE_SURVEY.md --out docs/data.json
     - |
       git config user.name "PhishDestroy Bot"
       git config user.email "bot@phishdestroy.io"
@@ -40,6 +42,7 @@ fetch:
 pages:
   stage: deploy
   image: alpine:3.20
+  tags: [pd-server]
   variables:
     GIT_DEPTH: "1"
   needs:
