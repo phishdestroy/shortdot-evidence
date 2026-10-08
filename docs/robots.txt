@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://phishdestroy.github.io/shortdot-evidence/sitemap.xml
+Sitemap: https://phishdestroy.gitlab.io/shortdot-evidence/sitemap.xml

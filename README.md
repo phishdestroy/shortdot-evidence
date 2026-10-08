@@ -1,3 +1,12 @@
+> [!NOTE]
+> **This project now lives on GitLab.**
+> On 2026-10-08 the `phishdestroy` organization on GitHub became unavailable. The reason is not yet known.
+> All repositories were restored here from their latest GitHub state (source commit `ddee1e9`).
+> Development continues on GitLab.
+>
+> 📜 Last public GitHub snapshot: [Wayback Machine](https://web.archive.org/web/2026/https://github.com/phishdestroy)
+> · 🔁 Old links: replace `github.com` with `gitlab.com`
+
 <div align="center">
 <img src="docs/assets/banner.gif" width="100%"/>
 </div>
@@ -26,7 +35,7 @@ They were meant to be <i>counted.</i><br/>
 [![IANA Registry](https://img.shields.io/badge/IANA-ShortDot_SA-6ea8d7?style=for-the-badge&labelColor=0c1018)](https://www.iana.org/assignments/tld-review/)
 [![TLP CLEAR](https://img.shields.io/badge/TLP-CLEAR-3fb950?style=for-the-badge&labelColor=0c1018)](https://www.first.org/tlp/)
 [![License MIT](https://img.shields.io/badge/license-MIT-c0a060?style=for-the-badge&labelColor=0c1018)](LICENSE)
-[![Auto-updated](https://img.shields.io/badge/data-auto--updated_daily-8b5cf6?style=for-the-badge&labelColor=0c1018)](https://github.com/phishdestroy/shortdot-evidence/actions)
+[![Auto-updated](https://img.shields.io/badge/data-auto--updated_daily-8b5cf6?style=for-the-badge&labelColor=0c1018)](https://gitlab.com/phishdestroy/shortdot-evidence/-/pipelines)
 
 <br/>
 
@@ -126,19 +135,19 @@ CN  ░░░░░░░░░░░░░░░░░░          9 (0.4%)
 
 <div align="center">
 
-[![🔴 LIVE SITE](https://img.shields.io/badge/%F0%9F%94%B4%20LIVE-phishdestroy.github.io%2Fshortdot--evidence-FF3333?style=for-the-badge)](https://phishdestroy.github.io/shortdot-evidence/)
-[![Evidence Portal](https://img.shields.io/badge/Evidence_Portal-GitHub_Pages-161b22?style=for-the-badge&logo=github)](https://phishdestroy.github.io/shortdot-evidence/)
+[![🔴 LIVE SITE](https://img.shields.io/badge/%F0%9F%94%B4%20LIVE-phishdestroy.gitlab.io%2Fshortdot--evidence-FF3333?style=for-the-badge)](https://phishdestroy.gitlab.io/shortdot-evidence/)
+[![Evidence Portal](https://img.shields.io/badge/Evidence_Portal-GitHub_Pages-161b22?style=for-the-badge&logo=github)](https://phishdestroy.gitlab.io/shortdot-evidence/)
 [![ICANN Filed](https://img.shields.io/badge/ICANN-Compliance_Filed-e36209?style=for-the-badge)](https://www.icann.org/compliance)
 [![MIT License](https://img.shields.io/badge/License-MIT-238636?style=for-the-badge)](LICENSE)
 
 <br/>
 
-![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/stats/total.json)
-![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/stats/no_ip.json)
-![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/stats/brand_total.json)
-![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/stats/legit.json)
-![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/stats/icann.json)
-![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/stats/revenue.json)
+![](https://img.shields.io/endpoint?url=https://gitlab.com/phishdestroy/shortdot-evidence/-/raw/main/stats/total.json)
+![](https://img.shields.io/endpoint?url=https://gitlab.com/phishdestroy/shortdot-evidence/-/raw/main/stats/no_ip.json)
+![](https://img.shields.io/endpoint?url=https://gitlab.com/phishdestroy/shortdot-evidence/-/raw/main/stats/brand_total.json)
+![](https://img.shields.io/endpoint?url=https://gitlab.com/phishdestroy/shortdot-evidence/-/raw/main/stats/legit.json)
+![](https://img.shields.io/endpoint?url=https://gitlab.com/phishdestroy/shortdot-evidence/-/raw/main/stats/icann.json)
+![](https://img.shields.io/endpoint?url=https://gitlab.com/phishdestroy/shortdot-evidence/-/raw/main/stats/revenue.json)
 
 </div>
 
@@ -192,7 +201,7 @@ CN  ░░░░░░░░░░░░░░░░░░          9 (0.4%)
 <summary><b>🏆 NameSilo: ShortDot's largest registrar partner and most enthusiastic phishing infrastructure supplier — click to expand</b></summary>
 <br/>
 
-> 🏆 *We must confess: we are massive fans of **[NameSilo](https://github.com/phishdestroy/namesilo-evidence)**. We are endlessly inspired by their mastery — not just their steadfast commitment to retro web design, but their unparalleled operational brilliance in reputation management.*
+> 🏆 *We must confess: we are massive fans of **[NameSilo](https://gitlab.com/phishdestroy/namesilo-evidence)**. We are endlessly inspired by their mastery — not just their steadfast commitment to retro web design, but their unparalleled operational brilliance in reputation management.*
 
 It takes true dedication to aggressively publish self-praising PR articles and manufactured reviews while **systematically trying to silence independent security researchers**. We watch in awe as they zealously defend phishing operators and scam networks, going so far as to **blatantly lie about removing VirusTotal detections** just to keep their most "valuable" clients online.
 
@@ -214,7 +223,7 @@ The result: **millions of domains bulk-registered daily, 70.4% with zero DNS rec
 
 </details>
 
-**Full NameSilo investigation → [github.com/phishdestroy/namesilo-evidence](https://github.com/phishdestroy/namesilo-evidence)**
+**Full NameSilo investigation → [github.com/phishdestroy/namesilo-evidence](https://gitlab.com/phishdestroy/namesilo-evidence)**
 
 </details>
 
@@ -681,7 +690,7 @@ When NameSilo sells these domains in bulk, they are not supporting legitimate af
 
 What ShortDot actually provides to NameSilo is not a legitimate internet product; it is a **financial instrument**.
 
-It is a mechanism to demonstrate hyper-growth, record registration volumes, and "super-profits" to investors, notably in their filings for the Canadian stock exchange. It is fascinating how a company operating with a 2008-era administrative interface suddenly demonstrates exponential volume growth. The math behind the heavily discounted bulk sales is designed for one purpose: to inflate quarterly reports. (Cross-reference the exact domain counts against their claimed revenue in our [NameSilo investigation repository](https://github.com/phishdestroy/namesilo-evidence).)
+It is a mechanism to demonstrate hyper-growth, record registration volumes, and "super-profits" to investors, notably in their filings for the Canadian stock exchange. It is fascinating how a company operating with a 2008-era administrative interface suddenly demonstrates exponential volume growth. The math behind the heavily discounted bulk sales is designed for one purpose: to inflate quarterly reports. (Cross-reference the exact domain counts against their claimed revenue in our [NameSilo investigation repository](https://gitlab.com/phishdestroy/namesilo-evidence).)
 
 ### The Regulatory Void
 
@@ -852,11 +861,11 @@ ShortDot SA is an ICANN-accredited registry operator under contractual obligatio
 
 This repository may be freely mirrored, archived, and forked. The domain name data it contains is **not private property** and includes **no personal data** — it consists solely of publicly registered domain strings, observable network metadata, and derived statistics, all originating from public sources. Mirrors of all critical data files are maintained independently of this primary repository.
 
-Distribution of IOC lists and derived detection signatures is explicitly encouraged. Preferred attribution: `PhishDestroy — ShortDot SA Zone Evidence · https://github.com/phishdestroy/shortdot-evidence`
+Distribution of IOC lists and derived detection signatures is explicitly encouraged. Preferred attribution: `PhishDestroy — ShortDot SA Zone Evidence · https://gitlab.com/phishdestroy/shortdot-evidence`
 
 ### Disputes & Corrections
 
-We do not respond individually to parties with a documented or evident interest in suppressing this research. However, a transparent public process exists: **[open a GitHub Issue](https://github.com/phishdestroy/shortdot-evidence/issues)**.
+We do not respond individually to parties with a documented or evident interest in suppressing this research. However, a transparent public process exists: **[open a GitHub Issue](https://gitlab.com/phishdestroy/shortdot-evidence/-/issues)**.
 
 Correction requests must identify a specific factual claim and provide documented counter-evidence. Verified corrections are published within 72 hours. Requests to suppress accurate information will be declined and documented.
 
@@ -864,7 +873,7 @@ Correction requests must identify a specific factual claim and provide documente
 |---|---|
 | **License** | MIT — data, code, and analysis freely reusable with attribution |
 | **TLP** | CLEAR — unlimited distribution |
-| **Contact** | [phishdestroy.io](https://phishdestroy.io) · [GitHub Issues](https://github.com/phishdestroy/shortdot-evidence/issues) |
+| **Contact** | [phishdestroy.io](https://phishdestroy.io) · [GitHub Issues](https://gitlab.com/phishdestroy/shortdot-evidence/-/issues) |
 
 ---
 

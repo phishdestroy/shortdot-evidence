@@ -5,8 +5,8 @@ type: dataset
 authors:
   - name: PhishDestroy
     website: https://phishdestroy.io
-repository-code: https://github.com/phishdestroy/shortdot-evidence
-url: https://phishdestroy.github.io/shortdot-evidence
+repository-code: https://gitlab.com/phishdestroy/shortdot-evidence
+url: https://phishdestroy.gitlab.io/shortdot-evidence
 abstract: >
   Evidence package documenting abuse patterns across seven domain TLD zones
   operated by ShortDot SA (Luxembourg): .icu, .bond, .cyou, .sbs, .cfd,

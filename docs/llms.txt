@@ -34,4 +34,4 @@ ICANN collects $0.18 per domain per year regardless of whether the domain is use
 ## License
 
 MIT — TLP:CLEAR — freely reusable with attribution.
-Source: https://github.com/phishdestroy/shortdot-evidence
+Source: https://gitlab.com/phishdestroy/shortdot-evidence
