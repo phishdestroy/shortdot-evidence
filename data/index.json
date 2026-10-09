@@ -437,6 +437,13 @@
       "revenue_wholesale": 10306.35,
       "icann_fees": 2514.5,
       "path": "data/new/2026/10/2026-10-08.txt"
+    },
+    {
+      "date": "2026-10-09",
+      "count": 10058,
+      "revenue_wholesale": 10306.35,
+      "icann_fees": 2514.5,
+      "path": "data/new/2026/10/2026-10-09.txt"
     }
   ],
   "total_domains": 6242647,
@@ -554,7 +561,7 @@
   "fresh_pct": 100.0,
   "burst_days": [
     {
-      "date": "2026-10-08",
+      "date": "2026-10-09",
       "count": 10058,
       "x_avg": 1.0
     }
@@ -566,29 +573,29 @@
     "hop": 19,
     "fund": 14,
     "neo": 12,
+    "login": 11,
     "service": 11,
     "invest": 11,
-    "login": 11,
     "ally": 10,
     "tron": 10,
     "bank": 9,
     "allocation": 8,
     "auth": 7,
-    "wise": 6,
     "token": 6,
+    "wise": 6,
     "verify": 6,
-    "support": 6,
-    "near": 6,
     "base": 6,
+    "near": 6,
+    "support": 6,
     "sui": 5,
     "capital": 4,
-    "aurora": 4,
-    "iron": 4,
-    "claim": 4,
-    "sonic": 4,
     "earn": 4,
+    "iron": 4,
+    "sonic": 4,
+    "claim": 4,
+    "aurora": 4,
     "alert": 4,
-    "invite": 3,
+    "reward": 3,
     "bonus": 3
   },
   "unranked_pct": 100.0,
@@ -598,5 +605,5 @@
   "legit_count": 0,
   "serial_email_count": 0,
   "legit_ratio_pct": 0.0,
-  "last_updated": "2026-10-08"
+  "last_updated": "2026-10-09"
 }
