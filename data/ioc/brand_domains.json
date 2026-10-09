@@ -38,27 +38,6 @@
       "soc-portal.cfd",
       "svo-portal.sbs"
     ],
-    "finance": [
-      "allocation-umiafinance.cfd",
-      "calmfinance.sbs",
-      "claim-dopplerfinance.bond",
-      "claim-dopplerfinance.cfd",
-      "claim-dopplerfinance.cyou",
-      "finance93-dolore55.sbs",
-      "finance93-in2.sbs",
-      "finance95-harum14.sbs",
-      "finance97-magnam89.sbs",
-      "finance99-eum50.sbs",
-      "finance99-nam85.sbs",
-      "fraxfinance.sbs",
-      "pendlefinance.cyou",
-      "theindexfinance.bond",
-      "theindexfinance.cfd",
-      "theindexfinance.cyou",
-      "theindexfinances.cfd",
-      "theindexfinances.cyou",
-      "voting-theindexfinance.cfd"
-    ],
     "hop": [
       "7arfoushoptimizer.bond",
       "chaodashop.icu",
@@ -79,6 +58,27 @@
       "vapeshopasd.icu",
       "villanovashop.cfd",
       "woodwondersworkshop.cfd"
+    ],
+    "finance": [
+      "allocation-umiafinance.cfd",
+      "calmfinance.sbs",
+      "claim-dopplerfinance.bond",
+      "claim-dopplerfinance.cfd",
+      "claim-dopplerfinance.cyou",
+      "finance93-dolore55.sbs",
+      "finance93-in2.sbs",
+      "finance95-harum14.sbs",
+      "finance97-magnam89.sbs",
+      "finance99-eum50.sbs",
+      "finance99-nam85.sbs",
+      "fraxfinance.sbs",
+      "pendlefinance.cyou",
+      "theindexfinance.bond",
+      "theindexfinance.cfd",
+      "theindexfinance.cyou",
+      "theindexfinances.cfd",
+      "theindexfinances.cyou",
+      "voting-theindexfinance.cfd"
     ],
     "fund": [
       "advancefunds29.buzz",
@@ -110,19 +110,6 @@
       "pipelineology.bond",
       "pipelineology.icu"
     ],
-    "login": [
-      "accountlogin.cyou",
-      "ato-gov-au-login.cfd",
-      "crelanlogin.icu",
-      "dbslogin.icu",
-      "info-update-au-login.cfd",
-      "ingbanklogin.icu",
-      "login-1xbet-online.sbs",
-      "megavip-login.bond",
-      "ocbclogin.icu",
-      "situstotologinterbaru.sbs",
-      "vip188loginkan.icu"
-    ],
     "service": [
       "denvenservicesprivatelimited.cyou",
       "leephilipburtonservices.sbs",
@@ -135,6 +122,19 @@
       "trudreamzservices.sbs",
       "venilaservice.cfd",
       "workspace-service.icu"
+    ],
+    "login": [
+      "accountlogin.cyou",
+      "ato-gov-au-login.cfd",
+      "crelanlogin.icu",
+      "dbslogin.icu",
+      "info-update-au-login.cfd",
+      "ingbanklogin.icu",
+      "login-1xbet-online.sbs",
+      "megavip-login.bond",
+      "ocbclogin.icu",
+      "situstotologinterbaru.sbs",
+      "vip188loginkan.icu"
     ],
     "invest": [
       "anboinvestastar.cfd",
@@ -149,6 +149,13 @@
       "tatapowerinvest.sbs",
       "weight-loss-investment.sbs"
     ],
+    "tron": [
+      "electroniccraftsman.buzz",
+      "strongvpn.cyou",
+      "strongvpn.sbs",
+      "techeletronicos.cyou",
+      "tronchain.sbs"
+    ],
     "ally": [
       "ahally00.cyou",
       "ahally05.bond",
@@ -160,13 +167,6 @@
       "tallyguidelanterfe.cfd",
       "temposcotallyboard.cyou",
       "tonvaultallyguid.buzz"
-    ],
-    "tron": [
-      "electroniccraftsman.buzz",
-      "strongvpn.cyou",
-      "strongvpn.sbs",
-      "techeletronicos.cyou",
-      "tronchain.sbs"
     ],
     "bank": [
       "bankslot222.sbs",
@@ -198,30 +198,6 @@
       "histauth.cfd",
       "solsniper-secureauth.sbs"
     ],
-    "token": [
-      "otointokenndlin.cyou",
-      "tokenpket-hk-cdn.cfd",
-      "tokenpket-hk-cdn.sbs",
-      "tokenpket-sg-cdn.cfd",
-      "tokenpket-sg-cdn.sbs",
-      "tokenpockt.buzz"
-    ],
-    "wise": [
-      "ohmwisely.cyou",
-      "stakewiseio.sbs",
-      "studywise.sbs",
-      "usadocwise.cfd",
-      "usadocwise.cyou",
-      "usadocwise.sbs"
-    ],
-    "verify": [
-      "4front-verify-now.cfd",
-      "cra-q4-authverify2.cfd",
-      "msg-verify-4frontcu.cfd",
-      "verify-4front.cfd",
-      "verify-4frontcu-msg.cfd",
-      "verify-now-4front.cfd"
-    ],
     "base": [
       "basefestivayell.qpon",
       "basement-offcial.cyou",
@@ -229,6 +205,14 @@
       "beerbase.buzz",
       "filehub-base-84635-ver1947-code6152.icu",
       "tutorialbase.cfd"
+    ],
+    "token": [
+      "otointokenndlin.cyou",
+      "tokenpket-hk-cdn.cfd",
+      "tokenpket-hk-cdn.sbs",
+      "tokenpket-sg-cdn.cfd",
+      "tokenpket-sg-cdn.sbs",
+      "tokenpockt.buzz"
     ],
     "near": [
       "allocation-near.bond",
@@ -240,6 +224,22 @@
       "supportforveterans.cfd",
       "technologysupport.icu"
     ],
+    "verify": [
+      "4front-verify-now.cfd",
+      "cra-q4-authverify2.cfd",
+      "msg-verify-4frontcu.cfd",
+      "verify-4front.cfd",
+      "verify-4frontcu-msg.cfd",
+      "verify-now-4front.cfd"
+    ],
+    "wise": [
+      "ohmwisely.cyou",
+      "stakewiseio.sbs",
+      "studywise.sbs",
+      "usadocwise.cfd",
+      "usadocwise.cyou",
+      "usadocwise.sbs"
+    ],
     "sui": [
       "connectboxsuite.sbs",
       "growboxsuite.sbs",
@@ -247,11 +247,11 @@
       "pureboxsuite.sbs",
       "suibiancloud.sbs"
     ],
-    "capital": [
-      "capitalgainz.cfd",
-      "capitalquest.cfd",
-      "griffonforgecapital.buzz",
-      "nestor-capital.sbs"
+    "claim": [
+      "claim-dopplerfinance.bond",
+      "claim-dopplerfinance.cfd",
+      "claim-dopplerfinance.cyou",
+      "claimcanada.sbs"
     ],
     "earn": [
       "chitectearnesth.qpon",
@@ -271,29 +271,29 @@
       "sonicretroworld.cfd",
       "sonictrafficnet.cfd"
     ],
-    "claim": [
-      "claim-dopplerfinance.bond",
-      "claim-dopplerfinance.cfd",
-      "claim-dopplerfinance.cyou",
-      "claimcanada.sbs"
+    "alert": [
+      "alert-ncb.icu",
+      "alertinggapjfre.cyou"
+    ],
+    "capital": [
+      "capitalgainz.cfd",
+      "capitalquest.cfd",
+      "griffonforgecapital.buzz",
+      "nestor-capital.sbs"
     ],
     "aurora": [
       "auroraly.bond",
       "aurorascreen-offcial.cyou"
-    ],
-    "alert": [
-      "alert-ncb.icu",
-      "alertinggapjfre.cyou"
     ],
     "reward": [
       "reward-ing.cfd",
       "reward1-ing.cfd",
       "rewards-xstocks.cfd"
     ],
-    "bonus": [
-      "bonus1000.buzz",
-      "nabil-bonus.sbs",
-      "no-deposit-bonus-casino.sbs"
+    "ledger": [
+      "meridianledger.cfd",
+      "sortledgercapsulfon.cyou",
+      "sortledgermeadowre.cyou"
     ]
   }
 }

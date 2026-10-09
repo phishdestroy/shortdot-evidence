@@ -91,7 +91,7 @@ FI  ░░░░░░░░░░░░░░░░░░         28 (2.3%)
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`dia (22)` &middot; `portal (22)` &middot; `finance (19)` &middot; `hop (19)` &middot; `fund (14)` &middot; `neo (12)` &middot; `login (11)` &middot; `service (11)` &middot; `invest (11)` &middot; `ally (10)` &middot; `tron (10)` &middot; `bank (9)` &middot; `allocation (8)` &middot; `auth (7)` &middot; `token (6)`
+`dia (22)` &middot; `portal (22)` &middot; `hop (19)` &middot; `finance (19)` &middot; `fund (14)` &middot; `neo (12)` &middot; `service (11)` &middot; `login (11)` &middot; `invest (11)` &middot; `tron (10)` &middot; `ally (10)` &middot; `bank (9)` &middot; `allocation (8)` &middot; `auth (7)` &middot; `base (6)`
 
 ### 📥 Download Threat Intelligence
 
