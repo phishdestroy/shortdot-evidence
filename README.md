@@ -45,7 +45,7 @@ They were meant to be <i>counted.</i><br/>
 
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-11`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-12`
 
 <table><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><sub><code>6,242,647</code></sub></td>
@@ -63,8 +63,8 @@ They were meant to be <i>counted.</i><br/>
 | `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 0 | — | $634,670 |
 | `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
 | `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
-| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 1 | — | $1,242,854 |
-| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 9 | — | $619,050 |
+| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 0 | — | $1,242,854 |
+| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 4 | — | $619,050 |
 | `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 0 | — | $680,602 |
 | `.qpon` | 110,365 | 61,237 (55.5%) | 49,128 | 0 | — | $275,912 |
 
@@ -73,25 +73,25 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████         20 (33.9%)
-HK  ███████░░░░░░░░░░░          8 (13.6%)
-DE  ██████░░░░░░░░░░░░          7 (11.9%)
-RU  █████░░░░░░░░░░░░░          6 (10.2%)
-LU  ███░░░░░░░░░░░░░░░          4 (6.8%)
-IE  ██░░░░░░░░░░░░░░░░          3 (5.1%)
-NL  █░░░░░░░░░░░░░░░░░          2 (3.4%)
-AU  █░░░░░░░░░░░░░░░░░          2 (3.4%)
+US  ██████████████████         15 (45.5%)
+CN  ████░░░░░░░░░░░░░░          4 (12.1%)
+LU  ████░░░░░░░░░░░░░░          4 (12.1%)
+DE  ███░░░░░░░░░░░░░░░          3 (9.1%)
+HK  ███░░░░░░░░░░░░░░░          3 (9.1%)
+NL  ██░░░░░░░░░░░░░░░░          2 (6.1%)
+SG  █░░░░░░░░░░░░░░░░░          1 (3.0%)
+RU  █░░░░░░░░░░░░░░░░░          1 (3.0%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-10-11` | 9,866 | **1.0×** |
+| `2026-10-12` | 8,892 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`login (325)` &middot; `dia (18)` &middot; `portal (14)` &middot; `auth (11)` &middot; `finance (8)` &middot; `hop (8)` &middot; `ledger (8)` &middot; `apple (6)` &middot; `official (6)` &middot; `capital (6)` &middot; `tron (6)` &middot; `base (6)` &middot; `invest (5)` &middot; `update (5)` &middot; `wise (5)`
+`support (18)` &middot; `portal (18)` &middot; `tron (8)` &middot; `hop (8)` &middot; `claim (8)` &middot; `verify (7)` &middot; `dia (7)` &middot; `sui (6)` &middot; `capital (6)` &middot; `eos (5)` &middot; `bank (5)` &middot; `neo (4)` &middot; `bnb (4)` &middot; `atrix (4)` &middot; `claims (4)`
 
 ### 📥 Download Threat Intelligence
 
