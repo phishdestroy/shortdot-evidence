@@ -1,36 +1,302 @@
 {
-  "generated": "2026-10-12",
-  "count": 3,
+  "generated": "2026-10-13",
+  "count": 14,
   "ips": [
     {
+      "ip": "44.220.119.128",
+      "count": 87,
+      "country": "US",
+      "domains": [
+        "agbmo-kdod-i-kf.icu",
+        "aiamp-gdib-h-ed.icu",
+        "aleaj-dgon-f-mi.icu",
+        "amine-hjmd-a-ha.icu",
+        "aonbi-mbno-p-en.icu",
+        "bcfbg-hcjd-m-ij.icu",
+        "bkdmn-mfci-ga-do.icu",
+        "bknhc-megh-g-kf.icu",
+        "chnhg-plhl-oe-jh.icu",
+        "cnmed-odjj-im-ka.icu",
+        "copel-emle-hg-bm.icu",
+        "dblnd-padk-il-i.icu",
+        "dibco-mgcg-fm-kf.icu",
+        "dklki-abkn-aj-mc.icu",
+        "dnegb-kgjp-p-a.icu",
+        "dpgmb-oebf-l-li.icu",
+        "dpiia-gkme-o-pm.icu",
+        "ebjfk-hclp-e-fd.icu",
+        "ecpkd-doim-p-dp.icu",
+        "edibm-edon-c-fp.icu",
+        "efmge-oaon-d-a.icu",
+        "elncf-cmeh-n-l.icu",
+        "emffk-lejm-oa-fn.icu",
+        "eoplo-gjmh-j-i.icu",
+        "fgdpi-phon-d-gf.icu",
+        "fgpla-bpcg-dl-hp.icu",
+        "gagec-dfmf-dd-md.icu",
+        "gdhoo-peli-j-kh.icu",
+        "gfneh-kekk-f-ma.icu",
+        "gilij-cmkl-h-l.icu",
+        "gipbj-hoec-an-ic.icu",
+        "gjnpg-icdg-hm-n.icu",
+        "gllcl-oahh-cj-fn.icu",
+        "gpjgg-lfke-cb-k.icu",
+        "gpokd-kbdk-be-kk.icu",
+        "hahak-hafh-c-ki.icu",
+        "hamne-fhca-ll-la.icu",
+        "hcfel-gpod-g-kn.icu",
+        "heefg-mgno-gb-ba.icu",
+        "hjocm-kmch-c-gb.icu",
+        "hlodp-iehh-h-p.icu",
+        "hoend-fnop-m-pe.icu",
+        "hpmhc-leom-c-ja.icu",
+        "iepca-kcng-o-p.icu",
+        "ijgki-mjco-nb-pj.icu",
+        "ikbma-odjg-g-n.icu",
+        "ikjlg-oglm-o-lo.icu",
+        "ilock-fgpf-k-gh.icu",
+        "ineni-hchl-g-ga.icu",
+        "iodmb-hbpk-o-nj.icu",
+        "iomdl-ecah-j-on.icu",
+        "jbpih-hfoi-d-da.icu",
+        "jcepm-nlge-c-dl.icu",
+        "jfnge-ajdh-f-kd.icu",
+        "jpjln-hccl-c-n.icu",
+        "kcfni-aeba-f-c.icu",
+        "kecfp-plia-j-dl.icu",
+        "kflde-dcdh-i-i.icu",
+        "klbnm-opjg-f-f.icu",
+        "knhci-doap-d-he.icu",
+        "llmoj-joki-d-lm.icu",
+        "lmnlg-gldm-i-pl.icu",
+        "lpaha-ajii-a-k.icu",
+        "mahcn-nikc-g-bg.icu",
+        "mengo-ennk-e-m.icu",
+        "mhple-nipg-o-ff.icu",
+        "mifkf-ndmd-d-hk.icu",
+        "mjjel-mmmf-mf-k.icu",
+        "mkcic-eook-ce-mo.icu",
+        "mlipk-dnep-kg-lg.icu",
+        "mnfhk-hgnl-d-gn.icu",
+        "mpilg-lakf-a-e.icu",
+        "nckmb-micn-o-ld.icu",
+        "niopi-egoe-m-mn.icu",
+        "njelp-cffm-jc-eg.icu",
+        "nkkdh-aejl-m-ph.icu",
+        "nknhi-phih-g-gi.icu",
+        "nmclc-ildo-nc-kh.icu",
+        "oapoh-ngdn-h-ek.icu",
+        "ondig-bloh-ii-db.icu",
+        "oodij-ejdj-bf-bm.icu",
+        "opdoo-joem-g-ho.icu",
+        "pacbm-geih-df-hn.icu",
+        "pcjkk-endo-d-bd.icu",
+        "pclap-bkmg-gn-k.icu",
+        "phgbg-nigd-g-dm.icu",
+        "pnohd-kble-lp-me.icu"
+      ]
+    },
+    {
+      "ip": "37.187.131.118",
+      "count": 26,
+      "country": "FR",
+      "domains": [
+        "briskpinemail.buzz",
+        "calmpixelmail.buzz",
+        "cedarsummitmail.buzz",
+        "clevermeadowmail.buzz",
+        "coralpinemail.buzz",
+        "cosmicthundermail.buzz",
+        "frostyembermail.buzz",
+        "frostypinemail.buzz",
+        "gentlebeaconmail.buzz",
+        "goldenpinemail.buzz",
+        "ivorylakemail.buzz",
+        "mapleembermail.buzz",
+        "maplestonemail.buzz",
+        "polarprismmail.buzz",
+        "polarrivermail.buzz",
+        "primesummitmail.buzz",
+        "purelakemail.buzz",
+        "rapidcompassmail.buzz",
+        "rusticfieldmail.buzz",
+        "solarvalleymail.buzz",
+        "solidwavemail.buzz",
+        "steadycompassmail.buzz",
+        "sunnyhorizonmail.buzz",
+        "truepebblemail.buzz",
+        "willowcanyonmail.buzz",
+        "willowlakemail.buzz"
+      ]
+    },
+    {
       "ip": "188.114.97.3",
+      "count": 21,
+      "country": "",
+      "domains": [
+        "7e8pzk.buzz",
+        "7k-amp-zast.icu",
+        "adxance.buzz",
+        "barchaga-omaduz-shine.cyou",
+        "betabig.buzz",
+        "clobald.buzz",
+        "freeyfstar.buzz",
+        "hloade.buzz",
+        "instaqt.buzz",
+        "mcdrfrange.buzz",
+        "mscropa.buzz",
+        "nanrenjiayouzhan86665661.buzz",
+        "nantong-10yucozy.buzz",
+        "orobet-casino.buzz",
+        "orvunto.icu",
+        "prezentarevulcanizare.cyou",
+        "reverd-direct.icu",
+        "rxpidai.buzz",
+        "ta28f.qpon",
+        "v0idywbmqpn1mta.icu",
+        "yaolizyroom.buzz"
+      ]
+    },
+    {
+      "ip": "188.114.96.3",
+      "count": 17,
+      "country": "",
+      "domains": [
+        "danbady75478867.buzz",
+        "gqbo.buzz",
+        "innavat.buzz",
+        "kingroyalbravo.icu",
+        "kobzrkitty.buzz",
+        "microqh.buzz",
+        "ponsfamily.buzz",
+        "proaxch.buzz",
+        "site-amp-1793.icu",
+        "site-amp-1801.icu",
+        "tm88.buzz",
+        "uncommonsense.buzz",
+        "uqtrare.buzz",
+        "y0hw4kfycz86bxq.icu",
+        "yazhouziyuan64410217.buzz",
+        "yordam-online-shine.icu",
+        "yzmf71937454.buzz"
+      ]
+    },
+    {
+      "ip": "54.149.79.189",
+      "count": 10,
+      "country": "US",
+      "domains": [
+        "auth-policy.cyou",
+        "auth-relay.cyou",
+        "b4n7r2t6m9z.cyou",
+        "betcf.cyou",
+        "kakobuyuk.buzz",
+        "token-auth.cyou",
+        "token-node.cyou",
+        "token-vault.cyou",
+        "z3r7t1n4b8q2.cyou",
+        "z9x4c7v1b5n2.cyou"
+      ]
+    },
+    {
+      "ip": "34.216.117.25",
+      "count": 8,
+      "country": "US",
+      "domains": [
+        "auth-route.cyou",
+        "h5j2f8d1g6k3.cyou",
+        "hipobuyuk.buzz",
+        "mycircle.buzz",
+        "podnjatie-urovnja-v-odinochku-lordfilm.cyou",
+        "token-sync.cyou",
+        "v2c6x9z3b7n1.cyou",
+        "v3x7c1b5z9q2.cyou"
+      ]
+    },
+    {
+      "ip": "156.234.119.110",
+      "count": 5,
+      "country": "HK",
+      "domains": [
+        "dea641h4.icu",
+        "f02bareh.icu",
+        "mhn0fra0.icu",
+        "mskg29s3.icu",
+        "smyw0zkg.icu"
+      ]
+    },
+    {
+      "ip": "76.223.57.73",
+      "count": 5,
+      "country": "US",
+      "domains": [
+        "kqmrw.cyou",
+        "rjqra.cyou",
+        "vhaam.cyou",
+        "wilby.cyou",
+        "yggsu.cyou"
+      ]
+    },
+    {
+      "ip": "nc-ph-3812.web-hosting.com",
       "count": 4,
-      "country": "",
+      "country": "US",
       "domains": [
-        "13av-8.icu",
-        "df999.bond",
-        "llrj796725.sbs",
-        "mtxxl1.sbs"
+        "jettbet.buzz",
+        "maplebasinside.buzz",
+        "marshrun.cyou",
+        "myrtleyew.cyou"
       ]
     },
     {
-      "ip": "172.65.211.209",
-      "count": 3,
-      "country": "",
+      "ip": "34.81.12.85",
+      "count": 4,
+      "country": "TW",
       "domains": [
-        "888slot.cyou",
-        "99jili.icu",
-        "bcx88.cyou"
+        "jexul.buzz",
+        "qevor.buzz",
+        "roxun.buzz",
+        "ruvax.buzz"
       ]
     },
     {
-      "ip": "188.42.84.207",
+      "ip": "43.174.224.202",
       "count": 3,
-      "country": "LU",
+      "country": "SG",
       "domains": [
-        "kwammeogres.cyou",
-        "loggatsiyo.cfd",
-        "solnbinukau.cyou"
+        "abcd123.icu",
+        "xiaomo1.icu",
+        "zhuque0211.icu"
+      ]
+    },
+    {
+      "ip": "20.187.88.27",
+      "count": 3,
+      "country": "HK",
+      "domains": [
+        "e3ejln6o.icu",
+        "kj57z38h.icu",
+        "nnxjwz0x.icu"
+      ]
+    },
+    {
+      "ip": "207.207.210.107",
+      "count": 3,
+      "country": "US",
+      "domains": [
+        "btvum.cyou",
+        "iptvsurfp.buzz",
+        "mullinsmead.buzz"
+      ]
+    },
+    {
+      "ip": "216.227.142.171",
+      "count": 3,
+      "country": "US",
+      "domains": [
+        "dubaiescortsc.sbs",
+        "dubaiescortsd.sbs",
+        "dubaiescortsg.sbs"
       ]
     }
   ]
