@@ -26,7 +26,7 @@ They were meant to be <i>counted.</i><br/>
 [![IANA Registry](https://img.shields.io/badge/IANA-ShortDot_SA-6ea8d7?style=for-the-badge&labelColor=0c1018)](https://www.iana.org/assignments/tld-review/)
 [![TLP CLEAR](https://img.shields.io/badge/TLP-CLEAR-3fb950?style=for-the-badge&labelColor=0c1018)](https://www.first.org/tlp/)
 [![License MIT](https://img.shields.io/badge/license-MIT-c0a060?style=for-the-badge&labelColor=0c1018)](LICENSE)
-[![Auto-updated](https://img.shields.io/badge/data-auto--updated_daily-8b5cf6?style=for-the-badge&labelColor=0c1018)](https://gitlab.com/phishdestroy/shortdot-evidence/-/pipelines)
+[![Auto-updated](https://img.shields.io/badge/data-auto--updated_daily-8b5cf6?style=for-the-badge&labelColor=0c1018)](https://github.com/phishdestroy/shortdot-evidence/actions)
 
 <br/>
 
@@ -36,7 +36,7 @@ They were meant to be <i>counted.</i><br/>
 
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-12`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-07`
 
 <table><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><sub><code>6,242,647</code></sub></td>
@@ -51,11 +51,11 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 0 | — | $634,670 |
-| `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
-| `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
+| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 1 | — | $634,670 |
+| `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 3 | — | $8,612,506 |
+| `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 1 | — | $492,038 |
 | `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 0 | — | $1,242,854 |
-| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 4 | — | $619,050 |
+| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 9 | — | $619,050 |
 | `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 0 | — | $680,602 |
 | `.qpon` | 110,365 | 61,237 (55.5%) | 49,128 | 0 | — | $275,912 |
 
@@ -64,25 +64,25 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████         15 (45.5%)
-CN  ████░░░░░░░░░░░░░░          4 (12.1%)
-LU  ████░░░░░░░░░░░░░░          4 (12.1%)
-DE  ███░░░░░░░░░░░░░░░          3 (9.1%)
-HK  ███░░░░░░░░░░░░░░░          3 (9.1%)
-NL  ██░░░░░░░░░░░░░░░░          2 (6.1%)
-SG  █░░░░░░░░░░░░░░░░░          1 (3.0%)
-RU  █░░░░░░░░░░░░░░░░░          1 (3.0%)
+US  ██████████████████      2,062 (89.7%)
+DE  ░░░░░░░░░░░░░░░░░░         58 (2.5%)
+HK  ░░░░░░░░░░░░░░░░░░         55 (2.4%)
+MD  ░░░░░░░░░░░░░░░░░░         14 (0.6%)
+NL  ░░░░░░░░░░░░░░░░░░         13 (0.6%)
+SC  ░░░░░░░░░░░░░░░░░░         12 (0.5%)
+RU  ░░░░░░░░░░░░░░░░░░         10 (0.4%)
+CN  ░░░░░░░░░░░░░░░░░░          9 (0.4%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-10-12` | 8,892 | **1.0×** |
+| `2026-10-07` | 9,105 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`support (18)` &middot; `portal (18)` &middot; `tron (8)` &middot; `hop (8)` &middot; `claim (8)` &middot; `verify (7)` &middot; `dia (7)` &middot; `sui (6)` &middot; `capital (6)` &middot; `eos (5)` &middot; `bank (5)` &middot; `neo (4)` &middot; `bnb (4)` &middot; `atrix (4)` &middot; `claims (4)`
+`portal (28)` &middot; `support (26)` &middot; `hop (14)` &middot; `dia (13)` &middot; `steam (12)` &middot; `service (11)` &middot; `allocation (10)` &middot; `morpho (10)` &middot; `finance (8)` &middot; `base (8)` &middot; `orca (8)` &middot; `connect (7)` &middot; `drift (6)` &middot; `fund (6)` &middot; `sui (5)`
 
 ### 📥 Download Threat Intelligence
 
@@ -126,19 +126,19 @@ RU  █░░░░░░░░░░░░░░░░░          1 (3.0%)
 
 <div align="center">
 
-[![🔴 LIVE SITE](https://img.shields.io/badge/%F0%9F%94%B4%20LIVE-phishdestroy.gitlab.io%2Fshortdot--evidence-FF3333?style=for-the-badge)](https://phishdestroy.gitlab.io/shortdot-evidence/)
-[![Evidence Portal](https://img.shields.io/badge/Evidence_Portal-GitHub_Pages-161b22?style=for-the-badge&logo=github)](https://phishdestroy.gitlab.io/shortdot-evidence/)
+[![🔴 LIVE SITE](https://img.shields.io/badge/%F0%9F%94%B4%20LIVE-phishdestroy.github.io%2Fshortdot--evidence-FF3333?style=for-the-badge)](https://phishdestroy.github.io/shortdot-evidence/)
+[![Evidence Portal](https://img.shields.io/badge/Evidence_Portal-GitHub_Pages-161b22?style=for-the-badge&logo=github)](https://phishdestroy.github.io/shortdot-evidence/)
 [![ICANN Filed](https://img.shields.io/badge/ICANN-Compliance_Filed-e36209?style=for-the-badge)](https://www.icann.org/compliance)
 [![MIT License](https://img.shields.io/badge/License-MIT-238636?style=for-the-badge)](LICENSE)
 
 <br/>
 
-![](https://img.shields.io/endpoint?url=https://gitlab.com/phishdestroy/shortdot-evidence/-/raw/main/stats/total.json)
-![](https://img.shields.io/endpoint?url=https://gitlab.com/phishdestroy/shortdot-evidence/-/raw/main/stats/no_ip.json)
-![](https://img.shields.io/endpoint?url=https://gitlab.com/phishdestroy/shortdot-evidence/-/raw/main/stats/brand_total.json)
-![](https://img.shields.io/endpoint?url=https://gitlab.com/phishdestroy/shortdot-evidence/-/raw/main/stats/legit.json)
-![](https://img.shields.io/endpoint?url=https://gitlab.com/phishdestroy/shortdot-evidence/-/raw/main/stats/icann.json)
-![](https://img.shields.io/endpoint?url=https://gitlab.com/phishdestroy/shortdot-evidence/-/raw/main/stats/revenue.json)
+![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/stats/total.json)
+![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/stats/no_ip.json)
+![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/stats/brand_total.json)
+![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/stats/legit.json)
+![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/stats/icann.json)
+![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/stats/revenue.json)
 
 </div>
 
@@ -192,7 +192,7 @@ RU  █░░░░░░░░░░░░░░░░░          1 (3.0%)
 <summary><b>🏆 NameSilo: ShortDot's largest registrar partner and most enthusiastic phishing infrastructure supplier — click to expand</b></summary>
 <br/>
 
-> 🏆 *We must confess: we are massive fans of **[NameSilo](https://gitlab.com/phishdestroy/namesilo-evidence)**. We are endlessly inspired by their mastery — not just their steadfast commitment to retro web design, but their unparalleled operational brilliance in reputation management.*
+> 🏆 *We must confess: we are massive fans of **[NameSilo](https://github.com/phishdestroy/namesilo-evidence)**. We are endlessly inspired by their mastery — not just their steadfast commitment to retro web design, but their unparalleled operational brilliance in reputation management.*
 
 It takes true dedication to aggressively publish self-praising PR articles and manufactured reviews while **systematically trying to silence independent security researchers**. We watch in awe as they zealously defend phishing operators and scam networks, going so far as to **blatantly lie about removing VirusTotal detections** just to keep their most "valuable" clients online.
 
@@ -214,7 +214,7 @@ The result: **millions of domains bulk-registered daily, 70.4% with zero DNS rec
 
 </details>
 
-**Full NameSilo investigation → [github.com/phishdestroy/namesilo-evidence](https://gitlab.com/phishdestroy/namesilo-evidence)**
+**Full NameSilo investigation → [github.com/phishdestroy/namesilo-evidence](https://github.com/phishdestroy/namesilo-evidence)**
 
 </details>
 
@@ -681,7 +681,7 @@ When NameSilo sells these domains in bulk, they are not supporting legitimate af
 
 What ShortDot actually provides to NameSilo is not a legitimate internet product; it is a **financial instrument**.
 
-It is a mechanism to demonstrate hyper-growth, record registration volumes, and "super-profits" to investors, notably in their filings for the Canadian stock exchange. It is fascinating how a company operating with a 2008-era administrative interface suddenly demonstrates exponential volume growth. The math behind the heavily discounted bulk sales is designed for one purpose: to inflate quarterly reports. (Cross-reference the exact domain counts against their claimed revenue in our [NameSilo investigation repository](https://gitlab.com/phishdestroy/namesilo-evidence).)
+It is a mechanism to demonstrate hyper-growth, record registration volumes, and "super-profits" to investors, notably in their filings for the Canadian stock exchange. It is fascinating how a company operating with a 2008-era administrative interface suddenly demonstrates exponential volume growth. The math behind the heavily discounted bulk sales is designed for one purpose: to inflate quarterly reports. (Cross-reference the exact domain counts against their claimed revenue in our [NameSilo investigation repository](https://github.com/phishdestroy/namesilo-evidence).)
 
 ### The Regulatory Void
 
@@ -852,11 +852,11 @@ ShortDot SA is an ICANN-accredited registry operator under contractual obligatio
 
 This repository may be freely mirrored, archived, and forked. The domain name data it contains is **not private property** and includes **no personal data** — it consists solely of publicly registered domain strings, observable network metadata, and derived statistics, all originating from public sources. Mirrors of all critical data files are maintained independently of this primary repository.
 
-Distribution of IOC lists and derived detection signatures is explicitly encouraged. Preferred attribution: `PhishDestroy — ShortDot SA Zone Evidence · https://gitlab.com/phishdestroy/shortdot-evidence`
+Distribution of IOC lists and derived detection signatures is explicitly encouraged. Preferred attribution: `PhishDestroy — ShortDot SA Zone Evidence · https://github.com/phishdestroy/shortdot-evidence`
 
 ### Disputes & Corrections
 
-We do not respond individually to parties with a documented or evident interest in suppressing this research. However, a transparent public process exists: **[open a GitHub Issue](https://gitlab.com/phishdestroy/shortdot-evidence/-/issues)**.
+We do not respond individually to parties with a documented or evident interest in suppressing this research. However, a transparent public process exists: **[open a GitHub Issue](https://github.com/phishdestroy/shortdot-evidence/issues)**.
 
 Correction requests must identify a specific factual claim and provide documented counter-evidence. Verified corrections are published within 72 hours. Requests to suppress accurate information will be declined and documented.
 
@@ -864,7 +864,7 @@ Correction requests must identify a specific factual claim and provide documente
 |---|---|
 | **License** | MIT — data, code, and analysis freely reusable with attribution |
 | **TLP** | CLEAR — unlimited distribution |
-| **Contact** | [phishdestroy.io](https://phishdestroy.io) · [GitHub Issues](https://gitlab.com/phishdestroy/shortdot-evidence/-/issues) |
+| **Contact** | [phishdestroy.io](https://phishdestroy.io) · [GitHub Issues](https://github.com/phishdestroy/shortdot-evidence/issues) |
 
 ---
 

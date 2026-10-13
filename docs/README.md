@@ -2,7 +2,7 @@
 
 GitHub Pages source for the ShortDot SA investigation dashboard.
 
-Served at: https://phishdestroy.gitlab.io/shortdot-evidence/
+Served at: https://phishdestroy.github.io/shortdot-evidence/
 
 | File | Purpose |
 |---|---|
