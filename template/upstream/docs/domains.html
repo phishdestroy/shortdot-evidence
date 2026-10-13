@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Domain List — ShortDot SA Zone Evidence | PhishDestroy</title>
+<meta property="og:url" content="https://phishdestroy.github.io/shortdot-evidence/domains.html">
+<meta name="description" content="Full searchable domain list across ShortDot SA zones: .icu .bond .cyou .sbs .cfd .buzz .qpon. Filter by TLD, category, severity.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://phishdestroy.github.io/shortdot-evidence/domains.html">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="apple-touch-icon" href="assets/favicon.svg">
+<style>
+:root{--bg:#000;--s1:#070b12;--s2:#0c1018;--s3:#111720;--bdr:rgba(255,255,255,.08);--bdr2:rgba(255,255,255,.12);--tx:#f0f6fc;--tx2:#8b949e;--tx3:#484f58;--cy:#6ea8d7;--rd:#da3633;--gn:#3fb950;--or:#c0a060;--vi:#8b5cf6}
+*{box-sizing:border-box;margin:0;padding:0}html{font-size:14px}
+body{background:var(--bg);color:var(--tx);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.4;-webkit-font-smoothing:antialiased}
+a{color:var(--cy);text-decoration:none}a:hover{opacity:.8}
+code{font-family:monospace;font-size:.9em;background:rgba(255,255,255,.06);padding:1px 5px;border-radius:3px}
+
+.nav{position:sticky;top:0;z-index:100;background:rgba(7,11,18,.97);backdrop-filter:blur(8px);border-bottom:1px solid var(--bdr);padding:0 20px;height:48px;display:flex;align-items:center;gap:6px}
+.nav-brand{font-weight:700;font-size:13px;color:var(--tx);margin-right:auto}
+.nav-brand em{color:var(--rd);font-style:normal}
+.btn{display:inline-flex;align-items:center;gap:4px;padding:5px 12px;border-radius:4px;font-size:11px;font-weight:600;border:1px solid;text-decoration:none;white-space:nowrap;cursor:pointer;background:transparent;transition:.1s}
+.btn.ghost{border-color:var(--bdr);color:var(--tx2)}
+.btn.ghost:hover{border-color:var(--bdr2);color:var(--tx)}
+.btn.red{background:var(--rd);border-color:var(--rd);color:#fff}
+.btn.active{border-color:var(--cy);color:var(--cy);background:rgba(110,168,215,.08)}
+
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;padding:12px 20px;border-bottom:1px solid var(--bdr);background:var(--s1);align-items:center}
+.search-wrap{display:flex;align-items:center;gap:8px;flex:1;min-width:200px}
+input[type=search]{background:var(--s2);border:1px solid var(--bdr);border-radius:4px;padding:6px 10px;font-size:12px;color:var(--tx);width:100%;outline:none}
+input[type=search]:focus{border-color:var(--bdr2)}
+input[type=search]::placeholder{color:var(--tx3)}
+.filter-group{display:flex;gap:4px;flex-wrap:wrap}
+
+.count-bar{padding:8px 20px;font-size:10px;font-family:monospace;color:var(--tx3);border-bottom:1px solid var(--bdr);background:var(--s1)}
+.count-bar span{color:var(--tx2)}
+
+.tbl-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:11px}
+th{text-align:left;padding:7px 12px;color:var(--tx3);font-size:9px;text-transform:uppercase;letter-spacing:.06em;border-bottom:1px solid var(--bdr);font-weight:600;white-space:nowrap;background:var(--s2);position:sticky;top:48px;z-index:10}
+td{padding:7px 12px;border-bottom:1px solid rgba(255,255,255,.03);color:var(--tx2);font-family:monospace;font-size:11px}
+tr:hover td{background:rgba(255,255,255,.02)}
+.dom{color:var(--tx);font-weight:700}
+.sev-H{color:var(--rd)}.sev-M{color:var(--or)}.sev-I{color:var(--tx3)}.sev-L{color:var(--gn)}
+.tld-tag{display:inline-block;font-size:9px;padding:1px 5px;border-radius:2px;background:var(--s3);color:var(--tx3);font-family:monospace}
+.intel-links{white-space:nowrap;font-size:10px;font-family:monospace}
+.intel-links a{color:var(--tx3);text-decoration:none;padding:1px 3px;border:1px solid var(--bdr);border-radius:2px;margin-right:2px;transition:color .1s,border-color .1s}
+.intel-links a:hover{color:var(--cy);border-color:var(--cy)}
+
+.empty{text-align:center;padding:60px 20px;color:var(--tx3);font-size:12px}
+
+footer{border-top:1px solid var(--bdr);padding:16px 20px;text-align:center;font-size:10px;font-family:monospace;color:var(--tx3)}
+footer a{color:var(--cy)}
+</style>
+</head>
+<body>
+<div style="padding:6px 16px;font-size:12px;font-family:monospace;border-bottom:1px solid rgba(255,255,255,.06);color:#8b949e"><a href="https://phishdestroy.io" style="color:#6ea8d7;text-decoration:none">phishdestroy.io</a> &nbsp;&middot;&nbsp; <a href="https://phishdestroy.io/registrars-enabling-global-scams" style="color:#6ea8d7;text-decoration:none">Registrar Investigations</a></div>
+
+<nav class="nav">
+  <span class="nav-brand">PhishDestroy <em>/</em> ShortDot SA <em>/</em> IOC Table</span>
+  <a href="index.html" class="btn ghost">← Report</a>
+  <a href="https://phishdestroy.github.io/shortdot-evidence/ioc/domains_high.txt" class="btn red">⬇ HIGH IOC</a>
+</nav>
+
+<div style="background:#1a0a00;border-bottom:1px solid #c0602040;padding:8px 20px;font-size:11px;font-family:monospace;color:#c09060">
+  ⚠ This table contains <strong style="color:#e0a060" id="ioc-count-note">~158K</strong> IOC-classified domains (confirmed malicious by feed cross-reference and keyword matching).
+  Full zone data (6.4M domains): use the download links below each filter.
+</div>
+
+<div class="toolbar">
+  <div class="search-wrap">
+    <input type="search" id="search" placeholder="Search domain, category, notes…" autocomplete="off">
+  </div>
+  <div class="filter-group" id="tld-filters">
+    <button class="btn active" data-tld="">All IOC</button>
+    <button class="btn ghost" data-tld="icu">.icu</button>
+    <button class="btn ghost" data-tld="bond">.bond</button>
+    <button class="btn ghost" data-tld="cyou">.cyou</button>
+    <button class="btn ghost" data-tld="sbs">.sbs</button>
+    <button class="btn ghost" data-tld="cfd">.cfd</button>
+    <button class="btn ghost" data-tld="buzz">.buzz</button>
+    <button class="btn ghost" data-tld="qpon">.qpon</button>
+  </div>
+  <div class="filter-group" id="sev-filters">
+    <button class="btn active" data-sev="">All sev</button>
+    <button class="btn ghost" data-sev="HIGH">HIGH</button>
+    <button class="btn ghost" data-sev="MEDIUM">MED</button>
+  </div>
+</div>
+
+<div class="count-bar" id="count-bar">Loading…</div>
+<div id="dl-bar" style="padding:7px 20px;font-size:10px;font-family:monospace;color:var(--tx3);border-bottom:1px solid var(--bdr);background:var(--s2);display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+  <span style="color:var(--tx2);font-weight:700">Full zone downloads:</span>
+  <span id="dl-links"></span>
+</div>
+<style>
+.pager{display:flex;align-items:center;gap:8px;padding:8px 20px;border-bottom:1px solid var(--bdr);background:var(--s1);flex-wrap:wrap}
+.pager button{padding:4px 10px;border-radius:3px;font-size:11px;font-family:monospace;border:1px solid var(--bdr);background:var(--s2);color:var(--tx2);cursor:pointer}
+.pager button:hover{border-color:var(--bdr2);color:var(--tx)}
+.pager button:disabled{opacity:.3;cursor:default}
+.pager .pg-info{font-size:10px;color:var(--tx3);font-family:monospace}
+</style>
+<div class="pager" id="pager" style="display:none">
+  <button id="pg-first" onclick="goPage(0)">«</button>
+  <button id="pg-prev"  onclick="goPage(curPage-1)">‹ Prev</button>
+  <span class="pg-info" id="pg-info"></span>
+  <button id="pg-next"  onclick="goPage(curPage+1)">Next ›</button>
+  <button id="pg-last"  onclick="goPage(lastPage)">»</button>
+</div>
+
+<div class="tbl-wrap">
+<table>
+<thead><tr>
+  <th>Domain</th>
+  <th>TLD</th>
+  <th>Category</th>
+  <th>Severity</th>
+  <th>IP</th>
+  <th>Country</th>
+  <th>Registered</th>
+  <th>Notes</th>
+  <th>Intel</th>
+</tr></thead>
+<tbody id="tbody"></tbody>
+</table>
+<div class="empty" id="empty" style="display:none">No matching domains.</div>
+</div>
+
+<footer>PhishDestroy · ShortDot SA Zone Evidence · TLP:CLEAR · <a href="https://github.com/phishdestroy/shortdot-evidence">GitHub</a></footer>
+
+<script>
+(function(){
+  var all=[], filtered=[], activeTld='', activeSev='', activeCat='', searchQ='';
+  var PAGE_SIZE=200, curPage=0, lastPage=0;
+  window.curPage=0;window.lastPage=0;
+
+  var RAW='https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/';
+  var TLDS=['icu','bond','cyou','sbs','cfd','buzz','qpon'];
+  var params=new URLSearchParams(location.search);
+  if(params.get('tld')) activeTld=params.get('tld');
+  if(params.get('cat')) activeCat=params.get('cat');
+  (function buildDlBar(){
+    var bar=document.getElementById('dl-bar');
+    var linksEl=document.getElementById('dl-links');
+    if(!linksEl)return;
+    var tlds=activeTld?[activeTld]:TLDS;
+    var html=tlds.map(function(t){
+      return '<a href="'+RAW+'data/by_tld/'+t+'.txt" style="color:var(--cy);text-decoration:none" download>.'+t+' all ↓</a>'
+        +' <a href="'+RAW+'data/ioc/deployed/'+t+'.txt" style="color:var(--gn);text-decoration:none;margin-left:2px" download>.'+t+' +IP ↓</a>'
+        +' <a href="'+RAW+'data/ioc/phantom/'+t+'.txt" style="color:var(--or);text-decoration:none;margin-left:2px" download>.'+t+' phantom ↓</a>';
+    }).join(' · ');
+    linksEl.innerHTML=html;
+    bar.style.display='flex';
+  })();
+
+  fetch('data.json').then(function(r){return r.json();}).then(function(d){
+    all=(d.domains||[]);
+    var noteEl=document.getElementById('ioc-count-note');
+    if(noteEl) noteEl.textContent=all.length.toLocaleString();
+    initFilters();
+    applyFilter();
+  }).catch(function(){
+    document.getElementById('count-bar').textContent='Failed to load data.json';
+  });
+
+  function initFilters(){
+    document.querySelectorAll('[data-tld]').forEach(function(b){
+      b.classList.toggle('active', b.dataset.tld===activeTld);
+      b.addEventListener('click',function(){
+        activeTld=b.dataset.tld;
+        document.querySelectorAll('[data-tld]').forEach(function(x){x.classList.toggle('active',x.dataset.tld===activeTld);});
+        curPage=0;applyFilter();
+      });
+    });
+    document.querySelectorAll('[data-sev]').forEach(function(b){
+      b.classList.toggle('active', b.dataset.sev===activeSev);
+      b.addEventListener('click',function(){
+        activeSev=b.dataset.sev;
+        document.querySelectorAll('[data-sev]').forEach(function(x){x.classList.toggle('active',x.dataset.sev===activeSev);});
+        curPage=0;applyFilter();
+      });
+    });
+    document.getElementById('search').addEventListener('input',function(){
+      searchQ=this.value.toLowerCase();curPage=0;applyFilter();
+    });
+  }
+
+  function applyFilter(){
+    filtered=all.filter(function(d){
+      if(activeTld && (d.tld||'')!==activeTld) return false;
+      if(activeSev && (d.severity||'').toUpperCase()!==activeSev) return false;
+      if(activeCat && (d.category||'')!==activeCat) return false;
+      if(searchQ){
+        var hay=((d.domain||'')+(d.category||'')+(d.notes||'')+(d.tld||'')).toLowerCase();
+        if(hay.indexOf(searchQ)<0) return false;
+      }
+      return true;
+    });
+    lastPage=Math.max(0,Math.ceil(filtered.length/PAGE_SIZE)-1);
+    window.lastPage=lastPage;
+    if(curPage>lastPage)curPage=lastPage;
+    window.curPage=curPage;
+    render();
+  }
+
+  window.goPage=function(p){
+    p=Math.max(0,Math.min(p,lastPage));
+    curPage=p;window.curPage=p;
+    render();
+    window.scrollTo(0,0);
+  };
+
+  function render(){
+    var tbody=document.getElementById('tbody');
+    var empty=document.getElementById('empty');
+    var bar=document.getElementById('count-bar');
+    var pager=document.getElementById('pager');
+
+    var start=curPage*PAGE_SIZE, end=start+PAGE_SIZE;
+    var pageRows=filtered.slice(start,end);
+
+    bar.innerHTML='Showing <span>'+(start+1)+'-'+Math.min(end,filtered.length)+'</span> of <span>'+filtered.length.toLocaleString()+'</span> filtered &nbsp;·&nbsp; <span>'+all.length.toLocaleString()+'</span> total IOC';
+
+    if(!filtered.length){tbody.innerHTML='';empty.style.display='';pager.style.display='none';return;}
+    empty.style.display='none';
+
+    if(filtered.length>PAGE_SIZE){
+      pager.style.display='';
+      document.getElementById('pg-info').textContent='Page '+(curPage+1)+' / '+(lastPage+1);
+      document.getElementById('pg-first').disabled=curPage===0;
+      document.getElementById('pg-prev').disabled=curPage===0;
+      document.getElementById('pg-next').disabled=curPage===lastPage;
+      document.getElementById('pg-last').disabled=curPage===lastPage;
+    } else {
+      pager.style.display='none';
+    }
+
+    var html='';
+    pageRows.forEach(function(d){
+      var sev=(d.severity||'INFO').toUpperCase();
+      var sevCls='sev-'+sev[0];
+      html+='<tr>'
+        +'<td class="dom">'+esc(d.domain)+'</td>'
+        +'<td><span class="tld-tag">.'+esc(d.tld||'')+'</span></td>'
+        +'<td>'+esc(d.category||'')+'</td>'
+        +'<td class="'+sevCls+'">'+sev+'</td>'
+        +'<td>'+esc(d.ip||'')+'</td>'
+        +'<td>'+esc(d.ip_country||'')+'</td>'
+        +'<td>'+esc(d.date||d.registered||'')+'</td>'
+        +'<td>'+renderFeeds(d.notes||d.groq_desc||'')+'</td>'
+        +'<td class="intel-links">'
+          +(d.scan_url
+            ? '<a href="'+esc(d.scan_url)+'" target="_blank" rel="noopener" title="URLScan result" style="color:var(--gn);border-color:var(--gn)">US✓</a> '
+            : '<a href="https://urlscan.io/search/#page.domain%3A'+encodeURIComponent(d.domain)+'" target="_blank" rel="noopener" title="URLScan">US</a> ')
+          +'<a href="https://www.virustotal.com/gui/domain/'+encodeURIComponent(d.domain)+'" target="_blank" rel="noopener" title="VirusTotal">VT</a> '
+          +'<a href="https://otx.alienvault.com/indicator/domain/'+encodeURIComponent(d.domain)+'" target="_blank" rel="noopener" title="AlienVault OTX">OTX</a> '
+          +'<a href="https://search.censys.io/hosts?q='+encodeURIComponent('parsed.names: '+d.domain)+'" target="_blank" rel="noopener" title="Censys">CY</a>'
+        +'</td>'
+        +'</tr>';
+    });
+    tbody.innerHTML=html;
+  }
+
+  function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+  var FEED_LABELS={
+    'hagezi_tif':'Hagezi:TIF','hagezi_pro':'Hagezi:Pro','hagezi_ultimate':'Hagezi:Ult',
+    'hagezi_wildcard_tif':'Hagezi:TIF',
+    'blocklistproject_malware':'BP:Malware','blocklistproject_phishing':'BP:Phish',
+    'blocklistproject_scam':'BP:Scam','blocklistproject_fraud':'BP:Fraud',
+    'maltrail':'Maltrail','mitchellkrogza':'PhishDB:MK','phishing_database_active':'PhishDB',
+    'phishdb_active':'PhishDB','phishdb_links':'PhishDB:URL',
+    'metamask':'MetaMask','enkrypt':'Enkrypt','scamblocklist':'ScamBlock',
+    'phishing_filter_hosts':'Malware-Filter','phishing_filter':'Malware-Filter',
+    'urlhaus_filter_hosts':'URLhaus','urlhaus_domains':'URLhaus',
+    'phishtank':'PhishTank','openphish':'OpenPhish','phishing_army':'PhishArmy',
+    'cert_pl':'CERT.pl','dandelion_antimalware':'Dandelion','dandelion_scam':'Dandelion',
+    'firebog_all':'Firebog','ublock_badware':'uBlock:Bad','ublock_filters':'uBlock',
+    'abpindo':'ABPindo','easylist':'EasyList',
+    'hagezi_pro':'Hagezi:Pro','hagezi_ult':'Hagezi:Ult',
+  };
+  var FEED_COLORS={
+    'hagezi_tif':'#da3633','hagezi_wildcard_tif':'#da3633','maltrail':'#da3633',
+    'blocklistproject_malware':'#c05040','blocklistproject_phishing':'#e08030',
+    'blocklistproject_scam':'#e08030','blocklistproject_fraud':'#e08030',
+    'mitchellkrogza':'#c0a060','phishing_database_active':'#c0a060','phishdb_active':'#c0a060',
+    'metamask':'#3b82f6','enkrypt':'#3b82f6','scamblocklist':'#3b82f6',
+    'phishing_filter_hosts':'#8b5cf6','phishing_filter':'#8b5cf6',
+    'urlhaus_filter_hosts':'#8b5cf6','urlhaus_domains':'#8b5cf6',
+    'phishtank':'#e08030','openphish':'#e08030','phishing_army':'#e08030',
+    'cert_pl':'#3fb950','dandelion_antimalware':'#6ea8d7','dandelion_scam':'#6ea8d7',
+    'firebog_all':'#3fb950','ublock_badware':'#8b5cf6','ublock_filters':'#6ea8d7',
+  };
+
+  function renderFeeds(notes){
+    if(!notes) return '';
+    if(notes.indexOf('Feeds:')<0) return esc(notes);
+    var raw=notes.replace(/^Feeds:\s*/,'');
+    var feeds=raw.split('|');
+    return feeds.map(function(f){
+      f=f.trim();
+      var label=FEED_LABELS[f]||f.replace(/_/g,' ');
+      var color=FEED_COLORS[f]||'#484f58';
+      return '<span style="display:inline-block;font-size:9px;padding:1px 5px;border-radius:2px;'
+        +'background:'+color+'22;color:'+color+';border:1px solid '+color+'44;'
+        +'font-family:monospace;margin:1px 2px 1px 0;white-space:nowrap">'+esc(label)+'</span>';
+    }).join('');
+  }
+})();
+</script>
+</body>
+</html>

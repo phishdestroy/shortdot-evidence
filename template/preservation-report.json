@@ -1,0 +1,27 @@
+{
+  "domains.html": {
+    "original_ids": 15,
+    "retained_ids": 15,
+    "missing_ids": [],
+    "original_fields": [
+      "search"
+    ],
+    "missing_fields": []
+  },
+  "feed-ioc.html": {
+    "original_ids": 10,
+    "retained_ids": 10,
+    "missing_ids": [],
+    "original_fields": [
+      "search"
+    ],
+    "missing_fields": []
+  },
+  "index.html": {
+    "original_ids": 71,
+    "retained_ids": 71,
+    "missing_ids": [],
+    "original_fields": [],
+    "missing_fields": []
+  }
+}

@@ -1,68 +1,71 @@
-name: Build & Deploy Evidence Report
+name: Publish redesigned GitHub Pages
 
 on:
   push:
-    branches: [main]
-    paths:
-      - '.github/workflows/pages.yml'
-      - 'data/index.json'
-      - 'ioc/indicators.csv'
-      - 'case/LEGITIMATE_SURVEY.md'
-      - 'docs/**'
+    branches: [main, master]
   workflow_dispatch:
+  schedule:
+    - cron: "47 6 * * *"
+  workflow_run:
+    workflows: ["Daily Zone Update"]
+    types: [completed]
+    branches: [main, master]
 
 permissions:
   contents: write
   pages: write
   id-token: write
 
+concurrency:
+  group: redesigned-pages
+  cancel-in-progress: false
+
 jobs:
-  build:
+  publish:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
-      - name: Build data.json
-        run: |
-          python docs/build_datajson.py \
-            --index data/index.json \
-            --ioc ioc/indicators.csv \
-            --legit case/LEGITIMATE_SURVEY.md \
-            --out docs/data.json
-
-      - name: Commit data.json
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/data.json
-          git diff --staged --quiet || git commit -m "report: update evidence data $(date -u '+%Y-%m-%d')"
-          git push origin HEAD:main
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
+    timeout-minutes: 15
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout latest source
+        uses: actions/checkout@v6
         with:
-          ref: main
-
-      - name: Copy IOC files for Pages
-        run: cp -r ioc/ docs/ioc/
-
-      - uses: actions/configure-pages@v4
-
-      - uses: actions/upload-pages-artifact@v3
+          ref: ${{ github.event.repository.default_branch }}
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          path: docs/
-
-      - id: deployment
+          python-version: "3.12"
+      - name: Install template dependencies
+        run: python -m pip install -r template/requirements.txt
+      - name: Rebuild evidence data when collector sources are present
+        run: |
+          if [ -f data/index.json ] && [ -f ioc/indicators.csv ] && [ -f case/LEGITIMATE_SURVEY.md ]; then
+            python docs/build_datajson.py --index data/index.json --ioc ioc/indicators.csv --legit case/LEGITIMATE_SURVEY.md --out docs/data.json
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add docs/data.json
+            git diff --staged --quiet || { git commit -m "report: update evidence data $(date -u '+%Y-%m-%d')" && git push origin HEAD:main || echo "data.json push skipped (main moved); deploy continues"; }
+          fi
+          if [ -d ioc ]; then
+            mkdir -p docs/ioc
+            cp -R ioc/. docs/ioc/
+          fi
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Refresh source files and rebuild the design
+        env:
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
+          GH_TOKEN: ${{ github.token }}
+        run: python template/scripts/refresh_sources.py
+      - name: Verify fields, content, links and datasets
+        run: python template/scripts/verify.py
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+      - name: Deploy GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
