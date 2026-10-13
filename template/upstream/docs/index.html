@@ -1509,7 +1509,7 @@ fetch('data.json').then(function(r){return r.json();}).then(function(d){
   setText('c-carding',       cats['CARDING']         ||0);
   setText('c-invest',        cats['INVEST_FRAUD']    ||0);
   setText('c-malware',       cats['MALWARE_DIST']    ||0);
-  setText('c-gambling',      cats['GAMBLING']        ||0);
+  setText('c-gambling',      cats['GAMBLING'] || s.gambling_count || 0);
   var brandIoc = cats['BRAND_IMPERSONATION']||0;
   if(brandIoc) setText('c-brand-ioc', brandIoc.toLocaleString());
   var totalIoc = Object.values(cats).reduce(function(a,b){return a+(b||0);},0);

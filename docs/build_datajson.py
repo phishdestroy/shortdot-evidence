@@ -13,6 +13,12 @@ from pathlib import Path
 
 HERE = Path(__file__).parent.parent
 
+# Gambling has no category of its own in indicators.csv (those domains arrive
+# as MALWARE / PHISHING_CONFIRMED from feeds), so the dashboard tile counts
+# IOC domains whose name is unambiguously gambling.
+GAMBLING_RE = re.compile(r"casino|slot(?!h)|togel|judi(?!th)|poker|betting|gacor|baccarat|roulette"
+                         r"|sportsbook|jackpot|maxwin|bandar|bola88|sbobet|pragmatic|zeus.?slot", re.I)
+
 
 def load_index(path: Path) -> dict:
     if path.exists():
@@ -86,6 +92,11 @@ def build_clusters(serial_regs: list[dict], shared_ips: list[dict]) -> list[dict
 
 def build_stats(index: dict, domains: list[dict], legit_count: int, intel: dict) -> dict:
     cats = Counter(r.get("category", "") for r in domains)
+    # The dashboard reads MALWARE_DIST; the collector writes MALWARE. Rename
+    # rather than duplicate: the dashboard's Total IOC sums every category.
+    if "MALWARE" in cats:
+        cats["MALWARE_DIST"] += cats.pop("MALWARE")
+    gambling = sum(1 for r in domains if GAMBLING_RE.search(r.get("domain", "")))
     high   = sum(1 for r in domains if r.get("severity", "").upper() == "HIGH")
     medium = sum(1 for r in domains if r.get("severity", "").upper() == "MEDIUM")
     intel_by_src = intel.get("by_source", {})
@@ -119,6 +130,7 @@ def build_stats(index: dict, domains: list[dict], legit_count: int, intel: dict)
         "icann_volume_annual": round(index.get("total_domains", 0) * 0.25, 2),
         "icann_zone_annual":   7 * 25800,
         "categories":       dict(cats.most_common()),
+        "gambling_count":   gambling,
         "screenshots":      0,
         "intel_total":      intel.get("total", 0),
         "intel_multisource":intel.get("multi_source", 0),
