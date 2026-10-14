@@ -1,306 +1,305 @@
 {
-  "generated": "2026-10-13",
+  "generated": "2026-10-14",
   "keywords": {
-    "auth": [
-      "auth-audit.cfd",
-      "auth-audit.cyou",
-      "auth-batch.cyou",
-      "auth-bridge.cfd",
-      "auth-bridge.cyou",
-      "auth-cache.cfd",
-      "auth-cache.cyou",
-      "auth-config.cfd",
-      "auth-config.cyou",
-      "auth-event.cfd",
-      "auth-event.cyou",
-      "auth-ingest.cfd",
-      "auth-ledger.cyou",
-      "auth-metric.cfd",
-      "auth-metric.cyou",
-      "auth-origin.cfd",
-      "auth-origin.cyou",
-      "auth-policy.cfd",
-      "auth-policy.cyou",
-      "auth-proxy.cfd",
-      "auth-queue.cfd",
-      "auth-queue.cyou",
-      "auth-quota.cfd",
-      "auth-quota.cyou",
-      "auth-relay.cyou",
-      "auth-route.cfd",
-      "auth-route.cyou",
-      "auth-session.cfd",
-      "auth-signer.cyou",
-      "auth-stream.cfd",
-      "auth-stream.cyou",
-      "auth-trace.cfd",
-      "auth-trace.cyou",
-      "auth-vault.cyou",
-      "auth-worker.cfd",
-      "common-oauth2-v2.sbs",
-      "token-auth.cyou"
-    ],
-    "claim": [
-      "claim-1000298-4frontcu.cfd",
-      "claim-100029998-4frontcu.cfd",
-      "claim-1902882-4frontcu.cfd",
-      "claim-190289982-4frontcu.cfd",
-      "claim6189902-4frontcu.cfd",
-      "claims-005517781-4frontcu.cfd",
-      "claims-00649110029-esl.cfd",
-      "claims-0439192812-4frontcu.cfd",
-      "claims-05517781-4frontcu.cfd",
-      "claims-0649110029-esl.cfd",
-      "claims-0789192812-4frontcu.cfd",
-      "claims-088977-4frontcu.cfd",
-      "claims-1005517781-4frontcu.cfd",
-      "claims-19110029-esl.cfd",
-      "claims-39192812-4frontcu.cfd",
-      "claims-49110029-esl.cfd",
-      "claims-8088977-4frontcu.cfd",
-      "claims-900192812-4frontcu.cfd",
-      "claims-98649110029-esl.cfd",
-      "claims6189902-4frontcu.cfd",
-      "claims9189902-4frontcu.cfd"
-    ],
-    "hop": [
-      "a40v8pgpfqcc-i9ihop5b.cyou",
-      "customershop.buzz",
-      "eohopskdv.icu",
-      "greathopicfender.sbs",
-      "hopex.cfd",
-      "kingshop.icu",
-      "kqtwjehop.icu",
-      "lazada-shop.cfd",
-      "lazada-shop.sbs",
-      "lazada-shops.cfd",
-      "lazada-shops.sbs",
-      "loveshop16.sbs",
-      "ncvurchop.icu",
-      "oyjnhopui.icu",
-      "shopdesk.cyou",
-      "tmsalmanytshopbot.bond"
-    ],
-    "dia": [
-      "19jdiaby7okg-z8fqf98g.cyou",
-      "adiaf-lnmh-p-oj.icu",
-      "chaepedia.cfd",
-      "diana4d.icu",
-      "eyefulandian.cyou",
-      "finzy0-repudiandae50.sbs",
-      "finzy9-repudiandae14.sbs",
-      "guiyingbianlidian.cyou",
-      "indiantrap.sbs",
-      "jkbudiarto.cfd",
-      "mediatwimg.sbs",
-      "mevamedia.cyou",
-      "micalmedia.sbs",
-      "royal-diamond-grove.sbs",
-      "sadiaali.cfd",
-      "tpluniversalmedia.cfd"
-    ],
-    "claims": [
-      "claims-005517781-4frontcu.cfd",
-      "claims-00649110029-esl.cfd",
-      "claims-0439192812-4frontcu.cfd",
-      "claims-05517781-4frontcu.cfd",
-      "claims-0649110029-esl.cfd",
-      "claims-0789192812-4frontcu.cfd",
-      "claims-088977-4frontcu.cfd",
-      "claims-1005517781-4frontcu.cfd",
-      "claims-19110029-esl.cfd",
-      "claims-39192812-4frontcu.cfd",
-      "claims-49110029-esl.cfd",
-      "claims-8088977-4frontcu.cfd",
-      "claims-900192812-4frontcu.cfd",
-      "claims-98649110029-esl.cfd",
-      "claims6189902-4frontcu.cfd",
-      "claims9189902-4frontcu.cfd"
-    ],
-    "customer": [
-      "customerservicerep2.icu",
-      "customershop.buzz",
-      "truist-customer-service-usa.bond",
-      "truist-customer-service-usa.cyou",
-      "truist-customercare-usa.bond",
-      "truist-customercare-usa.cyou",
-      "truist-customerservice-usa.bond",
-      "truist-customerservice-usa.cyou"
+    "tron": [
+      "astronautplay.icu",
+      "patroncanli.cfd",
+      "patroncanli1.cfd",
+      "patroncanli10.cfd",
+      "patroncanli11.cfd",
+      "patroncanli12.cfd",
+      "patroncanli13.cfd",
+      "patroncanli14.cfd",
+      "patroncanli15.cfd",
+      "patroncanli16.cfd",
+      "patroncanli17.cfd",
+      "patroncanli18.cfd",
+      "patroncanli19.cfd",
+      "patroncanli2.cfd",
+      "patroncanli20.cfd",
+      "patroncanli3.cfd",
+      "patroncanli4.cfd",
+      "patroncanli5.cfd",
+      "patroncanli6.cfd",
+      "patroncanli7.cfd",
+      "patroncanli8.cfd",
+      "patroncanli9.cfd",
+      "peltrona-zone.cfd",
+      "stronghold-protocol-r.icu",
+      "veltrona-nature.sbs"
     ],
     "token": [
-      "token-auth.cyou",
-      "token-cache.cyou",
-      "token-core.cyou",
-      "token-event.cyou",
-      "token-gate.cfd",
-      "token-gateway.cfd",
-      "token-ingest.cfd",
-      "token-mesh.cfd",
-      "token-node.cyou",
-      "token-queue.cfd",
-      "token-stream.cfd",
-      "token-sync.cyou",
-      "token-trace.cfd",
-      "token-unit.cfd",
-      "token-vault.cyou",
-      "tokenrouter.bond"
+      "1wintoken.icu",
+      "token-audit.cyou",
+      "token-auth.cfd",
+      "token-batch.cfd",
+      "token-bridge.cyou",
+      "token-cache.cfd",
+      "token-config.cyou",
+      "token-core.cfd",
+      "token-event.cfd",
+      "token-gate.cyou",
+      "token-gateway.cyou",
+      "token-ingest.cyou",
+      "token-ledger.cfd",
+      "token-mesh.cyou",
+      "token-metric.cfd",
+      "token-node.cfd",
+      "token-origin.cfd",
+      "token-policy.cfd",
+      "token-proxy.cyou",
+      "token-queue.cyou",
+      "token-quota.cfd",
+      "token-relay.cfd",
+      "token-route.cyou",
+      "token-session.cyou",
+      "token-signer.cfd",
+      "token-stream.cyou",
+      "token-sync.cfd",
+      "token-trace.cyou",
+      "token-unit.cyou",
+      "token-vault.cfd",
+      "token-worker.cyou",
+      "tokenimnet-cdn-gw-hk27.cfd",
+      "tokenpoketpro23-edge-hk07.cyou",
+      "tokenpoketzone31-cdn-hk89.cfd"
     ],
-    "sui": [
-      "bmclsuifp.icu",
-      "dsuiwcqwd.icu",
-      "fssuicrog.icu",
-      "joinboxsuite.sbs",
-      "lisuidw.buzz",
-      "pewgcsuiw.icu",
-      "saasboxsuite.sbs",
-      "sendboxsuite.sbs",
-      "shieldboxsuite.sbs",
-      "smartboxsuite.sbs",
-      "suilkwdno.icu",
-      "whsuixing.icu",
-      "wjrksuibx.icu"
+    "drift": [
+      "aspendrift.cfd",
+      "birchdrift.cfd",
+      "canyondrift.cfd",
+      "deltadrift.cfd",
+      "drift401.cfd",
+      "drift648.cfd",
+      "drift849.cfd",
+      "drift937.cfd",
+      "fjorddrift.cfd"
     ],
-    "gmx": [
-      "gmxlmvpfe.icu",
-      "hfgmxbedq.icu",
-      "pqmgmxtxc.icu",
-      "rrgmxqluy.icu",
-      "yllqegmxa.icu"
+    "hop": [
+      "aayyshop.cfd",
+      "aurenshop.sbs",
+      "dinarshop.icu",
+      "folliedifiorishop.sbs",
+      "hopa7r21pu.cyou",
+      "hoppedscruffyswing.cyou",
+      "michaelshop.icu",
+      "norwegianshopsproject24.sbs",
+      "sennshop.cfd",
+      "shopmaisonbougie.icu",
+      "techshopp.sbs",
+      "ycshop.icu"
     ],
-    "service": [
-      "apex-services.cfd",
-      "customerservicerep2.icu",
-      "koxraitservice.cfd",
-      "laantiservice.cfd",
-      "truist-customer-service-usa.bond",
-      "truist-customer-service-usa.cyou",
-      "truist-customerservice-usa.bond",
-      "truist-customerservice-usa.cyou",
-      "update-services-ato-info-au-login.cfd"
-    ],
-    "support": [
-      "lanternsupport.cyou",
-      "rnicrosoft-support.sbs",
-      "supportaccointin.cfd",
-      "supportsystem.cfd"
-    ],
-    "neo": [
-      "alexineoppidan.qpon",
-      "birisineozeldegilbutunhalkaozel.sbs",
-      "catfastneo.cfd",
-      "kwvduvneo.icu",
-      "neo6mip.cyou",
-      "neoumrxzw.icu",
-      "qprneosjx.icu"
-    ],
-    "secure": [
-      "ctsarosecuremail.sbs",
-      "secure-bytnex.buzz",
-      "secure-check-keys.cfd",
-      "secure-confirmation-ricardo.cfd",
-      "secure-truist-online-login.cyou",
-      "secureo.buzz",
-      "verifysecurely.bond"
-    ],
-    "maple": [
-      "cedarmaple.cfd",
-      "glenmaple.cfd",
-      "maplebasinside.buzz",
-      "mapleembermail.buzz",
-      "maplelakemail.buzz",
-      "maplelanternmail.buzz",
-      "maplestonemail.buzz"
+    "portal": [
+      "centrlink-aus-portal.sbs",
+      "govportal.bond",
+      "portal-seg-social-es.cfd",
+      "portalgovcz.cyou",
+      "portalseg.cfd",
+      "portalsegoses-es.cfd"
     ],
     "rug": [
-      "bastianrugging.cfd",
-      "krugi-na-vode-lordfilm.cfd",
-      "mag-obmanshchik-iz-drugogo-mira-lordfilm.cfd",
-      "rugsahetq.icu",
-      "upofiruga.icu",
-      "zrugofpos.icu"
+      "drughub-1.sbs",
+      "drughub-main.cfd",
+      "drughub-main.sbs",
+      "drughub.cfd",
+      "frugacelle.cfd",
+      "frugacelle.sbs",
+      "moneyhub-ifurohorugu.sbs",
+      "moneyhub-urugayutuji.sbs",
+      "pqirugsi.cfd",
+      "rubricrugged.cfd",
+      "rugged.sbs"
     ],
-    "bnb": [
-      "euwibnbpx.icu",
-      "farpagbnb.icu",
-      "twt-bnb.cfd",
-      "twt-bnb.sbs",
-      "wj5qb7nprut7-s9sbnbif.cyou",
-      "xkbnbtmzf.icu"
+    "dia": [
+      "2dia6g1zkt.cyou",
+      "alonzodiaz.cfd",
+      "dia.buzz",
+      "indiacdn.sbs",
+      "indiafashion.cyou",
+      "maodianwt.icu",
+      "mediasmp.bond",
+      "mold-remediation.cfd",
+      "mondialrelay.icu",
+      "obsidianforgegroup.buzz",
+      "saudeemdia.sbs"
     ],
-    "login": [
-      "online-login-tr-userid.bond",
-      "sec-onlinelogin.cyou",
-      "secure-truist-online-login.cyou",
-      "truist-digital-online-login-userid.bond",
-      "update-services-ato-info-au-login.cfd"
-    ],
-    "access": [
-      "access-mmy.cfd",
-      "access-my.cfd",
-      "accessmmy.cfd",
-      "accessmycfdcfd.cfd",
-      "claudeearlyaccess.cfd"
-    ],
-    "xrp": [
-      "0dhs4xw6utxrpxq.icu",
-      "95g9qp282fj9bxrp.cfd",
-      "nedighxrp.icu",
-      "rxrpdyisy.icu"
-    ],
-    "base": [
-      "coinashbase.cfd",
-      "onegbase.sbs",
-      "prehistoric-lake-view866544-base7655.icu",
-      "solidbase34.cfd"
-    ],
-    "xlm": [
-      "cnzbixlmv.icu",
-      "gijdxlmkt.icu",
-      "gmxlmvpfe.icu",
-      "jpaxasxlm.icu"
-    ],
-    "tron": [
-      "crystal-electronics.cfd",
-      "strongcrestrg.bond"
-    ],
-    "nft": [
-      "jannftbiw.icu",
-      "nftgaiyez.icu",
-      "prnftgsee.icu",
-      "wdqrgnftl.icu"
-    ],
-    "leap": [
-      "mindleap.icu",
-      "plaintsupleap.cfd",
-      "varioleapsis.cyou"
-    ],
-    "bank": [
-      "bdoubank.bond",
-      "grendaco-obank.icu",
-      "stanforsseubank.sbs"
-    ],
-    "eos": [
-      "ceosoftuh.icu",
-      "qprneosjx.icu",
-      "videosliv.sbs"
-    ],
-    "drop": [
-      "droppa.sbs",
-      "porndrop.sbs",
-      "porndropreg.sbs"
-    ],
-    "confirm": [
-      "confirm05918555.sbs",
-      "confirmation-order62131.sbs",
-      "secure-confirmation-ricardo.cfd"
+    "bonus": [
+      "aktualne-bonusy-bez-depozytu.cfd",
+      "ampadresidenemebonus.icu",
+      "ampdenemebonusuhizmeti.icu",
+      "denemebonusamp.icu",
+      "morphobonus.cfd",
+      "topbonus.bond",
+      "topbonus.buzz",
+      "topbonus.cfd",
+      "topbonus.icu",
+      "topbonus.sbs",
+      "virtualsbonus.cfd"
     ],
     "official": [
-      "pangodofficial.bond",
-      "reverbb-official.icu"
+      "andyday-official.cyou",
+      "braflix-official.cyou",
+      "casinox-official.icu",
+      "flixtor-official.cyou",
+      "gomovies-official.cyou",
+      "hydrahd-official.cyou",
+      "official-pragmaticid.buzz",
+      "westream-official.cyou",
+      "xprime-official.cyou",
+      "zoechip-official.cyou"
     ],
-    "gaming": [
-      "pashagamings.icu",
-      "ppashagaming.icu"
+    "claim": [
+      "claims-014001901-4frontcu.cfd",
+      "claims-1001901-esl.cfd",
+      "claims-114001901-4frontcu.cfd",
+      "claims-2001901-esl.cfd",
+      "claims-214001901-4frontcu.cfd",
+      "claims-3001901-esl.cfd",
+      "claims-314001901-4frontcu.cfd",
+      "claims-4001901-4frontcu.cfd",
+      "claims-4001901-esl.cfd"
+    ],
+    "claims": [
+      "claims-014001901-4frontcu.cfd",
+      "claims-1001901-esl.cfd",
+      "claims-114001901-4frontcu.cfd",
+      "claims-2001901-esl.cfd",
+      "claims-214001901-4frontcu.cfd",
+      "claims-3001901-esl.cfd",
+      "claims-314001901-4frontcu.cfd",
+      "claims-4001901-4frontcu.cfd",
+      "claims-4001901-esl.cfd"
+    ],
+    "invest": [
+      "2776investmentslimited.cfd",
+      "invest4.cfd",
+      "myinvestment.cfd",
+      "neuralink-investar.icu",
+      "neuralink-investar24.icu",
+      "neuralink-investmx.icu",
+      "neuralink-investmx24.icu",
+      "relianceinvestmentsllc.icu"
+    ],
+    "auth": [
+      "auth-batch.cfd",
+      "auth-proxy.cyou",
+      "auth-session.cyou",
+      "auth-signer.cfd",
+      "auth-worker.cyou",
+      "autoauth.cfd",
+      "relay-auth.cfd",
+      "token-auth.cfd"
+    ],
+    "base": [
+      "apparelbase.cfd",
+      "apparelbase.sbs",
+      "basecc.cyou",
+      "chainbase.icu",
+      "graybase.bond",
+      "nestbase.sbs",
+      "quick-base.cyou"
+    ],
+    "maple": [
+      "deltamaple.cfd",
+      "elmmaple.cfd",
+      "glademaple.cfd",
+      "heathmaple.cfd",
+      "maplestrandhedge.cyou",
+      "maplewooddiscoveries.buzz"
+    ],
+    "sui": [
+      "edmontonlegalsuites.icu",
+      "fsuia.cyou",
+      "miqurjsuigsg.cfd",
+      "netsuite-port.sbs",
+      "suitlybehindsripal.qpon",
+      "tweiufbsuif.cfd"
+    ],
+    "dapp": [
+      "dapperfern.sbs",
+      "structuredappcreative.cyou",
+      "structuredappestudio.cyou",
+      "structuredappestudiowebsite.cyou",
+      "trustedappmotionbrand.cyou",
+      "trustedappmotionbrandwebsite.cyou"
+    ],
+    "connect": [
+      "connectnow.cfd",
+      "googconnect.icu",
+      "true-connect.cfd",
+      "ultra-connect.cfd",
+      "xfinitconnects.sbs"
+    ],
+    "recovery": [
+      "online-recovery.bond",
+      "online-recovery.cfd",
+      "online-recovery.cyou",
+      "online-recovery.icu",
+      "online-recovery.sbs"
+    ],
+    "trading": [
+      "cosmictrading.bond",
+      "dzclothtrading.cfd",
+      "dzclothtrading.sbs",
+      "trovetrading.sbs"
+    ],
+    "fund": [
+      "fundmetrics.sbs",
+      "jogopanelasfundotriploinox.cfd",
+      "magicfund.sbs",
+      "panelasinoxfundotriplo.cfd"
+    ],
+    "hive": [
+      "ecohive.sbs",
+      "eventhive.sbs",
+      "hiveanalytics.buzz",
+      "moneyhub-nudanohiveh.sbs"
+    ],
+    "service": [
+      "autumnservice.sbs",
+      "maarten-bikeservice.sbs",
+      "online-tax-services-access.cfd",
+      "servicesconseilslinux.sbs"
+    ],
+    "account": [
+      "account-review-com.bond",
+      "account-review-com.cyou",
+      "account-review-net.cyou",
+      "adaccount.icu"
+    ],
+    "atrix": [
+      "cilatrix.icu",
+      "matrixdra.cfd",
+      "matrixnexusatom.sbs",
+      "matrixpull.sbs"
+    ],
+    "defi": [
+      "madefitbright.cfd",
+      "madefitbright.sbs",
+      "madefitwear.cfd",
+      "madefitwear.sbs"
+    ],
+    "join": [
+      "joinour-talent.cfd",
+      "joinourjourney.cfd",
+      "joinourtalent.cfd",
+      "joinsoflove.icu"
+    ],
+    "eos": [
+      "eos42.cfd",
+      "hindisexvideos.cyou",
+      "paremseos.icu",
+      "pornvideos.bond"
+    ],
+    "finance": [
+      "abfinance.sbs",
+      "dopplerfinance-genesis.cfd",
+      "ellipsisfinance.sbs"
+    ],
+    "reward": [
+      "netnetrewards.cfd",
+      "qantas1rewards.icu",
+      "rewards-lookup.icu"
     ]
   }
 }

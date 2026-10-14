@@ -36,7 +36,7 @@ They were meant to be <i>counted.</i><br/>
 
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-13`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-14`
 
 <table><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><sub><code>6,242,647</code></sub></td>
@@ -54,7 +54,7 @@ They were meant to be <i>counted.</i><br/>
 | `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 0 | — | $634,670 |
 | `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
 | `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
-| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 0 | — | $1,242,854 |
+| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 2 | — | $1,242,854 |
 | `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 2 | — | $619,050 |
 | `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 0 | — | $680,602 |
 | `.qpon` | 110,365 | 61,237 (55.5%) | 49,128 | 0 | — | $275,912 |
@@ -64,25 +64,24 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████        164 (64.8%)
-FR  ██░░░░░░░░░░░░░░░░         27 (10.7%)
-HK  ██░░░░░░░░░░░░░░░░         22 (8.7%)
-CN  ░░░░░░░░░░░░░░░░░░          6 (2.4%)
-RU  ░░░░░░░░░░░░░░░░░░          6 (2.4%)
-SG  ░░░░░░░░░░░░░░░░░░          4 (1.6%)
-DE  ░░░░░░░░░░░░░░░░░░          4 (1.6%)
-TW  ░░░░░░░░░░░░░░░░░░          4 (1.6%)
+US  ██████████████████         25 (71.4%)
+RU  ██░░░░░░░░░░░░░░░░          3 (8.6%)
+HK  █░░░░░░░░░░░░░░░░░          2 (5.7%)
+DE  █░░░░░░░░░░░░░░░░░          2 (5.7%)
+SG  ░░░░░░░░░░░░░░░░░░          1 (2.9%)
+LU  ░░░░░░░░░░░░░░░░░░          1 (2.9%)
+FR  ░░░░░░░░░░░░░░░░░░          1 (2.9%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-10-13` | 13,751 | **1.0×** |
+| `2026-10-14` | 7,128 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`auth (37)` &middot; `claim (21)` &middot; `hop (16)` &middot; `dia (16)` &middot; `claims (16)` &middot; `customer (16)` &middot; `token (16)` &middot; `sui (13)` &middot; `gmx (10)` &middot; `service (9)` &middot; `support (8)` &middot; `neo (7)` &middot; `secure (7)` &middot; `maple (7)` &middot; `rug (6)`
+`tron (50)` &middot; `token (34)` &middot; `drift (18)` &middot; `hop (12)` &middot; `portal (12)` &middot; `rug (11)` &middot; `dia (11)` &middot; `bonus (11)` &middot; `official (10)` &middot; `claim (9)` &middot; `claims (9)` &middot; `invest (8)` &middot; `auth (8)` &middot; `base (7)` &middot; `maple (6)`
 
 ### 📥 Download Threat Intelligence
 
