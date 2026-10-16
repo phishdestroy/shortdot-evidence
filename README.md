@@ -36,7 +36,7 @@ They were meant to be <i>counted.</i><br/>
 
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-15`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-16`
 
 <table><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><sub><code>6,242,647</code></sub></td>
@@ -55,7 +55,7 @@ They were meant to be <i>counted.</i><br/>
 | `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
 | `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
 | `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 0 | — | $1,242,854 |
-| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 3 | — | $619,050 |
+| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 1 | — | $619,050 |
 | `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 0 | — | $680,602 |
 | `.qpon` | 110,365 | 61,237 (55.5%) | 49,128 | 0 | — | $275,912 |
 
@@ -64,22 +64,21 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████          8 (50.0%)
-DE  ███████████░░░░░░░          5 (31.2%)
-PL  ██░░░░░░░░░░░░░░░░          1 (6.2%)
-HK  ██░░░░░░░░░░░░░░░░          1 (6.2%)
-MD  ██░░░░░░░░░░░░░░░░          1 (6.2%)
+US  ██████████████████          7 (70.0%)
+NL  ██░░░░░░░░░░░░░░░░          1 (10.0%)
+JP  ██░░░░░░░░░░░░░░░░          1 (10.0%)
+AE  ██░░░░░░░░░░░░░░░░          1 (10.0%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-10-15` | 8,079 | **1.0×** |
+| `2026-10-16` | 6,675 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`dia (52)` &middot; `portal (24)` &middot; `hop (20)` &middot; `claim (18)` &middot; `recovery (10)` &middot; `claims (10)` &middot; `tron (10)` &middot; `bonus (9)` &middot; `quest (9)` &middot; `fund (9)` &middot; `auth (8)` &middot; `capital (8)` &middot; `bank (7)` &middot; `service (7)` &middot; `bitcoin (7)`
+`base (34)` &middot; `hop (18)` &middot; `portal (18)` &middot; `service (16)` &middot; `seed (13)` &middot; `maple (12)` &middot; `secure (10)` &middot; `dia (10)` &middot; `capital (7)` &middot; `neo (7)` &middot; `fund (6)` &middot; `icon (6)` &middot; `wise (6)` &middot; `access (5)` &middot; `drop (5)`
 
 ### 📥 Download Threat Intelligence
 
