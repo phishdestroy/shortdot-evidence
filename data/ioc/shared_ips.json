@@ -1,5 +1,16 @@
 {
-  "generated": "2026-10-16",
-  "count": 0,
-  "ips": []
+  "generated": "2026-10-17",
+  "count": 1,
+  "ips": [
+    {
+      "ip": "188.114.97.3",
+      "count": 3,
+      "country": "",
+      "domains": [
+        "15h7mr0s.buzz",
+        "tap1h9dx.buzz",
+        "z2nk5qj4.buzz"
+      ]
+    }
+  ]
 }
