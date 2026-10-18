@@ -36,7 +36,7 @@ They were meant to be <i>counted.</i><br/>
 
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-17`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-18`
 
 <table><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><sub><code>6,242,647</code></sub></td>
@@ -53,10 +53,10 @@ They were meant to be <i>counted.</i><br/>
 |:--|--:|--:|--:|--:|--:|--:|
 | `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 0 | — | $634,670 |
 | `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
-| `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 2 | — | $492,038 |
-| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 2 | — | $1,242,854 |
-| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 5 | — | $619,050 |
-| `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 3 | — | $680,602 |
+| `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
+| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 1 | — | $1,242,854 |
+| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 1 | — | $619,050 |
+| `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 0 | — | $680,602 |
 | `.qpon` | 110,365 | 61,237 (55.5%) | 49,128 | 0 | — | $275,912 |
 
 *Table auto-generated on each daily fetch run.*
@@ -64,19 +64,19 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████          2 (66.7%)
-DE  █████████░░░░░░░░░          1 (33.3%)
+US  ██████████████████          5 (83.3%)
+AE  ███░░░░░░░░░░░░░░░          1 (16.7%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-10-17` | 6,477 | **1.0×** |
+| `2026-10-18` | 6,549 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`support (32)` &middot; `hop (29)` &middot; `dia (25)` &middot; `service (12)` &middot; `bonus (9)` &middot; `fund (8)` &middot; `connect (8)` &middot; `eos (7)` &middot; `base (7)` &middot; `bank (6)` &middot; `auth (6)` &middot; `tron (6)` &middot; `portal (6)` &middot; `neo (5)` &middot; `secure (5)`
+`dia (125)` &middot; `support (18)` &middot; `bank (17)` &middot; `banking (16)` &middot; `service (13)` &middot; `security (12)` &middot; `portal (12)` &middot; `finance (11)` &middot; `maple (9)` &middot; `bonus (8)` &middot; `hop (8)` &middot; `neo (7)` &middot; `sui (7)` &middot; `scroll (7)` &middot; `auth (6)`
 
 ### 📥 Download Threat Intelligence
 

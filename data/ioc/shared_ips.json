@@ -1,15 +1,16 @@
 {
-  "generated": "2026-10-17",
+  "generated": "2026-10-18",
   "count": 1,
   "ips": [
     {
-      "ip": "188.114.97.3",
-      "count": 3,
-      "country": "",
+      "ip": "34.196.13.28",
+      "count": 4,
+      "country": "US",
       "domains": [
-        "15h7mr0s.buzz",
-        "tap1h9dx.buzz",
-        "z2nk5qj4.buzz"
+        "blocksolve.cyou",
+        "nexusnode.cyou",
+        "thecryptoguild.cyou",
+        "tokentrove.cyou"
       ]
     }
   ]
