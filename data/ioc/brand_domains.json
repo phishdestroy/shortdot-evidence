@@ -1,380 +1,210 @@
 {
-  "generated": "2026-10-18",
+  "generated": "2026-10-19",
   "keywords": {
-    "dia": [
-      "71dia2.cyou",
-      "atrmidia.sbs",
-      "canadianlifenotes.icu",
-      "galaxyguardian100.sbs",
-      "hojeedia.sbs",
-      "immediate-edge-de.sbs",
-      "jiedian123.sbs",
-      "klutzesdiasper.cfd",
-      "meridian-finance.cfd",
-      "meridianremote.sbs",
-      "neoguardian394.sbs",
-      "radiantaction149.sbs",
-      "radiantempire916.sbs",
-      "radiantguardian284.sbs",
-      "radiantlink.sbs",
-      "radiantmancer381.sbs",
-      "radiantstrategy702.sbs",
-      "register-meridian.bond",
-      "register-meridian.cfd",
-      "register-meridian.cyou",
-      "rewards-meridian.bond",
-      "rewards-meridian.cfd",
-      "rewards-meridian.cyou",
-      "satta-king-india.bond",
-      "satta-king-india.cyou",
-      "zhiqudian01.icu",
-      "zhiqudian02.icu",
-      "zhiqudian03.icu",
-      "zhiqudian04.icu",
-      "zhiqudian05.icu",
-      "zhiqudian06.icu",
-      "zhiqudian07.icu",
-      "zhiqudian08.icu",
-      "zhiqudian09.icu",
-      "zhiqudian10.icu",
-      "zhiqudian100.icu",
-      "zhiqudian11.icu",
-      "zhiqudian12.icu",
-      "zhiqudian13.icu",
-      "zhiqudian14.icu",
-      "zhiqudian15.icu",
-      "zhiqudian16.icu",
-      "zhiqudian17.icu",
-      "zhiqudian18.icu",
-      "zhiqudian19.icu",
-      "zhiqudian20.icu",
-      "zhiqudian21.icu",
-      "zhiqudian22.icu",
-      "zhiqudian23.icu",
-      "zhiqudian24.icu",
-      "zhiqudian25.icu",
-      "zhiqudian26.icu",
-      "zhiqudian27.icu",
-      "zhiqudian28.icu",
-      "zhiqudian29.icu",
-      "zhiqudian30.icu",
-      "zhiqudian31.icu",
-      "zhiqudian32.icu",
-      "zhiqudian33.icu",
-      "zhiqudian34.icu",
-      "zhiqudian35.icu",
-      "zhiqudian36.icu",
-      "zhiqudian37.icu",
-      "zhiqudian38.icu",
-      "zhiqudian39.icu",
-      "zhiqudian40.icu",
-      "zhiqudian41.icu",
-      "zhiqudian42.icu",
-      "zhiqudian43.icu",
-      "zhiqudian44.icu",
-      "zhiqudian45.icu",
-      "zhiqudian46.icu",
-      "zhiqudian47.icu",
-      "zhiqudian48.icu",
-      "zhiqudian49.icu",
-      "zhiqudian50.icu",
-      "zhiqudian51.icu",
-      "zhiqudian52.icu",
-      "zhiqudian53.icu",
-      "zhiqudian54.icu",
-      "zhiqudian55.icu",
-      "zhiqudian56.icu",
-      "zhiqudian57.icu",
-      "zhiqudian58.icu",
-      "zhiqudian59.icu",
-      "zhiqudian60.icu",
-      "zhiqudian61.icu",
-      "zhiqudian62.icu",
-      "zhiqudian63.icu",
-      "zhiqudian64.icu",
-      "zhiqudian65.icu",
-      "zhiqudian66.icu",
-      "zhiqudian67.icu",
-      "zhiqudian68.icu",
-      "zhiqudian69.icu",
-      "zhiqudian70.icu",
-      "zhiqudian71.icu",
-      "zhiqudian72.icu",
-      "zhiqudian73.icu",
-      "zhiqudian74.icu",
-      "zhiqudian75.icu",
-      "zhiqudian76.icu",
-      "zhiqudian77.icu",
-      "zhiqudian78.icu",
-      "zhiqudian79.icu",
-      "zhiqudian80.icu",
-      "zhiqudian81.icu",
-      "zhiqudian82.icu",
-      "zhiqudian83.icu",
-      "zhiqudian84.icu",
-      "zhiqudian85.icu",
-      "zhiqudian86.icu",
-      "zhiqudian87.icu",
-      "zhiqudian88.icu",
-      "zhiqudian89.icu",
-      "zhiqudian90.icu",
-      "zhiqudian91.icu",
-      "zhiqudian92.icu",
-      "zhiqudian93.icu",
-      "zhiqudian94.icu",
-      "zhiqudian95.icu",
-      "zhiqudian96.icu",
-      "zhiqudian97.icu",
-      "zhiqudian98.icu",
-      "zhiqudian99.icu"
-    ],
-    "support": [
-      "supportads.cfd",
-      "supportads.cyou",
-      "supportbusiness.cyou",
-      "supportmeta.cfd",
-      "supportmeta.cyou",
-      "supportverificationprocess.icu",
-      "thesupportdevice.sbs",
-      "usaa-supportcare-usaa.bond",
-      "usaa-supportcare-usaa.cyou"
-    ],
-    "bank": [
-      "bank303.bond",
-      "usaa-email-onlinebanking-usaa.bond",
-      "usaa-email-onlinebanking-usaa.cyou",
-      "usaa-emails-onlinebanking-usaa.bond",
-      "usaa-emails-onlinebanking-usaa.cyou",
-      "usaa-mail-bankingteam-usaa.bond",
-      "usaa-mail-bankingteam-usaa.cyou",
-      "usaa-mail-onlinebanking-usaa.bond",
-      "usaa-mail-onlinebanking-usaa.cyou",
-      "usaa-mailcenter-onlinebanking-usaa.bond",
-      "usaa-mailcenter-onlinebanking-usaa.cyou",
-      "usaa-mails-onlinebanking-usaa.bond",
-      "usaa-mails-onlinebanking-usaa.cyou",
-      "usaa-online-banking-usaa.bond",
-      "usaa-online-banking-usaa.cyou",
-      "usaa-onlinebanking-usaa.bond",
-      "usaa-onlinebanking-usaa.cyou"
-    ],
-    "banking": [
-      "usaa-email-onlinebanking-usaa.bond",
-      "usaa-email-onlinebanking-usaa.cyou",
-      "usaa-emails-onlinebanking-usaa.bond",
-      "usaa-emails-onlinebanking-usaa.cyou",
-      "usaa-mail-bankingteam-usaa.bond",
-      "usaa-mail-bankingteam-usaa.cyou",
-      "usaa-mail-onlinebanking-usaa.bond",
-      "usaa-mail-onlinebanking-usaa.cyou",
-      "usaa-mailcenter-onlinebanking-usaa.bond",
-      "usaa-mailcenter-onlinebanking-usaa.cyou",
-      "usaa-mails-onlinebanking-usaa.bond",
-      "usaa-mails-onlinebanking-usaa.cyou",
-      "usaa-online-banking-usaa.bond",
-      "usaa-online-banking-usaa.cyou",
-      "usaa-onlinebanking-usaa.bond",
-      "usaa-onlinebanking-usaa.cyou"
-    ],
-    "service": [
-      "airconditioningrepairservice.buzz",
-      "authentication-services-security-notification-session.cfd",
-      "authentication-services-session-notification-security.cfd",
-      "cloackservice.icu",
-      "de-session-service.cfd",
-      "de-session-service.cyou",
-      "de-session-service.sbs",
-      "faveoservice.buzz",
-      "notification-security-session-services.icu",
-      "services-notification-security-session.cyou",
-      "services-session-security-notification-authentication.cfd",
-      "session-authentication-services-security-notification.cfd",
-      "shop-service.cyou"
-    ],
-    "security": [
-      "adtsecurity.sbs",
-      "authentication-services-security-notification-session.cfd",
-      "authentication-services-session-notification-security.cfd",
-      "jmsecurity.sbs",
-      "notification-security-session-services.icu",
-      "sdtsecurity.sbs",
-      "securitysys.cfd",
-      "securityvn.cfd",
-      "services-notification-security-session.cyou",
-      "services-session-security-notification-authentication.cfd",
-      "session-authentication-services-security-notification.cfd",
-      "xringsecurity.icu"
-    ],
-    "portal": [
-      "cdicportalaccess.icu",
-      "clsoingportalhgnlkbzvrtptjtq.icu",
-      "kundeportal.cfd",
-      "kundeportal.sbs",
-      "portal-seges-social.bond",
-      "portal-seges-social.icu"
-    ],
-    "finance": [
-      "claims-dopplerfinance.bond",
-      "claims-dopplerfinance.cfd",
-      "claims-dopplerfinance.cyou",
-      "finance-bridgeviawallet.sbs",
-      "finance-gatetowallet.sbs",
-      "finance-linkintodapp.sbs",
-      "finance-paq.cyou",
-      "finance-signwithwc.sbs",
-      "finance-walletlinkto.sbs",
-      "meridian-finance.cfd",
-      "qanafinance.icu"
-    ],
-    "maple": [
-      "maplebonus.cfd",
-      "maplebrookatelier.buzz",
-      "maplecoastinfo.icu",
-      "mapleleaftips.icu",
-      "maplenorthdaily.icu",
-      "maplenorthhub.icu",
-      "maplevalleyguide.icu",
-      "northernmaplenews.icu",
-      "wexdralmaple.sbs"
-    ],
-    "bonus": [
-      "99nightbonus.sbs",
-      "bonusslot4d.icu",
-      "browser-urlbonus.cfd",
-      "browser-urlbonusstr.cfd",
-      "casino-francais-bonus-sans-depot.sbs",
-      "gewinnerbonus24.sbs",
-      "goldapplebonus.sbs",
-      "maplebonus.cfd"
-    ],
     "hop": [
-      "andinhoplay.sbs",
-      "autosennshop.cfd",
-      "bologninakeshopit.sbs",
-      "cnshopper-spreadsheet.sbs",
-      "khopusgwua.cfd",
-      "love-shop.icu",
-      "shop-service.cyou",
-      "vpnshop.sbs"
+      "abirshopnerchobi.cyou",
+      "akashchopra.cfd",
+      "alamanatshop.cyou",
+      "ccshop.icu",
+      "eazyshop.cfd",
+      "gemerlaptotoshope.icu",
+      "ishaanchopra.cfd",
+      "mtshop.cfd",
+      "noorshop.cyou",
+      "oppobdshop.sbs",
+      "pixelshop.buzz",
+      "rajeshchopra.cfd",
+      "realmebdshop.sbs",
+      "shop256.qpon",
+      "shop68.qpon",
+      "shop789.qpon",
+      "shopbase.cyou",
+      "shopix.sbs",
+      "shopolmrkt.cfd",
+      "shoppepartner.cyou",
+      "toonsffshop.bond",
+      "www-gtjinshangshoppingcenter.icu",
+      "zenithshop.cyou"
     ],
-    "neo": [
-      "bandoneon-zfsfnrzgga.sbs",
-      "extemporaneous.bond",
-      "neoguardian394.sbs",
-      "neosaga607.sbs",
-      "neosoulx.sbs",
-      "vineo.bond",
-      "yke5spdmneoek8z.icu"
+    "dia": [
+      "dianbowen.sbs",
+      "diancangwen.cyou",
+      "dianlizhi.sbs",
+      "dianyingweiwang.cfd",
+      "dianziwang.buzz",
+      "eloviaamedia.sbs",
+      "f-diamond-1017-5431818.cfd",
+      "hdiactpr.cyou",
+      "huadianwe.cyou",
+      "huadianweiwang.cyou",
+      "huadianwen.buzz",
+      "jiadianke.cyou",
+      "jiudianlv.buzz",
+      "jiudianwang.cfd",
+      "navratra-india.icu",
+      "novamedia.sbs",
+      "outoffocusmedia.icu",
+      "quickframemedia.sbs",
+      "sadiaa.cfd"
     ],
     "sui": [
-      "accountsysxteltigfsuitaminmxsecureconfigurationsecured.sbs",
-      "boxessuites-ai.sbs",
-      "boxsuites-ai.sbs",
-      "boxsuitesnew.sbs",
-      "sasasui.bond",
-      "sasasui.buzz",
-      "sasasui.cyou"
+      "boxsuitepro.sbs",
+      "licaisuiji.buzz",
+      "licaisuiji.cfd",
+      "licaisuiji.qpon",
+      "licaisuiji.sbs",
+      "licaisuijiss.buzz",
+      "licaisuijiss.cfd",
+      "licaisuijiss.qpon",
+      "licaisuijiss.sbs",
+      "proboxsuite.sbs",
+      "proboxsuites.sbs"
     ],
-    "scroll": [
-      "doomscrolling.bond",
-      "doomscrolling.buzz",
-      "doomscrolling.cfd",
-      "doomscrolling.cyou",
-      "doomscrolling.icu",
-      "doomscrolling.qpon",
-      "doomscrolling.sbs"
-    ],
-    "auth": [
-      "authentication-services-security-notification-session.cfd",
-      "authentication-services-session-notification-security.cfd",
-      "identity-authentication2301.icu",
-      "services-session-security-notification-authentication.cfd",
-      "session-authentication-services-security-notification.cfd",
-      "vinted-authentication.sbs"
-    ],
-    "secure": [
-      "4front-secure-now.cfd",
-      "accountsysxteltigfsuitaminmxsecureconfigurationsecured.sbs",
-      "guardosecure1828.cfd",
-      "secure-now-4front.cfd",
-      "secured-greenvelopead0be.cfd",
-      "securelainelp.icu"
-    ],
-    "tesla": [
-      "coinflyingteslaroadster.cyou",
-      "flyingteslaroadster.cyou",
-      "superinutesla.cyou",
-      "teslafly.bond",
-      "teslanest.sbs",
-      "teslaroadstercat.cyou"
-    ],
-    "alert": [
-      "alertkyroprot.sbs",
-      "breakorvoalert.sbs",
-      "lumexalert.sbs"
-    ],
-    "eos": [
-      "beosport-rs.sbs",
-      "faveoservice.buzz",
-      "neosaga607.sbs",
-      "neosoulx.sbs"
+    "tron": [
+      "metatronics.sbs",
+      "quantumveltronic.buzz",
+      "veltronicorexlab.buzz"
     ],
     "earn": [
-      "biolearnhealth.cfd",
-      "cheeseailearning.icu",
-      "earnings-ohkh.cyou",
-      "musiclearn9428.sbs"
+      "dailyearn.sbs",
+      "earningzonebd.cyou",
+      "keeplearning.icu",
+      "learn-edge.icu",
+      "learnspace.bond",
+      "spearn.sbs"
     ],
-    "drift": [
-      "inboxnavdrifttt.cyou",
-      "lomsashdrift.buzz"
+    "base": [
+      "basehub.cfd",
+      "basementtelescope.cfd",
+      "basetrue.sbs",
+      "fub-base.cfd",
+      "shopbase.cyou"
+    ],
+    "aura": [
+      "auraffx.bond",
+      "auraffx.cyou",
+      "auralix.cfd",
+      "auraxrakib.cyou",
+      "watteauracoons.cyou"
+    ],
+    "recovery": [
+      "recovery-team.bond",
+      "recovery-team.cfd",
+      "recovery-team.cyou",
+      "recovery-team.icu",
+      "recovery-team.sbs"
+    ],
+    "okx": [
+      "nokxn.cfd",
+      "zlokxmm.bond",
+      "zlokxmm.cyou",
+      "zlokxmm.icu",
+      "zlokxmm.qpon"
+    ],
+    "capital": [
+      "capital-tky.cyou",
+      "netcapitals.sbs",
+      "netnetcapitals.sbs",
+      "streamcapitals.cfd"
+    ],
+    "station": [
+      "brokenradiostation.cfd",
+      "rdstationxx.cfd",
+      "stationgameslot.cyou",
+      "trailstation.cfd"
+    ],
+    "tesla": [
+      "flyingquantumtesla.cyou",
+      "teslaintelligence.cyou",
+      "teslainu.cyou",
+      "wiftesla.icu"
+    ],
+    "stake": [
+      "stake88link.cfd",
+      "stake88new.cyou",
+      "stake88official.cyou",
+      "stake88x.icu"
+    ],
+    "eos": [
+      "4eosohiy.cyou",
+      "eos33sbm.cyou",
+      "finnze8-eos41.sbs",
+      "videostorage.sbs"
+    ],
+    "auth": [
+      "319-accessauth.icu",
+      "auth-websslconfg.sbs",
+      "authorizedstudentswrite40.sbs",
+      "pagebusiness-authsecurity.sbs"
+    ],
+    "gift": [
+      "freegiftcard.cyou",
+      "gift138.qpon",
+      "gift58.qpon",
+      "gift888.qpon"
+    ],
+    "leap": [
+      "teleaproxx.bond",
+      "teleaproxx.cyou",
+      "teleaproxx.icu"
+    ],
+    "zora": [
+      "zora138.qpon",
+      "zora29.qpon",
+      "zora888.qpon"
+    ],
+    "confirm": [
+      "confirm009574346766743.sbs",
+      "confirm01958275221.sbs",
+      "payconfirm.bond"
+    ],
+    "invite": [
+      "flowiniinvite.icu",
+      "invitezoom.icu",
+      "rsvpeinvite.icu"
+    ],
+    "service": [
+      "customer-validation-service6335.icu",
+      "quickpathservices.sbs",
+      "talkservice.cfd"
+    ],
+    "neo": [
+      "bandoneon-eleeqhuass.sbs",
+      "borneoljousted.cyou",
+      "wineout.icu"
+    ],
+    "account": [
+      "bank-account.sbs",
+      "faceit-player-account.cfd",
+      "myaccount-alerts.icu"
+    ],
+    "connect": [
+      "celebconnects.sbs",
+      "et-connect.cfd",
+      "myconnectheworld.cfd"
+    ],
+    "bonus": [
+      "bonusaustralia.sbs",
+      "bonuscair.cfd"
+    ],
+    "roblox": [
+      "nnrobloxrr.icu",
+      "robloxcheats.sbs"
+    ],
+    "yearn": [
+      "dailyearn.sbs"
     ],
     "official": [
-      "euroofficialfort.cyou",
-      "f2movies-official.cyou",
-      "officialbluehex.bond",
-      "slimqa-official.sbs"
+      "officialcr.cyou",
+      "stake88official.cyou"
     ],
-    "wallet": [
-      "finance-bridgeviawallet.sbs",
-      "finance-gatetowallet.sbs",
-      "finance-walletlinkto.sbs",
-      "trustwallet.buzz"
+    "atrix": [
+      "funmatrix.sbs",
+      "novatrixdigitalx.buzz"
     ],
-    "apple": [
-      "goldapplebonus.sbs",
-      "loveapple.icu",
-      "manzoratyapple.icu"
-    ],
-    "register": [
-      "register-meridian.bond",
-      "register-meridian.cfd",
-      "register-meridian.cyou"
-    ],
-    "quest": [
-      "elitequester343.sbs",
-      "infinitequester486.sbs",
-      "superquest.sbs"
-    ],
-    "verification": [
-      "supportverificationprocess.icu",
-      "verification-page.icu",
-      "verificationpage.sbs"
-    ],
-    "allocation": [
-      "usdai-allocations.bond",
-      "usdai-allocations.cfd",
-      "usdai-allocations.cyou"
-    ],
-    "allocations": [
-      "usdai-allocations.bond",
-      "usdai-allocations.cfd",
-      "usdai-allocations.cyou"
-    ],
-    "claim": [
-      "claims-dopplerfinance.bond",
-      "claims-dopplerfinance.cfd",
-      "claims-dopplerfinance.cyou"
+    "gaming": [
+      "gamingonline.sbs",
+      "www-gtlivebraziliangamingvenue.icu"
     ]
   }
 }
