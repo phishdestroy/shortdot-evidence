@@ -36,7 +36,7 @@ They were meant to be <i>counted.</i><br/>
 
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-19`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-20`
 
 <table><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><sub><code>6,242,647</code></sub></td>
@@ -51,25 +51,31 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 1 | — | $634,670 |
+| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 0 | — | $634,670 |
 | `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
 | `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 1 | — | $492,038 |
-| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 1 | — | $1,242,854 |
-| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 1 | — | $619,050 |
+| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 0 | — | $1,242,854 |
+| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 3 | — | $619,050 |
 | `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 0 | — | $680,602 |
 | `.qpon` | 110,365 | 61,237 (55.5%) | 49,128 | 0 | — | $275,912 |
 
 *Table auto-generated on each daily fetch run.*
 
+### 🌍 Top Hosting Countries
+
+```
+US  ██████████████████          1 (100.0%)
+```
+
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-10-19` | 7,916 | **1.0×** |
+| `2026-10-20` | 5,302 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`hop (23)` &middot; `dia (19)` &middot; `sui (11)` &middot; `tron (6)` &middot; `earn (6)` &middot; `base (5)` &middot; `aura (5)` &middot; `recovery (5)` &middot; `okx (5)` &middot; `capital (4)` &middot; `station (4)` &middot; `tesla (4)` &middot; `stake (4)` &middot; `eos (4)` &middot; `auth (4)`
+`hop (29)` &middot; `service (28)` &middot; `base (25)` &middot; `support (22)` &middot; `mango (21)` &middot; `tron (16)` &middot; `dapp (12)` &middot; `customer (12)` &middot; `rainbow (11)` &middot; `fund (10)` &middot; `dia (10)` &middot; `earn (10)` &middot; `eos (9)` &middot; `capital (8)` &middot; `rug (7)`
 
 ### 📥 Download Threat Intelligence
 

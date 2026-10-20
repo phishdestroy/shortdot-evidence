@@ -1,10 +1,10 @@
 {
   "month": "2026-10",
-  "generated": "2026-10-19",
-  "total_domains": 7916,
-  "total_rev_retail": 123828.84,
-  "total_rev_wholesale": 8834.05,
-  "total_icann_fees": 182579.0,
+  "generated": "2026-10-20",
+  "total_domains": 5302,
+  "total_rev_retail": 89167.48,
+  "total_rev_wholesale": 7737.65,
+  "total_icann_fees": 181925.5,
   "avg_reg_days": 365,
   "deployment_rate": 0.0,
   "fresh_pct": 100.0,
@@ -14,59 +14,59 @@
   "legit_count": 0,
   "tld_stats": {
     "icu": {
-      "count": 1431,
+      "count": 484,
       "deployed": 0,
-      "no_ip": 1431,
+      "no_ip": 484,
       "deploy_rate": 0.0,
-      "revenue": 930.15,
+      "revenue": 314.6,
       "price": 0.65
     },
     "bond": {
-      "count": 342,
+      "count": 570,
       "deployed": 0,
-      "no_ip": 342,
+      "no_ip": 570,
       "deploy_rate": 0.0,
-      "revenue": 2223.0,
+      "revenue": 3705.0,
       "price": 6.5
     },
     "cyou": {
-      "count": 2477,
-      "deployed": 0,
-      "no_ip": 2477,
-      "deploy_rate": 0.0,
-      "revenue": 1610.05,
+      "count": 1688,
+      "deployed": 1,
+      "no_ip": 1687,
+      "deploy_rate": 0.1,
+      "revenue": 1097.2,
       "price": 0.65
     },
     "sbs": {
-      "count": 1163,
+      "count": 1011,
       "deployed": 0,
-      "no_ip": 1163,
+      "no_ip": 1011,
       "deploy_rate": 0.0,
-      "revenue": 755.95,
+      "revenue": 657.15,
       "price": 0.65
     },
     "cfd": {
-      "count": 1801,
-      "deployed": 0,
-      "no_ip": 1801,
-      "deploy_rate": 0.0,
-      "revenue": 1170.65,
+      "count": 1168,
+      "deployed": 1,
+      "no_ip": 1167,
+      "deploy_rate": 0.1,
+      "revenue": 759.2,
       "price": 0.65
     },
     "buzz": {
-      "count": 519,
+      "count": 336,
       "deployed": 0,
-      "no_ip": 519,
+      "no_ip": 336,
       "deploy_rate": 0.0,
-      "revenue": 1686.75,
+      "revenue": 1092.0,
       "price": 3.25
     },
     "qpon": {
-      "count": 183,
+      "count": 45,
       "deployed": 0,
-      "no_ip": 183,
+      "no_ip": 45,
       "deploy_rate": 0.0,
-      "revenue": 457.5,
+      "revenue": 112.5,
       "price": 2.5
     }
   }
