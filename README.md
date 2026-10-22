@@ -36,7 +36,7 @@ They were meant to be <i>counted.</i><br/>
 
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-21`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-22`
 
 <table><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><sub><code>6,242,647</code></sub></td>
@@ -51,12 +51,12 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 2 | — | $634,670 |
+| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 1 | — | $634,670 |
 | `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
-| `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 2 | — | $492,038 |
-| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 3 | — | $1,242,854 |
-| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 4 | — | $619,050 |
-| `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 2 | — | $680,602 |
+| `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
+| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 1 | — | $1,242,854 |
+| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 0 | — | $619,050 |
+| `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 0 | — | $680,602 |
 | `.qpon` | 110,365 | 61,237 (55.5%) | 49,128 | 0 | — | $275,912 |
 
 *Table auto-generated on each daily fetch run.*
@@ -64,21 +64,19 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████         16 (76.2%)
-MD  ███░░░░░░░░░░░░░░░          3 (14.3%)
-DE  █░░░░░░░░░░░░░░░░░          1 (4.8%)
-FR  █░░░░░░░░░░░░░░░░░          1 (4.8%)
+US  ██████████████████          2 (66.7%)
+NL  █████████░░░░░░░░░          1 (33.3%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-10-21` | 7,916 | **1.0×** |
+| `2026-10-22` | 9,037 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`connect (98)` &middot; `skin (53)` &middot; `aura (44)` &middot; `dia (36)` &middot; `tron (18)` &middot; `hop (18)` &middot; `base (18)` &middot; `wells (15)` &middot; `fund (14)` &middot; `rug (13)` &middot; `neo (11)` &middot; `auth (11)` &middot; `portal (10)` &middot; `mango (10)` &middot; `service (9)`
+`skin (118)` &middot; `fund (62)` &middot; `dia (50)` &middot; `aura (39)` &middot; `hop (25)` &middot; `cs2 (20)` &middot; `mango (15)` &middot; `service (13)` &middot; `invest (8)` &middot; `secure (8)` &middot; `skins (7)` &middot; `connect (7)` &middot; `neo (7)` &middot; `claim (7)` &middot; `alert (6)`
 
 ### 📥 Download Threat Intelligence
 

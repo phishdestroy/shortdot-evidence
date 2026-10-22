@@ -1,10 +1,2 @@
-cadda.cfd
-cavss.cfd
-cscca.cfd
-hedging.cfd
-hgbnm.cfd
-jjgbm.cfd
-lsljm.cfd
-univmaill.cfd
-vvdas.cfd
-zenithquant.cfd
+exaction.cfd
+primepulse.cfd
