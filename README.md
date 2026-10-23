@@ -36,7 +36,7 @@ They were meant to be <i>counted.</i><br/>
 
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-22`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-23`
 
 <table><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><sub><code>6,242,647</code></sub></td>
@@ -51,32 +51,33 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 1 | — | $634,670 |
+| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 0 | — | $634,670 |
 | `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
 | `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
 | `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 1 | — | $1,242,854 |
-| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 0 | — | $619,050 |
+| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 3 | — | $619,050 |
 | `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 0 | — | $680,602 |
-| `.qpon` | 110,365 | 61,237 (55.5%) | 49,128 | 0 | — | $275,912 |
+| `.qpon` | 110,365 | 61,237 (55.5%) | 49,128 | 1 | — | $275,912 |
 
 *Table auto-generated on each daily fetch run.*
 
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████          2 (66.7%)
-NL  █████████░░░░░░░░░          1 (33.3%)
+US  ██████████████████          6 (66.7%)
+TR  ██████░░░░░░░░░░░░          2 (22.2%)
+SG  ███░░░░░░░░░░░░░░░          1 (11.1%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-10-22` | 9,037 | **1.0×** |
+| `2026-10-23` | 8,341 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`skin (118)` &middot; `fund (62)` &middot; `dia (50)` &middot; `aura (39)` &middot; `hop (25)` &middot; `cs2 (20)` &middot; `mango (15)` &middot; `service (13)` &middot; `invest (8)` &middot; `secure (8)` &middot; `skins (7)` &middot; `connect (7)` &middot; `neo (7)` &middot; `claim (7)` &middot; `alert (6)`
+`citi (38)` &middot; `skin (33)` &middot; `dia (22)` &middot; `hop (19)` &middot; `aura (17)` &middot; `customer (16)` &middot; `service (14)` &middot; `portal (12)` &middot; `support (12)` &middot; `bonus (11)` &middot; `hive (11)` &middot; `mango (10)` &middot; `station (9)` &middot; `account (8)` &middot; `maple (8)`
 
 ### 📥 Download Threat Intelligence
 

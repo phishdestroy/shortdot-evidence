@@ -1,2 +1,6 @@
-exaction.cfd
-primepulse.cfd
+basegrid.cfd
+ossis.cfd
+radesmart.cfd
+trydeanmktg.cfd
+tryjrpurple.cfd
+tryorganicmedia.cfd
