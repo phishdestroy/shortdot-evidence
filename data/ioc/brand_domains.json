@@ -1,350 +1,238 @@
 {
-  "generated": "2026-10-23",
+  "generated": "2026-10-24",
   "keywords": {
-    "citi": [
-      "accountcitisendciti.bond",
-      "accountcitisendciti.cyou",
-      "accountcitisendcitizen.bond",
-      "accountcitisendcitizen.cyou",
-      "accountcitisending.bond",
-      "accountcitisending.cyou",
-      "citiemailcenter-customercare.bond",
-      "citiemailcenter-customercare.cyou",
-      "citiemailcenter-customerservice.bond",
-      "citiemailcenter-customerservice.cyou",
-      "citimail-customercare.bond",
-      "citimail-customercare.cyou",
-      "citimailcenter-customerservice.bond",
-      "citimailcenter-customerservice.cyou",
-      "emailcenterciti.bond",
-      "emailcenterciti.cyou",
-      "emailcitiaccount.bond",
-      "emailcitiaccount.cyou",
-      "infociti.bond",
-      "infociti.cyou",
-      "mailcenterciti.bond",
-      "mailcenterciti.cyou",
-      "mailinfociti.bond",
-      "mailinfociti.cyou",
-      "sec-citionline-login.bond",
-      "sec-citionline.bond",
-      "sec-citionline.cyou",
-      "sec-citionline1.bond",
-      "sec-citionline1.cyou",
-      "sec-citionline2.bond",
-      "sec-citionline2.cyou",
-      "sec-citionline3.bond",
-      "sec-citionline3.cyou",
-      "sec-citionline4.bond",
-      "sec-citionline4.cyou",
-      "sec-citionline5.bond",
-      "sec-citionline5.cyou",
-      "www-citionline-com.cyou"
-    ],
-    "skin": [
-      "boostskin.buzz",
-      "darlingskin.buzz",
-      "gleamskin.sbs",
-      "nudeskin.cfd",
-      "silkskinivory.sbs",
-      "silkskinlavender.buzz",
-      "silkskinpearl.cyou",
-      "silkskintulip.sbs",
-      "skincaredew.cfd",
-      "skincarefresh.cfd",
-      "skincarelavender.cfd",
-      "skinglow.cfd",
-      "skinglowbar.sbs",
-      "skinglowbronze.cyou",
-      "skinglowcdn.sbs",
-      "skinglowdew.cfd",
-      "skinglowgold.cyou",
-      "skinglowhub.cfd",
-      "skinglowtulip.cyou",
-      "skinkit.sbs",
-      "skinmakeup.cfd",
-      "skinposh.buzz",
-      "skinsalon.cyou",
-      "skintoner.cfd",
-      "skintulip.cyou",
-      "skinvelvet.buzz",
-      "velvetskinamber.cyou",
-      "velvetskinbloom.cyou",
-      "velvetskinmist.sbs",
-      "velvetskinpro.cfd",
-      "velvetskinshine.sbs",
-      "velvetskinsoft.buzz",
-      "vividskin.buzz"
-    ],
     "dia": [
-      "dialectics.icu",
-      "diatp.buzz",
-      "jiedian.buzz",
-      "mediajewel.cyou",
-      "mediaposh.sbs",
-      "mediatulip.sbs",
-      "myanmarsubsidiariesresulted65.sbs",
-      "nettleislemedia.buzz",
-      "paglinadia.cfd",
-      "pc-ls688-dian-co.cyou",
-      "pc-qy688-dian-co.cyou",
-      "qy688-dian-co.cyou",
-      "radiantbronze.cyou",
-      "radiantpetal.sbs",
-      "radiantpowder.sbs",
-      "radiantrose.cfd",
-      "radiantshine.buzz",
-      "radiantshine.cyou",
-      "soilremediationwork.cyou",
-      "storifexmedia.sbs",
-      "tryorganicmedia.cfd",
-      "tuttifruttidiamonds.icu"
+      "brightcrestmedia.cyou",
+      "chenchebacuntiedianlaohu.cfd",
+      "davidgladiador.sbs",
+      "diaopangguiheiremaocheng.cfd",
+      "diaopiaoangqimangsa.cfd",
+      "diaozacuigunouxialang.sbs",
+      "diarioluma.sbs",
+      "duohacaoleidiabingdiedehei.cfd",
+      "fanayundiandeigunjiang.cyou",
+      "foodindia.sbs",
+      "goupankuagunsilinnendian.cfd",
+      "hangchunwoshigangdian.cyou",
+      "importedials.cyou",
+      "lindiaonouzeishengankao.cfd",
+      "naqiliaodiahuangduanbo.sbs",
+      "qsyidian.icu",
+      "radiantrealm845.sbs",
+      "radiantzone571.sbs",
+      "risuokairucoupidiancang.cfd",
+      "seluanhuandiankaoliyetu.sbs",
+      "shaomaiqugediatongqia.cfd",
+      "tadoungjueengangshenxidiao.sbs",
+      "terapiados21dias.sbs",
+      "xinbeizundiaowuxuanpanxiu.cfd",
+      "zhansunkadiazahaxia.cfd",
+      "zhouguangnengdiaopeishua.cyou"
     ],
     "hop": [
-      "amberstoneworkshop.buzz",
-      "aquaduneshop.cyou",
-      "directshop.cfd",
-      "eliteshop.sbs",
-      "ggshop.cyou",
-      "gleamingclovershop.cyou",
-      "hazymagnoliashop.cyou",
-      "jazzyfireflyshop.cyou",
-      "luckyshop.cyou",
-      "maximumshop.cfd",
-      "premchopra.cfd",
-      "senashop.cfd",
-      "sexyhopdk.icu",
-      "shopbd.cyou",
-      "stormypelicanshop.cyou",
-      "swiftcypressshop.cyou",
-      "tropicalbrookshop.cyou",
-      "wavyechopoint.cyou",
-      "wepinshop.cfd"
-    ],
-    "aura": [
-      "agroaura.cyou",
-      "aurabronze.sbs",
-      "auradew.buzz",
-      "auraposh.cyou",
-      "aurapowder.cyou",
-      "aurashine.cyou",
-      "aurasoft.cyou",
-      "boutiqueaura.sbs",
-      "brightaura.cyou",
-      "coutureaura.sbs",
-      "creamaura.cyou",
-      "darlingaura.cyou",
-      "fragranceaura.cyou",
-      "jewelaura.cfd",
-      "pearlaura.buzz",
-      "playedgeaura.cfd",
-      "prettyaura.sbs"
-    ],
-    "customer": [
-      "citiemailcenter-customercare.bond",
-      "citiemailcenter-customercare.cyou",
-      "citiemailcenter-customerservice.bond",
-      "citiemailcenter-customerservice.cyou",
-      "citimail-customercare.bond",
-      "citimail-customercare.cyou",
-      "citimailcenter-customerservice.bond",
-      "citimailcenter-customerservice.cyou"
+      "boxershop.sbs",
+      "clickkshop.sbs",
+      "dynamicshop.cfd",
+      "episcopalhope.sbs",
+      "hopiya.cfd",
+      "iweb-workshop.icu",
+      "service-shop.sbs",
+      "shoph.buzz",
+      "shopk77.cyou",
+      "shopk77.icu",
+      "shoppee.cfd",
+      "shoppingcenterk.cyou",
+      "smartshoppingguide.sbs",
+      "znyzhkashopik.cyou"
     ],
     "service": [
-      "boostservice.sbs",
-      "citiemailcenter-customerservice.bond",
-      "citiemailcenter-customerservice.cyou",
-      "citimailcenter-customerservice.bond",
-      "citimailcenter-customerservice.cyou",
-      "elevatorservicework.cyou",
-      "nextgenerationwebservices.cyou",
-      "plumbingservices.sbs",
-      "primecloudbusinessservices.cfd",
-      "roofingservice.buzz",
-      "roofingservices.buzz",
-      "servicesmessage-centrelink.cfd",
-      "servicess.sbs",
-      "smartservicesicps.cyou"
+      "bhservice.cfd",
+      "dhl-service.icu",
+      "etisalatservice.sbs",
+      "financingservices.cfd",
+      "focusongrowthproductsandservicesllc.buzz",
+      "openservice.icu",
+      "openservices.cfd",
+      "pmservice.icu",
+      "service-shop.sbs",
+      "servicesforcentrelinkdoc.sbs",
+      "yourselfservice.sbs"
     ],
-    "portal": [
-      "at-sportal.sbs",
-      "kundenportal-7184.icu",
-      "portal-seg.buzz",
-      "portal-seg.cfd",
-      "portal-seg.sbs",
-      "portalses-es.cfd"
-    ],
-    "support": [
-      "cleanpathsupport.cfd",
-      "m-support.buzz",
-      "mo-support.sbs",
-      "modernbusinesssupportcenter.sbs",
-      "pay-support.icu",
-      "us-support.sbs"
-    ],
-    "bonus": [
-      "bonus365.sbs",
-      "cabonusoffers.sbs",
-      "debonusexperte.sbs",
-      "gluecksbonus24.sbs",
-      "itpromobonus.sbs",
-      "nederlandbonus.sbs",
-      "nzbonusreview.sbs",
-      "ozwelcomebonus.sbs",
-      "populaire-bonuss.sbs",
-      "ukbonusreview.sbs",
-      "zeze-bonus.sbs"
-    ],
-    "hive": [
-      "archive-october-vdr-invite.icu",
-      "bubblybluebirdhive.cyou",
-      "coastalpoppyhive.cyou",
-      "dazzlingsagehive.cyou",
-      "grassypoppyhive.cyou",
-      "loftylagoonhive.cyou",
-      "pawchive.cyou",
-      "regalreefhive.cyou",
-      "snowywalnuthive.cyou",
-      "starryseashellhive.cyou",
-      "stormysequoiahive.cyou"
-    ],
-    "mango": [
-      "bouncymangocornerbr.cyou",
-      "mangodaisy.sbs",
-      "mangoglow.buzz",
-      "mangolily.buzz",
-      "mangolux.sbs",
-      "mangopowder.cyou",
-      "mangosalon.sbs",
-      "mangospa.sbs",
-      "mangou.sbs",
-      "mangovanilla.sbs"
-    ],
-    "station": [
-      "substationwork.cyou",
-      "vrn8evstation.cfd",
-      "vrn8evstation.sbs",
-      "vrnchargestation.cfd",
-      "vrnchargestation.sbs",
-      "vrnevstation.cfd",
-      "vrnevstation.sbs",
-      "vrnvoltstation.cfd",
-      "vrnvoltstation.sbs"
-    ],
-    "account": [
-      "accountcitisendciti.bond",
-      "accountcitisendciti.cyou",
-      "accountcitisendcitizen.bond",
-      "accountcitisendcitizen.cyou",
-      "accountcitisending.bond",
-      "accountcitisending.cyou",
-      "emailcitiaccount.bond",
-      "emailcitiaccount.cyou"
-    ],
-    "maple": [
-      "broommaple.cfd",
-      "crimsonmaplewood.buzz",
-      "mapleford.buzz",
-      "mapleford.cyou",
-      "mapleford.sbs",
-      "maplesage.cfd",
-      "maplesignals.icu",
-      "silvermapleroots.cyou"
+    "sui": [
+      "boxsuite-ai.sbs",
+      "boxsuite-get.sbs",
+      "boxsuite-hq.sbs",
+      "boxsuite-sl.sbs",
+      "cousuijiucasabeixunpa.cyou",
+      "mengsuijiaokaoyunshenhen.cfd",
+      "pursuitofpeaks.sbs",
+      "suifanglicizhefashuiwaihun.cfd",
+      "suitormition.cyou",
+      "trezsuitesdocs.sbs",
+      "waidaisuidinggeihenbanng.cfd"
     ],
     "base": [
-      "base-kotel.icu",
-      "basegrid.cfd",
-      "hisknowledgebase.icu",
-      "learning-base.cfd",
-      "learning-base.sbs",
-      "pbase.cfd",
-      "tobase.sbs",
-      "typree-base.icu"
+      "anclent-lake-5680aged-base-92d5.icu",
+      "basekala.cfd",
+      "inboxbase.bond",
+      "inboxbase.buzz",
+      "inboxbase.cfd",
+      "inboxbase.cyou",
+      "inboxbase.sbs",
+      "mega-base.cyou",
+      "org-base.icu"
     ],
-    "lido": [
-      "ikiyuzellidokuzuncu.cyou",
-      "ikiyuzellidorduncu.cyou",
-      "ucyuzellidokuzuncu.cyou",
-      "ucyuzellidorduncu.cyou"
-    ],
-    "ondo": [
-      "dortyuzondokuzuncu.cyou",
-      "dortyuzondorduncu.cyou",
-      "ikiyuzondokuzuncu.cyou",
-      "ikiyuzondorduncu.cyou",
-      "ucyuzondokuzuncu.cyou",
-      "ucyuzondorduncu.cyou",
-      "winchesmondodenude.cfd"
-    ],
-    "tron": [
-      "distronicc.icu",
-      "donovantimersstrone.qpon",
-      "ultron.sbs"
-    ],
-    "manta": [
-      "hutankalimantan.buzz",
-      "kalimantanpride.buzz",
-      "mantaskazlauskas.buzz"
-    ],
-    "ally": [
-      "ahally005.bond",
-      "ahally005.cyou",
-      "backsetretallylethes.qpon",
-      "candy-tally.sbs",
-      "whallywhirry.cfd"
-    ],
-    "capital": [
-      "capitalsafi.cyou",
-      "durocapital.buzz",
-      "flujo-capital.cfd",
-      "izicapitalgroup.sbs",
-      "naducapital.icu"
-    ],
-    "auth": [
-      "1342-member-auth.icu",
-      "473-access-auth.icu",
-      "611-access-auth.icu",
-      "sqca-authqc.cfd"
-    ],
-    "allocation": [
-      "allocation-ethfi.cfd",
-      "allocation-keeta.cfd",
-      "allocation-keeta.cyou",
-      "allocations-ethfi.cfd"
-    ],
-    "login": [
-      "logins-offcevents.icu",
-      "loginwin88.cyou",
-      "sec-citionline-login.bond",
-      "www-usaa-onlinebanking-login.cyou"
-    ],
-    "eos": [
-      "banglasexvideos.cyou",
-      "bengalisexvideos.cyou",
-      "pdeosrcklgvm.cyou",
-      "yu15eos1.cyou"
-    ],
-    "invite": [
-      "archive-october-vdr-invite.icu",
-      "gooinvitenow.cfd",
-      "myinvitedetails.icu",
-      "registeredinvites.cfd"
-    ],
-    "neo": [
-      "glsosuneo.bond",
-      "husecopneopen.icu",
-      "neonbet-br.icu",
-      "sereneorchardharbor.cyou"
-    ],
-    "connect": [
-      "clientconnectvault.icu",
-      "visionconnect.cfd",
-      "vrn8evconnect.sbs"
+    "portal": [
+      "connectonlineportal.cfd",
+      "online-portal.sbs",
+      "portaldenoticias.sbs",
+      "portalsoes-es.cfd"
     ],
     "invest": [
-      "hrinvest-hr.cfd",
-      "taloninvestly.sbs",
-      "velainvestaria.cfd"
+      "certoinvestex.sbs",
+      "globalinvest.cfd",
+      "havan-investimentos-s-a.sbs",
+      "investingfidelity.icu",
+      "investmentreviewfidelity.cyou",
+      "investmentreviewfidelity.icu",
+      "investmentupdatefidelity.cyou",
+      "investmentupdatefidelity.icu"
+    ],
+    "login": [
+      "amazon-login.sbs",
+      "bbva-login-netcash.bond",
+      "eldorado-login.buzz",
+      "login-empresa.sbs",
+      "login-empresas.sbs",
+      "login-usuarios.sbs",
+      "pt-login.cfd",
+      "shiro888login.cyou"
+    ],
+    "auth": [
+      "authentication.icu",
+      "authmygovprofile.cfd",
+      "authnest.icu",
+      "sign-auth-key.sbs",
+      "vhodautho.cfd",
+      "workforcevetauthy.icu",
+      "workforcevetauthy.sbs"
+    ],
+    "support": [
+      "arvestdirectsupport.icu",
+      "localiser-lcloud-isupports.sbs",
+      "locating-lcloud-supports.sbs"
+    ],
+    "alert": [
+      "alert-lost-ld-cloud.sbs",
+      "mygoogle-alerts.icu",
+      "myyahoo-alerts.icu"
+    ],
+    "bank": [
+      "bank-id.sbs",
+      "fendbrantclaybank.sbs",
+      "officebanking-cl.sbs",
+      "officesbanking-cl.sbs",
+      "quarvianclaybank.sbs",
+      "ziraatbank.icu"
+    ],
+    "fidelity": [
+      "investingfidelity.icu",
+      "investmentreviewfidelity.cyou",
+      "investmentreviewfidelity.icu",
+      "investmentupdatefidelity.cyou",
+      "investmentupdatefidelity.icu",
+      "portfoliofidelity.cyou"
+    ],
+    "bonus": [
+      "aubonusreview.sbs",
+      "aussiebetbonus.sbs",
+      "cabonusreview.sbs",
+      "kasyno-bonus-bez-depozytu.cfd",
+      "testsiegerbonus.sbs"
+    ],
+    "fund": [
+      "advancefunds58.buzz",
+      "advancefunds59.buzz",
+      "advancefunds60.buzz",
+      "duskfundis.cfd",
+      "lexfundfoniadesi.sbs"
+    ],
+    "drop": [
+      "ivorvelsnowdrop.sbs",
+      "newdrop.cyou",
+      "sol-airdrop.cfd",
+      "wexorisnowdrop.sbs",
+      "wild-drop500.icu"
+    ],
+    "neo": [
+      "cineon.sbs",
+      "kneovita.sbs",
+      "neonpixel28.buzz",
+      "neosaga745.sbs"
+    ],
+    "eos": [
+      "finne2-eos47.sbs",
+      "moseos-rest.bond",
+      "neosaga745.sbs",
+      "teosiobaoe.icu"
+    ],
+    "tron": [
+      "tronai.icu",
+      "trondhol.cyou"
+    ],
+    "capital": [
+      "auroracapital-fr.cfd",
+      "capitalaxis.cfd",
+      "capitales-plata.sbs",
+      "capitales-vortex.sbs"
+    ],
+    "drift": [
+      "dornbrantdriftwood.sbs",
+      "lindaricdriftwood.sbs"
+    ],
+    "update": [
+      "alohaposupdate.icu",
+      "investmentupdatefidelity.cyou",
+      "investmentupdatefidelity.icu",
+      "safetyinformationupdate.cfd"
+    ],
+    "investment": [
+      "investmentreviewfidelity.cyou",
+      "investmentreviewfidelity.icu",
+      "investmentupdatefidelity.cyou",
+      "investmentupdatefidelity.icu"
+    ],
+    "manta": [
+      "dwtglmantap.icu",
+      "pay77mantap.cyou"
+    ],
+    "aurora": [
+      "aurora66680.cyou",
+      "auroracapital-fr.cfd"
+    ],
+    "near": [
+      "brazilbalneariocamboriu.cfd",
+      "brodenearl.sbs"
+    ],
+    "account": [
+      "myaccountcit.bond",
+      "myaccountcit.cyou",
+      "tiz-account.sbs"
+    ],
+    "secure": [
+      "m2securemail-securemail.sbs",
+      "securepage.cfd",
+      "securevalidation.cfd"
+    ],
+    "maple": [
+      "maple-gat.cfd",
+      "maplequill.sbs",
+      "mapletech.sbs"
+    ],
+    "iron": [
+      "ironwoodbutterfly.buzz",
+      "rouchuaisironggangfa.cyou",
+      "vironu.cyou"
     ]
   }
 }

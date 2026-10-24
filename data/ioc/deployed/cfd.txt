@@ -1,6 +1,1 @@
-basegrid.cfd
-ossis.cfd
-radesmart.cfd
-trydeanmktg.cfd
-tryjrpurple.cfd
-tryorganicmedia.cfd
+backtesting.cfd
