@@ -36,7 +36,7 @@ They were meant to be <i>counted.</i><br/>
 
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-24`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-25`
 
 <table><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><sub><code>6,242,647</code></sub></td>
@@ -51,11 +51,11 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 2 | — | $634,670 |
-| `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 1 | — | $8,612,506 |
-| `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 3 | — | $492,038 |
-| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 1 | — | $1,242,854 |
-| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 5 | — | $619,050 |
+| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 1 | — | $634,670 |
+| `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
+| `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
+| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 0 | — | $1,242,854 |
+| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 1 | — | $619,050 |
 | `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 0 | — | $680,602 |
 | `.qpon` | 110,365 | 61,237 (55.5%) | 49,128 | 0 | — | $275,912 |
 
@@ -64,20 +64,20 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████          4 (66.7%)
-CA  ████░░░░░░░░░░░░░░          1 (16.7%)
-MD  ████░░░░░░░░░░░░░░          1 (16.7%)
+US  ██████████████████          2 (40.0%)
+NL  ██████████████████          2 (40.0%)
+DE  █████████░░░░░░░░░          1 (20.0%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-10-24` | 8,902 | **1.0×** |
+| `2026-10-25` | 7,737 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`dia (26)` &middot; `hop (14)` &middot; `service (11)` &middot; `sui (11)` &middot; `base (9)` &middot; `portal (8)` &middot; `invest (8)` &middot; `login (8)` &middot; `auth (7)` &middot; `support (6)` &middot; `alert (6)` &middot; `bank (6)` &middot; `fidelity (6)` &middot; `bonus (5)` &middot; `fund (5)`
+`hop (19)` &middot; `dia (14)` &middot; `bonus (11)` &middot; `eos (7)` &middot; `sui (6)` &middot; `portal (6)` &middot; `auth (6)` &middot; `foundation (5)` &middot; `security (5)` &middot; `earn (5)` &middot; `rug (5)` &middot; `apple (4)` &middot; `gmx (4)` &middot; `base (4)` &middot; `neo (4)`
 
 ### 📥 Download Threat Intelligence
 
