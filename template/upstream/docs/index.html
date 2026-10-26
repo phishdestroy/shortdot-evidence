@@ -1258,9 +1258,9 @@ function _buildChart(){
   var ctx=document.getElementById('reg-chart').getContext('2d');
   _ci=new Chart(ctx,{type:'bar',data:{labels:labels,datasets:[{data:counts.map(function(c,i){return (snapFlags&&snapFlags[i])?1:c;}),backgroundColor:cols,borderRadius:2,borderSkipped:false}]},
   options:{responsive:true,maintainAspectRatio:false,
-  plugins:{legend:{display:false},tooltip:{callbacks:{title:function(i){return i[0].label;},label:function(i){var sf=snapFlags&&snapFlags[i[0].dataIndex];return sf?'Full zone snapshot (6.2M total domains)':i.raw.toLocaleString()+' new domains';}},backgroundColor:'rgba(7,11,18,.95)',titleColor:'#f0f6fc',bodyColor:'#8b949e',borderColor:'rgba(255,255,255,.08)',borderWidth:1}},
+  plugins:{legend:{display:false},tooltip:{callbacks:{title:function(i){return i[0].label;},label:function(i){var sf=snapFlags&&snapFlags[i.dataIndex];return sf?'Full zone snapshot (6.2M total domains)':i.raw.toLocaleString()+' new domains';}},backgroundColor:'rgba(7,11,18,.95)',titleColor:'#f0f6fc',bodyColor:'#8b949e',borderColor:'rgba(255,255,255,.08)',borderWidth:1}},
   scales:{x:{ticks:{display:labels.length<60,color:'#484f58',font:{size:9}},grid:{color:'rgba(255,255,255,.04)'},border:{color:'rgba(255,255,255,.08)'}},y:{ticks:{color:'#484f58',font:{size:9},callback:function(v){return v===1&&snapFlags?'':v.toLocaleString();}},grid:{color:'rgba(255,255,255,.04)'},border:{color:'rgba(255,255,255,.08)'}}},
-  onClick:function(e,els){if(!els.length||!paths)return;var d=paths[els[0].index];if(d&&d.path)window.open(_REPO+d.path,'_blank');},
+  onClick:function(e,els){if(!els.length||!paths)return;var d=paths[els[0].index];if(d&&d.path)window.open(new URL(d.path,_REPO).href,'_blank');},
   onHover:function(e,els){document.getElementById('reg-chart').style.cursor=els.length&&paths?'pointer':'default';var tip=document.getElementById('chart-tip');if(els.length&&paths&&paths[els[0].index]){var d=paths[els[0].index];var sf=snapFlags&&snapFlags[els[0].index];tip.textContent=sf?d.date+' — full zone snapshot, 6.2M total domains':d.date+' — '+d.count.toLocaleString()+' new domains  ↓ click to download';}else{tip.textContent='';}}
   }});
 }
@@ -1352,7 +1352,7 @@ function buildDailyFeed(days){
     var isSnapshot=d.count>500000;
     var rev=isSnapshot?'—':(d.revenue_wholesale?'$'+Number(d.revenue_wholesale).toLocaleString(undefined,{minimumFractionDigits:0,maximumFractionDigits:0}):'—');
     var icann=isSnapshot?'—':(d.icann_fees?'$'+Number(d.icann_fees).toLocaleString(undefined,{minimumFractionDigits:0,maximumFractionDigits:0}):'—');
-    var path=d.path||'';
+    var path=d.path?new URL(d.path,_REPO).href:'';
     var countCell=isSnapshot
       ?'<span style="color:var(--tx2)">'+Number(d.count||0).toLocaleString()+'</span><br><span style="font-size:9px;color:var(--tx3);font-family:\'JetBrains Mono\',monospace">zone baseline</span>'
       :'<span style="color:var(--rd);font-weight:700">+'+Number(d.count||0).toLocaleString()+'</span>';
