@@ -38,14 +38,23 @@ They were meant to be <i>counted.</i><br/>
 
 > 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-26`
 
-<table><tr>
-<td align="center"><b>📦 Domains tracked</b><br/><sub><code>6,242,647</code></sub></td>
-<td align="center"><b>💰 Est. ShortDot revenue</b><br/><sub><code>$12,557,633</code></sub></td>
-<td align="center"><b>💸 ICANN fees (registry)</b><br/><sub><code>$1,741,262</code></sub></td>
-<td align="center"><b>✅ IOC classified</b><br/><sub><code>301,435</code> (154,470 HIGH)</sub></td>
-<td align="center"><b>🏛️ Verified legitimate</b><br/><sub><code>0</code> sites found</sub></td>
-<td align="center"><b>⚡ Fresh (≤7d)</b><br/><sub><code>100.0%</code></sub></td>
-</tr></table>
+<table align="center">
+<tr>
+<td align="center"><b>📦 Domains tracked</b><br/><strong>6,242,647</strong></td>
+<td align="center"><b>💰 Est. ShortDot revenue</b><br/><strong>$12,557,633</strong></td>
+</tr>
+<tr>
+<td align="center"><b>💸 ICANN fees (registry)</b><br/><strong>$1,741,262</strong></td>
+<td align="center"><b>✅ IOC classified</b><br/><strong>301,435</strong> (154,470 HIGH)</td>
+</tr>
+<tr>
+<td align="center"><b>🏛️ Verified legitimate</b><br/><strong>0</strong> sites found</td>
+<td align="center"><b>⚡ Fresh (≤7d)</b><br/><strong>100.0%</strong></td>
+</tr>
+</table>
+
+<details>
+<summary><strong>Live analytics · TLDs, hosting, registrations and downloads</strong></summary>
 
 ### 🏷️ TLD Breakdown
 
@@ -109,6 +118,8 @@ They were meant to be <i>counted.</i><br/>
 
 > 📊 Live dashboard: Pages link at top · Updated daily 06:00 UTC
 
+</details>
+
 <!-- LIVE_STATS:END -->
 
 <div align="center">
@@ -133,45 +144,36 @@ They were meant to be <i>counted.</i><br/>
 
 ## 📑 Table of Contents
 
-<table>
-<tr>
-<td valign="top">
 
 **Investigation**
-- [0 · Special Dedication to NameSilo](#0--special-dedication-to-namesilo)
-- [1 · Background](#1--background)
-- [2 · Subject: ShortDot SA](#2--subject-shortdot-sa)
-  - [2.1 · Principals & Structural Conflicts](#-principals--structural-conflicts--click-to-expand)
-- [3 · The Seven Zones](#3--the-seven-zones)
-- [4 · Methodology](#4--methodology)
-
-</td>
-<td valign="top">
+- [0 · Special Dedication to NameSilo](#user-content-0--special-dedication-to-namesilo)
+- [1 · Background](#user-content-1--background)
+- [2 · Subject: ShortDot SA](#user-content-2--subject-shortdot-sa)
+  - [2.1 · Principals & Structural Conflicts](#user-content-principals-structural-conflicts)
+- [3 · The Seven Zones](#user-content-3--the-seven-zones)
+- [4 · Methodology](#user-content-4--methodology)
 
 **The Core Question**
-- [5 · Show Me One Legitimate Business](#5--show-me-one-legitimate-business)
-- [6 · Follow the Money](#6--follow-the-money)
-- [7 · The "Private Infrastructure" Myth](#7--the-private-infrastructure-myth)
-- [8 · NameBlock — Structural Conflict](#8--nameblock--structural-conflict-of-interest)
-- [9 · Findings](#9--findings)
-
-</td>
-<td valign="top">
+- [5 · Show Me One Legitimate Business](#user-content-5--show-me-one-legitimate-business)
+- [6 · Follow the Money](#user-content-6--follow-the-money)
+- [7 · The "Private Infrastructure" Myth](#user-content-7--the-private-infrastructure-myth)
+- [8 · NameBlock — Structural Conflict](#user-content-8--nameblock--structural-conflict-of-interest)
+- [9 · Findings](#user-content-9--findings)
 
 **Data / Legal**
-- [10 · Timeline of Acquisitions](#10--timeline-of-acquisitions)
-- [11 · Enforcement Posture](#11--enforcement-posture)
-- [11.1 · The Freenom Legacy vs. ShortDot Reality](#111--the-freenom-legacy-vs-the-shortdot-reality)
-- [11.2 · The "Gambling & Affiliate" Defense](#112--the-gambling--affiliate-defense-and-the-illusion-of-growth)
-- [11.3 · Criminal Infrastructure Record](#113--criminal-infrastructure-record)
-- [12 · Repository Structure](#12--repository-structure)
-- [Legal Notice & Responsible Disclosure](#️-legal-notice--responsible-disclosure)
+- [10 · Timeline of Acquisitions](#user-content-10--timeline-of-acquisitions)
+- [11 · Enforcement Posture](#user-content-11--enforcement-posture)
+- [11.1 · The Freenom Legacy vs. ShortDot Reality](#user-content-111--the-freenom-legacy-vs-the-shortdot-reality)
+- [11.2 · The "Gambling & Affiliate" Defense](#user-content-112--the-gambling--affiliate-defense-and-the-illusion-of-growth)
+- [11.3 · Criminal Infrastructure Record](#user-content-113--criminal-infrastructure-record)
+- [12 · Repository Structure](#user-content-12--repository-structure)
+- [Legal Notice & Responsible Disclosure](#user-content-️-legal-notice--responsible-disclosure)
 
-</td>
-</tr>
-</table>
 
 ---
+
+<details>
+<summary><strong>0 · Special Dedication to NameSilo</strong></summary>
 
 ## 0 · Special Dedication to NameSilo
 
@@ -205,7 +207,12 @@ The result: **millions of domains bulk-registered daily, 70.4% with zero DNS rec
 
 </details>
 
+</details>
+
 ---
+
+<details>
+<summary><strong>1 · Background</strong></summary>
 
 ## 1 · Background
 
@@ -215,7 +222,12 @@ The central question is not whether abuse occurs in these zones — it does, at 
 
 ShortDot's own marketing claims the zones are for *"businesses, creators, and communities."* This repository tests that claim with data.
 
+</details>
+
 ---
+
+<details>
+<summary><strong>2 · Subject: ShortDot SA</strong></summary>
 
 ## 2 · Subject: ShortDot SA
 
@@ -236,6 +248,8 @@ ShortDot operates through three subsidiaries: **Nicky** (domain services), **Web
 
 <details>
 <summary><b>👥 Principals & structural conflicts — click to expand</b></summary>
+
+<a name="principals-structural-conflicts"></a>
 <br/>
 
 | Name | ShortDot role | Other simultaneous roles | Structural conflict |
@@ -267,7 +281,12 @@ ShortDot also publicly lists brand protection companies **BrandShelter, BrandMa,
 
 </details>
 
+</details>
+
 ---
+
+<details>
+<summary><strong>3 · The Seven Zones</strong></summary>
 
 ## 3 · The Seven Zones
 
@@ -341,7 +360,12 @@ Marketed as a coupon/discount TLD. Extremely low wholesale pricing.
 
 </details>
 
+</details>
+
 ---
+
+<details>
+<summary><strong>4 · Methodology</strong></summary>
 
 ## 4 · Methodology
 
@@ -397,7 +421,12 @@ All domains in ShortDot's seven zones are enumerated daily from ICANN gTLD zone 
 
 </details>
 
+</details>
+
 ---
+
+<details>
+<summary><strong>5 · Show Me One Legitimate Business</strong></summary>
 
 ## 5 · Show Me One Legitimate Business
 
@@ -449,7 +478,12 @@ Here is what we found instead:
 
 The brands appear as **victims**, not operators. The legitimacy challenge is live: open an issue with evidence of a verified legitimate business. Every submission is reviewed. Current count: **[`case/LEGITIMATE_SURVEY.md`](case/LEGITIMATE_SURVEY.md)**
 
+</details>
+
 ---
+
+<details>
+<summary><strong>6 · Follow the Money</strong></summary>
 
 ## 6 · Follow the Money
 
@@ -514,7 +548,12 @@ High-volume phantom registrations through a named partner registrar are consiste
 
 </details>
 
+</details>
+
 ---
+
+<details>
+<summary><strong>7 · The &quot;Private Infrastructure&quot; Myth</strong></summary>
 
 ## 7 · The "Private Infrastructure" Myth
 
@@ -534,7 +573,12 @@ A common defense for massive volumes of phantom registrations is that they serve
 
 </details>
 
+</details>
+
 ---
+
+<details>
+<summary><strong>8 · NameBlock — Structural Conflict of Interest</strong></summary>
 
 ## 8 · NameBlock — Structural Conflict of Interest
 
@@ -571,7 +615,12 @@ Both profit from the same threat they created.
 
 </details>
 
+</details>
+
 ---
+
+<details>
+<summary><strong>9 · Findings</strong></summary>
 
 ## 9 · Findings
 
@@ -592,7 +641,12 @@ Both profit from the same threat they created.
 | `drainmebaby.bond` | .bond | CRYPTO_DRAIN | Explicit naming, wallet drainer |
 | `ghostqrpanel.bond` | .bond | CRYPTO_DRAIN | QR-code drain panel infrastructure |
 
+</details>
+
 ---
+
+<details>
+<summary><strong>10 · Timeline of Acquisitions</strong></summary>
 
 ## 10 · Timeline of Acquisitions
 
@@ -608,7 +662,12 @@ Both profit from the same threat they created.
 
 > The April 2024 dual acquisition coincides precisely with the anomalous NameSilo registration spike. The statistical likelihood of this being coincidental is low.
 
+</details>
+
 ---
+
+<details>
+<summary><strong>11 · Enforcement Posture</strong></summary>
 
 ## 11 · Enforcement Posture
 
@@ -627,7 +686,12 @@ This evidence package is suitable for:
 - ICANN Compliance: `compliance@icann.org`
 - Registrar-specific: WHOIS abuse contact
 
+</details>
+
 ---
+
+<details>
+<summary><strong>11.1 · The Freenom Legacy vs. The ShortDot Reality</strong></summary>
 
 ## 11.1 · The Freenom Legacy vs. The ShortDot Reality
 
@@ -648,7 +712,12 @@ The financial accountability argument is straightforward: when a registry charge
 
 </details>
 
+</details>
+
 ---
+
+<details>
+<summary><strong>11.2 · The &quot;Gambling &amp; Affiliate&quot; Defense and The Illusion of Growth</strong></summary>
 
 ## 11.2 · The "Gambling & Affiliate" Defense and The Illusion of Growth
 
@@ -680,7 +749,12 @@ Ultimately, the ShortDot–NameSilo partnership has contributed absolutely nothi
 
 </details>
 
+</details>
+
 ---
+
+<details>
+<summary><strong>11.3 · Criminal Infrastructure Record</strong></summary>
 
 ## 11.3 · Criminal Infrastructure Record
 
@@ -765,7 +839,12 @@ Full case documentation: [`case/CRIMINAL_CASES.md`](case/CRIMINAL_CASES.md)
 
 </details>
 
+</details>
+
 ---
+
+<details>
+<summary><strong>12 · Repository Structure</strong></summary>
 
 ## 12 · Repository Structure
 
@@ -809,7 +888,12 @@ shortdot-evidence/
 
 </details>
 
+</details>
+
 ---
+
+<details>
+<summary><strong>⚖️ Legal Notice &amp; Responsible Disclosure</strong></summary>
 
 ## ⚖️ Legal Notice & Responsible Disclosure
 
@@ -858,3 +942,6 @@ Correction requests must identify a specific factual claim and provide documente
 <div align="center">
 <sub>PhishDestroy · Anti-phishing and fraud investigation · <a href="https://phishdestroy.io">phishdestroy.io</a></sub>
 </div>
+
+</details>
+
