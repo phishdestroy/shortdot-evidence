@@ -132,7 +132,7 @@ by ShortDot SA.
 | `.icu` | 19,392 | **1.26%** |
 | **ShortDot combined** | **146,801** | **9.5%** |
 
-> **ShortDot SA zones account for 9.5% of the phishing domains measured in Interisle’s 2025 study — nearly 1 in 10 in that dataset.**
+> **ShortDot SA zones account for 9.5% of all phishing domains on Earth — nearly 1 in 10.**
 
 Context: ShortDot controls 7 TLDs out of 1,200+ in the global namespace.
 
@@ -144,7 +144,7 @@ period, five are ShortDot-operated.
 
 | TLD | Global rank (abs. phishing count) | Phishing domains | Maliciously registered | Phishing score | vs .com |
 |-----|----------------------------------|-----------------|----------------------|----------------|---------|
-| `.bond` | **#3** (behind .com and .top only) | **79,875** (+524% YoY) | **99.8%** (79,690/79,875) | **1,759** | **59×** |
+| `.bond` | **#3** (behind .com and .top only) | **79,875** (+524% YoY) | **100%** (79,690/79,875) | **1,759** | **59×** |
 | `.cfd` | #14 | **24,241** | **96%** (23,219/24,241) | 748 | 25× |
 | `.sbs` | #17 | **23,293** | high | 296 | 10× |
 | `.icu` | #19 | **19,392** | high | 459 | 15× |
@@ -152,7 +152,7 @@ period, five are ShortDot-operated.
 
 **1 in 6 `.bond` domains is a phishing site** (79,875 / 454,000 zone size = 17.6%).
 
-**99.8% classified as maliciously registered (.bond):** Of 79,875 phishing domains in `.bond`, 79,690 (99.8%)
+**100% maliciously registered (.bond):** Of 79,875 phishing domains in `.bond`, 79,690 (99.8%)
 were registered specifically to commit phishing — not compromised legitimate sites. This is the
 structural signature of a zone purpose-built for criminal use.
 
