@@ -2,11 +2,16 @@ name: Daily Zone Update
 
 on:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '23 2,8,14,20 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
+
+# Serialize scheduled and manual writes to the zone archive.
+concurrency:
+  group: daily-zone-update-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   update:

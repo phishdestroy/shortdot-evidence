@@ -116,6 +116,35 @@ if not dates:
     print("::error::NetAPI returned no data for any TLD (token expired / plan inactive?)")
     raise SystemExit(1)
 
+# Merge repeated observations before deriving daily counts or exports.
+# ShortDot's zone feed has observation dates, not WHOIS registration dates.
+prior_day_domains = {}
+if FILTER_TYPE == 'new':
+    field_names = {'e': 'expiring_at', 'i': 'ip', 'c': 'ip_country',
+                   'm': 'email', 'p': 'phone'}
+    for day_date in dates:
+        day_dir = Path('data/new') / day_date[:4] / day_date[5:7]
+        json_path = day_dir / f'{day_date}.json'
+        txt_path = day_dir / f'{day_date}.txt'
+        previous = json.loads(json_path.read_text(encoding='utf-8')) if json_path.exists() else {}
+        prior_day_domains[day_date] = {r['domain']: r for r in previous.get('domains', [])}
+        merged = {}
+        for domain, record in prior_day_domains[day_date].items():
+            merged[domain] = {'d': domain, 'r': '',
+                              **{key: record.get(name, '') for key, name in field_names.items()}}
+        if txt_path.exists():
+            for domain in txt_path.read_text(encoding='utf-8').splitlines():
+                domain = domain.strip()
+                if domain:
+                    merged.setdefault(domain, {'d': domain})
+        for record in by_date[day_date]:
+            merged.setdefault(record['d'], {'d': record['d']}).update(
+                {key: value for key, value in record.items() if value})
+        by_date[day_date] = [merged[domain] for domain in sorted(merged)]
+        for domain in merged:
+            all_domains.add(domain)
+            tld_domain_sets.setdefault(domain.rsplit('.', 1)[-1].lower(), set()).add(domain)
+
 total_domains = len(all_domains)
 print(f"\nTotal: {total_domains:,} unique domains across {len(dates)} days ({dates[0]} → {dates[-1]})")
 
@@ -411,7 +440,8 @@ if FILTER_TYPE == 'new':
             'revenue_retail':    day_revenue_retail(records),
             'icann_fees':        day_icann_fees(records),
             'domains': [
-                {k2: v2 for k2, v2 in {
+                {**prior_day_domains.get(day_date, {}).get(r['d'], {}),
+                 **{k2: v2 for k2, v2 in {
                     'domain':      r['d'],
                     'tld':         r['d'].rsplit('.', 1)[-1].lower(),
                     'expiring_at': r.get('e', ''),
@@ -419,7 +449,7 @@ if FILTER_TYPE == 'new':
                     'ip_country':  r.get('c', ''),
                     'email':       r.get('m', '').split(',')[0].strip().lower() if r.get('m') else '',
                     'phone':       r.get('p', '').split(',')[0].strip() if r.get('p') else '',
-                }.items() if v2}
+                }.items() if v2}}
                 for r in sorted(records, key=lambda x: x['d'])
             ]
         }
@@ -434,7 +464,13 @@ if FILTER_TYPE == 'new':
         yr = month_key[:4]
         mp = data_root / yr
         mp.mkdir(parents=True, exist_ok=True)
-        (mp / f'{month_key}.txt').write_text('\n'.join(sorted(doms)) + '\n', encoding='utf-8')
+        month_path = mp / f'{month_key}.txt'
+        if month_path.exists():
+            doms.update(line.strip() for line in month_path.read_text(encoding='utf-8').splitlines() if line.strip())
+        # Rebuild from saved days as well, repairing older truncated rollups.
+        for daily_path in (mp / month_key[5:7]).glob('*.txt'):
+            doms.update(line.strip() for line in daily_path.read_text(encoding='utf-8').splitlines() if line.strip())
+        month_path.write_text('\n'.join(sorted(doms)) + '\n', encoding='utf-8')
 
 # Per-TLD files — cumulative: merge today's fetch into the existing zone set.
 # These files are the zone reference for classify_brands.py, so they must hold
@@ -778,7 +814,7 @@ if _readme_path.exists():
     _parts.append('| [`data/ioc/intel_results.json`](data/ioc/intel_results.json) | JSON | Spamhaus/SURBL/URLScan/OTX cross-ref results |')
     _parts.append('| [`data/ioc/stix-bundle.json`](data/ioc/stix-bundle.json) | STIX 2.1 | MISP/OpenCTI ready bundle |')
     _parts.append('')
-    _parts.append('> 📊 Live dashboard: Pages link at top · Updated daily 06:00 UTC')
+    _parts.append('> 📊 Live dashboard: Pages link at top · Refresh scheduled every 6 hours')
     _parts.append('')
     _parts.append('</details>')
     _parts.append('')
