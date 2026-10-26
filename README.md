@@ -13,9 +13,9 @@ They were meant to be <i>counted.</i><br/>
 </p>
 
 <p align="center">
-<b>9.5%</b> of all global phishing originates in ShortDot zones &nbsp;·&nbsp;
+<b>9.5%</b> of phishing domains in Interisle’s 2025 dataset were in ShortDot zones &nbsp;·&nbsp;
 <code>.bond</code> ranks <b>#3 globally</b> by phishing domain count &nbsp;·&nbsp;
-<b>100%</b> of <code>.bond</code> phishing domains were maliciously registered
+<b>99.8%</b> of <code>.bond</code> phishing domains in that study were classified as maliciously registered
 <br/><sub>— Interisle Consulting Group, Phishing Landscape 2025 &nbsp;·&nbsp; 1,542,922 phishing domains measured</sub>
 </p>
 
@@ -692,8 +692,8 @@ Ultimately, the ShortDot–NameSilo partnership has contributed absolutely nothi
 
 ## 11.3 · Criminal Infrastructure Record
 
-> **ShortDot zones account for 9.5% of all phishing domains on Earth — nearly 1 in 10.**
-> `.bond` ranks **#3 globally** by phishing domain count (behind only `.com` and `.top`). **100%** of `.bond` phishing domains were maliciously registered — not compromised legitimate sites.
+> **ShortDot zones account for 9.5% of the phishing domains measured in Interisle’s 2025 study — nearly 1 in 10 in that dataset.**
+> `.bond` ranks **#3 globally** by phishing domain count (behind only `.com` and `.top`). **99.8%** of `.bond` phishing domains in that study were classified as maliciously registered.
 > Source: Interisle Consulting Group, Phishing Landscape 2025 (1,542,922 domains measured).
 
 <details>
@@ -738,16 +738,16 @@ A single unidentified threat actor ("Revolver Rabbit") registered **500,000+ `.b
 
 ### The Numbers That Require No Interpretation
 
-> **ShortDot zones account for 9.5% of all phishing domains on Earth — nearly 1 in 10.**
+> **ShortDot zones account for 9.5% of the phishing domains measured in Interisle’s 2025 study — nearly 1 in 10 in that dataset.**
 > Source: Interisle Consulting Group, Phishing Landscape 2025 (1,542,922 global phishing domains measured, May 2024–April 2025).
 
 | Metric | Value | Source |
 |--------|-------|--------|
-| ShortDot zones combined — share of **all global phishing** | **9.5%** (146,801 / 1,542,922) | Interisle 2025 |
+| ShortDot zones combined — share of **phishing domains in the study** | **9.5%** (146,801 / 1,542,922) | Interisle 2025 |
 | `.bond` — rank by absolute phishing domain count | **#3 globally** (behind only .com and .top) | Interisle 2025 |
 | `.bond` phishing domains (yr to May 2025) | **79,875** (+524% YoY) | Interisle 2025 |
 | 1 in how many `.bond` domains is a phishing site | **1 in 6** (17.6% of entire zone) | Interisle 2025 |
-| `.bond` domains maliciously registered (not compromised) | **100%** (79,690 / 79,875) | Interisle 2025 |
+| `.bond` domains maliciously registered (not compromised) | **99.8%** (79,690 / 79,875) | Interisle 2025 |
 | `.bond` phishing score vs. `.com` | **59×** more abusive per domain | Interisle 2025 |
 | `.cfd` domains maliciously registered | **96%** (23,219 / 24,241) | Interisle 2025 |
 | `.cfd` share of zone blacklisted by Spamhaus | **17.54%** (red flag threshold = 10%) | Spamhaus Oct 2025–Mar 2026 |
@@ -755,9 +755,9 @@ A single unidentified threat actor ("Revolver Rabbit") registered **500,000+ `.b
 | ShortDot malicious-to-legitimate domain ratio | **2.5× more malicious than legitimate** | MADWeb 2026 (peer-reviewed) |
 | ShortDot TLDs in Interisle Top 20 abuse rankings | **5 of 7 zones, every year 2021–2025** | Interisle 2021–2025 |
 | New gTLDs share of domain market | 11% | Interisle 2025 |
-| New gTLDs share of **all phishing** | **51%** | Interisle 2025 |
+| New gTLDs share of **phishing domains in the study** | **51%** | Interisle 2025 |
 
-New gTLDs are 11% of the domain market but generate 51% of phishing. ShortDot operates the most abusive cluster within that 11%. 100% maliciously registered means every phishing domain in `.bond` was registered specifically to commit fraud — not a legitimate site that was later compromised. The registry collected wholesale revenue on each.
+In the [Interisle 2025 study](https://domainnamewire.com/wp-content/Interisle_Phishing-Landscape-2025.pdf), new gTLDs represented 11% of the domain market and 51% of the observed phishing domains. Of the 79,875 `.bond` phishing domains reported, 79,690 were classified as maliciously registered: **99.8%**, rounded to one decimal place. This describes the study’s phishing-domain sample, not every `.bond` registration or all phishing worldwide.
 
 ---
 
