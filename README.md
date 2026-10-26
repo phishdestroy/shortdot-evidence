@@ -36,7 +36,7 @@ They were meant to be <i>counted.</i><br/>
 
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-25`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-26`
 
 <table><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><sub><code>6,242,647</code></sub></td>
@@ -55,29 +55,21 @@ They were meant to be <i>counted.</i><br/>
 | `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
 | `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
 | `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 0 | — | $1,242,854 |
-| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 1 | — | $619,050 |
+| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 0 | — | $619,050 |
 | `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 0 | — | $680,602 |
 | `.qpon` | 110,365 | 61,237 (55.5%) | 49,128 | 0 | — | $275,912 |
 
 *Table auto-generated on each daily fetch run.*
 
-### 🌍 Top Hosting Countries
-
-```
-US  ██████████████████          2 (40.0%)
-NL  ██████████████████          2 (40.0%)
-DE  █████████░░░░░░░░░          1 (20.0%)
-```
-
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-10-25` | 7,737 | **1.0×** |
+| `2026-10-26` | 4,300 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`hop (19)` &middot; `dia (14)` &middot; `bonus (11)` &middot; `eos (7)` &middot; `sui (6)` &middot; `portal (6)` &middot; `auth (6)` &middot; `foundation (5)` &middot; `security (5)` &middot; `earn (5)` &middot; `rug (5)` &middot; `apple (4)` &middot; `gmx (4)` &middot; `base (4)` &middot; `neo (4)`
+`hop (12)` &middot; `secure (10)` &middot; `support (10)` &middot; `login (9)` &middot; `dia (8)` &middot; `bank (5)` &middot; `uber (4)` &middot; `neo (4)` &middot; `tron (4)` &middot; `ondo (4)` &middot; `customer (4)` &middot; `official (4)` &middot; `seed (3)` &middot; `finance (3)` &middot; `wallet (3)`
 
 ### 📥 Download Threat Intelligence
 
