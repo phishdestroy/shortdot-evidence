@@ -236,6 +236,11 @@ def main():
 
     # Include recent daily feed (last 60 days) from index for dashboard
     daily_feed = sorted(index.get("days", []), key=lambda d: d.get("date",""), reverse=True)[:60]
+    # Daily archives live at the repository root, outside the Pages docs directory.
+    for entry in daily_feed:
+        archive_path = entry.get("path", "")
+        if archive_path.startswith("data/new/"):
+            entry["path"] = "https://raw.githubusercontent.com/phishdestroy/shortdot-evidence/main/" + archive_path
 
     out = {
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
