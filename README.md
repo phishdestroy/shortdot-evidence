@@ -38,20 +38,16 @@ They were meant to be <i>counted.</i><br/>
 
 > 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-26`
 
-<table align="center">
-<tr>
+<table align="center"><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><strong>6,242,647</strong></td>
 <td align="center"><b>💰 Est. ShortDot revenue</b><br/><strong>$12,557,633</strong></td>
-</tr>
-<tr>
+</tr><tr>
 <td align="center"><b>💸 ICANN fees (registry)</b><br/><strong>$1,741,262</strong></td>
 <td align="center"><b>✅ IOC classified</b><br/><strong>301,435</strong> (154,470 HIGH)</td>
-</tr>
-<tr>
+</tr><tr>
 <td align="center"><b>🏛️ Verified legitimate</b><br/><strong>0</strong> sites found</td>
 <td align="center"><b>⚡ Fresh (≤7d)</b><br/><strong>100.0%</strong></td>
-</tr>
-</table>
+</tr></table>
 
 <details>
 <summary><strong>Live analytics · TLDs, hosting, registrations and downloads</strong></summary>
@@ -63,22 +59,30 @@ They were meant to be <i>counted.</i><br/>
 | `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 1 | — | $634,670 |
 | `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
 | `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
-| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 0 | — | $1,242,854 |
-| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 0 | — | $619,050 |
+| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 4 | — | $1,242,854 |
+| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 1 | — | $619,050 |
 | `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 0 | — | $680,602 |
 | `.qpon` | 110,365 | 61,237 (55.5%) | 49,128 | 0 | — | $275,912 |
 
 *Table auto-generated on each daily fetch run.*
 
+### 🌍 Top Hosting Countries
+
+```
+US  ██████████████████          7 (77.8%)
+CA  ██░░░░░░░░░░░░░░░░          1 (11.1%)
+NL  ██░░░░░░░░░░░░░░░░          1 (11.1%)
+```
+
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-10-26` | 4,300 | **1.0×** |
+| `2026-10-26` | 9,258 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`hop (12)` &middot; `secure (10)` &middot; `support (10)` &middot; `login (9)` &middot; `dia (8)` &middot; `bank (5)` &middot; `uber (4)` &middot; `neo (4)` &middot; `tron (4)` &middot; `ondo (4)` &middot; `customer (4)` &middot; `official (4)` &middot; `seed (3)` &middot; `finance (3)` &middot; `wallet (3)`
+`bonus (67)` &middot; `hop (43)` &middot; `dia (14)` &middot; `maple (12)` &middot; `login (11)` &middot; `support (10)` &middot; `secure (10)` &middot; `finance (8)` &middot; `capital (8)` &middot; `bank (7)` &middot; `auth (6)` &middot; `tron (6)` &middot; `confirm (6)` &middot; `alert (6)` &middot; `official (5)`
 
 ### 📥 Download Threat Intelligence
 
@@ -116,7 +120,7 @@ They were meant to be <i>counted.</i><br/>
 | [`data/ioc/intel_results.json`](data/ioc/intel_results.json) | JSON | Spamhaus/SURBL/URLScan/OTX cross-ref results |
 | [`data/ioc/stix-bundle.json`](data/ioc/stix-bundle.json) | STIX 2.1 | MISP/OpenCTI ready bundle |
 
-> 📊 Live dashboard: Pages link at top · Updated daily 06:00 UTC
+> 📊 Live dashboard: Pages link at top · Refresh scheduled every 6 hours
 
 </details>
 

@@ -1,5 +1,37 @@
 {
   "generated": "2026-10-26",
-  "count": 0,
-  "ips": []
+  "count": 2,
+  "ips": [
+    {
+      "ip": "188.114.97.3",
+      "count": 11,
+      "country": "",
+      "domains": [
+        "fangxuan.buzz",
+        "icyhillp.buzz",
+        "lengan.buzz",
+        "miaotong.buzz",
+        "mizhen.buzz",
+        "playstore-goooogle.cfd",
+        "redtreeak.buzz",
+        "tcurolojider-haber.cfd",
+        "tinypaper.cyou",
+        "tsrfly.sbs",
+        "xiahuai.buzz"
+      ]
+    },
+    {
+      "ip": "188.114.96.3",
+      "count": 6,
+      "country": "",
+      "domains": [
+        "1win-casino1topstore.buzz",
+        "as90.sbs",
+        "jwdszqtt.cfd",
+        "orinkaeror.cfd",
+        "trollclient.cyou",
+        "zc43.sbs"
+      ]
+    }
+  ]
 }
