@@ -37,7 +37,7 @@ They were meant to be <i>counted.</i><br/>
 <p align="center"><img src="assets/readme-polish/divider.svg" width="100%" alt="" /></p>
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-26`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-27`
 
 <table align="center"><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><strong>6,242,647</strong></td>
@@ -57,10 +57,10 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 1 | — | $634,670 |
+| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 0 | — | $634,670 |
 | `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
 | `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
-| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 4 | — | $1,242,854 |
+| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 3 | — | $1,242,854 |
 | `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 1 | — | $619,050 |
 | `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 0 | — | $680,602 |
 | `.qpon` | 110,365 | 61,237 (55.5%) | 49,128 | 0 | — | $275,912 |
@@ -79,11 +79,11 @@ NL  ██░░░░░░░░░░░░░░░░          1 (11.1%)
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-10-26` | 9,258 | **1.0×** |
+| `2026-10-27` | 4,958 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`bonus (67)` &middot; `hop (43)` &middot; `dia (14)` &middot; `maple (12)` &middot; `login (11)` &middot; `support (10)` &middot; `secure (10)` &middot; `finance (8)` &middot; `capital (8)` &middot; `bank (7)` &middot; `auth (6)` &middot; `tron (6)` &middot; `confirm (6)` &middot; `alert (6)` &middot; `official (5)`
+`bonus (67)` &middot; `hop (31)` &middot; `maple (11)` &middot; `dia (6)` &middot; `finance (5)` &middot; `connect (5)` &middot; `capital (5)` &middot; `transfer (4)` &middot; `allocation (4)` &middot; `auth (4)` &middot; `alert (4)` &middot; `fund (4)` &middot; `service (4)` &middot; `citi (3)` &middot; `gaming (3)`
 
 ### 📥 Download Threat Intelligence
 
