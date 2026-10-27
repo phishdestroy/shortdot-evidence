@@ -23,17 +23,18 @@ They were meant to be <i>counted.</i><br/>
 
 <br/>
 
-[![IANA Registry](https://img.shields.io/badge/IANA-ShortDot_SA-6ea8d7?style=for-the-badge&labelColor=0c1018)](https://www.iana.org/assignments/tld-review/)
-[![TLP CLEAR](https://img.shields.io/badge/TLP-CLEAR-3fb950?style=for-the-badge&labelColor=0c1018)](https://www.first.org/tlp/)
-[![License MIT](https://img.shields.io/badge/license-MIT-c0a060?style=for-the-badge&labelColor=0c1018)](LICENSE)
-[![Auto-updated](https://img.shields.io/badge/data-auto--updated_daily-8b5cf6?style=for-the-badge&labelColor=0c1018)](https://github.com/phishdestroy/shortdot-evidence/actions)
+<p align="center">
+<a href="https://www.iana.org/assignments/tld-review/"><img src="https://img.shields.io/badge/IANA-ShortDot_SA-6ea8d7?style=for-the-badge&amp;labelColor=0c1018" alt="IANA Registry" /></a>
+<a href="https://www.first.org/tlp/"><img src="https://img.shields.io/badge/TLP-CLEAR-3fb950?style=for-the-badge&amp;labelColor=0c1018" alt="TLP CLEAR" /></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-c0a060?style=for-the-badge&amp;labelColor=0c1018" alt="License MIT" /></a>
+<a href="https://github.com/phishdestroy/shortdot-evidence/actions"><img src="https://img.shields.io/badge/data-auto--updated_daily-8b5cf6?style=for-the-badge&amp;labelColor=0c1018" alt="Auto-updated" /></a>
+</p>
 
 <br/>
 
 </div>
 
----
-
+<p align="center"><img src="assets/readme-polish/divider.svg" width="100%" alt="" /></p>
 <!-- LIVE_STATS:START -->
 
 > 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-26`
@@ -128,10 +129,12 @@ NL  ██░░░░░░░░░░░░░░░░          1 (11.1%)
 
 <div align="center">
 
-[![🔴 LIVE SITE](https://img.shields.io/badge/%F0%9F%94%B4%20LIVE-phishdestroy.github.io%2Fshortdot--evidence-FF3333?style=for-the-badge)](https://phishdestroy.github.io/shortdot-evidence/)
-[![Evidence Portal](https://img.shields.io/badge/Evidence_Portal-GitHub_Pages-161b22?style=for-the-badge&logo=github)](https://phishdestroy.github.io/shortdot-evidence/)
-[![ICANN Filed](https://img.shields.io/badge/ICANN-Compliance_Filed-e36209?style=for-the-badge)](https://www.icann.org/compliance)
-[![MIT License](https://img.shields.io/badge/License-MIT-238636?style=for-the-badge)](LICENSE)
+<p align="center">
+<a href="https://phishdestroy.github.io/shortdot-evidence/"><img src="https://img.shields.io/badge/%F0%9F%94%B4%20LIVE-phishdestroy.github.io%2Fshortdot--evidence-FF3333?style=for-the-badge" alt="🔴 LIVE SITE" /></a>
+<a href="https://phishdestroy.github.io/shortdot-evidence/"><img src="https://img.shields.io/badge/Evidence_Portal-GitHub_Pages-161b22?style=for-the-badge&amp;logo=github" alt="Evidence Portal" /></a>
+<a href="https://www.icann.org/compliance"><img src="https://img.shields.io/badge/ICANN-Compliance_Filed-e36209?style=for-the-badge" alt="ICANN Filed" /></a>
+<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-238636?style=for-the-badge" alt="MIT License" /></a>
+</p>
 
 <br/>
 
@@ -144,10 +147,17 @@ NL  ██░░░░░░░░░░░░░░░░          1 (11.1%)
 
 </div>
 
----
+<p align="center"><img src="assets/readme-polish/divider.svg" width="100%" alt="" /></p>
+<p align="center"><sub><b>SHORTDOT / INVESTIGATION INDEX</b></sub></p>
 
-## 📑 Table of Contents
+<p align="center">
+<a href="#user-content-1--background"><img src="assets/readme-polish/investigation.svg" width="248" height="56" alt="READ INVESTIGATION: Background &amp; evidence" /></a>
+<a href="#user-content-9--findings"><img src="assets/readme-polish/findings.svg" width="248" height="56" alt="KEY FINDINGS: Results &amp; source material" /></a>
+<a href="https://phishdestroy.github.io/shortdot-evidence/#analytics"><img src="assets/readme-polish/analytics.svg" width="248" height="56" alt="LIVE ANALYTICS: Explore the dataset" /></a>
+</p>
 
+<details>
+<summary><strong>Full table of contents</strong> · 18 sections</summary>
 
 **Investigation**
 - [0 · Special Dedication to NameSilo](#user-content-0--special-dedication-to-namesilo)
@@ -173,11 +183,12 @@ NL  ██░░░░░░░░░░░░░░░░          1 (11.1%)
 - [12 · Repository Structure](#user-content-12--repository-structure)
 - [Legal Notice & Responsible Disclosure](#user-content-️-legal-notice--responsible-disclosure)
 
+</details>
 
----
+<p align="center"><img src="assets/readme-polish/divider.svg" width="100%" alt="" /></p>
 
 <details>
-<summary><strong>0 · Special Dedication to NameSilo</strong></summary>
+<summary><img src="assets/readme-polish/section-01.svg" width="26" height="24" alt="0" />&nbsp; <strong>Special Dedication to NameSilo</strong></summary>
 
 ## 0 · Special Dedication to NameSilo
 
@@ -213,10 +224,9 @@ The result: **millions of domains bulk-registered daily, 70.4% with zero DNS rec
 
 </details>
 
----
 
 <details>
-<summary><strong>1 · Background</strong></summary>
+<summary><img src="assets/readme-polish/section-02.svg" width="26" height="24" alt="1" />&nbsp; <strong>Background</strong></summary>
 
 ## 1 · Background
 
@@ -228,10 +238,9 @@ ShortDot's own marketing claims the zones are for *"businesses, creators, and co
 
 </details>
 
----
 
 <details>
-<summary><strong>2 · Subject: ShortDot SA</strong></summary>
+<summary><img src="assets/readme-polish/section-03.svg" width="26" height="24" alt="2" />&nbsp; <strong>Subject: ShortDot SA</strong></summary>
 
 ## 2 · Subject: ShortDot SA
 
@@ -287,10 +296,11 @@ ShortDot also publicly lists brand protection companies **BrandShelter, BrandMa,
 
 </details>
 
----
+
+<p align="center"><img src="assets/readme-polish/divider.svg" width="100%" alt="" /></p>
 
 <details>
-<summary><strong>3 · The Seven Zones</strong></summary>
+<summary><img src="assets/readme-polish/section-04.svg" width="26" height="24" alt="3" />&nbsp; <strong>The Seven Zones</strong></summary>
 
 ## 3 · The Seven Zones
 
@@ -366,10 +376,9 @@ Marketed as a coupon/discount TLD. Extremely low wholesale pricing.
 
 </details>
 
----
 
 <details>
-<summary><strong>4 · Methodology</strong></summary>
+<summary><img src="assets/readme-polish/section-05.svg" width="26" height="24" alt="4" />&nbsp; <strong>Methodology</strong></summary>
 
 ## 4 · Methodology
 
@@ -427,10 +436,9 @@ All domains in ShortDot's seven zones are enumerated daily from ICANN gTLD zone 
 
 </details>
 
----
 
 <details>
-<summary><strong>5 · Show Me One Legitimate Business</strong></summary>
+<summary><img src="assets/readme-polish/section-06.svg" width="26" height="24" alt="5" />&nbsp; <strong>Show Me One Legitimate Business</strong></summary>
 
 ## 5 · Show Me One Legitimate Business
 
@@ -484,10 +492,11 @@ The brands appear as **victims**, not operators. The legitimacy challenge is liv
 
 </details>
 
----
+
+<p align="center"><img src="assets/readme-polish/divider.svg" width="100%" alt="" /></p>
 
 <details>
-<summary><strong>6 · Follow the Money</strong></summary>
+<summary><img src="assets/readme-polish/section-07.svg" width="26" height="24" alt="6" />&nbsp; <strong>Follow the Money</strong></summary>
 
 ## 6 · Follow the Money
 
@@ -554,10 +563,9 @@ High-volume phantom registrations through a named partner registrar are consiste
 
 </details>
 
----
 
 <details>
-<summary><strong>7 · The &quot;Private Infrastructure&quot; Myth</strong></summary>
+<summary><img src="assets/readme-polish/section-08.svg" width="26" height="24" alt="7" />&nbsp; <strong>The &quot;Private Infrastructure&quot; Myth</strong></summary>
 
 ## 7 · The "Private Infrastructure" Myth
 
@@ -579,10 +587,9 @@ A common defense for massive volumes of phantom registrations is that they serve
 
 </details>
 
----
 
 <details>
-<summary><strong>8 · NameBlock — Structural Conflict of Interest</strong></summary>
+<summary><img src="assets/readme-polish/section-09.svg" width="26" height="24" alt="8" />&nbsp; <strong>NameBlock — Structural Conflict of Interest</strong></summary>
 
 ## 8 · NameBlock — Structural Conflict of Interest
 
@@ -621,10 +628,11 @@ Both profit from the same threat they created.
 
 </details>
 
----
+
+<p align="center"><img src="assets/readme-polish/divider.svg" width="100%" alt="" /></p>
 
 <details>
-<summary><strong>9 · Findings</strong></summary>
+<summary><img src="assets/readme-polish/section-10.svg" width="26" height="24" alt="9" />&nbsp; <strong>Findings</strong></summary>
 
 ## 9 · Findings
 
@@ -647,10 +655,9 @@ Both profit from the same threat they created.
 
 </details>
 
----
 
 <details>
-<summary><strong>10 · Timeline of Acquisitions</strong></summary>
+<summary><img src="assets/readme-polish/section-11.svg" width="26" height="24" alt="10" />&nbsp; <strong>Timeline of Acquisitions</strong></summary>
 
 ## 10 · Timeline of Acquisitions
 
@@ -668,10 +675,9 @@ Both profit from the same threat they created.
 
 </details>
 
----
 
 <details>
-<summary><strong>11 · Enforcement Posture</strong></summary>
+<summary><img src="assets/readme-polish/section-12.svg" width="26" height="24" alt="11" />&nbsp; <strong>Enforcement Posture</strong></summary>
 
 ## 11 · Enforcement Posture
 
@@ -692,10 +698,11 @@ This evidence package is suitable for:
 
 </details>
 
----
+
+<p align="center"><img src="assets/readme-polish/divider.svg" width="100%" alt="" /></p>
 
 <details>
-<summary><strong>11.1 · The Freenom Legacy vs. The ShortDot Reality</strong></summary>
+<summary><img src="assets/readme-polish/section-13.svg" width="34" height="24" alt="11.1" />&nbsp; <strong>The Freenom Legacy vs. The ShortDot Reality</strong></summary>
 
 ## 11.1 · The Freenom Legacy vs. The ShortDot Reality
 
@@ -718,10 +725,9 @@ The financial accountability argument is straightforward: when a registry charge
 
 </details>
 
----
 
 <details>
-<summary><strong>11.2 · The &quot;Gambling &amp; Affiliate&quot; Defense and The Illusion of Growth</strong></summary>
+<summary><img src="assets/readme-polish/section-14.svg" width="34" height="24" alt="11.2" />&nbsp; <strong>The &quot;Gambling &amp; Affiliate&quot; Defense and The Illusion of Growth</strong></summary>
 
 ## 11.2 · The "Gambling & Affiliate" Defense and The Illusion of Growth
 
@@ -755,10 +761,9 @@ Ultimately, the ShortDot–NameSilo partnership has contributed absolutely nothi
 
 </details>
 
----
 
 <details>
-<summary><strong>11.3 · Criminal Infrastructure Record</strong></summary>
+<summary><img src="assets/readme-polish/section-15.svg" width="34" height="24" alt="11.3" />&nbsp; <strong>Criminal Infrastructure Record</strong></summary>
 
 ## 11.3 · Criminal Infrastructure Record
 
@@ -845,10 +850,11 @@ Full case documentation: [`case/CRIMINAL_CASES.md`](case/CRIMINAL_CASES.md)
 
 </details>
 
----
+
+<p align="center"><img src="assets/readme-polish/divider.svg" width="100%" alt="" /></p>
 
 <details>
-<summary><strong>12 · Repository Structure</strong></summary>
+<summary><img src="assets/readme-polish/section-16.svg" width="26" height="24" alt="12" />&nbsp; <strong>Repository Structure</strong></summary>
 
 ## 12 · Repository Structure
 
@@ -894,10 +900,9 @@ shortdot-evidence/
 
 </details>
 
----
 
 <details>
-<summary><strong>⚖️ Legal Notice &amp; Responsible Disclosure</strong></summary>
+<summary><img src="assets/readme-polish/section-17.svg" width="26" height="24" alt="" />&nbsp; <strong>⚖️ Legal Notice &amp; Responsible Disclosure</strong></summary>
 
 ## ⚖️ Legal Notice & Responsible Disclosure
 
