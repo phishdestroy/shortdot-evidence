@@ -57,10 +57,10 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 0 | — | $634,670 |
+| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 1 | — | $634,670 |
 | `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
-| `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
-| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 3 | — | $1,242,854 |
+| `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 1 | — | $492,038 |
+| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 4 | — | $1,242,854 |
 | `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 1 | — | $619,050 |
 | `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 0 | — | $680,602 |
 | `.qpon` | 110,365 | 61,237 (55.5%) | 49,128 | 0 | — | $275,912 |
@@ -70,20 +70,22 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████          7 (77.8%)
-CA  ██░░░░░░░░░░░░░░░░          1 (11.1%)
-NL  ██░░░░░░░░░░░░░░░░          1 (11.1%)
+US  ██████████████████          8 (66.7%)
+SC  ██░░░░░░░░░░░░░░░░          1 (8.3%)
+CA  ██░░░░░░░░░░░░░░░░          1 (8.3%)
+SG  ██░░░░░░░░░░░░░░░░          1 (8.3%)
+NL  ██░░░░░░░░░░░░░░░░          1 (8.3%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-10-27` | 4,958 | **1.0×** |
+| `2026-10-27` | 20,642 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`bonus (67)` &middot; `hop (31)` &middot; `maple (11)` &middot; `dia (6)` &middot; `finance (5)` &middot; `connect (5)` &middot; `capital (5)` &middot; `transfer (4)` &middot; `allocation (4)` &middot; `auth (4)` &middot; `alert (4)` &middot; `fund (4)` &middot; `service (4)` &middot; `citi (3)` &middot; `gaming (3)`
+`bonus (73)` &middot; `hop (50)` &middot; `dia (35)` &middot; `gift (26)` &middot; `tron (16)` &middot; `auth (13)` &middot; `maple (13)` &middot; `connect (13)` &middot; `zora (12)` &middot; `portal (12)` &middot; `drift (12)` &middot; `finance (10)` &middot; `capital (9)` &middot; `xlm (8)` &middot; `bank (8)`
 
 ### 📥 Download Threat Intelligence
 
