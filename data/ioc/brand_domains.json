@@ -203,21 +203,6 @@
       "tryetronypt.icu",
       "tryetronypt24.icu"
     ],
-    "auth": [
-      "11892-auth-gateway.icu",
-      "381-auth-gateway.icu",
-      "440-member-auth.icu",
-      "activeauthenticaate3845893.icu",
-      "authenticactivate394950.icu",
-      "authkeyz.bond",
-      "ciconlineusersupportauthh.cfd",
-      "massschneiderei-krautheim-hannover.sbs",
-      "oauthtech.cfd",
-      "oauthtech.sbs",
-      "pointsofauthority.cfd",
-      "vanconlineusersupportauthh.cfd",
-      "workspaceauthinc.icu"
-    ],
     "maple": [
       "briskmaplepath.cyou",
       "gentlemaplecottage.cyou",
@@ -232,6 +217,21 @@
       "sprymaplemarket.cyou",
       "tendermapledale.cyou",
       "vividmaplecottage.cyou"
+    ],
+    "auth": [
+      "11892-auth-gateway.icu",
+      "381-auth-gateway.icu",
+      "440-member-auth.icu",
+      "activeauthenticaate3845893.icu",
+      "authenticactivate394950.icu",
+      "authkeyz.bond",
+      "ciconlineusersupportauthh.cfd",
+      "massschneiderei-krautheim-hannover.sbs",
+      "oauthtech.cfd",
+      "oauthtech.sbs",
+      "pointsofauthority.cfd",
+      "vanconlineusersupportauthh.cfd",
+      "workspaceauthinc.icu"
     ],
     "connect": [
       "apilinkconnect.cfd",
@@ -248,20 +248,6 @@
       "twt-connect.cyou",
       "twt-connect.sbs"
     ],
-    "zora": [
-      "betzora99.sbs",
-      "onjlzorar.icu",
-      "zorabox32.bond",
-      "zorabuy27.bond",
-      "zoracart6.bond",
-      "zoradeal37.bond",
-      "zorafind35.bond",
-      "zoragift9.bond",
-      "zoralane7.bond",
-      "zoramart5.bond",
-      "zoranest8.bond",
-      "zorapick29.bond"
-    ],
     "portal": [
       "access-secureportal01.cfd",
       "cloudportalinc.sbs",
@@ -277,6 +263,20 @@
       "driftwoodpuzzle.buzz",
       "garnetdrift.cfd",
       "opaldriftcanyon.buzz"
+    ],
+    "zora": [
+      "betzora99.sbs",
+      "onjlzorar.icu",
+      "zorabox32.bond",
+      "zorabuy27.bond",
+      "zoracart6.bond",
+      "zoradeal37.bond",
+      "zorafind35.bond",
+      "zoragift9.bond",
+      "zoralane7.bond",
+      "zoramart5.bond",
+      "zoranest8.bond",
+      "zorapick29.bond"
     ],
     "finance": [
       "familyfinance.cfd",
@@ -301,6 +301,16 @@
       "silverholdcapital.sbs",
       "zoecapital.sbs"
     ],
+    "token": [
+      "fobatoken.bond",
+      "tokennim-cdn57-hk16.cfd",
+      "tokennim-cdn82-hk37.cfd",
+      "tokenpoketapp-relay-jp11.cyou",
+      "tokenpoketni-cdn6.cfd",
+      "tokenpoketnow-edge-jp18.cfd",
+      "tokenpoketvi-cdn-d3.cfd",
+      "tokenpoketzone-cache-hk33.sbs"
+    ],
     "xlm": [
       "34623-xxzaa-stxlmq.cyou",
       "bxeenxlmn.icu",
@@ -321,16 +331,6 @@
       "localbank.cfd",
       "privatbank.sbs"
     ],
-    "secure": [
-      "access-secureportal01.cfd",
-      "microgooogmalisecureencry.icu",
-      "secureinvte.icu",
-      "secureportal01.cfd",
-      "secureturn.sbs",
-      "securevideohub.buzz",
-      "summitgroupsecure.icu",
-      "swisssecuresde.sbs"
-    ],
     "service": [
       "d-hlservices.sbs",
       "der-druckservice.sbs",
@@ -341,24 +341,15 @@
       "solidmarkservices.sbs",
       "topmarkservices.sbs"
     ],
-    "token": [
-      "fobatoken.bond",
-      "tokennim-cdn57-hk16.cfd",
-      "tokennim-cdn82-hk37.cfd",
-      "tokenpoketapp-relay-jp11.cyou",
-      "tokenpoketni-cdn6.cfd",
-      "tokenpoketnow-edge-jp18.cfd",
-      "tokenpoketvi-cdn-d3.cfd",
-      "tokenpoketzone-cache-hk33.sbs"
-    ],
-    "fund": [
-      "advancefunds64.buzz",
-      "advancefunds68.buzz",
-      "advancefunds69.buzz",
-      "clearfunds.cfd",
-      "familyfund.cfd",
-      "fundo.icu",
-      "futurefunds.cfd"
+    "secure": [
+      "access-secureportal01.cfd",
+      "microgooogmalisecureencry.icu",
+      "secureinvte.icu",
+      "secureportal01.cfd",
+      "secureturn.sbs",
+      "securevideohub.buzz",
+      "summitgroupsecure.icu",
+      "swisssecuresde.sbs"
     ],
     "xrp": [
       "5mbyi-t006v-xrpfmr.cyou",
@@ -368,6 +359,15 @@
       "iso0t-xrpaq-sdyhef.cyou",
       "xrpgvlgdw.icu",
       "xrpwukfwf.icu"
+    ],
+    "fund": [
+      "advancefunds64.buzz",
+      "advancefunds68.buzz",
+      "advancefunds69.buzz",
+      "clearfunds.cfd",
+      "familyfund.cfd",
+      "fundo.icu",
+      "futurefunds.cfd"
     ],
     "transfer": [
       "etransferdeposit.cfd",
@@ -387,24 +387,6 @@
       "psidrurally.qpon",
       "reallyworld.buzz"
     ],
-    "allocation": [
-      "allocation-usdai.icu",
-      "allocation.cfd",
-      "allocations-arc.icu",
-      "firelight-allocation.icu",
-      "hookedpad-allocations.icu",
-      "xaman-allocations.icu"
-    ],
-    "gmx": [
-      "gx6gmx.buzz",
-      "lgmxujqfv.icu",
-      "xqhkgmxdj.icu"
-    ],
-    "alert": [
-      "consumeralerts.cfd",
-      "documentcloudalerts.icu",
-      "virusalert.cfd"
-    ],
     "foundation": [
       "capitalfoundation.cyou",
       "developmentfoundation.cfd",
@@ -412,6 +394,19 @@
       "governance-ritualfoundation.icu",
       "portal-flr-foundation.icu",
       "ritualfoundation.icu"
+    ],
+    "alert": [
+      "consumeralerts.cfd",
+      "documentcloudalerts.icu",
+      "virusalert.cfd"
+    ],
+    "allocation": [
+      "allocation-usdai.icu",
+      "allocation.cfd",
+      "allocations-arc.icu",
+      "firelight-allocation.icu",
+      "hookedpad-allocations.icu",
+      "xaman-allocations.icu"
     ],
     "rug": [
       "9ge4j-rugcv-mnobwq.cyou",
@@ -421,12 +416,10 @@
       "rpirugtjk.icu",
       "vcxscrugl.icu"
     ],
-    "nft": [
-      "4r3vr-i7juz-nftckz.cyou",
-      "mnfthrzli.icu",
-      "nftfujzgz.icu",
-      "vvklnxnft.icu",
-      "yegnfthkq.icu"
+    "gmx": [
+      "gx6gmx.buzz",
+      "lgmxujqfv.icu",
+      "xqhkgmxdj.icu"
     ],
     "stellar": [
       "1winterstellar.sbs",
@@ -441,6 +434,13 @@
       "4frontcu-banking-txt.cfd",
       "banking-msg-4frontcu.cfd",
       "banking-text-4frontcu.cfd"
+    ],
+    "gaming": [
+      "clotgaming66.sbs",
+      "gaminghub123.sbs",
+      "hainagaming.sbs",
+      "shoot-gaming.cfd",
+      "totogaming.cyou"
     ]
   }
 }

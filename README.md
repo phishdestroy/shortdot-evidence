@@ -85,7 +85,7 @@ NL  ██░░░░░░░░░░░░░░░░          1 (8.3%)
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`bonus (73)` &middot; `hop (50)` &middot; `dia (35)` &middot; `gift (26)` &middot; `tron (16)` &middot; `auth (13)` &middot; `maple (13)` &middot; `connect (13)` &middot; `zora (12)` &middot; `portal (12)` &middot; `drift (12)` &middot; `finance (10)` &middot; `capital (9)` &middot; `xlm (8)` &middot; `bank (8)`
+`bonus (73)` &middot; `hop (50)` &middot; `dia (35)` &middot; `gift (26)` &middot; `tron (16)` &middot; `maple (13)` &middot; `auth (13)` &middot; `connect (13)` &middot; `portal (12)` &middot; `drift (12)` &middot; `zora (12)` &middot; `finance (10)` &middot; `capital (9)` &middot; `token (8)` &middot; `xlm (8)`
 
 ### 📥 Download Threat Intelligence
 
