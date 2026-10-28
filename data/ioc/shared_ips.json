@@ -1,38 +1,15 @@
 {
-  "generated": "2026-10-27",
-  "count": 2,
+  "generated": "2026-10-28",
+  "count": 1,
   "ips": [
     {
       "ip": "188.114.97.3",
-      "count": 13,
+      "count": 3,
       "country": "",
       "domains": [
         "adhumankind.bond",
-        "fangxuan.buzz",
-        "icyhillp.buzz",
         "jun88.sbs",
-        "lengan.buzz",
-        "miaotong.buzz",
-        "mizhen.buzz",
-        "playstore-goooogle.cfd",
-        "redtreeak.buzz",
-        "sunxs2.cfd",
-        "tcurolojider-haber.cfd",
-        "tsrfly.sbs",
-        "xiahuai.buzz"
-      ]
-    },
-    {
-      "ip": "188.114.96.3",
-      "count": 6,
-      "country": "",
-      "domains": [
-        "1win-casino1topstore.buzz",
-        "adhumankind.cyou",
-        "as90.sbs",
-        "jwdszqtt.cfd",
-        "orinkaeror.cfd",
-        "zc43.sbs"
+        "sunxs2.cfd"
       ]
     }
   ]
