@@ -214,7 +214,7 @@ The same ownership network sits on both sides. Money moves between related entit
 
 Namecheap charges **$1.39/yr** (`.cfd`) and **$1.54/yr** (`.sbs`) for a single registration with no minimum commitment. NameSilo charges **$1.88/yr** for both TLDs at its entry tier (1–49 domains) — and only reaches those Namecheap prices at **5,000+ domains** purchased simultaneously. No ordinary registrant buys 5,000 domains at once. The pricing structure leaves no rational explanation for NameSilo's dominant volume in ShortDot zones unless the buyer is not operating in a retail market at all.
 
-The result: **millions of domains bulk-registered daily, 70.4% with zero DNS records, never activated, never used by any real business.** They were never meant to be used. They were meant to be *counted* — in filings, in pitch decks, in press releases about explosive growth.
+The result: **millions of tracked domains, 70.4% with no IP recorded in the investigation snapshot.** That measurement captures DNS deployment at the time of the scan, not each domain's entire history. The investigation examines how these registrations are *counted* — in filings, pitch decks and press releases about explosive growth.
 
 </details>
 
