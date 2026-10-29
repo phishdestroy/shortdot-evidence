@@ -81,7 +81,7 @@ BR  ██████████████████          1 (100.0%)
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`login (65)` &middot; `tron (56)` &middot; `neo (31)` &middot; `hop (20)` &middot; `dia (14)` &middot; `earn (12)` &middot; `portal (10)` &middot; `gift (10)` &middot; `invest (8)` &middot; `orca (7)` &middot; `stellar (6)` &middot; `bank (5)` &middot; `verify (5)` &middot; `service (5)` &middot; `iron (5)`
+`login (65)` &middot; `tron (56)` &middot; `neo (31)` &middot; `hop (20)` &middot; `dia (14)` &middot; `earn (12)` &middot; `gift (10)` &middot; `portal (10)` &middot; `invest (8)` &middot; `orca (7)` &middot; `stellar (6)` &middot; `service (5)` &middot; `iron (5)` &middot; `verify (5)` &middot; `bank (5)`
 
 ### 📥 Download Threat Intelligence
 

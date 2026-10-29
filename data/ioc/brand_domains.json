@@ -183,13 +183,6 @@
       "mobile-earn.buzz",
       "study-and-learn.icu"
     ],
-    "portal": [
-      "cdportalsdfs.sbs",
-      "defensepersonnelleaveportal.sbs",
-      "hudportalsdfs.sbs",
-      "portal-stpmex.icu",
-      "portaldevalores.sbs"
-    ],
     "gift": [
       "com-a02-gift-card.icu",
       "com-a03-gift-card.icu",
@@ -201,6 +194,13 @@
       "com-a09-gift-card.icu",
       "com-p04-gift-esim.icu",
       "com-q04-gift-esim.icu"
+    ],
+    "portal": [
+      "cdportalsdfs.sbs",
+      "defensepersonnelleaveportal.sbs",
+      "hudportalsdfs.sbs",
+      "portal-stpmex.icu",
+      "portaldevalores.sbs"
     ],
     "invest": [
       "finjamilya-invest.sbs",
@@ -229,20 +229,6 @@
       "stellarnoodlejoltnr.bond",
       "stellarnoodlenesscn.buzz"
     ],
-    "bank": [
-      "bank.icu",
-      "bankarab-promo.cfd",
-      "casinoutanbankidse.cfd",
-      "cxbank.icu",
-      "nimbbank-promo.cfd"
-    ],
-    "verify": [
-      "bitgo-verify.cfd",
-      "contactpageverify.cfd",
-      "esl-org-text-verify.cfd",
-      "socialverify.cyou",
-      "verifyetruyty.icu"
-    ],
     "service": [
       "arclientservices.sbs",
       "bitflyercustomerservice.cyou",
@@ -257,23 +243,19 @@
       "qaviron.buzz",
       "zelqavirontexuma.buzz"
     ],
-    "connect": [
-      "connectivit.icu",
-      "devsconnectxcic.sbs",
-      "global24connect.sbs",
-      "io-connectbas.sbs"
+    "verify": [
+      "bitgo-verify.cfd",
+      "contactpageverify.cfd",
+      "esl-org-text-verify.cfd",
+      "socialverify.cyou",
+      "verifyetruyty.icu"
     ],
-    "base": [
-      "base44bet.cyou",
-      "basedecosystem.icu",
-      "primebase.cyou",
-      "wwbasecraft.buzz"
-    ],
-    "secure": [
-      "appsecure-online.icu",
-      "appsecureonlines.icu",
-      "futturesecure.cyou",
-      "futuresecureys.cyou"
+    "bank": [
+      "bank.icu",
+      "bankarab-promo.cfd",
+      "casinoutanbankidse.cfd",
+      "cxbank.icu",
+      "nimbbank-promo.cfd"
     ],
     "wise": [
       "dewise.cyou",
@@ -281,15 +263,38 @@
       "savewise.cfd",
       "spendwise.cfd"
     ],
-    "eos": [
-      "coirreos.cfd",
-      "eosthir.cfd",
-      "heritageeos.cyou"
+    "base": [
+      "base44bet.cyou",
+      "basedecosystem.icu",
+      "primebase.cyou",
+      "wwbasecraft.buzz"
+    ],
+    "connect": [
+      "connectivit.icu",
+      "devsconnectxcic.sbs",
+      "global24connect.sbs",
+      "io-connectbas.sbs"
+    ],
+    "secure": [
+      "appsecure-online.icu",
+      "appsecureonlines.icu",
+      "futturesecure.cyou",
+      "futuresecureys.cyou"
+    ],
+    "wallet": [
+      "exchange-walletgateway.sbs",
+      "finance-walletbas.sbs",
+      "trustswallets.sbs"
     ],
     "seed": [
       "dewcorecseed.bond",
       "fogclickseed.bond",
       "seeddatac.bond"
+    ],
+    "apple": [
+      "applesvip.sbs",
+      "applesvx.cfd",
+      "applesvx.sbs"
     ],
     "quest": [
       "epic-gaming-quest.icu",
@@ -301,40 +306,35 @@
       "gaming-zone.buzz",
       "riobet-gaming.buzz"
     ],
-    "aura": [
-      "aurahoki142.cyou",
-      "auraplay.sbs",
-      "aurasportsplayer.cfd"
+    "finance": [
+      "bullshitfinance.sbs",
+      "finance-walletbas.sbs",
+      "homefinance.cfd"
+    ],
+    "eos": [
+      "coirreos.cfd",
+      "eosthir.cfd",
+      "heritageeos.cyou"
     ],
     "token": [
       "tokenhub.buzz",
       "tokenhub.icu",
       "tokenpa.icu"
     ],
-    "finance": [
-      "bullshitfinance.sbs",
-      "finance-walletbas.sbs",
-      "homefinance.cfd"
-    ],
-    "wallet": [
-      "exchange-walletgateway.sbs",
-      "finance-walletbas.sbs",
-      "trustswallets.sbs"
-    ],
-    "fund": [
-      "amberfund.cfd",
-      "trustfundsholdings.cyou",
-      "yuekaifunder.bond"
-    ],
     "bonus": [
       "diwabonus.cyou",
       "diwabonus.sbs",
       "diwabonusshare.sbs"
     ],
-    "apple": [
-      "applesvip.sbs",
-      "applesvx.cfd",
-      "applesvx.sbs"
+    "aura": [
+      "aurahoki142.cyou",
+      "auraplay.sbs",
+      "aurasportsplayer.cfd"
+    ],
+    "fund": [
+      "amberfund.cfd",
+      "trustfundsholdings.cyou",
+      "yuekaifunder.bond"
     ]
   }
 }
