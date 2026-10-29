@@ -57,7 +57,7 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 2 | — | $634,670 |
+| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 3 | — | $634,670 |
 | `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
 | `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
 | `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 0 | — | $1,242,854 |
@@ -70,18 +70,21 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-BR  ██████████████████          1 (100.0%)
+US  ██████████████████          6 (66.7%)
+KR  ███░░░░░░░░░░░░░░░          1 (11.1%)
+BR  ███░░░░░░░░░░░░░░░          1 (11.1%)
+PL  ███░░░░░░░░░░░░░░░          1 (11.1%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-10-29` | 6,941 | **1.0×** |
+| `2026-10-29` | 11,833 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`login (65)` &middot; `tron (56)` &middot; `neo (31)` &middot; `hop (20)` &middot; `dia (14)` &middot; `earn (12)` &middot; `gift (10)` &middot; `portal (10)` &middot; `invest (8)` &middot; `orca (7)` &middot; `stellar (6)` &middot; `service (5)` &middot; `iron (5)` &middot; `verify (5)` &middot; `bank (5)`
+`login (65)` &middot; `tron (64)` &middot; `neo (37)` &middot; `hop (35)` &middot; `dia (24)` &middot; `gift (20)` &middot; `portal (20)` &middot; `secure (17)` &middot; `earn (14)` &middot; `fund (14)` &middot; `service (13)` &middot; `connect (11)` &middot; `invest (10)` &middot; `base (10)` &middot; `account (10)`
 
 ### 📥 Download Threat Intelligence
 
