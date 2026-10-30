@@ -31,30 +31,6 @@
       "stakezazino45.icu",
       "stakezazino46.icu"
     ],
-    "hop": [
-      "astralvinylworkshop.buzz",
-      "colifershop.sbs",
-      "crystalrobotworkshop.buzz",
-      "descontoshop.cfd",
-      "harshadchopda.cfd",
-      "kanashop.cyou",
-      "karmashop.sbs",
-      "madrikoshop.cyou",
-      "money-shop.icu",
-      "orientalwebshop-coooonl.sbs",
-      "prashantchopra.cfd",
-      "princeshop.cfd",
-      "quirkymagnetworkshop.buzz",
-      "shophome.sbs",
-      "shopkini.cfd",
-      "shopmall.sbs",
-      "shopvelora.sbs",
-      "statementdhopgl.icu",
-      "thopv.buzz",
-      "vegregshopport.cfd",
-      "verifyshop.cfd",
-      "vshop.icu"
-    ],
     "dia": [
       "666dianying.buzz",
       "amalmedia.sbs",
@@ -78,6 +54,30 @@
       "shashimedia.sbs",
       "tudianquiz.icu",
       "wildcoinmeridian.bond"
+    ],
+    "hop": [
+      "astralvinylworkshop.buzz",
+      "colifershop.sbs",
+      "crystalrobotworkshop.buzz",
+      "descontoshop.cfd",
+      "harshadchopda.cfd",
+      "kanashop.cyou",
+      "karmashop.sbs",
+      "madrikoshop.cyou",
+      "money-shop.icu",
+      "orientalwebshop-coooonl.sbs",
+      "prashantchopra.cfd",
+      "princeshop.cfd",
+      "quirkymagnetworkshop.buzz",
+      "shophome.sbs",
+      "shopkini.cfd",
+      "shopmall.sbs",
+      "shopvelora.sbs",
+      "statementdhopgl.icu",
+      "thopv.buzz",
+      "vegregshopport.cfd",
+      "verifyshop.cfd",
+      "vshop.icu"
     ],
     "gift": [
       "com-a10-gift-card.icu",
@@ -167,15 +167,6 @@
       "trondheim-horsel.sbs",
       "velocityelectronics.icu"
     ],
-    "support": [
-      "247support.cfd",
-      "candidatesupport.cfd",
-      "consultingsupport.cfd",
-      "employersupport.cfd",
-      "offergoatclothingsupportvendor.icu",
-      "reflexdomentertainmentsupport.icu",
-      "support-blue-badge2026.cfd"
-    ],
     "portal": [
       "betportalcasino.cyou",
       "chancenportal.sbs",
@@ -184,6 +175,15 @@
       "flarenetwork-portal.icu",
       "flarenetworks-portal.icu",
       "grantportalnigeriabot.sbs"
+    ],
+    "support": [
+      "247support.cfd",
+      "candidatesupport.cfd",
+      "consultingsupport.cfd",
+      "employersupport.cfd",
+      "offergoatclothingsupportvendor.icu",
+      "reflexdomentertainmentsupport.icu",
+      "support-blue-badge2026.cfd"
     ],
     "fund": [
       "advancefunds70.buzz",
@@ -227,6 +227,30 @@
       "tradeinvest-group.sbs",
       "ucssinvest.buzz"
     ],
+    "dapp": [
+      "dapperacornmarket.cyou",
+      "dapperbasilgarden.cyou",
+      "dapperfinchcroft.cyou",
+      "dapperlarchgrove.cyou",
+      "dappermeadowlarkorchard.cyou",
+      "dapperpeachpond.cyou",
+      "dapperpeartrail.cyou",
+      "dapperpoplarbrook.cyou",
+      "dapperquincenook.cyou",
+      "dappersloeglen.cyou"
+    ],
+    "base": [
+      "app-basedfoundation.icu",
+      "bestbasegarment.sbs",
+      "codebase.cyou",
+      "developerbased.icu",
+      "lexobase.cyou",
+      "mybase.icu",
+      "netlumabase.sbs",
+      "project-inform-que-base-87d4.icu",
+      "webuibase.cfd",
+      "wizzdbase.icu"
+    ],
     "quest": [
       "echoquest.sbs",
       "jinglerocketquestno.cfd",
@@ -258,40 +282,16 @@
       "esl-org-fraudnow-alert.cfd",
       "paypal-servicealerts.icu"
     ],
-    "dapp": [
-      "dapperacornmarket.cyou",
-      "dapperbasilgarden.cyou",
-      "dapperfinchcroft.cyou",
-      "dapperlarchgrove.cyou",
-      "dappermeadowlarkorchard.cyou",
-      "dapperpeachpond.cyou",
-      "dapperpeartrail.cyou",
-      "dapperpoplarbrook.cyou",
-      "dapperquincenook.cyou",
-      "dappersloeglen.cyou"
-    ],
-    "base": [
-      "app-basedfoundation.icu",
-      "bestbasegarment.sbs",
-      "codebase.cyou",
-      "developerbased.icu",
-      "lexobase.cyou",
-      "mybase.icu",
-      "netlumabase.sbs",
-      "project-inform-que-base-87d4.icu",
-      "webuibase.cfd",
-      "wizzdbase.icu"
-    ],
-    "rug": [
-      "drughub-darknet.sbs",
-      "drughub-gate.sbs",
-      "drughub-tor.sbs",
-      "drughub.cyou",
-      "drughubaccess.cfd",
-      "ezlyonstruggis.cfd",
-      "irugi.sbs",
-      "prycrugopv-wsqhnsoa.cyou",
-      "x7c560khq7-8j3ugrug.cyou"
+    "neo": [
+      "101-kampanyalaribuguneozel.sbs",
+      "indigoneo-lu.cfd",
+      "neonbadgerlaboratory.buzz",
+      "neonbuzzline.buzz",
+      "neoninja456.sbs",
+      "neontrail68.buzz",
+      "neooo.icu",
+      "neovaleo.cfd",
+      "neoworld144.sbs"
     ],
     "allocation": [
       "allocation-mantle.icu",
@@ -304,6 +304,17 @@
       "allocations-umiafinance.icu",
       "allocations-up33.icu"
     ],
+    "rug": [
+      "drughub-darknet.sbs",
+      "drughub-gate.sbs",
+      "drughub-tor.sbs",
+      "drughub.cyou",
+      "drughubaccess.cfd",
+      "ezlyonstruggis.cfd",
+      "irugi.sbs",
+      "prycrugopv-wsqhnsoa.cyou",
+      "x7c560khq7-8j3ugrug.cyou"
+    ],
     "maple": [
       "bcgamebonusmaple.icu",
       "coldmaple.buzz",
@@ -315,26 +326,15 @@
       "maplewillow.sbs",
       "opalmaple.cfd"
     ],
-    "neo": [
-      "101-kampanyalaribuguneozel.sbs",
-      "indigoneo-lu.cfd",
-      "neonbadgerlaboratory.buzz",
-      "neonbuzzline.buzz",
-      "neoninja456.sbs",
-      "neontrail68.buzz",
-      "neooo.icu",
-      "neovaleo.cfd",
-      "neoworld144.sbs"
-    ],
-    "access": [
-      "55835-access-auth.icu",
-      "access-iclou.icu",
-      "accessatoevalsummary.cyou",
-      "accessstack.sbs",
-      "averoaccess.sbs",
-      "drughubaccess.cfd",
-      "goactivateaccessingdatacenterprivatelockgranted.cfd",
-      "sharepoint-document-access.icu"
+    "aura": [
+      "aurafunding.cfd",
+      "aurapehl.sbs",
+      "aurasmorisco.cfd",
+      "auravanefg.icu",
+      "primeaura-ke.cfd",
+      "rantoaurat.cyou",
+      "saurabhkumar.cfd",
+      "sauravkc.cfd"
     ],
     "ledger": [
       "cedarledger.bond",
@@ -356,16 +356,6 @@
       "royalbank-accountsecurity.cfd",
       "royalbank-accountsecurity.sbs"
     ],
-    "aura": [
-      "aurafunding.cfd",
-      "aurapehl.sbs",
-      "aurasmorisco.cfd",
-      "auravanefg.icu",
-      "primeaura-ke.cfd",
-      "rantoaurat.cyou",
-      "saurabhkumar.cfd",
-      "sauravkc.cfd"
-    ],
     "eos": [
       "animal-porn-videos.icu",
       "describeos.cfd",
@@ -382,6 +372,16 @@
       "pendle-rewards.icu",
       "pendlesfi.sbs"
     ],
+    "access": [
+      "55835-access-auth.icu",
+      "access-iclou.icu",
+      "accessatoevalsummary.cyou",
+      "accessstack.sbs",
+      "averoaccess.sbs",
+      "drughubaccess.cfd",
+      "goactivateaccessingdatacenterprivatelockgranted.cfd",
+      "sharepoint-document-access.icu"
+    ],
     "foundation": [
       "app-basedfoundation.icu",
       "app-firelightfoundation.icu",
@@ -391,13 +391,10 @@
       "imtiazwalfarefoundation.cfd",
       "risefoundation.icu"
     ],
-    "bonus": [
-      "1xbet-bonus.buzz",
-      "au-tab1bonus.sbs",
-      "bcgamebonusmaple.icu",
-      "bonusuk24.sbs",
-      "deutscherbonus.sbs",
-      "megabonusnz.sbs"
+    "drift": [
+      "driftstone.cfd",
+      "driftstone.sbs",
+      "marigoldriftpath.buzz"
     ]
   }
 }

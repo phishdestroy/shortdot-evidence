@@ -87,7 +87,7 @@ HK  ░░░░░░░░░░░░░░░░░░          1 (2.0%)
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`stake (28)` &middot; `hop (22)` &middot; `dia (22)` &middot; `gift (19)` &middot; `secure (18)` &middot; `service (17)` &middot; `badger (16)` &middot; `tron (16)` &middot; `support (14)` &middot; `portal (14)` &middot; `fund (13)` &middot; `connect (12)` &middot; `invest (11)` &middot; `quest (10)` &middot; `bank (10)`
+`stake (28)` &middot; `dia (22)` &middot; `hop (22)` &middot; `gift (19)` &middot; `secure (18)` &middot; `service (17)` &middot; `badger (16)` &middot; `tron (16)` &middot; `portal (14)` &middot; `support (14)` &middot; `fund (13)` &middot; `connect (12)` &middot; `invest (11)` &middot; `dapp (10)` &middot; `base (10)`
 
 ### 📥 Download Threat Intelligence
 
