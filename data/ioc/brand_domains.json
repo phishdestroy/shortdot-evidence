@@ -204,6 +204,18 @@
       "wildcoinmeridian.bond",
       "zhelidiao.icu"
     ],
+    "portal": [
+      "betportalcasino.cyou",
+      "cdportalsdfs.sbs",
+      "charliehealthportal.icu",
+      "defensepersonnelleaveportal.sbs",
+      "firelight-portal.icu",
+      "flarenetwork-portal.icu",
+      "flarenetworks-portal.icu",
+      "hudportalsdfs.sbs",
+      "portal-stpmex.icu",
+      "portaldevalores.sbs"
+    ],
     "gift": [
       "com-a02-gift-card.icu",
       "com-a03-gift-card.icu",
@@ -226,18 +238,6 @@
       "com-p04-gift-esim.icu",
       "com-q04-gift-esim.icu"
     ],
-    "portal": [
-      "betportalcasino.cyou",
-      "cdportalsdfs.sbs",
-      "charliehealthportal.icu",
-      "defensepersonnelleaveportal.sbs",
-      "firelight-portal.icu",
-      "flarenetwork-portal.icu",
-      "flarenetworks-portal.icu",
-      "hudportalsdfs.sbs",
-      "portal-stpmex.icu",
-      "portaldevalores.sbs"
-    ],
     "secure": [
       "appsecure-online.icu",
       "appsecureonlines.icu",
@@ -257,22 +257,6 @@
       "secureus.sbs",
       "workingspacesecure-centralzone2874893-core08484.icu"
     ],
-    "earn": [
-      "book-club-learn.icu",
-      "earning24.bond",
-      "easylearning.sbs",
-      "innovate-learn.icu",
-      "itlearning.cfd",
-      "learn-books-now.icu",
-      "learn-daily.icu",
-      "learn-habits.icu",
-      "learn-ideas.icu",
-      "learn-science.icu",
-      "learning-zone.icu",
-      "learniqz.icu",
-      "mobile-earn.buzz",
-      "study-and-learn.icu"
-    ],
     "fund": [
       "advancefunds70.buzz",
       "advancefunds71.buzz",
@@ -288,6 +272,22 @@
       "steadyfund.cfd",
       "trustfundsholdings.cyou",
       "yuekaifunder.bond"
+    ],
+    "earn": [
+      "book-club-learn.icu",
+      "earning24.bond",
+      "easylearning.sbs",
+      "innovate-learn.icu",
+      "itlearning.cfd",
+      "learn-books-now.icu",
+      "learn-daily.icu",
+      "learn-habits.icu",
+      "learn-ideas.icu",
+      "learn-science.icu",
+      "learning-zone.icu",
+      "learniqz.icu",
+      "mobile-earn.buzz",
+      "study-and-learn.icu"
     ],
     "service": [
       "arclientservices.sbs",
@@ -317,29 +317,17 @@
       "secure-connection-tunnel339499.cfd",
       "secure-connection-tunnel528509.cfd"
     ],
-    "invest": [
-      "ablehomeinvestments.cyou",
-      "finjamilya-invest.sbs",
-      "invest-jamila.sbs",
-      "jmila-fininvest.sbs",
-      "smart50invest.cfd",
-      "ucssinvest.buzz",
-      "wasserfall-investtra.sbs",
-      "wasserfallinvesttra-it.sbs",
-      "wasserfallinvesttra.cfd",
-      "wspinvestmentllc.sbs"
-    ],
-    "base": [
-      "app-basedfoundation.icu",
-      "base44bet.cyou",
-      "basedecosystem.icu",
-      "bestbasegarment.sbs",
-      "codebase.cyou",
-      "lexobase.cyou",
-      "mybase.icu",
-      "primebase.cyou",
-      "project-inform-que-base-87d4.icu",
-      "wwbasecraft.buzz"
+    "maple": [
+      "bcgamebonusmaple.icu",
+      "flaxmaple.sbs",
+      "maplehill.sbs",
+      "maplenews.cyou",
+      "mapleparcel.cfd",
+      "maplepath837.sbs",
+      "mapleway.sbs",
+      "maplewillow.sbs",
+      "modernmapletw.cfd",
+      "opalmaple.cfd"
     ],
     "account": [
       "account72873543.cfd",
@@ -353,6 +341,30 @@
       "royalbank-accountsecurity.cfd",
       "royalbank-accountsecurity.sbs"
     ],
+    "base": [
+      "app-basedfoundation.icu",
+      "base44bet.cyou",
+      "basedecosystem.icu",
+      "bestbasegarment.sbs",
+      "codebase.cyou",
+      "lexobase.cyou",
+      "mybase.icu",
+      "primebase.cyou",
+      "project-inform-que-base-87d4.icu",
+      "wwbasecraft.buzz"
+    ],
+    "invest": [
+      "ablehomeinvestments.cyou",
+      "finjamilya-invest.sbs",
+      "invest-jamila.sbs",
+      "jmila-fininvest.sbs",
+      "smart50invest.cfd",
+      "ucssinvest.buzz",
+      "wasserfall-investtra.sbs",
+      "wasserfallinvesttra-it.sbs",
+      "wasserfallinvesttra.cfd",
+      "wspinvestmentllc.sbs"
+    ],
     "bank": [
       "bank.icu",
       "bankarab-promo.cfd",
@@ -365,17 +377,15 @@
       "royalbank-accountsecurity.cfd",
       "royalbank-accountsecurity.sbs"
     ],
-    "maple": [
-      "bcgamebonusmaple.icu",
-      "flaxmaple.sbs",
-      "maplehill.sbs",
-      "maplenews.cyou",
-      "mapleparcel.cfd",
-      "maplepath837.sbs",
-      "mapleway.sbs",
-      "maplewillow.sbs",
-      "modernmapletw.cfd",
-      "opalmaple.cfd"
+    "aura": [
+      "aurahoki142.cyou",
+      "aurapehl.sbs",
+      "auraplay.sbs",
+      "aurasportsplayer.cfd",
+      "primeaura-ke.cfd",
+      "rantoaurat.cyou",
+      "saurabhkumar.cfd",
+      "sauravkc.cfd"
     ],
     "quest": [
       "epic-gaming-quest.icu",
@@ -397,6 +407,12 @@
       "orcarouternotice.buzz",
       "orcasa.cfd"
     ],
+    "support": [
+      "247support.cfd",
+      "candidatesupport.cfd",
+      "consultingsupport.cfd",
+      "employersupport.cfd"
+    ],
     "eos": [
       "coirreos.cfd",
       "describeos.cfd",
@@ -406,22 +422,6 @@
       "heritageeos.cyou",
       "viralsexvideos.cyou",
       "xxvideoss.bond"
-    ],
-    "aura": [
-      "aurahoki142.cyou",
-      "aurapehl.sbs",
-      "auraplay.sbs",
-      "aurasportsplayer.cfd",
-      "primeaura-ke.cfd",
-      "rantoaurat.cyou",
-      "saurabhkumar.cfd",
-      "sauravkc.cfd"
-    ],
-    "support": [
-      "247support.cfd",
-      "candidatesupport.cfd",
-      "consultingsupport.cfd",
-      "employersupport.cfd"
     ],
     "finance": [
       "allocations-umiafinance.icu",
@@ -433,15 +433,6 @@
       "homefinance.cfd",
       "zigfinance.icu"
     ],
-    "token": [
-      "tokenhub.buzz",
-      "tokenhub.icu",
-      "tokenpa.icu",
-      "tokenpoketcore-gw-uk25.cyou",
-      "tokenpoketnext-cdn-sg92.sbs",
-      "tokenpoketnova-cache-tw61.cfd",
-      "tokenpoketnow-dist-de04.cyou"
-    ],
     "bonus": [
       "bcgamebonusmaple.icu",
       "bonusuk24.sbs",
@@ -450,24 +441,6 @@
       "diwabonus.sbs",
       "diwabonusshare.sbs",
       "megabonusnz.sbs"
-    ],
-    "verify": [
-      "bitgo-verify.cfd",
-      "contactpageverify.cfd",
-      "esl-org-text-verify.cfd",
-      "kaizenflowverify.cfd",
-      "socialverify.cyou",
-      "verify11238.cfd",
-      "verifyetruyty.icu"
-    ],
-    "allocation": [
-      "allocation-mantle.icu",
-      "allocation-multipli.icu",
-      "allocation-ponsecosystem.icu",
-      "allocation-up33.icu",
-      "allocation.icu",
-      "allocations-umiafinance.icu",
-      "xstocks-allocations.icu"
     ],
     "stellar": [
       "boulevardstellarnoodle.bond",
@@ -478,18 +451,48 @@
       "stellarnoodlejoltnr.bond",
       "stellarnoodlenesscn.buzz"
     ],
-    "starknet": [
-      "governance-starknet.icu",
-      "starknetgov.icu",
-      "starknetgovernance.icu"
+    "allocation": [
+      "allocation-mantle.icu",
+      "allocation-multipli.icu",
+      "allocation-ponsecosystem.icu",
+      "allocation-up33.icu",
+      "allocation.icu",
+      "allocations-umiafinance.icu",
+      "xstocks-allocations.icu"
     ],
-    "rug": [
-      "drughub-darknet.sbs",
-      "drughub-gate.sbs",
-      "drughub-tor.sbs",
-      "drughub.cyou",
-      "drughubaccess.cfd",
-      "ezlyonstruggis.cfd"
+    "token": [
+      "tokenhub.buzz",
+      "tokenhub.icu",
+      "tokenpa.icu",
+      "tokenpoketcore-gw-uk25.cyou",
+      "tokenpoketnext-cdn-sg92.sbs",
+      "tokenpoketnova-cache-tw61.cfd",
+      "tokenpoketnow-dist-de04.cyou"
+    ],
+    "verify": [
+      "bitgo-verify.cfd",
+      "contactpageverify.cfd",
+      "esl-org-text-verify.cfd",
+      "kaizenflowverify.cfd",
+      "socialverify.cyou",
+      "verify11238.cfd",
+      "verifyetruyty.icu"
+    ],
+    "official": [
+      "casino-maxbet-official66.buzz",
+      "casino-vulkan-official3.buzz",
+      "ch-officiall-shop.cfd",
+      "leongreeceofficialbetplay.cyou",
+      "officialturbo17.buzz",
+      "turbo17-official.buzz"
+    ],
+    "ledger": [
+      "clearledger.cfd",
+      "familyledger.cfd",
+      "homeledger.cfd",
+      "kaizenledger.sbs",
+      "quietledger.cfd",
+      "simpleledger.cfd"
     ]
   }
 }

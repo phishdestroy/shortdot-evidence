@@ -84,7 +84,7 @@ PL  ███░░░░░░░░░░░░░░░          1 (11.1%)
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`login (65)` &middot; `tron (64)` &middot; `neo (37)` &middot; `hop (35)` &middot; `dia (24)` &middot; `gift (20)` &middot; `portal (20)` &middot; `secure (17)` &middot; `earn (14)` &middot; `fund (14)` &middot; `service (13)` &middot; `connect (11)` &middot; `invest (10)` &middot; `base (10)` &middot; `account (10)`
+`login (65)` &middot; `tron (64)` &middot; `neo (37)` &middot; `hop (35)` &middot; `dia (24)` &middot; `portal (20)` &middot; `gift (20)` &middot; `secure (17)` &middot; `fund (14)` &middot; `earn (14)` &middot; `service (13)` &middot; `connect (11)` &middot; `maple (10)` &middot; `account (10)` &middot; `base (10)`
 
 ### 📥 Download Threat Intelligence
 
