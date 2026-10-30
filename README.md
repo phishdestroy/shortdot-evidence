@@ -57,10 +57,10 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 1 | — | $634,670 |
+| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 2 | — | $634,670 |
 | `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
 | `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
-| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 0 | — | $1,242,854 |
+| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 2 | — | $1,242,854 |
 | `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 0 | — | $619,050 |
 | `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 0 | — | $680,602 |
 | `.qpon` | 110,365 | 61,237 (55.5%) | 49,128 | 0 | — | $275,912 |
@@ -70,20 +70,24 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████          6 (75.0%)
-KR  ███░░░░░░░░░░░░░░░          1 (12.5%)
-PL  ███░░░░░░░░░░░░░░░          1 (12.5%)
+US  ██████████████████         42 (85.7%)
+AU  ░░░░░░░░░░░░░░░░░░          2 (4.1%)
+KR  ░░░░░░░░░░░░░░░░░░          1 (2.0%)
+DE  ░░░░░░░░░░░░░░░░░░          1 (2.0%)
+UA  ░░░░░░░░░░░░░░░░░░          1 (2.0%)
+PL  ░░░░░░░░░░░░░░░░░░          1 (2.0%)
+HK  ░░░░░░░░░░░░░░░░░░          1 (2.0%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-10-30` | 4,892 | **1.0×** |
+| `2026-10-30` | 12,258 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`hop (15)` &middot; `secure (13)` &middot; `fund (11)` &middot; `gift (10)` &middot; `portal (10)` &middot; `dia (10)` &middot; `service (8)` &middot; `account (8)` &middot; `support (8)` &middot; `maple (8)` &middot; `tron (8)` &middot; `connect (7)` &middot; `rug (6)` &middot; `base (6)` &middot; `neo (6)`
+`stake (28)` &middot; `hop (22)` &middot; `dia (22)` &middot; `gift (19)` &middot; `secure (18)` &middot; `service (17)` &middot; `badger (16)` &middot; `tron (16)` &middot; `support (14)` &middot; `portal (14)` &middot; `fund (13)` &middot; `connect (12)` &middot; `invest (11)` &middot; `quest (10)` &middot; `bank (10)`
 
 ### 📥 Download Threat Intelligence
 

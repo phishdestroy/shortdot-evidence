@@ -1,15 +1,94 @@
 {
   "generated": "2026-10-30",
-  "count": 1,
+  "count": 5,
   "ips": [
     {
       "ip": "207.207.210.229",
-      "count": 3,
+      "count": 20,
       "country": "US",
       "domains": [
+        "07ig.bond",
+        "14xv.bond",
+        "1zws9a7kp.buzz",
+        "20tt.bond",
+        "27ca.bond",
+        "33ad.bond",
+        "37hf.bond",
+        "48mk.bond",
+        "51qo.bond",
+        "66cd.bond",
+        "88ef.bond",
+        "94ju.bond",
         "ai-architecturestudio.buzz",
         "aiarchitecturedesign.buzz",
+        "lgdigital.bond",
+        "parabellum.bond",
+        "teetimetickler.bond",
+        "tuktuk.buzz",
+        "veifpar0o.buzz",
         "vulva.icu"
+      ]
+    },
+    {
+      "ip": "188.114.96.3",
+      "count": 10,
+      "country": "",
+      "domains": [
+        "02ec.bond",
+        "11uv.bond",
+        "44ab.bond",
+        "63hj.bond",
+        "63zx.bond",
+        "64zn.bond",
+        "69ec.bond",
+        "easily.sbs",
+        "j7pv6s7is.buzz",
+        "vibegroup.buzz"
+      ]
+    },
+    {
+      "ip": "154.44.8.240",
+      "count": 10,
+      "country": "US",
+      "domains": [
+        "18tr.bond",
+        "23lj.bond",
+        "42us.bond",
+        "57yz.bond",
+        "60vt.bond",
+        "74za.bond",
+        "86wu.bond",
+        "93xx.bond",
+        "95ki.bond",
+        "98db.bond"
+      ]
+    },
+    {
+      "ip": "188.114.97.3",
+      "count": 7,
+      "country": "",
+      "domains": [
+        "07yz.bond",
+        "12om.bond",
+        "2f3bbkb7m.buzz",
+        "7omppchd4.buzz",
+        "red-car.buzz",
+        "rent-car.buzz",
+        "ukraina.bond"
+      ]
+    },
+    {
+      "ip": "207.207.210.107",
+      "count": 7,
+      "country": "US",
+      "domains": [
+        "12ab.bond",
+        "72mk.bond",
+        "78jh.bond",
+        "gunceltrsikayetler-385.sbs",
+        "nguyenmanhphuong.bond",
+        "qingzhi.bond",
+        "s65tad76b.buzz"
       ]
     }
   ]
