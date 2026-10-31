@@ -57,7 +57,7 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 1 | — | $634,670 |
+| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 3 | — | $634,670 |
 | `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
 | `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
 | `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 2 | — | $1,242,854 |
@@ -70,22 +70,22 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████         36 (87.8%)
-AU  █░░░░░░░░░░░░░░░░░          2 (4.9%)
-DE  ░░░░░░░░░░░░░░░░░░          1 (2.4%)
-UA  ░░░░░░░░░░░░░░░░░░          1 (2.4%)
-HK  ░░░░░░░░░░░░░░░░░░          1 (2.4%)
+US  ██████████████████         48 (88.9%)
+AU  █░░░░░░░░░░░░░░░░░          3 (5.6%)
+DE  ░░░░░░░░░░░░░░░░░░          1 (1.9%)
+UA  ░░░░░░░░░░░░░░░░░░          1 (1.9%)
+HK  ░░░░░░░░░░░░░░░░░░          1 (1.9%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-10-31` | 7,366 | **1.0×** |
+| `2026-10-31` | 13,355 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`stake (27)` &middot; `badger (15)` &middot; `dia (12)` &middot; `dapp (10)` &middot; `gift (9)` &middot; `invest (9)` &middot; `service (9)` &middot; `tron (8)` &middot; `hop (7)` &middot; `support (6)` &middot; `alert (6)` &middot; `quest (5)` &middot; `access (5)` &middot; `bank (5)` &middot; `foundation (5)`
+`stake (57)` &middot; `dia (39)` &middot; `bank (22)` &middot; `hop (18)` &middot; `tron (16)` &middot; `service (15)` &middot; `badger (15)` &middot; `dapp (12)` &middot; `gift (12)` &middot; `portal (12)` &middot; `invest (10)` &middot; `connect (9)` &middot; `fund (9)` &middot; `sui (9)` &middot; `reward (9)`
 
 ### 📥 Download Threat Intelligence
 
