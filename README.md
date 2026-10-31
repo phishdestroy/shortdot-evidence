@@ -37,7 +37,7 @@ They were meant to be <i>counted.</i><br/>
 <p align="center"><img src="assets/readme-polish/divider.svg" width="100%" alt="" /></p>
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-30`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-31`
 
 <table align="center"><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><strong>6,242,647</strong></td>
@@ -57,7 +57,7 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 2 | — | $634,670 |
+| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 1 | — | $634,670 |
 | `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
 | `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
 | `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 2 | — | $1,242,854 |
@@ -70,24 +70,22 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████         42 (85.7%)
-AU  ░░░░░░░░░░░░░░░░░░          2 (4.1%)
-KR  ░░░░░░░░░░░░░░░░░░          1 (2.0%)
-DE  ░░░░░░░░░░░░░░░░░░          1 (2.0%)
-UA  ░░░░░░░░░░░░░░░░░░          1 (2.0%)
-PL  ░░░░░░░░░░░░░░░░░░          1 (2.0%)
-HK  ░░░░░░░░░░░░░░░░░░          1 (2.0%)
+US  ██████████████████         36 (87.8%)
+AU  █░░░░░░░░░░░░░░░░░          2 (4.9%)
+DE  ░░░░░░░░░░░░░░░░░░          1 (2.4%)
+UA  ░░░░░░░░░░░░░░░░░░          1 (2.4%)
+HK  ░░░░░░░░░░░░░░░░░░          1 (2.4%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-10-30` | 12,258 | **1.0×** |
+| `2026-10-31` | 7,366 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`stake (28)` &middot; `dia (22)` &middot; `hop (22)` &middot; `gift (19)` &middot; `secure (18)` &middot; `service (17)` &middot; `badger (16)` &middot; `tron (16)` &middot; `portal (14)` &middot; `support (14)` &middot; `fund (13)` &middot; `connect (12)` &middot; `invest (11)` &middot; `dapp (10)` &middot; `base (10)`
+`stake (27)` &middot; `badger (15)` &middot; `dia (12)` &middot; `dapp (10)` &middot; `gift (9)` &middot; `invest (9)` &middot; `service (9)` &middot; `tron (8)` &middot; `hop (7)` &middot; `support (6)` &middot; `alert (6)` &middot; `quest (5)` &middot; `access (5)` &middot; `bank (5)` &middot; `foundation (5)`
 
 ### 📥 Download Threat Intelligence
 

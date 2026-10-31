@@ -41,7 +41,6 @@
 85wx.bond
 86df.bond
 86wu.bond
-88ax.bond
 88ay.bond
 88ef.bond
 93sq.bond
@@ -51,9 +50,7 @@
 98db.bond
 hosting-home.bond
 lgdigital.bond
-luckyaward.bond
 nguyenmanhphuong.bond
-onchainer.bond
 parabellum.bond
 qingzhi.bond
 teetimetickler.bond
