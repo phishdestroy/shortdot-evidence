@@ -9,7 +9,7 @@
   "deployment_rate": 0.8,
   "fresh_pct": 100.0,
   "unranked_pct": 100.0,
-  "correlation_pct": 0.0,
+  "correlation_pct": 0.1,
   "serial_registrants": 0,
   "legit_count": 0,
   "tld_stats": {

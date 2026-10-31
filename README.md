@@ -60,8 +60,8 @@ They were meant to be <i>counted.</i><br/>
 | `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 3 | — | $634,670 |
 | `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
 | `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
-| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 2 | — | $1,242,854 |
-| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 0 | — | $619,050 |
+| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 3 | — | $1,242,854 |
+| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 1 | — | $619,050 |
 | `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 0 | — | $680,602 |
 | `.qpon` | 110,365 | 61,237 (55.5%) | 49,128 | 0 | — | $275,912 |
 
@@ -85,7 +85,7 @@ HK  ░░░░░░░░░░░░░░░░░░          1 (1.9%)
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`stake (57)` &middot; `dia (39)` &middot; `bank (22)` &middot; `hop (18)` &middot; `tron (16)` &middot; `service (15)` &middot; `badger (15)` &middot; `dapp (12)` &middot; `gift (12)` &middot; `portal (12)` &middot; `invest (10)` &middot; `connect (9)` &middot; `fund (9)` &middot; `sui (9)` &middot; `reward (9)`
+`stake (57)` &middot; `dia (39)` &middot; `bank (22)` &middot; `hop (18)` &middot; `tron (16)` &middot; `badger (15)` &middot; `service (15)` &middot; `portal (12)` &middot; `gift (12)` &middot; `dapp (12)` &middot; `invest (10)` &middot; `fund (9)` &middot; `sui (9)` &middot; `connect (9)` &middot; `reward (9)`
 
 ### 📥 Download Threat Intelligence
 

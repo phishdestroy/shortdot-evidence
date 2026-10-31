@@ -155,23 +155,6 @@
       "vectronisai.icu",
       "veltronicwave.buzz"
     ],
-    "service": [
-      "acservicetech.buzz",
-      "admindeskservice.icu",
-      "bankservicesfyx.sbs",
-      "cardetailingservice.sbs",
-      "digitalservicesxhdgo.sbs",
-      "eservices-ewa.sbs",
-      "eventservice.cyou",
-      "heathservices.cfd",
-      "paypal-servicealerts.icu",
-      "service-msg-4frontcu.cfd",
-      "service-notify-4frontcu.cfd",
-      "service-punt.icu",
-      "service-txt-4frontcu.cfd",
-      "ticketswap-service.sbs",
-      "unitedmarkservices.sbs"
-    ],
     "badger": [
       "breezybadgercrest.cyou",
       "fairbadgerhaven.cyou",
@@ -189,19 +172,30 @@
       "snugbadgermarket.cyou",
       "upbeatbadgerfield.cyou"
     ],
-    "dapp": [
-      "dapp-secscont.cyou",
-      "dapperacornmarket.cyou",
-      "dapperbasilgarden.cyou",
-      "dapperfinchcroft.cyou",
-      "dapperlarchgrove.cyou",
-      "dappermeadowlarkorchard.cyou",
-      "dapperpeachpond.cyou",
-      "dapperpeartrail.cyou",
-      "dapperpoplarbrook.cyou",
-      "dapperquincenook.cyou",
-      "dappersloeglen.cyou",
-      "game2dapp.cfd"
+    "service": [
+      "acservicetech.buzz",
+      "admindeskservice.icu",
+      "bankservicesfyx.sbs",
+      "cardetailingservice.sbs",
+      "digitalservicesxhdgo.sbs",
+      "eservices-ewa.sbs",
+      "eventservice.cyou",
+      "heathservices.cfd",
+      "paypal-servicealerts.icu",
+      "service-msg-4frontcu.cfd",
+      "service-notify-4frontcu.cfd",
+      "service-punt.icu",
+      "service-txt-4frontcu.cfd",
+      "ticketswap-service.sbs",
+      "unitedmarkservices.sbs"
+    ],
+    "portal": [
+      "chancenportal.sbs",
+      "connectportal.icu",
+      "doc23portalmireoonja.cfd",
+      "eportallive.sbs",
+      "grantportalnigeriabot.sbs",
+      "portal-stp1mex.icu"
     ],
     "gift": [
       "com-a20-gift-card.icu",
@@ -217,13 +211,19 @@
       "luckychasygifts.bond",
       "maidenlogift80.sbs"
     ],
-    "portal": [
-      "chancenportal.sbs",
-      "connectportal.icu",
-      "doc23portalmireoonja.cfd",
-      "eportallive.sbs",
-      "grantportalnigeriabot.sbs",
-      "portal-stp1mex.icu"
+    "dapp": [
+      "dapp-secscont.cyou",
+      "dapperacornmarket.cyou",
+      "dapperbasilgarden.cyou",
+      "dapperfinchcroft.cyou",
+      "dapperlarchgrove.cyou",
+      "dappermeadowlarkorchard.cyou",
+      "dapperpeachpond.cyou",
+      "dapperpeartrail.cyou",
+      "dapperpoplarbrook.cyou",
+      "dapperquincenook.cyou",
+      "dappersloeglen.cyou",
+      "game2dapp.cfd"
     ],
     "invest": [
       "investdaily.sbs",
@@ -236,17 +236,6 @@
       "investvision.sbs",
       "tendancinvest-group.sbs",
       "tradeinvest-group.sbs"
-    ],
-    "connect": [
-      "connectportal.icu",
-      "eldercareconnect.sbs",
-      "online-connection.sbs",
-      "onlinebridgeconnect.sbs",
-      "secure-connection-tunnel955531.cfd",
-      "secureconnection.cfd",
-      "sendconnect.bond",
-      "talentconnectup.cfd",
-      "tounesconnect.sbs"
     ],
     "fund": [
       "aurafunding.cfd",
@@ -270,6 +259,17 @@
       "vrsuik144.cfd",
       "wcusuitolhi.buzz"
     ],
+    "connect": [
+      "connectportal.icu",
+      "eldercareconnect.sbs",
+      "online-connection.sbs",
+      "onlinebridgeconnect.sbs",
+      "secure-connection-tunnel955531.cfd",
+      "secureconnection.cfd",
+      "sendconnect.bond",
+      "talentconnectup.cfd",
+      "tounesconnect.sbs"
+    ],
     "reward": [
       "1zazinoreward.icu",
       "2zazinoreward.icu",
@@ -281,21 +281,15 @@
       "rewards-etherfi.icu",
       "rewards-flarenetwork.icu"
     ],
-    "support": [
-      "clientsupport.icu",
-      "offergoatclothingsupportvendor.icu",
-      "reflexdomentertainmentsupport.icu",
-      "support-blue-badge2026.cfd"
-    ],
-    "quest": [
-      "echoquest.sbs",
-      "gamequest.cfd",
-      "omegaquester77.sbs",
-      "powerquest.cyou",
-      "questly.sbs",
-      "requestinfopost.cfd",
-      "topazmeadowquest.buzz",
-      "vertexquest472.sbs"
+    "unlock": [
+      "1zazinounlock.icu",
+      "2zazinounlock.icu",
+      "3zazinounlock.icu",
+      "unlockzazino5.icu",
+      "unlockzazino6.icu",
+      "unlockzazino7.icu",
+      "unlockzazino8.icu",
+      "unlockzazino9.icu"
     ],
     "secure": [
       "bellsecured.cfd",
@@ -317,42 +311,21 @@
       "neonwave.icu",
       "neooo.icu"
     ],
-    "unlock": [
-      "1zazinounlock.icu",
-      "2zazinounlock.icu",
-      "3zazinounlock.icu",
-      "unlockzazino5.icu",
-      "unlockzazino6.icu",
-      "unlockzazino7.icu",
-      "unlockzazino8.icu",
-      "unlockzazino9.icu"
+    "quest": [
+      "echoquest.sbs",
+      "gamequest.cfd",
+      "omegaquester77.sbs",
+      "powerquest.cyou",
+      "questly.sbs",
+      "requestinfopost.cfd",
+      "topazmeadowquest.buzz",
+      "vertexquest472.sbs"
     ],
-    "earn": [
-      "christianlearning.sbs",
-      "finance-earn.sbs",
-      "investlearn.sbs",
-      "learnmathedu.cfd",
-      "learnovahub.sbs",
-      "learnwithimogen.cfd",
-      "newleaflearning.cfd"
-    ],
-    "invite": [
-      "checkinvitecard.icu",
-      "eventinvite.icu",
-      "eventinvite.sbs",
-      "eventsinvite.icu",
-      "eventsinvite.sbs",
-      "rsvppsinviteeacion.sbs",
-      "welcomeinviteetacion.sbs"
-    ],
-    "launch": [
-      "1zazinolaunch.icu",
-      "2zazinolaunch.icu",
-      "3zazinolaunch.icu",
-      "4zazinolaunch.icu",
-      "app-ascendlaunch.icu",
-      "governance-ascendlaunch.icu",
-      "moonlaunch.icu"
+    "support": [
+      "clientsupport.icu",
+      "offergoatclothingsupportvendor.icu",
+      "reflexdomentertainmentsupport.icu",
+      "support-blue-badge2026.cfd"
     ],
     "allocation": [
       "3jane-allocation.icu",
@@ -363,24 +336,6 @@
       "allocations-up33.icu",
       "usdai-allocation.icu"
     ],
-    "access": [
-      "55835-access-auth.icu",
-      "72940-access-auth.icu",
-      "access-iclou.icu",
-      "accessro.sbs",
-      "accessstack.sbs",
-      "averoaccess.sbs",
-      "sharepoint-document-access.icu"
-    ],
-    "foundation": [
-      "app-firelightfoundation.icu",
-      "app-pendlefoundation.icu",
-      "communityfoundationni.sbs",
-      "dopplerfoundation.icu",
-      "foundationintro.icu",
-      "noorkashedafoundation.cfd",
-      "risefoundation.icu"
-    ],
     "base": [
       "camakazi-ona-kentro-level090-base.icu",
       "developerbased.icu",
@@ -389,6 +344,15 @@
       "truebase.icu",
       "webuibase.cfd",
       "wizzdbase.icu"
+    ],
+    "launch": [
+      "1zazinolaunch.icu",
+      "2zazinolaunch.icu",
+      "3zazinolaunch.icu",
+      "4zazinolaunch.icu",
+      "app-ascendlaunch.icu",
+      "governance-ascendlaunch.icu",
+      "moonlaunch.icu"
     ],
     "crypto": [
       "crypto-boss.buzz",
@@ -399,21 +363,54 @@
       "legendarycrypto.cyou",
       "legendarycrypto.icu"
     ],
-    "bonus": [
-      "1xbet-bonus.buzz",
-      "aibonus-365uz.icu",
-      "au-tab1bonus.sbs",
-      "max-bonus99.sbs",
-      "nimb-bonus.cfd",
-      "winnabonusterrace.icu"
+    "earn": [
+      "christianlearning.sbs",
+      "finance-earn.sbs",
+      "investlearn.sbs",
+      "learnmathedu.cfd",
+      "learnovahub.sbs",
+      "learnwithimogen.cfd",
+      "newleaflearning.cfd"
     ],
-    "uber": [
-      "gibbusdauber.qpon",
-      "ikramzuberi.cfd",
-      "junaidzuberi.cfd",
-      "kabirzuberi.cfd",
-      "octuberdect.bond",
-      "yubericew.buzz"
+    "foundation": [
+      "app-firelightfoundation.icu",
+      "app-pendlefoundation.icu",
+      "communityfoundationni.sbs",
+      "dopplerfoundation.icu",
+      "foundationintro.icu",
+      "noorkashedafoundation.cfd",
+      "risefoundation.icu"
+    ],
+    "access": [
+      "55835-access-auth.icu",
+      "72940-access-auth.icu",
+      "access-iclou.icu",
+      "accessro.sbs",
+      "accessstack.sbs",
+      "averoaccess.sbs",
+      "sharepoint-document-access.icu"
+    ],
+    "invite": [
+      "checkinvitecard.icu",
+      "eventinvite.icu",
+      "eventinvite.sbs",
+      "eventsinvite.icu",
+      "eventsinvite.sbs",
+      "rsvppsinviteeacion.sbs",
+      "welcomeinviteetacion.sbs"
+    ],
+    "join": [
+      "joinglacrew.cfd",
+      "joinglasahub.cfd",
+      "joinmerateam.cfd",
+      "joinourteam.cfd",
+      "jointtk777.cyou",
+      "joinzeloteam.cfd"
+    ],
+    "pendle": [
+      "app-pendlefoundation.icu",
+      "app-pendlegovernance.icu",
+      "pendle-rewards.icu"
     ]
   }
 }
