@@ -60,8 +60,8 @@ They were meant to be <i>counted.</i><br/>
 | `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 2 | — | $634,670 |
 | `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
 | `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
-| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 1 | — | $1,242,854 |
-| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 0 | — | $619,050 |
+| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 2 | — | $1,242,854 |
+| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 1 | — | $619,050 |
 | `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 0 | — | $680,602 |
 | `.qpon` | 110,365 | 61,237 (55.5%) | 49,128 | 0 | — | $275,912 |
 
@@ -70,19 +70,19 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████         12 (92.3%)
-AU  █░░░░░░░░░░░░░░░░░          1 (7.7%)
+US  ██████████████████         21 (95.5%)
+AU  ░░░░░░░░░░░░░░░░░░          1 (4.5%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-11-01` | 5,989 | **1.0×** |
+| `2026-11-01` | 12,507 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`stake (30)` &middot; `dia (27)` &middot; `bank (17)` &middot; `hop (11)` &middot; `unlock (8)` &middot; `tron (8)` &middot; `portal (8)` &middot; `fund (7)` &middot; `service (6)` &middot; `launch (5)` &middot; `neo (5)` &middot; `sui (5)` &middot; `uber (5)` &middot; `aurora (4)` &middot; `invite (4)`
+`dia (45)` &middot; `stake (30)` &middot; `hop (29)` &middot; `bank (22)` &middot; `portal (14)` &middot; `aura (10)` &middot; `tron (10)` &middot; `aurora (10)` &middot; `neo (10)` &middot; `maple (9)` &middot; `sui (9)` &middot; `iron (9)` &middot; `service (8)` &middot; `unlock (8)` &middot; `harmony (8)`
 
 ### 📥 Download Threat Intelligence
 
