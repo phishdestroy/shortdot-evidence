@@ -835856,6 +835856,7 @@ server-vip9.icu
 server-vip99.icu
 server-vvip.icu
 server05.icu
+server1.icu
 server10086.icu
 server101.icu
 server109.icu

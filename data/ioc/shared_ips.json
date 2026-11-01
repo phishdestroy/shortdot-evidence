@@ -1,113 +1,31 @@
 {
-  "generated": "2026-10-31",
-  "count": 6,
+  "generated": "2026-11-01",
+  "count": 2,
   "ips": [
     {
-      "ip": "207.207.210.229",
-      "count": 23,
-      "country": "US",
-      "domains": [
-        "07ig.bond",
-        "14xv.bond",
-        "1zws9a7kp.buzz",
-        "20tt.bond",
-        "27ca.bond",
-        "33ad.bond",
-        "37hf.bond",
-        "48mk.bond",
-        "51qo.bond",
-        "66cd.bond",
-        "88ef.bond",
-        "94ju.bond",
-        "goldsystem.buzz",
-        "lgdigital.bond",
-        "lordfilmglowing.cfd",
-        "lordfilmlocation.sbs",
-        "parabellum.bond",
-        "teetimetickler.bond",
-        "tezos.icu",
-        "the420news.buzz",
-        "thecontentplace.buzz",
-        "tuktuk.buzz",
-        "veifpar0o.buzz"
-      ]
-    },
-    {
       "ip": "207.207.210.107",
-      "count": 13,
+      "count": 6,
       "country": "US",
       "domains": [
-        "12ab.bond",
         "420show.buzz",
-        "72mk.bond",
-        "78jh.bond",
         "compassion-init.buzz",
-        "gunceltrsikayetler-385.sbs",
         "meta-mischief.buzz",
-        "nguyenmanhphuong.bond",
         "overthinking.buzz",
-        "qingzhi.bond",
-        "s65tad76b.buzz",
         "soqiiii.bond",
         "the420show.buzz"
       ]
     },
     {
-      "ip": "188.114.96.3",
-      "count": 10,
-      "country": "",
-      "domains": [
-        "02ec.bond",
-        "11uv.bond",
-        "44ab.bond",
-        "63hj.bond",
-        "63zx.bond",
-        "64zn.bond",
-        "69ec.bond",
-        "easily.sbs",
-        "j7pv6s7is.buzz",
-        "vibegroup.buzz"
-      ]
-    },
-    {
-      "ip": "154.44.8.240",
-      "count": 10,
+      "ip": "207.207.210.229",
+      "count": 6,
       "country": "US",
       "domains": [
-        "18tr.bond",
-        "23lj.bond",
-        "42us.bond",
-        "57yz.bond",
-        "60vt.bond",
-        "74za.bond",
-        "86wu.bond",
-        "93xx.bond",
-        "95ki.bond",
-        "98db.bond"
-      ]
-    },
-    {
-      "ip": "188.114.97.3",
-      "count": 7,
-      "country": "",
-      "domains": [
-        "07yz.bond",
-        "12om.bond",
-        "2f3bbkb7m.buzz",
-        "7omppchd4.buzz",
-        "red-car.buzz",
-        "rent-car.buzz",
-        "ukraina.bond"
-      ]
-    },
-    {
-      "ip": "162.4.84.247",
-      "count": 3,
-      "country": "AU",
-      "domains": [
-        "vitalite.cyou",
-        "vorssorgeeanwa.cyou",
-        "vorssorreecht.cyou"
+        "goldsystem.buzz",
+        "lordfilmglowing.cfd",
+        "lordfilmlocation.sbs",
+        "tezos.icu",
+        "the420news.buzz",
+        "thecontentplace.buzz"
       ]
     }
   ]

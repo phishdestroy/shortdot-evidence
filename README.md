@@ -37,7 +37,7 @@ They were meant to be <i>counted.</i><br/>
 <p align="center"><img src="assets/readme-polish/divider.svg" width="100%" alt="" /></p>
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-10-31`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-01`
 
 <table align="center"><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><strong>6,242,647</strong></td>
@@ -57,11 +57,11 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 3 | — | $634,670 |
+| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 2 | — | $634,670 |
 | `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
 | `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
-| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 3 | — | $1,242,854 |
-| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 1 | — | $619,050 |
+| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 1 | — | $1,242,854 |
+| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 0 | — | $619,050 |
 | `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 0 | — | $680,602 |
 | `.qpon` | 110,365 | 61,237 (55.5%) | 49,128 | 0 | — | $275,912 |
 
@@ -70,22 +70,19 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████         48 (88.9%)
-AU  █░░░░░░░░░░░░░░░░░          3 (5.6%)
-DE  ░░░░░░░░░░░░░░░░░░          1 (1.9%)
-UA  ░░░░░░░░░░░░░░░░░░          1 (1.9%)
-HK  ░░░░░░░░░░░░░░░░░░          1 (1.9%)
+US  ██████████████████         12 (92.3%)
+AU  █░░░░░░░░░░░░░░░░░          1 (7.7%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-10-31` | 13,355 | **1.0×** |
+| `2026-11-01` | 5,989 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`stake (57)` &middot; `dia (39)` &middot; `bank (22)` &middot; `hop (18)` &middot; `tron (16)` &middot; `badger (15)` &middot; `service (15)` &middot; `portal (12)` &middot; `gift (12)` &middot; `dapp (12)` &middot; `invest (10)` &middot; `fund (9)` &middot; `sui (9)` &middot; `connect (9)` &middot; `reward (9)`
+`stake (30)` &middot; `dia (27)` &middot; `bank (17)` &middot; `hop (11)` &middot; `unlock (8)` &middot; `tron (8)` &middot; `portal (8)` &middot; `fund (7)` &middot; `service (6)` &middot; `launch (5)` &middot; `neo (5)` &middot; `sui (5)` &middot; `uber (5)` &middot; `aurora (4)` &middot; `invite (4)`
 
 ### 📥 Download Threat Intelligence
 
