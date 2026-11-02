@@ -37,7 +37,7 @@ They were meant to be <i>counted.</i><br/>
 <p align="center"><img src="assets/readme-polish/divider.svg" width="100%" alt="" /></p>
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-01`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-02`
 
 <table align="center"><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><strong>6,242,647</strong></td>
@@ -57,11 +57,11 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 2 | — | $634,670 |
+| `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 0 | — | $634,670 |
 | `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
 | `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
-| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 2 | — | $1,242,854 |
-| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 1 | — | $619,050 |
+| `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 1 | — | $1,242,854 |
+| `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 0 | — | $619,050 |
 | `.buzz` | 209,416 | 130,210 (62.2%) | 79,206 | 0 | — | $680,602 |
 | `.qpon` | 110,365 | 61,237 (55.5%) | 49,128 | 0 | — | $275,912 |
 
@@ -70,19 +70,18 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████         21 (95.5%)
-AU  ░░░░░░░░░░░░░░░░░░          1 (4.5%)
+US  ██████████████████          9 (100.0%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-11-01` | 12,507 | **1.0×** |
+| `2026-11-02` | 6,518 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`dia (45)` &middot; `stake (30)` &middot; `hop (29)` &middot; `bank (22)` &middot; `portal (14)` &middot; `aurora (10)` &middot; `neo (10)` &middot; `aura (10)` &middot; `tron (10)` &middot; `sui (9)` &middot; `maple (9)` &middot; `iron (9)` &middot; `service (8)` &middot; `harmony (8)` &middot; `unlock (8)`
+`hop (18)` &middot; `dia (18)` &middot; `aura (8)` &middot; `iron (7)` &middot; `aurora (6)` &middot; `maple (6)` &middot; `portal (6)` &middot; `bank (5)` &middot; `neo (5)` &middot; `auth (5)` &middot; `wells (5)` &middot; `ledger (4)` &middot; `capital (4)` &middot; `bonus (4)` &middot; `sui (4)`
 
 ### 📥 Download Threat Intelligence
 

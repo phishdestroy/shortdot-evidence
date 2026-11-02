@@ -1,36 +1,17 @@
 {
-  "generated": "2026-11-01",
-  "count": 2,
+  "generated": "2026-11-02",
+  "count": 1,
   "ips": [
     {
       "ip": "207.207.210.107",
-      "count": 11,
+      "count": 5,
       "country": "US",
       "domains": [
-        "420show.buzz",
         "70gt.bond",
         "98hu.bond",
         "bxeko.sbs",
-        "compassion-init.buzz",
         "lordfilmcream.sbs",
-        "meta-mischief.buzz",
-        "overthinking.buzz",
-        "owcbd.sbs",
-        "soqiiii.bond",
-        "the420show.buzz"
-      ]
-    },
-    {
-      "ip": "207.207.210.229",
-      "count": 6,
-      "country": "US",
-      "domains": [
-        "goldsystem.buzz",
-        "lordfilmglowing.cfd",
-        "lordfilmlocation.sbs",
-        "tezos.icu",
-        "the420news.buzz",
-        "thecontentplace.buzz"
+        "owcbd.sbs"
       ]
     }
   ]
