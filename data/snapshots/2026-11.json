@@ -1,10 +1,10 @@
 {
   "month": "2026-11",
   "generated": "2026-11-02",
-  "total_domains": 6518,
-  "total_rev_retail": 106744.82,
-  "total_rev_wholesale": 7418.0,
-  "total_icann_fees": 182229.5,
+  "total_domains": 12513,
+  "total_rev_retail": 210207.87,
+  "total_rev_wholesale": 14993.35,
+  "total_icann_fees": 183728.25,
   "avg_reg_days": 365,
   "deployment_rate": 0.1,
   "fresh_pct": 100.0,
@@ -14,59 +14,59 @@
   "legit_count": 0,
   "tld_stats": {
     "icu": {
-      "count": 934,
+      "count": 2914,
       "deployed": 0,
-      "no_ip": 934,
+      "no_ip": 2914,
       "deploy_rate": 0.0,
-      "revenue": 607.1,
+      "revenue": 1894.1,
       "price": 0.65
     },
     "bond": {
-      "count": 136,
+      "count": 480,
       "deployed": 2,
-      "no_ip": 134,
-      "deploy_rate": 1.5,
-      "revenue": 884.0,
+      "no_ip": 478,
+      "deploy_rate": 0.4,
+      "revenue": 3120.0,
       "price": 6.5
     },
     "cyou": {
-      "count": 1376,
+      "count": 1886,
       "deployed": 0,
-      "no_ip": 1376,
+      "no_ip": 1886,
       "deploy_rate": 0.0,
-      "revenue": 894.4,
+      "revenue": 1225.9,
       "price": 0.65
     },
     "sbs": {
-      "count": 1088,
+      "count": 2580,
       "deployed": 7,
-      "no_ip": 1081,
-      "deploy_rate": 0.6,
-      "revenue": 707.2,
+      "no_ip": 2573,
+      "deploy_rate": 0.3,
+      "revenue": 1677.0,
       "price": 0.65
     },
     "cfd": {
-      "count": 2052,
+      "count": 3064,
       "deployed": 0,
-      "no_ip": 2052,
+      "no_ip": 3064,
       "deploy_rate": 0.0,
-      "revenue": 1333.8,
+      "revenue": 1991.6,
       "price": 0.65
     },
     "buzz": {
-      "count": 882,
+      "count": 1483,
       "deployed": 0,
-      "no_ip": 882,
+      "no_ip": 1483,
       "deploy_rate": 0.0,
-      "revenue": 2866.5,
+      "revenue": 4819.75,
       "price": 3.25
     },
     "qpon": {
-      "count": 50,
+      "count": 106,
       "deployed": 0,
-      "no_ip": 50,
+      "no_ip": 106,
       "deploy_rate": 0.0,
-      "revenue": 125.0,
+      "revenue": 265.0,
       "price": 2.5
     }
   }

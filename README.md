@@ -77,11 +77,11 @@ US  ██████████████████          9 (100.0%)
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-11-02` | 6,518 | **1.0×** |
+| `2026-11-02` | 12,513 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`hop (18)` &middot; `dia (18)` &middot; `aura (8)` &middot; `iron (7)` &middot; `aurora (6)` &middot; `maple (6)` &middot; `portal (6)` &middot; `bank (5)` &middot; `neo (5)` &middot; `auth (5)` &middot; `wells (5)` &middot; `ledger (4)` &middot; `capital (4)` &middot; `bonus (4)` &middot; `sui (4)`
+`login (71)` &middot; `dia (33)` &middot; `hop (23)` &middot; `service (13)` &middot; `neo (12)` &middot; `aura (12)` &middot; `ledger (11)` &middot; `portal (10)` &middot; `auth (9)` &middot; `bonus (8)` &middot; `quest (8)` &middot; `harmony (8)` &middot; `near (8)` &middot; `iron (7)` &middot; `bank (7)`
 
 ### 📥 Download Threat Intelligence
 
