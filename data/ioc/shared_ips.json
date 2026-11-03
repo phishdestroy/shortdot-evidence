@@ -1,18 +1,5 @@
 {
-  "generated": "2026-11-02",
-  "count": 1,
-  "ips": [
-    {
-      "ip": "207.207.210.107",
-      "count": 5,
-      "country": "US",
-      "domains": [
-        "70gt.bond",
-        "98hu.bond",
-        "bxeko.sbs",
-        "lordfilmcream.sbs",
-        "owcbd.sbs"
-      ]
-    }
-  ]
+  "generated": "2026-11-03",
+  "count": 0,
+  "ips": []
 }
