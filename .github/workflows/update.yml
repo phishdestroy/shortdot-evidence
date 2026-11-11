@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '23 2,8,14,20 * * *'
   workflow_dispatch:
+    inputs:
+      backfill:
+        description: 'Full-zone backfill first (after a feed outage; see scan/backfill_zone.py)'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -16,7 +21,8 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    # Full-zone downloads (backfill) take far longer than the daily delta.
+    timeout-minutes: ${{ inputs.backfill && 120 || 45 }}
 
     steps:
       - name: Checkout
@@ -28,6 +34,13 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
+      - name: Backfill from full zones
+        if: ${{ inputs.backfill }}
+        env:
+          NETAPI_TOKEN: ${{ secrets.NETAPI_TOKEN }}
+          TLD_LIST: icu,bond,cyou,sbs,cfd,buzz,qpon
+        run: python scan/backfill_zone.py
 
       - name: Fetch zone data & update stats
         env:

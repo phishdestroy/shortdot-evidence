@@ -605,18 +605,24 @@ for kw in brand_heatmap:
 _brand_lines = [f'{kw}\t{d}' for kw, doms in brand_domains_export.items() for d in doms]
 (ioc_dir / 'brand_domains.txt').write_text('\n'.join(_brand_lines) + '\n' if _brand_lines else '', encoding='utf-8')
 
-# Per-TLD deployed domain files
+# Per-TLD deployed domain files — cumulative, like data/by_tld: incremental runs
+# only see today's delta, so merge it into the existing set. Overwriting left
+# only today's domains here and made phantom (by_tld − deployed) cover everything.
 deployed_dir = ioc_dir / 'deployed'
 deployed_dir.mkdir(parents=True, exist_ok=True)
+all_deployed = set()
 for tld in TLD_LIST:
-    tld_recs = [r for r in all_recs_flat if r['d'].rsplit('.', 1)[-1].lower() == tld]
-    deployed_doms = sorted(r['d'] for r in tld_recs if r.get('i'))
+    dep_file = deployed_dir / f'{tld}.txt'
+    deployed_doms = {r['d'] for r in all_recs_flat
+                     if r.get('i') and r['d'].rsplit('.', 1)[-1].lower() == tld}
+    if dep_file.exists():
+        deployed_doms |= {l.strip() for l in dep_file.read_text(encoding='utf-8').splitlines() if l.strip()}
     if deployed_doms:
-        (deployed_dir / f'{tld}.txt').write_text('\n'.join(deployed_doms) + '\n', encoding='utf-8')
+        dep_file.write_text('\n'.join(sorted(deployed_doms)) + '\n', encoding='utf-8')
+    all_deployed |= deployed_doms
 
 # Combined deployed list
-all_deployed = sorted(r['d'] for r in all_recs_flat if r.get('i'))
-(ioc_dir / 'deployed_all.txt').write_text('\n'.join(all_deployed) + '\n', encoding='utf-8')
+(ioc_dir / 'deployed_all.txt').write_text('\n'.join(sorted(all_deployed)) + '\n', encoding='utf-8')
 
 # Phantom (no-IP) lists per TLD + combined
 phantom_dir = ioc_dir / 'phantom'
