@@ -635,7 +635,11 @@ for tld in TLD_LIST:
     phantom = sorted(all_doms - dep_doms)
     all_phantom.extend(phantom)
     (phantom_dir / f'{tld}.txt').write_text('\n'.join(phantom) + '\n', encoding='utf-8')
-(ioc_dir / 'phantom_all.txt').write_text('\n'.join(sorted(all_phantom)) + '\n', encoding='utf-8')
+# Combined list exceeds GitHub's 100 MB file limit as plain text — store gzipped
+# (mtime=0 keeps the archive byte-identical when the list is unchanged).
+with open(ioc_dir / 'phantom_all.txt.gz', 'wb') as _fh:
+    with gzip.GzipFile(filename='phantom_all.txt', mode='wb', fileobj=_fh, mtime=0) as _gz:
+        _gz.write(('\n'.join(sorted(all_phantom)) + '\n').encode('utf-8'))
 
 # ── STIX 2.1 bundle ───────────────────────────────────────────────────────────
 import uuid
@@ -790,7 +794,7 @@ if _readme_path.exists():
     _parts.append(
         f'| **All zones** | — '
         f'| [deployed_all.txt](data/ioc/deployed_all.txt) {deployed_count:,} '
-        f'| [phantom_all.txt](data/ioc/phantom_all.txt) {no_ip_count:,} |'
+        f'| [phantom_all.txt.gz](data/ioc/phantom_all.txt.gz) {no_ip_count:,} |'
     )
     _parts.append('')
     _parts.append('**IOC & blocklists:**')

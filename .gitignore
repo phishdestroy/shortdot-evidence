@@ -11,3 +11,5 @@ pkg/raw_data/*.jsonl.gz
 shortdot-evidence .icu · .bond · .cyou · .sbs · .cfd · .buzz · .qpon/
 # Full zone snapshots too large for git — daily incrementals in data/new/ are tracked
 data/all.txt
+# Exceeds GitHub's 100 MB limit as plain text — published as data/ioc/phantom_all.txt.gz
+data/ioc/phantom_all.txt
