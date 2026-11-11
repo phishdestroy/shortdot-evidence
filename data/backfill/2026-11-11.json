@@ -1,0 +1,15 @@
+{
+  "generated": "2026-11-11",
+  "last_feed_day": "2026-11-03",
+  "count": 354306,
+  "by_tld": {
+    "icu": 60446,
+    "bond": 15896,
+    "cyou": 81488,
+    "sbs": 59282,
+    "cfd": 91775,
+    "buzz": 43558,
+    "qpon": 1861
+  },
+  "note": "In the full zone on the generated date but never seen by the daily new-domain feed (e.g. during a feed outage). First-seen date unknown."
+}
