@@ -8,7 +8,3 @@
 *.png binary
 *.gif binary
 *.svg text eol=lf
-
-# Workflow files are committed with CRLF; normalizing them makes the bot's
-# "git add" stage workflow changes, which GITHUB_TOKEN is not allowed to push.
-.github/workflows/*.yml -text -eol
