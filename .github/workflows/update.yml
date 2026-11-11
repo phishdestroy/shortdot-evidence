@@ -55,5 +55,6 @@ jobs:
             echo "Nothing to commit."
           else
             git commit -m "chore: daily zone update $(date -u +%Y-%m-%d)"
-            git push
+            # Pages workflow may push docs/data.json meanwhile — rebase onto it and retry.
+            git push || (git pull --rebase -X theirs origin main && git push)
           fi
