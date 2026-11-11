@@ -37,7 +37,7 @@ They were meant to be <i>counted.</i><br/>
 <p align="center"><img src="assets/readme-polish/divider.svg" width="100%" alt="" /></p>
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-03`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-11`
 
 <table align="center"><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><strong>6,242,647</strong></td>
@@ -58,7 +58,7 @@ They were meant to be <i>counted.</i><br/>
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
 | `.icu` | 976,416 | 277,727 (28.4%) | 698,689 | 0 | — | $634,670 |
-| `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 0 | — | $8,612,506 |
+| `.bond` | 1,325,001 | 106,034 (8.0%) | 1,218,967 | 1 | — | $8,612,506 |
 | `.cyou` | 756,981 | 265,657 (35.1%) | 491,324 | 0 | — | $492,038 |
 | `.sbs` | 1,912,083 | 596,569 (31.2%) | 1,315,514 | 0 | — | $1,242,854 |
 | `.cfd` | 952,385 | 407,496 (42.8%) | 544,889 | 0 | — | $619,050 |
@@ -67,15 +67,24 @@ They were meant to be <i>counted.</i><br/>
 
 *Table auto-generated on each daily fetch run.*
 
+### 🌍 Top Hosting Countries
+
+```
+SG  ██████████████████          2 (40.0%)
+HK  █████████░░░░░░░░░          1 (20.0%)
+JP  █████████░░░░░░░░░          1 (20.0%)
+NL  █████████░░░░░░░░░          1 (20.0%)
+```
+
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-11-03` | 5,995 | **1.0×** |
+| `2026-11-11` | 5,444 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`login (69)` &middot; `dia (15)` &middot; `service (11)` &middot; `neo (7)` &middot; `quest (7)` &middot; `ledger (7)` &middot; `near (6)` &middot; `finance (5)` &middot; `discover (5)` &middot; `verify (5)` &middot; `hop (5)` &middot; `rug (4)` &middot; `gaming (4)` &middot; `auth (4)` &middot; `aura (4)`
+`official (53)` &middot; `dia (28)` &middot; `sui (25)` &middot; `service (14)` &middot; `hop (13)` &middot; `portal (12)` &middot; `rug (11)` &middot; `crypto (10)` &middot; `bank (9)` &middot; `banking (8)` &middot; `alert (8)` &middot; `lido (8)` &middot; `drift (8)` &middot; `drop (8)` &middot; `invest (7)`
 
 ### 📥 Download Threat Intelligence
 
