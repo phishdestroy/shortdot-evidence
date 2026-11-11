@@ -84,7 +84,7 @@ NL  █████████░░░░░░░░░          1 (20.0%)
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`official (53)` &middot; `dia (28)` &middot; `sui (25)` &middot; `service (14)` &middot; `hop (13)` &middot; `portal (12)` &middot; `rug (11)` &middot; `crypto (10)` &middot; `bank (9)` &middot; `drift (8)` &middot; `banking (8)` &middot; `alert (8)` &middot; `lido (8)` &middot; `drop (8)` &middot; `apple (7)`
+`official (53)` &middot; `dia (28)` &middot; `sui (25)` &middot; `service (14)` &middot; `hop (13)` &middot; `portal (12)` &middot; `rug (11)` &middot; `crypto (10)` &middot; `bank (9)` &middot; `banking (8)` &middot; `drop (8)` &middot; `lido (8)` &middot; `alert (8)` &middot; `drift (8)` &middot; `apple (7)`
 
 ### 📥 Download Threat Intelligence
 

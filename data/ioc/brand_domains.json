@@ -188,12 +188,6 @@
       "truist-digitalonlinebanking-t2.bond",
       "truist-digitalonlinebanking-t2.cyou"
     ],
-    "drift": [
-      "1wincryptodrift.bond",
-      "bcgameslotdrift.bond",
-      "jackcoindrift.bond",
-      "winnacasinodrift.bond"
-    ],
     "banking": [
       "banking-truist-online.bond",
       "banking-truist-online.cyou",
@@ -204,18 +198,6 @@
       "truist-digitalonlinebanking-t2.bond",
       "truist-digitalonlinebanking-t2.cyou"
     ],
-    "alert": [
-      "truist-digitalonlinebanking-alert.bond",
-      "truist-digitalonlinebanking-alert.cyou",
-      "truist-digitalonlinebanking-alerts.bond",
-      "truist-digitalonlinebanking-alerts.cyou"
-    ],
-    "lido": [
-      "lidong123.icu",
-      "lidora.icu",
-      "solido-quinhanca.sbs",
-      "walidone.cfd"
-    ],
     "drop": [
       "craft-drop.cfd",
       "craft-drop.sbs",
@@ -225,6 +207,24 @@
       "twichdrops-rust-guide.cfd",
       "twichdrops.cfd",
       "twichdrops.sbs"
+    ],
+    "lido": [
+      "lidong123.icu",
+      "lidora.icu",
+      "solido-quinhanca.sbs",
+      "walidone.cfd"
+    ],
+    "alert": [
+      "truist-digitalonlinebanking-alert.bond",
+      "truist-digitalonlinebanking-alert.cyou",
+      "truist-digitalonlinebanking-alerts.bond",
+      "truist-digitalonlinebanking-alerts.cyou"
+    ],
+    "drift": [
+      "1wincryptodrift.bond",
+      "bcgameslotdrift.bond",
+      "jackcoindrift.bond",
+      "winnacasinodrift.bond"
     ],
     "apple": [
       "apple-card.bond",
@@ -244,6 +244,22 @@
       "investreview.sbs",
       "investscanner.sbs"
     ],
+    "auth": [
+      "9130-auth-gateway.icu",
+      "auth-off-src.cfd",
+      "cs2-auth.icu",
+      "nxt-auth5.sbs",
+      "seedauthbusiness.icu",
+      "www-securauth.cfd"
+    ],
+    "bonus": [
+      "bonus-basvurularitr42345343.sbs",
+      "bonus-marocco.sbs",
+      "bonusbasvurulari32634.sbs",
+      "bonusbasvurusayfasi12r345325.sbs",
+      "bonusbasvurusayfasi3254325.sbs",
+      "survey-bonusss.sbs"
+    ],
     "claim": [
       "claim-verify-esl.cfd",
       "claims-verify-esl.cfd",
@@ -260,22 +276,6 @@
       "esl-org-claims-verify.cfd",
       "verify-ur-card.sbs"
     ],
-    "bonus": [
-      "bonus-basvurularitr42345343.sbs",
-      "bonus-marocco.sbs",
-      "bonusbasvurulari32634.sbs",
-      "bonusbasvurusayfasi12r345325.sbs",
-      "bonusbasvurusayfasi3254325.sbs",
-      "survey-bonusss.sbs"
-    ],
-    "auth": [
-      "9130-auth-gateway.icu",
-      "auth-off-src.cfd",
-      "cs2-auth.icu",
-      "nxt-auth5.sbs",
-      "seedauthbusiness.icu",
-      "www-securauth.cfd"
-    ],
     "secure": [
       "ch-securepay.cfd",
       "docusecuref.cfd",
@@ -290,29 +290,11 @@
       "myinvite.buzz",
       "ppiiinvitestoday.icu"
     ],
-    "hive": [
-      "beehive.cfd",
-      "beehive.sbs",
-      "botanicalarchives.buzz",
-      "copperfieldarchive.buzz"
-    ],
-    "ripple": [
-      "1wincasinoripple.bond",
-      "bcgamecryptoripple.bond",
-      "jackwagerripple.bond",
-      "winnaplayripple.bond"
-    ],
     "atrix": [
       "melovatrix.cfd",
       "syncmatrixhost.cfd",
       "vanguardmatrix.cfd",
       "zelomatrix.cfd"
-    ],
-    "neo": [
-      "neochar.icu",
-      "neoh2max.sbs",
-      "neols2.sbs",
-      "neostv.sbs"
     ],
     "keystone": [
       "1wincasinokeystone.icu",
@@ -326,15 +308,33 @@
       "globalubsfinances.sbs",
       "gov-onrefinance.icu"
     ],
-    "manta": [
-      "samantaardengui.cfd",
-      "samantamezalira.cfd"
+    "hive": [
+      "beehive.cfd",
+      "beehive.sbs",
+      "botanicalarchives.buzz",
+      "copperfieldarchive.buzz"
+    ],
+    "ripple": [
+      "1wincasinoripple.bond",
+      "bcgamecryptoripple.bond",
+      "jackwagerripple.bond",
+      "winnaplayripple.bond"
     ],
     "drops": [
       "rustdrops-handbook.cfd",
       "twichdrops-rust-guide.cfd",
       "twichdrops.cfd",
       "twichdrops.sbs"
+    ],
+    "neo": [
+      "neochar.icu",
+      "neoh2max.sbs",
+      "neols2.sbs",
+      "neostv.sbs"
+    ],
+    "harmony": [
+      "452harmony.cfd",
+      "j02harmony.cfd"
     ]
   }
 }
