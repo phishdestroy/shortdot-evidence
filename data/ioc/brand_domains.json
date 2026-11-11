@@ -188,6 +188,12 @@
       "truist-digitalonlinebanking-t2.bond",
       "truist-digitalonlinebanking-t2.cyou"
     ],
+    "drift": [
+      "1wincryptodrift.bond",
+      "bcgameslotdrift.bond",
+      "jackcoindrift.bond",
+      "winnacasinodrift.bond"
+    ],
     "banking": [
       "banking-truist-online.bond",
       "banking-truist-online.cyou",
@@ -210,12 +216,6 @@
       "solido-quinhanca.sbs",
       "walidone.cfd"
     ],
-    "drift": [
-      "1wincryptodrift.bond",
-      "bcgameslotdrift.bond",
-      "jackcoindrift.bond",
-      "winnacasinodrift.bond"
-    ],
     "drop": [
       "craft-drop.cfd",
       "craft-drop.sbs",
@@ -226,15 +226,6 @@
       "twichdrops.cfd",
       "twichdrops.sbs"
     ],
-    "invest": [
-      "eurorom-invest.sbs",
-      "investforecast.sbs",
-      "investformula.sbs",
-      "investhorizon.sbs",
-      "investranking.sbs",
-      "investreview.sbs",
-      "investscanner.sbs"
-    ],
     "apple": [
       "apple-card.bond",
       "apple-card.cyou",
@@ -244,13 +235,14 @@
       "appleie.cyou",
       "appleie.qpon"
     ],
-    "bonus": [
-      "bonus-basvurularitr42345343.sbs",
-      "bonus-marocco.sbs",
-      "bonusbasvurulari32634.sbs",
-      "bonusbasvurusayfasi12r345325.sbs",
-      "bonusbasvurusayfasi3254325.sbs",
-      "survey-bonusss.sbs"
+    "invest": [
+      "eurorom-invest.sbs",
+      "investforecast.sbs",
+      "investformula.sbs",
+      "investhorizon.sbs",
+      "investranking.sbs",
+      "investreview.sbs",
+      "investscanner.sbs"
     ],
     "claim": [
       "claim-verify-esl.cfd",
@@ -267,6 +259,14 @@
       "esl-claims-verify.cfd",
       "esl-org-claims-verify.cfd",
       "verify-ur-card.sbs"
+    ],
+    "bonus": [
+      "bonus-basvurularitr42345343.sbs",
+      "bonus-marocco.sbs",
+      "bonusbasvurulari32634.sbs",
+      "bonusbasvurusayfasi12r345325.sbs",
+      "bonusbasvurusayfasi3254325.sbs",
+      "survey-bonusss.sbs"
     ],
     "auth": [
       "9130-auth-gateway.icu",
@@ -296,23 +296,11 @@
       "botanicalarchives.buzz",
       "copperfieldarchive.buzz"
     ],
-    "finance": [
-      "exponentfinancegov.icu",
-      "finance-trekers.cfd",
-      "globalubsfinances.sbs",
-      "gov-onrefinance.icu"
-    ],
     "ripple": [
       "1wincasinoripple.bond",
       "bcgamecryptoripple.bond",
       "jackwagerripple.bond",
       "winnaplayripple.bond"
-    ],
-    "keystone": [
-      "1wincasinokeystone.icu",
-      "bcgamecryptokeystone.icu",
-      "jackwagerkeystone.icu",
-      "winnagamekeystone.icu"
     ],
     "atrix": [
       "melovatrix.cfd",
@@ -326,15 +314,27 @@
       "neols2.sbs",
       "neostv.sbs"
     ],
+    "keystone": [
+      "1wincasinokeystone.icu",
+      "bcgamecryptokeystone.icu",
+      "jackwagerkeystone.icu",
+      "winnagamekeystone.icu"
+    ],
+    "finance": [
+      "exponentfinancegov.icu",
+      "finance-trekers.cfd",
+      "globalubsfinances.sbs",
+      "gov-onrefinance.icu"
+    ],
+    "manta": [
+      "samantaardengui.cfd",
+      "samantamezalira.cfd"
+    ],
     "drops": [
       "rustdrops-handbook.cfd",
       "twichdrops-rust-guide.cfd",
       "twichdrops.cfd",
       "twichdrops.sbs"
-    ],
-    "manta": [
-      "samantaardengui.cfd",
-      "samantamezalira.cfd"
     ]
   }
 }
