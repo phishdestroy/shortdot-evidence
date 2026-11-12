@@ -626,6 +626,13 @@
       "revenue_wholesale": 7060.55,
       "icann_fees": 1361.0,
       "path": "data/new/2026/11/2026-11-11.txt"
+    },
+    {
+      "date": "2026-11-12",
+      "count": 5444,
+      "revenue_wholesale": 7060.55,
+      "icann_fees": 1361.0,
+      "path": "data/new/2026/11/2026-11-12.txt"
     }
   ],
   "total_domains": 4634540,
@@ -746,7 +753,7 @@
   "fresh_pct": 100.0,
   "burst_days": [
     {
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "count": 5444,
       "x_avg": 1.0
     }
@@ -762,26 +769,26 @@
     "crypto": 10,
     "bank": 9,
     "drift": 8,
+    "drop": 8,
     "alert": 8,
     "banking": 8,
-    "drop": 8,
     "lido": 8,
     "apple": 7,
     "invest": 7,
     "auth": 6,
+    "bonus": 6,
     "claim": 6,
     "verify": 6,
-    "bonus": 6,
     "invite": 5,
     "secure": 5,
-    "ripple": 4,
+    "atrix": 4,
+    "drops": 4,
+    "manta": 4,
     "finance": 4,
     "neo": 4,
-    "atrix": 4,
     "harmony": 4,
     "hive": 4,
-    "drops": 4,
-    "manta": 4
+    "keystone": 4
   },
   "unranked_pct": 100.0,
   "ranked_count": 0,
@@ -790,5 +797,5 @@
   "legit_count": 0,
   "serial_email_count": 0,
   "legit_ratio_pct": 0.0,
-  "last_updated": "2026-11-11"
+  "last_updated": "2026-11-12"
 }
