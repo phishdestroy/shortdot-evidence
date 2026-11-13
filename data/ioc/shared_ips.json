@@ -4,24 +4,31 @@
   "ips": [
     {
       "ip": "207.207.210.229",
-      "count": 6,
+      "count": 11,
       "country": "US",
       "domains": [
         "311759a.cfd",
         "bstocks-com.sbs",
+        "ijm09ibw.sbs",
+        "lordfilmrefuge.cfd",
         "nightsnug.sbs",
         "nocturnenest.sbs",
         "quietrest.sbs",
-        "vox.icu"
+        "reecho.icu",
+        "sen65ysp.sbs",
+        "vox.icu",
+        "zad19stg.sbs"
       ]
     },
     {
       "ip": "207.207.210.107",
-      "count": 4,
+      "count": 6,
       "country": "US",
       "domains": [
+        "hgv08jsn.sbs",
         "nightlyrest.sbs",
         "powervital.cyou",
+        "satcom.icu",
         "sleepfinders.sbs",
         "zenrest.sbs"
       ]
