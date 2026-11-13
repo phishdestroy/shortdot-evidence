@@ -37,7 +37,7 @@ They were meant to be <i>counted.</i><br/>
 <p align="center"><img src="assets/readme-polish/divider.svg" width="100%" alt="" /></p>
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-12`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-13`
 
 <table align="center"><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><strong>4,634,540</strong></td>
@@ -58,7 +58,7 @@ They were meant to be <i>counted.</i><br/>
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
 | `.icu` | 629,037 | 325,633 (51.8%) | 303,404 | 0 | — | $408,874 |
-| `.bond` | 1,193,820 | 302,224 (25.3%) | 891,596 | 1 | — | $7,759,830 |
+| `.bond` | 1,193,820 | 302,224 (25.3%) | 891,596 | 0 | — | $7,759,830 |
 | `.cyou` | 597,722 | 270,154 (45.2%) | 327,568 | 1 | — | $388,519 |
 | `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 0 | — | $735,990 |
 | `.cfd` | 719,467 | 302,460 (42.0%) | 417,007 | 0 | — | $467,654 |
@@ -70,22 +70,18 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████         10 (66.7%)
-SG  ███░░░░░░░░░░░░░░░          2 (13.3%)
-HK  █░░░░░░░░░░░░░░░░░          1 (6.7%)
-JP  █░░░░░░░░░░░░░░░░░          1 (6.7%)
-NL  █░░░░░░░░░░░░░░░░░          1 (6.7%)
+US  ██████████████████         10 (100.0%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-11-12` | 15,148 | **1.0×** |
+| `2026-11-13` | 9,704 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`official (861)` &middot; `dia (62)` &middot; `sui (31)` &middot; `hop (30)` &middot; `auth (24)` &middot; `eos (22)` &middot; `service (22)` &middot; `drop (17)` &middot; `portal (14)` &middot; `drift (12)` &middot; `bank (12)` &middot; `apple (12)` &middot; `neo (12)` &middot; `rug (12)` &middot; `crypto (11)`
+`official (808)` &middot; `dia (34)` &middot; `eos (19)` &middot; `auth (18)` &middot; `hop (17)` &middot; `support (10)` &middot; `orca (9)` &middot; `drop (9)` &middot; `chase (9)` &middot; `service (8)` &middot; `neo (8)` &middot; `atrix (6)` &middot; `tron (6)` &middot; `sui (6)` &middot; `secure (6)`
 
 ### 📥 Download Threat Intelligence
 

@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-12",
-  "count": 4,
+  "generated": "2026-11-13",
+  "count": 2,
   "ips": [
     {
       "ip": "207.207.210.229",
@@ -24,26 +24,6 @@
         "powervital.cyou",
         "sleepfinders.sbs",
         "zenrest.sbs"
-      ]
-    },
-    {
-      "ip": "188.114.97.3",
-      "count": 3,
-      "country": "",
-      "domains": [
-        "ahkroquejkal.sbs",
-        "akhaklanhbakyaui.sbs",
-        "cstocks-com.sbs"
-      ]
-    },
-    {
-      "ip": "188.114.96.3",
-      "count": 3,
-      "country": "",
-      "domains": [
-        "aistocks-com.sbs",
-        "odiaboesujo.sbs",
-        "ratodeesgoto.sbs"
       ]
     }
   ]
