@@ -37,7 +37,7 @@ They were meant to be <i>counted.</i><br/>
 <p align="center"><img src="assets/readme-polish/divider.svg" width="100%" alt="" /></p>
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-13`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-14`
 
 <table align="center"><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><strong>4,634,540</strong></td>
@@ -59,7 +59,7 @@ They were meant to be <i>counted.</i><br/>
 |:--|--:|--:|--:|--:|--:|--:|
 | `.icu` | 629,037 | 325,633 (51.8%) | 303,404 | 1 | — | $408,874 |
 | `.bond` | 1,193,820 | 302,224 (25.3%) | 891,596 | 0 | — | $7,759,830 |
-| `.cyou` | 597,722 | 270,154 (45.2%) | 327,568 | 1 | — | $388,519 |
+| `.cyou` | 597,722 | 270,154 (45.2%) | 327,568 | 0 | — | $388,519 |
 | `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 0 | — | $735,990 |
 | `.cfd` | 719,467 | 302,460 (42.0%) | 417,007 | 1 | — | $467,654 |
 | `.buzz` | 289,803 | 200,072 (69.0%) | 89,731 | 0 | — | $941,860 |
@@ -70,20 +70,20 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████         18 (90.0%)
-CA  █░░░░░░░░░░░░░░░░░          1 (5.0%)
-RO  █░░░░░░░░░░░░░░░░░          1 (5.0%)
+US  ██████████████████          8 (80.0%)
+CA  ██░░░░░░░░░░░░░░░░          1 (10.0%)
+RO  ██░░░░░░░░░░░░░░░░          1 (10.0%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-11-13` | 19,141 | **1.0×** |
+| `2026-11-14` | 9,437 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`official (811)` &middot; `dia (63)` &middot; `hop (31)` &middot; `auth (27)` &middot; `allocation (25)` &middot; `sui (23)` &middot; `eos (22)` &middot; `access (21)` &middot; `drop (16)` &middot; `portal (14)` &middot; `allocations (13)` &middot; `tron (12)` &middot; `support (12)` &middot; `neo (11)` &middot; `orca (11)`
+`dia (29)` &middot; `allocation (25)` &middot; `access (17)` &middot; `sui (17)` &middot; `hop (14)` &middot; `allocations (13)` &middot; `portal (12)` &middot; `auth (9)` &middot; `drop (7)` &middot; `earn (7)` &middot; `tron (6)` &middot; `wise (5)` &middot; `base (4)` &middot; `capital (4)` &middot; `ally (4)`
 
 ### 📥 Download Threat Intelligence
 
