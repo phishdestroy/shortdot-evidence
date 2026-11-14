@@ -1,17 +1,29 @@
 {
   "generated": "2026-11-14",
-  "count": 1,
+  "count": 2,
   "ips": [
     {
       "ip": "207.207.210.229",
-      "count": 5,
+      "count": 7,
       "country": "US",
       "domains": [
+        "citimae.buzz",
         "ijm09ibw.sbs",
         "lordfilmrefuge.cfd",
+        "lordfilmvoyage.sbs",
         "reecho.icu",
         "sen65ysp.sbs",
         "zad19stg.sbs"
+      ]
+    },
+    {
+      "ip": "207.207.210.107",
+      "count": 3,
+      "country": "US",
+      "domains": [
+        "hgv08jsn.sbs",
+        "noys.buzz",
+        "satcom.icu"
       ]
     }
   ]
