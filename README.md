@@ -57,10 +57,10 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 629,037 | 325,633 (51.8%) | 303,404 | 2 | — | $408,874 |
+| `.icu` | 629,037 | 325,633 (51.8%) | 303,404 | 3 | — | $408,874 |
 | `.bond` | 1,193,820 | 302,224 (25.3%) | 891,596 | 0 | — | $7,759,830 |
 | `.cyou` | 597,722 | 270,154 (45.2%) | 327,568 | 0 | — | $388,519 |
-| `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 0 | — | $735,990 |
+| `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 1 | — | $735,990 |
 | `.cfd` | 719,467 | 302,460 (42.0%) | 417,007 | 0 | — | $467,654 |
 | `.buzz` | 289,803 | 200,072 (69.0%) | 89,731 | 0 | — | $941,860 |
 | `.qpon` | 72,399 | 37,631 (52.0%) | 34,768 | 0 | — | $180,998 |
@@ -70,20 +70,21 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████          3 (60.0%)
-CA  ██████░░░░░░░░░░░░          1 (20.0%)
-CZ  ██████░░░░░░░░░░░░          1 (20.0%)
+US  ██████████████████          6 (46.2%)
+MD  ███████████████░░░          5 (38.5%)
+CA  ███░░░░░░░░░░░░░░░          1 (7.7%)
+CZ  ███░░░░░░░░░░░░░░░          1 (7.7%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-11-15` | 8,328 | **1.0×** |
+| `2026-11-15` | 12,709 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`dia (27)` &middot; `hop (22)` &middot; `maple (10)` &middot; `tron (10)` &middot; `bank (9)` &middot; `secure (7)` &middot; `support (6)` &middot; `capital (6)` &middot; `neo (6)` &middot; `service (6)` &middot; `auth (6)` &middot; `token (6)` &middot; `hive (5)` &middot; `apple (4)` &middot; `near (4)`
+`dia (41)` &middot; `hop (29)` &middot; `tron (20)` &middot; `auth (19)` &middot; `bonus (14)` &middot; `portal (12)` &middot; `maple (11)` &middot; `service (10)` &middot; `bank (10)` &middot; `connect (9)` &middot; `capital (8)` &middot; `support (8)` &middot; `invest (7)` &middot; `secure (7)` &middot; `ondo (7)`
 
 ### 📥 Download Threat Intelligence
 
