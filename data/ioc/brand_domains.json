@@ -125,27 +125,6 @@
       "upshift-allocation.icu",
       "xstocks-allocation.icu"
     ],
-    "sui": [
-      "bunsui.icu",
-      "frontsuit1.cfd",
-      "gu69lsui.cfd",
-      "matsui-gh.cfd",
-      "matsui-gi.cfd",
-      "matsui-gl.cfd",
-      "matsui-gm.cfd",
-      "matsui-qh.cfd",
-      "matsui-qi.cfd",
-      "matsui-ql.cfd",
-      "matsui-qm.cfd",
-      "matsui-th.cfd",
-      "matsui-ti.cfd",
-      "matsui-tl.cfd",
-      "matsui-tm.cfd",
-      "pursuitt.icu",
-      "suidaeswaraj.cfd",
-      "suiwbn663.cfd",
-      "udsui-k45xx-eywsfp.cyou"
-    ],
     "access": [
       "19251-vz-auth-access.icu",
       "access-vdujiwbias.icu",
@@ -167,15 +146,26 @@
       "jetton-access95.sbs",
       "uriaccess.sbs"
     ],
-    "portal": [
-      "247approveportal.sbs",
-      "53portal.icu",
-      "centrelinkservice-austr-portal.icu",
-      "evaluatedesdecasawebportales.sbs",
-      "mijnpay-portal.icu",
-      "portal7cache.sbs",
-      "prepare-activitystatement-portal.icu",
-      "six-group-portal.icu"
+    "sui": [
+      "bunsui.icu",
+      "frontsuit1.cfd",
+      "gu69lsui.cfd",
+      "matsui-gh.cfd",
+      "matsui-gi.cfd",
+      "matsui-gl.cfd",
+      "matsui-gm.cfd",
+      "matsui-qh.cfd",
+      "matsui-qi.cfd",
+      "matsui-ql.cfd",
+      "matsui-qm.cfd",
+      "matsui-th.cfd",
+      "matsui-ti.cfd",
+      "matsui-tl.cfd",
+      "matsui-tm.cfd",
+      "pursuitt.icu",
+      "suidaeswaraj.cfd",
+      "suiwbn663.cfd",
+      "udsui-k45xx-eywsfp.cyou"
     ],
     "tron": [
       "apptrona.cfd",
@@ -186,6 +176,16 @@
       "revestrytronylipy.icu",
       "strongerlife.icu",
       "trone.cfd"
+    ],
+    "portal": [
+      "247approveportal.sbs",
+      "53portal.icu",
+      "centrelinkservice-austr-portal.icu",
+      "evaluatedesdecasawebportales.sbs",
+      "mijnpay-portal.icu",
+      "portal7cache.sbs",
+      "prepare-activitystatement-portal.icu",
+      "six-group-portal.icu"
     ],
     "auth": [
       "19102-auth-gateway.icu",
@@ -249,18 +249,6 @@
       "roe-banks-lordserial.sbs",
       "sorrelbank.sbs"
     ],
-    "drop": [
-      "33dropgame.icu",
-      "adrop.cfd",
-      "dropreach.sbs",
-      "filedropexchange.sbs",
-      "fruitdrop.sbs",
-      "joydrop.buzz",
-      "serumdrop.sbs",
-      "twichdrops-rust.cfd",
-      "twichdrops-rust.cyou",
-      "twichdrops.cyou"
-    ],
     "capital": [
       "bitcapital.buzz",
       "bitcapital.sbs",
@@ -273,16 +261,17 @@
       "viremontcapital.icu",
       "vote-netnetcapital.sbs"
     ],
-    "earn": [
-      "4j3sm-viwy5-pnearn.cyou",
-      "cheetahearned.bond",
-      "cornerstonelearntut.icu",
-      "learneng.icu",
-      "learnnsnn.icu",
-      "learnova.cyou",
-      "learnseeds.cyou",
-      "recruit-learning.cfd",
-      "recruitlearning.cfd"
+    "drop": [
+      "33dropgame.icu",
+      "adrop.cfd",
+      "dropreach.sbs",
+      "filedropexchange.sbs",
+      "fruitdrop.sbs",
+      "joydrop.buzz",
+      "serumdrop.sbs",
+      "twichdrops-rust.cfd",
+      "twichdrops-rust.cyou",
+      "twichdrops.cyou"
     ],
     "token": [
       "aitokenbasejp.bond",
@@ -295,17 +284,6 @@
       "xitoken.sbs",
       "xltoken.icu"
     ],
-    "neo": [
-      "66m7f-i1p9m-lbaneo.cyou",
-      "lynsaylagroneoze.cfd",
-      "neocia.sbs",
-      "neoflux.cfd",
-      "neonptoken.sbs",
-      "neonrelay.cyou",
-      "neotopia.icu",
-      "oneongarc.icu",
-      "rneogwpo.cfd"
-    ],
     "service": [
       "aryansecurityservice.sbs",
       "centrelinkservice-austr-portal.icu",
@@ -317,6 +295,28 @@
       "servicepaypal.sbs",
       "six-group-service.icu"
     ],
+    "neo": [
+      "66m7f-i1p9m-lbaneo.cyou",
+      "lynsaylagroneoze.cfd",
+      "neocia.sbs",
+      "neoflux.cfd",
+      "neonptoken.sbs",
+      "neonrelay.cyou",
+      "neotopia.icu",
+      "oneongarc.icu",
+      "rneogwpo.cfd"
+    ],
+    "earn": [
+      "4j3sm-viwy5-pnearn.cyou",
+      "cheetahearned.bond",
+      "cornerstonelearntut.icu",
+      "learneng.icu",
+      "learnnsnn.icu",
+      "learnova.cyou",
+      "learnseeds.cyou",
+      "recruit-learning.cfd",
+      "recruitlearning.cfd"
+    ],
     "secure": [
       "cloudsecuredocs.cfd",
       "cloudsecureviews.cfd",
@@ -327,53 +327,17 @@
       "secure-processing.icu",
       "secureblessings.sbs"
     ],
-    "support": [
-      "callawsupportexperts.icu",
-      "ghost-support.cfd",
-      "six-group-support.icu",
-      "zillow-support.sbs"
-    ],
     "near": [
       "4j3sm-viwy5-pnearn.cyou",
       "linearger.cyou",
       "near-allocation.icu",
       "near-proposal.icu"
     ],
-    "wise": [
-      "9h903u2j3wisew.sbs",
-      "achievewisebuffalo.sbs",
-      "bookwise.cyou",
-      "talent-wise.cfd",
-      "talentwise.cfd",
-      "wisekid.cyou",
-      "work-wise.cfd"
-    ],
-    "vertex": [
-      "vertex-consulting.sbs",
-      "vertex-irrigation.cfd",
-      "vertexengineering.buzz",
-      "vertexenterprises.bond",
-      "vertexproducts.cfd",
-      "vertexrobotics.bond",
-      "vertexstore.cfd"
-    ],
-    "base": [
-      "aitokenbasejp.bond",
-      "base181api.sbs",
-      "based-allocation.icu",
-      "ibase.icu",
-      "lifebase.buzz",
-      "maplebase.cfd",
-      "tassardbasenet.cyou"
-    ],
-    "finance": [
-      "allocation-umiafinance.icu",
-      "arcusfinance.icu",
-      "fluxfinance.bond",
-      "kyutai-finance.sbs",
-      "silverlinefinance.cfd",
-      "sparkfinance-allocation.icu",
-      "tamerfinance.sbs"
+    "support": [
+      "callawsupportexperts.icu",
+      "ghost-support.cfd",
+      "six-group-support.icu",
+      "zillow-support.sbs"
     ],
     "apple": [
       "appleabcdabcd.icu",
@@ -393,14 +357,23 @@
       "fixbet-bonus.icu",
       "melbet-bonus777.buzz"
     ],
-    "official": [
-      "1xbet-officialsite-milq.cfd",
-      "mostbet-official.sbs",
-      "official423p.buzz",
-      "officialdoc.icu",
-      "officialevents.sbs",
-      "tholympys-official.icu",
-      "usaofficial.cyou"
+    "vertex": [
+      "vertex-consulting.sbs",
+      "vertex-irrigation.cfd",
+      "vertexengineering.buzz",
+      "vertexenterprises.bond",
+      "vertexproducts.cfd",
+      "vertexrobotics.bond",
+      "vertexstore.cfd"
+    ],
+    "wise": [
+      "9h903u2j3wisew.sbs",
+      "achievewisebuffalo.sbs",
+      "bookwise.cyou",
+      "talent-wise.cfd",
+      "talentwise.cfd",
+      "wisekid.cyou",
+      "work-wise.cfd"
     ],
     "eos": [
       "dcgreossil.cyou",
@@ -411,13 +384,32 @@
       "pageos.buzz",
       "z9fue-uggoy-qlzeos.cyou"
     ],
-    "rug": [
-      "brugusbu.cfd",
-      "clubrugbypro.sbs",
-      "denergrugh.cfd",
-      "farug-9f8tf-tiodxm.cyou",
-      "onlinedrugstore.sbs",
-      "qhfgc-jlugc-qruggi.cyou"
+    "base": [
+      "aitokenbasejp.bond",
+      "base181api.sbs",
+      "based-allocation.icu",
+      "ibase.icu",
+      "lifebase.buzz",
+      "maplebase.cfd",
+      "tassardbasenet.cyou"
+    ],
+    "finance": [
+      "allocation-umiafinance.icu",
+      "arcusfinance.icu",
+      "fluxfinance.bond",
+      "kyutai-finance.sbs",
+      "silverlinefinance.cfd",
+      "sparkfinance-allocation.icu",
+      "tamerfinance.sbs"
+    ],
+    "official": [
+      "1xbet-officialsite-milq.cfd",
+      "mostbet-official.sbs",
+      "official423p.buzz",
+      "officialdoc.icu",
+      "officialevents.sbs",
+      "tholympys-official.icu",
+      "usaofficial.cyou"
     ],
     "confirm": [
       "confirmed-cz.cfd",
@@ -426,6 +418,14 @@
       "pl-payu-confirmation.buzz",
       "pl-payu-confirmation.cyou",
       "vanzarconfirma.sbs"
+    ],
+    "invest": [
+      "actinvest.sbs",
+      "alexsezinvest.icu",
+      "investigatingthefire.icu",
+      "lubusinessinvestment.sbs",
+      "paynehomesinvest.icu",
+      "vantarinvestatm.cfd"
     ]
   }
 }
