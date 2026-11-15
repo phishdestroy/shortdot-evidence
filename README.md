@@ -37,7 +37,7 @@ They were meant to be <i>counted.</i><br/>
 <p align="center"><img src="assets/readme-polish/divider.svg" width="100%" alt="" /></p>
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-14`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-15`
 
 <table align="center"><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><strong>4,634,540</strong></td>
@@ -57,11 +57,11 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 629,037 | 325,633 (51.8%) | 303,404 | 3 | — | $408,874 |
+| `.icu` | 629,037 | 325,633 (51.8%) | 303,404 | 2 | — | $408,874 |
 | `.bond` | 1,193,820 | 302,224 (25.3%) | 891,596 | 0 | — | $7,759,830 |
 | `.cyou` | 597,722 | 270,154 (45.2%) | 327,568 | 0 | — | $388,519 |
 | `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 0 | — | $735,990 |
-| `.cfd` | 719,467 | 302,460 (42.0%) | 417,007 | 1 | — | $467,654 |
+| `.cfd` | 719,467 | 302,460 (42.0%) | 417,007 | 0 | — | $467,654 |
 | `.buzz` | 289,803 | 200,072 (69.0%) | 89,731 | 0 | — | $941,860 |
 | `.qpon` | 72,399 | 37,631 (52.0%) | 34,768 | 0 | — | $180,998 |
 
@@ -70,21 +70,20 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████         11 (73.3%)
-CA  ███░░░░░░░░░░░░░░░          2 (13.3%)
-CZ  █░░░░░░░░░░░░░░░░░          1 (6.7%)
-RO  █░░░░░░░░░░░░░░░░░          1 (6.7%)
+US  ██████████████████          3 (60.0%)
+CA  ██████░░░░░░░░░░░░          1 (20.0%)
+CZ  ██████░░░░░░░░░░░░          1 (20.0%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-11-14` | 17,765 | **1.0×** |
+| `2026-11-15` | 8,328 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`dia (56)` &middot; `hop (36)` &middot; `allocation (26)` &middot; `access (19)` &middot; `sui (19)` &middot; `tron (16)` &middot; `portal (16)` &middot; `auth (15)` &middot; `maple (14)` &middot; `allocations (14)` &middot; `bank (11)` &middot; `capital (10)` &middot; `drop (10)` &middot; `token (9)` &middot; `service (9)`
+`dia (27)` &middot; `hop (22)` &middot; `maple (10)` &middot; `tron (10)` &middot; `bank (9)` &middot; `secure (7)` &middot; `support (6)` &middot; `capital (6)` &middot; `neo (6)` &middot; `service (6)` &middot; `auth (6)` &middot; `token (6)` &middot; `hive (5)` &middot; `apple (4)` &middot; `near (4)`
 
 ### 📥 Download Threat Intelligence
 
