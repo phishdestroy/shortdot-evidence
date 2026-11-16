@@ -37,7 +37,7 @@ They were meant to be <i>counted.</i><br/>
 <p align="center"><img src="assets/readme-polish/divider.svg" width="100%" alt="" /></p>
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-15`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-16`
 
 <table align="center"><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><strong>4,634,540</strong></td>
@@ -57,7 +57,7 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 629,037 | 325,633 (51.8%) | 303,404 | 3 | — | $408,874 |
+| `.icu` | 629,037 | 325,633 (51.8%) | 303,404 | 1 | — | $408,874 |
 | `.bond` | 1,193,820 | 302,224 (25.3%) | 891,596 | 0 | — | $7,759,830 |
 | `.cyou` | 597,722 | 270,154 (45.2%) | 327,568 | 0 | — | $388,519 |
 | `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 1 | — | $735,990 |
@@ -70,21 +70,19 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████          6 (46.2%)
-MD  ███████████████░░░          5 (38.5%)
-CA  ███░░░░░░░░░░░░░░░          1 (7.7%)
-CZ  ███░░░░░░░░░░░░░░░          1 (7.7%)
+MD  ██████████████████          5 (62.5%)
+US  ██████████░░░░░░░░          3 (37.5%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-11-15` | 12,709 | **1.0×** |
+| `2026-11-16` | 4,381 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`dia (41)` &middot; `hop (29)` &middot; `tron (20)` &middot; `auth (19)` &middot; `bonus (14)` &middot; `portal (12)` &middot; `maple (11)` &middot; `service (10)` &middot; `bank (10)` &middot; `connect (9)` &middot; `capital (8)` &middot; `support (8)` &middot; `invest (7)` &middot; `secure (7)` &middot; `ondo (7)`
+`dia (14)` &middot; `auth (13)` &middot; `bonus (10)` &middot; `tron (10)` &middot; `portal (8)` &middot; `hop (7)` &middot; `connect (6)` &middot; `ondo (5)` &middot; `fund (5)` &middot; `ledger (4)` &middot; `rug (4)` &middot; `service (4)` &middot; `aura (3)` &middot; `apple (3)` &middot; `base (3)`
 
 ### 📥 Download Threat Intelligence
 

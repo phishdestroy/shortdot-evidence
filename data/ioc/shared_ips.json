@@ -1,19 +1,7 @@
 {
-  "generated": "2026-11-15",
-  "count": 5,
+  "generated": "2026-11-16",
+  "count": 2,
   "ips": [
-    {
-      "ip": "188.114.97.3",
-      "count": 5,
-      "country": "",
-      "domains": [
-        "aistock-co.sbs",
-        "brfds.cfd",
-        "dstock-co.sbs",
-        "fgcds.cfd",
-        "nnbbs.cfd"
-      ]
-    },
     {
       "ip": "176.123.8.208",
       "count": 5,
@@ -27,33 +15,13 @@
       ]
     },
     {
-      "ip": "207.207.210.229",
-      "count": 3,
-      "country": "US",
-      "domains": [
-        "agads.cfd",
-        "citimae.buzz",
-        "lordfilmvoyage.sbs"
-      ]
-    },
-    {
-      "ip": "188.114.96.3",
+      "ip": "188.114.97.3",
       "count": 3,
       "country": "",
       "domains": [
-        "flixbaba.icu",
-        "gfcdd.cfd",
-        "yhgse.cfd"
-      ]
-    },
-    {
-      "ip": "207.207.210.107",
-      "count": 3,
-      "country": "US",
-      "domains": [
-        "gfdss.cfd",
-        "grffe.cfd",
-        "noys.buzz"
+        "brfds.cfd",
+        "fgcds.cfd",
+        "nnbbs.cfd"
       ]
     }
   ]
