@@ -82,7 +82,7 @@ US  ██████████░░░░░░░░          3 (37.5%)
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`dia (14)` &middot; `auth (13)` &middot; `bonus (10)` &middot; `tron (10)` &middot; `portal (8)` &middot; `hop (7)` &middot; `connect (6)` &middot; `ondo (5)` &middot; `fund (5)` &middot; `ledger (4)` &middot; `rug (4)` &middot; `service (4)` &middot; `aura (3)` &middot; `apple (3)` &middot; `base (3)`
+`dia (14)` &middot; `auth (13)` &middot; `bonus (10)` &middot; `tron (10)` &middot; `portal (8)` &middot; `hop (7)` &middot; `connect (6)` &middot; `ondo (5)` &middot; `fund (5)` &middot; `ledger (4)` &middot; `service (4)` &middot; `rug (4)` &middot; `base (3)` &middot; `invest (3)` &middot; `aura (3)`
 
 ### 📥 Download Threat Intelligence
 

@@ -94,17 +94,27 @@
       "investledger.bond",
       "ledger-ai.buzz"
     ],
+    "service": [
+      "advancerugservice.cfd",
+      "police-services-ghnan.cfd",
+      "private-health-service-claim01.sbs",
+      "tgaiservice.icu"
+    ],
     "rug": [
       "advancerugservice.cfd",
       "carpetcraftersrugco.cyou",
       "cyrus-rug.cyou",
       "rugsasart.sbs"
     ],
-    "service": [
-      "advancerugservice.cfd",
-      "police-services-ghnan.cfd",
-      "private-health-service-claim01.sbs",
-      "tgaiservice.icu"
+    "base": [
+      "basemodel.icu",
+      "baseurl.icu",
+      "forgebase.buzz"
+    ],
+    "invest": [
+      "hblinvestmentfund.cfd",
+      "investecmutualfund.cfd",
+      "investledger.bond"
     ],
     "aura": [
       "auralinks.cyou",
@@ -116,20 +126,10 @@
       "appledevice.icu",
       "orange-apple-pie.cfd"
     ],
-    "base": [
-      "basemodel.icu",
-      "baseurl.icu",
-      "forgebase.buzz"
-    ],
     "waves": [
       "waveshomeapplianceslimited.cfd",
       "wavesms.sbs",
       "wavessingerpakistanlimited.cfd"
-    ],
-    "invest": [
-      "hblinvestmentfund.cfd",
-      "investecmutualfund.cfd",
-      "investledger.bond"
     ],
     "ally": [
       "nexitallybest.cyou",
@@ -141,45 +141,45 @@
       "little-china-learning.cfd",
       "yearnedchampy.cyou"
     ],
-    "official": [
-      "iptvusaofficial.sbs",
-      "rutor-official.sbs"
-    ],
-    "capital": [
-      "capitalledger.bond",
-      "championcapital.bond"
+    "manta": [
+      "rtpggjmantap.sbs"
     ],
     "sui": [
       "gls-suishoat.cfd",
       "yesuiencorue.icu"
     ],
-    "rango": [
-      "casino-brango.cfd"
-    ],
     "trading": [
       "deyouratrading.sbs",
       "generaltrading.cyou"
     ],
-    "transak": [
-      "transakcja940491.sbs",
-      "transakcja980391.sbs"
+    "foundation": [
+      "blackheroesfoundation.cfd",
+      "connectfoundationshull86.sbs"
     ],
-    "access": [
-      "4581-chime-access-auth.icu",
-      "accesscrypto-com.cfd"
+    "kyber": [
+      "kyberoncloud.cfd"
     ],
-    "manta": [
-      "rtpggjmantap.sbs"
+    "capital": [
+      "capitalledger.bond",
+      "championcapital.bond"
+    ],
+    "official": [
+      "iptvusaofficial.sbs",
+      "rutor-official.sbs"
+    ],
+    "rango": [
+      "casino-brango.cfd"
+    ],
+    "skin": [
+      "skinport.cfd",
+      "skinport.sbs"
     ],
     "customer": [
       "comm-customer-recharge.cyou"
     ],
-    "support": [
-      "supportech.sbs"
-    ],
-    "foundation": [
-      "blackheroesfoundation.cfd",
-      "connectfoundationshull86.sbs"
+    "whatsapp": [
+      "whatsappdjin.cfd",
+      "whatsappsdzuan.cyou"
     ]
   }
 }
