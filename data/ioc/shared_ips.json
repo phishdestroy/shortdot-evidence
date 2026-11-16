@@ -1,7 +1,84 @@
 {
   "generated": "2026-11-16",
-  "count": 2,
+  "count": 9,
   "ips": [
+    {
+      "ip": "188.114.96.3",
+      "count": 36,
+      "country": "",
+      "domains": [
+        "1292583.sbs",
+        "1xbet-6smgp.icu",
+        "1xbet-tch-gv5kf.icu",
+        "alarajewelry.sbs",
+        "andarae.cyou",
+        "anyone-eth.icu",
+        "augustine-oliviero-torres.icu",
+        "bl-test.icu",
+        "blackfriday2026.sbs",
+        "breanorixnode.sbs",
+        "cherryla.sbs",
+        "destinchou.cyou",
+        "ellastracap.cyou",
+        "gfcdd.cfd",
+        "giaoc.icu",
+        "gjlat.icu",
+        "guncelsikayetler-466.sbs",
+        "guncelsikayetler-843.sbs",
+        "guncelsikayetler-849.sbs",
+        "ireland-win7777.sbs",
+        "jefescriba.sbs",
+        "kuliebags.sbs",
+        "loadhighlydevelopedapplication.icu",
+        "lurviano.cyou",
+        "mantoudis.sbs",
+        "menvoria.cyou",
+        "paystreak.sbs",
+        "playdragon.sbs",
+        "sidexparter.cyou",
+        "tabkhj.icu",
+        "tallyribbonharmonc.cyou",
+        "tempweb.cyou",
+        "thebeautifulbeargroup.sbs",
+        "wenext.sbs",
+        "wowxnice.cyou",
+        "yhgse.cfd"
+      ]
+    },
+    {
+      "ip": "188.114.97.3",
+      "count": 27,
+      "country": "",
+      "domains": [
+        "0oqef6aleytz.cyou",
+        "1xbet-2ai43.icu",
+        "1xbet-5goms.sbs",
+        "1xbet-64f65.icu",
+        "1xbet-72lao.sbs",
+        "1xbet-96atj.cyou",
+        "andywang.cyou",
+        "bovlda-american-football-pro.sbs",
+        "brfds.cfd",
+        "bridge168.sbs",
+        "fauflix.sbs",
+        "fgcds.cfd",
+        "gouziyun168.sbs",
+        "guncelsikayetler-844.sbs",
+        "haljamil.sbs",
+        "hongxingclouds.sbs",
+        "koestercompany.sbs",
+        "loapt.icu",
+        "lovey-dovey.icu",
+        "ngsq1.sbs",
+        "nnbbs.cfd",
+        "offertise864000.sbs",
+        "p170fdffsd.icu",
+        "poloto.sbs",
+        "traf.icu",
+        "turkvibe.cyou",
+        "uskudarescort.sbs"
+      ]
+    },
     {
       "ip": "176.123.8.208",
       "count": 5,
@@ -15,13 +92,65 @@
       ]
     },
     {
-      "ip": "188.114.97.3",
-      "count": 3,
-      "country": "",
+      "ip": "159.203.143.218",
+      "count": 4,
+      "country": "US",
       "domains": [
-        "brfds.cfd",
-        "fgcds.cfd",
-        "nnbbs.cfd"
+        "e-cocacola.cyou",
+        "lnmxio.cyou",
+        "lunarbaits.cyou",
+        "telegramx.cyou"
+      ]
+    },
+    {
+      "ip": "207.207.210.107",
+      "count": 4,
+      "country": "US",
+      "domains": [
+        "gfdss.cfd",
+        "grffe.cfd",
+        "lordfilmswirl.sbs",
+        "vidlay.icu"
+      ]
+    },
+    {
+      "ip": "2.57.91.91",
+      "count": 3,
+      "country": "CY",
+      "domains": [
+        "apexarena.sbs",
+        "frutariart.sbs",
+        "layeragent.sbs"
+      ]
+    },
+    {
+      "ip": "212.43.150.140",
+      "count": 3,
+      "country": "DE",
+      "domains": [
+        "bitva-ekstrasensov-revansh-3s-10s.cyou",
+        "ekstrasensy-revansh-10seria.cyou",
+        "titany-11seriya.cyou"
+      ]
+    },
+    {
+      "ip": "91.208.206.94",
+      "count": 3,
+      "country": "MD",
+      "domains": [
+        "lordfilmbelyak.icu",
+        "lordfilmpustelga.icu",
+        "lordfilmzlatoust.icu"
+      ]
+    },
+    {
+      "ip": "172.232.24.161",
+      "count": 3,
+      "country": "US",
+      "domains": [
+        "ninessta.icu",
+        "nintendofind.sbs",
+        "pagosolution.sbs"
       ]
     }
   ]

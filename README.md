@@ -57,11 +57,11 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 629,037 | 325,633 (51.8%) | 303,404 | 1 | — | $408,874 |
+| `.icu` | 629,037 | 325,633 (51.8%) | 303,404 | 2 | — | $408,874 |
 | `.bond` | 1,193,820 | 302,224 (25.3%) | 891,596 | 0 | — | $7,759,830 |
 | `.cyou` | 597,722 | 270,154 (45.2%) | 327,568 | 0 | — | $388,519 |
-| `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 1 | — | $735,990 |
-| `.cfd` | 719,467 | 302,460 (42.0%) | 417,007 | 0 | — | $467,654 |
+| `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 3 | — | $735,990 |
+| `.cfd` | 719,467 | 302,460 (42.0%) | 417,007 | 1 | — | $467,654 |
 | `.buzz` | 289,803 | 200,072 (69.0%) | 89,731 | 0 | — | $941,860 |
 | `.qpon` | 72,399 | 37,631 (52.0%) | 34,768 | 0 | — | $180,998 |
 
@@ -70,19 +70,25 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-MD  ██████████████████          5 (62.5%)
-US  ██████████░░░░░░░░          3 (37.5%)
+US  ██████████████████         51 (30.5%)
+HK  █████████░░░░░░░░░         26 (15.6%)
+ZA  ███████░░░░░░░░░░░         21 (12.6%)
+SC  ████░░░░░░░░░░░░░░         14 (8.4%)
+DE  ███░░░░░░░░░░░░░░░         11 (6.6%)
+MD  ███░░░░░░░░░░░░░░░         10 (6.0%)
+NL  ███░░░░░░░░░░░░░░░          9 (5.4%)
+CY  █░░░░░░░░░░░░░░░░░          3 (1.8%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-11-16` | 4,381 | **1.0×** |
+| `2026-11-16` | 21,035 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`dia (14)` &middot; `auth (13)` &middot; `bonus (10)` &middot; `tron (10)` &middot; `portal (8)` &middot; `hop (7)` &middot; `connect (6)` &middot; `ondo (5)` &middot; `fund (5)` &middot; `ledger (4)` &middot; `service (4)` &middot; `rug (4)` &middot; `base (3)` &middot; `invest (3)` &middot; `aura (3)`
+`dia (32)` &middot; `hop (21)` &middot; `gmx (14)` &middot; `auth (13)` &middot; `bonus (13)` &middot; `near (12)` &middot; `portal (12)` &middot; `tron (10)` &middot; `neo (10)` &middot; `connect (9)` &middot; `sui (8)` &middot; `transak (8)` &middot; `apple (7)` &middot; `rug (6)` &middot; `crypto (6)`
 
 ### 📥 Download Threat Intelligence
 
