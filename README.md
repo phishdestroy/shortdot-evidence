@@ -37,7 +37,7 @@ They were meant to be <i>counted.</i><br/>
 <p align="center"><img src="assets/readme-polish/divider.svg" width="100%" alt="" /></p>
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-16`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-17`
 
 <table align="center"><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><strong>4,634,540</strong></td>
@@ -57,10 +57,10 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 629,037 | 325,633 (51.8%) | 303,404 | 2 | — | $408,874 |
+| `.icu` | 629,037 | 325,633 (51.8%) | 303,404 | 1 | — | $408,874 |
 | `.bond` | 1,193,820 | 302,224 (25.3%) | 891,596 | 0 | — | $7,759,830 |
 | `.cyou` | 597,722 | 270,154 (45.2%) | 327,568 | 0 | — | $388,519 |
-| `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 3 | — | $735,990 |
+| `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 2 | — | $735,990 |
 | `.cfd` | 719,467 | 302,460 (42.0%) | 417,007 | 1 | — | $467,654 |
 | `.buzz` | 289,803 | 200,072 (69.0%) | 89,731 | 0 | — | $941,860 |
 | `.qpon` | 72,399 | 37,631 (52.0%) | 34,768 | 0 | — | $180,998 |
@@ -70,25 +70,25 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████         51 (30.5%)
-HK  █████████░░░░░░░░░         26 (15.6%)
-ZA  ███████░░░░░░░░░░░         21 (12.6%)
-SC  ████░░░░░░░░░░░░░░         14 (8.4%)
-DE  ███░░░░░░░░░░░░░░░         11 (6.6%)
-MD  ███░░░░░░░░░░░░░░░         10 (6.0%)
-NL  ███░░░░░░░░░░░░░░░          9 (5.4%)
-CY  █░░░░░░░░░░░░░░░░░          3 (1.8%)
+US  ██████████████████         48 (30.2%)
+HK  █████████░░░░░░░░░         26 (16.4%)
+ZA  ███████░░░░░░░░░░░         21 (13.2%)
+SC  █████░░░░░░░░░░░░░         14 (8.8%)
+DE  ████░░░░░░░░░░░░░░         11 (6.9%)
+NL  ███░░░░░░░░░░░░░░░          9 (5.7%)
+MD  █░░░░░░░░░░░░░░░░░          5 (3.1%)
+CY  █░░░░░░░░░░░░░░░░░          3 (1.9%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-11-16` | 21,035 | **1.0×** |
+| `2026-11-17` | 16,654 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`dia (32)` &middot; `hop (21)` &middot; `gmx (14)` &middot; `auth (13)` &middot; `bonus (13)` &middot; `near (12)` &middot; `portal (12)` &middot; `tron (10)` &middot; `neo (10)` &middot; `connect (9)` &middot; `sui (8)` &middot; `transak (8)` &middot; `apple (7)` &middot; `rug (6)` &middot; `crypto (6)`
+`dia (18)` &middot; `hop (14)` &middot; `gmx (14)` &middot; `near (12)` &middot; `neo (9)` &middot; `transak (6)` &middot; `sui (6)` &middot; `aurora (6)` &middot; `login (5)` &middot; `crypto (5)` &middot; `recovery (5)` &middot; `drop (5)` &middot; `aevo (4)` &middot; `join (4)` &middot; `xlm (4)`
 
 ### 📥 Download Threat Intelligence
 
