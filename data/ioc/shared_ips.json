@@ -1,6 +1,6 @@
 {
   "generated": "2026-11-18",
-  "count": 1,
+  "count": 2,
   "ips": [
     {
       "ip": "165.154.235.215",
@@ -27,6 +27,17 @@
         "ulz5uxoedpwt9vn.icu",
         "v47d2f3bjt6ev50.icu",
         "vnhy8esxju40yiu.icu"
+      ]
+    },
+    {
+      "ip": "207.207.210.229",
+      "count": 4,
+      "country": "US",
+      "domains": [
+        "clx-cloud.cfd",
+        "infinityhearth.buzz",
+        "lexingtonbusinesscap.cfd",
+        "thaihub.cfd"
       ]
     }
   ]
