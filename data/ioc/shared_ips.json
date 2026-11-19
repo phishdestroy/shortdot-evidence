@@ -1,44 +1,5 @@
 {
-  "generated": "2026-11-18",
-  "count": 2,
-  "ips": [
-    {
-      "ip": "165.154.235.215",
-      "count": 20,
-      "country": "US",
-      "domains": [
-        "0rctjf4k086l110.icu",
-        "4hy5qrdd8at78bu.icu",
-        "8ehmfnmboe9fhk7.icu",
-        "al7xl1o4evrmmz8.icu",
-        "bzqsrri53ey611n.icu",
-        "epg6jfdohdxmar3.icu",
-        "g1pci3pet7ua0fa.icu",
-        "g47zjcow9hw1gys.icu",
-        "ha13ijqng0d0fs9.icu",
-        "j7czz4x2qadxeb9.icu",
-        "j9zkrlug5vssyym.icu",
-        "m540rhmojfv5afn.icu",
-        "o1coyfxsr1a7ili.icu",
-        "o5zynmkglsym4nn.icu",
-        "p6v0wxezjgdob7m.icu",
-        "qgzqdz2casn33eu.icu",
-        "rztn3zmnwipag5z.icu",
-        "ulz5uxoedpwt9vn.icu",
-        "v47d2f3bjt6ev50.icu",
-        "vnhy8esxju40yiu.icu"
-      ]
-    },
-    {
-      "ip": "207.207.210.229",
-      "count": 4,
-      "country": "US",
-      "domains": [
-        "clx-cloud.cfd",
-        "infinityhearth.buzz",
-        "lexingtonbusinesscap.cfd",
-        "thaihub.cfd"
-      ]
-    }
-  ]
+  "generated": "2026-11-19",
+  "count": 0,
+  "ips": []
 }

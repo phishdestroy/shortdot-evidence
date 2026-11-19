@@ -37,7 +37,7 @@ They were meant to be <i>counted.</i><br/>
 <p align="center"><img src="assets/readme-polish/divider.svg" width="100%" alt="" /></p>
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-18`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-19`
 
 <table align="center"><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><strong>4,634,540</strong></td>
@@ -57,11 +57,11 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 629,037 | 325,633 (51.8%) | 303,404 | 1 | — | $408,874 |
+| `.icu` | 629,037 | 325,633 (51.8%) | 303,404 | 0 | — | $408,874 |
 | `.bond` | 1,193,820 | 302,224 (25.3%) | 891,596 | 0 | — | $7,759,830 |
 | `.cyou` | 597,722 | 270,154 (45.2%) | 327,568 | 0 | — | $388,519 |
 | `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 1 | — | $735,990 |
-| `.cfd` | 719,467 | 302,460 (42.0%) | 417,007 | 1 | — | $467,654 |
+| `.cfd` | 719,467 | 302,460 (42.0%) | 417,007 | 0 | — | $467,654 |
 | `.buzz` | 289,803 | 200,072 (69.0%) | 89,731 | 0 | — | $941,860 |
 | `.qpon` | 72,399 | 37,631 (52.0%) | 34,768 | 0 | — | $180,998 |
 
@@ -70,22 +70,22 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████         25 (78.1%)
-DE  ██░░░░░░░░░░░░░░░░          3 (9.4%)
-FR  █░░░░░░░░░░░░░░░░░          2 (6.2%)
-TR  ░░░░░░░░░░░░░░░░░░          1 (3.1%)
-IS  ░░░░░░░░░░░░░░░░░░          1 (3.1%)
+US  ██████████████████          3 (37.5%)
+DE  ████████████░░░░░░          2 (25.0%)
+TR  ██████░░░░░░░░░░░░          1 (12.5%)
+IS  ██████░░░░░░░░░░░░          1 (12.5%)
+FR  ██████░░░░░░░░░░░░          1 (12.5%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-11-18` | 36,488 | **1.0×** |
+| `2026-11-19` | 17,442 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`dia (52)` &middot; `neo (40)` &middot; `hop (37)` &middot; `bank (37)` &middot; `maple (26)` &middot; `gmx (18)` &middot; `eos (17)` &middot; `sui (17)` &middot; `rug (16)` &middot; `base (16)` &middot; `tron (16)` &middot; `auth (15)` &middot; `service (14)` &middot; `ally (14)` &middot; `portal (14)`
+`neo (29)` &middot; `dia (19)` &middot; `tron (16)` &middot; `base (15)` &middot; `hop (14)` &middot; `bank (14)` &middot; `ally (12)` &middot; `ankr (10)` &middot; `rug (10)` &middot; `across (10)` &middot; `portal (10)` &middot; `ondo (9)` &middot; `gmx (8)` &middot; `token (8)` &middot; `service (8)`
 
 ### 📥 Download Threat Intelligence
 
