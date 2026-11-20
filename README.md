@@ -57,10 +57,10 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 629,037 | 325,633 (51.8%) | 303,404 | 0 | — | $408,874 |
+| `.icu` | 629,037 | 325,633 (51.8%) | 303,404 | 1 | — | $408,874 |
 | `.bond` | 1,193,820 | 302,224 (25.3%) | 891,596 | 0 | — | $7,759,830 |
 | `.cyou` | 597,722 | 270,154 (45.2%) | 327,568 | 0 | — | $388,519 |
-| `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 0 | — | $735,990 |
+| `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 1 | — | $735,990 |
 | `.cfd` | 719,467 | 302,460 (42.0%) | 417,007 | 1 | — | $467,654 |
 | `.buzz` | 289,803 | 200,072 (69.0%) | 89,731 | 0 | — | $941,860 |
 | `.qpon` | 72,399 | 37,631 (52.0%) | 34,768 | 0 | — | $180,998 |
@@ -70,19 +70,21 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-DE  ██████████████████          1 (50.0%)
-AU  ██████████████████          1 (50.0%)
+US  ██████████████████          4 (57.1%)
+GB  ████░░░░░░░░░░░░░░          1 (14.3%)
+DE  ████░░░░░░░░░░░░░░          1 (14.3%)
+AU  ████░░░░░░░░░░░░░░          1 (14.3%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-11-20` | 11,762 | **1.0×** |
+| `2026-11-20` | 21,359 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`dia (78)` &middot; `hop (20)` &middot; `sui (15)` &middot; `tron (14)` &middot; `allocation (10)` &middot; `ondo (9)` &middot; `fund (9)` &middot; `service (9)` &middot; `bonus (8)` &middot; `iron (8)` &middot; `seed (7)` &middot; `station (6)` &middot; `finance (6)` &middot; `claim (6)` &middot; `bank (6)`
+`dia (157)` &middot; `sui (61)` &middot; `hop (31)` &middot; `tron (30)` &middot; `service (16)` &middot; `fund (15)` &middot; `icon (15)` &middot; `allocation (15)` &middot; `iron (14)` &middot; `capital (14)` &middot; `finance (13)` &middot; `stake (10)` &middot; `ondo (10)` &middot; `rug (10)` &middot; `neo (9)`
 
 ### 📥 Download Threat Intelligence
 

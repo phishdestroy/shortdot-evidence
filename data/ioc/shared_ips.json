@@ -1,5 +1,16 @@
 {
   "generated": "2026-11-20",
-  "count": 0,
-  "ips": []
+  "count": 1,
+  "ips": [
+    {
+      "ip": "188.114.97.3",
+      "count": 3,
+      "country": "",
+      "domains": [
+        "finazy5-reprehenderit45.sbs",
+        "mativ.sbs",
+        "smgbyewps.buzz"
+      ]
+    }
+  ]
 }
