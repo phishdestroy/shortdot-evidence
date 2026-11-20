@@ -37,7 +37,7 @@ They were meant to be <i>counted.</i><br/>
 <p align="center"><img src="assets/readme-polish/divider.svg" width="100%" alt="" /></p>
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-19`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-20`
 
 <table align="center"><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><strong>4,634,540</strong></td>
@@ -60,7 +60,7 @@ They were meant to be <i>counted.</i><br/>
 | `.icu` | 629,037 | 325,633 (51.8%) | 303,404 | 0 | — | $408,874 |
 | `.bond` | 1,193,820 | 302,224 (25.3%) | 891,596 | 0 | — | $7,759,830 |
 | `.cyou` | 597,722 | 270,154 (45.2%) | 327,568 | 0 | — | $388,519 |
-| `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 1 | — | $735,990 |
+| `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 0 | — | $735,990 |
 | `.cfd` | 719,467 | 302,460 (42.0%) | 417,007 | 1 | — | $467,654 |
 | `.buzz` | 289,803 | 200,072 (69.0%) | 89,731 | 0 | — | $941,860 |
 | `.qpon` | 72,399 | 37,631 (52.0%) | 34,768 | 0 | — | $180,998 |
@@ -70,23 +70,19 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████          3 (30.0%)
-DE  ██████████████████          3 (30.0%)
-TR  ██████░░░░░░░░░░░░          1 (10.0%)
-IS  ██████░░░░░░░░░░░░          1 (10.0%)
-FR  ██████░░░░░░░░░░░░          1 (10.0%)
-AU  ██████░░░░░░░░░░░░          1 (10.0%)
+DE  ██████████████████          1 (50.0%)
+AU  ██████████████████          1 (50.0%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-11-19` | 29,204 | **1.0×** |
+| `2026-11-20` | 11,762 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`dia (97)` &middot; `neo (35)` &middot; `hop (34)` &middot; `tron (30)` &middot; `sui (20)` &middot; `bank (20)` &middot; `ondo (18)` &middot; `base (17)` &middot; `service (17)` &middot; `ally (13)` &middot; `iron (12)` &middot; `bonus (11)` &middot; `allocation (11)` &middot; `rug (11)` &middot; `station (11)`
+`dia (78)` &middot; `hop (20)` &middot; `sui (15)` &middot; `tron (14)` &middot; `allocation (10)` &middot; `ondo (9)` &middot; `fund (9)` &middot; `service (9)` &middot; `bonus (8)` &middot; `iron (8)` &middot; `seed (7)` &middot; `station (6)` &middot; `finance (6)` &middot; `claim (6)` &middot; `bank (6)`
 
 ### 📥 Download Threat Intelligence
 
