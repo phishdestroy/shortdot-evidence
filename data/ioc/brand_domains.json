@@ -5,12 +5,17 @@
       "au-promediagmbh.cfd",
       "au-promediagmbh1.cfd",
       "au-promediagmbh2.cfd",
+      "biancaguardiano.cfd",
+      "boldiarrow.bond",
       "cambodiaroit.icu",
       "chaneihaoyodiasheng.cyou",
       "chengfenzumiediapin.cfd",
       "chouzhougudianshashaizou.sbs",
       "chuatiegenpangdiatieheng.cyou",
+      "crepeindia.bond",
       "cunlialianlouaipidia.sbs",
+      "diabeteslore.cyou",
+      "diagramgrog.cyou",
       "diamond-north.cfd",
       "diamondsharp.sbs",
       "dianapuno.cfd",
@@ -28,10 +33,13 @@
       "duisuosuansaidiandijiuhen.cyou",
       "eiaiducuotulengdian.cfd",
       "eidiaoxiudakoutengziceng.cyou",
+      "encuesta-al-dia.cyou",
       "engsutiefadiaoruchu.sbs",
       "fangnoudiakanliaoxi.cyou",
       "fangtongshandialiangcanlai.sbs",
       "gansadianzaodiguang.cyou",
+      "gta6baodian.cyou",
+      "gta6baodian.icu",
       "jardiao.cyou",
       "jiamiaohuaiqingdianleikao.cyou",
       "jiudiantp.cfd",
@@ -43,14 +51,18 @@
       "liangsuonidiannengsao.cfd",
       "liaozhuigoumahandiamode.cfd",
       "louzuodiaodeqiabazhai.cfd",
+      "mediate.bond",
       "meenansaadiaujo.buzz",
       "meridianride.sbs",
       "muxiumianyuanbudiaopei.cfd",
       "niangdejingdiantianneng.cfd",
       "nongsachangshuahediaokan.cyou",
       "nuodiaofenggaqiefeicaku.cyou",
+      "opalcraft-labdiamond.sbs",
       "pingudianbiaodangxianmu.cyou",
+      "podiatry.bond",
       "qiabangmiandouhuodia.cyou",
+      "qidian01.buzz",
       "qiongchuakeyunpinchedianng.sbs",
       "quanchuangshuidiaosuishe.cyou",
       "quanguodiaxuancengqiao.cfd",
@@ -62,15 +74,23 @@
       "ruyounouguandiantoukonggen.cfd",
       "shaihuozhanqiadiachuang.cyou",
       "shukezhidiadunzuanli.cyou",
+      "sidewalk-cafe-diary.sbs",
       "songdiaoraonaichanfengtou.sbs",
       "songdiaouniandaizhaitun.cyou",
+      "songfen88-qq688-dian-co.cfd",
+      "sport-mediabe777.cfd",
+      "sport-mediahu777.cfd",
+      "sport-mediaie777.cfd",
       "sport-mediait1.cfd",
+      "sport-mediait777.cfd",
       "sport-medianl1.cfd",
+      "sport-mediauk777.cfd",
       "sudiaoruanxiongbiaozaodai.sbs",
       "sulanglishedianunuojialai.cfd",
       "sunxiudiachenxiarenkanjun.sbs",
       "tangwaishuoyuandiaose.sbs",
       "troublediator.bond",
+      "ubandiamon.icu",
       "wangshucaodiaqiutunzu.cyou",
       "wankundiaokongkaqinledao.cfd",
       "xiahuaidedunsaoraodianquan.sbs",
@@ -130,30 +150,123 @@
       "zhousuigasiaoxiatiepaicou.cyou",
       "zuxingchuidiutanhaisuizui.cfd"
     ],
+    "hop": [
+      "annashopping.buzz",
+      "beautyshop.bond",
+      "bossshop.cfd",
+      "brookscoffeeshopmarketting.icu",
+      "carshop.bond",
+      "datashop.buzz",
+      "donhopgotik.icu",
+      "echoplate.bond",
+      "gamedaykitshop.icu",
+      "giftshop8587.buzz",
+      "hoppy.bond",
+      "ingenoaiworkshop.cfd",
+      "loveshop1.cfd",
+      "lthihop.cfd",
+      "lunshop.bond",
+      "luxehubshop.cyou",
+      "mega365shop.icu",
+      "orthopdtrcscrpu.cyou",
+      "shop1300.icu",
+      "shopco.sbs",
+      "shopcrest.bond",
+      "shopnive.sbs",
+      "shopridge.cyou",
+      "tawsedbishops.cfd",
+      "tikshop.sbs",
+      "topshopro.cfd",
+      "walacafeshop.buzz"
+    ],
     "tron": [
       "10axiontheravexultronicengineering.cyou",
       "11axiontheravexultronicengineering.cyou",
       "12axiontheravexultronicengineering.cyou",
+      "13axiontheravexultronicengineering.cyou",
       "8axiontheravexultronicengineering.cyou",
       "9axiontheravexultronicengineering.cyou",
       "getroned.cfd",
       "jasonstandingstrong.icu",
-      "strongbond.bond"
+      "strongbond.bond",
+      "weedtrondheim.cfd"
     ],
-    "hop": [
-      "bossshop.cfd",
-      "donhopgotik.icu",
-      "echoplate.bond",
-      "gamedaykitshop.icu",
-      "ingenoaiworkshop.cfd",
-      "loveshop1.cfd",
-      "lunshop.bond",
-      "mega365shop.icu",
-      "shop1300.icu",
-      "tawsedbishops.cfd",
-      "walacafeshop.buzz"
+    "service": [
+      "apiservice.icu",
+      "bh-verifyservices.icu",
+      "dropsacleaningservices.icu",
+      "dust-services.cyou",
+      "groupservices.sbs",
+      "itk-services-dev.sbs",
+      "microservicekta.icu",
+      "online-service.icu",
+      "rotmancareerservices.icu",
+      "servicesantas.bond",
+      "sharpcutslawnservices.sbs",
+      "xfinity-emailcustomerservice.bond",
+      "xfinity-emailcustomerservice.cyou",
+      "xfinity-emailservice-comcast.bond",
+      "xfinity-emailservice-comcast.cyou",
+      "xfinity-mailcustomerservice.bond",
+      "xfinity-mailcustomerservice.cyou",
+      "xfinity-mailservice-comcast.bond",
+      "xfinity-mailservice-comcast.cyou"
+    ],
+    "stake": [
+      "agnoliabstake.sbs",
+      "casino-stake547.buzz",
+      "playstake.cfd",
+      "stake-casino.cyou",
+      "stake296.buzz",
+      "stake74.buzz",
+      "stake76.buzz",
+      "stake77.buzz",
+      "stake88resmi.sbs",
+      "stakeas1.buzz",
+      "stakecasino-zya.buzz",
+      "stakefs1.buzz",
+      "stakers2.buzz",
+      "stakes.bond"
+    ],
+    "portal": [
+      "alphaportalcloud.cfd",
+      "engportal.sbs",
+      "eportallive.sbs",
+      "goportal65.sbs",
+      "personas-portal.cfd",
+      "personas-portal.sbs",
+      "portal-personas-cl.cfd"
+    ],
+    "rug": [
+      "bnerugekio.cfd",
+      "bnerugekio.cyou",
+      "bnerugekio.sbs",
+      "edrugu.sbs",
+      "gloriakruger.buzz",
+      "merugas.icu",
+      "mtlcrugcaincuia.cyou",
+      "rdrugxdecode.cyou",
+      "ruguangderoucanglanliulofu.sbs",
+      "seumadruga.sbs",
+      "theinnerstruggle.sbs",
+      "y1tl3rug.bond"
+    ],
+    "neo": [
+      "3danneogul.sbs",
+      "anneogul.sbs",
+      "bayneoc.cfd",
+      "fsneofsdof.sbs",
+      "myxineonsetstride.cfd",
+      "neo36.buzz",
+      "neoclassicallcr.sbs",
+      "rimzoneonline.cfd",
+      "stylefitneo.cfd",
+      "stylefitneo.sbs",
+      "ugbet88neo.cfd",
+      "uveyanneanneogul.sbs"
     ],
     "icon": [
+      "basilicont.sbs",
       "chiguaiconghuochuaicangkua.sbs",
       "cunmenwaxueeicong.cfd",
       "fenglunsheicongmarangpou.sbs",
@@ -162,50 +275,158 @@
       "haicongduodanfucuonengkuo.cyou",
       "icononemusicllc.cyou",
       "ingenoaiconnect.cfd",
+      "silicon.bond",
       "siliconhost.bond",
       "touxuanzunmangcicong.sbs"
     ],
-    "stake": [
-      "casino-stake547.buzz",
-      "stake296.buzz",
-      "stake74.buzz",
-      "stake76.buzz",
-      "stake77.buzz",
-      "stakeas1.buzz",
-      "stakecasino-zya.buzz",
-      "stakefs1.buzz",
-      "stakers2.buzz"
+    "quest": [
+      "adventurequesthaven.sbs",
+      "conquestcollaborators.sbs",
+      "globequesttravel.cyou",
+      "gquestrlabrador.cfd",
+      "outdoorquestpro.cyou",
+      "questhavenpro.sbs",
+      "questingquality.cyou",
+      "questjourneypro.sbs",
+      "questnexus.sbs",
+      "rechnicalquester.icu",
+      "screeoquestq.icu",
+      "valhaconquest.cfd"
+    ],
+    "fund": [
+      "advancefunds90.buzz",
+      "advancefunds91.buzz",
+      "advancefunds92.buzz",
+      "advancefunds93.buzz",
+      "advancefunds94.buzz",
+      "advancefunds95.buzz",
+      "forevercultfund-allocations.icu",
+      "fundcrest.cyou",
+      "fundxelite.cfd",
+      "gainxfund.cyou",
+      "joyowdfund.icu",
+      "mifundm.bond"
     ],
     "capital": [
       "aestherisprimecapital.icu",
       "capitalgrowth.sbs",
       "capitalinsight.sbs",
+      "ccmcapitall.buzz",
+      "chamberscapital.cfd",
       "fireblockscapital-us.sbs",
       "fireblockscapitals.sbs",
       "lettocapital.cfd",
       "milanovalorecapitale.sbs",
       "sharpedgecapital.sbs",
-      "stscapitalholding.buzz"
+      "stscapitalholding.buzz",
+      "tunnelmorning-0a78-capitalwaresecuredguardbot.sbs"
     ],
-    "rug": [
-      "bnerugekio.cfd",
-      "bnerugekio.cyou",
-      "bnerugekio.sbs",
-      "gloriakruger.buzz",
-      "merugas.icu",
-      "mtlcrugcaincuia.cyou",
-      "ruguangderoucanglanliulofu.sbs",
-      "theinnerstruggle.sbs",
-      "y1tl3rug.bond"
+    "base": [
+      "abaseqoot.bond",
+      "basementimpo.cyou",
+      "centeropobasev.sbs",
+      "coin-base.cfd",
+      "gainxbase.sbs",
+      "kdrbased.cfd",
+      "omnibases.icu",
+      "oris-base.icu",
+      "supabasesam.sbs",
+      "verobases.icu",
+      "verobaseso.icu"
     ],
-    "service": [
-      "dropsacleaningservices.icu",
-      "dust-services.cyou",
-      "itk-services-dev.sbs",
-      "microservicekta.icu",
-      "online-service.icu",
-      "rotmancareerservices.icu",
-      "sharpcutslawnservices.sbs"
+    "connect": [
+      "connectzen.icu",
+      "disconnect.bond",
+      "ingenoaiconnect.cfd",
+      "ingenocloudconnect.cfd",
+      "ingenoiotconnect.cfd",
+      "ingenotechconnect.cfd",
+      "journeyconnect.cyou",
+      "megaconnect.sbs",
+      "uconnect-online.sbs"
+    ],
+    "earn": [
+      "earnbd.bond",
+      "earnmycashwmjd.buzz",
+      "equitylearn.sbs",
+      "jucappucearne.sbs",
+      "learninghub.buzz",
+      "learnorbit.cyou",
+      "yearningardrobe.sbs",
+      "yearnnnau.icu"
+    ],
+    "apple": [
+      "apple-1s.icu",
+      "apple-2g.icu",
+      "apple-2s.icu",
+      "appled-3u.icu",
+      "appled-i3u.icu",
+      "applejp.cyou",
+      "gatewagrapple.icu",
+      "usdtapple.icu"
+    ],
+    "bonus": [
+      "benvenutobonus.sbs",
+      "bonus-it.sbs",
+      "bonusbasvurusayfasi126532.sbs",
+      "fixbetdenemebonus.icu",
+      "marocco-bonuss.sbs",
+      "polskiebonus.sbs",
+      "slotbonus.sbs",
+      "ubs-bbonus.sbs"
+    ],
+    "customer": [
+      "xfinity-emailcustomerservice.bond",
+      "xfinity-emailcustomerservice.cyou",
+      "xfinity-mailcustomerservice.bond",
+      "xfinity-mailcustomerservice.cyou"
+    ],
+    "iron": [
+      "cengzuokunnanmirong.cfd",
+      "escironcreincures.icu",
+      "hengyunsheirongngzong.cyou",
+      "ironbond.bond",
+      "ironislandboysss.sbs",
+      "jiaoxinadaotairongguocou.cfd",
+      "kanxinjianxirongsao.sbs",
+      "weaverironcladsystems.cyou"
+    ],
+    "secure": [
+      "ch-securepayment.cfd",
+      "mysecure-ticketswapp.sbs",
+      "securedrivesolutions.sbs",
+      "securelink.cfd",
+      "secureshorestravel.cyou",
+      "securesummit.cyou",
+      "skysecure.bond",
+      "tunnelmorning-0a78-capitalwaresecuredguardbot.sbs"
+    ],
+    "wise": [
+      "drivewiseexpert.sbs",
+      "equitywise.sbs",
+      "innowise-app.cfd",
+      "reacdwise.sbs",
+      "wisevisionfile.buzz",
+      "wisevisionnet.buzz",
+      "xiwiseean.cyou"
+    ],
+    "official": [
+      "1win-casino-official-site.cyou",
+      "casino1win-officialsite-play.cyou",
+      "evacasinoofficial.buzz",
+      "httpsofficial-pl.sbs",
+      "morvelinck-ai-official.sbs",
+      "nl-officialgame.cyou",
+      "rakibdevofficial.cyou"
+    ],
+    "aura": [
+      "auracaffe.qpon",
+      "auraos.sbs",
+      "aurapure.cyou",
+      "auraverse.cfd",
+      "fitaura.cfd",
+      "mcs001aura.cfd",
+      "mflixaura.sbs"
     ],
     "finance": [
       "arbitralfinance.cfd",
@@ -216,119 +437,47 @@
       "financeiromilion.sbs",
       "pagfinance.cfd"
     ],
-    "base": [
-      "centeropobasev.sbs",
-      "kdrbased.cfd",
-      "omnibases.icu",
-      "oris-base.icu",
-      "verobases.icu",
-      "verobaseso.icu"
+    "discover": [
+      "deltadiscovery.cyou",
+      "discoverdestinos.cyou",
+      "discoverharmony.sbs",
+      "discoverhorizon.sbs",
+      "discoverydomainpro.sbs",
+      "discoverydynasty.sbs",
+      "discoveryemporium.sbs"
     ],
-    "fund": [
-      "advancefunds90.buzz",
-      "advancefunds91.buzz",
-      "advancefunds92.buzz",
-      "forevercultfund-allocations.icu",
-      "fundcrest.cyou",
-      "joyowdfund.icu"
-    ],
-    "iron": [
-      "cengzuokunnanmirong.cfd",
-      "escironcreincures.icu",
-      "hengyunsheirongngzong.cyou",
-      "ironbond.bond",
-      "jiaoxinadaotairongguocou.cfd",
-      "kanxinjianxirongsao.sbs"
-    ],
-    "connect": [
-      "connectzen.icu",
-      "ingenoaiconnect.cfd",
-      "ingenocloudconnect.cfd",
-      "ingenoiotconnect.cfd",
-      "ingenotechconnect.cfd",
-      "uconnect-online.sbs"
-    ],
-    "invest": [
-      "investatlas.sbs",
-      "investcraft.sbs",
-      "investhive.sbs",
-      "investmentprivacyfaq.sbs",
-      "zoria-ahroinvest-tech.cfd"
+    "defi": [
+      "conceptsdeficll.cyou",
+      "dadthedefillcpo.cyou",
+      "definitivetravelroutes.sbs",
+      "dvlpmntdeficrp.cyou",
+      "nodefield.bond",
+      "podcstdeficitat.cyou",
+      "prchsrdeficiency.cyou"
     ],
     "allocation": [
       "allocations-trade.icu",
       "extended-allocations.icu",
+      "firelightfi-allocations.icu",
       "forevercultfund-allocations.icu",
       "saturn-allocation.icu",
       "umia-allocations.icu"
     ],
-    "aura": [
-      "auracaffe.qpon",
-      "auraos.sbs",
-      "auraverse.cfd",
-      "mcs001aura.cfd"
-    ],
-    "allocations": [
-      "allocations-trade.icu",
-      "extended-allocations.icu",
-      "forevercultfund-allocations.icu",
-      "umia-allocations.icu"
-    ],
-    "portal": [
-      "eportallive.sbs",
-      "goportal65.sbs"
-    ],
-    "boba": [
-      "bobato.buzz",
-      "jambobachata.icu",
-      "yachouhenbobangei.cfd"
-    ],
-    "neo": [
-      "3danneogul.sbs",
-      "neo36.buzz",
-      "ugbet88neo.cfd"
-    ],
     "bank": [
       "bank-y.bond",
+      "quotientredbank.buzz",
       "riverbankhq.sbs",
+      "runebank.cyou",
+      "tb2-lslam-bank.buzz",
       "zuanbankepeitusuan.cyou"
     ],
-    "update": [
-      "limitupdate.bond",
-      "limitupdate.cyou",
-      "limitupdate.icu"
-    ],
-    "join": [
-      "jointodoit.icu",
-      "jol-join-own-language.sbs",
-      "veikausjoin.sbs"
-    ],
-    "amazon": [
-      "amazon789.cyou",
-      "amazonas-una.sbs",
-      "amazonitebrasc.icu"
-    ],
-    "eos": [
-      "leospace.cfd",
-      "rodeosarundo.cfd",
-      "truly5-eos40.cfd"
-    ],
-    "official": [
-      "evacasinoofficial.buzz",
-      "morvelinck-ai-official.sbs",
-      "nl-officialgame.cyou"
-    ],
-    "okx": [
-      "k8okxqu8.bond",
-      "yosmsokxphbs.buzz"
-    ],
-    "account": [
-      "dynaccount.icu",
-      "scampsaccount.cfd"
-    ],
-    "hive": [
-      "investhive.sbs",
-      "stockhive.sbs"
+    "orca": [
+      "di-lorcana-11.cyou",
+      "di-lorcana-12.cyou",
+      "disneylorcanaaudit.cyou",
+      "disneylorcanadvance.cyou",
+      "disneylorcanasg.cyou",
+      "orcalerocasino.sbs"
     ]
   }
 }
