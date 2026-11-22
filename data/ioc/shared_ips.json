@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-21",
-  "count": 4,
+  "generated": "2026-11-22",
+  "count": 3,
   "ips": [
     {
       "ip": "188.114.96.3",
-      "count": 56,
+      "count": 54,
       "country": "",
       "domains": [
         "adventurelegacy.sbs",
@@ -34,7 +34,6 @@
         "horizonhonesty.cyou",
         "jjvar.cfd",
         "lavishsphere.sbs",
-        "mami.icu",
         "nextgenathletics.cyou",
         "nordicvistapro.sbs",
         "okvar.cfd",
@@ -43,7 +42,6 @@
         "outdooruphold.sbs",
         "passobolognapro.sbs",
         "pathwaypromise.cyou",
-        "paymentgateway.sbs",
         "polishedzenith.sbs",
         "premierautoliaisons.sbs",
         "premierlivingexpo.sbs",
@@ -67,7 +65,7 @@
     },
     {
       "ip": "188.114.97.3",
-      "count": 51,
+      "count": 50,
       "country": "",
       "domains": [
         "aanom.cfd",
@@ -92,7 +90,6 @@
         "hhcom.cfd",
         "impactsporttrail.cyou",
         "kobenhavnpickupplanner.sbs",
-        "mativ.sbs",
         "mncan.cfd",
         "motorexpertsinc.sbs",
         "outdooroptimized.cyou",
@@ -125,26 +122,13 @@
     },
     {
       "ip": "207.207.210.107",
-      "count": 6,
-      "country": "US",
-      "domains": [
-        "bobojuju.cyou",
-        "ccmcapitall.buzz",
-        "lordfilmsynced.cfd",
-        "lordfilmtethered.sbs",
-        "moo4.sbs",
-        "netrep.icu"
-      ]
-    },
-    {
-      "ip": "207.207.210.229",
       "count": 4,
       "country": "US",
       "domains": [
-        "carolinagreen.buzz",
-        "coin-base.cfd",
-        "eizle.cfd",
-        "squezokilafgom.sbs"
+        "ccmcapitall.buzz",
+        "lordfilmsynced.cfd",
+        "lordfilmtethered.sbs",
+        "moo4.sbs"
       ]
     }
   ]
