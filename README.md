@@ -60,7 +60,7 @@ They were meant to be <i>counted.</i><br/>
 | `.icu` | 629,037 | 325,633 (51.8%) | 303,404 | 1 | — | $408,874 |
 | `.bond` | 1,193,820 | 302,224 (25.3%) | 891,596 | 0 | — | $7,759,830 |
 | `.cyou` | 597,722 | 270,154 (45.2%) | 327,568 | 0 | — | $388,519 |
-| `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 1 | — | $735,990 |
+| `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 2 | — | $735,990 |
 | `.cfd` | 719,467 | 302,460 (42.0%) | 417,007 | 1 | — | $467,654 |
 | `.buzz` | 289,803 | 200,072 (69.0%) | 89,731 | 1 | — | $941,860 |
 | `.qpon` | 72,399 | 37,631 (52.0%) | 34,768 | 0 | — | $180,998 |
@@ -70,22 +70,23 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████          9 (69.2%)
-GB  ██░░░░░░░░░░░░░░░░          1 (7.7%)
-NL  ██░░░░░░░░░░░░░░░░          1 (7.7%)
-RU  ██░░░░░░░░░░░░░░░░          1 (7.7%)
-DE  ██░░░░░░░░░░░░░░░░          1 (7.7%)
+US  ██████████████████         12 (50.0%)
+BG  █████████░░░░░░░░░          6 (25.0%)
+DE  ███░░░░░░░░░░░░░░░          2 (8.3%)
+NL  ███░░░░░░░░░░░░░░░          2 (8.3%)
+GB  █░░░░░░░░░░░░░░░░░          1 (4.2%)
+RU  █░░░░░░░░░░░░░░░░░          1 (4.2%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-11-22` | 6,842 | **1.0×** |
+| `2026-11-22` | 11,376 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`dia (20)` &middot; `hop (16)` &middot; `service (12)` &middot; `quest (11)` &middot; `portal (10)` &middot; `neo (9)` &middot; `bonus (8)` &middot; `customer (8)` &middot; `defi (7)` &middot; `apple (7)` &middot; `discover (7)` &middot; `fund (6)` &middot; `orca (6)` &middot; `earn (6)` &middot; `secure (6)`
+`dia (34)` &middot; `hop (25)` &middot; `bonus (23)` &middot; `service (18)` &middot; `official (16)` &middot; `neo (13)` &middot; `quest (12)` &middot; `portal (12)` &middot; `capital (12)` &middot; `auth (10)` &middot; `tron (10)` &middot; `apple (9)` &middot; `orca (8)` &middot; `customer (8)` &middot; `discover (7)`
 
 ### 📥 Download Threat Intelligence
 

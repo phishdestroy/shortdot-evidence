@@ -1,21 +1,5 @@
 {
   "generated": "2026-11-22",
-  "count": 3,
-  "registrants": [
-    {
-      "email": "seu@email.com",
-      "count": 18,
-      "domains": []
-    },
-    {
-      "email": "correo@ejemplo.com",
-      "count": 12,
-      "domains": []
-    },
-    {
-      "email": "tu@correo.com",
-      "count": 5,
-      "domains": []
-    }
-  ]
+  "count": 0,
+  "registrants": []
 }

@@ -16458,6 +16458,8 @@
 111ee.icu
 111f.icu
 111fff.buzz
+111fvds.cyou
+111fvds.sbs
 111g.icu
 111gg.icu
 111h.icu
@@ -1008126,6 +1008128,7 @@ lordfilmalchemy.cyou
 lordfilmalm.sbs
 lordfilmalong.cfd
 lordfilmambush.sbs
+lordfilmantenna.sbs
 lordfilmaoa.icu
 lordfilmapa.icu
 lordfilmapl.icu
@@ -1016964,6 +1016967,8 @@ lucky-bear-9805.buzz
 lucky-bear-996.cyou
 lucky-bear-ath.buzz
 lucky-bear-casino.bond
+lucky-bear-casino.cfd
+lucky-bear-casino.sbs
 lucky-bear-casino0855.cfd
 lucky-bear-casino118.cfd
 lucky-bear-casino163.cfd
@@ -1017343,6 +1017348,8 @@ luckybear-casino.cfd
 luckybear-casino.sbs
 luckybear-club.icu
 luckybear-game.sbs
+luckybear-kasino.cfd
+luckybear-kasino.sbs
 luckybear-rus.icu
 luckybear.buzz
 luckybear.cfd
@@ -1656298,6 +1656305,7 @@ txtrtfy.cyou
 txtsck.bond
 txtsr.sbs
 txttb.buzz
+txtv-app.sbs
 txtvgpv.bond
 txtvpfo.cyou
 txtwy1.sbs
@@ -1761213,6 +1761221,7 @@ wealthcast.icu
 wealthchoice.sbs
 wealthcode.icu
 wealthcompass.cfd
+wealthcompass.sbs
 wealthdecohome.qpon
 wealthdrive.cfd
 wealthdrivecapital.cfd
