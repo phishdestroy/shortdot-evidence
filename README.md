@@ -57,10 +57,10 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 629,037 | 325,633 (51.8%) | 303,404 | 0 | — | $408,874 |
+| `.icu` | 629,037 | 325,633 (51.8%) | 303,404 | 3 | — | $408,874 |
 | `.bond` | 1,193,820 | 302,224 (25.3%) | 891,596 | 0 | — | $7,759,830 |
 | `.cyou` | 597,722 | 270,154 (45.2%) | 327,568 | 0 | — | $388,519 |
-| `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 0 | — | $735,990 |
+| `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 1 | — | $735,990 |
 | `.cfd` | 719,467 | 302,460 (42.0%) | 417,007 | 1 | — | $467,654 |
 | `.buzz` | 289,803 | 200,072 (69.0%) | 89,731 | 0 | — | $941,860 |
 | `.qpon` | 72,399 | 37,631 (52.0%) | 34,768 | 0 | — | $180,998 |
@@ -70,20 +70,23 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████          6 (75.0%)
-JP  ███░░░░░░░░░░░░░░░          1 (12.5%)
-CN  ███░░░░░░░░░░░░░░░          1 (12.5%)
+US  ██████████████████         54 (90.0%)
+NL  ░░░░░░░░░░░░░░░░░░          2 (3.3%)
+JP  ░░░░░░░░░░░░░░░░░░          1 (1.7%)
+MD  ░░░░░░░░░░░░░░░░░░          1 (1.7%)
+CN  ░░░░░░░░░░░░░░░░░░          1 (1.7%)
+DE  ░░░░░░░░░░░░░░░░░░          1 (1.7%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-11-24` | 3,837 | **1.0×** |
+| `2026-11-24` | 11,014 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`dia (20)` &middot; `hop (11)` &middot; `spotify (8)` &middot; `bonus (4)` &middot; `service (4)` &middot; `auth (4)` &middot; `hyperliquid (3)` &middot; `join (3)` &middot; `nft (3)` &middot; `seed (3)` &middot; `account (3)` &middot; `maple (3)` &middot; `official (2)` &middot; `portal (2)` &middot; `invest (2)`
+`dia (44)` &middot; `hop (25)` &middot; `alert (16)` &middot; `bonus (15)` &middot; `crypto (14)` &middot; `service (13)` &middot; `capital (13)` &middot; `portal (12)` &middot; `neo (11)` &middot; `connect (10)` &middot; `trading (10)` &middot; `auth (10)` &middot; `sui (9)` &middot; `spotify (8)` &middot; `access (8)`
 
 ### 📥 Download Threat Intelligence
 
