@@ -37,7 +37,7 @@ They were meant to be <i>counted.</i><br/>
 <p align="center"><img src="assets/readme-polish/divider.svg" width="100%" alt="" /></p>
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-23`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-24`
 
 <table align="center"><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><strong>4,634,540</strong></td>
@@ -60,8 +60,8 @@ They were meant to be <i>counted.</i><br/>
 | `.icu` | 629,037 | 325,633 (51.8%) | 303,404 | 0 | — | $408,874 |
 | `.bond` | 1,193,820 | 302,224 (25.3%) | 891,596 | 0 | — | $7,759,830 |
 | `.cyou` | 597,722 | 270,154 (45.2%) | 327,568 | 0 | — | $388,519 |
-| `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 1 | — | $735,990 |
-| `.cfd` | 719,467 | 302,460 (42.0%) | 417,007 | 0 | — | $467,654 |
+| `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 0 | — | $735,990 |
+| `.cfd` | 719,467 | 302,460 (42.0%) | 417,007 | 1 | — | $467,654 |
 | `.buzz` | 289,803 | 200,072 (69.0%) | 89,731 | 0 | — | $941,860 |
 | `.qpon` | 72,399 | 37,631 (52.0%) | 34,768 | 0 | — | $180,998 |
 
@@ -70,21 +70,20 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-BG  ██████████████████          6 (54.5%)
-US  █████████░░░░░░░░░          3 (27.3%)
-DE  ███░░░░░░░░░░░░░░░          1 (9.1%)
-NL  ███░░░░░░░░░░░░░░░          1 (9.1%)
+US  ██████████████████          6 (75.0%)
+JP  ███░░░░░░░░░░░░░░░          1 (12.5%)
+CN  ███░░░░░░░░░░░░░░░          1 (12.5%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-11-23` | 4,534 | **1.0×** |
+| `2026-11-24` | 3,837 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`bonus (15)` &middot; `dia (14)` &middot; `official (12)` &middot; `hop (9)` &middot; `capital (9)` &middot; `login (6)` &middot; `auth (6)` &middot; `service (6)` &middot; `tron (6)` &middot; `transak (5)` &middot; `sui (5)` &middot; `neo (4)` &middot; `maple (4)` &middot; `bank (3)` &middot; `xrp (3)`
+`dia (20)` &middot; `hop (11)` &middot; `spotify (8)` &middot; `bonus (4)` &middot; `service (4)` &middot; `auth (4)` &middot; `join (3)` &middot; `nft (3)` &middot; `seed (3)` &middot; `account (3)` &middot; `hyperliquid (3)` &middot; `maple (3)` &middot; `portal (2)` &middot; `neo (2)` &middot; `quest (2)`
 
 ### 📥 Download Threat Intelligence
 

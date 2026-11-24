@@ -710,6 +710,13 @@
       "revenue_wholesale": 6269.35,
       "icann_fees": 1133.5,
       "path": "data/new/2026/11/2026-11-23.txt"
+    },
+    {
+      "date": "2026-11-24",
+      "count": 3837,
+      "revenue_wholesale": 5999.3,
+      "icann_fees": 959.25,
+      "path": "data/new/2026/11/2026-11-24.txt"
     }
   ],
   "total_domains": 4634540,
@@ -821,7 +828,7 @@
   "pct_gt_1yr": 0,
   "pct_gt_2yr": 0,
   "catch_age_buckets": {
-    "same_day": 4534,
+    "same_day": 3837,
     "within_week": 0,
     "within_month": 0,
     "older": 0
@@ -830,42 +837,42 @@
   "fresh_pct": 100.0,
   "burst_days": [
     {
-      "date": "2026-11-23",
-      "count": 4534,
+      "date": "2026-11-24",
+      "count": 3837,
       "x_avg": 1.0
     }
   ],
   "brand_heatmap": {
-    "bonus": 15,
-    "dia": 14,
-    "official": 12,
-    "hop": 9,
-    "capital": 9,
-    "login": 6,
-    "auth": 6,
-    "service": 6,
-    "tron": 6,
-    "transak": 5,
-    "sui": 5,
-    "neo": 4,
-    "maple": 4,
-    "bank": 3,
-    "xrp": 3,
-    "citi": 3,
-    "stellar": 3,
-    "token": 3,
-    "gift": 2,
-    "join": 2,
-    "badger": 2,
-    "zoom": 2,
-    "apple": 2,
-    "atrix": 2,
-    "cosmos": 2,
-    "verify": 2,
-    "security": 2,
+    "dia": 20,
+    "hop": 11,
+    "spotify": 8,
+    "bonus": 4,
+    "service": 4,
+    "auth": 4,
+    "join": 3,
+    "nft": 3,
+    "seed": 3,
+    "account": 3,
+    "hyperliquid": 3,
+    "maple": 3,
     "portal": 2,
+    "neo": 2,
+    "quest": 2,
+    "login": 2,
     "dapp": 2,
-    "celer": 2
+    "bank": 2,
+    "invest": 2,
+    "access": 2,
+    "official": 2,
+    "gmx": 2,
+    "uber": 2,
+    "eos": 2,
+    "aurora": 2,
+    "hack": 1,
+    "transak": 1,
+    "confirm": 1,
+    "hbar": 1,
+    "ribbon": 1
   },
   "unranked_pct": 100.0,
   "ranked_count": 0,
@@ -874,5 +881,5 @@
   "legit_count": 0,
   "serial_email_count": 0,
   "legit_ratio_pct": 0.0,
-  "last_updated": "2026-11-23"
+  "last_updated": "2026-11-24"
 }
