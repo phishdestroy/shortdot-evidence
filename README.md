@@ -83,7 +83,7 @@ CN  ███░░░░░░░░░░░░░░░          1 (12.5%)
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`dia (20)` &middot; `hop (11)` &middot; `spotify (8)` &middot; `bonus (4)` &middot; `service (4)` &middot; `auth (4)` &middot; `join (3)` &middot; `nft (3)` &middot; `seed (3)` &middot; `account (3)` &middot; `hyperliquid (3)` &middot; `maple (3)` &middot; `portal (2)` &middot; `neo (2)` &middot; `quest (2)`
+`dia (20)` &middot; `hop (11)` &middot; `spotify (8)` &middot; `bonus (4)` &middot; `service (4)` &middot; `auth (4)` &middot; `hyperliquid (3)` &middot; `join (3)` &middot; `nft (3)` &middot; `seed (3)` &middot; `account (3)` &middot; `maple (3)` &middot; `official (2)` &middot; `portal (2)` &middot; `invest (2)`
 
 ### 📥 Download Threat Intelligence
 

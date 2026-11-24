@@ -64,6 +64,9 @@
       "auth-account-4frontcu.cfd",
       "authentication24.cfd"
     ],
+    "hyperliquid": [
+      "hyperliquid-xyz.cfd"
+    ],
     "join": [
       "gconference-join.icu",
       "join-meeting.sbs",
@@ -84,20 +87,40 @@
       "auth-account-4frontcu.cfd",
       "baseaccountancylimited.cfd"
     ],
-    "hyperliquid": [
-      "hyperliquid-xyz.cfd"
-    ],
     "maple": [
       "maplecrest.bond",
       "maplegrovebakery.cfd",
       "maplewoodstudio.cfd"
     ],
+    "official": [
+      "official-game-eu.icu",
+      "pinco-official.cyou"
+    ],
     "portal": [
       "guardportal638.icu"
+    ],
+    "invest": [
+      "societegeneralecorporateandinvestmentbankingsgcib.cfd",
+      "vektorinvestpro.icu"
     ],
     "neo": [
       "pl-jesienneoferty23513.sbs",
       "uicneo.icu"
+    ],
+    "eos": [
+      "truly6-eos68.cfd",
+      "xvideosi.icu"
+    ],
+    "gmx": [
+      "kumbangmx.bond"
+    ],
+    "bank": [
+      "khanbank.bond",
+      "societegeneralecorporateandinvestmentbankingsgcib.cfd"
+    ],
+    "uber": [
+      "hubertshi.sbs",
+      "uberpufen.cyou"
     ],
     "quest": [
       "questwise.sbs",
@@ -111,50 +134,27 @@
       "clouddappinsta320.icu",
       "redecanaishdapp.buzz"
     ],
-    "bank": [
-      "khanbank.bond",
-      "societegeneralecorporateandinvestmentbankingsgcib.cfd"
-    ],
-    "invest": [
-      "societegeneralecorporateandinvestmentbankingsgcib.cfd",
-      "vektorinvestpro.icu"
+    "aurora": [
+      "auroragust.cfd"
     ],
     "access": [
       "97160-access-auth.icu",
       "accessibleinc.icu"
     ],
-    "official": [
-      "official-game-eu.icu",
-      "pinco-official.cyou"
-    ],
-    "gmx": [
-      "kumbangmx.bond"
-    ],
-    "uber": [
-      "hubertshi.sbs",
-      "uberpufen.cyou"
-    ],
-    "eos": [
-      "truly6-eos68.cfd",
-      "xvideosi.icu"
-    ],
-    "aurora": [
-      "auroragust.cfd"
-    ],
-    "hack": [
-      "hackneypost.cfd"
-    ],
-    "transak": [
-      "transakcja918371512692581261.sbs"
-    ],
-    "confirm": [
-      "confirm0591857262.sbs"
-    ],
     "hbar": [
       "hbarton61.cfd"
     ],
-    "ribbon": [
-      "jribbon20.cfd"
+    "steam": [
+      "steamccummunity.icu"
+    ],
+    "sui": [
+      "suits-watch.sbs"
+    ],
+    "claim": [
+      "reclaimedresale.buzz"
+    ],
+    "etrade": [
+      "fxinlinetrade.sbs"
     ]
   }
 }
