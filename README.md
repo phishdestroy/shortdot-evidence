@@ -37,7 +37,7 @@ They were meant to be <i>counted.</i><br/>
 <p align="center"><img src="assets/readme-polish/divider.svg" width="100%" alt="" /></p>
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-24`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-25`
 
 <table align="center"><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><strong>4,634,540</strong></td>
@@ -61,7 +61,7 @@ They were meant to be <i>counted.</i><br/>
 | `.bond` | 1,193,820 | 302,224 (25.3%) | 891,596 | 0 | — | $7,759,830 |
 | `.cyou` | 597,722 | 270,154 (45.2%) | 327,568 | 0 | — | $388,519 |
 | `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 1 | — | $735,990 |
-| `.cfd` | 719,467 | 302,460 (42.0%) | 417,007 | 1 | — | $467,654 |
+| `.cfd` | 719,467 | 302,460 (42.0%) | 417,007 | 0 | — | $467,654 |
 | `.buzz` | 289,803 | 200,072 (69.0%) | 89,731 | 0 | — | $941,860 |
 | `.qpon` | 72,399 | 37,631 (52.0%) | 34,768 | 0 | — | $180,998 |
 
@@ -70,23 +70,21 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████         54 (90.0%)
-NL  ░░░░░░░░░░░░░░░░░░          2 (3.3%)
-JP  ░░░░░░░░░░░░░░░░░░          1 (1.7%)
-MD  ░░░░░░░░░░░░░░░░░░          1 (1.7%)
-CN  ░░░░░░░░░░░░░░░░░░          1 (1.7%)
-DE  ░░░░░░░░░░░░░░░░░░          1 (1.7%)
+US  ██████████████████         48 (92.3%)
+NL  ░░░░░░░░░░░░░░░░░░          2 (3.8%)
+MD  ░░░░░░░░░░░░░░░░░░          1 (1.9%)
+DE  ░░░░░░░░░░░░░░░░░░          1 (1.9%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-11-24` | 11,014 | **1.0×** |
+| `2026-11-25` | 7,177 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`dia (44)` &middot; `hop (25)` &middot; `alert (16)` &middot; `bonus (15)` &middot; `crypto (14)` &middot; `service (13)` &middot; `capital (13)` &middot; `portal (12)` &middot; `neo (11)` &middot; `connect (10)` &middot; `trading (10)` &middot; `auth (10)` &middot; `sui (9)` &middot; `spotify (8)` &middot; `access (8)`
+`dia (24)` &middot; `alert (16)` &middot; `hop (14)` &middot; `crypto (14)` &middot; `capital (13)` &middot; `bonus (11)` &middot; `connect (10)` &middot; `trading (10)` &middot; `portal (10)` &middot; `service (9)` &middot; `neo (9)` &middot; `sui (8)` &middot; `iron (7)` &middot; `access (6)` &middot; `web3 (6)`
 
 ### 📥 Download Threat Intelligence
 

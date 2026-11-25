@@ -1,78 +1,31 @@
 {
-  "generated": "2026-11-24",
+  "generated": "2026-11-25",
   "keywords": {
     "dia": [
-      "amdiagic.cfd",
       "ardian.cfd",
       "azmeridian.bond",
-      "ca-promediagmbh1.cfd",
       "canadiandivisions.icu",
       "chaodianduanju.icu",
       "chaodianmanju.icu",
       "dialed.buzz",
-      "diamodqk.bond",
-      "diamoduy.bond",
-      "diamodwf.bond",
-      "diandi.icu",
       "dianhub.cyou",
       "dianyxcpy.cfd",
       "dianzhongduanju.icu",
       "diaryledger.sbs",
-      "diatomacranes.cyou",
-      "encyklopediapl.sbs",
       "forsmannviridianaopun.cfd",
-      "fuckpedia.cyou",
       "gedianying.cfd",
       "guardianangelthrift.cyou",
       "icaromedia.cfd",
-      "idiakeerse.icu",
-      "indianstartup.sbs",
       "jokerdiamondpop.cfd",
       "judiangka.cfd",
-      "mojapedia.sbs",
       "mpiremedia.cfd",
       "nexus-media.icu",
-      "nl-promediagmbh1.cfd",
-      "polskapedia.sbs",
-      "promododiashop.sbs",
       "radiantstaers.sbs",
-      "shandian9.buzz",
-      "sport-media777.sbs",
       "sport-media888it.cfd",
-      "sport-mediaau.sbs",
       "sport-mediabe888.cfd",
       "sport-mediacz777.sbs",
-      "sport-medianl2.cfd",
-      "uk-promediagmbh1.cfd",
       "uk-promediagmbh2.cfd",
       "veridian.icu"
-    ],
-    "hop": [
-      "4acausethriftshop.cyou",
-      "arafatshop.cfd",
-      "arunvijayshop.sbs",
-      "bechuinhoshop.cfd",
-      "flowereshop.bond",
-      "gnshoppe.buzz",
-      "hasanshop.cfd",
-      "insshop.cfd",
-      "kobiroshop.cfd",
-      "miachorthopdcpo.cyou",
-      "mimishop.bond",
-      "missionthriftshop.sbs",
-      "neatrepeatsthriftshop.sbs",
-      "neharathorshop.cfd",
-      "pittarelloitshhop.sbs",
-      "promododiashop.sbs",
-      "retailshop.sbs",
-      "sabbirshop.cfd",
-      "savepriceshop.sbs",
-      "shopdeals.sbs",
-      "sohopost.cfd",
-      "temushop.cfd",
-      "temushop.sbs",
-      "theshops.sbs",
-      "zooplusshop-ro.sbs"
     ],
     "alert": [
       "advantagefcu-fraud-alert.sbs",
@@ -84,22 +37,21 @@
       "textalert-fraud-esl.cfd",
       "textalert1-fraud-esl.cfd"
     ],
-    "bonus": [
-      "1winbonusmistvale.icu",
-      "1winbonusnightbloom.bond",
-      "bcgamebonusgoldleaf.bond",
-      "bonusbasvurusayfasi12367123.sbs",
-      "bonusbasvurusayfasi1533232.sbs",
-      "bonusbasvurusayfasi3127523.sbs",
-      "bonusgewinner.sbs",
-      "bonuska.buzz",
-      "bonuska.cfd",
-      "bonuska.qpon",
-      "bonusnorske.sbs",
-      "denemebonusuverensiteler1.cfd",
-      "hollandbonus.sbs",
-      "plbonus.sbs",
-      "swedenbonus.sbs"
+    "hop": [
+      "arafatshop.cfd",
+      "bechuinhoshop.cfd",
+      "hasanshop.cfd",
+      "insshop.cfd",
+      "kobiroshop.cfd",
+      "miachorthopdcpo.cyou",
+      "neharathorshop.cfd",
+      "sabbirshop.cfd",
+      "savepriceshop.sbs",
+      "shopdeals.sbs",
+      "temushop.cfd",
+      "temushop.sbs",
+      "theshops.sbs",
+      "zooplusshop-ro.sbs"
     ],
     "crypto": [
       "1wincryptoironwood.icu",
@@ -117,21 +69,6 @@
       "winnacryptowillowbrook.icu",
       "winnacryptowindspire.icu"
     ],
-    "service": [
-      "carservice.cfd",
-      "dnsservice.icu",
-      "dryservice.cfd",
-      "mariservice.cfd",
-      "masterpropertyservicesusallc.buzz",
-      "masterspotlesscleaningservicellc.buzz",
-      "online-services.bond",
-      "online-services.buzz",
-      "online-services.icu",
-      "service-oauths.cfd",
-      "sodexobenefitsandrewardsservices.cfd",
-      "taxlatinomultiservices.icu",
-      "worldwideflightserviceswfs.cfd"
-    ],
     "capital": [
       "btgcapital.buzz",
       "capitaleratlr24.icu",
@@ -147,26 +84,18 @@
       "sociacapitaler.icu",
       "vesturecapital.cfd"
     ],
-    "portal": [
-      "docushare-verifportal.icu",
-      "frontdeskportal.icu",
-      "guardportal638.icu",
-      "magportal.sbs",
-      "portaldoc45820525.icu",
-      "reconnectportal.icu"
-    ],
-    "neo": [
-      "canvastambourineorbt.buzz",
-      "cattaneo.cyou",
-      "cattaneo.sbs",
-      "hiettbronwynneohu.cfd",
-      "neoix.cfd",
-      "neonland.cyou",
-      "neonsky.sbs",
-      "onlneorder8989126.cfd",
-      "pl-jesienneoferty23513.sbs",
-      "stellaneo.cfd",
-      "uicneo.icu"
+    "bonus": [
+      "1winbonusmistvale.icu",
+      "1winbonusnightbloom.bond",
+      "bcgamebonusgoldleaf.bond",
+      "bonusbasvurusayfasi12367123.sbs",
+      "bonusbasvurusayfasi3127523.sbs",
+      "bonusgewinner.sbs",
+      "bonusnorske.sbs",
+      "denemebonusuverensiteler1.cfd",
+      "hollandbonus.sbs",
+      "plbonus.sbs",
+      "swedenbonus.sbs"
     ],
     "connect": [
       "amenesesrealtyconnectusaxxx.icu",
@@ -192,17 +121,34 @@
       "whitfieldtrading.bond",
       "yellowstonetrading.buzz"
     ],
-    "auth": [
-      "97160-access-auth.icu",
-      "auth-account-4front.cfd",
-      "auth-account-4frontcu.cfd",
-      "authentication24.cfd",
-      "dk-authenticator183659.cyou",
-      "max-authorsite.sbs",
-      "oauth-websession.sbs",
-      "pl-authenticators24.sbs",
-      "service-oauths.cfd",
-      "webbapp-oauths.sbs"
+    "portal": [
+      "docushare-verifportal.icu",
+      "frontdeskportal.icu",
+      "magportal.sbs",
+      "portaldoc45820525.icu",
+      "reconnectportal.icu"
+    ],
+    "service": [
+      "carservice.cfd",
+      "dryservice.cfd",
+      "mariservice.cfd",
+      "masterpropertyservicesusallc.buzz",
+      "masterspotlesscleaningservicellc.buzz",
+      "online-services.bond",
+      "online-services.buzz",
+      "online-services.icu",
+      "service-oauths.cfd"
+    ],
+    "neo": [
+      "canvastambourineorbt.buzz",
+      "cattaneo.cyou",
+      "cattaneo.sbs",
+      "hiettbronwynneohu.cfd",
+      "neoix.cfd",
+      "neonland.cyou",
+      "neonsky.sbs",
+      "onlneorder8989126.cfd",
+      "stellaneo.cfd"
     ],
     "sui": [
       "confrmdleasesui.cyou",
@@ -212,28 +158,7 @@
       "hrjolesui.icu",
       "nxtrsellcpoasui.cyou",
       "rivanzasltnsuia.cyou",
-      "rivaosuppliesui.cyou",
-      "suits-watch.sbs"
-    ],
-    "spotify": [
-      "1spotifymexico.sbs",
-      "freespotify.bond",
-      "freespotify.icu",
-      "spotify-app.cfd",
-      "spotifybook.bond",
-      "spotifygames.cfd",
-      "spotifynetwork.sbs",
-      "topspotify.cfd"
-    ],
-    "access": [
-      "97160-access-auth.icu",
-      "accessdocinfo25.icu",
-      "accessibleinc.icu",
-      "checkmyjobaccess247.icu",
-      "newcentreserviccp0206ter-access.cfd",
-      "urbanaccessltd.cfd",
-      "xhaccess.icu",
-      "xhaccesss.icu"
+      "rivaosuppliesui.cyou"
     ],
     "iron": [
       "1wincryptoironwood.icu",
@@ -242,8 +167,15 @@
       "ironwoodhouse.cyou",
       "jackcoinironwood.icu",
       "velikaya-ironiya-lordfilm.cfd",
-      "winnacasinoironwood.icu",
-      "xaviron32.sbs"
+      "winnacasinoironwood.icu"
+    ],
+    "access": [
+      "accessdocinfo25.icu",
+      "checkmyjobaccess247.icu",
+      "newcentreserviccp0206ter-access.cfd",
+      "urbanaccessltd.cfd",
+      "xhaccess.icu",
+      "xhaccesss.icu"
     ],
     "web3": [
       "io-web3.sbs",
@@ -251,62 +183,15 @@
       "wallet-web3.sbs",
       "web3daduw.cyou",
       "web3daduw.icu",
-      "web3jdko.sbs",
       "web3jiasu.sbs"
     ],
-    "maple": [
-      "maplecrest.bond",
-      "maplecreststudio.icu",
-      "mapleflood.bond",
-      "maplegrovebakery.cfd",
-      "maplenow.cyou",
-      "maplewoodstudio.cfd"
-    ],
-    "secure": [
-      "ch-securepayment.icu",
-      "securedmonnow.sbs",
-      "securedocumenthubworkspacedrice.icu",
-      "securenavor.sbs",
-      "secureshield.sbs",
-      "soafsecure.icu"
-    ],
-    "ondo": [
-      "delondonia.sbs",
-      "londongot.sbs",
-      "usernymusseeticklondonpy.buzz",
-      "usernymusseeticklondonpy.cfd",
-      "usernymusseeticklondonpy.cyou",
-      "usernymusseeticklondonpy.sbs"
-    ],
-    "hyperliquid": [
-      "hyperliquid-xyz.cfd",
-      "hyperliquid.bond"
-    ],
-    "gmx": [
-      "bngmx.sbs",
-      "kumbangmx.bond",
-      "regmx.sbs"
-    ],
-    "join": [
-      "gconference-join.icu",
-      "invitejoinpartcfcf.icu",
-      "join-meeting.sbs",
-      "joinsessionnow.cfd",
-      "joinsessions.icu"
-    ],
-    "nft": [
-      "0nftc42l.cyou",
-      "d8qx5w3nft.cyou",
-      "rnfto.sbs",
-      "upnftffutg.buzz",
-      "upnftffutg.cfd"
-    ],
-    "dapp": [
-      "clouddappinsta320.icu",
-      "loadhighlyrenewedapplication.icu",
-      "redecanaishdapp.buzz",
-      "soldapp.cfd",
-      "soldapp.icu"
+    "auth": [
+      "dk-authenticator183659.cyou",
+      "max-authorsite.sbs",
+      "oauth-websession.sbs",
+      "pl-authenticators24.sbs",
+      "service-oauths.cfd",
+      "webbapp-oauths.sbs"
     ],
     "finance": [
       "finance-portfolio.sbs",
@@ -315,6 +200,20 @@
       "finance8.buzz",
       "finance9.buzz"
     ],
+    "secure": [
+      "securedmonnow.sbs",
+      "securedocumenthubworkspacedrice.icu",
+      "securenavor.sbs",
+      "secureshield.sbs",
+      "soafsecure.icu"
+    ],
+    "ondo": [
+      "delondonia.sbs",
+      "usernymusseeticklondonpy.buzz",
+      "usernymusseeticklondonpy.cfd",
+      "usernymusseeticklondonpy.cyou",
+      "usernymusseeticklondonpy.sbs"
+    ],
     "bayc": [
       "driftbayco.cfd",
       "irisbayco.cyou",
@@ -322,23 +221,52 @@
       "saffronbayco.cyou",
       "yarrowbayco.cfd"
     ],
+    "drift": [
+      "driftbayco.cfd",
+      "driftwoodoutfitters.bond"
+    ],
+    "manta": [
+      "gacormantap.sbs",
+      "slotmantap.cfd"
+    ],
+    "gmx": [
+      "bngmx.sbs",
+      "regmx.sbs"
+    ],
+    "rug": [
+      "drugie-proklyatie-kukushki-lordfilm.cfd",
+      "sarugibbonsoda.cfd",
+      "uruguaymiguelgana.icu"
+    ],
+    "dapp": [
+      "loadhighlyrenewedapplication.icu",
+      "soldapp.cfd",
+      "soldapp.icu"
+    ],
+    "stake": [
+      "1winstakegoldleaf.bond",
+      "finance-stake.sbs",
+      "mystakefr.icu"
+    ],
+    "token": [
+      "1wintoken.sbs",
+      "tokenii.cyou",
+      "tokeniza.cyou"
+    ],
+    "icon": [
+      "arkoniaquantaiconsult.buzz",
+      "arkoniaquantaiconsult.icu",
+      "arkoniaquantaiconsult.sbs"
+    ],
     "reward": [
       "jackrewardbrightfield.bond",
       "jackrewardclearbrook.icu",
-      "sodexobenefitsandrewardsservices.cfd",
       "winnarewardmistvale.icu"
     ],
     "confirm": [
       "confirm049287117.sbs",
       "confirm0591857259.sbs",
-      "confirm0591857262.sbs",
       "confirmoffer716080.cyou"
-    ],
-    "verify": [
-      "28151sm-verify.sbs",
-      "form-verify.cfd",
-      "verify13238.cfd",
-      "webmmail-chachstroge-verify.sbs"
     ]
   }
 }
