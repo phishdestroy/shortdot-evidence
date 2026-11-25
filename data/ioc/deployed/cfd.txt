@@ -248787,6 +248787,7 @@ secure-inbox.cfd
 secure-login.cfd
 secure-maps.cfd
 secure-now-4front.cfd
+secure-payment.cfd
 secure-spv.cfd
 secure-trns13590.cfd
 secure-vendors-checkout.cfd
