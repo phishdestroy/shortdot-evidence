@@ -1,5 +1,56 @@
 {
   "generated": "2026-11-26",
-  "count": 0,
-  "ips": []
+  "count": 4,
+  "ips": [
+    {
+      "ip": "188.114.97.3",
+      "count": 9,
+      "country": "",
+      "domains": [
+        "athleticprovibe.cyou",
+        "focusedathletehub.cyou",
+        "provenathletespace.cyou",
+        "purecompete.cyou",
+        "purityathletics.cyou",
+        "smontimouse.icu",
+        "sovereignstyle.sbs",
+        "trustedeventsphere.cyou",
+        "trustintechspace.cyou"
+      ]
+    },
+    {
+      "ip": "107.191.112.169",
+      "count": 7,
+      "country": "US",
+      "domains": [
+        "cckup.sbs",
+        "crosa.sbs",
+        "mdedc.sbs",
+        "mxaoy.sbs",
+        "sdzte.sbs",
+        "ycycy.sbs",
+        "yxbot.sbs"
+      ]
+    },
+    {
+      "ip": "188.114.96.3",
+      "count": 3,
+      "country": "",
+      "domains": [
+        "competesavvy.cyou",
+        "protechpioneers.cyou",
+        "rnissecure.icu"
+      ]
+    },
+    {
+      "ip": "207.207.210.107",
+      "count": 3,
+      "country": "US",
+      "domains": [
+        "jobs-uk.buzz",
+        "onlineislemlertoki.sbs",
+        "taleponlinebasvuru.sbs"
+      ]
+    }
+  ]
 }
