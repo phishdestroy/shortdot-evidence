@@ -37,7 +37,7 @@ They were meant to be <i>counted.</i><br/>
 <p align="center"><img src="assets/readme-polish/divider.svg" width="100%" alt="" /></p>
 <!-- LIVE_STATS:START -->
 
-> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-27`
+> 🔴 **LIVE INVESTIGATION FEED** &middot; Auto-updated &middot; Last fetch `2026-11-28`
 
 <table align="center"><tr>
 <td align="center"><b>📦 Domains tracked</b><br/><strong>4,634,540</strong></td>
@@ -57,10 +57,10 @@ They were meant to be <i>counted.</i><br/>
 
 | TLD | Domains | Active | No IP (dead) | Confirmed Malicious | Verified Legit | Est. Revenue |
 |:--|--:|--:|--:|--:|--:|--:|
-| `.icu` | 629,037 | 325,633 (51.8%) | 303,404 | 2 | — | $408,874 |
+| `.icu` | 629,037 | 325,633 (51.8%) | 303,404 | 0 | — | $408,874 |
 | `.bond` | 1,193,820 | 302,224 (25.3%) | 891,596 | 1 | — | $7,759,830 |
 | `.cyou` | 597,722 | 270,154 (45.2%) | 327,568 | 0 | — | $388,519 |
-| `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 23 | — | $735,990 |
+| `.sbs` | 1,132,292 | 473,354 (41.8%) | 658,938 | 20 | — | $735,990 |
 | `.cfd` | 719,467 | 302,460 (42.0%) | 417,007 | 2 | — | $467,654 |
 | `.buzz` | 289,803 | 200,072 (69.0%) | 89,731 | 0 | — | $941,860 |
 | `.qpon` | 72,399 | 37,631 (52.0%) | 34,768 | 0 | — | $180,998 |
@@ -70,20 +70,19 @@ They were meant to be <i>counted.</i><br/>
 ### 🌍 Top Hosting Countries
 
 ```
-US  ██████████████████         15 (88.2%)
-SG  █░░░░░░░░░░░░░░░░░          1 (5.9%)
-DE  █░░░░░░░░░░░░░░░░░          1 (5.9%)
+US  ██████████████████          3 (75.0%)
+SG  ██████░░░░░░░░░░░░          1 (25.0%)
 ```
 
 ### 📈 Registration Burst Days
 
 | Date | Domains | × Average |
 |:--|--:|--:|
-| `2026-11-27` | 16,878 | **1.0×** |
+| `2026-11-28` | 10,018 | **1.0×** |
 
 ### 🎯 Top Targeted Brands & Keywords
 
-`dia (107)` &middot; `support (32)` &middot; `hop (27)` &middot; `eos (26)` &middot; `neo (24)` &middot; `portal (20)` &middot; `maple (18)` &middot; `tron (18)` &middot; `bank (17)` &middot; `sui (16)` &middot; `service (16)` &middot; `trading (15)` &middot; `bofa (12)` &middot; `rug (12)` &middot; `bonus (12)`
+`dia (90)` &middot; `hop (18)` &middot; `neo (17)` &middot; `bank (16)` &middot; `maple (14)` &middot; `tron (14)` &middot; `bofa (12)` &middot; `eos (12)` &middot; `sui (11)` &middot; `service (9)` &middot; `portal (8)` &middot; `near (8)` &middot; `official (7)` &middot; `base (7)` &middot; `rug (7)`
 
 ### 📥 Download Threat Intelligence
 
